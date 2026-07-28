@@ -303,7 +303,7 @@
     .sidebar{display:none;}
     .main{width:100%;margin:0;flex-direction:column-reverse;}
     .topbar{display:none;}
-    .mob-quote{display:block;}
+    .mob-quote.visible{display:block;}
     .content{padding:0 14px 48px;}
     .view-sub{display:none;}
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:6px;}
@@ -603,9 +603,15 @@ function renderQuote(){
     DB.quoteIdx=(DB.quoteIdx+1)%QUOTES.length; save(DB); renderQuote();
   };
 }
+/* 手机端金句栏：仅主页显示，进模块/总览时隐藏 */
+function showMobQuote(show){
+  const el=document.getElementById('mobQuoteBar');
+  if(el) el.classList.toggle('visible', !!show);
+}
 
 /* ============ 主页（桌面总览） ============ */
 function renderHome(){
+  showMobQuote(true);
   const t=todayStr();
   const checkable = MODULES.filter(m=>!m.noCheckin);
   let done=0;
@@ -910,6 +916,7 @@ function getTodayEntry(id){
   return {m, e:arr[idx], idx, total:arr.length};
 }
 function renderOverview(){
+  showMobQuote(false);
   const t=todayStr();
   const checkable=MODULES.filter(m=>!m.noCheckin && m.id!=='overview');
   let done=0; checkable.forEach(m=>{ if(getMod(m.id).checkins[t]) done++; });
@@ -965,6 +972,7 @@ function renderOverview(){
   const mb=document.getElementById('mobBack'); if(mb) mb.onclick=()=>renderHome();
 }
 function openModule(id){
+  showMobQuote(false);
   if(id==='overview'){ renderOverview(); return; }
   document.querySelectorAll('.nav-item').forEach(el=>el.classList.toggle('active',el.dataset.id===id));
   const m=MODULES.find(x=>x.id===id);
