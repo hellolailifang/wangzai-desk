@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="旺仔台" />
+<meta name="theme-color" content="#0a3d62" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="assets/luffy.png" />
+<title>旺仔的工作台</title>
+<style>
+  :root{
+    --ocean-deep:#0a3d62;
+    --ocean:#1b6ca8;
+    --ocean-light:#48cae4;
+    --sky:#90e0ef;
+    --foam:#caf0f8;
+    --bg1:#eaf6ff;
+    --bg2:#d4ecfb;
+    --card:#ffffff;
+    --ink:#0a3d62;
+    --ink-soft:#3d6b8a;
+    --gold:#f6c453;
+    --shadow:0 8px 24px rgba(10,61,98,.12);
+    --shadow-sm:0 3px 10px rgba(10,61,98,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(135deg,var(--bg1),var(--bg2));
+    color:var(--ink);
+    display:flex;
+    min-height:100vh;
+    overflow:hidden;
+  }
+  /* ===== Sidebar ===== */
+  .sidebar{
+    width:200px;
+    flex:0 0 200px;
+    background:linear-gradient(180deg,var(--ocean-deep),var(--ocean));
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    padding:18px 10px 14px;
+    overflow-y:auto;
+    box-shadow:4px 0 18px rgba(10,61,98,.25);
+  }
+  .brand{
+    display:flex;align-items:center;gap:9px;
+    padding:6px 8px 14px;
+    border-bottom:1px solid rgba(255,255,255,.18);
+    margin-bottom:10px;
+  }
+  .brand .logo{width:34px;height:34px;flex:0 0 34px;}
+  .brand .title{font-size:15px;font-weight:700;line-height:1.25;letter-spacing:.5px;}
+  .brand .title small{display:block;font-size:10px;font-weight:400;opacity:.75;letter-spacing:1px;}
+  .nav{display:flex;flex-direction:column;gap:4px;}
+  .nav-item{
+    display:flex;align-items:center;gap:10px;
+    padding:9px 10px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.18s;
+    color:rgba(255,255,255,.88);
+    font-size:13.5px;
+    user-select:none;
+  }
+  .nav-item .av{width:30px;height:30px;flex:0 0 30px;border-radius:50%;overflow:hidden;background:rgba(255,255,255,.12);}
+  .nav-item .av svg{display:block;width:100%;height:100%;}
+  .nav-item .dot{margin-left:auto;width:8px;height:8px;border-radius:50%;background:transparent;transition:.18s;}
+  .nav-item:hover{background:rgba(255,255,255,.12);}
+  .nav-item.active{background:rgba(255,255,255,.18);color:#fff;box-shadow:inset 3px 0 0 var(--gold);}
+  .nav-item.active .dot{background:var(--gold);box-shadow:0 0 8px var(--gold);}
+  .sidebar-foot{margin-top:auto;padding:10px 8px 2px;font-size:10.5px;opacity:.6;line-height:1.5;border-top:1px solid rgba(255,255,255,.15);}
+
+  /* 拖拽排序 */
+  .nav-item.dragging{opacity:.4;}
+  .nav-item.drag-over{box-shadow:inset 0 3px 0 var(--gold);}
+  body.sorting .nav-item{animation:navWiggle .45s infinite;}
+  body.sorting .nav-item.dragging{animation:none;opacity:.5;}
+  @keyframes navWiggle{0%,100%{transform:translateX(0)}25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
+  .drag-h{display:none;color:rgba(255,255,255,.45);font-size:16px;margin-left:-4px;cursor:grab;}
+  .char-av-svg{display:block;width:100%;height:100%;}
+  .char-av-svg svg{width:100%;height:100%;display:block;}
+
+  /* 总览模块 */
+  .ov-list{display:flex;flex-direction:column;gap:12px;margin-top:8px;}
+  .ov-card{display:flex;align-items:center;gap:14px;background:var(--card);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow-sm);cursor:pointer;transition:.18s;border:2px solid transparent;}
+  .ov-card:hover{border-color:var(--ocean-light);transform:translateY(-2px);box-shadow:var(--shadow);}
+  .ov-card .av{width:44px;height:44px;flex:0 0 44px;border-radius:50%;overflow:hidden;background:rgba(10,61,98,.08);}
+  .ov-info{flex:1;min-width:0;}
+  .ov-nm{font-size:14.5px;font-weight:800;color:var(--ocean-deep);}
+  .ov-tt{font-size:13px;color:#22455e;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ov-sum{font-size:11.5px;color:var(--ink-soft);margin-top:2px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .ov-card .mini-check{flex:0 0 auto;}
+
+  /* ===== Main ===== */
+  .main{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+  .topbar{
+    display:flex;align-items:center;gap:18px;
+    padding:16px 26px;
+    background:rgba(255,255,255,.7);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid rgba(10,61,98,.08);
+    box-shadow:var(--shadow-sm);
+    z-index:5;
+  }
+  .clock-wrap{display:flex;flex-direction:column;line-height:1.1;}
+  .clock{font-size:30px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--ocean-deep);letter-spacing:1px;}
+  .clock .sec{font-size:18px;color:var(--ocean);}
+  .date{font-size:12.5px;color:var(--ink-soft);margin-top:2px;}
+  .quote{
+    flex:1;margin:0 6px;padding:8px 16px;border-left:3px solid var(--ocean-light);
+    background:linear-gradient(90deg,rgba(144,224,239,.18),transparent);
+    border-radius:0 12px 12px 0;
+  }
+  .quote .zh{font-size:15px;font-weight:700;color:var(--ocean-deep);}
+  .quote .en{font-size:12px;color:var(--ink-soft);margin-top:2px;font-style:italic;}
+  .quote .refresh{cursor:pointer;font-size:11px;color:var(--ocean);margin-left:8px;text-decoration:underline;}
+
+  .content{flex:1;overflow-y:auto;padding:24px 26px 40px;}
+  .view-title{font-size:20px;font-weight:800;color:var(--ocean-deep);margin-bottom:4px;display:flex;align-items:center;gap:10px;}
+  .view-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+
+  /* Home grid */
+  .progress-ring-wrap{display:flex;align-items:center;gap:18px;background:var(--card);border-radius:18px;padding:18px 22px;box-shadow:var(--shadow);margin-bottom:22px;}
+  .ring{position:relative;width:96px;height:96px;flex:0 0 96px;}
+  .ring svg{transform:rotate(-90deg);}
+  .ring .num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-weight:800;color:var(--ocean-deep);}
+  .ring .num b{font-size:24px;}
+  .ring .num span{font-size:11px;color:var(--ink-soft);}
+  .progress-meta{flex:1;}
+  .progress-meta h3{font-size:16px;color:var(--ocean-deep);margin-bottom:4px;}
+  .progress-meta p{font-size:12.5px;color:var(--ink-soft);}
+  .ghost-btn{margin-left:auto;background:rgba(27,108,168,.1);border:1px solid var(--ocean-light);color:var(--ocean);padding:8px 14px;border-radius:10px;font-size:12.5px;cursor:pointer;transition:.15s;white-space:nowrap;}
+  .ghost-btn:hover{background:var(--ocean);color:#fff;}
+
+  .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;}
+  .mini-card{
+    background:var(--card);border-radius:16px;padding:14px;box-shadow:var(--shadow-sm);
+    display:flex;gap:12px;align-items:center;cursor:pointer;transition:.18s;border:2px solid transparent;
+  }
+  .mini-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--sky);}
+  .mini-card .av{width:46px;height:46px;flex:0 0 46px;border-radius:50%;overflow:hidden;}
+  .mini-card .av svg{width:100%;height:100%;display:block;}
+  .mini-card .info{flex:1;min-width:0;}
+  .mini-card .info .nm{font-size:14px;font-weight:700;color:var(--ocean-deep);}
+  .mini-card .info .st{font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
+  .mini-check{
+    width:30px;height:30px;flex:0 0 30px;border-radius:50%;border:2px solid var(--ocean-light);
+    display:flex;align-items:center;justify-content:center;color:var(--ocean-light);font-size:16px;transition:.15s;background:#fff;
+  }
+  .mini-card.done .mini-check{background:var(--ocean);border-color:var(--ocean);color:#fff;}
+  .mini-card.done{background:linear-gradient(135deg,#fff,rgba(144,224,239,.25));}
+
+  /* Module detail */
+  .detail-head{display:flex;align-items:center;gap:16px;margin-bottom:20px;}
+  .detail-head .bigav{width:64px;height:64px;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm);background:#fff;}
+  .detail-head .bigav svg{width:100%;height:100%;display:block;}
+  .detail-head h2{font-size:22px;color:var(--ocean-deep);}
+  .detail-head p{font-size:12.5px;color:var(--ink-soft);margin-top:3px;}
+
+  .panel-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:18px;}
+  .panel{background:var(--card);border-radius:16px;padding:18px;box-shadow:var(--shadow-sm);flex:1;min-width:240px;}
+  .panel h4{font-size:13px;color:var(--ink-soft);margin-bottom:10px;font-weight:700;letter-spacing:.5px;}
+  .big-num{font-size:38px;font-weight:800;color:var(--ocean);line-height:1;}
+  .big-num small{font-size:14px;color:var(--ink-soft);font-weight:600;margin-left:4px;}
+  .streak{font-size:13px;color:var(--ocean-deep);margin-top:8px;}
+
+  .checkin-btn{
+    display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--ocean),var(--ocean-light));
+    color:#fff;border:none;padding:11px 20px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;transition:.15s;
+    box-shadow:0 6px 14px rgba(27,108,168,.3);
+  }
+  .checkin-btn:hover{transform:translateY(-2px);}
+  .checkin-btn.done{background:linear-gradient(135deg,#57cc99,#80ed99);box-shadow:0 6px 14px rgba(87,204,153,.3);}
+
+  .log-row{display:flex;gap:10px;margin-top:6px;align-items:center;}
+  .log-row input{
+    flex:1;padding:10px 12px;border:1.5px solid var(--sky);border-radius:10px;font-size:14px;outline:none;color:var(--ink);
+    background:#f7fcff;
+  }
+  .log-row input:focus{border-color:var(--ocean-light);}
+  .log-row .add{background:var(--ocean);color:#fff;border:none;padding:10px 16px;border-radius:10px;font-size:13.5px;cursor:pointer;font-weight:700;}
+
+  .mode-toggle{display:inline-flex;background:var(--foam);border-radius:10px;padding:3px;margin-top:4px;}
+  .mode-toggle button{border:none;background:transparent;padding:7px 14px;border-radius:8px;font-size:12.5px;cursor:pointer;color:var(--ink-soft);font-weight:700;}
+  .mode-toggle button.on{background:#fff;color:var(--ocean);box-shadow:var(--shadow-sm);}
+
+  .history{display:flex;align-items:flex-end;gap:8px;height:120px;padding-top:10px;}
+  .hbar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;}
+  .hbar .bar{width:70%;background:linear-gradient(180deg,var(--ocean-light),var(--ocean));border-radius:6px 6px 0 0;min-height:3px;transition:.3s;}
+  .hbar .day{font-size:10px;color:var(--ink-soft);margin-top:5px;}
+  .hbar .val{font-size:10px;color:var(--ocean-deep);font-weight:700;margin-bottom:2px;}
+  .empty-hint{font-size:12px;color:var(--ink-soft);padding:20px 0;text-align:center;}
+
+  .reset-today{background:rgba(239,131,84,.12);border:1px solid #ef8354;color:#d9540d;padding:8px 14px;border-radius:10px;font-size:12.5px;cursor:pointer;transition:.15s;margin-top:4px;}
+  .reset-today:hover{background:#ef8354;color:#fff;}
+
+  .saved-tip{position:fixed;bottom:18px;right:18px;background:var(--ocean-deep);color:#fff;padding:9px 16px;border-radius:12px;font-size:12.5px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.3s;pointer-events:none;z-index:50;}
+  .saved-tip.show{opacity:1;transform:translateY(0);}
+
+  ::-webkit-scrollbar{width:9px;height:9px;}
+  ::-webkit-scrollbar-thumb{background:rgba(27,108,168,.3);border-radius:6px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+
+  /* ===== 中英对照：英文小一号、柔和 ===== */
+  .en-sm{font-size:.74em;font-weight:400;opacity:.6;margin-left:5px;letter-spacing:.2px;white-space:nowrap;font-style:normal;}
+
+  /* ===== 今日内容面板 ===== */
+  .content-today{margin-top:18px;border:1px solid rgba(72,202,228,.5);background:linear-gradient(180deg,#f4fbff,#eef8ff);}
+  .ct-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
+  .ct-head h4{font-size:15px;color:var(--ocean-deep);}
+  .ct-badge{font-size:11px;color:var(--ocean);background:rgba(72,202,228,.16);padding:3px 10px;border-radius:20px;white-space:nowrap;}
+  .ct-title{font-size:16px;font-weight:800;color:var(--ocean-deep);margin:2px 0 12px;padding-left:10px;border-left:3px solid var(--gold);}
+  .ct-block{background:#fff;border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
+  .ct-h{font-size:13px;font-weight:700;color:var(--ocean);margin-bottom:5px;}
+  .ct-body{font-size:13px;line-height:1.7;color:#2b4a63;}
+  .ct-body p{margin:0 0 7px;}
+  .ct-body p:last-child{margin-bottom:0;}
+  .ct-body ul{margin:0 0 4px;padding-left:20px;}
+  .ct-body li{margin:2px 0;}
+  .ct-body .ph{background:#f1f8fc;border-left:3px solid var(--ocean-light);padding:9px 12px;border-radius:0 10px 10px 0;font-size:12.5px;line-height:1.75;color:#22455e;}
+  .ct-body .ph br{margin-bottom:3px;}
+  /* 更新时间 / 实时徽章 / 换一批 */
+  .ct-sub{font-size:11.5px;color:#5b87a3;margin:-4px 0 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .ct-refresh{cursor:pointer;color:#fff;background:var(--ocean);padding:2px 10px;border-radius:20px;font-weight:700;user-select:none;transition:.15s;}
+  .ct-refresh:hover{background:var(--ocean-deep);}
+  .ct-badge.live{background:#ffe3e3;color:#d6336c;border:1px solid #ffc9c9;}
+
+  /* 实时新闻列表 */
+  .news-list{display:flex;flex-direction:column;gap:8px;}
+  .news-item{display:block;background:#fff;border:1px solid rgba(72,202,228,.35);border-radius:10px;padding:9px 12px;text-decoration:none;transition:.15s;}
+  .news-item:hover{border-color:var(--ocean);box-shadow:var(--shadow-sm);transform:translateX(2px);}
+  .news-item .nt{font-size:13px;font-weight:700;color:var(--ocean-deep);line-height:1.4;}
+  .news-item .nm{font-size:11px;color:#7a9bb0;margin-top:3px;}
+
+  /* ===== 英语 听/说/单词 练习 ===== */
+  .en-practice{margin-top:14px;display:flex;flex-direction:column;gap:14px;}
+  .en-sec{background:#fff;border-radius:14px;padding:14px 16px;box-shadow:var(--shadow-sm);border:1px solid rgba(72,202,228,.25);}
+  .en-sec-h{font-size:14px;font-weight:800;color:var(--ocean-deep);display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;}
+  .en-sub{font-size:11px;font-weight:500;color:#7a97ab;}
+  .mini-btn{margin-left:auto;border:none;background:rgba(72,202,228,.16);color:var(--ocean-deep);font-size:12px;padding:5px 12px;border-radius:20px;cursor:pointer;font-weight:700;transition:.15s;}
+  .mini-btn:hover{background:rgba(72,202,228,.32);}
+  .en-lines{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;}
+  .en-line{display:flex;align-items:flex-start;gap:9px;font-size:13.5px;line-height:1.55;padding:7px 9px;border-radius:9px;transition:.15s;}
+  .en-line.playing{background:rgba(72,202,228,.14);}
+  .en-role{font-weight:800;color:var(--ocean);min-width:22px;}
+  .en-txt{color:#22455e;}
+  .spk{border:none;background:#eaf6ff;color:var(--ocean-deep);width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:13px;flex:none;transition:.15s;}
+  .spk:hover{background:var(--ocean);color:#fff;}
+  .en-target{font-size:13.5px;color:#22455e;background:#f1f8fc;border-radius:10px;padding:10px 12px;margin-bottom:10px;line-height:1.6;}
+  .en-target b{color:var(--ocean-deep);}
+  .mic-btn{display:block;width:100%;border:none;background:linear-gradient(135deg,var(--ocean),var(--ocean-light));color:#fff;font-size:15px;font-weight:800;padding:13px;border-radius:12px;cursor:pointer;box-shadow:var(--shadow-sm);transition:.15s;letter-spacing:1px;}
+  .mic-btn:hover{filter:brightness(1.06);}
+  .mic-btn.recording{background:linear-gradient(135deg,#e63946,#ff7a85);animation:pulse 1.1s infinite;}
+  @keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.03);}100%{transform:scale(1);}}
+  .en-spk-result{margin-top:10px;font-size:13px;line-height:1.7;color:#22455e;min-height:20px;}
+  .en-spk-result .tip{color:var(--ocean);font-weight:700;}
+  .en-words{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:9px;}
+  .word-card{background:#f7fbff;border:1px solid rgba(72,202,228,.3);border-radius:11px;padding:10px 11px;}
+  .wc-top{display:flex;align-items:center;gap:7px;}
+  .wc-w{font-weight:800;color:var(--ocean-deep);font-size:13.5px;}
+  .wc-ph{font-size:11px;color:#7a97ab;font-style:italic;}
+  .wc-zh{margin-top:5px;font-size:12.5px;color:#3a5a72;}
+  .en-note{font-size:11.5px;color:#7a97ab;background:rgba(72,202,228,.1);border-radius:10px;padding:9px 12px;line-height:1.6;}
+  .en-note b{color:var(--ocean-deep);}
+
+  /* ===== 外贸企业推荐卡片 ===== */
+  .co{background:#fff;border:1px solid rgba(72,202,228,.3);border-left:4px solid var(--ocean-light);border-radius:11px;padding:11px 13px;margin-bottom:10px;box-shadow:var(--shadow-sm);}
+  .co:last-child{margin-bottom:0;}
+  .co-h{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+  .co-h b{font-size:14px;color:var(--ocean-deep);}
+  .co-t{font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:20px;letter-spacing:.5px;}
+  .co-t.sm{background:rgba(127,176,105,.22);color:#3f7d2f;}
+  .co-t.hd{background:rgba(230,57,70,.16);color:#c1121f;}
+  .co-r{font-size:12.5px;line-height:1.65;color:#2b4a63;}
+  .co-r:first-of-type{margin-top:2px;}
+
+  /* 手机端返回栏（仅窄屏显示） */
+  .mob-back{display:none;align-items:center;gap:6px;padding:12px 14px;color:#1b6ca8;font-weight:600;font-size:15px;cursor:pointer;background:#eaf6fb;border-bottom:1px solid rgba(27,108,168,.15);position:sticky;top:0;z-index:6;}
+  .mob-back .arrow{font-size:22px;line-height:1;margin-top:-2px;}
+
+  @media(max-width:720px){
+    .sidebar{display:none;}
+    .main{width:100%;margin:0;}
+    .topbar{display:none;}
+    .content{padding:max(env(safe-area-inset-top), 0px) 14px 48px;}
+    .view-sub{display:none;}
+    .card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:6px;}
+    .mini-card{flex-direction:column;align-items:center;text-align:center;padding:16px 6px;gap:7px;position:relative;}
+    .mini-card .info{align-items:center;}
+    .mini-card .st{font-size:11px;opacity:.72;}
+    .mini-card .mini-check{position:absolute;top:8px;right:8px;}
+    .mob-back{display:flex;}
+  }
+</style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="logo" id="brandLogo"></span>
+      <span class="title">旺仔的工作台<small>WANGZAI'S DESK</small></span>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar-foot">所有数据本地留存于本机浏览器<span class="en-sm">All data stored locally</span><br/>⚓ 每日清零 / 累积 自由切换<span class="en-sm">Daily reset / Cumulative</span></div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <div class="clock-wrap">
+        <div class="clock" id="clock">--:--<span class="sec">:--</span></div>
+        <div class="date" id="date">----</div>
+      </div>
+      <div class="quote">
+        <div class="zh" id="quoteZh">—</div>
+        <div class="en" id="quoteEn">— <span class="refresh" id="quoteRefresh">换一句</span></div>
+      </div>
+    </div>
+    <div class="content" id="content"></div>
+  </main>
+
+  <div class="saved-tip" id="savedTip">✓ 已保存到本地<span class="en-sm">Saved locally</span></div>
+
+<script src="content.js"></script>
+<script src="en_practice.js"></script>
+<script>
+/* ============ 基础工具 ============ */
+const $ = (s,el=document)=>el.querySelector(s);
+const STORE_KEY = 'oceanWorkbench_v1';
+/* 中英对照辅助：返回「中文<span class="en-sm">English</span>」 */
+function bi(zh, en){ return zh + '<span class="en-sm">' + (en||'') + '</span>'; }
+
+function todayStr(d=new Date()){
+  const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+function dayDiff(a,b){ // a,b: Date
+  return Math.round((a.setHours(0,0,0,0)-b.setHours(0,0,0,0))/86400000);
+}
+function load(){
+  try{ return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }catch(e){ return {}; }
+}
+function save(obj){
+  localStorage.setItem(STORE_KEY, JSON.stringify(obj));
+  showSaved();
+}
+let DB = load();
+if(!DB.modules) DB.modules = {};
+if(!DB.startDate){ DB.startDate = todayStr(); save(DB); }
+if(!DB.contentMeta) DB.contentMeta = {};
+const LIVE = {};   // 运行时实时内容缓存（不写盘，刷新即重新获取）
+function dayNumber(){ // 从首次使用起算的天数（0 = 第1天）
+  return Math.max(0, dayDiff(new Date(), new Date(DB.startDate + 'T00:00:00')));
+}
+function showSaved(){
+  const t=$('#savedTip'); t.classList.add('show');
+  clearTimeout(showSaved._t);
+  showSaved._t=setTimeout(()=>t.classList.remove('show'),1200);
+}
+function dayOfYear(d){
+  const start=new Date(d.getFullYear(),0,0);
+  return Math.floor((d-start)/86400000);
+}
+
+/* ============ 模块定义（精简 7 项 + 海贼王角色头像） ============ */
+const MODULES = [
+  {id:'english',  name:'英语学习',     unit:'分钟', img:'assets/luffy.png',  char:'路飞'},
+  {id:'reading',  name:'每日阅读',     unit:'页',   img:'assets/robin.png',  char:'罗宾'},
+  {id:'trade',    name:'外贸企业（中国）', unit:'家', img:'assets/zoro.png', char:'索隆', noCheckin:true},
+  {id:'overseas', name:'海外企业',     unit:'家',   img:'assets/usopp.png', char:'乌索普', noCheckin:true},
+  {id:'news',     name:'全球新闻热点', unit:'条',   img:'assets/ace.png',    char:'艾斯',  noCheckin:true},
+  {id:'travel',   name:'全球旅行',     unit:'trip', img:'assets/sanji.png',  char:'山治',  noCheckin:true},
+  {id:'finance',  name:'理财知识',     unit:'条',   img:'assets/nami.png',   char:'娜美',  noCheckin:true},
+  {id:'diet',     name:'旺仔的饮食',   unit:'餐',   img:'assets/chopper.png', char:'乔巴',  noCheckin:true},
+  {id:'overview', name:'今日航海总览', unit:'',     img:null,                  char:'🧭', noCheckin:true},
+];
+if(!DB.moduleOrder || !DB.moduleOrder.length) DB.moduleOrder = MODULES.map(m=>m.id);
+// 兼容升级：保留用户自定义顺序，把新模块按 MODULES 默认顺序追加到末尾，过滤已删除模块
+(function syncModuleOrder(){
+  const validIds = new Set(MODULES.map(m=>m.id));
+  const cur = (DB.moduleOrder||[]).filter(id=>validIds.has(id));
+  const missing = MODULES.map(m=>m.id).filter(id=>!cur.includes(id));
+  if(missing.length){
+    DB.moduleOrder = cur.concat(missing);
+    save(DB);
+  }
+})();
+function getMod(id){ return DB.modules[id] || (DB.modules[id]={mode:'daily',logs:{},checkins:{}}); }
+
+/* ============ 中英文文案（全球旅行模块为英文版） ============ */
+const ZH = {
+  checkDone:'✓ 今日已打卡', checkTodo:'⚓ 立即打卡',
+  cumulativeLabel:'累计总量', dailyLabel:'今日数据',
+  modeDaily:'每日清零', modeCumulative:'累积记录',
+  resetToday:'清空今日数值', recordTitle:'记录', unitSuffix:'',
+  logPlaceholder:'输入数量，如 30', logAdd:'记录',
+  historyTitle:'近 7 日记录', streakText:'连续打卡', streakUnit:'天',
+  tip:'提示：打卡与数值独立，可只打卡不填数。',
+  sub:'记录单位：', subEnd:' · 数据本地留存',
+  statusDone:'已打卡 ✓', statusTodo:'未打卡', statusToday:'今日',
+  statusContent:'📚 查看今日内容 · '
+};
+const EN = {
+  checkDone:'✓ Checked in today', checkTodo:'⚓ Check in now',
+  cumulativeLabel:'Total', dailyLabel:"Today's log",
+  modeDaily:'Daily reset', modeCumulative:'Cumulative',
+  resetToday:'Clear today', recordTitle:'Log', unitSuffix:'',
+  logPlaceholder:'Enter amount, e.g. 30', logAdd:'Log',
+  historyTitle:'Last 7 days', streakText:'Day streak', streakUnit:'days',
+  tip:'Tip: check-in and value are independent.',
+  sub:'Unit: ', subEnd:' · Stored locally',
+  statusDone:'Checked ✓', statusTodo:'Not yet', statusToday:'Today',
+  statusContent:'📚 Today’s picks · '
+};
+function L(m){ return m.en ? EN : ZH; }
+
+/* ============ SVG 海贼王风可爱头像 ============ */
+function avatarSVG(m, size=64){
+  if(!m.img){
+    const off = Math.round(size * 0.15);
+    const s = size - off; // SVG 满铺，无需外扩裁切
+    return `<span class="char-av-svg" style="display:block;width:${s}px;height:${s}px;">${BRAND_SVG}</span>`;
+  }
+  const off = Math.round(size * 0.15);
+  const s = size + off * 2;
+  return `<img class="char-av" src="${m.img}" alt="${m.char}" style="display:block;width:${s}px;height:${s}px;margin:-${off}px 0 0 -${off}px;" />`;
+}
+const BRAND_SVG = `<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#48cae4"/><path d="M14 30 q18 -16 36 0" stroke="#fff" stroke-width="3" fill="none"/><circle cx="32" cy="34" r="9" fill="#fff"/><path d="M32 25 v18 M23 34 h18" stroke="#0a3d62" stroke-width="3"/><circle cx="32" cy="34" r="4" fill="#0a3d62"/></svg>`;
+
+/* ============ 每日激励语（按日更新 + 可手动换） ============ */
+const QUOTES = [
+  {zh:'今天也要加油呀！',en:'Keep going, you’ve got this today!'},
+  {zh:'每一步都算数。',en:'Every single step counts.'},
+  {zh:'成为更好的自己。',en:'Become a better version of yourself.'},
+  {zh:'自律给我自由。',en:'Discipline brings me freedom.'},
+  {zh:'慢慢来，比较快。',en:'Slow is smooth, smooth is fast.'},
+  {zh:'别让今天的懒，变成明天的憾。',en:"Don’t let today’s laziness become tomorrow’s regret."},
+  {zh:'你比想象中更强大。',en:'You are stronger than you think.'},
+  {zh:'坚持是唯一的捷径。',en:'Persistence is the only shortcut.'},
+  {zh:'把平凡的事做到极致。',en:'Do ordinary things to the extreme.'},
+  {zh:'未来藏在现在的努力里。',en:'The future hides in today’s effort.'},
+  {zh:'不慌不忙，按自己的节奏。',en:'Take your time, at your own pace.'},
+  {zh:'小确幸，大满足。',en:'Small joys, great contentment.'},
+  {zh:'越努力，越幸运。',en:'The harder you work, the luckier you get.'},
+  {zh:'今天的汗水，明天的掌声。',en:"Today’s sweat, tomorrow’s applause."},
+  {zh:'你是自己人生的船长。',en:'You are the captain of your own life.'},
+  {zh:'起航吧，少年！',en:'Set sail, young one!'},
+  {zh:'海阔凭鱼跃。',en:'The sea is wide for the fish to leap.'},
+  {zh:'所有的伟大都源于开始。',en:'All greatness begins with a start.'},
+  {zh:'忠于自己，闪闪发光。',en:'Be true to yourself and shine.'},
+  {zh:'积累的力量超乎想象。',en:'The power of accumulation is beyond imagination.'},
+  {zh:'别怕慢，就怕停。',en:'Don’t fear slowness, fear stopping.'},
+  {zh:'把时间花在成长上。',en:'Spend your time on growth.'},
+  {zh:'今天也要闪闪发光哦。',en:'Shine bright today too.'},
+  {zh:'目标明确，脚步轻盈。',en:'Clear goals, light steps.'},
+  {zh:'相信积累，相信时间。',en:'Trust accumulation, trust time.'},
+  {zh:'你的坚持终将开花。',en:'Your persistence will eventually bloom.'},
+  {zh:'乘风破浪会有时。',en:'There will be a time to ride the wind and break the waves.'},
+  {zh:'温柔而坚定。',en:'Gentle yet firm.'},
+  {zh:'先完成，再完美。',en:'Done first, perfect later.'},
+  {zh:'你正在成为想成为的人。',en:'You are becoming who you want to be.'},
+];
+
+/* ============ 渲染：侧边栏 ============ */
+let dragId=null;
+function moduleOrderList(){
+  const validIds = new Set(MODULES.map(m=>m.id));
+  const order = (DB.moduleOrder && DB.moduleOrder.length) ? DB.moduleOrder : MODULES.map(m=>m.id);
+  // 防御性补齐：新模块追加到末尾、已删模块过滤掉
+  const present = order.filter(id=>validIds.has(id));
+  const missing = MODULES.map(m=>m.id).filter(id=>!present.includes(id));
+  return present.concat(missing).map(id=>MODULES.find(m=>m.id===id)).filter(Boolean);
+}
+function renderNav(){
+  const nav=$('#nav');
+  nav.innerHTML = moduleOrderList().map(m=>`
+    <div class="nav-item" data-id="${m.id}" draggable="true">
+      <span class="drag-h">≡</span>
+      <span class="av">${avatarSVG(m,30)}</span>
+      <span class="lbl">${m.name}</span>
+      <span class="dot" data-dot="${m.id}"></span>
+    </div>`).join('');
+  nav.querySelectorAll('.nav-item').forEach(el=>{
+    el.addEventListener('click',()=>openModule(el.dataset.id));
+    attachDrag(el);
+  });
+}
+function moveModule(fromId, toId){
+  const order=[...(DB.moduleOrder||MODULES.map(m=>m.id))];
+  const from=order.indexOf(fromId), to=order.indexOf(toId);
+  if(from>-1 && to>-1 && from!==to){
+    order.splice(to,0,order.splice(from,1)[0]);
+    DB.moduleOrder=order; save(DB); renderNav(); refreshNavDots();
+  }
+}
+function attachDrag(el){
+  const id=el.dataset.id;
+  el.addEventListener('dragstart',e=>{ dragId=id; el.classList.add('dragging'); e.dataTransfer.effectAllowed='move'; try{e.dataTransfer.setData('text/plain',id);}catch(_){} });
+  el.addEventListener('dragend',()=>{ el.classList.remove('dragging'); dragId=null; document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('drag-over')); });
+  el.addEventListener('dragover',e=>{ e.preventDefault(); if(dragId && dragId!==id) el.classList.add('drag-over'); });
+  el.addEventListener('dragleave',()=>{ el.classList.remove('drag-over'); });
+  el.addEventListener('drop',e=>{ e.preventDefault(); el.classList.remove('drag-over'); if(dragId && dragId!==id) moveModule(dragId, id); });
+  // 移动端：长按进入排序模式
+  let timer=null;
+  el.addEventListener('touchstart',()=>{
+    timer=setTimeout(()=>{ document.body.classList.add('sorting'); el.classList.add('dragging'); dragId=id; if(navigator.vibrate) navigator.vibrate(30); }, 450);
+  },{passive:true});
+  el.addEventListener('touchmove',e=>{
+    if(timer){ clearTimeout(timer); timer=null; }
+    if(document.body.classList.contains('sorting')){
+      e.preventDefault();
+      const y=e.touches[0].clientY;
+      const nav=document.getElementById('nav');
+      const draggingEl=nav.querySelector('.nav-item.dragging');
+      const items=[...nav.querySelectorAll('.nav-item:not(.dragging)')];
+      if(!items.length) return;
+      let target=items[items.length-1], best=Infinity;
+      items.forEach(it=>{ const r=it.getBoundingClientRect(); const off=y-(r.top+r.height/2); if(off<best){best=off;target=it;} });
+      if(target && draggingEl && target!==draggingEl) nav.insertBefore(draggingEl, target);
+    }
+  },{passive:false});
+  const endSort=()=>{
+    if(timer){ clearTimeout(timer); timer=null; }
+    if(document.body.classList.contains('sorting')){
+      document.body.classList.remove('sorting');
+      const nav=document.getElementById('nav');
+      const order=[...nav.querySelectorAll('.nav-item')].map(x=>x.dataset.id);
+      DB.moduleOrder=order; save(DB);
+      dragId=null; renderNav(); refreshNavDots();
+    }
+  };
+  el.addEventListener('touchend',endSort);
+  el.addEventListener('touchcancel',endSort);
+}
+function refreshNavDots(){
+  const t=todayStr();
+  MODULES.forEach(m=>{
+    const dot=document.querySelector(`[data-dot="${m.id}"]`);
+    const done=!!(getMod(m.id).checkins[t]);
+    if(dot) dot.style.background = done ? 'var(--gold)' : 'transparent';
+  });
+}
+
+/* ============ 顶部：时钟 + 激励语 ============ */
+function tickClock(){
+  const d=new Date();
+  const hh=String(d.getHours()).padStart(2,'0');
+  const mm=String(d.getMinutes()).padStart(2,'0');
+  const ss=String(d.getSeconds()).padStart(2,'0');
+  $('#clock').innerHTML = `${hh}:${mm}<span class="sec">:${ss}</span>`;
+  const wd=['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];
+  $('#date').textContent = `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 ${wd}`;
+}
+function ensureDailyQuote(){
+  const t=todayStr();
+  if(DB.quoteDate!==t){
+    DB.quoteDate=t;
+    DB.quoteIdx=dayOfYear(new Date())%QUOTES.length;
+    save(DB);
+  }
+  renderQuote();
+}
+function renderQuote(){
+  const q=QUOTES[DB.quoteIdx ?? 0];
+  $('#quoteZh').textContent=q.zh;
+  $('#quoteEn').innerHTML=q.en+' <span class="refresh" id="quoteRefresh">换一句<span class="en-sm">Shuffle</span></span>';
+  $('#quoteRefresh').onclick=()=>{
+    DB.quoteIdx=(DB.quoteIdx+1)%QUOTES.length; save(DB); renderQuote();
+  };
+}
+
+/* ============ 主页（桌面总览） ============ */
+function renderHome(){
+  const t=todayStr();
+  const checkable = MODULES.filter(m=>!m.noCheckin);
+  let done=0;
+  checkable.forEach(m=>{ if(getMod(m.id).checkins[t]) done++; });
+  const pct = checkable.length ? Math.round(done/checkable.length*100) : 0;
+  const R=42, C=2*Math.PI*R;
+  const off=C*(1-pct/100);
+  const content=$('#content');
+  content.innerHTML = `
+    <div class="view-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
+    <div class="view-sub">${t} · 完成今日打卡，扬帆起航！<span class="en-sm">Finish today's check-in and set sail!</span></div>
+    <div class="progress-ring-wrap">
+      <div class="ring">
+        <svg width="96" height="96">
+          <circle cx="48" cy="48" r="${R}" stroke="#caf0f8" stroke-width="9" fill="none"/>
+          <circle cx="48" cy="48" r="${R}" stroke="#1b6ca8" stroke-width="9" fill="none"
+            stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}"/>
+        </svg>
+        <div class="num"><b>${done}</b><span>/ ${checkable.length}</span></div>
+      </div>
+      <div class="progress-meta">
+        <h3>今日已打卡 ${done} 项<span class="en-sm">${done} checked today</span></h3>
+        <p>完成度 ${pct}% · 点击右侧卡片可直接打卡，点击卡片进入详情记录数据。<span class="en-sm">Completion ${pct}% · Tap a card to check in, or open it for details.</span></p>
+      </div>
+      <button class="ghost-btn" id="resetToday">↻ 重置今日打卡<span class="en-sm">Reset today</span></button>
+    </div>
+    <div class="card-grid" id="miniGrid"></div>
+  `;
+  $('#miniGrid').innerHTML = MODULES.filter(m=>m.id!=='overview').map(m=>{
+    const mod=getMod(m.id);
+    const isDone=!!mod.checkins[t];
+    const val=mod.logs[t]||0;
+    const lb=L(m);
+    if(m.noCheckin){
+      return `<div class="mini-card ${isDone?'done':''}" data-id="${m.id}">
+        <span class="av">${avatarSVG(m,46)}</span>
+        <div class="info">
+          <div class="nm">${m.name}</div>
+          <div class="st">${bi('📚 今日内容','Today’s picks')} · ${bi(ZH.statusToday,EN.statusToday)} ${val}${m.unit}</div>
+        </div>
+        <div class="mini-check" style="background:var(--sky);border-color:var(--sky);color:#fff;">›</div>
+      </div>`;
+    }
+    return `<div class="mini-card ${isDone?'done':''}" data-id="${m.id}">
+      <span class="av">${avatarSVG(m,46)}</span>
+      <div class="info">
+        <div class="nm">${m.name}</div>
+        <div class="st">${isDone?bi(ZH.statusDone,EN.statusDone):bi(ZH.statusTodo,EN.statusTodo)} · ${bi(ZH.statusToday,EN.statusToday)} ${val}${m.unit}</div>
+      </div>
+      <div class="mini-check">${isDone?'✓':'+'}</div>
+    </div>`;
+  }).join('');
+  $('#miniGrid').querySelectorAll('.mini-card').forEach(el=>{
+    const id=el.dataset.id;
+    const m = MODULES.find(x=>x.id===id);
+    if(!m.noCheckin){
+      el.querySelector('.mini-check').addEventListener('click',e=>{e.stopPropagation();toggleCheckin(id);});
+    }
+    el.addEventListener('click',()=>openModule(id));
+  });
+  $('#resetToday').onclick=()=>{
+    if(confirm('确定要清空今天的全部打卡记录吗？历史数据会保留。\nClear all of today’s check-ins? History is kept.')){
+      MODULES.forEach(m=>{ delete getMod(m.id).checkins[t]; delete getMod(m.id).logs[t]; });
+      save(DB); renderHome(); refreshNavDots();
+    }
+  };
+}
+
+/* ============ 模块详情 ============ */
+/* ============ 今日内容（按使用天数选，英语渐进分级） ============ */
+function todayContent(id){
+  const m = MODULES.find(x=>x.id===id);
+  // 新闻优先使用实时获取的内容（若当日已成功拉取）
+  let arr = (typeof CONTENT!=='undefined' && CONTENT[id]) ? CONTENT[id] : null;
+  if(id==='news' && LIVE.news && DB.contentMeta.news && DB.contentMeta.news.live){
+    arr = LIVE.news;
+  }
+  if(!arr || !arr.length) return '';
+  const n = dayNumber();
+  const meta = DB.contentMeta[id] || {};
+  let idx;
+  if(id==='english'){
+    const cap = Math.min(n, arr.length-1);
+    idx = (typeof meta.pick==='number') ? Math.min(meta.pick, cap) : cap;   // 渐进，刷新可复习随机一课
+  } else {
+    const base = (id==='news' && meta.live) ? 0 : (n % arr.length);
+    idx = (typeof meta.pick==='number') ? (meta.pick % arr.length) : base;
+  }
+  const e = arr[idx];
+  const blocks = (e.blocks||[]).map(b=>`
+    <div class="ct-block">
+      <div class="ct-h">${b.h||''}</div>
+      <div class="ct-body">${b.body||''}</div>
+    </div>`).join('');
+  const lbl = (id==='english')
+    ? `第 ${Math.min(idx+1,arr.length)} / ${arr.length} 课`
+    : `第 ${idx+1} / ${arr.length} 天`;
+  // 更新时间 / 实时标识
+  const isLive = (id==='news' && meta.live);
+  const upd = meta.updated ? new Date(meta.updated).toLocaleString('zh-CN',{hour12:false}) : todayStr();
+  const freshBadge = isLive
+    ? `<span class="ct-badge live">🔴 实时<span class="en-sm">Live</span> · ${e.tag||'今日热点'}</span>`
+    : `<span class="ct-badge">${e.tag||''} ｜ ${lbl}</span>`;
+  const updTip = isLive ? `实时拉取于<span class="en-sm">Fetched at</span> ${upd}` : `更新于<span class="en-sm">Updated</span> ${upd} · <span class="ct-refresh" id="ctRefresh">🔄 换一批<span class="en-sm">Refresh</span></span>`;
+  let extra='';
+  if(id==='english' && typeof EN_PRACTICE!=='undefined' && EN_PRACTICE[idx]){
+    extra = englishPracticeHTML(EN_PRACTICE[idx]);
+  }
+  return `
+    <div class="panel content-today">
+      <div class="ct-head">
+        <h4>📚 今日内容<span class="en-sm">Today's Content</span> · ${m.name}</h4>
+        ${freshBadge}
+      </div>
+      <div class="ct-sub">${updTip}</div>
+      <div class="ct-title">${e.title||''}</div>
+      ${blocks}
+      ${extra}
+    </div>`;
+}
+function m_name(id){ const m=MODULES.find(x=>x.id===id); return m?m.name:''; }
+
+/* ============ 内容实时更新 ============ */
+function refreshContent(id){
+  const arr = (typeof CONTENT!=='undefined' && CONTENT[id]) ? CONTENT[id] : null;
+  if(!arr) return;
+  const n = dayNumber();
+  let pick;
+  if(id==='english'){ pick = Math.floor(Math.random()*Math.min(n+1, arr.length)); }
+  else { pick = Math.floor(Math.random()*arr.length); }
+  if(!DB.contentMeta[id]) DB.contentMeta[id] = {};
+  DB.contentMeta[id].pick = pick;
+  DB.contentMeta[id].updated = new Date().toISOString();
+  save(DB);
+  openModule(id);
+}
+async function fetchNewsLive(id){
+  if(!DB.contentMeta[id]) DB.contentMeta[id] = {};
+  const meta = DB.contentMeta[id];
+  try{
+    const feed = 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml';
+    const api = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed);
+    const r = await fetch(api, {cache:'no-store'});
+    const j = await r.json();
+    if(!j || j.status!=='ok' || !j.items || !j.items.length) throw new Error('empty');
+    const items = j.items.slice(0,8).map(it=>{
+      const desc = (it.description||'').replace(/<[^>]+>/g,'').trim().slice(0,140);
+      const pub = it.pubDate ? new Date(it.pubDate).toLocaleString('zh-CN',{hour12:false}) : '';
+      return `<a class="news-item" href="${it.link}" target="_blank" rel="noopener"><div class="nt">${it.title}</div>${pub?`<div class="nm">${pub}</div>`:''}${desc?`<div class="nm">${desc}</div>`:''}</a>`;
+    }).join('');
+    LIVE.news = [{title:'今日全球热点（实时）', tag:'实时更新', blocks:[
+      {h:'实时头条（来源：BBC 中文 · 点击跳转原文）', body:`<div class="news-list">${items}</div>`}
+    ]}];
+    meta.live = true; meta.updated = new Date().toISOString(); meta.pick = 0;
+    save(DB);
+    return true;
+  }catch(err){
+    meta.live = false; meta.updated = new Date().toISOString(); save(DB);
+    return false;
+  }
+}
+
+/* ============ 英语学习：听力 / 口语 / 单词 交互 ============ */
+let _voices=[];
+function _loadVoices(){ if('speechSynthesis' in window) _voices=window.speechSynthesis.getVoices(); }
+if('speechSynthesis' in window){ _loadVoices(); window.speechSynthesis.onvoiceschanged=_loadVoices; }
+function _pickVoice(lang){
+  if(!_voices.length) return null;
+  const pre=lang.split('-')[0].toLowerCase();
+  return _voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith(pre)) || null;
+}
+function speakEn(text){
+  if(!('speechSynthesis' in window)){ alert('当前浏览器不支持语音播放。'); return; }
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US'; u.rate=0.95; u.pitch=1;
+  const v=_pickVoice('en-US'); if(v) u.voice=v;
+  window.speechSynthesis.speak(u);
+}
+function speakSeq(list, onDone){
+  if(!('speechSynthesis' in window)){ alert('当前浏览器不支持语音播放。'); return; }
+  window.speechSynthesis.cancel();
+  let i=0;
+  const step=()=>{
+    if(i>=list.length){ onDone&&onDone(); return; }
+    const u=new SpeechSynthesisUtterance(list[i]); u.lang='en-US'; u.rate=0.95;
+    const v=_pickVoice('en-US'); if(v) u.voice=v;
+    u.onend=()=>{ i++; step(); };
+    window.speechSynthesis.speak(u);
+  };
+  step();
+}
+function _norm(s){ return (s||'').toLowerCase().replace(/[^a-z0-9\s']/g,'').replace(/\s+/g,' ').trim(); }
+function speechScore(target, said){
+  const A=_norm(target).split(' ').filter(Boolean);
+  const B=_norm(said).split(' ').filter(Boolean);
+  if(!A.length) return 0;
+  const setB=new Set(B);
+  let hit=0; A.forEach(w=>{ if(setB.has(w)) hit++; });
+  return Math.max(0, Math.min(100, Math.round(hit/A.length*100)));
+}
+function englishPracticeHTML(p){
+  const lines = (p.lines||[]).map((l,i)=>`
+    <li class="en-line" id="enLine${i}">
+      <button class="spk" data-line="${i}" title="播放这句">🔊</button>
+      <span class="en-role">${l.role}:</span>
+      <span class="en-txt">${l.en}</span>
+    </li>`).join('');
+  const words = (p.words||[]).map((w,i)=>`
+    <div class="word-card">
+      <div class="wc-top">
+        <button class="spk" data-word="${i}" title="听发音">🔊</button>
+        <span class="wc-w">${w.w}</span>
+        <span class="wc-ph">${w.ph}</span>
+      </div>
+      <div class="wc-zh">${w.zh}</div>
+    </div>`).join('');
+  return `
+    <div class="en-practice">
+      <div class="en-sec">
+        <div class="en-sec-h">🎧 听力训练<span class="en-sm">Listening</span> <span class="en-sub">点击 🔊 听每一句，或播放整段对话<span class="en-sm">Tap 🔊 for each line, or play all</span></span>
+          <button class="mini-btn" id="enPlayAll">▶ 播放全部<span class="en-sm">Play all</span></button></div>
+        <ul class="en-lines">${lines}</ul>
+      </div>
+      <div class="en-sec">
+        <div class="en-sec-h">🎤 口语练习<span class="en-sm">Speaking</span> <span class="en-sub">点麦克风跟读目标句，系统用你的麦克风识别并打分<span class="en-sm">Tap mic to shadow-read; we score it via your mic</span></span></div>
+        <div class="en-target">跟读目标：<b id="enTarget">${p.speak||''}</b>
+          <button class="mini-btn" id="enTargetSpk">🔊 听示范<span class="en-sm">Listen</span></button></div>
+        <button class="mic-btn" id="enMic">🎤 点击开始说<span class="en-sm">Tap to speak</span></button>
+        <div class="en-spk-result" id="enSpkResult">（允许麦克风权限后，点击上方按钮开始跟读）<span class="en-sm">Allow mic access, then tap above to shadow-read</span></div>
+      </div>
+      <div class="en-sec">
+        <div class="en-sec-h">🃏 单词练习<span class="en-sm">Vocabulary</span> <span class="en-sub">点击 🔊 听单词发音，遮住中文自测<span class="en-sm">Tap 🔊 for pronunciation, hide Chinese to self-test</span></span></div>
+        <div class="en-words">${words}</div>
+      </div>
+      <div class="en-note">提示：听力/口语依赖浏览器的语音功能，请用桌面版 <b>Chrome</b> 或 <b>Edge</b>；麦克风需在 <b>localhost 或 https</b> 下使用，并通过 http://localhost:8080 打开本页。<span class="en-sm">Tip: Listening/speaking use the browser's speech APIs—use desktop Chrome or Edge; the mic only works on localhost or https via http://localhost:8080.</span></div>
+    </div>`;
+}
+function setupEnglishPractice(idx){
+  const p=(typeof EN_PRACTICE!=='undefined')?EN_PRACTICE[idx]:null;
+  if(!p) return;
+  const allBtn=document.getElementById('enPlayAll');
+  if(allBtn) allBtn.onclick=()=>speakSeq(p.lines.map(l=>l.en));
+  document.querySelectorAll('.en-lines .spk').forEach(b=>{
+    b.onclick=()=>{
+      const li=document.getElementById('enLine'+b.dataset.line);
+      document.querySelectorAll('.en-line').forEach(x=>x.classList.remove('playing'));
+      if(li) li.classList.add('playing');
+      speakEn(p.lines[b.dataset.line].en);
+    };
+  });
+  const tgt=document.getElementById('enTarget');
+  const tSpk=document.getElementById('enTargetSpk');
+  if(tSpk&&tgt) tSpk.onclick=()=>speakEn(tgt.textContent);
+  const mic=document.getElementById('enMic');
+  const res=document.getElementById('enSpkResult');
+  if(mic&&res&&tgt) mic.onclick=()=>startSpeech(mic,res,tgt.textContent);
+  document.querySelectorAll('.en-words .spk').forEach(b=>{
+    b.onclick=()=>speakEn(p.words[b.dataset.word].w);
+  });
+}
+function startSpeech(btn, resultEl, target){
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if(!SR){ resultEl.innerHTML='⚠️ 当前浏览器不支持语音识别，请改用桌面版 Chrome 或 Edge。<span class="en-sm">Speech recognition unsupported—use desktop Chrome or Edge.</span>'; return; }
+  if(!window.isSecureContext){
+    resultEl.innerHTML='⚠️ 麦克风需在 <b>localhost 或 https</b> 环境下使用。请用 <b>http://localhost:8080</b> 打开本页。<span class="en-sm">Mic needs localhost or https—open via http://localhost:8080.</span>'; return;
+  }
+  if(btn.classList.contains('recording')) return;
+  const rec=new SR();
+  rec.lang='en-US'; rec.interimResults=false; rec.maxAlternatives=1; rec.continuous=false;
+  btn.classList.add('recording'); btn.textContent='🎙️ 聆听中…<span class="en-sm">Listening…</span>';
+  rec.onresult=(ev)=>{
+    const said=ev.results[0][0].transcript;
+    const score=speechScore(target, said);
+    const stars = score>=85?'⭐⭐⭐':(score>=60?'⭐⭐':'⭐');
+    const tip = score>=85?'太棒了，发音很准！':(score>=60?'不错，再练一次更顺！':'再来一次，注意单词和节奏～');
+    resultEl.innerHTML = `你说：<b>"${said.replace(/</g,'&lt;')}"</b><br>匹配度 <b>${score}%</b> ${stars}<br><span class="tip">${tip}</span>`;
+  };
+  rec.onerror=(ev)=>{
+    btn.classList.remove('recording'); btn.textContent='🎤 点击开始说<span class="en-sm">Tap to speak</span>';
+    resultEl.innerHTML='⚠️ 识别失败：'+(ev.error||'未知错误')+'（请允许麦克风权限，并使用 Chrome/Edge）<span class="en-sm">Recognition failed—allow mic access and use Chrome/Edge</span>';
+  };
+  rec.onend=()=>{ btn.classList.remove('recording'); btn.textContent='🎤 点击开始说<span class="en-sm">Tap to speak</span>'; };
+  try{ rec.start(); }catch(e){ /* 已启动则忽略 */ }
+}
+
+function stripHtml(html){
+  const d=document.createElement('div'); d.innerHTML=html||'';
+  return (d.textContent||'').replace(/\s+/g,' ').trim();
+}
+function getTodayEntry(id){
+  const m=MODULES.find(x=>x.id===id);
+  let arr=(typeof CONTENT!=='undefined' && CONTENT[id])?CONTENT[id]:null;
+  if(id==='news' && LIVE.news && DB.contentMeta.news && DB.contentMeta.news.live) arr=LIVE.news;
+  if(!arr||!arr.length) return null;
+  const n=dayNumber();
+  const meta=DB.contentMeta[id]||{};
+  let idx;
+  if(id==='english'){ const cap=Math.min(n,arr.length-1); idx=(typeof meta.pick==='number')?Math.min(meta.pick,cap):cap; }
+  else { const base=(id==='news'&&meta.live)?0:(n%arr.length); idx=(typeof meta.pick==='number')?(meta.pick%arr.length):base; }
+  return {m, e:arr[idx], idx, total:arr.length};
+}
+function renderOverview(){
+  const t=todayStr();
+  const checkable=MODULES.filter(m=>!m.noCheckin && m.id!=='overview');
+  let done=0; checkable.forEach(m=>{ if(getMod(m.id).checkins[t]) done++; });
+  const pct=checkable.length?Math.round(done/checkable.length*100):0;
+  const R=42,C=2*Math.PI*R, off=C*(1-pct/100);
+  const content=$('#content');
+  const list=moduleOrderList().filter(m=>m.id!=='overview');
+  content.innerHTML=`
+    <div class="mob-back" id="mobBack"><span class="arrow">‹</span><span>返回主页</span><span class="en-sm">Home</span></div>
+    <div class="view-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
+    <div class="view-sub">${t} · 一页看全今日所有航向，点卡片直达模块<span class="en-sm">All today's picks on one page · tap a card to open</span></div>
+    <div class="progress-ring-wrap">
+      <div class="ring">
+        <svg width="96" height="96">
+          <circle cx="48" cy="48" r="${R}" stroke="#caf0f8" stroke-width="9" fill="none"/>
+          <circle cx="48" cy="48" r="${R}" stroke="#1b6ca8" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}"/>
+        </svg>
+        <div class="num"><b>${done}</b><span>/ ${checkable.length}</span></div>
+      </div>
+      <div class="progress-meta">
+        <h3>今日已打卡 ${done} 项<span class="en-sm">${done} checked today</span></h3>
+        <p>完成度 ${pct}% · 可打卡模块 ${checkable.length} 个<span class="en-sm">Completion ${pct}% · ${checkable.length} checkable modules</span></p>
+      </div>
+      <button class="ghost-btn" id="resetToday">↻ 重置今日打卡<span class="en-sm">Reset today</span></button>
+    </div>
+    <div class="ov-list">
+      ${list.map(m=>{
+        const ent=getTodayEntry(m.id);
+        const isDone=m.noCheckin?true:!!getMod(m.id).checkins[t];
+        const title=ent?ent.e.title:'—';
+        const summary=ent?stripHtml((ent.e.blocks&&ent.e.blocks[0]&&ent.e.blocks[0].body)||'').slice(0,70):'';
+        return `<div class="ov-card" data-id="${m.id}">
+          <span class="av">${avatarSVG(m,44)}</span>
+          <div class="ov-info">
+            <div class="ov-nm">${m.name}</div>
+            <div class="ov-tt">${title}</div>
+            <div class="ov-sum">${summary}</div>
+          </div>
+          <div class="mini-check" style="${isDone?'background:var(--ocean);border-color:var(--ocean);color:#fff;':''}">${isDone?'✓':'‹'}</div>
+        </div>`;
+      }).join('')}
+    </div>
+  `;
+  content.querySelectorAll('.ov-card').forEach(el=>el.addEventListener('click',()=>openModule(el.dataset.id)));
+  const rb=$('#resetToday');
+  if(rb) rb.onclick=()=>{
+    if(confirm('确定要清空今天的全部打卡记录吗？历史数据会保留。\nClear all of today’s check-ins? History is kept.')){
+      MODULES.forEach(m=>{ if(!m.noCheckin){ delete getMod(m.id).checkins[t]; delete getMod(m.id).logs[t]; } });
+      save(DB); renderOverview(); refreshNavDots();
+    }
+  };
+  const mb=document.getElementById('mobBack'); if(mb) mb.onclick=()=>renderHome();
+}
+function openModule(id){
+  if(id==='overview'){ renderOverview(); return; }
+  document.querySelectorAll('.nav-item').forEach(el=>el.classList.toggle('active',el.dataset.id===id));
+  const m=MODULES.find(x=>x.id===id);
+  const mod=getMod(id);
+  const t=todayStr();
+  const isDone=!!mod.checkins[t];
+  const streak=calcStreak(id);
+
+  const lb=L(m);
+  const content=$('#content');
+  content.innerHTML = `
+    <div class="mob-back" id="mobBack"><span class="arrow">‹</span><span>返回主页</span><span class="en-sm">Home</span></div>
+    <div class="detail-head">
+      <span class="bigav">${avatarSVG(m,64)}</span>
+      <div>
+        <h2>${m.name}</h2>
+        <p>记录单位：<span class="en-sm">Unit:</span> ${m.unit} · 数据本地留存<span class="en-sm">Stored locally</span></p>
+      </div>
+    </div>
+    ${m.noCheckin?'' : `
+    <div class="panel-row">
+      <div class="panel checkin-panel">
+        <h4>今日打卡<span class="en-sm">Check-in</span></h4>
+        <button class="checkin-btn ${isDone?'done':''}" id="checkBtn">${isDone?bi(ZH.checkDone,EN.checkDone):bi(ZH.checkTodo,EN.checkTodo)}</button>
+        <div class="streak">🔥 ${ZH.streakText}<span class="en-sm">${EN.streakText}</span> <b>${streak}</b> ${ZH.streakUnit}<span class="en-sm">${EN.streakUnit}</span></div>
+      </div>
+    </div>`}
+    ${todayContent(id)}
+  `;
+
+  if(!m.noCheckin){
+    const cb=$('#checkBtn');
+    if(cb) cb.onclick=()=>{ toggleCheckin(id); openModule(id); };
+  }
+  const rb=$('#ctRefresh');
+  if(rb) rb.onclick=async ()=>{
+    if(id==='news'){
+      rb.textContent='⏳ 正在获取实时新闻…';
+      const ok = await fetchNewsLive(id);
+      refreshContent(id);
+      if(!ok) alert('实时获取失败（可能网络受限），已为你保留精选热点库。\nLive fetch failed (network limited); kept curated hotspots.');
+    } else {
+      refreshContent(id);
+    }
+  };
+  // 新闻：每次打开若未实时拉取过，则自动尝试一次
+  if(id==='news' && !(DB.contentMeta.news && DB.contentMeta.news.live)){
+    fetchNewsLive(id).then(ok=>{ if(ok && $('#ctRefresh')) openModule(id); }).catch(()=>{});
+  }
+  if(id==='english') setupEnglishPractice(Math.min(dayNumber(), (typeof CONTENT!=='undefined'&&CONTENT.english)?CONTENT.english.length-1:0));
+  const mb=document.getElementById('mobBack'); if(mb) mb.onclick=()=>renderHome();
+}
+function calcStreak(id){
+  const mod=getMod(id);
+  let s=0; const d=new Date();
+  // 若今天未打卡，从昨天起算
+  if(!mod.checkins[todayStr(d)]) d.setDate(d.getDate()-1);
+  while(mod.checkins[todayStr(d)]){ s++; d.setDate(d.getDate()-1); }
+  return s;
+}
+function toggleCheckin(id){
+  const mod=getMod(id); const t=todayStr();
+  if(mod.checkins[t]) delete mod.checkins[t]; else mod.checkins[t]=true;
+  save(DB); refreshNavDots();
+  if($('#content').querySelector('.card-grid')) renderHome();
+}
+
+/* ============ 启动 ============ */
+function init(){
+  $('#brandLogo').innerHTML=BRAND_SVG;
+  renderNav();
+  ensureDailyQuote();
+  renderHome();
+  refreshNavDots();
+  tickClock(); setInterval(tickClock,1000);
+  // 跨天自动刷新激励语与日期
+  setInterval(()=>{ ensureDailyQuote(); refreshNavDots(); }, 60000);
+}
+init();
+
+/* 注册 Service Worker：在线优先获取最新版，离线时使用缓存 */
+if('serviceWorker' in navigator){
+  // 新 Service Worker 接管后立即自动刷新一次，确保拿到最新页面（避免旧缓存）
+  navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('sw.js?v=20',{updateViaCache:'none'})
+      .then(reg=>reg.update())
+      .catch(()=>{});
+  });
+}</script>
+</body>
+</html>
