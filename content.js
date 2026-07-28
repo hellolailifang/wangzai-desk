@@ -16,7 +16,7 @@ const CONTENT = {
         {h:'核心词汇 Vocabulary (15min)', body:'<ul><li>passport 护照</li><li>ticket 机票</li><li>boarding pass 登机牌</li><li>gate 登机口</li><li>luggage 行李</li><li>departure 出发</li><li>arrival 到达</li><li>window / aisle 靠窗 / 靠走道</li></ul>'},
         {h:'情景对话 Dialogue (20min)', body:'<div class="ph">A: May I see your passport, please?<br>B: Here you are.<br>A: Window or aisle seat?<br>B: Aisle, please.<br>A: Your gate is B12. Have a nice flight!</div>'},
         {h:'语法点睛 Grammar (10min)', body:'<p><b>be 动词</b>：I <b>am</b> / He/She/It <b>is</b> / You/We/They <b>are</b>。<br>国籍形容词：Chinese, Japanese, American, British。别说 "I am China"，要说 "I am <b>from</b> China"。</p>'},
-        {h:'今日任务 Task (10min)', body:'<p>写 3 句自我介绍并朗读录音：①名字 ②来自 ③此行目的。完成后在右侧打卡。</p>'}
+        {h:'今日任务 Task (10min)', body:'<p>写 3 句自我介绍并朗读录音：①名字 ②来自 ③此行目的。完成后可反复朗读练习。</p>'}
       ]
     },
     {
