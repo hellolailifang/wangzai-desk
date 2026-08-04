@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f2"/><stop offset="0.6" stop-color="#e9f6ef"/><stop offset="1" stop-color="#d7efe0"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8622c"/><stop offset="1" stop-color="#f0a500"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <path d="M 50.0 283.6 Q 108.3 243.6 166.7 321.3 Q 225.0 281.3 283.3 234.0 Q 341.7 194.0 400.0 141.2 Q 458.3 101.2 516.7 170.0 Q 575.0 130.0 633.3 281.0 Q 691.7 241.0 750.0 322.1" fill="none" stroke="url(#path)" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 9"/>
+  <circle cx="50.0" cy="283.6" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="166.7" cy="321.3" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="283.3" cy="234.0" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="400.0" cy="141.2" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="516.7" cy="170.0" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="633.3" cy="281.0" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/><circle cx="750.0" cy="322.1" r="7" fill="#fff" stroke="#e8622c" stroke-width="3"/>
+  <text x="50.0" y="267.6" font-size="13" fill="#1f3a4d" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" transform="rotate(-32 50.0 267.6)">卢卡拉</text><text x="283.3" y="218.0" font-size="13" fill="#1f3a4d" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" transform="rotate(-32 283.3 218.0)">Namche</text><text x="516.7" y="154.0" font-size="13" fill="#1f3a4d" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" transform="rotate(-32 516.7 154.0)">Tengboche</text><text x="750.0" y="306.1" font-size="13" fill="#1f3a4d" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" transform="rotate(-32 750.0 306.1)">适应日</text>
+  <text x="50" y="40" font-size="22" font-weight="700" fill="#13384d" font-family="-apple-system,Helvetica,Arial,sans-serif">珠峰大本营</text>
+  <text x="52" y="62" font-size="13" fill="#5a6b76" font-family="-apple-system,Helvetica,Arial,sans-serif">徒步路线示意图 · Route Map</text>
+  <text x="750" y="428" font-size="12" fill="#8aa0ad" text-anchor="end" font-family="-apple-system,Helvetica,Arial,sans-serif">示意图，实际路线以地图为准</text>
+</svg>

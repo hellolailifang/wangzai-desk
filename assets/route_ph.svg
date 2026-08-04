@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6f2"/><stop offset="1" stop-color="#eef5f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="620" cy="120" r="46" fill="#ffd27a"/>
+  <path d="M0 320 L140 210 L260 300 L400 180 L540 300 L680 220 L800 300 L800 450 L0 450 Z" fill="#9fc4d6"/>
+  <path d="M0 370 L160 280 L320 360 L480 270 L640 360 L800 300 L800 450 L0 450 Z" fill="#6f9fb5"/>
+  <text x="400" y="420" font-size="15" fill="#3c6072" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif">风景图片加载失败 · 请检查网络</text>
+</svg>
