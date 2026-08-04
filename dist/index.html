@@ -639,6 +639,7 @@ const MODULES = [
   {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   unit:'route', img:'assets/sanji.png', char:'山治',  noCheckin:true},
   {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        unit:'餐',   img:'assets/chopper.png', char:'乔巴',  noCheckin:true},
   {id:'overview', name:'今日航海总览', en:"Today's Overview",      unit:'',     img:null,                  char:'🧭', noCheckin:true},
+  {id:'social',   name:'社媒内容',     en:'Social Media',           unit:'篇',   img:'assets/social_av.svg', char:'社媒', noCheckin:true},
 ];
 if(!DB.moduleOrder || !DB.moduleOrder.length) DB.moduleOrder = MODULES.map(m=>m.id);
 // 兼容升级：保留用户自定义顺序，把新模块按 MODULES 默认顺序追加到末尾，过滤已删除模块

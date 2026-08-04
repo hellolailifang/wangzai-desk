@@ -1,8 +1,8 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v37: 全局取消企业字段标签固定宽度，彻底解决冒号后多余空白；手机端字号/行高优化
-const CACHE = 'wz-desk-v37';
+// v38: 新增「社媒内容」模块（抖音账号分析占位 + 每周一篇推荐），加入 social_av.svg
+const CACHE = 'wz-desk-v38';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/ai_av.svg',
+  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/ai_av.svg', './assets/social_av.svg',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
   './assets/face-fallback.svg',
   './assets/people/altman.jpg', './assets/people/bezos.jpg', './assets/people/buffett.jpg', './assets/people/cao.jpg',
