@@ -1,8 +1,8 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v38: 新增「社媒内容」模块（抖音账号分析占位 + 每周一篇推荐），加入 social_av.svg
-const CACHE = 'wz-desk-v38';
+// v39: AI学习头像换萨博(sabo_av.svg)，社媒内容头像换卡普(garp_av.svg)
+const CACHE = 'wz-desk-v39';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/ai_av.svg', './assets/social_av.svg',
+  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo_av.svg', './assets/garp_av.svg',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
   './assets/face-fallback.svg',
   './assets/people/altman.jpg', './assets/people/bezos.jpg', './assets/people/buffett.jpg', './assets/people/cao.jpg',

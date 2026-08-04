@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf6fb"/>
+      <stop offset="1" stop-color="#caf0f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#bgS)"/>
+  <!-- 脸 -->
+  <rect x="60" y="84" width="80" height="80" rx="24" fill="#ffd9b3" stroke="#0a3d62" stroke-width="4"/>
+  <!-- 眼 -->
+  <circle cx="84" cy="110" r="7" fill="#0a3d62"/>
+  <circle cx="116" cy="110" r="7" fill="#0a3d62"/>
+  <!-- 微笑 -->
+  <path d="M82 132 Q100 146 118 132" fill="none" stroke="#0a3d62" stroke-width="4" stroke-linecap="round"/>
+  <!-- 金发刘海 -->
+  <path d="M58 100 Q56 72 100 72 Q144 72 142 100 Q144 112 130 112 Q124 90 100 88 Q76 90 70 112 Q56 112 58 100 Z" fill="#ffcc4d" stroke="#0a3d62" stroke-width="4"/>
+  <!-- 礼帽 檐 -->
+  <ellipse cx="100" cy="64" rx="64" ry="14" fill="#16273a" stroke="#0a3d62" stroke-width="4"/>
+  <!-- 礼帽 顶 -->
+  <rect x="64" y="22" width="72" height="44" rx="12" fill="#16273a" stroke="#0a3d62" stroke-width="4"/>
+  <!-- 帽带 -->
+  <rect x="64" y="54" width="72" height="10" fill="#e63946" stroke="#0a3d62" stroke-width="2"/>
+  <!-- 帽徽 -->
+  <circle cx="100" cy="40" r="8" fill="#ffd166" stroke="#0a3d62" stroke-width="3"/>
+</svg>
