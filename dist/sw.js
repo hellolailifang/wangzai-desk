@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v35: 「每日阅读」升级为「AI学习」模块（7 课 · 内嵌 SVG 图解 + 企业介绍），新增头像 ai_av.svg
-const CACHE = 'wz-desk-v35';
+// v36: 手机端内容字号/行高优化，修复企业字段标签冒号后多余空白
+const CACHE = 'wz-desk-v36';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/ai_av.svg',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
