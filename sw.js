@@ -1,8 +1,8 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v39: AI学习头像换萨博(sabo_av.svg)，社媒内容头像换卡普(garp_av.svg)
-const CACHE = 'wz-desk-v39';
+// v40: 萨博/卡普头像改为 AI 生成动漫 PNG 风格，与路飞/山治统一；社媒与全球徒步路线位置互换
+const CACHE = 'wz-desk-v40';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo_av.svg', './assets/garp_av.svg',
+  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
   './assets/face-fallback.svg',
   './assets/people/altman.jpg', './assets/people/bezos.jpg', './assets/people/buffett.jpg', './assets/people/cao.jpg',

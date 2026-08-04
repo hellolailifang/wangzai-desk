@@ -391,184 +391,128 @@ const CONTENT = {
   ],
   "ai": [
   {
-    "title": "什么是人工智能：从规则到学习",
-    "tag": "第1天 · AI 入门",
+    "title": "第1课：AI 不是魔法，先学会「好好说话」",
+    "tag": "提示词入门 · 今天就能用",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>第 1 天先建立「全局地图」：不用急着懂算法，先把 AI / 机器学习 / 深度学习 三者的包含关系记牢。后面 6 天都是在这张地图上往下钻。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>AI 本质上是一个「接话器」。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 一图看懂 AI 是什么",
-        "body": "<svg viewBox=\"0 0 600 230\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><rect x=\"14\" y=\"14\" width=\"572\" height=\"202\" rx=\"14\" fill=\"#eaf6fb\" stroke=\"#48cae4\" stroke-width=\"2\"/><text x=\"300\" y=\"46\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"#0a3d62\">人工智能 Artificial Intelligence</text><rect x=\"70\" y=\"62\" width=\"430\" height=\"118\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"285\" y=\"94\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">机器学习 Machine Learning</text><rect x=\"140\" y=\"110\" width=\"290\" height=\"52\" rx=\"10\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"285\" y=\"142\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#0a3d62\">深度学习 Deep Learning</text><rect x=\"508\" y=\"150\" width=\"80\" height=\"48\" rx=\"10\" fill=\"#fff\" stroke=\"#adb5bd\" stroke-width=\"2\"/><text x=\"548\" y=\"178\" text-anchor=\"middle\" font-size=\"12\" fill=\"#495057\">规则系统</text><text x=\"300\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">AI 是大帽子；ML 让机器从数据学规律；DL 用神经网络学更复杂模式</text></svg><p>最外层是<b>人工智能（AI）</b>——让机器表现出「像人一样智能」行为的大目标；中间层<b>机器学习（ML）</b>是实现 AI 的主流路径：不写死规则，而是让机器从数据里自己找规律；最内层<b>深度学习（DL）</b>是 ML 的一个分支，用「神经网络」去学特别复杂的模式（比如认图、听懂话）。</p>"
+        "h": "第1天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">角色</text><line x1=\"92\" y1=\"55\" x2=\"108\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,55 100,50 100,60\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">任务</text><line x1=\"187\" y1=\"55\" x2=\"203\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,55 195,50 195,60\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"30\" width=\"50\" height=\"50\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">要求</text></svg><h3>3 分钟看懂</h3><p>AI 本质上是一个「接话器」。你描述得越清楚，它回答越准。记住公式：<b>角色 + 任务 + 要求</b>。不要只说「帮我写个文案」，要让 AI 知道你是谁、给谁看、要什么风格。</p><h3>今天落地</h3><p>打开 <b>豆包 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是一位深圳抖音文案高手。我在深圳做城市探店账号，爱喝咖啡、爱吃辣。请帮我写一条 15 秒口播文案，主题是「深圳周末最值得去的一家咖啡馆」，语气像朋友聊天，结尾要有行动号召。控制在 120 字以内。</blockquote><h3>避坑提醒</h3><p>不要问太开放的问题，比如「咖啡怎么拍」。越具体，AI 越聪明；把平台、字数、语气、人群都说清楚。</p>"
       },
       {
-        "h": "📖 图文讲解：两条路线",
-        "body": "<p>① <b>规则系统</b>（右上角灰框）：人把「如果…就…」一条条写死，比如早期垃圾邮件过滤器。好处是可解释，坏处是一碰到没写过的情形就傻了。</p><p>② <b>机器学习</b>：人不写规则，只给「大量例子」，机器自己归纳规律。今天你用的人脸解锁、短视频推荐，背后都是 ML。一句话记忆：<b>规则靠人写，学习靠数据喂。</b></p>"
-      },
-      {
-        "h": "🏢 相关企业：商汤科技 & 百度",
-        "body": "<p><b>商汤科技（SenseTime）</b>：国内计算机视觉龙头，把「看得懂图像」的 AI 用到手机、汽车、城市安防。它证明了中国公司能在感知智能这条赛道站到世界前列。</p><p><b>百度（Baidu）</b>：最早 All in AI 的国内大厂，自研「文心」大模型与飞桨深度学习框架，把 AI 能力做成云上工具，供中小企业直接调用。</p><p>👉 看点：一家擅长「视觉」，一家擅长「平台+大模型」，正好对应 AI 的两类打法。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>打开手机相册的「搜图」（按物体/地点搜照片），它就是视觉 AI。今天试着搜一个词（如「猫」「海边」），感受一下机器「看懂图」的能力，并想想它背后是规则还是学习。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "机器学习是怎么「学」的",
-    "tag": "第2天 · 机器学习",
+    "title": "第2课：10 分钟让 AI 给你 10 个选题",
+    "tag": "选题库 · 爆款从选题开始",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>记住一句万能话：<b>机器学习 = 数据 + 模型 + 评估</b>。今天重点理解「为什么要用测试集」，这是新手最容易踩的坑。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 机器学习三步闭环",
-        "body": "<svg viewBox=\"0 0 600 210\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><rect x=\"20\" y=\"80\" width=\"130\" height=\"56\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"85.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">数据·清洗</text><line x1=\"150\" y1=\"108\" x2=\"200\" y2=\"108\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"200\" y=\"80\" width=\"150\" height=\"56\" rx=\"12\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"275.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">训练模型</text><line x1=\"350\" y1=\"108\" x2=\"400\" y2=\"108\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"400\" y=\"80\" width=\"150\" height=\"56\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"475.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">预测·推理</text><line x1=\"475\" y1=\"136\" x2=\"275\" y2=\"168\" stroke=\"#e76f51\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><text x=\"275\" y=\"190\" text-anchor=\"middle\" font-size=\"12\" fill=\"#e76f51\">用测试集评估效果，不好就回头调模型</text><text x=\"300\" y=\"44\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#0a3d62\">机器学习三步闭环：给数据 → 训模型 → 拿去用，再复盘</text></svg><p>把「数据」喂给算法，训出一个<b>模型</b>；模型对没见过的新数据做<b>预测</b>；再用<b>测试集</b>（训练时没用过的数据）评估准不准。不准就回头调，如此循环。</p>"
+        "h": "第2天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">定位</text><text x=\"90\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">+</text><rect x=\"105\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"135.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><text x=\"175\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">=</text><rect x=\"190\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">10个选题</text></svg><h3>3 分钟看懂</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。选题不要拍脑袋，要让它基于你的账号标签和受众来批量生成。</p><h3>今天落地</h3><p>打开 <b>豆包 / 通义 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>我在深圳做抖音，账号定位是城市生活/美食探店，爱喝咖啡、爱吃辣。请给我 10 个 8 月可拍的选题，每个配 3 个爆款标题，要求贴近 20-30 岁深圳打工人，有争议、有好奇、有共鸣。</blockquote><h3>避坑提醒</h3><p>AI 给的大路货选题往往相似，你要加入自己的经历、观点和城市细节做差异化。</p>"
       },
       {
-        "h": "📖 图文讲解：过拟合与泛化",
-        "body": "<p>如果模型把<b>训练数据背得滚瓜烂熟</b>、但碰到新题就翻车，叫<b>过拟合</b>——就像死记硬背押题卷、真考试就废。所以我们一定要用「没见过的题」（测试集）来考它。</p><p>好模型的标准是<b>泛化</b>：在陌生数据上也稳。这跟人学习一模一样——能举一反三，才算真学会。</p>"
-      },
-      {
-        "h": "🏢 相关企业：第四范式 & 华为",
-        "body": "<p><b>第四范式（4Paradigm）</b>：主打「企业级机器学习平台」，把建模、训练、上线全流程打包，让银行、零售等传统企业也能用 AI 做风控、推荐，而不必养一支算法团队。</p><p><b>华为</b>：用「昇腾」AI 芯片 + 「盘古」大模型，走「算力+模型」双底座路线，重点服务工业、气象、政务等大宗场景。</p><p>👉 看点：一家卖「平台/方法论」，一家卖「算力+大模型」，是 ML 落地中国的两种关键供给。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>用 Excel 随便造 20 行「身高→体重」数据，画散点图加一条趋势线。你刚做的，就是最简单的「监督学习」——从例子里找出输入到输出的映射。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "深度学习与神经网络",
-    "tag": "第3天 · 深度学习",
+    "title": "第3课：AI 写脚本，但你来把关",
+    "tag": "脚本工作流 · 爆款结构",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>不用推导公式。今天只要建立直觉：<b>神经网络 = 很多层简单的计算叠加</b>，叠得越深，能表达的模式越复杂。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 神经网络长什么样",
-        "body": "<svg viewBox=\"0 0 600 230\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#0a3d62\">神经网络：一层层“神经元”把输入变成输出</text><line x1=\"80\" y1=\"70\" x2=\"230\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"70\" x2=\"230\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"70\" x2=\"230\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"70\" x2=\"230\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"110\" x2=\"230\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"110\" x2=\"230\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"110\" x2=\"230\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"110\" x2=\"230\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"150\" x2=\"230\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"150\" x2=\"230\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"150\" x2=\"230\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"150\" x2=\"230\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"50\" x2=\"380\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"50\" x2=\"380\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"50\" x2=\"380\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"50\" x2=\"380\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"380\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"380\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"380\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"380\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"130\" x2=\"380\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"130\" x2=\"380\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"130\" x2=\"380\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"130\" x2=\"380\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"170\" x2=\"380\" y2=\"50\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"170\" x2=\"380\" y2=\"90\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"170\" x2=\"380\" y2=\"130\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"170\" x2=\"380\" y2=\"170\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"50\" x2=\"530\" y2=\"80\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"50\" x2=\"530\" y2=\"140\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"90\" x2=\"530\" y2=\"80\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"90\" x2=\"530\" y2=\"140\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"130\" x2=\"530\" y2=\"80\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"130\" x2=\"530\" y2=\"140\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"170\" x2=\"530\" y2=\"80\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"170\" x2=\"530\" y2=\"140\" stroke=\"#90caf9\" stroke-width=\"1.5\"/><circle cx=\"80\" cy=\"70\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"110\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"150\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"50\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"90\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"130\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"170\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"50\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"90\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"130\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"170\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"530\" cy=\"80\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><circle cx=\"530\" cy=\"140\" r=\"14\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"80\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" fill=\"#495057\">输入层</text><text x=\"230\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" fill=\"#495057\">隐藏层</text><text x=\"380\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" fill=\"#495057\">隐藏层</text><text x=\"530\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" fill=\"#495057\">输出层</text></svg><p>左边<b>输入层</b>接收原始信号（如一个像素、一个词）；中间<b>隐藏层</b>一层层抽取特征——浅层认边缘，中层认部件，深层认整体；右边<b>输出层</b>给出结论（是猫/不是猫）。层与层之间全连接，权重就是「该怎么组合」的答案。</p>"
+        "h": "第3天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"40\" width=\"240\" height=\"36\" rx=\"8\" fill=\"#ffffff\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"22\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"47.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">钩子</text><rect x=\"76\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"101.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">痛点</text><rect x=\"130\" y=\"42\" width=\"60\" height=\"32\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"160.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">干货</text><rect x=\"194\" y=\"42\" width=\"62\" height=\"32\" rx=\"8\" fill=\"#ff9f1c\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">行动</text></svg><h3>3 分钟看懂</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。AI 出初稿，你改人话，千万别直接念 AI 稿。</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是抖音爆款脚本写手。选题：深圳最辣的 3 家小馆子。目标人群：20-30 岁深圳打工人。要求：前 3 秒用反常识钩子，中间给 3 家店名 + 一句话推荐理由，结尾引导评论「你还知道哪家更辣」。语气像朋友聊天，60 秒口播。输出：口播稿 + 3 个标题。</blockquote><h3>避坑提醒</h3><p>AI 会编假店名、假地址、假价格，凡是涉及真实信息必须人工核对。</p>"
       },
       {
-        "h": "📖 图文讲解：为什么「深」有用",
-        "body": "<p>单层网络表达能力有限；把多层叠起来，就能用简单变换组合出极复杂的函数。2012 年深度学习引爆图像识别，关键就是：<b>更深的网络 + 海量数据 + GPU 算力</b>三者凑齐。</p><p>代价是「黑箱」——我们知道它答得对，却难说清每一层到底在想什么。这正是可解释性研究要解决的。</p>"
-      },
-      {
-        "h": "🏢 相关企业：英伟达 NVIDIA & 寒武纪",
-        "body": "<p><b>英伟达（NVIDIA）</b>：GPU 是训练深度学习不可或缺的算力心脏，其 CUDA 生态几乎成了行业标配，是这一轮 AI 浪潮最大的「卖铲人」。</p><p><b>寒武纪（Cambricon）</b>：国产 AI 芯片代表，专攻云端/边缘的 AI 加速，是「算力自主」版图里的关键一环。</p><p>👉 看点：深度学习火不火，先看「卖铲子」的芯片厂——它们处在整条产业链的咽喉位置。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>在手机 App「Google 猜画小歌 / 你画我猜」里随便画个物体让 AI 猜。感受一下：它并不需要你画得多像，只要关键特征被网络捕捉到就能认出——这就是特征学习的妙处。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "大语言模型 LLM 与 Transformer",
-    "tag": "第4天 · 大模型",
+    "title": "第4课：不用 PS，AI 做封面图",
+    "tag": "AI 生图 · 视觉包装",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>今天的关键词是 <b>Transformer / 注意力 / 预训练</b>。记住：ChatGPT 这类产品，本质是一个「被喂了全互联网文本、学会预测下一个词」的超大型神经网络。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>文生图工具根据 prompt 出图。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 大模型怎么读文字",
-        "body": "<svg viewBox=\"0 0 600 210\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><rect x=\"20\" y=\"80\" width=\"110\" height=\"56\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"75.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">文本输入</text><line x1=\"130\" y1=\"108\" x2=\"175\" y2=\"108\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"175\" y=\"80\" width=\"120\" height=\"56\" rx=\"12\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">Token·向量</text><line x1=\"295\" y1=\"108\" x2=\"340\" y2=\"108\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"340\" y=\"70\" width=\"130\" height=\"76\" rx=\"12\" fill=\"#ffd6a5\" stroke=\"#e76f51\" stroke-width=\"2\"/><text x=\"405.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#0a3d62\">Transformer</text><line x1=\"470\" y1=\"108\" x2=\"510\" y2=\"108\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"510\" y=\"80\" width=\"70\" height=\"56\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"545.0\" y=\"113.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">生成</text><text x=\"300\" y=\"44\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#0a3d62\">大模型先把文字切成 token，再用注意力“读懂”关系，逐字生成回答</text><text x=\"300\" y=\"190\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">训练分两步：海量文本“预训练”打底 + 任务“微调/对齐”定型</text></svg><p>文字先被切成 <b>Token</b>（词或字），变成数字向量（Embedding）；<b>Transformer 的自注意力机制</b>让每个词都能「看」上下文里相关的词；最后模型一个字一个字地<b>生成</b>回答。</p>"
+        "h": "第4天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"57.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">文字 prompt</text><line x1=\"97\" y1=\"57\" x2=\"115\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"115,57 107,52 107,62\" fill=\"#0a3d62\"/><rect x=\"120\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"147.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"177\" y1=\"57\" x2=\"195\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"195,57 187,52 187,62\" fill=\"#0a3d62\"/><rect x=\"200\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"230.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">封面图</text></svg><h3>3 分钟看懂</h3><p>文生图工具根据 prompt 出图。公式：<b>主体 + 场景 + 风格 + 色调</b>。豆包、即梦、可灵都能用，不需要任何设计基础。</p><h3>今天落地</h3><p>打开 <b>豆包 / 即梦 / 可灵</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>一张现代感封面图，深圳咖啡店窗外街景，一杯冰美式放在木桌上，暖色调，日系清新风格，高清，16:9，适合抖音封面。</blockquote><h3>避坑提醒</h3><p>人物手指、文字、招牌常出错；一次生成 5-10 张再挑 1 张，不要指望第一张就完美。</p>"
       },
       {
-        "h": "📖 图文讲解：预训练与微调",
-        "body": "<p>① <b>预训练</b>：在海量文本上练「接话」的基本功，学到语法、常识、世界知识。② <b>微调 / 对齐</b>：再用人工标注的小数据，把模型调成「有用、诚实、安全」。</p><p>为什么大模型啥都能聊？因为它在预训练阶段「读」过了人类绝大部分公开文字，相当于一个读了无数本书的超级通才。它的局限也来自训练数据——没见过的，它就会「一本正经地编」。</p>"
-      },
-      {
-        "h": "🏢 相关企业：OpenAI & 阿里通义",
-        "body": "<p><b>OpenAI</b>：GPT 系列的缔造者，把 LLM 推向大众，定义了「对话式 AI」的产品形态，也带动了全球大模型军备竞赛。</p><p><b>阿里「通义千问（Qwen）」</b>：国内开源大模型的代表之一，把能力强、可私有部署的模型开放出来，降低了中小企业用大模型的门槛。</p><p>👉 看点：一家定义范式，一家推动「开源+自主可控」，分别代表闭源领跑与开放生态两种路线。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>让同一个大模型连续做三件事：①翻译一句话 ②把它改成诗 ③解释刚才的翻译为什么对。你会直观感受到「一个模型，多面能力」——这正是 LLM 的魅力。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "生成式 AI 与多模态",
-    "tag": "第5天 · 多模态",
+    "title": "第5课：把同行爆款「喂」给 AI 做复盘",
+    "tag": "信息处理 · 竞品分析",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>今天拓展「AI 能创作什么」。记住一个词：<b>多模态</b>——同一套 AI 能力，可以跨越文字、图像、声音、视频。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 一个中心，四种输出",
-        "body": "<svg viewBox=\"0 0 600 230\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><circle cx=\"300\" cy=\"115\" r=\"52\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"300\" y=\"110\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#0a3d62\">生成式</text><text x=\"300\" y=\"128\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#0a3d62\">AI</text><line x1=\"352\" y1=\"100\" x2=\"420\" y2=\"70\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"420\" y=\"50\" width=\"150\" height=\"44\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"495.0\" y=\"77.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">文本 文章/代码/对话</text><line x1=\"352\" y1=\"130\" x2=\"420\" y2=\"150\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"420\" y=\"130\" width=\"150\" height=\"44\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"495.0\" y=\"157.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">图像 绘画/设计</text><line x1=\"248\" y1=\"100\" x2=\"180\" y2=\"70\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"30\" y=\"50\" width=\"150\" height=\"44\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"105.0\" y=\"77.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">音频 语音/音乐</text><line x1=\"248\" y1=\"130\" x2=\"180\" y2=\"150\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><rect x=\"30\" y=\"130\" width=\"150\" height=\"44\" rx=\"12\" fill=\"#d6effa\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"105.0\" y=\"157.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">视频 生成/剪辑</text><text x=\"300\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">同一个大模型，能跨文字、图像、声音、视频多种模态“创作”</text></svg><p>生成式 AI 的核心是「根据指令生成新内容」。过去一个模型只做一件事，现在的大模型能<b>跨模态</b>：你用文字下指令，它产出图、文、音、视频。</p>"
+        "h": "第5天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">爆款文案</text><line x1=\"87\" y1=\"57\" x2=\"105\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"105,57 97,52 97,62\" fill=\"#0a3d62\"/><rect x=\"110\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"137.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"167\" y1=\"57\" x2=\"185\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"185,57 177,52 177,62\" fill=\"#0a3d62\"/><rect x=\"190\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"227.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">复盘结论</text></svg><h3>3 分钟看懂</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。关键不是抄，是找规律：它为什么火？哪 3 点我能借鉴？哪些不适合我？</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>下面是一条抖音爆款视频的文案。请帮我分析：① 这条视频为什么火？② 我可以借鉴哪 3 点？③ 哪些不适合我的账号？请用 bullet point 回答。\\n\\n【把爆款文案粘贴在这里】</blockquote><h3>避坑提醒</h3><p>不要照抄同行，要结合自己的账号定位和旺仔的个人特色（爱辣、爱咖啡、深圳）。</p>"
       },
       {
-        "h": "📖 图文讲解：扩散模型与跨模态",
-        "body": "<p>文生图大多靠<b>扩散模型</b>：从一团噪声开始，一步步「去噪」逼近你描述的画面。跨模态的诀窍是「对齐」——把文字、图像塞进同一个语义空间，于是「猫」这个词和猫的图片能互相找到。</p><p>落到产品上就是：一句话出海报、一段描述出短片。创作的门槛被砍到历史最低。</p>"
-      },
-      {
-        "h": "🏢 相关企业：字节跳动 & 微软",
-        "body": "<p><b>字节跳动</b>：旗下「豆包」对话、「即梦」文生图/视频，把生成式 AI 直接嵌进抖音系的亿级流量产品，验证「AI 原生」内容创作的可行性。</p><p><b>微软（Microsoft）</b>：把 Copilot 植入 Office / Windows，让 AI 帮你写文档、做 PPT、汇总邮件，是「AI 融入工作流」的全球样板。</p><p>👉 看点：一家把 AI 用在「内容消费」，一家用在「办公生产」，覆盖生成式 AI 的两大落地战场。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>用任意文生图工具，输入同一句提示「赛博朋克风格的深圳夜晚」生成一张图；再试着加/减一个词（如「下雨」「霓虹」），观察画面如何因指令变化——这就是多模态创作的「可控性」。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "提示词工程：怎么把 AI 用好",
-    "tag": "第6天 · 提示词",
+    "title": "第6课：AI 字幕/配音/数字人，一人成军",
+    "tag": "效率工具 · 剪辑加速",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>今天学「和 AI 对话的手艺」。记住公式：<b>好答案 = 清晰角色 + 明确任务 + 必要约束 + 参考示例</b>。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ 同样的 AI，不同的问法",
-        "body": "<svg viewBox=\"0 0 600 210\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><rect x=\"20\" y=\"40\" width=\"255\" height=\"120\" rx=\"12\" fill=\"#fff\" stroke=\"#adb5bd\" stroke-width=\"2\"/><text x=\"147\" y=\"66\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#e76f51\">❌ 模糊提示</text><text x=\"147\" y=\"96\" text-anchor=\"middle\" font-size=\"13\" fill=\"#495057\">“帮我写点东西”</text><text x=\"147\" y=\"128\" text-anchor=\"middle\" font-size=\"12\" fill=\"#868e96\">→ 结果空泛、跑题</text><rect x=\"325\" y=\"40\" width=\"255\" height=\"120\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"452\" y=\"66\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1b6ca8\">✅ 结构化提示</text><text x=\"452\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" fill=\"#0a3d62\">角色＋任务＋约束＋示例</text><text x=\"452\" y=\"114\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">→ 聚焦、可控、好用</text><text x=\"300\" y=\"190\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">把需求说清楚，AI 的产出质量天差地别</text></svg><p>左边「帮我写点东西」太模糊，AI 只能瞎猜；右边把<b>角色、任务、格式、边界</b>都给清，产出立刻聚焦好用。模型没变，变的是你的提问。</p>"
+        "h": "第6天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">字幕</text><rect x=\"95\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"130.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">配音</text><rect x=\"175\" y=\"35\" width=\"90\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"220.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">数字人辅助</text></svg><h3>3 分钟看懂</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。新手先学 1-2 个就够了，不要贪多。</p><h3>今天落地</h3><p>打开 <b>剪映 / 豆包 / 度加</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>（本节课以工具操作为主）把昨天拍好的视频导入剪映，点击「识别字幕」一键生成字幕；或打开豆包「音色克隆」，录制 30 秒自己的声音，让 AI 帮你读一段口播。</blockquote><h3>避坑提醒</h3><p>AI 配音可能没情绪，关键片段建议自己配；数字人目前更像辅助，不要让它完全替代真人出镜。</p>"
       },
       {
-        "h": "📖 图文讲解：几个实用技巧",
-        "body": "<p>① <b>给角色</b>：＂你是有 10 年经验的健身教练…＂能框定语气与专业度。② <b>拆步骤</b>：让它「先列提纲再写」，比直接要成品更稳。③ <b>上示例</b>：给 1–2 个样板，它马上懂你要的格式。④ <b>设边界</b>：限定字数、风格、不能做什么。</p><p>进阶还能用<b>思维链（CoT）</b>：让模型「一步步想」，复杂推理题准确率明显提升。</p>"
-      },
-      {
-        "h": "🏢 相关企业：Anthropic & 月之暗面",
-        "body": "<p><b>Anthropic</b>：Claude 的打造者，提出 <b>Constitutional AI</b>，强调「安全、可控、可解释」，在长文本与遵循指令上口碑突出，是提示词「对齐」研究的领头羊。</p><p><b>月之暗面（Moonshot / Kimi）</b>：以「超长上下文」出圈，能一次读几十万字再回答，把「给足材料再问」变成了顺手的事。</p><p>👉 看点：一家定义「安全对齐」标准，一家把「长上下文」做成差异点——都是围绕「如何更好地驾驭大模型」。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>挑一件你今天要写的事（周报/朋友圈/邮件），先用一句话模糊地让 AI 写，再用「角色+任务+格式+示例」重写一遍提示。对比两份结果，把让你满意的那版提示存进备忘录，以后复用。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   },
   {
-    "title": "AI Agent 智能体：会自己干活的 AI",
-    "tag": "第7天 · 智能体",
+    "title": "第7课：把 6 天串成你的 AI 工作流",
+    "tag": "SOP · 持续迭代",
     "blocks": [
       {
-        "h": "💡 今日学习提示",
-        "body": "<p>最后一天看到「AI 的终点形态」：从「你问它答」升级成「你下目标，它自己跑完」。记住五个字：<b>感知·规划·行动·工具·记忆</b>。</p>"
+        "h": "今日复盘",
+        "body": "<h3>今日复盘</h3><p>模板化是提高效率的关键。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
       },
       {
-        "h": "🖼️ Agent 是怎么转圈的",
-        "body": "<svg viewBox=\"0 0 600 230\" width=\"100%\" style=\"max-width:560px;height:auto;display:block;margin:10px auto;border-radius:12px;background:#f4fbff;\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#1b6ca8\"/></marker><marker id=\"ag\" markerWidth=\"10\" markerHeight=\"10\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#e76f51\"/></marker></defs><circle cx=\"300\" cy=\"115\" r=\"46\" fill=\"#bde0fe\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"300\" y=\"111\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#0a3d62\">大模型</text><text x=\"300\" y=\"128\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0a3d62\">大脑</text><rect x=\"300\" y=\"18\" width=\"110\" height=\"40\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"355.0\" y=\"43.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">① 感知</text><rect x=\"470\" y=\"95\" width=\"110\" height=\"40\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"525.0\" y=\"120.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">② 规划</text><rect x=\"390\" y=\"185\" width=\"110\" height=\"40\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"445.0\" y=\"210.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">③ 行动</text><rect x=\"110\" y=\"185\" width=\"110\" height=\"40\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"165.0\" y=\"210.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">④ 用工具</text><rect x=\"30\" y=\"95\" width=\"110\" height=\"40\" rx=\"12\" fill=\"#fff\" stroke=\"#1b6ca8\" stroke-width=\"2\"/><text x=\"85.0\" y=\"120.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#0a3d62\">⑤ 记忆</text><line x1=\"410\" y1=\"38\" x2=\"478\" y2=\"95\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><line x1=\"580\" y1=\"135\" x2=\"540\" y2=\"185\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><line x1=\"390\" y1=\"225\" x2=\"220\" y2=\"205\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><line x1=\"110\" y1=\"135\" x2=\"140\" y2=\"185\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><line x1=\"140\" y1=\"95\" x2=\"300\" y2=\"58\" stroke=\"#1b6ca8\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><text x=\"300\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1b6ca8\">Agent 自己转圈：看懂环境→想步骤→动手→调工具→记住，循环直到完成</text></svg><p>智能体以<b>大模型为大脑</b>：先<b>感知</b>环境与目标，<b>规划</b>出步骤，<b>行动</b>并执行，过程中<b>调用工具</b>（搜索、写代码、发邮件），再把结果写进<b>记忆</b>，循环直到任务完成。</p>"
+        "h": "第7天 · 今天就能做",
+        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">模板</text><line x1=\"92\" y1=\"57\" x2=\"108\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,57 100,52 100,62\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">复用</text><line x1=\"187\" y1=\"57\" x2=\"203\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,57 195,52 195,62\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"35\" width=\"50\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">优化</text></svg><h3>3 分钟看懂</h3><p>模板化是提高效率的关键。把 prompt、选题、脚本、封面、复盘固定成文档，每次复用并优化，AI 才会越用越顺手。</p><h3>今天落地</h3><p>打开 <b>腾讯文档 / 飞书文档</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>帮我整理一份「旺仔抖音 AI 工作 SOP」文档，包含：① 选题 prompt 模板 ② 脚本 prompt 模板 ③ 封面图 prompt 模板 ④ 复盘问题清单。每项用 checklist 形式输出，方便每次复用。</blockquote><h3>避坑提醒</h3><p>模板不是死板的，每拍 10 条就要升级一次 prompt，否则观众会腻、数据会掉。</p>"
       },
       {
-        "h": "📖 图文讲解：Agent 与「普通对话」的区别",
-        "body": "<p>普通大模型是「被动答题机」；<b>Agent 是能主动闭环的执行者</b>：它会自己决定下一步、自己查资料、自己调用软件，而不是等你一步步喂指令。</p><p>关键能力有三：<b>规划</b>（把大目标拆小）、<b>工具使用</b>（会联网/会跑代码）、<b>记忆</b>（跨步骤不忘事）。这三者凑齐，AI 才从「参谋」变成「员工」。</p>"
-      },
-      {
-        "h": "🏢 相关企业：腾讯 & Google",
-        "body": "<p><b>腾讯</b>：自研「混元」大模型，并把 Agent 能力嵌进微信、企点等场景，做「能调用业务系统、帮人跑流程」的智能体，是国内「Agent+超级 App」的典型实践。</p><p><b>Google</b>：以 Gemini 多模态模型为底座，推出 Project Astra / 各类 Agent 框架，探索「能看能听、自主完成多步任务」的下一代助手。</p><p>👉 看点：一家把 Agent 接进国民级应用，一家用全栈多模态押注「通用智能体」，代表中美两条演进路径。</p>"
-      },
-      {
-        "h": "🛠️ 动手实践",
-        "body": "<p>试一个带「工具」的 Agent（如能联网/能跑代码的助手），给它一个真实小目标：＂帮我查本周深圳天气，挑一个不下雨的晚上，写一句约饭文案＂。看它如何自己分解、查数据、产出——这就是 Agent 的工作方式。</p>"
+        "h": "动手清单",
+        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
       }
     ]
   }
