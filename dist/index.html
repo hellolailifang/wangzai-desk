@@ -137,79 +137,7 @@
   .mob-quote .refresh{cursor:pointer;font-size:11px;color:var(--ocean);margin-left:8px;text-decoration:underline;}
 
   /* 首页内嵌头部（金句+时间+天气，紧挨标题下方） */
-  .home-header{
-    margin:0 0 6px;padding:7px 12px 6px;
-    padding-top:calc(7px + env(safe-area-inset-top));
-    background:linear-gradient(135deg,#ffffff,rgba(144,224,239,.18));
-    border-radius:12px;
-    box-shadow:var(--shadow-sm);
-    border-left:3px solid var(--gold);
-  }
-  .home-header .hh-quote{margin-bottom:3px;}
-  .home-header .hh-quote .zh{font-size:11.5px;font-weight:700;color:var(--ocean-deep);line-height:1.25;}
-  .home-header .hh-quote .en{font-size:9.5px;color:var(--ink-soft);margin-top:1px;line-height:1.15;}
-  .home-header .hh-quote .refresh{cursor:pointer;font-size:9.5px;color:var(--ocean);margin-left:4px;text-decoration:underline;}
-  .home-header .hh-time-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
-  .home-header .hh-time{
-    font-size:19px;font-weight:800;color:var(--ocean-deep);
-    font-variant-numeric:tabular-nums;letter-spacing:.5px;line-height:1;
-  }
-  .home-header .hh-time .sec{font-size:10.5px;color:var(--ocean);margin-left:1px;font-weight:700;}
-  .home-header .hh-day{
-    font-size:10px;font-weight:700;color:#1b6ca8;
-    background:rgba(27,108,168,.1);padding:2px 7px;border-radius:20px;
-    letter-spacing:.5px;
-  }
-  .home-header .hh-meta{font-size:10.5px;color:var(--ink);display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin-top:2px;}
-  .home-header .hh-date{font-weight:600;}
-  .home-header .hh-lunar{color:var(--ink-soft);}
-  .home-header .hh-sep{color:rgba(10,61,98,.3);}
-  .home-header .hh-weather{display:flex;align-items:center;gap:3px;color:var(--ink-soft);font-size:11px;}
-  .home-header .hh-w-icon{font-size:14px;}
-  .home-header .hh-w-temp{font-weight:800;color:var(--ocean-deep);font-size:12px;}
-  .home-header .hh-w-refresh{cursor:pointer;font-size:9.5px;color:var(--ocean);text-decoration:underline;margin-left:3px;}
-
   /* 手机端时间栏（仅窄屏可见，含实时时间 / 公历 / 农历 / 周几 / 天气） */
-  .mob-timebar{
-    display:none;
-    margin:0 0 12px;padding:14px 16px 13px;
-    background:linear-gradient(135deg,#ffffff,rgba(144,224,239,.22));
-    border-radius:14px;
-    box-shadow:var(--shadow-sm);
-    border:1px solid rgba(72,202,228,.28);
-    border-left:3px solid var(--gold);
-  }
-  .mob-timebar .mt-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
-  .mob-timebar .mt-row + .mt-row{margin-top:7px;}
-  .mob-timebar .mt-time{
-    font-size:36px;font-weight:800;color:var(--ocean-deep);
-    font-variant-numeric:tabular-nums;letter-spacing:1px;line-height:1;
-  }
-  .mob-timebar .mt-time .sec{font-size:17px;color:var(--ocean);margin-left:2px;font-weight:700;}
-  .mob-timebar .mt-day{
-    font-size:12.5px;font-weight:700;color:#1b6ca8;
-    background:rgba(27,108,168,.1);padding:4px 11px;border-radius:20px;
-    letter-spacing:.5px;
-  }
-  .mob-timebar .mt-date{font-size:13px;color:var(--ink);font-weight:600;}
-  .mob-timebar .mt-lunar{font-size:12.5px;color:var(--ink-soft);}
-  .mob-timebar .mt-sep{color:rgba(10,61,98,.3);font-size:12px;}
-  .mob-timebar .mt-weather{font-size:13px;color:var(--ink);display:flex;align-items:center;gap:6px;}
-  .mob-timebar .mt-w-icon{font-size:18px;line-height:1;}
-  .mob-timebar .mt-w-temp{font-weight:800;color:var(--ocean-deep);font-size:14px;}
-  .mob-timebar .mt-w-cond{color:var(--ink-soft);}
-  .mob-timebar .mt-w-city{color:var(--ink-soft);font-size:12px;}
-  .mob-timebar .mt-w-refresh{
-    margin-left:auto;cursor:pointer;font-size:11px;color:var(--ocean);
-    text-decoration:underline;user-select:none;display:inline-flex;align-items:center;gap:4px;
-  }
-  .mob-timebar .mt-w-refresh.loading{color:var(--ink-soft);text-decoration:none;cursor:default;}
-  .mob-timebar .mt-dot{width:8px;height:8px;border-radius:50%;background:#999;display:inline-block;flex:none;}
-  .mob-timebar .mt-dot.live{background:#22c55e;box-shadow:0 0 6px #22c55e;animation:mtPulse 2s infinite;}
-  .mob-timebar .mt-dot.stale{background:#f59e0b;}
-  .mob-timebar .mt-dot.off{background:#cbd5e1;}
-  @keyframes mtPulse{0%,100%{opacity:1;}50%{opacity:.5;}}
-
   .content{flex:1;overflow-y:auto;padding:24px 26px 40px;}
   .view-title{font-size:20px;font-weight:800;color:var(--ocean-deep);margin-bottom:4px;display:flex;align-items:center;gap:10px;}
   .view-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
@@ -466,8 +394,7 @@
     .main{width:100%;margin:0;flex-direction:column-reverse;}
     .topbar{display:none;}
     .mob-quote.visible{display:block;}
-    .mob-timebar.visible{display:block;}
-    .content{padding:0 0 12px;background:#f4fbff;}
+    .content{padding:0 0 0;background:#ffffff;}
     /* 让所有模块内容在手机上贴边铺满，仅卡片内部保留呼吸间隙 */
     .mob-back{padding:calc(8px + env(safe-area-inset-top)) 12px 8px;font-size:14px;}
     .mob-back .arrow{font-size:18px;}
@@ -505,17 +432,41 @@
     .view-title{font-size:15px;margin:10px 12px 4px;}
     .mob-back{padding-left:12px;padding-right:12px;}
     /* 首页：紧凑流式布局，卡片撑满剩余高度，无顶/底留白 */
-    .home-pushed{display:flex;flex-direction:column;height:100%;}
+    .home-pushed{display:flex;flex-direction:column;height:100%;background:#ffffff;}
     .view-sub{display:none;}
-    .progress-ring-wrap{display:none;}  /* 窄屏隐藏进度环，省空间 */
-    .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:6px 7px;margin:0 12px;flex:1;min-height:0;}
-    .mini-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4px 3px;gap:3px;position:relative;border-radius:11px;height:100%;}
+    /* 灵动岛式进度环：窄屏显示并压缩 */
+    .progress-ring-wrap.home-ring{display:flex;margin:8px 12px 6px;padding:9px 12px;border-radius:14px;min-height:64px;gap:12px;background:rgba(255,255,255,.95);}
+    .home-ring .ring{width:48px;height:48px;flex:0 0 48px;}
+    .home-ring svg{width:48px;height:48px;display:block;}
+    .home-ring .num b{font-size:17px;}
+    .home-ring .num span{font-size:9px;}
+    .home-ring .progress-meta h3{font-size:12.5px;margin-bottom:2px;}
+    .home-ring .progress-meta p{font-size:10px;line-height:1.35;}
+    .home-ring .ghost-btn{display:none;}
+    /* 今日航海总览：紧凑横向滚动 */
+    .home-ov-section{margin:0 12px 6px;flex:0 0 auto;max-height:108px;overflow:hidden;}
+    .home-ov-title{font-size:13px;margin:0 0 4px;}
+    .home-ov-title .en-sm{font-size:9px;}
+    .home-ov-list{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+    .home-ov-list::-webkit-scrollbar{display:none;}
+    .home-ov-card{flex:0 0 74%;min-width:200px;padding:7px 9px;margin:0;border-radius:10px;background:rgba(255,255,255,.96);gap:9px;}
+    .home-ov-card .av{width:30px;height:30px;}
+    .home-ov-card .ov-nm{font-size:11.5px;}
+    .home-ov-card .ov-tt{font-size:10px;}
+    .home-ov-card .ov-sum{display:none;}
+    .home-ov-card .mini-check{width:18px;height:18px;font-size:9px;line-height:18px;}
+    /* 模块网格：自适应填充剩余空间 */
+    .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
+    .mini-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3px 2px;gap:2px;position:relative;border-radius:10px;height:100%;background:rgba(255,255,255,.96);}
     .mini-card .info{align-items:center;flex:none;}
-    .mini-card .st{font-size:9px;opacity:.72;}
-    .mini-card .st.en-sub{font-size:9.5px;color:var(--ink-soft);font-weight:400;opacity:.85;}
-    .mini-card .nm{font-size:12px;line-height:1.15;}
-    .mini-card .av{width:28px;height:28px;flex:0 0 28px;}
-    .mini-card .mini-check{position:absolute;top:5px;right:5px;width:18px;height:18px;font-size:11px;line-height:18px;}
+    .mini-card .st{font-size:8px;opacity:.72;}
+    .mini-card .st.en-sub{font-size:8.5px;}
+    .mini-card .nm{font-size:11px;line-height:1.1;}
+    .mini-card .av{width:24px;height:24px;flex:0 0 24px;}
+    .mini-card .mini-check{position:absolute;top:4px;right:4px;width:16px;height:16px;font-size:10px;line-height:16px;}
+    /* 底部海贼王图片：融入白色背景，消除留白 */
+    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0 12px;margin-bottom:calc(4px + env(safe-area-inset-bottom));}
+    .home-bottom-img img{width:100%;max-height:170px;object-fit:contain;object-position:bottom;display:block;}
     .mob-back{display:flex;}
   }
 </style>
@@ -544,28 +495,6 @@
       </div>
     </div>
     <div class="content" id="content"></div>
-    <!-- 手机端时间栏（实时时间 / 公历 / 农历 / 周几 / 天气，仅首页显示） -->
-    <div class="mob-timebar" id="mobTimeBar">
-      <div class="mt-row">
-        <div class="mt-time" id="mtTime">--:--<span class="sec">:--</span></div>
-        <div class="mt-day" id="mtDay">—</div>
-      </div>
-      <div class="mt-row">
-        <span class="mt-date" id="mtDate">—</span>
-        <span class="mt-sep">·</span>
-        <span class="mt-lunar" id="mtLunar">—</span>
-      </div>
-      <div class="mt-row">
-        <span class="mt-dot off" id="mtDot"></span>
-        <span class="mt-weather" id="mtWeather">
-          <span class="mt-w-icon" id="mtWIcon">⏳</span>
-          <span class="mt-w-cond" id="mtWCond">天气加载中…</span>
-          <span class="mt-w-temp" id="mtWTemp"></span>
-          <span class="mt-w-city" id="mtWCity"></span>
-        </span>
-        <span class="mt-w-refresh" id="mtWRefresh">刷新<span class="en-sm">Refresh</span></span>
-      </div>
-    </div>
     <!-- 手机端金句栏（桌面端隐藏，手机端显示在刘海下方） -->
     <div class="mob-quote" id="mobQuoteBar">
       <div class="zh" id="mobQuoteZh">—</div>
@@ -1035,54 +964,26 @@ function renderHome(){
   const content=$('#content');
   content.className = 'content home-pushed';
 
-  // 取当前金句
-  const qi = DB.quoteIdx ?? 0;
-  const q = QUOTES[qi] || QUOTES[0];
-
-  // 构建时间栏数据
-  const now = new Date();
-  const h=String(now.getHours()).padStart(2,'0');
-  const m=String(now.getMinutes()).padStart(2,'0');
-  const s=String(now.getSeconds()).padStart(2,'0');
-  const wks=['日','一','二','三','四','五','六'];
-  const timeStr = `${h}:${m}<span class="sec">:${s}</span>`;
-  const dayStr = `周${wks[now.getDay()]}`;
-  const dateStr = `${now.getFullYear()}/${now.getMonth()+1}/${now.getDate()}`;
-  const lunarStr = getLunarString(now.getFullYear(), now.getMonth()+1, now.getDate());
-  // 天气（从缓存或默认值）
-  const wIcon = window._homeWIcon || '⏳';
-  const wCond = window._homeWCond || '加载中…';
-  const wTemp = window._homeWTemp || '';
-  const wCity = window._homeWCity || WX_DEFAULT.name;
+  // 首页紧凑版总览列表（复用 renderOverview 的卡片逻辑）
+  const ovList = moduleOrderList().filter(m=>m.id!=='overview').map(m=>{
+    const ent=getTodayEntry(m.id);
+    const isDone=m.noCheckin?true:!!getMod(m.id).checkins[t];
+    const title=ent?ent.e.title:'—';
+    const summary=ent?stripHtml((ent.e.blocks&&ent.e.blocks[0]&&ent.e.blocks[0].body)||'').slice(0,70):'';
+    return `<div class="ov-card home-ov-card" data-id="${m.id}">
+      <span class="av">${avatarSVG(m,40)}</span>
+      <div class="ov-info">
+        <div class="ov-nm">${m.name}</div>
+        <div class="ov-tt">${title}</div>
+        ${summary?`<div class="ov-sum">${summary}</div>`:''}
+      </div>
+      <div class="mini-check" style="${isDone?'background:var(--ocean);border-color:var(--ocean);color:#fff;':''}">${isDone?'✓':'‹'}</div>
+    </div>`;
+  }).join('');
 
   content.innerHTML = `
-    <div class="home-header" id="homeHeader">
-      <div class="hh-quote">
-        <div class="zh" id="hhQuoteZh">${q.zh}</div>
-        <div class="en" id="hhQuoteEn">${q.en} <span class="refresh" id="hhQuoteRefresh">换一句</span></div>
-      </div>
-      <div class="hh-time-row">
-        <div class="hh-time" id="hhTime">${timeStr}</div>
-        <div class="hh-day" id="hhDay">${dayStr}</div>
-      </div>
-      <div class="hh-meta">
-        <span class="hh-date" id="hhDate">${dateStr}</span>
-        <span class="hh-sep">·</span>
-        <span class="hh-lunar" id="hhLunar">${lunarStr}</span>
-        <span class="hh-sep">·</span>
-        <span class="hh-weather" id="hhWeather">
-          <span class="hh-w-icon" id="hhWIcon">${wIcon}</span>
-          <span class="hh-w-cond" id="hhWCond">${wCond}</span>
-          <span class="hh-w-temp" id="hhWTemp">${wTemp}</span>
-          <span style="font-size:10.5px;opacity:.7;margin-left:2px;" id="hhWCity">${wCity}</span>
-        </span>
-        <span class="hh-w-refresh" id="hhWRefresh">刷新</span>
-      </div>
-    </div>
-    <div class="view-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
-    <div class="view-sub">${t} · 完成今日打卡，扬帆起航！<span class="en-sm">Finish today's check-in and set sail!</span></div>
     ${checkable.length ? `
-    <div class="progress-ring-wrap">
+    <div class="progress-ring-wrap home-ring">
       <div class="ring">
         <svg width="96" height="96">
           <circle cx="48" cy="48" r="${R}" stroke="#caf0f8" stroke-width="9" fill="none"/>
@@ -1093,20 +994,24 @@ function renderHome(){
       </div>
       <div class="progress-meta">
         <h3>今日已打卡 ${done} 项<span class="en-sm">${done} checked today</span></h3>
-        <p>完成度 ${pct}% · 点击右侧卡片可直接打卡，点击卡片进入详情记录数据。<span class="en-sm">Completion ${pct}% · Tap a card to check in, or open it for details.</span></p>
+        <p>完成度 ${pct}% · 点击卡片可打卡<span class="en-sm">Completion ${pct}% · Tap to check in</span></p>
       </div>
-      <button class="ghost-btn" id="resetToday">↻ 重置今日打卡<span class="en-sm">Reset today</span></button>
+      <button class="ghost-btn" id="resetToday">↻ 重置<span class="en-sm">Reset</span></button>
     </div>`:''}
+    <div class="home-ov-section">
+      <div class="view-title home-ov-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
+      <div class="home-ov-list">${ovList}</div>
+    </div>
     <div class="card-grid" id="miniGrid"></div>
+    <div class="home-bottom-img"><img src="assets/bottom_crew.jpg" alt="crew" loading="lazy"></div>
   `;
   $('#miniGrid').innerHTML = MODULES.filter(m=>m.id!=='overview').map(m=>{
     const mod=getMod(m.id);
     const isDone=!!mod.checkins[t];
-    const val=mod.logs[t]||0;
     const lb=L(m);
     if(m.noCheckin){
       return `<div class="mini-card ${isDone?'done':''}" data-id="${m.id}">
-        <span class="av">${avatarSVG(m,46)}</span>
+        <span class="av">${avatarSVG(m,40)}</span>
         <div class="info">
           <div class="nm">${m.name}</div>
           <div class="st en-sub">${m.en || ''}</div>
@@ -1115,7 +1020,7 @@ function renderHome(){
       </div>`;
     }
     return `<div class="mini-card ${isDone?'done':''}" data-id="${m.id}">
-      <span class="av">${avatarSVG(m,46)}</span>
+      <span class="av">${avatarSVG(m,40)}</span>
       <div class="info">
         <div class="nm">${m.name}</div>
         <div class="st en-sub">${m.en || ''}</div>
@@ -1131,18 +1036,13 @@ function renderHome(){
     }
     el.addEventListener('click',()=>openModule(id));
   });
+  content.querySelectorAll('.home-ov-card').forEach(el=>el.addEventListener('click',()=>openModule(el.dataset.id)));
   const rbHome=$('#resetToday'); if(rbHome) rbHome.onclick=()=>{
     if(confirm("确定要清空今天的全部打卡记录吗？历史数据会保留。\nClear all of today's check-ins? History kept.")){
       MODULES.forEach(m=>{ delete getMod(m.id).checkins[t]; delete getMod(m.id).logs[t]; });
       save(DB); renderHome(); refreshNavDots();
     }
   };
-  // 首页头部：换一句
-  const hqr=$('#hhQuoteRefresh'); if(hqr) hqr.onclick=function(e){e.stopPropagation(); DB.quoteIdx=(DB.quoteIdx+1)%QUOTES.length; save(DB); var q=QUOTES[DB.quoteIdx]||QUOTES[0]; document.getElementById('hhQuoteZh').textContent=q.zh; document.getElementById('hhQuoteEn').innerHTML=q.en+' <span class="refresh" id="hhQuoteRefresh">换一句</span>'; document.getElementById('hhQuoteRefresh').onclick=arguments.callee;};
-  // 首页头部：刷新天气
-  var hwrf=document.getElementById('hhWRefresh'); if(hwrf) hwrf.onclick=function(e){e.stopPropagation(); fetchHomeWeather();};
-  // 启动首页时间跳动
-  tickHomeTime();
 }
 
 /* ============ 模块详情 ============ */
@@ -1597,16 +1497,6 @@ function init(){
   renderHome();
   refreshNavDots();
   tickClock(); setInterval(tickClock,1000);
-  // 手机端时间栏：实时刷新 + 天气获取
-  tickMobTime(); setInterval(tickMobTime,1000);
-  renderMobWeather();
-  setInterval(()=>renderMobWeather(false), 30*60*1000);
-  const wxBtn=document.getElementById('mtWRefresh');
-  if(wxBtn) wxBtn.onclick=()=>renderMobWeather(true);
-  // 首页内嵌头部：时间跳动 + 天气
-  tickHomeTime(); setInterval(tickHomeTime,1000);
-  fetchHomeWeather();
-  setInterval(()=>fetchHomeWeather(), 30*60*1000);
   // 跨天自动刷新：0点后清除手动刷新标记，回到"日历日稳定内容"，并重渲染当前视图
   let _lastDay = todayStr();
   setInterval(()=>{
@@ -1618,7 +1508,7 @@ function init(){
         Object.keys(DB.contentMeta).forEach(k=>{ if(DB.contentMeta[k]) delete DB.contentMeta[k].pick; });
         try{ save(DB); }catch(_){}
       }
-      ensureDailyQuote(); refreshNavDots(); tickMobTime();
+      ensureDailyQuote(); refreshNavDots();
       // 若正打开某模块，重渲染以展示新内容
       const open = document.querySelector('.nav-item.active');
       if(open && open.dataset.id) openModule(open.dataset.id);
@@ -1626,12 +1516,7 @@ function init(){
     }
   }, 30000);
   // 离线 / 恢复在线时给个轻提示（仅非桌面）
-  const _onlineHandler=()=>{
-    if(navigator.onLine){
-      renderMobWeather(true);
-    }
-  };
-  window.addEventListener('online', _onlineHandler);
+  window.addEventListener('online', ()=>{ /* 天气模块已移除，此处保留事件占位 */ });
 }
 init();
 
