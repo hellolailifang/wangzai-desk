@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v41: 首页重排：移除顶部问候/时间/天气，总览上移动态岛下，底部加入海贼王背影图，模块紧凑铺满 iPhone17
-const CACHE = 'wz-desk-v41';
+// v42: 首页移除横向滑动总览（与模块重复），底部海贼王图全宽铺满并融合背景
+const CACHE = 'wz-desk-v42';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
