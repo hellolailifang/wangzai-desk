@@ -445,7 +445,7 @@
     .home-ring .ghost-btn{display:none;}
     /* 今日航海总览：仅保留标题，字号放大 2 号 */
     .home-ov-section{margin:0 12px 6px;flex:0 0 auto;}
-    .home-ov-title{font-size:15px;margin:0 0 4px;font-weight:800;}
+    .home-ov-title{font-size:17px;margin:0 0 4px;font-weight:800;}
     .home-ov-title .en-sm{font-size:10px;font-weight:600;}
     /* 模块网格：自适应填充剩余空间 */
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
@@ -456,8 +456,8 @@
     .mini-card .nm{font-size:11px;line-height:1.1;}
     .mini-card .av{width:24px;height:24px;flex:0 0 24px;}
     .mini-card .mini-check{position:absolute;top:4px;right:4px;width:16px;height:16px;font-size:10px;line-height:16px;}
-    /* 底部海贼王图片：全宽铺满 iPhone17，整图不裁剪，只等比缩放 */
-    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0;margin-bottom:calc(4px + env(safe-area-inset-bottom));width:100%;overflow:hidden;background:transparent;}
+    /* 底部海贼王图片：全宽铺满 iPhone17，整图不裁剪，下方背景取图片底部色融合 */
+    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0;margin-bottom:0;width:100%;overflow:hidden;background:#cda782;}
     .home-bottom-img img{width:100%;height:auto;display:block;}
     .mob-back{display:flex;}
   }
