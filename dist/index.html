@@ -432,7 +432,7 @@
     .view-title{font-size:15px;margin:10px 12px 4px;}
     .mob-back{padding-left:12px;padding-right:12px;}
     /* 首页：紧凑流式布局，卡片撑满剩余高度，无顶/底留白 */
-    .home-pushed{display:flex;flex-direction:column;height:100%;background:#ffffff;}
+    .home-pushed{display:flex;flex-direction:column;height:100%;background:#ffffff;padding-top:calc(env(safe-area-inset-top) + 4px);}
     .view-sub{display:none;}
     /* 灵动岛式进度环：窄屏显示并压缩 */
     .progress-ring-wrap.home-ring{display:flex;margin:8px 12px 6px;padding:9px 12px;border-radius:14px;min-height:64px;gap:12px;background:rgba(255,255,255,.95);}
@@ -447,6 +447,8 @@
     .home-ov-section{margin:0 12px 6px;flex:0 0 auto;}
     .home-ov-title{font-size:17px;margin:0 0 4px;font-weight:800;}
     .home-ov-title .en-sm{font-size:10px;font-weight:600;}
+    /* 每日旺仔问候语：在总览标题上方，灵动岛下方 */
+    .home-greet{margin:2px 14px 8px;font-size:14px;line-height:1.5;font-weight:600;color:#0a3d62;}
     /* 模块网格：自适应填充剩余空间 */
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
     .mini-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3px 2px;gap:2px;position:relative;border-radius:10px;height:100%;background:rgba(255,255,255,.96);}
@@ -456,9 +458,6 @@
     .mini-card .nm{font-size:11px;line-height:1.1;}
     .mini-card .av{width:24px;height:24px;flex:0 0 24px;}
     .mini-card .mini-check{position:absolute;top:4px;right:4px;width:16px;height:16px;font-size:10px;line-height:16px;}
-    /* 底部海贼王图片：与模块左右对齐，轻微模糊并降低亮度，避免太抢眼 */
-    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0 12px;margin-bottom:0;width:100%;overflow:hidden;background:#ffffff;}
-    .home-bottom-img img{width:100%;height:auto;display:block;filter:blur(0.8px) brightness(0.92);}
     .mob-back{display:flex;}
   }
 </style>
@@ -942,6 +941,23 @@ function showMobQuote(show){
   if(el) el.classList.toggle('visible', !!show);
 }
 
+/* ============ 主页每日问候语（按天轮换 + 时段前缀） ============ */
+function dailyGreeting(){
+  const now = new Date();
+  const h = now.getHours();
+  const period = h<11 ? '早上好' : h<14 ? '中午好' : h<18 ? '下午好' : '晚上好';
+  const lines = [
+    '新的一天，新的航海图已经展开，出发吧！⚓',
+    '海上的风很顺，今天也要稳稳地向前 ⛵',
+    '别忘了喝水、别久坐，旺仔要健康地变强 💪',
+    '今天的任务不多，但每一件都值得认真做 ✅',
+    '把难的事放最前面，剩下的就是顺风航行 🌊',
+    '保持节奏，别焦虑，一步步来就好 🐢',
+    '今天也要像路飞一样，笑着往前冲 🏴‍☠️'
+  ];
+  return `${period}，旺仔！${lines[dayNumber() % lines.length]}`;
+}
+
 /* ============ 主页（桌面总览） ============ */
 function renderHome(){
   showMobQuote(false);
@@ -973,11 +989,11 @@ function renderHome(){
       </div>
       <button class="ghost-btn" id="resetToday">↻ 重置<span class="en-sm">Reset</span></button>
     </div>`:''}
+    <div class="home-greet">${dailyGreeting()}</div>
     <div class="home-ov-section">
       <div class="view-title home-ov-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
     </div>
     <div class="card-grid" id="miniGrid"></div>
-    <div class="home-bottom-img"><img src="assets/bottom_crew.jpg" alt="crew" loading="lazy"></div>
   `;
   $('#miniGrid').innerHTML = MODULES.filter(m=>m.id!=='overview').map(m=>{
     const mod=getMod(m.id);
