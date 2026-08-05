@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v43: 恢复顶部「今日航海总览」横向卡片（今日航海计划），底部海贼王图全宽整图不裁剪
-const CACHE = 'wz-desk-v43';
+// v44: 顶部「今日航海总览」只保留标题并放大 2 号，删除红框内的横向卡片
+const CACHE = 'wz-desk-v44';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
