@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v45: 今日航海总览标题再放大，底部海贼王图下方用图片底部色融合消除红框色条
-const CACHE = 'wz-desk-v45';
+// v46: 底部海贼王图横向扩展 1.5 倍并保留人物比例，消除两侧留白
+const CACHE = 'wz-desk-v46';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
