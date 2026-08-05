@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v42: 首页移除横向滑动总览（与模块重复），底部海贼王图全宽铺满并融合背景
-const CACHE = 'wz-desk-v42';
+// v43: 恢复顶部「今日航海总览」横向卡片（今日航海计划），底部海贼王图全宽整图不裁剪
+const CACHE = 'wz-desk-v43';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',

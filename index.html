@@ -443,6 +443,18 @@
     .home-ring .progress-meta h3{font-size:12.5px;margin-bottom:2px;}
     .home-ring .progress-meta p{font-size:10px;line-height:1.35;}
     .home-ring .ghost-btn{display:none;}
+    /* 今日航海总览：紧凑横向滚动（顶部的今日航海计划） */
+    .home-ov-section{margin:0 12px 6px;flex:0 0 auto;max-height:108px;overflow:hidden;}
+    .home-ov-title{font-size:13px;margin:0 0 4px;}
+    .home-ov-title .en-sm{font-size:9px;}
+    .home-ov-list{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+    .home-ov-list::-webkit-scrollbar{display:none;}
+    .home-ov-card{flex:0 0 74%;min-width:200px;padding:7px 9px;margin:0;border-radius:10px;background:rgba(255,255,255,.96);gap:9px;}
+    .home-ov-card .av{width:30px;height:30px;}
+    .home-ov-card .ov-nm{font-size:11.5px;}
+    .home-ov-card .ov-tt{font-size:10px;}
+    .home-ov-card .ov-sum{display:none;}
+    .home-ov-card .mini-check{width:18px;height:18px;font-size:9px;line-height:18px;}
     /* 模块网格：自适应填充剩余空间 */
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
     .mini-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3px 2px;gap:2px;position:relative;border-radius:10px;height:100%;background:rgba(255,255,255,.96);}
@@ -452,9 +464,9 @@
     .mini-card .nm{font-size:11px;line-height:1.1;}
     .mini-card .av{width:24px;height:24px;flex:0 0 24px;}
     .mini-card .mini-check{position:absolute;top:4px;right:4px;width:16px;height:16px;font-size:10px;line-height:16px;}
-    /* 底部海贼王图片：全宽铺满 iPhone17，比例微调，与背景融合 */
+    /* 底部海贼王图片：全宽铺满 iPhone17，整图不裁剪，只等比缩放 */
     .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0;margin-bottom:calc(4px + env(safe-area-inset-bottom));width:100%;overflow:hidden;background:transparent;}
-    .home-bottom-img img{width:100%;height:170px;object-fit:cover;object-position:center bottom;display:block;}
+    .home-bottom-img img{width:100%;height:auto;display:block;}
     .mob-back{display:flex;}
   }
 </style>
@@ -952,6 +964,23 @@ function renderHome(){
   const content=$('#content');
   content.className = 'content home-pushed';
 
+  // 首页紧凑版总览列表（顶部的今日航海计划，复用 renderOverview 的卡片逻辑）
+  const ovList = moduleOrderList().filter(m=>m.id!=='overview').map(m=>{
+    const ent=getTodayEntry(m.id);
+    const isDone=m.noCheckin?true:!!getMod(m.id).checkins[t];
+    const title=ent?ent.e.title:'—';
+    const summary=ent?stripHtml((ent.e.blocks&&ent.e.blocks[0]&&ent.e.blocks[0].body)||'').slice(0,70):'';
+    return `<div class="ov-card home-ov-card" data-id="${m.id}">
+      <span class="av">${avatarSVG(m,40)}</span>
+      <div class="ov-info">
+        <div class="ov-nm">${m.name}</div>
+        <div class="ov-tt">${title}</div>
+        ${summary?`<div class="ov-sum">${summary}</div>`:''}
+      </div>
+      <div class="mini-check" style="${isDone?'background:var(--ocean);border-color:var(--ocean);color:#fff;':''}">${isDone?'✓':'‹'}</div>
+    </div>`;
+  }).join('');
+
   content.innerHTML = `
     ${checkable.length ? `
     <div class="progress-ring-wrap home-ring">
@@ -969,6 +998,10 @@ function renderHome(){
       </div>
       <button class="ghost-btn" id="resetToday">↻ 重置<span class="en-sm">Reset</span></button>
     </div>`:''}
+    <div class="home-ov-section">
+      <div class="view-title home-ov-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
+      <div class="home-ov-list">${ovList}</div>
+    </div>
     <div class="card-grid" id="miniGrid"></div>
     <div class="home-bottom-img"><img src="assets/bottom_crew.jpg" alt="crew" loading="lazy"></div>
   `;
@@ -1003,6 +1036,7 @@ function renderHome(){
     }
     el.addEventListener('click',()=>openModule(id));
   });
+  content.querySelectorAll('.home-ov-card').forEach(el=>el.addEventListener('click',()=>openModule(el.dataset.id)));
   const rbHome=$('#resetToday'); if(rbHome) rbHome.onclick=()=>{
     if(confirm("确定要清空今天的全部打卡记录吗？历史数据会保留。\nClear all of today's check-ins? History kept.")){
       MODULES.forEach(m=>{ delete getMod(m.id).checkins[t]; delete getMod(m.id).logs[t]; });
