@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v47: 社媒内容移除抖音账号分析的待补充占位数据行
-const CACHE = 'wz-desk-v47';
+// v48: 底部海贼王图人物均匀分开，减少两侧留白
+const CACHE = 'wz-desk-v48';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
