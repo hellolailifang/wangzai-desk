@@ -18,9 +18,11 @@
     --ocean-light:#48cae4;
     --sky:#90e0ef;
     --foam:#caf0f8;
-    --bg1:#eaf6ff;
-    --bg2:#d4ecfb;
-    --card:#ffffff;
+    --bg1:#e6f2fb;
+    --bg2:#cfe8f7;
+    --card:#f4fafe;
+    --app-bg:#e9f3fb;
+    --card-bg:#f4fafe;
     --ink:#0a3d62;
     --ink-soft:#3d6b8a;
     --gold:#f6c453;
@@ -168,14 +170,14 @@
   .mini-card .info .st{font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
   .mini-check{
     width:30px;height:30px;flex:0 0 30px;border-radius:50%;border:2px solid var(--ocean-light);
-    display:flex;align-items:center;justify-content:center;color:var(--ocean-light);font-size:16px;transition:.15s;background:#fff;
+    display:flex;align-items:center;justify-content:center;color:var(--ocean-light);font-size:16px;transition:.15s;background:var(--card-bg);
   }
   .mini-card.done .mini-check{background:var(--ocean);border-color:var(--ocean);color:#fff;}
   .mini-card.done{background:linear-gradient(135deg,#fff,rgba(144,224,239,.25));}
 
   /* Module detail */
   .detail-head{display:flex;align-items:center;gap:16px;margin-bottom:20px;}
-  .detail-head .bigav{width:64px;height:64px;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm);background:#fff;}
+  .detail-head .bigav{width:64px;height:64px;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm);background:var(--card-bg);}
   .detail-head .bigav svg{width:100%;height:100%;display:block;}
   .detail-head h2{font-size:23.5px;color:var(--ocean-deep);}
   .detail-head p{font-size:14.0px;color:var(--ink-soft);margin-top:3px;}
@@ -234,7 +236,7 @@
   .ct-badge{font-size:12.5px;color:var(--ocean);background:rgba(72,202,228,.16);padding:3px 10px;border-radius:20px;white-space:nowrap;}
   .ct-title{font-size:17.5px;font-weight:800;color:var(--ocean-deep);margin:2px 0 4px;padding-left:10px;border-left:3px solid var(--gold);}
   .ct-loc{font-size:13.5px;font-weight:700;color:#5a7d95;margin:0 0 12px 13px;letter-spacing:.3px;}
-  .ct-block{background:#fff;border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
+  .ct-block{background:var(--card-bg);border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
   .ct-h{font-size:14.5px;font-weight:700;color:var(--ocean);margin-bottom:5px;}
   .ct-body{font-size:14.5px;line-height:1.7;color:#2b4a63;}
   /* 徒步路线图片画廊 */
@@ -251,7 +253,7 @@
   .fam-btn{display:inline-block;margin-left:8px;padding:3px 11px;border:none;border-radius:14px;background:linear-gradient(135deg,#ff8a3d,#ff5e62);color:#fff;font-size:13.5px;font-weight:700;cursor:pointer;box-shadow:0 2px 8px rgba(255,94,98,.28);vertical-align:middle;}
   .fam-btn:hover{filter:brightness(1.05);}
   .fam-overlay{position:fixed;inset:0;background:rgba(10,25,40,.55);display:flex;align-items:center;justify-content:center;z-index:9999;padding:18px;}
-  .fam-modal{background:#fff;border-radius:16px;max-width:440px;width:100%;max-height:86vh;overflow:auto;padding:18px 18px 22px;position:relative;box-shadow:0 18px 50px rgba(0,0,0,.3);}
+  .fam-modal{background:var(--card-bg);border-radius:16px;max-width:440px;width:100%;max-height:86vh;overflow:auto;padding:18px 18px 22px;position:relative;box-shadow:0 18px 50px rgba(0,0,0,.3);}
   .fam-modal .fam-top{font-size:16.5px;font-weight:800;color:#ff5e62;margin-bottom:10px;}
   .fam-close{position:absolute;top:10px;right:12px;border:none;background:#eef3f7;width:30px;height:30px;border-radius:50%;font-size:16.5px;line-height:1;cursor:pointer;color:#456;}
   .fam-close:hover{background:#dde7ee;}
@@ -274,14 +276,14 @@
 
   /* 实时新闻列表 */
   .news-list{display:flex;flex-direction:column;gap:8px;}
-  .news-item{display:block;background:#fff;border:1px solid rgba(72,202,228,.35);border-radius:10px;padding:9px 12px;text-decoration:none;transition:.15s;}
+  .news-item{display:block;background:var(--card-bg);border:1px solid rgba(72,202,228,.35);border-radius:10px;padding:9px 12px;text-decoration:none;transition:.15s;}
   .news-item:hover{border-color:var(--ocean);box-shadow:var(--shadow-sm);transform:translateX(2px);}
   .news-item .nt{font-size:14.5px;font-weight:700;color:var(--ocean-deep);line-height:1.4;}
   .news-item .nm{font-size:12.5px;color:#7a9bb0;margin-top:3px;}
 
   /* ===== 英语 听/说/单词 练习 ===== */
   .en-practice{margin-top:14px;display:flex;flex-direction:column;gap:14px;}
-  .en-sec{background:#fff;border-radius:14px;padding:14px 16px;box-shadow:var(--shadow-sm);border:1px solid rgba(72,202,228,.25);}
+  .en-sec{background:var(--card-bg);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow-sm);border:1px solid rgba(72,202,228,.25);}
   .en-sec-h{font-size:15.5px;font-weight:800;color:var(--ocean-deep);display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;}
   .en-sub{font-size:12.5px;font-weight:500;color:#7a97ab;}
   .mini-btn{margin-left:auto;border:none;background:rgba(72,202,228,.16);color:var(--ocean-deep);font-size:13.5px;padding:5px 12px;border-radius:20px;cursor:pointer;font-weight:700;transition:.15s;}
@@ -314,7 +316,7 @@
   .en-note b{color:var(--ocean-deep);}
 
   /* ===== 外贸企业推荐卡片 ===== */
-  .co{background:#fff;border:1px solid rgba(72,202,228,.3);border-left:4px solid var(--ocean-light);border-radius:11px;padding:11px 13px;margin-bottom:10px;box-shadow:var(--shadow-sm);}
+  .co{background:var(--card-bg);border:1px solid rgba(72,202,228,.3);border-left:4px solid var(--ocean-light);border-radius:11px;padding:11px 13px;margin-bottom:10px;box-shadow:var(--shadow-sm);}
   .co:last-child{margin-bottom:0;}
   .co-h{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
   .co-h b{font-size:15.5px;color:var(--ocean-deep);}
@@ -361,7 +363,7 @@
   .ct-body ul{ margin:4px 0 10px; padding-left:20px; } .ct-body li{ margin:5px 0; line-height:1.75; }
   .ct-body blockquote{ border-left:3px solid var(--gold); background:#fffaf0; padding:8px 12px; margin:8px 0; border-radius:0 10px 10px 0; color:#5a4a2a; font-style:italic; }
   /* 表格预置（内容用到即生效，带斑马纹与表头底色） */
-  .ct-body table{ width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:13.5px; background:#fff; border-radius:10px; overflow:hidden; box-shadow:var(--shadow-sm); }
+  .ct-body table{ width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:13.5px; background:var(--card-bg); border-radius:10px; overflow:hidden; box-shadow:var(--shadow-sm); }
   .ct-body th, .ct-body td{ border:1px solid var(--rule); padding:8px 10px; text-align:left; vertical-align:top; }
   .ct-body th{ background:var(--ocean-deep); color:#fff; font-weight:700; }
   .ct-body tr:nth-child(even) td{ background:#f4fbff; }
@@ -394,7 +396,7 @@
     .main{width:100%;margin:0;flex-direction:column-reverse;}
     .topbar{display:none;}
     .mob-quote.visible{display:block;}
-    .content{padding:0 0 0;background:#ffffff;}
+    .content{padding:0 0 0;background:var(--app-bg);}
     /* 让所有模块内容在手机上贴边铺满，仅卡片内部保留呼吸间隙 */
     .mob-back{padding:calc(8px + env(safe-area-inset-top)) 12px 8px;font-size:14px;}
     .mob-back .arrow{font-size:18px;}
@@ -403,18 +405,18 @@
     .detail-head h2{font-size:18.5px;}
     .detail-head p{font-size:12.5px;margin-top:1px;}
     .panel-row{padding:0;margin-bottom:0;gap:0;}
-    .panel{width:100%;border-radius:0;border-left:none;border-right:none;box-shadow:none;margin-bottom:8px;padding:12px;background:#fff;}
-    .content-today{margin:0;padding:0;border:none;border-radius:0;background:#fff;box-shadow:none;}
+    .panel{width:100%;border-radius:0;border-left:none;border-right:none;box-shadow:none;margin-bottom:8px;padding:12px;background:var(--card-bg);}
+    .content-today{margin:0;padding:0;border:none;border-radius:0;background:var(--app-bg);box-shadow:none;}
     .ct-head{padding:12px 12px 6px;}
     .ct-sub{padding:0 12px 10px;}
     .ct-title{margin:0 12px 4px;}
     .ct-loc{margin:0 12px 12px;padding-left:0;}
-    .ct-block{margin:0 0 8px;border-radius:0;border-left:none;border-right:none;padding:12px;background:#fff;box-shadow:none;}
+    .ct-block{margin:0 0 8px;border-radius:0;border-left:none;border-right:none;padding:12px;background:var(--card-bg);box-shadow:none;}
     .content-today .ct-block.first{padding:6px 9px;background:rgba(72,202,228,.06);border-left:2px solid var(--ocean-light);margin-bottom:7px;}
     .content-today .ct-block.first .ct-h{font-size:11.5px;margin-bottom:2px;}
     .content-today .ct-block.first .ct-body{font-size:11.5px;line-height:1.4;}
     .content-today .ct-block.first .ct-body p{margin-bottom:2px;}
-    .co{margin:0;border-radius:0;border-left:none;border-right:none;border-top:none;border-bottom:1px solid rgba(72,202,228,.15);padding:12px;background:#fff;box-shadow:none;}
+    .co{margin:0;border-radius:0;border-left:none;border-right:none;border-top:none;border-bottom:1px solid rgba(72,202,228,.15);padding:12px;background:var(--card-bg);box-shadow:none;}
     .co-r.found,.co-r.turn,.co-r.look{border-radius:0;padding:8px 10px;}
     /* 手机端：正文字号稍小、行高收紧；企业字段标签取消固定宽度，恢复正常间距 */
     .ct-body{font-size:13.5px;line-height:1.6;}
@@ -426,13 +428,13 @@
     .co-r{font-size:13px;line-height:1.6;}
     .co-r > b:first-child{min-width:auto;margin-right:0;}
     .co-h b{font-size:15.5px;}
-    .en-sec{border-radius:0;border-left:none;border-right:none;padding:12px;margin-bottom:8px;box-shadow:none;background:#fff;}
+    .en-sec{border-radius:0;border-left:none;border-right:none;padding:12px;margin-bottom:8px;box-shadow:none;background:var(--card-bg);}
     .word-card,.en-target,.en-note,.en-line{border-radius:0;margin-left:0;margin-right:0;}
     .news-item{border-radius:0;border-left:none;border-right:none;margin-bottom:0;border-bottom:1px solid rgba(72,202,228,.15);}
     .view-title{font-size:15px;margin:10px 12px 4px;}
     .mob-back{padding-left:12px;padding-right:12px;}
     /* 首页：紧凑流式布局，卡片撑满剩余高度，无顶/底留白 */
-    .home-pushed{display:flex;flex-direction:column;height:100%;background:#ffffff;padding-top:calc(env(safe-area-inset-top) + 4px);}
+    .home-pushed{display:flex;flex-direction:column;height:100%;background:var(--app-bg);padding-top:calc(env(safe-area-inset-top) + 4px);}
     .view-sub{display:none;}
     /* 灵动岛式进度环：窄屏显示并压缩 */
     .progress-ring-wrap.home-ring{display:flex;margin:8px 12px 6px;padding:9px 12px;border-radius:14px;min-height:64px;gap:12px;background:rgba(255,255,255,.95);}
@@ -448,7 +450,8 @@
     .home-ov-title{font-size:17px;margin:0 0 4px;font-weight:800;}
     .home-ov-title .en-sm{font-size:10px;font-weight:600;}
     /* 每日旺仔问候语：在总览标题上方，灵动岛下方 */
-    .home-greet{margin:2px 14px 8px;font-size:14px;line-height:1.5;font-weight:600;color:#0a3d62;}
+    .home-greet{margin:2px 14px 8px;font-size:14px;line-height:1.45;font-weight:600;color:#0a3d62;}
+    .home-greet .en-sm{display:block;white-space:normal;margin-left:0;margin-top:2px;font-weight:500;font-size:11px;color:#5a7d95;}
     /* 模块网格：自适应填充剩余空间 */
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
     .mini-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3px 2px;gap:2px;position:relative;border-radius:10px;height:100%;background:rgba(255,255,255,.96);}
@@ -552,7 +555,7 @@ function dayOfYear(d){
 /* ============ 模块定义（精简 7 项 + 海贼王角色头像） ============ */
 const MODULES = [
   {id:'english',  name:'英语学习',     en:'English Learning',     unit:'分钟', img:'assets/luffy.png',  char:'路飞', noCheckin:true},
-  {id:'ai',       name:'AI学习',       en:'AI Learning',           unit:'课',   img:'assets/sabo.png', char:'萨博', noCheckin:true},
+  {id:'ai',       name:'AI课程',       en:'AI Course',             unit:'课',   img:'assets/sabo.png', char:'萨博', noCheckin:true},
   {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',unit:'家', img:'assets/zoro.png', char:'索隆', noCheckin:true},
   {id:'overseas', name:'海外企业',     en:'Overseas Companies',    unit:'家',   img:'assets/usopp.png', char:'乌索普', noCheckin:true},
   {id:'news',     name:'全球新闻热点', en:'Global News',           unit:'条',   img:'assets/ace.png',    char:'艾斯',  noCheckin:true},
@@ -941,21 +944,19 @@ function showMobQuote(show){
   if(el) el.classList.toggle('visible', !!show);
 }
 
-/* ============ 主页每日问候语（按天轮换 + 时段前缀） ============ */
+/* ============ 主页每日问候语（中英文 + 每日轮换） ============ */
 function dailyGreeting(){
-  const now = new Date();
-  const h = now.getHours();
-  const period = h<11 ? '早上好' : h<14 ? '中午好' : h<18 ? '下午好' : '晚上好';
-  const lines = [
-    '新的一天，新的航海图已经展开，出发吧！⚓',
-    '海上的风很顺，今天也要稳稳地向前 ⛵',
-    '别忘了喝水、别久坐，旺仔要健康地变强 💪',
-    '今天的任务不多，但每一件都值得认真做 ✅',
-    '把难的事放最前面，剩下的就是顺风航行 🌊',
-    '保持节奏，别焦虑，一步步来就好 🐢',
-    '今天也要像路飞一样，笑着往前冲 🏴‍☠️'
+  const greetings = [
+    {zh:'新的一天，新的航海图已经展开，出发吧！', en:'A fresh day, a fresh chart to sail. Let’s set off! ⚓'},
+    {zh:'海上的风很顺，今天也要稳稳地向前。', en:'The wind is fair today—sail steady and forward. ⛵'},
+    {zh:'别忘了喝水、别久坐，旺仔要健康地变强。', en:"Don’t forget water, don’t sit too long—get strong & healthy. 💪"},
+    {zh:'今天的任务不多，但每一件都值得认真做。', en:'Few tasks today, but each one deserves your care. ✅'},
+    {zh:'把难的事放最前面，剩下的就是顺风航行。', en:'Tackle the hard one first; the rest is downwind. 🌊'},
+    {zh:'保持节奏，别焦虑，一步步来就好。', en:'Keep the rhythm, skip the anxiety—one step at a time. 🐢'},
+    {zh:'今天也要像路飞一样，笑着往前冲。', en:"Be like Luffy today—charge ahead with a smile. 🏴‍☠️"}
   ];
-  return `${period}，旺仔！${lines[dayNumber() % lines.length]}`;
+  const g = greetings[dayNumber() % greetings.length];
+  return `<b>${g.zh}</b><span class="en-sm greet-en">${g.en}</span>`;
 }
 
 /* ============ 主页（桌面总览） ============ */

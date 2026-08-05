@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v51: 删除底部海贼王图，新增每日旺仔问候语（进度环下、总览上、灵动岛下）
-const CACHE = 'wz-desk-v51';
+// v52: AI学习改名AI课程；问候语中英文每日轮换；卡普/萨博头像重绘为同系列；全局淡蓝海洋主题
+const CACHE = 'wz-desk-v52';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
