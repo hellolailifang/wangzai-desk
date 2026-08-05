@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v49: 主页底部图片替换为新的海贼王全员彩图，背景同步改为白色
-const CACHE = 'wz-desk-v49';
+// v50: 底部图片左右与模块对齐（加 12px 边距），并轻微模糊+降亮度
+const CACHE = 'wz-desk-v50';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',

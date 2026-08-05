@@ -456,9 +456,9 @@
     .mini-card .nm{font-size:11px;line-height:1.1;}
     .mini-card .av{width:24px;height:24px;flex:0 0 24px;}
     .mini-card .mini-check{position:absolute;top:4px;right:4px;width:16px;height:16px;font-size:10px;line-height:16px;}
-    /* 底部海贼王图片：全宽铺满 iPhone17，整图不裁剪，与新图白色背景融合 */
-    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0;margin-bottom:0;width:100%;overflow:hidden;background:#ffffff;}
-    .home-bottom-img img{width:100%;height:auto;display:block;}
+    /* 底部海贼王图片：与模块左右对齐，轻微模糊并降低亮度，避免太抢眼 */
+    .home-bottom-img{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;padding:0 12px;margin-bottom:0;width:100%;overflow:hidden;background:#ffffff;}
+    .home-bottom-img img{width:100%;height:auto;display:block;filter:blur(0.8px) brightness(0.92);}
     .mob-back{display:flex;}
   }
 </style>
