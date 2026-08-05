@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v48: 底部海贼王图人物均匀分开，减少两侧留白
-const CACHE = 'wz-desk-v48';
+// v49: 主页底部图片替换为新的海贼王全员彩图，背景同步改为白色
+const CACHE = 'wz-desk-v49';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
