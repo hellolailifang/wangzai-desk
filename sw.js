@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v46: 底部海贼王图横向扩展 1.5 倍并保留人物比例，消除两侧留白
-const CACHE = 'wz-desk-v46';
+// v47: 社媒内容移除抖音账号分析的待补充占位数据行
+const CACHE = 'wz-desk-v47';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/bottom_crew.jpg',
