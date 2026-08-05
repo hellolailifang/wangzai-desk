@@ -451,6 +451,7 @@
     .home-ov-title .en-sm{font-size:10px;font-weight:600;}
     /* 每日旺仔问候语：在总览标题上方，灵动岛下方 */
     .home-greet{margin:2px 14px 8px;font-size:14px;line-height:1.45;font-weight:600;color:#0a3d62;}
+    .home-greet .greet-hi{font-size:15px;font-weight:800;color:var(--ocean);margin-bottom:2px;}
     .home-greet .en-sm{display:block;white-space:normal;margin-left:0;margin-top:2px;font-weight:500;font-size:11px;color:#5a7d95;}
     /* 模块网格：自适应填充剩余空间 */
     .card-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,1fr);gap:5px 6px;margin:0 12px 8px;flex:1;min-height:0;}
@@ -956,7 +957,10 @@ function dailyGreeting(){
     {zh:'今天也要像路飞一样，笑着往前冲。', en:"Be like Luffy today—charge ahead with a smile. 🏴‍☠️"}
   ];
   const g = greetings[dayNumber() % greetings.length];
-  return `<b>${g.zh}</b><span class="en-sm greet-en">${g.en}</span>`;
+  const now = new Date();
+  const h = now.getHours();
+  const period = h<11 ? '早上好' : h<14 ? '中午好' : h<18 ? '下午好' : '晚上好';
+  return `<div class="greet-hi">${period}，旺仔 👋</div><b>${g.zh}</b><span class="en-sm greet-en">${g.en}</span>`;
 }
 
 /* ============ 主页（桌面总览） ============ */
