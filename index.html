@@ -566,15 +566,15 @@ function dayOfYear(d){
 
 /* ============ 模块定义（精简 7 项 + 海贼王角色头像） ============ */
 const MODULES = [
-  {id:'english',  name:'英语学习',     en:'English Learning',     desc:'每日单词·表达', unit:'分钟', img:'assets/luffy.webp',  char:'路飞', noCheckin:true},
-  {id:'ai',       name:'AI课程',       en:'AI Course',             desc:'一课一练', unit:'课',   img:'assets/sabo.webp', char:'萨博', noCheckin:true},
-  {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',desc:'企业案例库', unit:'家', img:'assets/zoro.webp', char:'索隆', noCheckin:true},
-  {id:'overseas', name:'海外企业',     en:'Overseas Companies',    desc:'海外公司图谱', unit:'家',   img:'assets/usopp.webp', char:'乌索普', noCheckin:true},
-  {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'艾斯',  noCheckin:true},
-  {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'选题与素材', unit:'篇',   img:'assets/garp.webp',   char:'卡普', noCheckin:true},
-  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'饮食记录', unit:'餐',   img:'assets/chopper.webp', char:'乔巴',  noCheckin:true},
+  {id:'english',  name:'英语学习',     en:'English Learning',     desc:'每日单词·表达', unit:'分钟', img:'assets/luffy.webp',  char:'乔巴', noCheckin:true},
+  {id:'ai',       name:'AI课程',       en:'AI Course',             desc:'一课一练', unit:'课',   img:'assets/sabo.webp', char:'甚平', noCheckin:true},
+  {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',desc:'企业案例库', unit:'家', img:'assets/zoro.webp', char:'布鲁克', noCheckin:true},
+  {id:'overseas', name:'海外企业',     en:'Overseas Companies',    desc:'海外公司图谱', unit:'家',   img:'assets/usopp.webp', char:'山治', noCheckin:true},
+  {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'娜美',  noCheckin:true},
+  {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'选题与素材', unit:'篇',   img:'assets/garp.webp',   char:'路飞', noCheckin:true},
+  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'饮食记录', unit:'餐',   img:'assets/chopper.webp', char:'罗宾',  noCheckin:true},
   {id:'overview', name:'今日航海总览', en:"Today's Overview",      unit:'',     img:null,                  char:'🧭', noCheckin:true},
-  {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sanji.webp', char:'山治',  noCheckin:true},
+  {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sanji.webp', char:'索隆',  noCheckin:true},
 ];
 if(!DB.moduleOrder || !DB.moduleOrder.length) DB.moduleOrder = MODULES.map(m=>m.id);
 // 兼容升级：保留用户自定义顺序，把新模块按 MODULES 默认顺序追加到末尾，过滤已删除模块
