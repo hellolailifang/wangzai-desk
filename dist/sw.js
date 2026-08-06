@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v53: 问候语新增「时段好，旺仔 👋」前缀行，置于每日金句上方
-const CACHE = 'wz-desk-v53';
+// v54: 8 个模块头像全部重绘为统一风格（海贼王动漫头像、浅蓝底、同系列）
+const CACHE = 'wz-desk-v54';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
   './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
