@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v61: 模块背景稍微不透明、去掉头像粗外圈、换路飞头像、快捷入口闪电换草帽旗
-const CACHE = 'wz-desk-v61';
+// v62: 快捷入口草帽旗图标去除红色背景，改为透明底
+const CACHE = 'wz-desk-v62';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
