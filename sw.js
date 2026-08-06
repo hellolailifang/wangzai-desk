@@ -1,8 +1,8 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v58: 模块卡片副标题改回只显示英文名（去掉 desc 副标题）
-const CACHE = 'wz-desk-v58';
+// v59: 主页新增千里阳光号壁纸背景，移除底部金句卡
+const CACHE = 'wz-desk-v59';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/home-avatar.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
+  './assets/home-bg.webp', './assets/home-avatar.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
   './assets/face-fallback.svg',
   './assets/route_0.svg', './assets/route_1.svg', './assets/route_2.svg', './assets/route_3.svg',

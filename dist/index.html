@@ -184,11 +184,6 @@
   .home-greet .greet-sub{font-size:13.5px;color:var(--ink-soft);display:block;margin:3px 0 2px;}
   .home-greet .greet-en{font-size:10.5px;color:#5a7d95;display:block;margin-top:2px;}
   .home-ov-title{display:flex;align-items:center;gap:6px;font-size:16px;font-weight:800;color:var(--ocean-deep);}
-  .home-quote{margin:0 14px 16px;background:var(--card);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:space-between;gap:10px;}
-  .home-quote .q-wrap{flex:1;min-width:0;}
-  .home-quote .q-zh{font-size:14px;font-weight:700;color:var(--ocean-deep);line-height:1.5;}
-  .home-quote .q-en{font-size:11px;color:var(--ink-soft);margin-top:4px;line-height:1.4;}
-  .home-quote .q-btn{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:var(--ocean);color:#fff;border:none;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-sm);}
 
   /* Module detail */
   .detail-head{display:flex;align-items:center;gap:16px;margin-bottom:20px;}
@@ -448,8 +443,8 @@
     .news-item{border-radius:0;border-left:none;border-right:none;margin-bottom:0;border-bottom:1px solid rgba(72,202,228,.15);}
     .view-title{font-size:15px;margin:10px 12px 4px;}
     .mob-back{padding-left:12px;padding-right:12px;}
-    /* 首页：紧凑流式布局，卡片撑满剩余高度，无顶/底留白 */
-    .home-pushed{display:flex;flex-direction:column;height:100%;background:var(--app-bg);padding-top:calc(env(safe-area-inset-top) + 4px);}
+    /* 首页：紧凑流式布局，卡片撑满剩余高度，无顶/底留白；背景用千里阳光号壁纸 */
+    .home-pushed{display:flex;flex-direction:column;height:100%;background:var(--app-bg) url('assets/home-bg.webp') center/cover no-repeat;padding-top:calc(env(safe-area-inset-top) + 4px);}
     .view-sub{display:none;}
     /* 灵动岛式进度环：窄屏显示并压缩 */
     .progress-ring-wrap.home-ring{display:flex;margin:8px 12px 6px;padding:9px 12px;border-radius:14px;min-height:64px;gap:12px;background:rgba(255,255,255,.95);}
@@ -1019,7 +1014,6 @@ function renderHome(){
       <div class="view-title home-ov-title">⚡ 快捷入口<span class="en-sm">Quick Access</span></div>
     </div>
     <div class="card-grid" id="miniGrid"></div>
-    <div class="home-quote" id="homeQuote"></div>
   `;
   $('#miniGrid').innerHTML = MODULES.filter(m=>m.id!=='overview').map(m=>{
     const mod=getMod(m.id);
@@ -1058,7 +1052,6 @@ function renderHome(){
       save(DB); renderHome(); refreshNavDots();
     }
   };
-  renderHomeQuote();
 }
 
 function renderHomeQuote(){
