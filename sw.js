@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v63: 模块头像全部换为用户发的草帽团Q版头像，顶部大头像换万里阳光号高清图
-const CACHE = 'wz-desk-v63';
+// v64: 快捷入口图标换成万里阳光号Q版船
+const CACHE = 'wz-desk-v64';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
