@@ -1030,7 +1030,7 @@ function renderHome(){
         <span class="av">${avatarSVG(m,40)}</span>
         <div class="info">
           <div class="nm">${m.name}</div>
-          <div class="st en-sub">${m.desc || m.en || ''}</div>
+          <div class="st en-sub">${m.en || ''}</div>
         </div>
         <div class="mini-check" style="background:var(--sky);border-color:var(--sky);color:#fff;">›</div>
       </div>`;
@@ -1039,7 +1039,7 @@ function renderHome(){
       <span class="av">${avatarSVG(m,40)}</span>
       <div class="info">
         <div class="nm">${m.name}</div>
-        <div class="st en-sub">${m.desc || m.en || ''}</div>
+        <div class="st en-sub">${m.en || ''}</div>
       </div>
       <div class="mini-check">${isDone?'✓':'+'}</div>
     </div>`;
