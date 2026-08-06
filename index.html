@@ -175,6 +175,21 @@
   .mini-card.done .mini-check{background:var(--ocean);border-color:var(--ocean);color:#fff;}
   .mini-card.done{background:linear-gradient(135deg,#fff,rgba(144,224,239,.25));}
 
+  /* ===== 新版首页：大头像 + 问候 + 快捷入口 + 金句 ===== */
+  .home-hero{text-align:center;padding:12px 0 6px;}
+  .home-avatar-wrap{width:120px;height:120px;margin:0 auto 10px;border-radius:50%;padding:6px;background:linear-gradient(135deg,var(--ocean),var(--ocean-light));box-shadow:var(--shadow);}
+  .home-avatar{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid #fff;}
+  .home-greet{text-align:center;margin:0 14px 12px;color:var(--ocean-deep);font-weight:600;line-height:1.45;}
+  .home-greet .greet-hi{font-size:19px;font-weight:800;margin-bottom:4px;}
+  .home-greet .greet-sub{font-size:13.5px;color:var(--ink-soft);display:block;margin:3px 0 2px;}
+  .home-greet .greet-en{font-size:10.5px;color:#5a7d95;display:block;margin-top:2px;}
+  .home-ov-title{display:flex;align-items:center;gap:6px;font-size:16px;font-weight:800;color:var(--ocean-deep);}
+  .home-quote{margin:0 14px 16px;background:var(--card);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .home-quote .q-wrap{flex:1;min-width:0;}
+  .home-quote .q-zh{font-size:14px;font-weight:700;color:var(--ocean-deep);line-height:1.5;}
+  .home-quote .q-en{font-size:11px;color:var(--ink-soft);margin-top:4px;line-height:1.4;}
+  .home-quote .q-btn{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:var(--ocean);color:#fff;border:none;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-sm);}
+
   /* Module detail */
   .detail-head{display:flex;align-items:center;gap:16px;margin-bottom:20px;}
   .detail-head .bigav{width:64px;height:64px;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm);background:var(--card-bg);}
@@ -555,15 +570,15 @@ function dayOfYear(d){
 
 /* ============ 模块定义（精简 7 项 + 海贼王角色头像） ============ */
 const MODULES = [
-  {id:'english',  name:'英语学习',     en:'English Learning',     unit:'分钟', img:'assets/luffy.webp',  char:'路飞', noCheckin:true},
-  {id:'ai',       name:'AI课程',       en:'AI Course',             unit:'课',   img:'assets/sabo.webp', char:'萨博', noCheckin:true},
-  {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',unit:'家', img:'assets/zoro.webp', char:'索隆', noCheckin:true},
-  {id:'overseas', name:'海外企业',     en:'Overseas Companies',    unit:'家',   img:'assets/usopp.webp', char:'乌索普', noCheckin:true},
-  {id:'news',     name:'全球新闻热点', en:'Global News',           unit:'条',   img:'assets/ace.webp',    char:'艾斯',  noCheckin:true},
-  {id:'social',   name:'社媒内容',     en:'Social Media',           unit:'篇',   img:'assets/garp.webp',   char:'卡普', noCheckin:true},
-  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        unit:'餐',   img:'assets/chopper.webp', char:'乔巴',  noCheckin:true},
+  {id:'english',  name:'英语学习',     en:'English Learning',     desc:'每日单词·表达', unit:'分钟', img:'assets/luffy.webp',  char:'路飞', noCheckin:true},
+  {id:'ai',       name:'AI课程',       en:'AI Course',             desc:'一课一练', unit:'课',   img:'assets/sabo.webp', char:'萨博', noCheckin:true},
+  {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',desc:'企业案例库', unit:'家', img:'assets/zoro.webp', char:'索隆', noCheckin:true},
+  {id:'overseas', name:'海外企业',     en:'Overseas Companies',    desc:'海外公司图谱', unit:'家',   img:'assets/usopp.webp', char:'乌索普', noCheckin:true},
+  {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'艾斯',  noCheckin:true},
+  {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'选题与素材', unit:'篇',   img:'assets/garp.webp',   char:'卡普', noCheckin:true},
+  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'饮食记录', unit:'餐',   img:'assets/chopper.webp', char:'乔巴',  noCheckin:true},
   {id:'overview', name:'今日航海总览', en:"Today's Overview",      unit:'',     img:null,                  char:'🧭', noCheckin:true},
-  {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   unit:'route', img:'assets/sanji.webp', char:'山治',  noCheckin:true},
+  {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sanji.webp', char:'山治',  noCheckin:true},
 ];
 if(!DB.moduleOrder || !DB.moduleOrder.length) DB.moduleOrder = MODULES.map(m=>m.id);
 // 兼容升级：保留用户自定义顺序，把新模块按 MODULES 默认顺序追加到末尾，过滤已删除模块
@@ -948,19 +963,19 @@ function showMobQuote(show){
 /* ============ 主页每日问候语（中英文 + 每日轮换） ============ */
 function dailyGreeting(){
   const greetings = [
-    {zh:'新的一天，新的航海图已经展开，出发吧！', en:'A fresh day, a fresh chart to sail. Let’s set off! ⚓'},
-    {zh:'海上的风很顺，今天也要稳稳地向前。', en:'The wind is fair today—sail steady and forward. ⛵'},
-    {zh:'别忘了喝水、别久坐，旺仔要健康地变强。', en:"Don’t forget water, don’t sit too long—get strong & healthy. 💪"},
-    {zh:'今天的任务不多，但每一件都值得认真做。', en:'Few tasks today, but each one deserves your care. ✅'},
-    {zh:'把难的事放最前面，剩下的就是顺风航行。', en:'Tackle the hard one first; the rest is downwind. 🌊'},
-    {zh:'保持节奏，别焦虑，一步步来就好。', en:'Keep the rhythm, skip the anxiety—one step at a time. 🐢'},
-    {zh:'今天也要像路飞一样，笑着往前冲。', en:"Be like Luffy today—charge ahead with a smile. 🏴‍☠️"}
+    {zh:'继续加油，胜利在望 ⭐', en:'Keep going, victory is in sight.'},
+    {zh:'保持节奏，今天也要闪闪发光 ✨', en:'Keep the rhythm and shine today.'},
+    {zh:'把难的事放最前面，剩下的就是顺风航行 🌊', en:'Tackle the hard one first; the rest is downwind.'},
+    {zh:'别忘了喝水、别久坐，旺仔要健康地变强 💪', en:"Don't forget water, don't sit too long—get strong & healthy."},
+    {zh:'今天的任务不多，但每一件都值得认真做 ✅', en:'Few tasks today, but each one deserves your care.'},
+    {zh:'保持节奏，别焦虑，一步步来就好 🐢', en:'Keep the rhythm, skip the anxiety—one step at a time.'},
+    {zh:'今天也要像路飞一样，笑着往前冲 🏴‍☠️', en:'Be like Luffy today—charge ahead with a smile.'}
   ];
   const g = greetings[dayNumber() % greetings.length];
   const now = new Date();
   const h = now.getHours();
   const period = h<11 ? '早上好' : h<14 ? '中午好' : h<18 ? '下午好' : '晚上好';
-  return `<div class="greet-hi">${period}，旺仔 👋</div><b>${g.zh}</b><span class="en-sm greet-en">${g.en}</span>`;
+  return `<div class="greet-hi">${period}，旺仔 👋</div><div class="greet-sub">${g.zh}</div><span class="en-sm greet-en">${g.en}</span>`;
 }
 
 /* ============ 主页（桌面总览） ============ */
@@ -994,11 +1009,17 @@ function renderHome(){
       </div>
       <button class="ghost-btn" id="resetToday">↻ 重置<span class="en-sm">Reset</span></button>
     </div>`:''}
+    <div class="home-hero">
+      <div class="home-avatar-wrap">
+        <img class="home-avatar" src="assets/home-avatar.webp" alt="旺仔">
+      </div>
+    </div>
     <div class="home-greet">${dailyGreeting()}</div>
     <div class="home-ov-section">
-      <div class="view-title home-ov-title">⚓ 今日航海总览<span class="en-sm">Today's Overview</span></div>
+      <div class="view-title home-ov-title">⚡ 快捷入口<span class="en-sm">Quick Access</span></div>
     </div>
     <div class="card-grid" id="miniGrid"></div>
+    <div class="home-quote" id="homeQuote"></div>
   `;
   $('#miniGrid').innerHTML = MODULES.filter(m=>m.id!=='overview').map(m=>{
     const mod=getMod(m.id);
@@ -1009,7 +1030,7 @@ function renderHome(){
         <span class="av">${avatarSVG(m,40)}</span>
         <div class="info">
           <div class="nm">${m.name}</div>
-          <div class="st en-sub">${m.en || ''}</div>
+          <div class="st en-sub">${m.desc || m.en || ''}</div>
         </div>
         <div class="mini-check" style="background:var(--sky);border-color:var(--sky);color:#fff;">›</div>
       </div>`;
@@ -1018,7 +1039,7 @@ function renderHome(){
       <span class="av">${avatarSVG(m,40)}</span>
       <div class="info">
         <div class="nm">${m.name}</div>
-        <div class="st en-sub">${m.en || ''}</div>
+        <div class="st en-sub">${m.desc || m.en || ''}</div>
       </div>
       <div class="mini-check">${isDone?'✓':'+'}</div>
     </div>`;
@@ -1037,6 +1058,20 @@ function renderHome(){
       save(DB); renderHome(); refreshNavDots();
     }
   };
+  renderHomeQuote();
+}
+
+function renderHomeQuote(){
+  const q=QUOTES[DB.quoteIdx ?? 0];
+  const el=$('#homeQuote');
+  if(!el) return;
+  el.innerHTML = `<div class="q-wrap">
+    <div class="q-zh">“${q.zh}”</div>
+    <div class="q-en">—— 记录每一刻 ✨<span class="en-sm">${q.en}</span></div>
+  </div>
+  <button class="q-btn" id="homeQuoteBtn" title="换一句">≡</button>`;
+  const btn=$('#homeQuoteBtn');
+  if(btn) btn.onclick=()=>{ DB.quoteIdx=(DB.quoteIdx+1)%QUOTES.length; save(DB); renderHomeQuote(); };
 }
 
 /* ============ 模块详情 ============ */

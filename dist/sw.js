@@ -1,14 +1,15 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v56: 头像转 WebP（9-19KB）并精简预缓存（去掉 scene/people 大图），显著加快手机加载
-const CACHE = 'wz-desk-v56';
+// v57: 主页改版（顶部圆形大头像 + 快捷入口 + 底部金句卡），新增 home-avatar.webp 并登记预缓存
+const CACHE = 'wz-desk-v57';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
+  './assets/home-avatar.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
   './assets/face-fallback.svg',
   './assets/route_0.svg', './assets/route_1.svg', './assets/route_2.svg', './assets/route_3.svg',
   './assets/route_4.svg', './assets/route_5.svg', './assets/route_6.svg', './assets/route_7.svg',
   './assets/route_8.svg', './assets/route_9.svg', './assets/route_10.svg', './assets/route_11.svg',
-  './assets/route_12.svg', './assets/route_13.svg', './assets/route_ph.svg',
+  './assets/route_12.svg', './assets/route_13.svg', './assets/route_ph.svg'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
