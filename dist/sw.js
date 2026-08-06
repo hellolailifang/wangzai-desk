@@ -1,32 +1,14 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v55: 替换卡普、萨博头像为用户提供的海贼王截图
-const CACHE = 'wz-desk-v55';
+// v56: 头像转 WebP（9-19KB）并精简预缓存（去掉 scene/people 大图），显著加快手机加载
+const CACHE = 'wz-desk-v56';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
-  './assets/luffy.png', './assets/robin.png', './assets/zoro.png', './assets/sabo.png', './assets/garp.png',
-  './assets/ace.png', './assets/sanji.png', './assets/nami.png', './assets/chopper.png', './assets/usopp.png',
+  './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
+  './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
   './assets/face-fallback.svg',
-  './assets/people/altman.jpg', './assets/people/bezos.jpg', './assets/people/buffett.jpg', './assets/people/cao.jpg',
-  './assets/people/dong.jpg', './assets/people/huang.jpg', './assets/people/lei.jpg', './assets/people/liu.jpg',
-  './assets/people/ma.jpg', './assets/people/musk.jpg', './assets/people/ren.jpg', './assets/people/wang.jpg',
-  './assets/people/zhang.jpg', './assets/people/zhong.jpg',
   './assets/route_0.svg', './assets/route_1.svg', './assets/route_2.svg', './assets/route_3.svg',
   './assets/route_4.svg', './assets/route_5.svg', './assets/route_6.svg', './assets/route_7.svg',
   './assets/route_8.svg', './assets/route_9.svg', './assets/route_10.svg', './assets/route_11.svg',
   './assets/route_12.svg', './assets/route_13.svg', './assets/route_ph.svg',
-  './assets/scene/route_00_0.jpg', './assets/scene/route_00_1.jpg', './assets/scene/route_00_2.jpg',
-  './assets/scene/route_01_0.jpg', './assets/scene/route_01_1.jpg', './assets/scene/route_01_2.jpg',
-  './assets/scene/route_02_0.jpg', './assets/scene/route_02_1.jpg', './assets/scene/route_02_2.jpg',
-  './assets/scene/route_03_0.jpg', './assets/scene/route_03_1.jpg', './assets/scene/route_03_2.jpg',
-  './assets/scene/route_04_0.jpg', './assets/scene/route_04_1.jpg', './assets/scene/route_04_2.jpg',
-  './assets/scene/route_05_0.jpg', './assets/scene/route_05_1.jpg', './assets/scene/route_05_2.jpg',
-  './assets/scene/route_06_0.jpg', './assets/scene/route_06_1.jpg', './assets/scene/route_06_2.jpg',
-  './assets/scene/route_07_0.jpg', './assets/scene/route_07_1.jpg', './assets/scene/route_07_2.jpg',
-  './assets/scene/route_08_0.jpg', './assets/scene/route_08_1.jpg', './assets/scene/route_08_2.jpg',
-  './assets/scene/route_09_0.jpg', './assets/scene/route_09_1.jpg', './assets/scene/route_09_2.jpg',
-  './assets/scene/route_10_0.jpg', './assets/scene/route_10_1.jpg', './assets/scene/route_10_2.jpg',
-  './assets/scene/route_11_0.jpg', './assets/scene/route_11_1.jpg', './assets/scene/route_11_2.jpg',
-  './assets/scene/route_12_0.jpg', './assets/scene/route_12_1.jpg', './assets/scene/route_12_2.jpg',
-  './assets/scene/route_13_0.jpg', './assets/scene/route_13_1.jpg', './assets/scene/route_13_2.jpg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
