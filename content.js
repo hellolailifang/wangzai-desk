@@ -2913,7 +2913,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：街头采访 / 路人问卷",
@@ -2931,7 +2931,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：知识干货拆解",
@@ -2949,7 +2949,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：幕后花絮 / 工作日常",
@@ -2967,7 +2967,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：热点跟拍 / 挑战赛",
@@ -2985,7 +2985,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：好物种草 / 开箱",
@@ -3003,7 +3003,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：评论区选题 / 用户故事",
@@ -3021,7 +3021,7 @@ const CONTENT = {
     "blocks": [
       {
         "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>抖音账号 · 153146893</b><span class=\"co-t hd\">待同步</span></div><div class=\"co-r look\"><b>💡 同步方式：</b>把抖音「创作者后台」的账号概览 / 近30天数据截图发给我，我整理成真实分析卡片并更新到这里（含涨粉曲线、爆款拆解、内容建议）。</div></div>"
+        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-06</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近30天：</b>播放 <b>14.9万</b>(+4245%)｜点赞 <b>832</b>(+2584%)｜完播率 <b>19.07%</b></p><p style='margin:0 0 4px;'><b>排名：</b>近7日播放超越 <b>98.91%</b> 同类作者</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>马来Fipper人字拖 11.9万播 / 580赞 / 170收藏，获9.5万流量激励</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>互动率仅 <b>1%</b>(同类6.4%)，粉丝净增1人，流量转粉弱</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制真实体验+好物爆款；WorkBuddy类前3秒讲利益点；结尾加互动钩子</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
       },
       {
         "h": "🔥 本周推荐：数据复盘 / 方法论",
