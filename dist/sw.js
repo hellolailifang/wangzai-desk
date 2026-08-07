@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v70: 社媒内容模块填入真实抖音账号分析（替换待同步占位）
-const CACHE = 'wz-desk-v70';
+// v71: 修复娜美(ace)和路飞(garp)头像顶部留白过多问题
+const CACHE = 'wz-desk-v71';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
