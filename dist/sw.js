@@ -1,10 +1,10 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v73: 修复头像（最终版）：只做位置偏移不缩放，娜美上移75px/路飞上移85px
-const CACHE = 'wz-desk-v73';
+// v74: 社媒内容 · 第8周抖音推荐（图文短视频 × 深圳辣馆连载）
+const CACHE = 'wz-desk-v74';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
-  './assets/face-fallback.svg',
+  './assets/face-fallback.svg', './assets/social_av.svg',
   './assets/route_0.svg', './assets/route_1.svg', './assets/route_2.svg', './assets/route_3.svg',
   './assets/route_4.svg', './assets/route_5.svg', './assets/route_6.svg', './assets/route_7.svg',
   './assets/route_8.svg', './assets/route_9.svg', './assets/route_10.svg', './assets/route_11.svg',
