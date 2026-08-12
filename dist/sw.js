@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v74: 社媒内容 · 第8周抖音推荐（图文短视频 × 深圳辣馆连载）
-const CACHE = 'wz-desk-v74';
+// v75: 抖音数据分析更新至2026-08-12（撸狗爆款1.3万播/1783赞）
+const CACHE = 'wz-desk-v75';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',

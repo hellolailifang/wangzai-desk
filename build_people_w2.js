@@ -207,16 +207,7 @@ const items = raw.map((r, i) => ({
   ]
 }));
 
-const inner = JSON.stringify(items, null, 2).replace(/^\s*\[/, '').replace(/\]\s*$/, '');
-
-const startMarker = '  "finance": [';
-const s = t.indexOf(startMarker);
-if (s < 0) { console.error('start marker not found'); process.exit(1); }
-const afterStart = s + startMarker.length;
-const m = t.slice(afterStart).match(/\n  \],\s*\n  "diet": \[/);
-if (!m) { console.error('close marker not found'); process.exit(1); }
-const closePos = afterStart + m.index;
-
-fs.writeFileSync(path, t.slice(0, afterStart) + '\n' + inner + '\n' + t.slice(closePos));
+const lib = require('/Users/lailifang/WorkBuddy/2026-07-27-09-50-21/build_lib.js');
+lib.replaceArray('finance', items);
 console.log('finance written, items: ' + items.length);
 console.log('with real photo: ' + raw.filter(r => r.photo !== FB).length + ', fallback: ' + raw.filter(r => r.photo === FB).length);
