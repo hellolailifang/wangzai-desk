@@ -342,6 +342,9 @@
   /* 企业看点（融合自深度看点，不再独立成块） */
   .co-r.look{margin-top:5px;padding:6px 9px;background:rgba(139,92,246,.08);border-left:3px solid #8b5cf6;border-radius:7px;}
   .co-r.look b{color:#6d28d9;}
+  /* GEO 切入点（AI 搜索可见性企业模块） */
+  .co-r.geo{margin-top:5px;padding:6px 9px;background:rgba(13,148,136,.10);border-left:3px solid #0d9488;border-radius:7px;}
+  .co-r.geo b{color:#0f766e;}
 
   /* 手机端返回栏（仅窄屏显示） */
   .mob-back{
@@ -356,7 +359,7 @@
   /* ===== 内容排版增强 v32：层级 / 间距 / 配色 / 表格感 ===== */
   :root{
     --accent:#ff6b6b; --accent-deep:#e63946;
-    --co-found:#0a7d9b; --co-turn:#c2720a; --co-look:#6d28d9;
+    --co-found:#0a7d9b; --co-turn:#c2720a; --co-look:#6d28d9; --co-geo:#0d9488;
     --rule:rgba(72,202,228,.28); --chip:#eef8ff; --emph:#0a3d62;
   }
   /* 内容块呼吸感 */
@@ -391,14 +394,16 @@
   /* 字段标签：段首 <b> 对齐成列，形成表格感 */
   .co-r > b:first-child{ display:inline-block; min-width:auto; color:var(--ocean); font-weight:800; }
   /* 发家史 / 转折点 / 看点 三色小节 */
-  .co-r.found, .co-r.turn, .co-r.look{ padding:9px 12px; border-radius:9px; margin:9px 0; }
+  .co-r.found, .co-r.turn, .co-r.look, .co-r.geo{ padding:9px 12px; border-radius:9px; margin:9px 0; }
   .co-r.found{ background:rgba(10,125,155,.07); border-left:4px solid var(--co-found); }
   .co-r.turn{ background:rgba(194,114,10,.08); border-left:4px solid var(--co-turn); }
   .co-r.look{ background:rgba(109,40,217,.07); border-left:4px solid var(--co-look); }
-  .co-r.found > b:first-child, .co-r.turn > b:first-child, .co-r.look > b:first-child{ min-width:auto; font-size:14px; margin-bottom:2px; }
+  .co-r.geo{ background:rgba(13,148,136,.08); border-left:4px solid var(--co-geo); }
+  .co-r.found > b:first-child, .co-r.turn > b:first-child, .co-r.look > b:first-child, .co-r.geo > b:first-child{ min-width:auto; font-size:14px; margin-bottom:2px; }
   .co-r.found > b:first-child{ color:var(--co-found); }
   .co-r.turn  > b:first-child{ color:var(--co-turn); }
   .co-r.look  > b:first-child{ color:var(--co-look); }
+  .co-r.geo   > b:first-child{ color:var(--co-geo); }
   .fam-btn{ font-size:13.5px; }
   .fam-modal .fam-top{ font-size:16.5px; }
 
@@ -568,7 +573,7 @@ function dayOfYear(d){
 const MODULES = [
   {id:'english',  name:'英语学习',     en:'English Learning',     desc:'每日单词·表达', unit:'分钟', img:'assets/garp.webp',  char:'路飞', noCheckin:true},
   {id:'ai',       name:'AI课程',       en:'AI Course',             desc:'一课一练', unit:'课',   img:'assets/sanji.webp', char:'索隆', noCheckin:true},
-  {id:'trade',    name:'3C跨境企业',en:'3C Cross-border Enterprises',desc:'企业案例库', unit:'家', img:'assets/zoro.webp', char:'布鲁克', noCheckin:true},
+  {id:'geo',      name:'AI搜索可见性企业',en:'AI Search Visibility',desc:'GEO 高需求企业库', unit:'家', img:'assets/zoro.webp', char:'布鲁克', noCheckin:true},
   {id:'overseas', name:'海外企业',     en:'Overseas Companies',    desc:'海外公司图谱', unit:'家',   img:'assets/usopp.webp', char:'山治', noCheckin:true},
   {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'娜美',  noCheckin:true},
   {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'选题与素材', unit:'篇',   img:'assets/luffy.webp',   char:'乔巴', noCheckin:true},
@@ -577,6 +582,13 @@ const MODULES = [
   {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sabo.webp', char:'甚平',  noCheckin:true},
 ];
 if(!DB.moduleOrder || !DB.moduleOrder.length) DB.moduleOrder = MODULES.map(m=>m.id);
+// 兼容升级：旧模块 id 'trade'（3C跨境企业）更名为 'geo'（AI搜索可见性企业），保持原有排序位置
+(function migrateTradeToGeo(){
+  if(DB.moduleOrder && DB.moduleOrder.includes('trade')){
+    DB.moduleOrder = DB.moduleOrder.map(id => id === 'trade' ? 'geo' : id);
+    save(DB);
+  }
+})();
 // 兼容升级：保留用户自定义顺序，把新模块按 MODULES 默认顺序追加到末尾，过滤已删除模块
 (function syncModuleOrder(){
   const validIds = new Set(MODULES.map(m=>m.id));

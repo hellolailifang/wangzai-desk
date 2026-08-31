@@ -1,8 +1,6 @@
 /* =========================================================
-   旺仔的工作台 · 各模块"每日内容"数据
-   每条目结构：{ title, tag, blocks:[ {h, body} ] }
-   body 支持 HTML（<p> <ul><li> <div class="ph"> 等）
-   英语/旅行为英文；其余为中文。内容按"使用天数"选取，每日更新。
+   旺仔的工作台 · 内容数据 CONTENT（每周自动焕新）
+   生成时间：2026-08-24｜finance/diet/travel 已刷新
    ========================================================= */
 const CONTENT = {
   "english": [
@@ -390,332 +388,332 @@ const CONTENT = {
     }
   ],
   "ai": [
+    {
+      "title": "第1课：AI 不是魔法，先学会「好好说话」",
+      "tag": "提示词入门 · 今天就能用",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>AI 本质上是一个「接话器」。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第1天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">角色</text><line x1=\"92\" y1=\"55\" x2=\"108\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,55 100,50 100,60\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">任务</text><line x1=\"187\" y1=\"55\" x2=\"203\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,55 195,50 195,60\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"30\" width=\"50\" height=\"50\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">要求</text></svg><h3>3 分钟看懂</h3><p>AI 本质上是一个「接话器」。你描述得越清楚，它回答越准。记住公式：<b>角色 + 任务 + 要求</b>。不要只说「帮我写个文案」，要让 AI 知道你是谁、给谁看、要什么风格。</p><h3>今天落地</h3><p>打开 <b>豆包 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是一位深圳抖音文案高手。我在深圳做城市探店账号，爱喝咖啡、爱吃辣。请帮我写一条 15 秒口播文案，主题是「深圳周末最值得去的一家咖啡馆」，语气像朋友聊天，结尾要有行动号召。控制在 120 字以内。</blockquote><h3>避坑提醒</h3><p>不要问太开放的问题，比如「咖啡怎么拍」。越具体，AI 越聪明；把平台、字数、语气、人群都说清楚。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第2课：10 分钟让 AI 给你 10 个选题",
+      "tag": "选题库 · 爆款从选题开始",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第2天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">定位</text><text x=\"90\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">+</text><rect x=\"105\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"135.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><text x=\"175\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">=</text><rect x=\"190\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">10个选题</text></svg><h3>3 分钟看懂</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。选题不要拍脑袋，要让它基于你的账号标签和受众来批量生成。</p><h3>今天落地</h3><p>打开 <b>豆包 / 通义 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>我在深圳做抖音，账号定位是城市生活/美食探店，爱喝咖啡、爱吃辣。请给我 10 个 8 月可拍的选题，每个配 3 个爆款标题，要求贴近 20-30 岁深圳打工人，有争议、有好奇、有共鸣。</blockquote><h3>避坑提醒</h3><p>AI 给的大路货选题往往相似，你要加入自己的经历、观点和城市细节做差异化。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第3课：AI 写脚本，但你来把关",
+      "tag": "脚本工作流 · 爆款结构",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第3天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"40\" width=\"240\" height=\"36\" rx=\"8\" fill=\"#ffffff\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"22\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"47.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">钩子</text><rect x=\"76\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"101.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">痛点</text><rect x=\"130\" y=\"42\" width=\"60\" height=\"32\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"160.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">干货</text><rect x=\"194\" y=\"42\" width=\"62\" height=\"32\" rx=\"8\" fill=\"#ff9f1c\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">行动</text></svg><h3>3 分钟看懂</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。AI 出初稿，你改人话，千万别直接念 AI 稿。</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是抖音爆款脚本写手。选题：深圳最辣的 3 家小馆子。目标人群：20-30 岁深圳打工人。要求：前 3 秒用反常识钩子，中间给 3 家店名 + 一句话推荐理由，结尾引导评论「你还知道哪家更辣」。语气像朋友聊天，60 秒口播。输出：口播稿 + 3 个标题。</blockquote><h3>避坑提醒</h3><p>AI 会编假店名、假地址、假价格，凡是涉及真实信息必须人工核对。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第4课：不用 PS，AI 做封面图",
+      "tag": "AI 生图 · 视觉包装",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>文生图工具根据 prompt 出图。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第4天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"57.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">文字 prompt</text><line x1=\"97\" y1=\"57\" x2=\"115\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"115,57 107,52 107,62\" fill=\"#0a3d62\"/><rect x=\"120\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"147.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"177\" y1=\"57\" x2=\"195\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"195,57 187,52 187,62\" fill=\"#0a3d62\"/><rect x=\"200\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"230.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">封面图</text></svg><h3>3 分钟看懂</h3><p>文生图工具根据 prompt 出图。公式：<b>主体 + 场景 + 风格 + 色调</b>。豆包、即梦、可灵都能用，不需要任何设计基础。</p><h3>今天落地</h3><p>打开 <b>豆包 / 即梦 / 可灵</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>一张现代感封面图，深圳咖啡店窗外街景，一杯冰美式放在木桌上，暖色调，日系清新风格，高清，16:9，适合抖音封面。</blockquote><h3>避坑提醒</h3><p>人物手指、文字、招牌常出错；一次生成 5-10 张再挑 1 张，不要指望第一张就完美。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第5课：把同行爆款「喂」给 AI 做复盘",
+      "tag": "信息处理 · 竞品分析",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第5天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">爆款文案</text><line x1=\"87\" y1=\"57\" x2=\"105\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"105,57 97,52 97,62\" fill=\"#0a3d62\"/><rect x=\"110\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"137.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"167\" y1=\"57\" x2=\"185\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"185,57 177,52 177,62\" fill=\"#0a3d62\"/><rect x=\"190\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"227.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">复盘结论</text></svg><h3>3 分钟看懂</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。关键不是抄，是找规律：它为什么火？哪 3 点我能借鉴？哪些不适合我？</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>下面是一条抖音爆款视频的文案。请帮我分析：① 这条视频为什么火？② 我可以借鉴哪 3 点？③ 哪些不适合我的账号？请用 bullet point 回答。\\n\\n【把爆款文案粘贴在这里】</blockquote><h3>避坑提醒</h3><p>不要照抄同行，要结合自己的账号定位和旺仔的个人特色（爱辣、爱咖啡、深圳）。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第6课：AI 字幕/配音/数字人，一人成军",
+      "tag": "效率工具 · 剪辑加速",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第6天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">字幕</text><rect x=\"95\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"130.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">配音</text><rect x=\"175\" y=\"35\" width=\"90\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"220.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">数字人辅助</text></svg><h3>3 分钟看懂</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。新手先学 1-2 个就够了，不要贪多。</p><h3>今天落地</h3><p>打开 <b>剪映 / 豆包 / 度加</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>（本节课以工具操作为主）把昨天拍好的视频导入剪映，点击「识别字幕」一键生成字幕；或打开豆包「音色克隆」，录制 30 秒自己的声音，让 AI 帮你读一段口播。</blockquote><h3>避坑提醒</h3><p>AI 配音可能没情绪，关键片段建议自己配；数字人目前更像辅助，不要让它完全替代真人出镜。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    },
+    {
+      "title": "第7课：把 6 天串成你的 AI 工作流",
+      "tag": "SOP · 持续迭代",
+      "blocks": [
+        {
+          "h": "今日复盘",
+          "body": "<h3>今日复盘</h3><p>模板化是提高效率的关键。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        },
+        {
+          "h": "第7天 · 今天就能做",
+          "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">模板</text><line x1=\"92\" y1=\"57\" x2=\"108\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,57 100,52 100,62\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">复用</text><line x1=\"187\" y1=\"57\" x2=\"203\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,57 195,52 195,62\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"35\" width=\"50\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">优化</text></svg><h3>3 分钟看懂</h3><p>模板化是提高效率的关键。把 prompt、选题、脚本、封面、复盘固定成文档，每次复用并优化，AI 才会越用越顺手。</p><h3>今天落地</h3><p>打开 <b>腾讯文档 / 飞书文档</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>帮我整理一份「旺仔抖音 AI 工作 SOP」文档，包含：① 选题 prompt 模板 ② 脚本 prompt 模板 ③ 封面图 prompt 模板 ④ 复盘问题清单。每项用 checklist 形式输出，方便每次复用。</blockquote><h3>避坑提醒</h3><p>模板不是死板的，每拍 10 条就要升级一次 prompt，否则观众会腻、数据会掉。</p>"
+        },
+        {
+          "h": "动手清单",
+          "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        }
+      ]
+    }
+  ],
+  "geo": [
   {
-    "title": "第1课：AI 不是魔法，先学会「好好说话」",
-    "tag": "提示词入门 · 今天就能用",
+    "title": "Day 1 · AI 搜索可见性企业",
+    "tag": "第1天 · 出海消费电子品牌",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>AI 本质上是一个「接话器」。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：把「品牌名 + 品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② <b>找缺口</b>：AI 答不上来、参数说错、或只引 Reddit / 竞品官网，就是你的机会；③ <b>补料</b>：把参数表、对比测评、FAQ、使用场景做成结构化内容，铺到 AI 爱引的站点（官网帮助中心、YouTube 测评、Reddit、行业媒体）；④ <b>提案话术</b>：别卖「谷歌排名」，卖「AI 答案里的出现率 + 引用来源占比」，按季度做前后对比；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
       },
       {
-        "h": "第1天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">角色</text><line x1=\"92\" y1=\"55\" x2=\"108\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,55 100,50 100,60\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"30\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">任务</text><line x1=\"187\" y1=\"55\" x2=\"203\" y2=\"55\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,55 195,50 195,60\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"30\" width=\"50\" height=\"50\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"59.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">要求</text></svg><h3>3 分钟看懂</h3><p>AI 本质上是一个「接话器」。你描述得越清楚，它回答越准。记住公式：<b>角色 + 任务 + 要求</b>。不要只说「帮我写个文案」，要让 AI 知道你是谁、给谁看、要什么风格。</p><h3>今天落地</h3><p>打开 <b>豆包 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是一位深圳抖音文案高手。我在深圳做城市探店账号，爱喝咖啡、爱吃辣。请帮我写一条 15 秒口播文案，主题是「深圳周末最值得去的一家咖啡馆」，语气像朋友聊天，结尾要有行动号召。控制在 120 字以内。</blockquote><h3>避坑提醒</h3><p>不要问太开放的问题，比如「咖啡怎么拍」。越具体，AI 越聪明；把平台、字数、语气、人群都说清楚。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（出海消费电子品牌）",
+        "body": "<p>海外用户越来越习惯直接问 AI「best power bank for iPhone 15」「best bone conduction headphones for running」，答案里点名谁，谁就赢下这一单。这批出海品牌投放已很成熟，缺的正是 AI 答案里的席位。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>安克创新 Anker</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于长沙，前 Google 工程师阳萌创办，从亚马逊充电配件起家，如今是全球移动充电与智能硬件出海标杆。</div><div class=\"co-r\"><b>主营业务：</b>移动充电（充电器 / 充电宝 / 数据线）、音频 Soundcore、智能家居 eufy、储能 Anker SOLIX；招牌：氮化镓充电器、MagGo 磁吸充电。</div><div class=\"co-r\"><b>市场与打法：</b>以亚马逊为基本盘，用「浅海理论」逐个品类做到第一，海外营收占比长期在九成以上；研发与品牌双驱动，独立站与线下渠道同步铺开。</div><div class=\"co-r found\"><b>📜 发家史：</b>阳萌早年在亚马逊卖充电配件，发现市面产品又贵又丑，用极简设计 + 高可靠性切中海外用户，Anker 很快做成亚马逊充电品类第一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2020 年登陆创业板后，从单一充电扩张到音频、智能家居、安防、储能，用「浅海理论」避开与巨头正面硬刚。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best portable charger for travel」这类提示词里，AI 常给一串泛泛的清单，Anker 未必总在首位；可帮它把各型号适用场景、功率参数、认证信息做成 AI 可抓取的对比内容，抢下答案里的固定位置。</div><div class=\"co-r look\"><b>💡 看点：</b>中国品牌出海的范本，证明了「先做品类第一、再滚雪球」这条路走得通。 <button class=\"fam-btn\" data-fp=\"阳萌 Yang Meng\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.anker.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.anker.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>韶音 Shokz</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>骨传导耳机全球第一梯队，深圳起家、主打开放双耳的运动耳机品牌，长期占据亚马逊与海外专业跑者圈层。</div><div class=\"co-r\"><b>主营业务：</b>骨传导 / 开放式蓝牙耳机、运动耳机、游泳耳机；招牌：OpenRun、OpenSwim 系列。</div><div class=\"co-r\"><b>市场与打法：</b>以运动垂直场景切入，靠专业跑者口碑 + 亚马逊 + 海外线下运动渠道；近年加大国内马拉松赛事与达人种草。</div><div class=\"co-r found\"><b>📜 发家史：</b>早年做专业通信音频设备，后转型消费级骨传导耳机，靠「开放双耳更安全」这个清晰卖点打穿运动人群。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工与专业市场转向自有品牌，把「不入耳」从技术名词做成品类心智，成为骨传导耳机的代名词。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best headphones for running safety」几乎是为它量身定做的提示词，但 AI 回答里常混入 AfterShokz / 竞品旧名；品牌改名 Shokz 后的资料一致性、与竞品的对比要点，正是 GEO 可以快速补齐的缺口。</div><div class=\"co-r look\"><b>💡 看点：</b>技术名词变品类代名词的经典案例，也是「场景即搜索词」的最好教材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shokz.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shokz.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>绿联科技 UGREEN</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2012 年创立于深圳，张清森创办，从数据线、电脑周边起家，如今是数码配件全品类出海品牌。</div><div class=\"co-r\"><b>主营业务：</b>数据线、扩展坞、充电器、NAS 私有云、音频配件；招牌：Type-C 扩展坞、百瓦氮化镓充电器、NAS 私有云。</div><div class=\"co-r\"><b>市场与打法：</b>国内天猫基本盘 + 亚马逊 / 独立站出海双线；SKU 极宽、供应链与性价比并重，2024 年登陆创业板。</div><div class=\"co-r found\"><b>📜 发家史：</b>早期靠 3C 配件代工与电商起量，抓住 Type-C 与多设备互联趋势，用高性价比配件快速铺开海内外渠道。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从一根数据线做到全品类配件，并把 NAS 私有云做成第二增长曲线，从「配件」走向「数据存储」。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>NAS 是高决策成本品类，用户会反复问 AI「best NAS for home use」「NAS 和网盘有什么区别」；绿联在 AI 答案里的出现率远低于群晖，靠科普型内容 + 场景化对比完全有翻盘空间。</div><div class=\"co-r look\"><b>💡 看点：</b>配件赛道的品类收割机，也是研究中企 3C 出海的合适标本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ugreen.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ugreen.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>倍思 Baseus</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于深圳，何世友创办，主打设计感与性价比的 3C 数码配件品牌。</div><div class=\"co-r\"><b>主营业务：</b>充电器、车载支架、音频、数据线、移动电源；招牌：磁吸无线充、伸缩数据线、车载配件。</div><div class=\"co-r\"><b>市场与打法：</b>海外独立站 + 亚马逊双线，以设计感与性价比切入年轻用户，国内电商同样强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「好看不贵」切入被大牌忽略的年轻用户，靠快速上新与外观设计在配件红海里撕开口子。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纯线上性价比路线逐步走向品牌化、设计化，把配件做成有辨识度的消费品牌。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>配件品类在 AI 答案里最容易被「泛化推荐」淹没——AI 一说就是 Anker，倍思很少被点名；用车场景、磁吸生态这类长尾提示词是它的突破口。</div><div class=\"co-r look\"><b>💡 看点：</b>配件红海里的设计派，适合研究「如何让 AI 记住一个非头部品牌」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.baseus.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.baseus.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第2课：10 分钟让 AI 给你 10 个选题",
-    "tag": "选题库 · 爆款从选题开始",
+    "title": "Day 2 · AI 搜索可见性企业",
+    "tag": "第2天 · 便携储能与光储出海",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「best portable power station for camping / home backup」问 ChatGPT 与 Google AI Overview，看这几个品牌谁被点名、引的是官网还是测评站；② <b>找缺口</b>：容量、充电速度、是否支持 UPS 这些关键参数 AI 经常说错或含糊；③ <b>补料</b>：做场景化的参数对比表（露营 / 停电 / 房车 / 户外作业），铺到官网 FAQ、YouTube 测评、Reddit 的 r/vandwellers 等 AI 高频引用源；④ <b>提案话术</b>：储能是高客单决策，AI 一次推荐就能省掉一大笔广告费，按「AI 答案出现率 + 参数准确率」报价；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
       },
       {
-        "h": "第2天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">定位</text><text x=\"90\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">+</text><rect x=\"105\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"135.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><text x=\"175\" y=\"62\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"18\">=</text><rect x=\"190\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">10个选题</text></svg><h3>3 分钟看懂</h3><p>AI 能把你的定位 + 平台热点 + 内容形式组合成选题。选题不要拍脑袋，要让它基于你的账号标签和受众来批量生成。</p><h3>今天落地</h3><p>打开 <b>豆包 / 通义 / Kimi</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>我在深圳做抖音，账号定位是城市生活/美食探店，爱喝咖啡、爱吃辣。请给我 10 个 8 月可拍的选题，每个配 3 个爆款标题，要求贴近 20-30 岁深圳打工人，有争议、有好奇、有共鸣。</blockquote><h3>避坑提醒</h3><p>AI 给的大路货选题往往相似，你要加入自己的经历、观点和城市细节做差异化。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（便携储能与光储出海）",
+        "body": "<p>储能客单价动辄几百到上千美元，用户一定会先问 AI 再下单。谁出现在答案里，谁就省下一大笔广告费——这是 GEO 最典型的高回报场景。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>华宝新能源 Jackery</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>便携储能龙头，深圳起家，孙中伟创办，Jackery 品牌在北美户外与应急场景认知度极高。</div><div class=\"co-r\"><b>主营业务：</b>便携储能电源、太阳能板、家庭备电；招牌：Jackery 户外电源、SolarSaga 太阳能板。</div><div class=\"co-r\"><b>市场与打法：</b>北美独立站 + 亚马逊为核心，户外与应急场景强势，线下商超渠道同步铺设。</div><div class=\"co-r found\"><b>📜 发家史：</b>从充电宝、电池业务切入，看到「户外带电」这个空白需求，创立 Jackery 做便携储能，靠露营文化红利起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押中露营与家庭应急两大风口，把「电随人走」做成一个全球性品类，并在国内创业板上市。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best solar generator for home backup」是它最该拿下却常被 EcoFlow 分走的提示词；把 UPS 切换时间、带载能力这类硬参数做成 AI 可直接引用的结构化内容，胜算很大。</div><div class=\"co-r look\"><b>💡 看点：</b>把「带电的户外生活」做成全球品类的范本。 <button class=\"fam-btn\" data-fp=\"孙中伟 Sun Zhongwei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jackery.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jackery.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>正浩 EcoFlow</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于深圳，王雷创办，便携储能与家庭储能新锐，以快充技术著称。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、户外电源、家庭储能、阳台光储；招牌：DELTA / RIVER 系列、快充技术。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊三板斧，用技术差异化打高客单价市场。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自高校技术背景，以高倍率快充切入便携储能，靠海外众筹一炮打响。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用「半小时充满」这种可感知的技术指标建立差异，在高端储能站稳脚跟，并延伸到家庭与阳台光储。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>技术参数正是 AI 最爱引用的内容，但 EcoFlow 的型号命名（DELTA Pro / Max / 2 / 3）让 AI 经常张冠李戴；帮它把型号能力边界梳理清楚，本身就是一单很实在的 GEO 生意。</div><div class=\"co-r look\"><b>💡 看点：</b>用技术差异化打高端市场的新锐样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecoflow.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecoflow.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>德兰明海 Bluetti</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的便携储能品牌，主打大容量与家庭备电，海外市场知名度高。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、家庭备电、太阳能板；招牌：AC 系列、可扩容的家庭储能方案。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊，主攻家庭应急与大容量场景。</div><div class=\"co-r found\"><b>📜 发家史：</b>以磷酸铁锂长循环寿命和大容量为卖点，切入家庭应急备电这个更刚需的市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从户外玩家市场扩展到家庭应急，用「可扩容」这个设计承接长期用电需求。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>家庭备电是最典型的「先问 AI 再买」场景，而 Bluetti 在 AI 答案里的存在感明显弱于其市场份额；用停电场景、电器带载时长这类实用问答抢占答案位是它的捷径。</div><div class=\"co-r look\"><b>💡 看点：</b>储能赛道里把「家庭场景」讲得最透的一家。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.bluetti.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.bluetti.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>征拓 Zendure</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的便携储能品牌，主打模块化设计与快充，海外众筹起家。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、移动电源、家庭储能；招牌：SuperBase 系列、可叠堆模块化设计。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站，设计驱动的储能品牌，在欧美极客圈层口碑好。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「可叠堆、可上飞机」的模块化设计切入海外众筹，靠差异化形态获得关注。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从移动电源延伸到家庭备用储能，走设计差异化而非价格战路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>设计与便携性是小众但精准的提示词（如「portable power station for van life」）；Zendure 缺的不是好产品，而是让 AI 知道它「好在哪」的结构化素材。</div><div class=\"co-r look\"><b>💡 看点：</b>储能赛道的「设计派」，适合研究长尾场景打法。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zendure.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zendure.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第3课：AI 写脚本，但你来把关",
-    "tag": "脚本工作流 · 爆款结构",
+    "title": "Day 3 · AI 搜索可见性企业",
+    "tag": "第3天 · 跨境 DTC 服饰与时尚",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「best affordable summer dresses」「sustainable fashion brands」问 AI，看跨境 DTC 品牌是否被点名；② <b>找缺口</b>：快时尚品牌在 AI 答案里常被贴上「质量差 / 不环保」标签，这是内容层面的危机公关机会；③ <b>补料</b>：把尺码指南、面料成分、供应链透明度做成结构化页面，AI 极爱引用这类「事实型」内容；④ <b>提案话术</b>：服饰是纯 AI 答案可左右决策的品类，卖「答案里的品牌调性与标签」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与描述词正负向。</p>"
       },
       {
-        "h": "第3天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"40\" width=\"240\" height=\"36\" rx=\"8\" fill=\"#ffffff\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"22\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"47.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">钩子</text><rect x=\"76\" y=\"42\" width=\"50\" height=\"32\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"101.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">痛点</text><rect x=\"130\" y=\"42\" width=\"60\" height=\"32\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"160.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">干货</text><rect x=\"194\" y=\"42\" width=\"62\" height=\"32\" rx=\"8\" fill=\"#ff9f1c\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"225.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">行动</text></svg><h3>3 分钟看懂</h3><p>爆款短视频结构 = <b>钩子（前3秒） + 痛点/好奇 + 干货 + 行动号召</b>。AI 出初稿，你改人话，千万别直接念 AI 稿。</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>你是抖音爆款脚本写手。选题：深圳最辣的 3 家小馆子。目标人群：20-30 岁深圳打工人。要求：前 3 秒用反常识钩子，中间给 3 家店名 + 一句话推荐理由，结尾引导评论「你还知道哪家更辣」。语气像朋友聊天，60 秒口播。输出：口播稿 + 3 个标题。</blockquote><h3>避坑提醒</h3><p>AI 会编假店名、假地址、假价格，凡是涉及真实信息必须人工核对。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（跨境 DTC 服饰与时尚）",
+        "body": "<p>服饰是 AI 搜索渗透最快的品类之一：用户问「XX 场合穿什么」「哪家性价比高」，答案直接决定点击。快时尚品牌在 AI 口中的标签，比广告更影响形象。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>SHEIN</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球最大的跨境快时尚 DTC 平台之一，中国起家、总部迁至新加坡，以「小单快反」供应链闻名。</div><div class=\"co-r\"><b>主营业务：</b>女装、男装、童装、家居、美妆等全品类时尚商品；核心能力是按需生产与极速上新。</div><div class=\"co-r\"><b>市场与打法：</b>App + 独立站直供全球，社媒种草 + 网红分销 + 极低价格带，用数据中台驱动选款。</div><div class=\"co-r found\"><b>📜 发家史：</b>从跨境婚纱电商起步，逐步转型自有品牌快时尚，用数字化供应链把上新周期压到极致。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把「小单快反」做成行业标准，从卖货平台升级为全球时尚零售巨头，并开放平台引入第三方商家。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>AI 回答里 SHEIN 几乎总伴随「环保与质量争议」，这是典型的品牌叙事危机；用可持续供应链、面料成分、质检标准等可验证事实内容去「喂」AI，是它当前最刚需的一件事。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链极致效率的教科书，也是 GEO 里「品牌标签管理」的头号案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shein.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shein.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Cider</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>面向 Z 世代的跨境 DTC 时尚品牌，中国团队创办，以社媒原生打法快速起量。</div><div class=\"co-r\"><b>主营业务：</b>女装、配饰、家居服；主打设计感强、上新快的年轻化款式。</div><div class=\"co-r\"><b>市场与打法：</b>独立站 + App + Instagram / TikTok 种草，用社群反馈驱动设计，预售制控制库存。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住 Z 世代对「有态度但不贵」的需求，用社媒原生内容而非买量起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一女装扩展到多品类，用预售 + 社群共创把库存风险压到最低。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新品牌最大的问题不是产品，而是 AI「不认识它」；把品牌故事、设计灵感、尺码实测做成 AI 可引用的内容资产，是从零建立 AI 存在感的标准动作。</div><div class=\"co-r look\"><b>💡 看点：</b>社群驱动设计的代表，适合研究「新品牌如何被 AI 认识」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shopcider.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shopcider.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Halara</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>主打运动休闲与日常通勤的跨境 DTC 品牌，中国团队创办，在欧美年轻女性中增长迅速。</div><div class=\"co-r\"><b>主营业务：</b>瑜伽裤、运动裙、休闲装；招牌是把运动面料做成日常可穿的款式。</div><div class=\"co-r\"><b>市场与打法：</b>独立站 + 社媒投放 + 达人种草，高频上新、价格带亲民。</div><div class=\"co-r found\"><b>📜 发家史：</b>从「运动服饰日常化」这个细分切口出发，用高性价比产品配合密集社媒内容打开市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把运动休闲从健身房拉进日常穿搭场景，形成高频复购。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「workout dresses with shorts」「office to gym outfit」这类长尾提示词是它的天然主场，但 AI 更常提到 Lululemon；用场景化内容把这些长尾词占住，投入产出比极高。</div><div class=\"co-r look\"><b>💡 看点：</b>场景细分的典型打法，长尾提示词是它的金矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://thehalara.com\" target=\"_blank\" rel=\"noopener\">🌐 https://thehalara.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Urbanic</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>面向新兴市场的跨境时尚 DTC 品牌，中国团队创办，主攻拉美、南亚等增长市场。</div><div class=\"co-r\"><b>主营业务：</b>女装、配饰、鞋包；以本地化选款和性价比见长。</div><div class=\"co-r\"><b>市场与打法：</b>App + 独立站 + 本地化社媒，按区域市场做选款与定价，物流与支付本地化。</div><div class=\"co-r found\"><b>📜 发家史：</b>避开欧美红海，押注新兴市场的电商增长红利，用本地化运营建立壁垒。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从泛品类转向区域深耕，把供应链能力复制到多个高增长市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新兴市场语种杂、本地信息少，AI 更容易给出过时或不准确的品牌信息；多语种结构化内容是它最明显的缺口，也是最容易见效的切入口。</div><div class=\"co-r look\"><b>💡 看点：</b>新兴市场本地化打法的样本，多语种 GEO 的绝佳练兵场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.urbanic.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.urbanic.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第4课：不用 PS，AI 做封面图",
-    "tag": "AI 生图 · 视觉包装",
+    "title": "Day 4 · AI 搜索可见性企业",
+    "tag": "第4天 · 智能家居与清洁电器",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>文生图工具根据 prompt 出图。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「best robot vacuum for pet hair」「扫地机器人怎么选」问 ChatGPT、豆包、DeepSeek，看国产品牌谁被点名、参数是否准确；② <b>找缺口</b>：吸力、避障、自清洁基站这些卖点，AI 常给笼统答案或引境外媒体；③ <b>补料</b>：做「按户型 / 按宠物 / 按地毯」的场景化选购指南，铺到官网、知乎、B站测评、YouTube；④ <b>提案话术</b>：清洁电器国内外双线作战，卖「国内外 AI 平台同步可见」；⑤ <b>复盘</b>：每月固定 20 条中英文提示词各跑一遍，记录品牌被提及率。</p>"
       },
       {
-        "h": "第4天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"57.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">文字 prompt</text><line x1=\"97\" y1=\"57\" x2=\"115\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"115,57 107,52 107,62\" fill=\"#0a3d62\"/><rect x=\"120\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"147.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"177\" y1=\"57\" x2=\"195\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"195,57 187,52 187,62\" fill=\"#0a3d62\"/><rect x=\"200\" y=\"35\" width=\"60\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"230.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">封面图</text></svg><h3>3 分钟看懂</h3><p>文生图工具根据 prompt 出图。公式：<b>主体 + 场景 + 风格 + 色调</b>。豆包、即梦、可灵都能用，不需要任何设计基础。</p><h3>今天落地</h3><p>打开 <b>豆包 / 即梦 / 可灵</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>一张现代感封面图，深圳咖啡店窗外街景，一杯冰美式放在木桌上，暖色调，日系清新风格，高清，16:9，适合抖音封面。</blockquote><h3>避坑提醒</h3><p>人物手指、文字、招牌常出错；一次生成 5-10 张再挑 1 张，不要指望第一张就完美。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（智能家居与清洁电器）",
+        "body": "<p>扫地机器人是高客单、强参数对比的品类，国内外用户都爱先问 AI。这个赛道的品牌技术都很强，却常常输在「AI 不知道你强在哪」。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>石头科技 Roborock</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2014 年创立于北京，昌敬创办，扫地机器人技术派代表，国内外市场双线强势。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、洗地机、洗烘一体机；招牌：激光导航、全能基站、机械臂越障。</div><div class=\"co-r\"><b>市场与打法：</b>国内电商 + 海外亚马逊与独立站并重，以技术研发与高端定位著称，海外营收占比高。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自互联网与硬件背景，用激光导航与算法能力切入被 random 碰撞机占据的扫地机市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工小米生态链产品走向自有品牌高端化，把中国扫地机卖到全球高端价位段。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best robot vacuum for pet hair / carpet」这类提示词里石头常与 iRobot 并列，但 AI 引用的多是境外测评站；补充中英文双语的结构化参数与实测数据，能直接提升推荐位次。</div><div class=\"co-r look\"><b>💡 看点：</b>技术派做高端的范本，也是国货出海里最值得研究的 GEO 案例。 <button class=\"fam-btn\" data-fp=\"昌敬 Chang Jing\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.roborock.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.roborock.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>追觅科技 Dreame</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于苏州，俞浩创办，以高速数字马达技术起家的智能清洁品牌。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、无线吸尘器、洗地机、高速吹风机；核心是自研高速马达。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 海外双线，技术参数激进、上新速度快，主打「性能越级」。</div><div class=\"co-r found\"><b>📜 发家史：</b>以高速数字马达这一底层技术切入，从吸尘器扩展到清洁全品类。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>掌握核心马达技术后快速横向扩张品类，用性能参数正面挑战国际大牌。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>追觅的参数往往比竞品更亮眼，但 AI 回答里常只写「中国品牌」而不写具体优势；把马达转速、吸力实测这类硬指标做成可引用内容，是把参数优势转化为答案优势的关键。</div><div class=\"co-r look\"><b>💡 看点：</b>底层技术驱动多品类扩张的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.dreametech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.dreametech.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>科沃斯 Ecovacs</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1998 年创立于苏州，钱东奇创办，国内扫地机器人与家用服务机器人老牌龙头。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、擦窗机器人、空气净化机器人、商用服务机器人；招牌：地宝、窗宝系列。</div><div class=\"co-r\"><b>市场与打法：</b>国内全渠道 + 海外多国布局，产品线宽、品牌认知度高，近年发力高端与商用。</div><div class=\"co-r found\"><b>📜 发家史：</b>从代工吸尘器起家，转型做自有品牌家用机器人，是国内最早一批扫地机玩家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一扫地机扩展到擦窗、空气净化与商用机器人，走「家庭服务机器人平台」路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>老品牌的优势是认知度高，风险是 AI 引用的仍是几年前的老款信息；做一轮型号与能力的「信息焕新」，是见效最快的 GEO 动作。</div><div class=\"co-r look\"><b>💡 看点：</b>国产服务机器人的长跑选手，适合研究品牌信息的时效性问题。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecovacs.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecovacs.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>云鲸智能 Narwal</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2016 年创立，张峻彬创办，以「自清洁基站」创新切入的智能清洁品牌。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、洗地机；招牌：自动洗拖布的基站设计。</div><div class=\"co-r\"><b>市场与打法：</b>国内线上起家 + 逐步出海，靠单点创新口碑传播，产品迭代节奏克制。</div><div class=\"co-r found\"><b>📜 发家史：</b>团队以「拖地要手洗拖布」这个真实痛点切入，用自清洁基站做出差异化。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭一个创新点引爆市场，再逐步补齐产品线，走出「少而精」的路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>云鲸的创新点非常适合做 AI 科普内容（「为什么扫地机要自动洗拖布」），但目前这类内容几乎空白；用痛点型科普抢答案，是它最划算的 GEO 路径。</div><div class=\"co-r look\"><b>💡 看点：</b>单点创新突围的样本，科普型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.narwal.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.narwal.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第5课：把同行爆款「喂」给 AI 做复盘",
-    "tag": "信息处理 · 竞品分析",
+    "title": "Day 5 · AI 搜索可见性企业",
+    "tag": "第5天 · 美妆个护国货品牌",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「油皮夏天用什么水乳」「国货美妆哪个牌子好用」问豆包、DeepSeek、Kimi，看国货品牌谁被点名、依据是什么；② <b>找缺口</b>：AI 常引小红书笔记与电商详情页，信息杂乱、成分说不清；③ <b>补料</b>：把成分表、适用肤质、用法步骤做成结构化页面，并同步到知乎、小红书等 AI 高频引用源；④ <b>提案话术</b>：美妆决策高度依赖内容种草，卖「AI 答案里的成分可信度与品牌提及率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与描述正负向。</p>"
       },
       {
-        "h": "第5天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">爆款文案</text><line x1=\"87\" y1=\"57\" x2=\"105\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"105,57 97,52 97,62\" fill=\"#0a3d62\"/><rect x=\"110\" y=\"30\" width=\"55\" height=\"55\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"137.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">AI</text><line x1=\"167\" y1=\"57\" x2=\"185\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"185,57 177,52 177,62\" fill=\"#0a3d62\"/><rect x=\"190\" y=\"35\" width=\"75\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"227.5\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">复盘结论</text></svg><h3>3 分钟看懂</h3><p>AI 能读长文、看视频文案、总结爆款逻辑。关键不是抄，是找规律：它为什么火？哪 3 点我能借鉴？哪些不适合我？</p><h3>今天落地</h3><p>打开 <b>Kimi / 豆包</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>下面是一条抖音爆款视频的文案。请帮我分析：① 这条视频为什么火？② 我可以借鉴哪 3 点？③ 哪些不适合我的账号？请用 bullet point 回答。\\n\\n【把爆款文案粘贴在这里】</blockquote><h3>避坑提醒</h3><p>不要照抄同行，要结合自己的账号定位和旺仔的个人特色（爱辣、爱咖啡、深圳）。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（美妆个护国货品牌）",
+        "body": "<p>国内用户问「什么成分好」「哪个牌子靠谱」已经从搜索框转到豆包、DeepSeek。美妆是被 AI 推荐影响最大的品类之一，而很多国货在 AI 答案里仍然是「信息空白」。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>珀莱雅</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国货美妆龙头，杭州起家，侯军呈创办，以「大单品策略」著称的护肤品牌集团。</div><div class=\"co-r\"><b>主营业务：</b>护肤（精华、面霜、面膜）、彩妆、洗护；招牌：双抗精华、红宝石面霜、源力系列。</div><div class=\"co-r\"><b>市场与打法：</b>线上天猫抖音为核心 + 线下 CS 与商超，产品线覆盖大众到中高端，营销投入大。</div><div class=\"co-r found\"><b>📜 发家史：</b>从日化渠道起步，抓住电商红利转型线上，靠大单品打法迅速做大规模。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押注「早 C 晚 A」等成分教育式营销，把单品做成现象级爆款，稳坐国货美妆头部。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>珀莱雅的内容营销极强，但信息大量散落在短视频与直播里，AI 抓不到；把成分、适用肤质、使用顺序沉淀为结构化问答，是它从「流量品牌」变成「AI 眼里的权威品牌」的关键一步。</div><div class=\"co-r look\"><b>💡 看点：</b>大单品打法的教科书，也是国货营销投入产出比的标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.proya.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.proya.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>上美股份 · 韩束 KANS</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>上海起家的国货美妆集团，吕义雄创办，旗下韩束、一叶子、红色小象等多品牌。</div><div class=\"co-r\"><b>主营业务：</b>护肤、面膜、母婴护理；招牌：韩束红蛮腰环肽系列、一叶子面膜。</div><div class=\"co-r\"><b>市场与打法：</b>抖音短剧营销 + 电商全渠道，内容投放极为激进，品牌曝光量巨大。</div><div class=\"co-r found\"><b>📜 发家史：</b>从传统日化渠道起家，靠电视购物与线下渠道完成原始积累，随后全面转战线上。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>重注抖音内容生态，用短剧与达人矩阵把品牌声量拉到行业前列，完成老品牌年轻化。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>声量大不等于 AI 认知强——韩束在 AI 答案里常被描述为「营销品牌」；用成分科普、功效实测这类硬内容改写 AI 口中的品牌标签，是它当下最值钱的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌国货借内容生态翻身的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.kans.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.kans.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>花西子 Florasis</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于杭州，主打东方美学与雕花工艺的国风彩妆品牌。</div><div class=\"co-r\"><b>主营业务：</b>彩妆（气垫、口红、蜜粉、眉笔）；招牌：同心锁口红、蚕丝蜜粉、浮雕工艺彩妆。</div><div class=\"co-r\"><b>市场与打法：</b>国内线上起家 + 逐步出海，以设计与文化叙事驱动，客单价高于同价位国货。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「东方彩妆」定位切入同质化严重的国货彩妆市场，用雕花工艺和国风设计做差异。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从国内爆红走向海外（日本、东南亚等），把文化符号做成品类护城河。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>花西子的强项是视觉与文化叙事，弱项是成分与功效的事实型内容；在 AI 答案里它常被当成「送礼好看」，补上成分与使用场景的结构化信息，能打开日常自用这个更大的盘子。</div><div class=\"co-r look\"><b>💡 看点：</b>文化叙事驱动品牌的样本，也是出海做高端定位的参考。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.florasis.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.florasis.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>逸仙电商 · 完美日记</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>广州起家、黄锦峰创办的国货彩妆集团，纽交所上市，旗下完美日记、小奥汀、完子心选等。</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤；招牌：动物眼影盘、名片唇釉、散粉。</div><div class=\"co-r\"><b>市场与打法：</b>早年以小红书种草 + 私域 + 电商爆量著称，近年转向护肤与品牌建设、收缩战线提毛利。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住小红书种草红利与国货彩妆风口，用极致性价比和高频上新迅速起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>上市后经历增长瓶颈，主动从「规模优先」转向「品牌与毛利优先」，加码护肤与研发。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>完美日记最痛的不是知名度，而是 AI 回答里残留的「平价替代」「网红品牌」旧印象；做一轮品牌信息焕新与功效内容沉淀，是典型的 GEO 品牌重塑项目。</div><div class=\"co-r look\"><b>💡 看点：</b>从流量红利到品牌建设的转型样本，品牌标签重塑的绝佳案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.perfectdiary.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.perfectdiary.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第6课：AI 字幕/配音/数字人，一人成军",
-    "tag": "效率工具 · 剪辑加速",
+    "title": "Day 6 · AI 搜索可见性企业",
+    "tag": "第6天 · 母婴与宠物消费",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「幼猫吃什么猫粮好」「婴儿湿巾哪个牌子安全」问豆包、DeepSeek、小红书 AI 搜索，看国产品牌谁被推荐；② <b>找缺口</b>：母婴与宠物是典型的「信任型决策」，AI 却常给出泛泛的安全提示而不点名品牌；③ <b>补料</b>：做成分 / 配料透明度页面、月龄与体重对应表、第三方检测报告，AI 极爱引用可验证事实；④ <b>提案话术</b>：这个品类一次推荐就能带来长期复购，卖「AI 答案里的安全背书」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
       },
       {
-        "h": "第6天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"15\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"50.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">字幕</text><rect x=\"95\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"130.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">配音</text><rect x=\"175\" y=\"35\" width=\"90\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"220.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">数字人辅助</text></svg><h3>3 分钟看懂</h3><p>剪映「图文成片」、豆包「音色克隆」、度加「AI 剪辑」能大幅降低剪辑门槛。新手先学 1-2 个就够了，不要贪多。</p><h3>今天落地</h3><p>打开 <b>剪映 / 豆包 / 度加</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>（本节课以工具操作为主）把昨天拍好的视频导入剪映，点击「识别字幕」一键生成字幕；或打开豆包「音色克隆」，录制 30 秒自己的声音，让 AI 帮你读一段口播。</blockquote><h3>避坑提醒</h3><p>AI 配音可能没情绪，关键片段建议自己配；数字人目前更像辅助，不要让它完全替代真人出镜。</p>"
-      },
-      {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（母婴与宠物消费）",
+        "body": "<p>母婴与宠物是信任门槛最高的消费决策——用户一定会问，且一旦被推荐就长期复购。AI 在这个品类给的答案往往保守笼统，谁先把可信事实摆出来，谁就能被点名。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>乖宝宠物 · 麦富迪</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>山东聊城起家、秦华创办的宠物食品企业，麦富迪是国内宠物食品头部品牌之一。</div><div class=\"co-r\"><b>主营业务：</b>宠物主粮、零食、湿粮、冻干；招牌：弗列加特、麦富迪 BARF 生骨肉系列。</div><div class=\"co-r\"><b>市场与打法：</b>国内电商 + 线下宠物店 + 出海代工与自主品牌并行，营销投入大、品类覆盖全。</div><div class=\"co-r found\"><b>📜 发家史：</b>从宠物零食出口代工起步，积累供应链后转做自有品牌，抓住国内养宠爆发红利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工走向品牌，再用高端子品牌向上突破价格带，完成「代工—大众—高端」三段跳。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「国产猫粮哪个牌子好」是全网高频问题，AI 答案却常给进口品牌或泛泛建议；把配料表、营养指标、检测报告做成可引用内容，是国产品牌打破 AI 偏见的最短路径。</div><div class=\"co-r look\"><b>💡 看点：</b>代工转品牌的完整样本，也是国货在 AI 时代的信任建设案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.myfoodie.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.myfoodie.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中宠股份 · 顽皮 Wanpy</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>烟台起家、郝忠礼创办的宠物食品企业，国内宠物食品行业最早一批上市公司。</div><div class=\"co-r\"><b>主营业务：</b>宠物零食、主粮、湿粮；招牌：顽皮鲜封包、鸡肉干系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外代工出口 + 国内自主品牌双轮，海外收入占比高，国内外工厂布局完善。</div><div class=\"co-r found\"><b>📜 发家史：</b>从宠物零食出口加工起步，靠国际客户的质量体系背书，逐步建立自有品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在保持出口优势的同时重注国内市场，用「全球同厂同标准」作为品牌信任状。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「同厂同标准」这个卖点极具说服力，但 AI 完全不知道它的存在；把工厂资质、国际认证、出口国家这些事实结构化，就能让 AI 在推荐时多一句关键背书。</div><div class=\"co-r look\"><b>💡 看点：</b>出口转内销的信任打法，事实型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.wanpy.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.wanpy.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Babycare</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>杭州起家、李阔创办的母婴消费品牌，以设计与安全标准切入年轻父母群体。</div><div class=\"co-r\"><b>主营业务：</b>纸尿裤、婴儿湿巾、奶瓶、推车、母婴洗护；核心是「设计师品牌 + 高安全标准」。</div><div class=\"co-r\"><b>市场与打法：</b>线上天猫抖音为主 + 线下门店，主打一二线城市年轻家庭，客单价高于传统母婴品牌。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人从工业设计背景出发，用「好看又安全」切入被国际大牌占据的母婴市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纸尿裤单品扩展到全场景母婴用品，用品类宽度承接家庭长期消费。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>母婴用户问 AI 的高频句式是「XX 品牌安全吗」， Babycare 有检测标准却没做成 AI 可读的内容；把标准、检测、材质对比做成问答页，能直接命中这类提示词。</div><div class=\"co-r look\"><b>💡 看点：</b>设计驱动 + 安全背书的国产母婴样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.babycare.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.babycare.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>pidan 彼诞</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>上海起家的宠物消费品牌，以极简设计与猫砂产品出圈的宠物生活方式品牌。</div><div class=\"co-r\"><b>主营业务：</b>猫砂、猫砂盆、宠物家居、猫粮；招牌：混合猫砂、极简设计猫砂盆。</div><div class=\"co-r\"><b>市场与打法：</b>线上电商 + 内容种草 + 线下门店，主打年轻养宠人群的审美与体验。</div><div class=\"co-r found\"><b>📜 发家史：</b>用设计与审美切入被功能导向占据的宠物用品市场，靠单品口碑自传播。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从猫砂这个高频耗材切入建立信任，再逐步扩展到宠物家居与食品。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「什么猫砂好用不臭」是极高频提示词，但 AI 很少点名具体国产品牌；用除臭原理、粉尘率实测这类硬内容去填，是低投入高回报的典型场景。</div><div class=\"co-r look\"><b>💡 看点：</b>审美驱动消费品的样本，高频耗材品类的 GEO 富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.pidan.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.pidan.com</a></div></div>"
       }
     ]
   },
   {
-    "title": "第7课：把 6 天串成你的 AI 工作流",
-    "tag": "SOP · 持续迭代",
+    "title": "Day 7 · AI 搜索可见性企业",
+    "tag": "第7天 · 跨境 SaaS 与工具类",
     "blocks": [
       {
-        "h": "今日复盘",
-        "body": "<h3>今日复盘</h3><p>模板化是提高效率的关键。</p><p><b>明天预告：</b>继续把 AI 变成你的抖音生产力工具。</p>"
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「Shopify  alternatives for Chinese sellers」「跨境电商用什么 ERP」问 ChatGPT、Perplexity，看中国 SaaS 是否被提及；② <b>找缺口</b>：AI 答案几乎被 Shopify、国外工具垄断，中国 SaaS 即使更适配跨境卖家也进不了答案；③ <b>补料</b>：做「对比页 + 迁移指南 + 费率透明表」，并争取被行业媒体与 Reddit 讨论；④ <b>提案话术</b>：SaaS 决策长、客单高，卖「AI 答案里的对比位次」比投广告更划算；⑤ <b>复盘</b>：每月固定 20 条中英文提示词跑一遍，记录品牌被提及率。</p>"
       },
       {
-        "h": "第7天 · 今天就能做",
-        "body": "<svg viewBox=\"0 0 280 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"280\" height=\"120\" rx=\"12\" fill=\"#eaf6fb\" stroke=\"#0a3d62\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#48cae4\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"55.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">模板</text><line x1=\"92\" y1=\"57\" x2=\"108\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"108,57 100,52 100,62\" fill=\"#0a3d62\"/><rect x=\"115\" y=\"35\" width=\"70\" height=\"45\" rx=\"8\" fill=\"#1b6ca8\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"150.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\">复用</text><line x1=\"187\" y1=\"57\" x2=\"203\" y2=\"57\" stroke=\"#0a3d62\" stroke-width=\"2\"/><polygon points=\"203,57 195,52 195,62\" fill=\"#0a3d62\"/><rect x=\"210\" y=\"35\" width=\"50\" height=\"45\" rx=\"8\" fill=\"#ffd166\" stroke=\"#0a3d62\" stroke-width=\"2\"/><text x=\"235.0\" y=\"61.5\" text-anchor=\"middle\" fill=\"#0a3d62\" font-size=\"12\" font-weight=\"bold\">优化</text></svg><h3>3 分钟看懂</h3><p>模板化是提高效率的关键。把 prompt、选题、脚本、封面、复盘固定成文档，每次复用并优化，AI 才会越用越顺手。</p><h3>今天落地</h3><p>打开 <b>腾讯文档 / 飞书文档</b>，复制下面这段 prompt 直接发给它：</p><blockquote style='background:#eaf6fb;border-left:4px solid #0a3d62;padding:10px 14px;margin:10px 0;border-radius:6px;font-size:13px;line-height:1.6'>帮我整理一份「旺仔抖音 AI 工作 SOP」文档，包含：① 选题 prompt 模板 ② 脚本 prompt 模板 ③ 封面图 prompt 模板 ④ 复盘问题清单。每项用 checklist 形式输出，方便每次复用。</blockquote><h3>避坑提醒</h3><p>模板不是死板的，每拍 10 条就要升级一次 prompt，否则观众会腻、数据会掉。</p>"
+        "h": "今日推荐 · 4 家（跨境 SaaS 与工具类）",
+        "body": "<p>B2B 软件的选型问题是最早被 AI 搜索吞掉的搜索场景之一。中国跨境 SaaS 功能并不弱，但在 AI 答案里几乎是隐形人——这是最典型的 GEO 蓝海。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>SHOPLINE</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>面向全球商家的独立站 SaaS 建站平台，中国团队创办、业务覆盖多国市场，是 Shopify 的主要替代方案之一。</div><div class=\"co-r\"><b>主营业务：</b>独立站建站、店铺运营工具、支付与物流对接、营销插件；近年也做 B2B 与全渠道。</div><div class=\"co-r\"><b>市场与打法：</b>以亚洲市场为根据地并向欧美扩张，靠本地化服务与更低门槛吸引中小商家。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住中国及亚洲商家做独立站的浪潮，用本地化服务能力和价格优势打开市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从区域建站工具升级为全球化 SaaS 平台，并扩展支付、物流、B2B 等增值服务。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best Shopify alternative」是它最该拿下却几乎不出现的提示词；把迁移成本、费率对比、本地支付支持做成结构化对比页并争取第三方引用，是它最直接的 GEO 突破口。</div><div class=\"co-r look\"><b>💡 看点：</b>中国 SaaS 出海的代表，也是「替代型提示词」战术的最佳案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shopline.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shopline.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>店匠 SHOPLAZZA</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的独立站建站 SaaS，专注服务中国品牌出海商家。</div><div class=\"co-r\"><b>主营业务：</b>独立站建站、模板与插件、支付与营销工具、跨境合规支持。</div><div class=\"co-r\"><b>市场与打法：</b>以中国出海商家为核心客群，靠本地团队服务与行业解决方案获客。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住 DTC 出海浪潮，为不懂海外技术的中国商家提供开箱即用的建站服务。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从工具型建站走向「建站 + 增长」一体化，服务头部出海品牌客户。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>客户案例是 B2B SaaS 在 AI 答案里最有效的信任状，但店匠的成功案例多以线下形式存在；把可公开的客户成果、行业解决方案写成结构化内容，能显著提升 AI 推荐概率。</div><div class=\"co-r look\"><b>💡 看点：</b>服务中国出海商家的典型 SaaS，案例内容化空间极大。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shoplazza.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shoplazza.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>领星 ERP</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的跨境电商 ERP SaaS，专注亚马逊卖家的精细化运营。</div><div class=\"co-r\"><b>主营业务：</b>亚马逊店铺 ERP、财务核算、广告管理、供应链与库存管理。</div><div class=\"co-r\"><b>市场与打法：</b>以亚马逊卖家为核心客群，靠口碑与服务商生态获客，SaaS 订阅制。</div><div class=\"co-r found\"><b>📜 发家史：</b>从卖家的利润核算痛点切入，做出比通用财务软件更懂跨境卖家的 ERP。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在亚马逊卖家群体中建立强口碑，从工具走向数据化运营平台。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「亚马逊卖家怎么算利润」「跨境 ERP 哪个好」这类提示词决策意图极强，而 AI 答案多为泛泛科普；用实操教程 + 术语解释占据答案，是 SaaS 获取高质量线索的低成本方式。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直 SaaS 靠口碑做深的样本，教程型内容 ROI 极高。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lingxing.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lingxing.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>易仓科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的跨境电商 SaaS 服务商，覆盖 ERP、海外仓、物流等跨境全链路。</div><div class=\"co-r\"><b>主营业务：</b>跨境 ERP、海外仓 WMS、国际物流 TMS、分销与供应链协同系统。</div><div class=\"co-r\"><b>市场与打法：</b>服务中大型跨境卖家与海外仓企业，产品矩阵宽、实施能力强。</div><div class=\"co-r found\"><b>📜 发家史：</b>从跨境卖家的多平台管理痛点出发，逐步把 ERP 能力延伸到仓储与物流环节。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一 ERP 扩展到「商流 + 仓储 + 物流」一体化系统，客单价与客户粘性同步提升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>全链路能力是它最强的事实优势，但 AI 检索时往往只看到「ERP」这个窄标签；用行业白皮书、术语百科、链路图等可引用资产把能力范围讲清楚，是 B2B GEO 的标准打法。</div><div class=\"co-r look\"><b>💡 看点：</b>全链路 SaaS 的代表，能力边界被低估的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yicang.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yicang.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 8 · AI 搜索可见性企业",
+    "tag": "第8天 · 本地生活与连锁餐饮",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「深圳南山附近有什么好喝的咖啡」「XX 商场吃什么」问豆包、DeepSeek、高德 AI、大众点评 AI，看连锁品牌谁被点名；② <b>找缺口</b>：本地推荐高度依赖位置与实时信息，AI 常给过时或不准确的门店信息；③ <b>补料</b>：把门店信息、招牌产品、价格带、场景（办公 / 约会 / 带娃）做成结构化内容，并保持多平台一致；④ <b>提案话术</b>：连锁品牌门店多、信息更新快，卖「AI 答案里的门店信息准确率」；⑤ <b>复盘</b>：每月固定 20 条本地提示词跑一遍，记录品牌被提及与信息准确率。</p>"
       },
       {
-        "h": "动手清单",
-        "body": "<h3>今日动手清单</h3><ul style='padding-left:18px;line-height:1.8'><li>完成上面的 prompt 并得到结果</li><li>把最满意的一条结果保存到手机备忘录</li><li>标出 1 个你觉得「最像人话」或「最有用」的点</li></ul>"
+        "h": "今日推荐 · 4 家（本地生活与连锁餐饮）",
+        "body": "<p>「附近吃什么」是移动端最高频的 AI 提问之一。连锁品牌门店多、更新快，最容易出现 AI 给出错误门店、错误价格的情况——信息准确率本身就是刚需。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>瑞幸咖啡</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国门店数量最多的咖啡连锁品牌之一，以小店快取模式与数字化运营著称。</div><div class=\"co-r\"><b>主营业务：</b>现制咖啡、茶饮、轻食；招牌：生椰拿铁、丝绒拿铁、9.9 元价格带产品。</div><div class=\"co-r\"><b>市场与打法：</b>App 与小程序直营为主，密集开店 + 数字化发券 + 高频联名，覆盖办公与通勤场景。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「快取店 + 低价 + 数字化」模式切入中国咖啡市场，用密度换便利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历资本与治理风波后重整团队，靠产品创新与极致效率重回增长，门店规模持续领先。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>瑞幸的产品更新极快，AI 却常停留在旧菜单与旧价格；把当季产品、价格带、口味描述做成可同步更新的结构化内容，是连锁品牌 GEO 最典型的运维型需求。</div><div class=\"co-r look\"><b>💡 看点：</b>数字化运营的极致样本，也是「AI 信息保鲜」的头号案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.luckincoffee.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.luckincoffee.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>蜜雪冰城</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>郑州起家、张红超创办的现制茶饮连锁，全球门店数量位居餐饮连锁前列。</div><div class=\"co-r\"><b>主营业务：</b>现制茶饮、冰淇淋、咖啡（幸运咖）；招牌：4 元柠檬水、珍珠奶茶、冰淇淋。</div><div class=\"co-r\"><b>市场与打法：</b>加盟扩张 + 极致低价 + 供应链自建，下沉市场为主，近年加速出海东南亚。</div><div class=\"co-r found\"><b>📜 发家史：</b>从刨冰小店起步，靠极致性价比与加盟模式在下沉市场快速铺开。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>自建原料与冷链供应链，把成本压到行业极限，并成功复制到海外市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>雪王的强项是价格心智，弱项是 AI 对海外门店、加盟信息掌握混乱；出海国家的门店与产品信息标准化，是它当前最实际的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>极致性价比 + 供应链自建的教科书，出海信息标准化的典型案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mxbc.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mxbc.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>喜茶 HEYTEA</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>深圳起家、聂云宸创办的新茶饮品牌，曾是高端现制茶饮的定义者。</div><div class=\"co-r\"><b>主营业务：</b>现制茶饮、瓶装饮料、烘焙；招牌：芝芝莓莓、多肉葡萄、烤黑糖波波牛乳。</div><div class=\"co-r\"><b>市场与打法：</b>直营为主，近年开放事业合伙人并降价下沉，同时布局海外市场与瓶装零售。</div><div class=\"co-r found\"><b>📜 发家史：</b>用真奶真果与门店设计重新定义了现制茶饮的价格带与体验标准。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从坚持直营高价转向开放加盟与价格下探，把品牌势能转化为规模。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>喜茶的联名与新品节奏极快，AI 回答里的产品信息常常滞后数月；做「当期菜单 + 经典产品 + 场景推荐」的结构化内容并保持更新，能直接提升被推荐的概率。</div><div class=\"co-r look\"><b>💡 看点：</b>品牌势能变现的样本，内容保鲜需求最迫切的连锁之一。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.heytea.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.heytea.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>老乡鸡</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>合肥起家、束从轩创办的中式快餐连锁，以「养鸡起家 + 明厨亮灶」建立信任。</div><div class=\"co-r\"><b>主营业务：</b>中式快餐、鸡汤与小碗菜、早餐；招牌：肥西老母鸡汤、农家小炒肉。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 加盟并行，主攻社区与写字楼场景，主打干净与性价比。</div><div class=\"co-r found\"><b>📜 发家史：</b>从养殖端起家，向餐饮终端延伸，用「自己养的鸡」讲清楚供应链故事。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把养殖—中央厨房—门店的链路打通，并用明厨亮灶把透明度做成品牌资产。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「干净的中式快餐有哪些」这类提示词是它的主场，但 AI 很少能说出它的供应链优势；把可追溯、明厨亮灶这些事实做成可视化内容，是餐饮品牌建立 AI 信任的最有效手段。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链透明化的中式快餐样本，信任型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.laoxiangji.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.laoxiangji.cn</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 9 · AI 搜索可见性企业",
+    "tag": "第9天 · 医美与口腔医疗",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「热玛吉和超声刀选哪个」「隐形牙套哪个牌子好」「深圳做近视手术哪家医院好」问豆包、DeepSeek、小红书 AI，看机构与品牌谁被点名；② <b>找缺口</b>：医美与医疗决策风险高，AI 回答普遍保守、常不点名，且引用的多为科普站与广告页；③ <b>补料</b>：做项目原理、禁忌人群、恢复周期、价格区间的中性科普，并标注医生资质与机构资质；④ <b>提案话术</b>：这是转化价值最高的品类之一，卖「AI 答案里的专业可信度」，务必避免夸大功效表述；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及与描述正负向。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（医美与口腔医疗）",
+        "body": "<p>医美与口腔是高客单、高信任门槛的决策，用户会反复向 AI 求证。这个品类 AI 回答普遍保守，谁先提供中性、可验证的专业内容，谁就拿下这个答案位。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>时代天使 Angelalign</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国产隐形正畸龙头，与隐适美并列为国内隐形矫正的两大主流选择，港股上市。</div><div class=\"co-r\"><b>主营业务：</b>隐形矫治器、数字化正畸方案设计、口腔扫描与矫治管理系统。</div><div class=\"co-r\"><b>市场与打法：</b>通过口腔诊所与医院渠道触达用户，靠医生端方案能力与病例数据库建立壁垒。</div><div class=\"co-r found\"><b>📜 发家史：</b>由正畸医生与工程团队共同创立，用数字化方案设计切入被进口品牌垄断的隐形正畸市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭借本土病例数据与性价比优势，在国内市场与隐适美形成双寡头格局。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「隐适美和时代天使怎么选」是全网最典型的对比型提示词，而 AI 的回答往往两边都说得含糊；把适应症差异、疗程差异、价格区间做成中性对比内容，是这个品类最有效的 GEO 动作。</div><div class=\"co-r look\"><b>💡 看点：</b>国产替代进口的标杆，对比型提示词的最佳战场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.angelalign.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.angelalign.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>通策医疗</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内口腔医疗服务龙头，以「区域总院 + 分院」模式扩张，A 股上市。</div><div class=\"co-r\"><b>主营业务：</b>口腔诊疗（种植、正畸、儿牙、综合治疗）、口腔医院运营与管理。</div><div class=\"co-r\"><b>市场与打法：</b>以浙江省为大本营，依托总院品牌与医生资源做区域扩张，口碑与复诊驱动为主。</div><div class=\"co-r found\"><b>📜 发家史：</b>从公立医院改制切入口腔医疗服务，抓住居民口腔消费升级的长期红利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把「总院 + 分院」模式跑通，用品牌与医生培养体系支撑跨区域复制。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>医疗服务机构的 GEO 核心不是排名而是「被信任」——把医生资质、诊疗流程、真实病例（脱敏后）做成结构化内容，能让 AI 在回答「XX 城市看牙去哪」时给出更具体的推荐。</div><div class=\"co-r look\"><b>💡 看点：</b>医疗服务连锁化的样本，本地化 GEO 的标杆场景。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tcmedical.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tcmedical.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>美莱 MYLIKE</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内大型医美连锁集团，覆盖多座城市的综合医美机构品牌。</div><div class=\"co-r\"><b>主营业务：</b>整形外科、皮肤美容、微整形、口腔与植发等综合医美服务。</div><div class=\"co-r\"><b>市场与打法：</b>多城市直营连锁 + 线上投放获客，品牌认知度高、营销投入大。</div><div class=\"co-r found\"><b>📜 发家史：</b>在国内医美市场早期扩张阶段跑马圈地，用连锁规模建立品牌认知。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从规模扩张转向规范化与合规经营，在监管趋严背景下重建专业形象。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>医美行业整体面临 AI 回答偏负面、偏科普的困境；用严谨的项目科普、风险提示与资质公示去改善 AI 口中的行业叙事，是比投放广告更划算的品牌投资。</div><div class=\"co-r look\"><b>💡 看点：</b>医美连锁规模化的代表，行业叙事重塑的典型需求方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mylike.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mylike.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>伊美尔</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>国内老牌医美连锁机构，以北京为基地，主打微创与皮肤管理。</div><div class=\"co-r\"><b>主营业务：</b>微整形、皮肤美容、抗衰管理、私密与植发等项目。</div><div class=\"co-r\"><b>市场与打法：</b>区域连锁 + 私域运营为主，客户复购与会员制是核心。</div><div class=\"co-r found\"><b>📜 发家史：</b>在国内医美消费启蒙期入局，靠医生资源与老客口碑积累品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业竞争与合规压力下，转向精细化运营与老客深耕。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>老牌机构的优势是真实案例沉淀，劣势是这些内容从未结构化；把项目科普、医生介绍、常见问题做成可被 AI 引用的内容库，是低成本重获新客的路径。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌医美机构的精细化转型样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yimeier.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yimeier.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 10 · AI 搜索可见性企业",
+    "tag": "第10天 · 教育与职业培训",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「考公怎么准备」「MBA 辅导机构哪个好」「深圳少儿英语选哪家」问豆包、DeepSeek、Kimi，看机构谁被点名；② <b>找缺口</b>：教育决策周期长，AI 回答多为方法论科普，几乎不点名机构，且常引用过时政策；③ <b>补料</b>：做考试政策解读、时间线规划、班型对比与适配人群分析，并标注更新时间；④ <b>提案话术</b>：教育客单高、口碑敏感，卖「AI 答案里的专业性与信息时效性」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与政策信息准确率。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（教育与职业培训）",
+        "body": "<p>从「怎么备考」到「选哪家机构」，教育是全场景被 AI 搜索影响的品类。政策与时间线变化快，AI 答案经常过时——信息时效性就是最直接的切入口。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>新东方</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最具知名度的教育品牌之一，俞敏洪创办，业务已从留学培训扩展到素质教育与文旅。</div><div class=\"co-r\"><b>主营业务：</b>留学考试培训、语言培训、国内素质教育、大学生与成人学习、东方甄选电商。</div><div class=\"co-r\"><b>市场与打法：</b>线下网点 + 线上平台双线，品牌认知度极高，近年重心转向素质教育与文旅业务。</div><div class=\"co-r found\"><b>📜 发家史：</b>从出国英语培训起步，靠名师与品牌口碑做成全国性教育机构。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业政策变化后完成大规模转型，把品牌资产迁移到素质教育、直播电商等新业务上。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新东方在 AI 答案里几乎总被提及，但描述多是「英语培训」这个旧标签；把当下的业务结构、课程变化讲清楚，是老品牌做 AI 信息焕新的典型需求。</div><div class=\"co-r look\"><b>💡 看点：</b>老品牌转型的极限样本，也是「AI 印象滞后」的头号案例。 <button class=\"fam-btn\" data-fp=\"俞敏洪 Yu Minhong\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xdf.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xdf.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中公教育</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内公职类考试培训龙头，北京起家、李永新创办，A 股上市。</div><div class=\"co-r\"><b>主营业务：</b>公务员 / 事业单位 / 教师招录考试培训、职业技能与学历提升培训。</div><div class=\"co-r\"><b>市场与打法：</b>线下网点 + 线上平台，以协议班与大规模师资队伍著称，渠道下沉到县城。</div><div class=\"co-r found\"><b>📜 发家史：</b>从公务员考试图书与培训起步，抓住考公热与下沉市场需求迅速做大。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在政策与竞争变化后调整班型与退费模式，转向稳健经营与线上化。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「考公怎么准备」这类提示词月搜索量极大，AI 却极少点名机构；把考试节点、备考时间线、班型适配人群做成结构化内容，是这个品类最稳的获客方式。</div><div class=\"co-r look\"><b>💡 看点：</b>下沉市场培训连锁的样本，高意图提示词的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.offcn.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.offcn.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>高顿教育</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>上海起家的财经职业教育机构，以财会与金融证书培训见长。</div><div class=\"co-r\"><b>主营业务：</b>CPA / CFA / ACCA / 税务师等财经证书培训、企业财务培训、财经学历项目。</div><div class=\"co-r\"><b>市场与打法：</b>线上课程 + 线下学习中心，面向大学生与职场人群，客单价较高。</div><div class=\"co-r found\"><b>📜 发家史：</b>从财经证书培训这一垂直切口出发，用系统化教研与师资建立口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一证书培训扩展到财经职业教育全链条，并加码企业培训与国际化项目。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>证书类培训的提示词意图极其明确（「CPA 和税务师先考哪个」），但 AI 极少推荐具体机构；用考试路径规划、难度对比、时间成本分析这类内容切入，转化效率远高于投放。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直证书培训的样本，决策路径型内容的最佳场景。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.gaodun.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.gaodun.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>粉笔</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>以线上题库与低价课起家的公职考试培训机构，港股上市，主打年轻用户。</div><div class=\"co-r\"><b>主营业务：</b>公考 / 事业单位 / 教师招录线上课程、题库 App、图书与线下班。</div><div class=\"co-r\"><b>市场与打法：</b>以 App 与线上课程为核心获客入口，用低价与内容吸引年轻考生，线下轻资产补充。</div><div class=\"co-r found\"><b>📜 发家史：</b>用免费题库与线上系统课切走线下巨头的份额，靠产品体验与性价比突围。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业调整期收缩线下、强化线上与 AI 功能，把效率做成竞争力。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>粉笔本身就在做 AI 功能，理应最懂 AI 内容；把题库里的高频问题整理成公开问答页，能同时吃到搜索与 AI 推荐两边的流量。</div><div class=\"co-r look\"><b>💡 看点：</b>线上化逆袭线下巨头的样本，内容资产化的天然优势方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fenbi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fenbi.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 11 · AI 搜索可见性企业",
+    "tag": "第11天 · 房产与家装家居",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「深圳二手房怎么买」「全屋定制哪个牌子好」「装修预算怎么做」问豆包、DeepSeek、小红书 AI，看平台与品牌谁被点名；② <b>找缺口</b>：房产家装决策周期长、金额大，AI 回答多为通用流程科普，几乎不涉及具体平台与品牌；③ <b>补料</b>：做流程节点、费用清单、避坑指南、品牌工艺对比，并标明城市与更新时间；④ <b>提案话术</b>：这是客单价最高的品类，卖「AI 答案里的专业可信度」，一次推荐价值远超点击；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（房产与家装家居）",
+        "body": "<p>买房装修是普通人最大的一笔消费，决策前一定会反复问 AI。目前 AI 在这一品类大多只给通用流程，谁先把本地化、可执行的细节做出来，谁就占据答案。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>贝壳找房</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最大的房产交易与居住服务平台之一，左晖创办，链家与贝壳体系的核心平台。</div><div class=\"co-r\"><b>主营业务：</b>二手房 / 新房 / 租房交易服务、家装家居、房产经纪加盟平台。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台 + 线下门店网络，以真房源与经纪人协作网络（ACN）为核心壁垒。</div><div class=\"co-r found\"><b>📜 发家史：</b>从链家线下中介起步，用真房源与标准化服务建立信任，再做开放平台。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从线下中介转型为平台型公司，用数据与规则重构行业分工，并延伸至家装家居。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「买房要注意什么」「二手房交易流程」这类提示词量极大，AI 常给通用清单；把本地化流程、税费清单、避坑要点做成结构化内容，是这个平台最值得做的 GEO 资产。</div><div class=\"co-r look\"><b>💡 看点：</b>线下重资产平台化的样本，本地化内容的最佳战场。 <button class=\"fam-btn\" data-fp=\"左晖 Zuo Hui\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ke.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ke.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>欧派家居</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>广州起家、姚良松创办的定制家居龙头，橱柜起家、全屋定制领先。</div><div class=\"co-r\"><b>主营业务：</b>橱柜、衣柜、全屋定制、木门、卫浴与整装服务。</div><div class=\"co-r\"><b>市场与打法：</b>全国经销商门店 + 整装渠道 + 大宗业务，以规模化制造与渠道深度著称。</div><div class=\"co-r found\"><b>📜 发家史：</b>从橱柜单品切入定制家居，抓住房地产与家装升级的红利迅速扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单品类做到全屋定制与整装，用供应链与信息化系统支撑大规模非标交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「全屋定制怎么选板材」「欧派和索菲亚哪个好」是典型对比型提示词；把板材、五金、工艺、交付周期讲清楚并做成对比内容，能直接影响高客单决策。</div><div class=\"co-r look\"><b>💡 看点：</b>定制家居规模化的样本，对比型内容的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.oppein.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.oppein.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>居然智家</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内家居建材卖场龙头之一，北京起家、汪林朋创办，近年转型智能家居与产业服务平台。</div><div class=\"co-r\"><b>主营业务：</b>家居建材卖场运营、招商与物业管理、家装与智能家居服务、数字化平台。</div><div class=\"co-r\"><b>市场与打法：</b>以全国连锁卖场为核心，向智能家居与产业互联网方向转型。</div><div class=\"co-r found\"><b>📜 发家史：</b>从家居建材卖场起家，靠连锁规模与商户资源做成行业基础设施。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在地产周期与渠道变化下推进数字化转型，把卖场升级为智能家居体验与服务平台。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>卖场型品牌的 AI 存在感极弱，用户问「买家具去哪」得到的常是通用建议；把品牌入驻、品类���购、服务承诺做成结构化内容，是线下卖场少有的线上增量口子。</div><div class=\"co-r look\"><b>💡 看点：</b>线下卖场转型产业平台的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.juran.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.juran.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>尚品宅配</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>广州起家、李连柱创办的定制家居品牌，以数字化与整装模式著称。</div><div class=\"co-r\"><b>主营业务：</b>全屋定制、整装、配套家居、智能家居；以软件设计与数字化生产见长。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 加盟门店，用免费设计与数字化方案获客，主打整装一站式。</div><div class=\"co-r found\"><b>📜 发家史：</b>从家装设计软件切入家居零售，用数字化能力重新设计消费流程。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从软件与定制家具走向整装，用 IT 系统串联设计、生产与交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>尚品宅配本身有很强的数字化内容生产能力，却很少对外沉淀；把户型改造、空间利用、预算分配这类实用内容开放出来，是它最自然的 GEO 路径。</div><div class=\"co-r look\"><b>💡 看点：</b>数字化驱动的家居品牌，内容资产化的天然优势方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.spzp.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.spzp.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 12 · AI 搜索可见性企业",
+    "tag": "第12天 · 汽车与新能源车",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「30 万买什么车」「增程和插混怎么选」「家用七座推荐」问豆包、DeepSeek、Kimi，看谁被点名、参数是否准确；② <b>找缺口</b>：车型配置更新快，AI 常给过时价格与配置，且常引境外媒体；③ <b>补料</b>：做配置对比表、用车场景分析、能耗与补能实测，并标明更新月份；④ <b>提案话术</b>：汽车是客单天花板，卖「AI 答案里的车型推荐位次与参数准确率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌与车型被提及率。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（汽车与新能源车）",
+        "body": "<p>「XX 预算买什么车」是 AI 搜索最典型的高意图问题。车型迭代快、参数复杂，AI 答案经常过时或张冠李戴——这正是车企最愿意付费修正的地方。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>比亚迪 BYD</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球新能源汽车销量领先的中国车企，深圳起家、王传福创办，垂直整合能力极强。</div><div class=\"co-r\"><b>主营业务：</b>新能源乘用车与商用车、动力电池、半导体与电子制造；王朝网、海洋网、腾势、仰望等品牌矩阵。</div><div class=\"co-r\"><b>市场与打法：</b>以自研电池与三电系统为基础，覆盖从家用到豪华的全价格带，国内外市场同步扩张。</div><div class=\"co-r found\"><b>📜 发家史：</b>从充电电池制造起步，进入汽车行业后用垂直整合把成本与技术优势做到极致。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>全面转向新能源，凭 DM 混动与刀片电池两大技术路线实现销量跃升，并加速出海。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>比亚迪的车型命名与配置更新极快，AI 回答里常出现已停产车型和旧价格；把在售车型矩阵与配置差异做成可维护的结构化内容，是它最实际也最持续的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直整合的极致样本，车型信息保鲜的典型需求方。 <button class=\"fam-btn\" data-fp=\"王传福 Wang Chuanfu\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.byd.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.byd.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>理想汽车 Li Auto</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以增程与家庭定位切入的新势力车企，李想创办，主打大六座家用 SUV。</div><div class=\"co-r\"><b>主营业务：</b>增程电动 SUV 与 MPV、智能座舱与辅助驾驶；招牌：L 系列、MEGA。</div><div class=\"co-r\"><b>市场与打法：</b>直营门店 + 线上订单，产品定义极度聚焦家庭用户，单品爆款策略。</div><div class=\"co-r found\"><b>📜 发家史：</b>从单一增程大六座 SUV 切入，用精准的家庭场景定义避开与纯电的正面竞争。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭一款产品打穿家庭增程市场后横向扩展产品线，成为新势力中率先稳定盈利的一家。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「家里有娃买什么车」这类场景化提示词几乎是理想的主场，但 AI 很少把场景与车型对上号；把家庭场景、空间布局、续航焦虑解法做成内容，能直接命中高转化提示词。</div><div class=\"co-r look\"><b>💡 看点：</b>场景定义产品的教科书，场景型提示词的最佳案例。 <button class=\"fam-btn\" data-fp=\"李想 Li Xiang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lixiang.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lixiang.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>小鹏汽车 XPENG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以智能化与辅助驾驶为标签的新势力车企，何小鹏创办，广州为基地。</div><div class=\"co-r\"><b>主营业务：</b>纯电轿车与 SUV、智能驾驶系统、飞行汽车与机器人等前沿业务。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 经销混合渠道，以智驾技术与科技形象吸引年轻用户，近年加速出海。</div><div class=\"co-r found\"><b>📜 发家史：</b>以互联网与智能化基因进入造车，把辅助驾驶作为核心差异化。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历产品与组织调整后，靠新平台与智驾能力重回增长，并布局出海与前沿硬件。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>智驾是最容易被 AI 问到也最容易说错的领域；把智驾能力边界、开通城市、使用条件讲清楚，既修正信息偏差，也建立技术可信度。</div><div class=\"co-r look\"><b>💡 看点：</b>技术标签驱动的车企，术语解释类内容的刚需方。 <button class=\"fam-btn\" data-fp=\"何小鹏 He Xiaopeng\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xiaopeng.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xiaopeng.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>蔚来 NIO</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以用户服务与换电模式著称的高端新势力车企，李斌创办。</div><div class=\"co-r\"><b>主营业务：</b>高端纯电车型、换电站与补能网络、用户社区与服务体系、子品牌乐道与萤火虫。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 用户社区运营，以换电与服务体验建立高端心智，多品牌覆盖更宽价格带。</div><div class=\"co-r found\"><b>📜 发家史：</b>从高端纯电 SUV 起步，用服务体系与换电模式做差异化竞争。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在盈利压力下推进多品牌战略与换电网络开放，把补能资产变成可对外输出的生意。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「换电到底靠不靠谱」是高频争议问题，AI 回答往往含糊；把换电原理、覆盖范围、成本对比做成中性科普，是蔚来最典型的 GEO 内容缺口。</div><div class=\"co-r look\"><b>💡 看点：</b>服务体系驱动的高端化样本，争议型提示词的战场。 <button class=\"fam-btn\" data-fp=\"李斌 Li Bin\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nio.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nio.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 13 · AI 搜索可见性企业",
+    "tag": "第13天 · 旅游出行与免税",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「三亚住哪个湾区好」「日本七日游怎么安排」「免税店买什么划算」问豆包、DeepSeek、Kimi，看平台与品牌谁被点名；② <b>找缺口</b>：旅游信息时效性强（签证、价格、政策），AI 常给过时内容，且很少点名具体品牌；③ <b>补料</b>：做行程模板、区域对比、费用清单与避坑提示，并标明更新时间；④ <b>提案话术</b>：旅游决策链条长且金额不低，卖「AI 答案里的最新信息与品牌提及率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与信息时效。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（旅游出行与免税）",
+        "body": "<p>行程规划是 AI 最天然的应用场景之一，也正在快速取代传统搜索。这个品类信息更新快、决策链条长，谁能给 AI 提供最新最准的内容，谁就被写进行程里。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>携程集团 Trip.com</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最大的在线旅游平台之一，上海起家、梁建章创办，旗下携程、去哪儿、Trip.com 多品牌。</div><div class=\"co-r\"><b>主营业务：</b>机票酒店预订、旅游度假、商旅管理、火车票与门票、入境游服务。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台为主，覆盖国内外全场景，国际化业务由 Trip.com 承担。</div><div class=\"co-r found\"><b>📜 发家史：</b>从机票与酒店预订起步，靠呼叫中心与标准化服务建立早期口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>通过并购与整合成为行业龙头，随后推进国际化与 AI 化，把服务做成核心壁垒。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>用户问 AI「XX 城市住哪里方便」时，AI 常给通用区域建议而不提平台；把区域住宿指南、交通接驳、行程模板做成可引用内容，是把 AI 流量接住的关键动作。</div><div class=\"co-r look\"><b>💡 看点：</b>OTA 平台化的样本，行程型内容的天然主场。 <button class=\"fam-btn\" data-fp=\"梁建章 Liang Jianzhang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.trip.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.trip.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>华住会 Huazhu</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国规模领先的酒店集团之一，季琦创办，旗下汉庭、全季、桔子、禧玥等品牌。</div><div class=\"co-r\"><b>主营业务：</b>经济型到中高端酒店连锁、会员体系与直销平台。</div><div class=\"co-r\"><b>市场与打法：</b>加盟为主 + 强会员体系，以高密度布点和标准化运营著称，直销占比高。</div><div class=\"co-r found\"><b>📜 发家史：</b>从经济型酒店切入，抓住商旅住宿标准化与连锁化的红利迅速扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从中低端向上延伸到中高端与高端，并用会员体系把流量从 OTA 手里收回。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「出差住哪个酒店品牌性价比高」这类提示词决策意图很强，但 AI 很少按品牌档次讲清楚；把品牌梯度、适用场景、会员权益做成结构化内容，能直接带动直销。</div><div class=\"co-r look\"><b>💡 看点：</b>会员体系反制 OTA 的样本，品牌梯度内容的缺口方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.huazhu.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.huazhu.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>亚朵 Atour</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>以「住宿 + 阅读 + 属地文化」为特色的中高端酒店品牌，上海起家、王海军创办。</div><div class=\"co-r\"><b>主营业务：</b>中高端连锁酒店、会员与零售（枕头、洗护等）、文化空间运营。</div><div class=\"co-r\"><b>市场与打法：</b>加盟扩张 + 会员体系 + 零售业务，主打商旅与新中产人群。</div><div class=\"co-r found\"><b>📜 发家史：</b>用人文与阅读体验切入同质化严重的中端酒店市场，做出鲜明品牌调性。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把住宿体验延伸到零售，用「睡个好觉」的产品逻辑做出第二增长曲线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>亚朵的品牌故事很清晰，但 AI 回答里几乎没有它的位置；把属地文化、睡眠体验、商旅适配这些差异化点做成内容，是中小品牌低成本进入 AI 答案的路径。</div><div class=\"co-r look\"><b>💡 看点：</b>体验差异化驱动的品牌，中小酒店集团 GEO 的样板。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yaduo.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yaduo.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中国中免 CDFG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国免税行业龙头，业务覆盖机场、口岸、市内免税店与海南离岛免税。</div><div class=\"co-r\"><b>主营业务：</b>免税商品零售（香化、精品、烟酒、食品）、离岛免税与机场免税运营。</div><div class=\"co-r\"><b>市场与打法：</b>以海南离岛免税与核心机场口岸为核心场景，牌照壁垒是其最大优势。</div><div class=\"co-r found\"><b>📜 发家史：</b>依托牌照与渠道资源，在国内免税市场开放过程中成长为行业龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>海南离岛免税政策红利叠加消费回流，推动其规模跃居全球免税行业前列。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「免税店买什么最划算」「离岛免税政策是什么」是高频问题，而政策细节 AI 经常说错；把政策、额度、提货方式做成准确且持续更新的内容，是这个品类最硬的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>牌照壁垒型零售的样本，政策信息准确性的刚需方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.cdfg.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.cdfg.com.cn</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 14 · AI 搜索可见性企业",
+    "tag": "第14天 · B2B 与工业制造",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这份清单",
+        "body": "<p>① <b>先自查</b>：用「工业品采购平台哪个好」「工厂自动化改造找哪家」「MRO 采购怎么降本」问 ChatGPT、豆包、百度 AI，看中国 B2B 企业谁被点名；② <b>找缺口</b>：B2B 采购决策专业度高，AI 答案常引境外资料或泛泛而谈；③ <b>补料</b>：做产品选型手册、行业解决方案、案例数据与术语百科，AI 极爱引用结构化专业内容；④ <b>提案话术</b>：B2B 单客价值高、决策链长，卖「AI 答案里的专业可信度与选型位次」；⑤ <b>复盘</b>：每月固定 20 条中英文提示词跑一遍，记录品牌被提及率。</p>"
+      },
+      {
+        "h": "今日推荐 · 4 家（B2B 与工业制造）",
+        "body": "<p>B2B 采购是 AI 搜索渗透最快、却最少被中国品牌重视的领域。工程师与采购经理已经开始问 AI 选型，而答案里几乎没有中国企业的身影。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>震坤行 ZKH</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内领先的 MRO 工业用品采购服务平台，上海起家、陈龙创办，纽交所上市。</div><div class=\"co-r\"><b>主营业务：</b>工业用品（工具、劳保、备件、化学品等）一站式采购、供应链与仓储服务。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台 + 自营仓储物流，服务制造业与大型企业客户，主打降本与合规。</div><div class=\"co-r found\"><b>📜 发家史：</b>从传统工业品经销转型数字化平台，用一站式采购解决企业采购零散低效的痛点。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用数字化与自营供应链把非标、长尾的 MRO 品类标准化，做成规模化平台生意。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「MRO 采购怎么降本」这类提示词几乎全被境外内容占据；把品类目录、选型要点、采购流程做成中文结构化内容，是这个赛道最容易吃到红利的动作。</div><div class=\"co-r look\"><b>💡 看点：</b>工业品数字化采购的样本，B2B GEO 的蓝海赛道。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zkh.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zkh.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>三一重工 SANY</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国工程机械龙头，长沙起家、梁稳根创办，混凝土机械与挖掘机全球领先。</div><div class=\"co-r\"><b>主营业务：</b>混凝土机械、挖掘机械、起重机械、路面机械、港口与风电设备。</div><div class=\"co-r\"><b>市场与打法：</b>国内渠道 + 海外子公司与本地化生产，近年大力推进数字化与电动化。</div><div class=\"co-r found\"><b>📜 发家史：</b>从焊接材料厂起步进入工程机械，靠产品可靠性与服务在国内市场站稳。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>通过海外并购与全球化布局，把中国工程机械卖到全球主要市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外客户问 AI「which excavator brand is reliable」时，三一很少出现在答案里；用多语种的工况案例、设备参数、服务网络内容去补，是出海 B2B 最值得投入的 GEO 项目。</div><div class=\"co-r look\"><b>💡 看点：</b>中国制造全球化的样本，出海 B2B 内容缺口的典型。 <button class=\"fam-btn\" data-fp=\"梁稳根 Liang Wengen\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sany.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sany.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>徐工机械 XCMG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国工程机械龙头之一，徐州起家，产品覆盖起重、挖掘、道路与矿山机械。</div><div class=\"co-r\"><b>主营业务：</b>汽车起重机、挖掘机、装载机、道路机械、矿山机械与港口机械。</div><div class=\"co-r\"><b>市场与打法：</b>国内渠道 + 海外营销网络与本地化制造，近年加码数字化与新能源产品。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为老牌国企背景的工程机械企业，靠产品线宽度与制造能力持续扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业周期波动中推进国际化与产品升级，稳居全球工程机械第一梯队。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>徐工的产品线极宽，但 AI 几乎无法说清它的能力范围；把产品矩阵、应用场景、海外服务网络整理成结构化内容，能明显提升在国际采购决策中的曝光。</div><div class=\"co-r look\"><b>💡 看点：</b>产品线宽度优势被低估的典型，结构化内容的强需求方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xcmg.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xcmg.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>汇川技术 Inovance</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>深圳起家、朱兴明创办的工业自动化与电驱系统企业，国产替代的核心力量。</div><div class=\"co-r\"><b>主营业务：</b>变频器、伺服系统、PLC、电驱与电源、工业机器人与智能装备。</div><div class=\"co-r\"><b>市场与打法：</b>以行业解决方案 + 客户定制为打法，覆盖电梯、锂电、光伏、汽车等多个行业。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自变频器领域，用技术与服务响应速度切入被外资品牌垄断的自动化市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一变频器扩展到自动化全栈能力，并抓住新能源与智能制造红利实现高速增长。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>自动化选型是极专业的长尾问题，工程师会直接问 AI 参数与兼容性；把选型手册、应用案例、技术术语做成可引用内容，是这个品类最精准的获客方式。</div><div class=\"co-r look\"><b>💡 看点：</b>国产替代的标杆，长尾技术型提示词的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.inovance.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.inovance.com</a></div></div>"
       }
     ]
   }
 ],
 
-  "trade": [
-    {
-      "title": "Day 1 · 3C跨境企业推荐",
-      "tag": "第1天 · 充电与配件品牌",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（跨境 3C 充电/配件品牌）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>安克创新</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于长沙，前 Google 工程师阳萌创办；从亚马逊充电配件起家，现为全球移动充电与智能硬件出海标杆。</div><div class=\"co-r\"><b>主营业务：</b>移动充电（充电器/充电宝/数据线）、音频（Soundcore）、智能家居（eufy）；招牌：Anker 氮化镓充电器、MagGo 磁吸充电。</div><div class=\"co-r\"><b>市场与打法：</b>以亚马逊为根基，用「浅海理论」从充电逐步拓展到音频、智能家居；海外营收占比 95%+，研发与品牌双驱动。</div><div class=\"co-r found\"><b>📜 发家史：</b>2011 年阳萌在亚马逊卖充电配件，发现市面产品又丑又贵，以极简设计与高可靠切中海外用户，Anker 很快做成亚马逊充电品类第一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2020 年创业板上市后，从单一充电扩张到音频、智能家居、安防，用「浅海理论」选细分赛道做第一，避免与巨头硬刚。</div><div class=\"co-r look\"><b>💡 看点：</b>中国品牌出海范本：用「浅海理论」在细分品类做第一再滚雪球，证明中国制造也能卖品牌溢价。<button class=\"fam-btn\" data-fp=\"阳萌 Yang Meng\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.anker.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.anker.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>绿联科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2012 年创立于深圳，张清森创办；从电脑周边与数据线起家，现为数码配件全品类出海品牌。</div><div class=\"co-r\"><b>主营业务：</b>数据线、扩展坞、充电器、NAS 私有云、音频配件；招牌：Type-C 扩展坞、百瓦氮化镓充电器。</div><div class=\"co-r\"><b>市场与打法：</b>天猫国内基本盘 + 亚马逊/独立站出海双线；供应链与性价比并重，SKU 极宽。</div><div class=\"co-r found\"><b>📜 发家史：</b>早期靠 3C 配件代工与电商积累，抓住 Type-C 与多设备互联趋势，用高性价比配件快速铺开海内外。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从一根数据线做到全品类配件，2024 年登陆创业板，把「数码周边」做成规模生意。</div><div class=\"co-r look\"><b>💡 看点：</b>配件赛道的「品类收割机」，SKU 宽、性价比高，是研究中企 3C 配件出海的标本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ugreen.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ugreen.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>倍思 Baseus</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于深圳，何世友创办；专注 3C 数码配件的设计型品牌。</div><div class=\"co-r\"><b>主营业务：</b>充电器、车载支架、音频、数据线；招牌：磁吸无线充、伸缩数据线。</div><div class=\"co-r\"><b>市场与打法：</b>海外独立站 + 亚马逊双线；以「设计感 + 性价比」切入年轻用户。</div><div class=\"co-r found\"><b>📜 发家史：</b>从手机壳/支架等小配件起步，靠工业设计与快迭代做出辨识度，在海外 3C 配件圈站稳。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从配件小品类扩展到充电与车载全场景，靠设计驱动在红海配件里做出品牌感。</div><div class=\"co-r look\"><b>💡 看点：</b>用「设计型配件」撕开红海，是 3C 配件品牌化的代表。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.baseus.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.baseus.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>罗马仕 Romoss</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的移动电源品牌，专注充电宝与便携充电。</div><div class=\"co-r\"><b>主营业务：</b>移动电源、充电器、数据线；招牌：高容量充电宝、快充充电器。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊 + 独立站出海，主打大容量与高性价比。</div><div class=\"co-r found\"><b>📜 发家史：</b>借智能手机普及与「电量焦虑」，以高容量充电宝在亚马逊做得风生水起。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一充电宝扩展到快充与户外电源，跟随储能趋势延展品类。</div><div class=\"co-r look\"><b>💡 看点：</b>充电宝出海老牌，是观察「电量经济」跨境卖家的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.romoss.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.romoss.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 2 · 3C跨境企业推荐",
-      "tag": "第2天 · 亚马逊精品卖家/品牌",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（亚马逊精品/品牌）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>傲基科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2010 年创立于深圳，陆海传创办；早期跨境 3C 配件大卖，旗下 Aukey 品牌。</div><div class=\"co-r\"><b>主营业务：</b>充电、车载、音频、智能家居配件；招牌：Aukey 充电配件。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊精品 + 多渠道；曾为亚马逊 3C 大卖，后调整合规与渠道。</div><div class=\"co-r found\"><b>📜 发家史：</b>靠 3C 配件在亚马逊起量，是早期跨境大卖代表之一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历平台合规与库存波动后，转向品牌化与多渠道，2024 年在港交所上市。</div><div class=\"co-r look\"><b>💡 看点：</b>跨境大卖「从铺货到品牌」转型的典型案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.aukey.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.aukey.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>泽宝技术</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2007 年创立于深圳，孙才金创办；亚马逊精品模式代表，旗下多品牌矩阵。</div><div class=\"co-r\"><b>主营业务：</b>充电（RavPower）、个护（Viva）、美妆（Anjou）、投影（Vankyo）等；招牌：RavPower 充电。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊精品 + 品牌矩阵；2018 年被星徽股份收购。</div><div class=\"co-r found\"><b>📜 发家史：</b>以 RavPower 等品牌在亚马逊精品赛道起家，靠差异化选品做高客单。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>被星徽股份收购后进入资本市场，但也经历平台封号与库存挑战。</div><div class=\"co-r look\"><b>💡 看点：</b>亚马逊精品「多品牌矩阵」打法的样本，亦是大卖并购案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ravpower.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ravpower.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>帕拓逊</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>跨境通旗下 3C 品牌，主营耳机与数码配件。</div><div class=\"co-r\"><b>主营业务：</b>蓝牙耳机、充电器、手机配件；招牌：Patozon 耳机。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊为主，依托跨境通供应链与渠道。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为跨境通收购的 3C 品牌资产，延续亚马逊精品路线。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在跨境通体系内调整定位，聚焦耳机等高频 3C 品类。</div><div class=\"co-r look\"><b>💡 看点：</b>大卖体系内 3C 品牌运作的缩影。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.patozon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.patozon.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>通拓科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2004 年创立于深圳，廖新辉创办；老牌综合跨境卖家。</div><div class=\"co-r\"><b>主营业务：</b>3C 数码、家居、玩具等泛品类；招牌：Tomtop 综合站。</div><div class=\"co-r\"><b>市场与打法：</b>自营平台 + 第三方平台铺货；曾被华鼎股份收购。</div><div class=\"co-r found\"><b>📜 发家史：</b>早期做 B2C 综合站起家，是跨境铺货模式老兵。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历资本运作与转型，从泛铺货走向精细化运营。</div><div class=\"co-r look\"><b>💡 看点：</b>综合铺货型卖家的「活化石」，适合研究中早期跨境打法。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tomtop.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tomtop.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 3 · 3C跨境企业推荐",
-      "tag": "第3天 · 综合型跨境卖家",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（综合型跨境卖家）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>有棵树</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2010 年创立于深圳，肖四清创办；综合型跨境卖家。</div><div class=\"co-r\"><b>主营业务：</b>3C、家居、母婴等泛品类；招牌：多平台店铺矩阵。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊/eBay/独立站多平台；被天泽信息（现有棵树）收购。</div><div class=\"co-r found\"><b>📜 发家史：</b>从 eBay 卖家起家，靠多平台铺货做大规模。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>被天泽信息收购后整合，经历商誉与库存出清。</div><div class=\"co-r look\"><b>💡 看点：</b>多平台铺货卖家的代表，亦是跨境并购整合案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.youkeshu.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.youkeshu.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>三态股份</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2007 年创立于深圳；跨境卖家 + 物流服务商。</div><div class=\"co-r\"><b>主营业务：</b>3C、服饰等泛品 + 跨境物流；招牌：Suntop 卖家 + 专线物流。</div><div class=\"co-r\"><b>市场与打法：</b>卖货 + 物流双轮；2023 年登陆创业板。</div><div class=\"co-r found\"><b>📜 发家史：</b>从 eBay 卖家起步，逐步叠加自有物流，形成「商流 + 物流」闭环。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2023 年上市，把跨境物流能力做成独立增长曲线。</div><div class=\"co-r look\"><b>💡 看点：</b>「卖家 + 物流」一体化的稀缺样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.suntop.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.suntop.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>易佰网络</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于长沙；泛品铺货 + 精品的跨境卖家，被华凯易佰收购。</div><div class=\"co-r\"><b>主营业务：</b>3C、家居、汽配等泛品类；招牌：高 SKU 泛品矩阵。</div><div class=\"co-r\"><b>市场与打法：</b>泛品铺货 + 数据化选品；依托华凯易佰资本平台。</div><div class=\"co-r found\"><b>📜 发家史：</b>以海量 SKU 铺货起家，靠系统化的选品与库存管理控成本。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>被华凯易佰收购后，用数字化中台提升周转与毛利。</div><div class=\"co-r look\"><b>💡 看点：</b>泛品铺货「数据化」运营的标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yibai.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yibai.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>跨境通</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2014 年于太原由百圆裤业转型而来；A 股「跨境第一股」。</div><div class=\"co-r\"><b>主营业务：</b>旗下环球易购（ZAFUL/Pandawill）、帕拓逊等；招牌：ZAFUL 快时尚 + 3C。</div><div class=\"co-r\"><b>市场与打法：</b>自有平台 + 收购品牌；曾是中国跨境龙头。</div><div class=\"co-r found\"><b>📜 发家史：</b>从裤业转型跨境电商，靠收购快速做大，一度是行业标杆。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历扩张后遗症与债务压力，逐步瘦身聚焦核心资产。</div><div class=\"co-r look\"><b>💡 看点：</b>中国跨境资本化的「第一股」，也是激进扩张反例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.globalegrow.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.globalegrow.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 4 · 3C跨境企业推荐",
-      "tag": "第4天 · 独立站与平台型出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（独立站与平台型出海）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>棒谷 Banggood</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2009 年创立于广州；以独立站见长的综合跨境卖家。</div><div class=\"co-r\"><b>主营业务：</b>3C 数码、遥控模型、服饰等；招牌：Banggood 独立站。</div><div class=\"co-r\"><b>市场与打法：</b>自营独立站 + 联盟营销；早期独立站流量打法老手。</div><div class=\"co-r found\"><b>📜 发家史：</b>靠 Banggood 独立站与论坛/联盟引流，在 3C 与模型圈积累口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在平台卖家崛起后，持续经营独立站自有流量。</div><div class=\"co-r look\"><b>💡 看点：</b>独立站打法的早期代表，适合研究「站外流量」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.banggood.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.banggood.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>兰亭集势</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2007 年创立于北京，郭去疾创办；中概跨境第一股（2013 纽交所）。</div><div class=\"co-r\"><b>主营业务：</b>婚纱起家，扩展至 3C、服饰、家居；招牌：LightInTheBox。</div><div class=\"co-r\"><b>市场与打法：</b>独立站 + 全球配送；后被卓尔集团收购。</div><div class=\"co-r found\"><b>📜 发家史：</b>以婚纱定制切入跨境，2013 年成为纽交所上市的首家中国跨境企业。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从婚纱转型全品类，并引入卓尔资源做供应链协同。</div><div class=\"co-r look\"><b>💡 看点：</b>中国跨境「出海第一股」的兴衰样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lightinthebox.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lightinthebox.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>赛维时代</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2012 年创立于深圳，陈文平创办；品牌矩阵型跨境卖家。</div><div class=\"co-r\"><b>主营业务：</b>服饰 + 3C 数码（相机配件、音频）；招牌：多品牌矩阵。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊 + 独立站 + 品牌孵化；2023 年创业板上市。</div><div class=\"co-r found\"><b>📜 发家史：</b>从服饰铺货起家，逐步孵化垂直品牌，覆盖服饰与 3C。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2023 年上市，把「品牌矩阵 + 柔性供应链」做成核心竞争力。</div><div class=\"co-r look\"><b>💡 看点：</b>从铺货到「品牌矩阵」升级的范本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sailvan.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sailvan.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>闪魔</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的手机配件品牌，钢化膜与保护类见长。</div><div class=\"co-r\"><b>主营业务：</b>钢化膜、手机壳、保护配件；招牌：高清钢化膜。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊 + 国内电商；以高性价比耗材复购取胜。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住智能手机贴膜刚需，用高性价比钢化膜在亚马逊与国内起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从贴膜扩展到全系手机保护配件，做宽耗材赛道。</div><div class=\"co-r look\"><b>💡 看点：</b>手机「耗材配件」跨境卖家的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mocoll.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mocoll.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 5 · 3C跨境企业推荐",
-      "tag": "第5天 · 便携储能出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（便携储能出海）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>华宝新能源</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2003 年创立于深圳，孙中伟创办；便携储能龙头，Jackery 品牌。</div><div class=\"co-r\"><b>主营业务：</b>便携储能电源、太阳能板；招牌：Jackery 户外电源。</div><div class=\"co-r\"><b>市场与打法：</b>北美独立站 + 亚马逊；户外与应急场景出海强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>从充电宝/电池业务切入，看到「户外带电」需求，创立 Jackery 做便携储能。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押中露营与应急储能风口，Jackery 成北美便携储能头部。</div><div class=\"co-r look\"><b>💡 看点：</b>把「带电的户外生活」做成全球品类的范本。<button class=\"fam-btn\" data-fp=\"孙中伟 Sun Zhongwei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jackery.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jackery.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>正浩科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于深圳，王雷创办；便携与家庭储能新锐。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、户外电源、家庭储能；招牌：DELTA/RIVER 系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊；技术驱动高客单。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自港科大，以高倍率快充技术切入便携储能，靠众筹引爆。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用「半小时充满」的快充差异化，在海外高端储能站稳。</div><div class=\"co-r look\"><b>💡 看点：</b>用技术差异化打高端储能的新锐样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecoflow.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecoflow.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>征拓 Zendure</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的便携储能品牌，主打设计与快充。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、移动电源；招牌：SuperBase 系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站；设计驱动的储能品牌。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「可叠堆、可上飞机」的模块化储能设计切入海外众筹。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从移动电源延伸到家庭备用储能，走设计差异化路线。</div><div class=\"co-r look\"><b>💡 看点：</b>储能赛道「设计派」的代表。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zendure.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zendure.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>紫米 ZMI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>小米生态链的充电品牌，主打移动电源与充电配件。</div><div class=\"co-r\"><b>主营业务：</b>移动电源、充电器、数据线；招牌：ZMI 充电宝。</div><div class=\"co-r\"><b>市场与打法：</b>依托小米渠道 + 自有出海；性价比充电配件。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为小米生态链企业，以高性价比充电宝快速起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在充电配件红海里靠品控与性价比留存，随小米出海。</div><div class=\"co-r look\"><b>💡 看点：</b>生态链充电品牌的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zmi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zmi.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 6 · 3C跨境企业推荐",
-      "tag": "第6天 · 影像与音频出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（影像与音频出海）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>影石创新</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2015 年创立于深圳，刘靖康创办；全景/运动相机龙头。</div><div class=\"co-r\"><b>主营业务：</b>消费级全景相机、运动相机、VR 相机；招牌：Insta360 ONE/X 系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外占比高，亚马逊 + 独立站 + 专业渠道；90 后团队。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人刘靖康从南京大学创业，用全景拼接算法做出消费级全景相机。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从全景相机切入运动/VR 场景，海外营收为主，2025 年登陆科创板。</div><div class=\"co-r look\"><b>💡 看点：</b>90 后掌舵的影像独角兽，中国智造出海新势力。<button class=\"fam-btn\" data-fp=\"刘靖康 Liu Jingkang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.insta360.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.insta360.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>韶音科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2004 年创立于深圳，陈皞创办；骨传导耳机开创者。</div><div class=\"co-r\"><b>主营业务：</b>骨传导运动耳机、通讯耳机；招牌：Shokz OpenRun。</div><div class=\"co-r\"><b>市场与打法：</b>海外运动与军警渠道 + 亚马逊；技术壁垒高。</div><div class=\"co-r found\"><b>📜 发家史：</b>早年做军工/特种耳机，把骨传导技术转民用做运动耳机。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用「开放聆听」的骨传导差异化，在运动耳机高端站稳。</div><div class=\"co-r look\"><b>💡 看点：</b>用底层技术做品类开创的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shokz.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shokz.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>万魔声学</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的音频品牌，主打高性价比耳机。</div><div class=\"co-r\"><b>主营业务：</b>入耳/头戴耳机、TWS；招牌：1MORE 三单元耳机。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 海外电商；ODM 起家转品牌。</div><div class=\"co-r found\"><b>📜 发家史：</b>从为国际品牌代工音频起步，积累声学能力后做自有品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>以「发烧级调音 + 亲民价」在 TWS 红海里突围。</div><div class=\"co-r look\"><b>💡 看点：</b>声学 ODM 转品牌的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.1more.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.1more.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>图拉斯</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的 3C 配件品牌，设计与防护见长。</div><div class=\"co-r\"><b>主营业务：</b>手机壳、支架、充电配件；招牌：磁吸支架/防摔壳。</div><div class=\"co-r\"><b>市场与打法：</b>亚马逊 + 独立站；设计驱动的中高端配件。</div><div class=\"co-r found\"><b>📜 发家史：</b>从手机保护类配件起步，以精致设计与防护卖点做品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从配件小品类扩展到磁吸与车载全场景。</div><div class=\"co-r look\"><b>💡 看点：</b>配件「设计溢价」路线的代表。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.torras.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.torras.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 7 · 3C跨境企业推荐",
-      "tag": "第7天 · 智能家居与小家电出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（智能家居与小家电出海）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>添可 Tineco</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>科沃斯旗下智能清洁品牌，洗地机出海强势。</div><div class=\"co-r\"><b>主营业务：</b>洗地机、无线吸尘器、智能料理；招牌：Tineco 洗地机。</div><div class=\"co-r\"><b>市场与打法：</b>海外独立站 + 亚马逊；高端智能清洁。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为科沃斯孵化品牌，把洗地机做成高端智能品类出海。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>借洗地机风口在海外高端清洁市场快速放量。</div><div class=\"co-r look\"><b>💡 看点：</b>中国家电「智能升级出海」的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tineco.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tineco.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>石头科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2014 年创立于北京；扫地机器人出海标杆。</div><div class=\"co-r\"><b>主营业务：</b>扫地/拖地机器人；招牌：Roborock S 系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外高端 + 亚马逊；技术驱动的扫地机龙头。</div><div class=\"co-r found\"><b>📜 发家史：</b>脱胎于小米生态链，以激光导航扫地机在海外做高端。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工小米到自有高端品牌，海外营收占比高，2020 年科创板上市。</div><div class=\"co-r look\"><b>💡 看点：</b>扫地机「中国智造出海」的标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.roborock.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.roborock.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>卧安机器人</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的智能家居机器人品牌。</div><div class=\"co-r\"><b>主营业务：</b>智能开关、窗帘机器人、安防传感器；招牌：SwitchBot 机器人。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊；DIY 智能家居。</div><div class=\"co-r found\"><b>📜 发家史：</b>从「让旧家电变智能」的机器人配件切入海外众筹。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用模块化机器人降低智能家居门槛，在海外 DIY 圈走红。</div><div class=\"co-r look\"><b>💡 看点：</b>智能家居「轻改造」出海样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.switch-bot.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.switch-bot.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>科沃斯</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1998 年创立于苏州；扫地机器人龙头，添可母公司。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、窗宝、洗地机；招牌：DEEBOT 地宝。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 海外双线；服务机器人出海。</div><div class=\"co-r found\"><b>📜 发家史：</b>从代工吸尘器起步，2000 年代做自有扫地机器人品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用服务机器人多品类（地宝/窗宝/添可）构建出海矩阵。</div><div class=\"co-r look\"><b>💡 看点：</b>中国服务机器人出海龙头。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecovacs.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecovacs.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 8 · 3C跨境企业推荐",
-      "tag": "第8天 · 个护与新锐品牌",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（个护与新锐品牌）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>徕芬 Laifen</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2019 年创立于东莞，叶洪新创办；高速吹风机新锐。</div><div class=\"co-r\"><b>主营业务：</b>高速吹风机、电动牙刷；招牌：Laifen 高速吹风机。</div><div class=\"co-r\"><b>市场与打法：</b>国内爆红 + 亚马逊/独立站出海；性价比技术流。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「把高速电机平民化」切入吹风机，国内迅速走红后出海。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用自研高速电机把高端吹风机价格打下来，复制到海外。</div><div class=\"co-r look\"><b>💡 看点：</b>用供应链优势做「技术平权」出海的新锐。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.laifen.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.laifen.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>极米科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2013 年创立于成都，钟波创办；智能投影龙头。</div><div class=\"co-r\"><b>主营业务：</b>智能投影仪、激光电视；招牌：XGIMI H/Z 系列。</div><div class=\"co-r\"><b>市场与打法：</b>国内第一 + 出海日欧美；2021 年科创板上市。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人钟波从晨讯离职，押注「无屏电视」做智能投影。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把投影从会议室搬进客厅，国内登顶后加速出海。</div><div class=\"co-r look\"><b>💡 看点：</b>中国智能投影出海标杆。<button class=\"fam-btn\" data-fp=\"钟波 Zhong Bo\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xgimi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xgimi.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>摩飞 Morphy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国品牌（中国运营），跨境小家电代表。</div><div class=\"co-r\"><b>主营业务：</b>榨汁杯、电热水壶、料理小家电；招牌：便携榨汁杯。</div><div class=\"co-r\"><b>市场与打法：</b>国内代理 + 跨境出海；颜值小家电。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「便携榨汁杯」在社交电商爆红，带动复古小家电出海。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>靠高颜值小家电在跨境与礼赠场景做高客单。</div><div class=\"co-r look\"><b>💡 看点：</b>「颜值小家电」跨境样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.morphyrichards.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.morphyrichards.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>品胜 Pisen</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2003 年创立于深圳；数码电池与配件老牌。</div><div class=\"co-r\"><b>主营业务：</b>手机电池、充电器、数据线；招牌：品胜充电宝/电池。</div><div class=\"co-r\"><b>市场与打法：</b>国内渠道 + 出海；性价比耗材。</div><div class=\"co-r found\"><b>📜 发家史：</b>从手机电池/充电起家，是 3C 配件国民品牌之一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一电池扩展到全系充电配件，随电商出海。</div><div class=\"co-r look\"><b>💡 看点：</b>3C 配件「国民品牌」的出海延伸。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.pisen.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.pisen.com.cn</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 9 · 3C跨境企业推荐",
-      "tag": "第9天 · 制造龙头·果链与精密制造",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（制造龙头·果链与精密制造）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>立讯精密</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1999 年创立，王来春创办；果链核心与精密制造龙头。</div><div class=\"co-r\"><b>主营业务：</b>连接器、AirPods/Apple Watch 组装、汽车电子；招牌：AirPods 主力代工。</div><div class=\"co-r\"><b>市场与打法：</b>大客户绑定 + 纵向一体化；从连接器到整机代工。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人王来春出自富士康，1999 年创业做连接器起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>切入 AirPods 代工并做到主力供应商，借并购向整车与通信扩张。</div><div class=\"co-r look\"><b>💡 看点：</b>从打工妹到「代工女王」的标杆，中国制造升级样本。<button class=\"fam-btn\" data-fp=\"王来春 Wang Laichun\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.luxshare-ict.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.luxshare-ict.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>歌尔股份</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2001 年创立于潍坊；声学与 VR/AR 代工龙头。</div><div class=\"co-r\"><b>主营业务：</b>声学器件、VR/AR 头显、智能硬件；招牌：Meta/PSVR 代工。</div><div class=\"co-r\"><b>市场与打法：</b>大客户代工 + 声学技术壁垒；潍坊产业链。</div><div class=\"co-r found\"><b>📜 发家史：</b>从麦克风/扬声器元器件做起，逐步进入国际大厂声学与头显供应链。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押注 VR/AR 赛道，成为全球头部头显代工厂。</div><div class=\"co-r look\"><b>💡 看点：</b>中国声学 + XR 制造的隐形冠军。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.goertek.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.goertek.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>蓝思科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2003 年创立，周群飞创办；全球手机玻璃盖板龙头。</div><div class=\"co-r\"><b>主营业务：</b>手机前后盖玻璃、车载玻璃、蓝宝石；招牌：视窗防护玻璃。</div><div class=\"co-r\"><b>市场与打法：</b>大客户绑定 + 新材料延展；从手机到车载/穿戴。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人周群飞从手表玻璃创业，抓住手机玻璃化浪潮。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>随智能手机玻璃化成为盖板龙头，并拓展车载与穿戴玻璃。</div><div class=\"co-r look\"><b>💡 看点：</b>从打工到「玻璃女王」的标杆，硬科技制造样本。<button class=\"fam-btn\" data-fp=\"周群飞 Zhou Qunfei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lens.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lens.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>比亚迪电子</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2007 年分拆于比亚迪；电子制造服务龙头。</div><div class=\"co-r\"><b>主营业务：</b>手机/平板金属结构件、整机组装、汽车电子；招牌：金属中框/组装。</div><div class=\"co-r\"><b>市场与打法：</b>大客户代工 + 垂直整合；依托比亚迪体系。</div><div class=\"co-r found\"><b>📜 发家史：</b>从比亚迪内部电子部门分拆，做手机金属件与组装起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>借金属一体化与组装能力，切入更多品牌客户与汽车电子。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直整合型 EMS 的代表。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.byd.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.byd.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 10 · 3C跨境企业推荐",
-      "tag": "第10天 · 制造龙头·ODM 与 EMS",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（制造龙头·ODM 与电子制造服务）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>闻泰科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2007 年创立于嘉兴；ODM 与半导体双主业。</div><div class=\"co-r\"><b>主营业务：</b>手机/笔电 ODM、功率半导体（安世）；招牌：手机 ODM 龙头。</div><div class=\"co-r\"><b>市场与打法：</b>ODM 规模 + 半导体并购；嘉兴/无锡布局。</div><div class=\"co-r found\"><b>📜 发家史：</b>从手机方案设计（IDH）起家，做到全球手机 ODM 龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>收购安世半导体，切入功率半导体，形成「ODM + 半导体」双轮。</div><div class=\"co-r look\"><b>💡 看点：</b>从 ODM 走向半导体的升级样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.wingtech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.wingtech.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>工业富联</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2018 年上市；富士康工业互联网主体。</div><div class=\"co-r\"><b>主营业务：</b>云计算服务器、通信设备、精密制造；招牌：AI 服务器代工。</div><div class=\"co-r\"><b>市场与打法：</b>大客户绑定 + 智能制造；郑州/深圳基地。</div><div class=\"co-r found\"><b>📜 发家史：</b>承接富士康大陆电子制造资产，2018 年 A 股上市。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>乘 AI 算力浪潮，成为 AI 服务器与网络设备核心代工厂。</div><div class=\"co-r look\"><b>💡 看点：</b>电子制造向「智能制造 + 算力」升级的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fii-foxconn.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fii-foxconn.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>领益智造</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的精密制造龙头，消费电子功能件。</div><div class=\"co-r\"><b>主营业务：</b>精密结构件、模切、散热/充电模组；招牌：手机功能件。</div><div class=\"co-r\"><b>市场与打法：</b>大客户代工 + 横向并购；从功能件到总成。</div><div class=\"co-r found\"><b>📜 发家史：</b>从模切/结构小件做起，并购扩张成消费电子功能件龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一功能件延伸到模组与总成，并布局新能源与汽车。</div><div class=\"co-r look\"><b>💡 看点：</b>消费电子「功能件隐形冠军」升级样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lingyiitech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lingyiitech.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>光弘科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>惠州起家的 EMS 电子制造服务商。</div><div class=\"co-r\"><b>主营业务：</b>手机/网通/汽车电子代工；招牌：品牌 EMS 服务。</div><div class=\"co-r\"><b>市场与打法：</b>大客户 EMS + 多基地；惠州/印度布局。</div><div class=\"co-r found\"><b>📜 发家史：</b>从消费电子代工起步，做品牌客户的 EMS 服务。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>拓展网通与汽车电子代工，海外建厂贴近客户。</div><div class=\"co-r look\"><b>💡 看点：</b>中型 EMS 出海跟随客户的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ktk.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ktk.com.cn</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 11 · 3C跨境企业推荐",
-      "tag": "第11天 · 通信与手机出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（通信与手机出海标杆）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>华为</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1987 年任正非创立于深圳；全球通信与智能终端巨头。</div><div class=\"co-r\"><b>主营业务：</b>运营商网络、手机与消费者业务、华为云、智能汽车；招牌：5G/鸿蒙/Mate。</div><div class=\"co-r\"><b>市场与打法：</b>全球运营商 + 消费者双线；研发驱动、压强式投入。</div><div class=\"co-r found\"><b>📜 发家史：</b>1987 年任正非以 2.1 万元创立，靠代理交换机起家，以「农村包围城市」做大。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2019 年被美制裁后转向鸿蒙与国产供应链，把「备胎」转正，走通自主可控。</div><div class=\"co-r look\"><b>💡 看点：</b>中国硬科技出海与自主可控的范本。<button class=\"fam-btn\" data-fp=\"任正非 Ren Zhengfei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.huawei.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.huawei.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>小米</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2010 年雷军创立于北京；手机与 AIoT 生态巨头。</div><div class=\"co-r\"><b>主营业务：</b>手机、AIoT（电视/穿戴/配件）、汽车；招牌：Redmi/小米生态。</div><div class=\"co-r\"><b>市场与打法：</b>性价比 + 生态链 + 全球扩张；印度/欧洲强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>雷军 2010 年联合创办，以「铁人三项」互联网模式做高性价比手机。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从手机扩展到 AIoT 与汽车，并借生态链把 3C 配件卖向全球。</div><div class=\"co-r look\"><b>💡 看点：</b>用「生态链 + 性价比」把 3C 卖遍全球的样本。<button class=\"fam-btn\" data-fp=\"雷军 Lei Jun\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mi.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>TCL</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1981 年创立于惠州；TV 与面板出海龙头。</div><div class=\"co-r\"><b>主营业务：</b>电视、面板（TCL 华星）、手机；招牌：Mini LED 电视。</div><div class=\"co-r\"><b>市场与打法：</b>品牌出海 + 体育营销；北美/欧洲 TV 强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>从磁带/电话起家，2000 年代通过并购（汤姆逊/阿尔卡特）走向全球。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押注大屏与 Mini LED，并自研面板（华星）向上游延伸。</div><div class=\"co-r look\"><b>💡 看点：</b>中国家电「品牌 + 面板」出海的标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tcl.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tcl.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>传音控股</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2006 年创立于深圳；「非洲手机之王」。</div><div class=\"co-r\"><b>主营业务：</b>手机（TECNO/itel/Infinix）、数码配件；招牌：深肤色拍照手机。</div><div class=\"co-r\"><b>市场与打法：</b>聚焦非洲与新兴市场；本地化运营。</div><div class=\"co-r found\"><b>📜 发家史：</b>避开国内红海，锁定非洲，做深肤色拍照与长续航等本地化功能。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从非洲扩展到南亚/中东，成新兴市场手机龙头，2019 年科创板上市。</div><div class=\"co-r look\"><b>💡 看点：</b>「下沉市场本地化」出海的极致样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.transsion.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.transsion.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 12 · 3C跨境企业推荐",
-      "tag": "第12天 · 无人机/安防/光电",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（无人机/安防/光电龙头）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>大疆 DJI</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2006 年汪滔创立于深圳；全球消费级无人机霸主。</div><div class=\"co-r\"><b>主营业务：</b>消费/行业无人机、云台、影像；招牌：Mavic/Air 系列。</div><div class=\"co-r\"><b>市场与打法：</b>全球品牌 + 技术壁垒；深圳研发。</div><div class=\"co-r found\"><b>📜 发家史：</b>汪滔从香港科大创业，把多旋翼飞控做成消费级无人机。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用飞控与影像技术垄断消费无人机，并向行业应用延伸。</div><div class=\"co-r look\"><b>💡 看点：</b>中国硬科技「品类开创者」出海标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.dji.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.dji.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>海康威视</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2001 年创立于杭州；全球安防龙头。</div><div class=\"co-r\"><b>主营业务：</b>视频监控、AI 摄像头、物联感知；招牌：安防解决方案。</div><div class=\"co-r\"><b>市场与打法：</b>全球渠道 + 政府/行业客户；海外本地化。</div><div class=\"co-r found\"><b>📜 发家史：</b>脱胎于中电科，做视频压缩板卡起家，成长为安防龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从硬件到「视频 + AI」物联，海外多区域本地化运营。</div><div class=\"co-r look\"><b>💡 看点：</b>中国安防出海龙头。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.hikvision.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.hikvision.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>舜宇光学</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1984 年创立于宁波；光学镜头与模组龙头。</div><div class=\"co-r\"><b>主营业务：</b>手机镜头、车载镜头、光学模组；招牌：手机/车载光学。</div><div class=\"co-r\"><b>市场与打法：</b>大客户绑定 + 光学技术；宁波产业链。</div><div class=\"co-r found\"><b>📜 发家史：</b>从光学冷加工小厂做起，切入手机与车载镜头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>受益手机多摄与汽车智能化，成光学镜头核心供应商。</div><div class=\"co-r look\"><b>💡 看点：</b>中国光学「隐形冠军」出海样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sunnyoptical.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sunnyoptical.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>冠捷科技</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>显示器制造龙头，AOC/PHILIPS 品牌运营。</div><div class=\"co-r\"><b>主营业务：</b>显示器、电视代工与品牌；招牌：AOC 显示器。</div><div class=\"co-r\"><b>市场与打法：</b>品牌 + EMS 双线；全球显示制造。</div><div class=\"co-r found\"><b>📜 发家史：</b>从显示器代工起家，运营 AOC 等品牌并收购 PHILIPS 显示业务。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在显示红海里以规模与品牌运营守住地位，并拓展商用显示。</div><div class=\"co-r look\"><b>💡 看点：</b>中国显示制造的全球样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tpv-tech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tpv-tech.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 13 · 3C跨境企业推荐",
-      "tag": "第13天 · 电池与能源部件",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（电池与能源部件）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>欣旺达</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1997 年创立于深圳；锂电池 Pack 与储能龙头。</div><div class=\"co-r\"><b>主营业务：</b>手机/笔电电池、动力电池、储能；招牌：3C 电池 Pack。</div><div class=\"co-r\"><b>市场与打法：</b>大客户绑定 + 动力/储能延展；深圳/惠州基地。</div><div class=\"co-r found\"><b>📜 发家史：</b>从锂电池 Pack 起家，做进手机与笔电大厂供应链。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从 3C 电池延伸到动力电池与储能，构建能源矩阵。</div><div class=\"co-r look\"><b>💡 看点：</b>3C 电池 Pack 龙头的能源化升级样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sunwoda.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sunwoda.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>亿纬锂能</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2001 年创立于惠州；锂原电池与动力电池龙头。</div><div class=\"co-r\"><b>主营业务：</b>锂原电池、动力/储能电池；招牌：圆柱/方形电芯。</div><div class=\"co-r\"><b>市场与打法：</b>技术驱动 + 多场景电池；惠州布局。</div><div class=\"co-r found\"><b>📜 发家史：</b>从锂原电池（电表/胎压）起家，扩展到动力与储能。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押注圆柱与储能电芯，进入国际车企与储能供应链。</div><div class=\"co-r look\"><b>💡 看点：</b>从锂原到动力/储能的电池样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.evebattery.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.evebattery.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>德赛电池</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>惠州起家的锂电池 Pack 企业（德赛集团）。</div><div class=\"co-r\"><b>主营业务：</b>手机/笔电电池 Pack、储能；招牌：3C 电池Pack。</div><div class=\"co-r\"><b>市场与打法：</b>大客户代工 + 新能源；惠州基地。</div><div class=\"co-r found\"><b>📜 发家史：</b>依托德赛集团电子背景，做电池 Pack 起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从 3C 电池 Pack 向储能与动力电池延展。</div><div class=\"co-r look\"><b>💡 看点：</b>3C 电池 Pack 出海配套样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.desay.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.desay.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>深科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的 EMS 与存储封测企业。</div><div class=\"co-r\"><b>主营业务：</b>硬盘/存储封测、EMS、新能源；招牌：高端制造服务。</div><div class=\"co-r\"><b>市场与打法：</b>大客户 EMS + 封测；深圳/成都布局。</div><div class=\"co-r found\"><b>📜 发家史：</b>从外资电子代工起家，发展为本土高端 EMS 与封测。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>切入存储封测与高端制造，服务国际大厂。</div><div class=\"co-r look\"><b>💡 看点：</b>本土高端 EMS 与封测样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.kaifa.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.kaifa.com</a></div></div>"
-        }
-      ]
-    },
-    {
-      "title": "Day 14 · 3C跨境企业推荐",
-      "tag": "第14天 · 新锐手机与游戏出海",
-      "blocks": [
-        {
-          "h": "💡 今日怎么用这笔清单",
-          "body": "<p>① 在「亚马逊」「品牌独立站」「阿里巴巴国际站」搜这些品牌的主营品类（充电器/配件/储能/相机），找同类供应商或可合作渠道；② 开发信模板：Hi [Name], we supply [品类] with OEM/private-label, MOQ [X], 附 catalog 与认证（CE/FCC/UL）；③ 关注「CES」「广交会」「环球资源电子展」定向联系；④ 合作前用「天眼查/企查查」核验资质与经营异常，并核查商标/专利授权。</p>"
-        },
-        {
-          "h": "今日推荐 · 4 家（新锐手机与游戏出海品牌）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>realme</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>OPPO 系出海手机品牌，2018 年成立。</div><div class=\"co-r\"><b>主营业务：</b>智能手机、AIoT；招牌：性价比潮玩手机。</div><div class=\"co-r\"><b>市场与打法：</b>聚焦新兴市场 + 线上；印度/东南亚强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为 OPPO 出海子品牌，主打年轻与性价比快速起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在印度/东南亚以「潮玩 + 快迭代」站稳，反向输入国内。</div><div class=\"co-r look\"><b>💡 看点：</b>手机「子品牌出海」的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.realme.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.realme.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>一加 OnePlus</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>OPPO 系高端手机品牌，2013 年成立。</div><div class=\"co-r\"><b>主营业务：</b>智能手机、耳机；招牌：旗舰 Killer。</div><div class=\"co-r\"><b>市场与打法：</b>海外社区 + 旗舰策略；欧美/印度强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「不将就」旗舰与海外论坛社区起家，积累极客口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从极客旗舰扩展到主流价位，并入 OPPO 体系协同。</div><div class=\"co-r look\"><b>💡 看点：</b>手机「社区出海」的范本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.oneplus.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.oneplus.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>黑鲨 Black Shark</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>游戏手机品牌（小米生态），2018 年成立。</div><div class=\"co-r\"><b>主营业务：</b>游戏手机、游戏外设；招牌：磁动力肩键。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 出海；游戏垂直人群。</div><div class=\"co-r found\"><b>📜 发家史：</b>依托小米生态做游戏手机细分赛道，靠外设创新出圈。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在游戏手机红海里以散热与外设差异化，拓展海外。</div><div class=\"co-r look\"><b>💡 看点：</b>手机「垂直细分出海」样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.blackshark.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.blackshark.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>红魔 Red Magic</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>努比亚/中兴系游戏手机品牌。</div><div class=\"co-r\"><b>主营业务：</b>游戏手机、游戏配件；招牌：内置风扇散热。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 出海；游戏电竞人群。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「内置风扇」主动散热切入游戏手机，做出差异化。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从游戏手机扩展到电竞生态与外设，拓展海外。</div><div class=\"co-r look\"><b>💡 看点：</b>游戏手机「性能差异化」出海样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.redmagic.gg\" target=\"_blank\" rel=\"noopener\">🌐 https://www.redmagic.gg</a></div></div>"
-        }
-      ]
-    }
-  ],
   "news": [
     {
       "title": "全球供应链的重构",
@@ -1163,1810 +1161,1810 @@ const CONTENT = {
     }
   ],
   "travel": [
-  {
-    "title": "圣雅各朝圣之路 · 法国线 Camino Francés",
-    "tag": "第1天 · 全球徒步路线",
-    "loc": "欧洲-西班牙-加利西亚自治区",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "沿途教堂可参与晚祷，入内请保持安静、脱帽；\"Buen Camino\"是朝圣者互道祝福的通用礼仪。终点圣地亚哥主教座堂周日有朝圣者弥撒，可着徒步装出席；贝壳是朝圣符号，请尊重其宗教含义，勿当普通纪念品戏谑。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳宝安→巴黎/马德里转机到潘普洛纳(Pamplona)或法国侧起点圣让皮耶德波尔(St-Jean-Pied-de-Port)。全程约 16-20h，往返机票 ¥5000-9000。也可飞马德里再火车北上。</p>\n\n💰 参考费用（人均）：朝圣客栈(albergue)€10-20/晚、餐€10-15/天；30 天含机票人均约 ¥1.2-2 万。 completion 证书免费，但需最后 100km 徒步抵达。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "4-6 月：春暖、绿意浓，推荐；9-10 月：秋高气爽、人少；避开 7-8 月酷暑与朝圣旺季"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>总里程约 780km，30-35 天，日均 20-28km，总体起伏平缓。</b></p><ul><li><b>Day1</b>：圣让皮耶德波尔→龙塞斯瓦列斯<br>约 24km，翻越庇里牛斯山口；住山间 Refuge；⚠️ 海拔骤升+风雨，慢走适应。</li><li><b>Day2</b>：龙塞斯瓦列斯→潘普洛纳<br>约 21km，古城住宿；⚠️ 早订。</li><li><b>Day3</b>：潘普洛纳→埃斯特利亚<br>约 22km；住民宿。</li><li><b>Day4</b>：埃斯特利亚→洛格罗尼奥<br>约 28km（葡萄酒之乡）；住 casa rural。</li><li><b>Day5+</b>：经布尔戈斯、莱昂、阿斯托加向萨里亚推进；<b>最后 100km（萨里亚→圣地亚哥）约 110km / 5 天</b>可拿证书；沿途 albergue 朝圣客栈（出示 credencial 护照，多 22:00 关门）。</li></ul>\n\n🍱 装备与沿途补给：轻装（12-15kg）、贝壳标志与 credencial 朝圣护照必带；沿途咖啡馆、酒吧补给充足，别错过本地 pintxos 小吃。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返（经中东或欧洲转机到巴黎/马德里）机票 <b>¥6000-9000</b>；朝圣者庇护所 albergue 公营 €8-15/晚、私营 €15-30；朝圣者套餐 menú del peregrino €12-15。走完全程 30-35 天，<b>总预算约 ¥25000-35000</b>；只走最后 100km（约 5-6 天）可压到 ¥12000 以内。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>中世纪古镇（潘普洛纳/布尔戈斯）</b>： 👍 历史厚重、配套成熟 ｜ 👎 旺季人挤人 ｜ ⚠️ 住宿早订</li><li><b>里昂河平原葡萄园</b>： 👍 风景开阔、可品酒 ｜ 👎 夏季暴晒 ｜ ⚠️ 多补水</li><li><b>圣地亚哥大教堂</b>： 👍 仪式感强、终点打卡 ｜ 👎 需步行最后 100km 才拿证书 ｜ ⚠️ 保管朝圣护照</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>加利西亚风章鱼 Pulpo a la Gallega（撒甜椒粉，微辣够味）、Bocadillo 火腿三明治（沿途最常见的午餐）、Caldo Gallego 蔬菜浓汤、Padrón 小青椒、Sidra 苹果酒。圣地亚哥杏仁蛋糕 Tarta de Santiago 是甜口，可以跳过。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 日均 20-25km，<b>脚起水泡是头号敌人</b>——羊毛袜 + 凡士林 + 一起泡就处理；② 夏季梅塞塔高原一路无荫极晒，务必天亮就出发、中午前收工；③ 庇护所先到先得，7-8 月旺季床位紧张；④ 西班牙下午 14:00-17:00 商店午休，补给要趁早。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 办<b>申根签证</b>（按停留最长国送签，一般是西班牙）；② 出发前领<b>朝圣者护照 Credencial</b>，沿途每天盖章；③ 步行满最后 100km 且有章，可在圣地亚哥朝圣者办公室领 <b>Compostela 证书</b>；④ 查床位用 Gronze 网站、Buen Camino App；⑤ 背包托运 Jacotrans 约 €5-7/段，膝盖不好可用。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_00_0.jpg",
-      "assets/scene/route_00_1.jpg",
-      "assets/scene/route_00_2.jpg",
-      "assets/route_0.svg"
-    ]
-  },
-  {
-    "title": "印加古道 · 马丘比丘 Inca Trail",
-    "tag": "第2天 · 全球徒步路线",
-    "loc": "南美-秘鲁-库斯科",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "库斯科及周边多盖丘亚原住民，可用\"Rimaykullayki\"问候；古柯叶是当地待客与抗高反的习俗，可礼貌接受但不宜过量。马丘比丘等遗址严禁攀爬、刻划；进入村落请先征得同意再拍照。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→利马(Lima)转库斯科(Cusco)（海拔 3399m，需适应 2 天），再乘车到起点 KM82。往返机票 ¥9000-14000。</p>\n\n💰 参考费用（人均）：强制向导团约 $500-700（含许可 $200+），含背夫、餐食与帐篷。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "5-9 月旱季最佳、路干景明；2 月封路维护；避开雨季（12-3 月）泥泞"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>4 天 3 夜约 43km，最高 Warmiwañusca 隘口 4200m。</b></p><ul><li><b>Day1</b>：KM82→瓦伊瓦什<br>约 11km，渐入云雾森林；住营地帐篷；⚠️ 起步即适应海拔。</li><li><b>Day2</b>：瓦伊瓦什→帕凯马约<br>约 12km，翻越 4200m 隘口（全程最难）；住营地；⚠️ 高反预警。</li><li><b>Day3</b>：帕凯马约→Wiñay Wayna<br>约 16km，印加遗址群；住营地；⚠️ 遗迹不可攀爬。</li><li><b>Day4</b>：Wiñay Wayna→太阳门→马丘比丘<br>约 5km，凌晨出发看日出；⚠️ 马丘比丘需预约时段。</li></ul>\n\n🍱 装备与沿途补给：帐篷睡袋由背夫扛；自带头灯、保暖层、能量棒；备好高原反应药。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返利马机票 <b>¥9000-14000</b>（需经美洲或欧洲转机，单程 30 小时以上）；4 天经典古道跟团 <b>US$700-900</b>（含许可、向导、挑夫、餐食、帐篷）；库斯科住宿 ¥150-400/晚。<b>总预算约 ¥30000-40000</b>，是这 14 条里最贵的之一。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>马丘比丘</b>： 👍 世界新七大奇迹、日出绝美 ｜ 👎 限时预约、限流 ｜ ⚠️ 不攀爬石墙</li><li><b>Wiñay Wayna</b>： 👍 梯田遗址依山临谷 ｜ 👎 需向导带领 ｜ ⚠️ 尊重遗址</li><li><b>云雾森林</b>： 👍 生态多样、羊驼出没 ｜ 👎 潮湿蚊虫多 ｜ ⚠️ 防蚊</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>Ceviche 酸橘汁腌鱼、Lomo Saltado 酱炒牛肉配薯条、Aji de Gallina 黄辣椒鸡、烤豚鼠 Cuy（当地名菜）、古柯茶 Mate de Coca（缓解高反）。<b>秘鲁菜普遍用黄辣椒 ají，辣度合旺仔口味</b>；紫玉米汁 Chicha Morada 偏甜可跳过。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 库斯科海拔 3400m，<b>务必先待 2-3 天适应再进山</b>；② 最高点「死女人垭口」4215m，是全程最累一段；③ <b>每年 2 月古道关闭维护</b>；④ 按规定不能自行徒步，必须由持牌旅行社带队。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 中国护照赴秘鲁需办签证，持有效美签或申根签可走简化通道（<b>出发前务必核实最新政策</b>）；② 印加古道<b>每日限额 500 人（含向导挑夫），实际游客名额约 200</b>，需提前 <b>4-6 个月</b>预订；③ 抢不到名额可改走 Salkantay 线，风景同样出色且无需许可；④ 库斯科集合，行前一晚有装备说明会。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_01_0.jpg",
-      "assets/scene/route_01_1.jpg",
-      "assets/scene/route_01_2.jpg",
-      "assets/route_1.svg"
-    ]
-  },
-  {
-    "title": "多洛米蒂 · Alta Via 1（意大利）",
-    "tag": "第3天 · 全球徒步路线",
-    "loc": "欧洲-意大利-博尔扎诺",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "南蒂罗尔地区德语、意大利语并用，用\"Grüß Gott\"或\"Ciao\"都受欢迎；山屋(Hütte)用餐按指示入座、饭后自觉清理桌面。牧场多为私有，勿翻越栅栏或进入草场。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→米兰/威尼斯转火车或巴士到多洛米蒂小镇（如 Lago di Braies 起点）。往返 ¥6000-10000。</p>\n\n💰 参考费用（人均）：山屋 Rifugio €50-80/晚（含早晚餐）；12 天含机票人均约 ¥1.5-2.5 万。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "7-9 月：雪融、山屋开放，最佳；其余月份高海拔积雪封路"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>约 120km，10-12 天，自北向南穿越石灰岩峰林，多铁索段(via ferrata)，累计爬升大。</b></p><ul><li><b>Day1</b>：布赖斯湖→三峰区<br>约 14km，经典峰景；住山屋；⚠️ 铁索初体验。</li><li><b>Day2</b>：三峰环线→Rifugio Locatelli<br>约 10km，铁索段；住山屋；⚠️ 恐高慎行。</li><li><b>Day3</b>：→Cortina 方向<br>约 16km，高山草甸；住山屋。</li><li><b>Day4+</b>：继续南下经多个垭口与山屋，末段下坡至谷地；⚠️ 山屋务必提前预订。</li></ul>\n\n🍱 装备与沿途补给：山屋半食宿，自带路餐；铁索段需安全带/头盔；硬底登山鞋。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返威尼斯或慕尼黑机票 <b>¥6000-9000</b>；山屋 rifugio <b>半食宿 €60-80/晚</b>（含晚餐早餐）；全程 10-12 天，<b>总预算约 ¥20000-28000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>三峰 La Famiglia</b>： 👍 标志性群峰、镜湖倒影 ｜ 👎 游客多需早到 ｜ ⚠️ 日出前占位</li><li><b>刀锋山脊</b>： 👍 险峻壮观 ｜ 👎 需铁索装备与技术 ｜ ⚠️ 恐高慎行</li><li><b>布赖斯湖 Lago di Braies</b>： 👍 明信片级湖景 ｜ 👎 旺季停车难 ｜ ⚠️ 早去避开人潮</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>Canederli 面包团子汤、Speck 烟熏火腿、Casunziei 甜菜根饺、Polenta 玉米糊配炖鹿肉、南蒂罗尔白葡萄酒。这一带是意大利与奥地利风味的混血，山屋餐食量大又扎实，走完一天正好补回来。苹果卷 Strudel 是甜点，可跳过。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① <b>9 月底后山屋陆续关门</b>，10 月上山基本无补给；② 部分岔路是铁索栈道 via ferrata，需专门装备，AV1 主线可绕开但别走错；③ 山区午后雷暴频繁，<b>尽量下午 3 点前抵达当晚山屋</b>；④ 海拔虽不高但天气变化极快，冲锋衣和保暖层不能省。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① <b>申根签证</b>（意大利）；② <b>山屋必须提前订</b>，多数在每年 6-7 月开放当季预订，Lagazuoi、Nuvolau 这类热门屋往往几天内订满；③ 带足<b>现金欧元</b>，不少山屋不刷卡也没信号；④ 起点 Lago di Braies 从 Dobbiaco 有巴士直达；⑤ 路线与山屋信息用 Komoot、Refuges.info。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_02_0.jpg",
-      "assets/scene/route_02_1.jpg",
-      "assets/scene/route_02_2.jpg",
-      "assets/route_2.svg"
-    ]
-  },
-  {
-    "title": "环勃朗峰 · TMB（法/意/瑞）",
-    "tag": "第4天 · 全球徒步路线",
-    "loc": "欧洲-法国·意大利·瑞士-勃朗峰",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "途经法、意、瑞三国村镇，入山屋请脱鞋、小声交谈；法语\"Bonjour\"、意语\"Buongiorno\"、德语\"Grüezi\"通用。周日小镇多静默，避免大声喧哗与夜间走动。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→日内瓦转巴士/火车到霞慕尼(Chamonix)起点。往返 ¥6000-9000。</p>\n\n💰 参考费用（人均）：山屋 €40-70/晚 + 餐饮；10 天含机票人均约 ¥1.5-2.5 万。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "6 月中旬-9 月山屋开放；7-8 月最热闹但人多"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>约 170km，7-11 天，环勃朗峰一圈，翻越多个山口，最高约 2665m。</b></p><ul><li><b>Day1</b>：霞慕尼→Les Houches→Bionnassay<br>约 15km，初见勃朗峰；住山屋；⚠️ 关注天气。</li><li><b>Day2</b>：→Contamines<br>约 18km，河谷森林；住山屋。</li><li><b>Day3</b>：→翻垭口进入意大利侧 Courmayeur<br>约 22km；住山屋；⚠️ 雪坡小心。</li><li><b>Day4</b>：Courmayeur→Bonnatti 山屋<br>约 20km，意式风情；住山屋。</li><li><b>Day5</b>：→瑞士 Champex<br>约 24km，森林湖泊；住山屋。</li><li><b>Day6+</b>：返回法国霞慕尼，约 20km；⚠️ 跨境随身带护照。</li></ul>\n\n🍱 装备与沿途补给：可轻装（有行李托运服务）；路餐自备；沿途奶酪火锅补给扎实。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返日内瓦机票 <b>¥6000-9500</b>；山屋 refuge 半食宿 <b>€60-90/晚</b>；行李托运每段 €10-15。全程 11 天，<b>总预算约 ¥25000-32000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>勃朗峰冰川</b>： 👍 欧洲最高峰、冰舌壮观 ｜ 👎 多云时常难见 ｜ ⚠️ 早出发看日照金山</li><li><b>阿尔卑斯牧场</b>： 👍 草甸牛羊、奶酪坊 ｜ 👎 牛铃吵、偶有狗 ｜ ⚠️ 保持距离</li><li><b>三国风情</b>： 👍 一程看遍法意瑞 ｜ 👎 货币换汇麻烦 ｜ ⚠️ 护照随身</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>萨瓦奶酪火锅 Fondue、Raclette 烤奶酪刮生土豆、Tartiflette 土豆培根奶酪焗、意大利段的 Polenta Concia、草药利口酒 Génépi。三国段风味明显不同：法国重奶酪、意大利重面食、瑞士偏清淡。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 环线跨<b>法、意、瑞三国</b>，瑞士段用瑞郎，备两种货币或用信用卡；② 全程累计爬升约 10000m，<b>强度比距离更劝退</b>；③ 7-8 月最旺，山屋一床难求；④ Col des Fours、Fenêtre d'Arpette 两个高点在初夏常有残雪，需看当年雪况绕行。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① <b>申根签证</b>（瑞士也属申根区）；② 山屋一般<b>前一年 12 月至当年 1 月开放次年预订，务必提前半年抢</b>；③ 日内瓦机场到起点 Chamonix 有直达接驳巴士约 1.5 小时；④ 官方路线与住宿查 autourdumontblanc.com；⑤ 时间不够可只走「TMB 精华三日段」（Courmayeur–Champex）。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_03_0.jpg",
-      "assets/scene/route_03_1.jpg",
-      "assets/scene/route_03_2.jpg",
-      "assets/route_3.svg"
-    ]
-  },
-  {
-    "title": "乞力马扎罗 · 马切姆线（坦桑尼亚）",
-    "tag": "第5天 · 全球徒步路线",
-    "loc": "非洲-坦桑尼亚-乞力马扎罗区",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "以斯瓦希里语\"Jambo / Hakuna Matata\"问候；向导与背夫的小费是重要文化（建议行程结束统一致谢）。进入村庄衣着保守，勿对当地人随意拍摄。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→内罗毕/亚的斯亚贝巴转机到乞力马扎罗机场(KIA)→莫希(Moshi)。往返 ¥7000-11000。</p>\n\n💰 参考费用（人均）：强制向导背夫团 $2000-4000（含许可 $800+）。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "1-3 月、6-10 月旱季；4-5 月、11 月为雨季，路滑"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>7-9 天登顶 5895m（非洲最高峰），马切姆线风景好、适应佳。</b></p><ul><li><b>Day1</b>：莫希→马切姆营地(3000m)<br>约 11km，雨林段；住帐篷；⚠️ 防蚂蟥。</li><li><b>Day2</b>：→希拉营地(3840m)<br>约 9km，植被变化；住帐篷；⚠️ 注意海拔。</li><li><b>Day3</b>：→Barranco(3950m)<br>约 11km，熔岩塔适应；住帐篷。</li><li><b>Day4</b>：→Barafu(4600m)<br>约 9km，翻 Barranco 墙；住帐篷；⚠️ 高反预警。</li><li><b>Day5</b>：Barafu→Uhuru 峰(5895m)→Mweka<br>约 7km 上+下山，夜爬冲顶；⚠️ 高反/失温。</li><li><b>Day6</b>：下撤→莫希<br>约 10km。</li></ul>\n\n🍱 装备与沿途补给：背夫扛装备；自带 -10℃ 睡袋、羽绒、葡萄糖；备高反药。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返乞力马扎罗机场（经多哈或亚的斯亚贝巴）<b>¥7000-11000</b>；7 天 Machame 线跟团 <b>US$2000-2800</b>（含国家公园费、向导、挑夫、厨师、餐食帐篷）；<b>小费另备 US$250-350</b>（当地惯例，务必预留）。<b>总预算约 ¥30000-40000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>Uhuru 峰</b>： 👍 非洲之巅、赤道雪山 ｜ 👎 高反风险大 ｜ ⚠️ 缓慢上升、补葡萄糖</li><li><b>五带垂直景观</b>： 👍 雨林→荒原→冰川一览 ｜ 👎 体力消耗大 ｜ ⚠️ 分层着装</li><li><b>莫希咖啡庄园</b>： 👍 顺路品咖 ｜ 👎 需额外时间 ｜ ⚠️ 无</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>Ugali 玉米糊、Nyama Choma 炭烤肉、Pilau 香料饭、Chapati 薄饼、Kilimanjaro 与 Serengeti 啤酒。山上由随队厨师做饭，以粥、汤、意面等易消化食物为主——<b>高海拔胃口会明显变差，能吃就多吃</b>。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 峰顶 Uhuru Peak <b>5895m，高原反应是唯一真正的风险</b>；② <b>选 7 天而不是 6 天</b>，多一天适应日，登顶成功率显著提高；③ 向导反复讲的 \"pole pole\"（慢慢走）是铁律，走太快必出事；④ 冲顶夜气温 -10 至 -20℃ 且大风，羽绒、厚手套、暖宝宝都要带；⑤ 需备疟疾药，经黄热病流行区转机需黄热病疫苗接种证明。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 坦桑尼亚<b>电子签 eVisa 线上申请</b>（约 US$50，提前 2-4 周）；② 法规要求<b>必须通过持牌旅行社</b>，不能自助攀登；③ 买<b>含 6000m 高海拔与直升机救援</b>的保险（普通旅游险不覆盖）；④ 羽绒服、睡袋、登山杖可在山脚莫希 Moshi 镇租，比背过去划算。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_04_0.jpg",
-      "assets/scene/route_04_1.jpg",
-      "assets/scene/route_04_2.jpg",
-      "assets/route_4.svg"
-    ]
-  },
-  {
-    "title": "冰岛 · Laugavegur 地热步道",
-    "tag": "第6天 · 全球徒步路线",
-    "loc": "欧洲-冰岛-兰德曼纳劳卡",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "地热温泉多为混浴，入水前淋浴是硬性礼仪；自然敬畏深入骨髓，勿移动火山岩、勿踩踏苔藓。私人牧场勿擅入，关门请随手带好。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→雷克雅未克转巴士到 Landmannalaugar 起点。往返 ¥7000-11000。</p>\n\n💰 参考费用（人均）：山屋 ISK 2000-8000/晚≈¥100-400；4 天含机票人均约 ¥1.2-1.8 万。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "6-9 月通行，其余积雪封路；7 月最佳，蚊虫少"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>55km，3-4 天，穿越地热温泉、火山熔岩、黑沙与冰川，色彩斑斓。</b></p><ul><li><b>Day1</b>：Landmannalaugar→Hrafntinnusker<br>约 12km，地热彩山；住山屋；⚠️ 风大。</li><li><b>Day2</b>：→Álftavatn<br>约 18km，黑沙冰川；住山屋；⚠️ 涉水。</li><li><b>Day3</b>：→Emstrur<br>约 15km，火山峡谷；住山屋。</li><li><b>Day4</b>：→Þórsmörk<br>约 10km，森林河谷；住山屋；⚠️ 过河。</li></ul>\n\n🍱 装备与沿途补给：山屋自炊，自带炉头与粮食；防水装备必备（风大）。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返雷克雅未克 <b>¥7000-11000</b>；山屋 hut 约 ISK 9000-13000/晚，营地约 ISK 2500/晚；进出高地巴士往返约 ISK 20000。4 天徒步段本身 <b>¥12000-18000</b>（含机票则约 ¥20000-28000）。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>彩虹山/流纹岩</b>： 👍 色彩奇幻 ｜ 👎 风大寒冷 ｜ ⚠️ 全防水</li><li><b>Eyjafjallajökull 火山</b>： 👍 著名火山地貌 ｜ 👎 无常景 ｜ ⚠️ 无</li><li><b>天然温泉泡池</b>： 👍 徒步后放松 ｜ 👎 有时排队 ｜ ⚠️ 防滑</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>羊肉汤 Kjötsúpa、无糖 Skyr 酸奶（高蛋白，很适合徒步补给）、黑麦面包 Rúgbrauð、冰岛热狗 Pylsur、发酵鲨鱼 Hákarl（挑战款）。<b>徒步段沿途完全没有商店，四天的食物必须全部自带</b>。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① <b>只在 6 月底至 9 月初开放</b>，其余时间高地巴士停运；② 需<b>徒步涉水过冰河</b>，水温接近 0℃，必须带涉水鞋和快干毛巾；③ 天气一天四季，风雨雪可能同天出现；④ 沿途无补给、无手机信号；⑤ 起点 Landmannalaugar 有天然温泉，走完泡一泡是精髓。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① <b>申根签证</b>（冰岛属申根）；② 山屋由冰岛徒步协会 <b>Ferðafélag Íslands (FI) 官网</b>预订，通常每年 1 月开放次年订位、极抢手，订不到就带帐篷睡营地；③ 高地巴士订 Reykjavík Excursions 或 Trex；④ 出发前上 <b>safetravel.is 登记行程</b>并查天气路况，这是冰岛的标准动作。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_05_0.jpg",
-      "assets/scene/route_05_1.jpg",
-      "assets/scene/route_05_2.jpg",
-      "assets/route_5.svg"
-    ]
-  },
-  {
-    "title": "米尔福德步道 · Milford Track（新西兰）",
-    "tag": "第7天 · 全球徒步路线",
-    "loc": "大洋洲-新西兰-峡湾地区",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "尊重毛利文化，多地有\"不带走一草一木\"的传统；步道全程由 DOC 管理，须登记、守安静。遇到向导讲解请耐心聆听，勿抢路或喧哗。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→奥克兰/皇后镇转机到蒂阿瑙，再乘船接驳到步道起点。往返 ¥9000-13000。</p>\n\n💰 参考费用（人均）：小屋预订费约 NZ$200-300/人；含机票人均约 ¥1.8-2.5 万（向导团更贵）。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "10 月-次年 4 月（Great Walk 季）；11-3 月最佳，雨水也多"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>53.5km，4 天 3 夜（单向），穿越峡湾雨林、瀑布与麦金农通道，需预订 hut。</b></p><ul><li><b>Day1</b>：蒂阿瑙湖畔→Glade House<br>约 5km，雨林平路；住 hut；⚠️ 沙蝇。</li><li><b>Day2</b>：→Dumas Corner<br>约 16km，麦金农通道前；住 hut。</li><li><b>Day3</b>：→Mintaro<br>约 14km，翻麦金农通道(1070m)；住 hut；⚠️ 天气多变。</li><li><b>Day4</b>：→巨噪峡湾<br>约 18km，Sutherland 瀑布；船接；⚠️ 雨天路滑。</li></ul>\n\n🍱 装备与沿途补给：小屋自炊；沙蝇多带驱虫；全程防水是刚需。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返奥克兰或皇后镇 <b>¥5000-9000</b>；Great Walk 小屋 <b>NZ$140/晚 × 3 晚</b>；两端船与巴士接驳约 NZ$200。4 天徒步 <b>总预算约 ¥15000-22000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>Sutherland Falls</b>： 👍 世界最高瀑布之一 ｜ 👎 需走完全程 ｜ ⚠️ 无</li><li><b>米特峰峡湾</b>： 👍 世界顶级景观 ｜ 👎 阴雨常见 ｜ ⚠️ 全程防水</li><li><b>原始雨林</b>： 👍 负氧离子爆棚 ｜ 👎 沙蝇多 ｜ ⚠️ 驱虫</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>徒步全程需自带食物（小屋只有煤气灶和水，没有商店）。起终点蒂阿瑙与皇后镇可吃：新西兰羊排、青口贝 Green-lipped mussels、银鱼饼 Whitebait fritter、鹿肉、Fergburger 汉堡。冰淇淋 Hokey Pokey 是甜口，跳过。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① <b>单向徒步、每天仅放 40 人、必须严格按预订日程 4 天走完</b>，不能提前也不能延后；② 峡湾区年降雨超 6000mm，<b>防水做不好就等于失败</b>——防水背包套 + 干袋分装；③ <b>沙蝇 sandfly 极其凶猛</b>，驱虫液是必需品；④ Mackinnon Pass 垭口风大，遇恶劣天气需走备用低线。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 通过<b>新西兰保育部 DOC 官网</b>预订，每年 5-6 月开放次年season 订位，<b>开放当天几分钟内售罄</b>，需定好闹钟；② 新西兰旅游签或 NZeTA（视情况）；③ 蒂阿瑙 Te Anau 集合，需预订 Te Anau Downs 船票与 Sandfly Point 出口船票；④ 抢不到可考虑同区域的 Routeburn / Kepler Track。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_06_0.jpg",
-      "assets/scene/route_06_1.jpg",
-      "assets/scene/route_06_2.jpg",
-      "assets/route_6.svg"
-    ]
-  },
-  {
-    "title": "约翰·缪尔步道 · JMT（美国加州）",
-    "tag": "第8天 · 全球徒步路线",
-    "loc": "北美洲-美国-加利福尼亚州",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "美国国家公园奉行 Leave No Trace（无痕山林）：垃圾全带出、食物须锁熊罐；优胜美地一带原住民为塞拉米沃克奇，尊重其圣地。公共场合保持低声。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→旧金山转车到优胜美地(Yosemite)入口。往返 ¥8000-12000。</p>\n\n💰 参考费用（人均）：长距离重装，沿途小镇 resupply 邮寄补给；含机票人均约 ¥2-3 万。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "7-9 月雪融、通行许可开放；早秋最佳，蚊虫少"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>约 340km，约 21 天，优胜美地谷→惠特尼峰(4421m)，纵贯内华达山脉；需抽签 permit。</b></p><ul><li><b>Day1</b>：优胜美地谷→Tuolumne Meadows<br>约 30km，半圆顶视野；住营地；⚠️ permit。</li><li><b>Day5</b>：→Reds Meadow<br>约 27km，可泡温泉；住营地。</li><li><b>Day10</b>：→Evolution Basin<br>约 30km，高山湖群；住营地。</li><li><b>Day15</b>：→Muir Trail Ranch resupply<br>约 25km，补给点；⚠️ 防熊罐。</li><li><b>Day21</b>：→惠特尼峰(4421m)终点<br>约 22km，登顶；⚠️ 末段残雪。</li></ul>\n\n🍱 装备与沿途补给：防熊罐(bear canister)强制；重装自炊；沿途小镇 resupply 点。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返旧金山 <b>¥5000-9000</b>；许可费约 US$15 + 每人 US$5；21 天食物补给 US$400-600；防熊罐、寄补给桶等杂费 US$150+。<b>总预算约 ¥25000-35000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>半圆顶 Half Dome</b>： 👍 标志 cables 体验 ｜ 👎 需额外许可、恐高慎 ｜ ⚠️ 抓稳钢缆</li><li><b>内华达高山湖群</b>： 👍 湖水清澈 ｜ 👎 长线略枯燥 ｜ ⚠️ 勤补水</li><li><b>惠特尼峰</b>： 👍 美国本土最高 ｜ 👎 末段有雪 ｜ ⚠️ 早出发</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>全程以自炊为主：脱水餐、燕麦、能量棒、坚果。中途 <b>Muir Trail Ranch 可提前寄补给桶</b>（最关键的补给点）。下撤到 Mammoth Lakes、Bishop 时可以吃 In-N-Out 汉堡、墨西哥 taco 与 BBQ——<b>墨西哥菜辣得地道，很适合补充「重口」额度</b>。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 全程 340km、海拔 2400-4400m，终点惠特尼峰 4421m 是美国本土最高峰；② <b>法规强制携带防熊罐 bear canister</b>，不带会被罚；③ 6 月前雪线高、融雪期渡河危险；④ 7 月蚊虫密度惊人，头网别省；⑤ 需具备多日无补给的独立野外能力，不适合首次长线。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① <b>美国 B1/B2 签证</b>；② 许可通过 <b>recreation.gov 抽签</b>，Happy Isles 起点竞争极激烈，<b>可考虑从惠特尼门户反向走</b>提高中签率；③ 离线地图与水源点用 <b>FarOut（原 Guthook）</b> App；④ 提前把补给桶寄到 Muir Trail Ranch，需按其官网时间与格式操作。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_07_0.jpg",
-      "assets/scene/route_07_1.jpg",
-      "assets/scene/route_07_2.jpg",
-      "assets/route_7.svg"
-    ]
-  },
-  {
-    "title": "珠峰大本营 · EBC（尼泊尔）",
-    "tag": "第9天 · 全球徒步路线",
-    "loc": "亚洲-尼泊尔-索卢坤布地区",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "以合十礼\"Namaste\"问候；遇玛尼堆、经幡须顺时针绕行。寺院不可手指佛像、不可踩门槛；夏尔巴向导是高山灵魂，务必尊重其经验与禁忌。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→加德满都(KTM)飞卢卡拉(Lukla)小飞机到起点（航班易取消，留缓冲）。往返 ¥5000-8000。</p>\n\n💰 参考费用（人均）：许可 $100(TIMS)+ 向导约 $1200-2000 全包（茶馆 trekking）。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "3-5 月、9-11 月春秋最佳；6-9 月雨季，12-2 月严寒"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>12-14 天，约 130km（往返），最高 5364m EBC，途经 Namche、Gorak Shep。</b></p><ul><li><b>Day1</b>：卢卡拉(2860)→Phakding<br>约 8km，河谷；住茶馆；⚠️ 飞行波动。</li><li><b>Day2</b>：→Namche(3440)<br>约 11km，爬升大；住茶馆；⚠️ 适应。</li><li><b>Day3</b>：Namche 适应→Tengboche<br>约 10km，寺庙；⚠️ 海拔。</li><li><b>Day4</b>：→Dingboche(4410)<br>约 12km，高原草甸；住茶馆。</li><li><b>Day5</b>：适应日→Lobuche<br>约 8km。</li><li><b>Day6</b>：→Gorak Shep→EBC(5364)<br>约 12km，终点；⚠️ 高反。</li><li><b>Day7+</b>：原路返回卢卡拉。</li></ul>\n\n🍱 装备与沿途补给：茶馆住宿不需帐篷；自带羽绒、能量棒；海拔高需安排 acclimatization 日。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返加德满都 <b>¥3000-5000</b>（可经昆明、成都或广州转）；加德满都往返卢卡拉小飞机 <b>US$400-500</b>；12-14 天跟团 US$1200-1600，自助（茶馆住宿+向导）US$700-1000。<b>总预算约 ¥12000-20000，性价比在长线里很高</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>珠峰 / EBC</b>： 👍 世界之巅脚下的震撼 ｜ 👎 高反剧烈 ｜ ⚠️ 慢行、多喝水</li><li><b>昆布冰川</b>： 👍 壮观冰塔林 ｜ 👎 危险不可近 ｜ ⚠️ 远观</li><li><b>Tengboche 寺庙</b>： 👍 夏尔巴文化 ｜ 👎 需着装得体 ｜ ⚠️ 尊重习俗</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>Dal Bhat（扁豆咖喱饭，<b>大多数茶馆无限续，是徒步主食</b>）、Momo 蒸饺、Thukpa 藏式汤面、Sherpa Stew、姜柠蜂蜜茶。<b>海拔 4000m 以上建议避开肉类</b>（运输时间长、冷链差），吃素更安全。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 最高点 Kala Patthar 5545m，<b>行程必须包含适应日</b>（南崎巴扎、丁波切各休整一天），别赶；② <b>卢卡拉机场天气影响航班极频繁</b>，前后各留 1-2 天缓冲，否则容易误国际航班；③ 11-2 月天最清但极冷；④ 沿途 WiFi 与充电都收费，带充电宝。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 尼泊尔<b>落地签</b>（30 天约 US$50，加德满都机场办）；② 需买 <b>Sagarmatha 国家公园门票</b> + <b>昆布地区通行证 Khumbu Pasang Lhamu</b>（已取代旧的 TIMS 卡）；③ <b>务必买含 6000m 高度、直升机救援</b>的保险——这条线上直升机后送非常常见；④ 向导/背夫可在加德满都或南崎当地雇。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_08_0.jpg",
-      "assets/scene/route_08_1.jpg",
-      "assets/scene/route_08_2.jpg",
-      "assets/route_8.svg"
-    ]
-  },
-  {
-    "title": "熊野古道 · Kumano Kodo（日本）",
-    "tag": "第10天 · 全球徒步路线",
-    "loc": "亚洲-日本-和歌山县",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "神道与佛教参诣道：入鸟居前鞠躬、在净手亭舀水漱口（不饮）；参拜时安静、不喧哗。部分路段着白色\"白衣\"持\"金刚杖\"为古礼，可体验但勿模仿宗教动作。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→关西机场转 JR/巴士到和歌山田边或新宫。往返 ¥2500-4500。</p>\n\n💰 参考费用（人均）：温泉民宿 ¥400-800/晚；4 天人均约 ¥6000-10000。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "3-5 月、10-11 月最佳；避开夏季台风与湿热"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>千年朝圣古道，分段走 3-4 天（如中边路 Nakahechi），穿越杉木林到熊野三山，难度低-中。</b></p><ul><li><b>Day1</b>：田边→滝尻王子<br>约 15km，杉木古道；住民宿；⚠️ 湿滑。</li><li><b>Day2</b>：→近露王子<br>约 18km，青苔石阶；住民宿。</li><li><b>Day3</b>：→本宫大社<br>约 20km，朝圣核心；住温泉旅馆；⚠️ 礼仪。</li><li><b>Day4</b>：→那智大瀑<br>约 12km，瀑布壮观；住旅馆；⚠️ 体力。</li></ul>\n\n🍱 装备与沿途补给：轻装日归；沿途温泉旅馆食宿；便当补给方便。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返大阪 <b>¥1800-3500</b>（廉航常有特价）；民宿或温泉旅馆含早晚两餐 <b>¥400-800/晚</b>；4 天 <b>总预算约 ¥6000-10000</b>——<b>这 14 条里最省、也最适合第一次走朝圣路</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>那智大瀑</b>： 👍 日本第一瀑 ｜ 👎 台阶多 ｜ ⚠️ 防滑</li><li><b>青苔参道</b>： 👍 千年氛围 ｜ 👎 阴湿 ｜ ⚠️ 无</li><li><b>温泉旅馆</b>： 👍 泡汤解乏 ｜ 👎 小店多收现金 ｜ ⚠️ 备足现金</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>目张寿司 Mehari-zushi（高菜叶包饭，古道经典行动粮）、秋刀鱼姿寿司、熊野牛、汤峰温泉里煮的温泉蛋、和歌山拉面、纪州梅干。走完泡汤峰温泉 tsuboyu（世界遗产里唯一可入浴的温泉）是这条线的仪式感。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① <b>石阶多且长年潮湿打滑</b>，雨天尤其要慢；② 夏季闷热多虫，<b>春樱与秋红叶季最舒服</b>；③ 山中补给点少，水和行动粮要带足；④ 民宿多为家庭经营，<b>基本不接受当日预订、很多不通英语</b>，需提前订好。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 日本旅游签；② 沿途盖章的<b>「押印帐」</b>值得买——熊野古道与圣雅各之路是<b>姐妹路</b>，两条都走完可申请「<b>双重朝圣者</b>」认定；③ 三大社：熊野本宫大社、熊野那智大社、熊野速玉大社；④ 交通：JR 到纪伊田边站转龙神巴士进山；⑤ 田边市熊野旅游局官网有完整中文资料与行李寄送服务。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_09_0.jpg",
-      "assets/scene/route_09_1.jpg",
-      "assets/scene/route_09_2.jpg",
-      "assets/route_9.svg"
-    ]
-  },
-  {
-    "title": "虎跳峡高路（云南·香格里拉）",
-    "tag": "第11天 · 全球徒步路线",
-    "loc": "亚洲-中国-云南-香格里拉市",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "纳西、藏文化交织：转经筒、玛尼堆须顺时针；进寺院脱帽、不指佛像。藏民家访忌踩门槛、忌吹口哨（民间认为招\"风\"）。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳北→昆明/丽江高铁，丽江乘车到虎跳峡镇约 1.5h。往返 ¥1500-2500。</p>\n\n💰 参考费用（人均）：沿途客栈 ¥80-150/晚；2 天人均约 ¥1500-2500。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "4-6 月、9-11 月最佳；避开 7-8 月雨季塌方风险"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>约 22km，2 天，沿金沙江峡谷、玉龙雪山观景，上虎跳→中虎跳，难度中等。</b></p><ul><li><b>Day1</b>：桥头→28 道拐→中途客栈(Tina's)<br>约 12km，爬升陡；住客栈；⚠️ 碎石滑。</li><li><b>Day2</b>：→上虎跳→下虎跳<br>约 10km，峡谷观景；住客栈；⚠️ 峡谷风大。</li></ul>\n\n🍱 装备与沿途补给：轻装；沿途客栈可补给；带能量棒与水。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返丽江机票 <b>¥800-2000</b>；沿途客栈（中途客栈、Tina's、Halfway）<b>¥80-200/晚</b>；景区门票 ¥45；包车或班车约 ¥60。2 天 <b>总预算约 ¥1500-3000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>上虎跳</b>： 👍 江水咆哮最猛 ｜ 👎 人最多 ｜ ⚠️ 护栏外勿近</li><li><b>28 道拐</b>： 👍 俯瞰峡谷全景 ｜ 👎 陡、费膝盖 ｜ ⚠️ 慢行</li><li><b>玉龙雪山观景</b>： 👍 雪峰对峙 ｜ 👎 看运气 ｜ ⚠️ 无</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>纳西烤鱼、腊排骨火锅、鸡豆凉粉、丽江粑粑、酥油茶；客栈的野生菌炒饭份量足。<b>云南小米辣蘸水一定要点</b>，配烤鱼和腊排骨最过瘾——这条线的辣度对旺仔来说完全对味。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① <b>「二十八道拐」是全程最累的一段</b>，海拔从 1800m 爬到约 2670m，慢慢来；② <b>雨季 6-8 月有落石与塌方风险</b>，出发前务必查路况；③ 部分横切路段临崖无护栏，靠内侧走、不要边走边拍；④ 昼夜温差大，带一件抓绒。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① <b>无需任何许可</b>，买门票即可，是入门长线里门槛最低的；② 丽江客运站坐车到桥头约 2.5 小时，Jane's 客栈可寄存大件行李；③ <b>建议住中途客栈</b>，早上推窗就是玉龙雪山日照金山；④ 下虎跳观景台需另购票；⑤ 走完可顺路去香格里拉，或接哈巴雪山。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_10_0.jpg",
-      "assets/scene/route_10_1.jpg",
-      "assets/scene/route_10_2.jpg",
-      "assets/route_10.svg"
-    ]
-  },
-  {
-    "title": "稻城亚丁 · 长线（四川）",
-    "tag": "第12天 · 全球徒步路线",
-    "loc": "亚洲-中国-四川-稻城县",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "藏族神山崇拜：仙乃日、央迈勇、夏诺多吉为神山，不可手指直指、不可捡玛尼石带走；转山须顺时针。天葬台严禁围观与拍照。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→成都转机稻城亚丁机场（世界最高民用机场 4411m）或陆路前往。往返 ¥1500-3000。</p>\n\n💰 参考费用（人均）：门票+观光车 ¥266；2 天人均约 ¥2000-3500。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "9-10 月秋色最佳；4-5 月高山杜鹃；冬季大雪封山"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>2-3 天，牛奶海 4600m、五色海 4700m，洛绒牛场→央迈勇，海拔高，慢走缓升。</b></p><ul><li><b>Day1</b>：景区→洛绒牛场→牛奶海<br>约 10km（可骑马+徒步）；住景区/香格里拉镇；⚠️ 高反。</li><li><b>Day2</b>：→五色海→返回<br>约 8km，彩海；⚠️ 天气影响观景。</li></ul>\n\n🍱 装备与沿途补给：氧气瓶备用；保暖层必带；景区内补给少，自带路餐。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返成都 <b>¥800-1800</b>；成都往返稻城亚丁机场 ¥800-1500（或包车 2 天走川西环线）；景区门票 ¥146 + 观光车 ¥120（<b>二次进沟需再买观光车票</b>）；亚丁村住宿 ¥200-500/晚。<b>总预算约 ¥3000-6000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>牛奶海</b>： 👍 蓝绿渐变圣湖 ｜ 👎 海拔高、累 ｜ ⚠️ 慢行</li><li><b>五色海</b>： 👍 色彩奇幻 ｜ 👎 受天气影响 ｜ ⚠️ 无</li><li><b>三神山</b>： 👍 雪峰倒影 ｜ 👎 远观 ｜ ⚠️ 无</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>牦牛肉火锅、藏式石锅鸡、酥油茶、青稞饼、松茸（7-9 月当季）。<b>成都进出段可以专门安排一顿火锅或冷锅串串</b>，把辣补回来；高原上则建议吃清淡些，减轻高反不适。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 亚丁村海拔 3900m，<b>长线牛奶海、五色海在 4600-4700m，高反非常明显</b>；② 长线一天往返约 30km，<b>需早上 6 点前出发</b>，否则天黑前下不来；③ <b>10 月后随时可能降雪封路</b>；④ 高原紫外线极强，防晒和墨镜必备。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 无需许可，买门票即可；② <b>强烈建议先在康定或理塘住 1-2 晚适应海拔</b>再进亚丁，直飞稻城亚丁机场（4411m）落地即高反的案例很多；③ 景区内可租氧气瓶，但别把它当保险；④ 国庆等旺季亚丁村住宿要提前很久订；⑤ 体力一般可只走短线（冲古寺-珍珠海）。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_11_0.jpg",
-      "assets/scene/route_11_1.jpg",
-      "assets/scene/route_11_2.jpg",
-      "assets/route_11.svg"
-    ]
-  },
-  {
-    "title": "武功山 · 高山草甸（江西）",
-    "tag": "第13天 · 全球徒步路线",
-    "loc": "亚洲-中国-江西-萍乡市",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "赣西客家文化；山间草甸为生态敏感区，切勿在核心草甸露营踩踏。当地农家可体验擂茶，主人敬茶需双手接、轻啜以示礼。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳北→萍乡北高铁约 5h（¥400），转巴士到沈子村/龙山村入口。往返 ¥800-1500。</p>\n\n💰 参考费用（人均）：帐篷/客栈 ¥100-200/晚；2 天人均约 ¥800-1500。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "5-10 月最佳，9 月帐篷节；避开冬季结冰期"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>约 30km，2 天（沈子村→金顶→发云界），10 万亩高山草甸、云海日出，难度中等。</b></p><ul><li><b>Day1</b>：沈子村→金顶<br>约 18km，草甸云海；住帐篷/客栈；⚠️ 风大。</li><li><b>Day2</b>：金顶→发云界→羊狮慕<br>约 12km，草甸连绵；住客栈。</li></ul>\n\n🍱 装备与沿途补给：轻装；山顶客栈/帐篷；补给点较多，可轻量化。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返萍乡高铁 <b>¥400-700</b>（约 4.5 小时直达）；门票 ¥70 + 索道 ¥70-100；山顶帐篷营地 ¥100-200（可现场租帐篷）。2 天 <b>总预算约 ¥800-1500</b>——<b>这 14 条里最便宜、最适合周末打来回的一条</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>高山草甸</b>： 👍 亚洲第一、云海 ｜ 👎 风大 ｜ ⚠️ 保暖</li><li><b>帐篷节</b>： 👍 人气旺、活动多 ｜ 👎 人多 ｜ ⚠️ 早订</li><li><b>星空</b>： 👍 银河清晰 ｜ 👎 夜间冷 ｜ ⚠️ 装备到位</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>萍乡小炒肉（<b>辣度是江西级别的，非常够劲</b>）、萍乡烟熏肉、莲花血鸭、武功山石鸡、擂茶。<b>江西菜的辣是干辣直给，对旺仔来说这条线是「风景 + 口味」双满分</b>。山顶补给点有泡面和热水。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 高山草甸<b>完全无遮挡，风极大且天气说变就变</b>，帐篷务必用地钉固定好；② 看日出要夜宿山顶，<b>山上夜间温度比山下低 10℃ 以上</b>；③ <b>国庆、五一人流极大</b>，草甸上挤满帐篷，建议错峰；④ 台阶密集连续，护膝和登山杖能救膝盖。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 无需许可；② 萍乡北站有景区专线巴士，约 1.5 小时；③ <b>经典穿越路线：龙山村 → 金顶 → 发云界 → 沈子村</b>，两天走完；④ 体力有限可索道上金顶，只走草甸精华段；⑤ 山顶营地可租帐篷睡袋，不必自己背。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_12_0.jpg",
-      "assets/scene/route_12_1.jpg",
-      "assets/scene/route_12_2.jpg",
-      "assets/route_12.svg"
-    ]
-  },
-  {
-    "title": "哈巴雪山（云南）",
-    "tag": "第14天 · 全球徒步路线",
-    "loc": "亚洲-中国-云南-香格里拉市",
-    "blocks": [
-      {
-        "h": "🎒 行前通用准备",
-        "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
-      },
-      {
-        "h": "🌏 当地民俗文化·传统礼仪",
-        "body": "纳西、藏文化交汇：登山前当地有敬山神习俗，尊重向导安排；神山禁大声呼喊、禁采挖植物。藏家访不踩门槛，遇经幡顺时针绕行。"
-      },
-      {
-        "h": "✈️ 从深圳出发·如何到达",
-        "body": "<p>深圳→丽江/香格里拉，再车到哈巴村约 4-5h。往返 ¥1500-2500。</p>\n\n💰 参考费用（人均）：向导/协作 ¥1500-2500（含装备）；3 天人均约 ¥2500-4000。"
-      },
-      {
-        "h": "🗓 最佳徒步季节",
-        "body": "10-12 月、2-4 月雪况好、可见度高；避开雨季"
-      },
-      {
-        "h": "🗺 徒步天数与路线",
-        "body": "<p><b>2-3 天，登顶 5396m（入门级雪山），大本营 4100m→顶峰，难度中高（需冰爪）。</b></p><ul><li><b>Day1</b>：哈巴村(2700)→大本营(4100)<br>约 15km，林地爬升；住大本营（有伙食）；⚠️ 适应海拔。</li><li><b>Day2</b>：大本营→顶峰(5396)→下撤<br>约 12km，冰爪路段；⚠️ 雪坡安全。</li></ul>\n\n🍱 装备与沿途补给：冰爪、头盔、羽绒由协作提供；自带能量；大本营有伙食。"
-      },
-      {
-        "h": "💰 价格预算（深圳出发）",
-        "body": "<p>深圳往返丽江 <b>¥800-2000</b>；<b>持证向导费 ¥800-1200/人（强制，必须请）</b>；大本营住宿 ¥100-200；冰爪、冰镐、高山靴等装备租赁 ¥300-500；包车丽江到哈巴村约 ¥600/车。3 天 <b>总预算约 ¥3500-6000</b>。</p>"
-      },
-      {
-        "h": "🏞 路线亮点·必看风景",
-        "body": "<ul><li><b>顶峰</b>： 👍 入门雪山、成就感强 ｜ 👎 凌晨冲顶冷 ｜ ⚠️ 协作陪同</li><li><b>玉龙雪山同框</b>： 👍 双峰远景 ｜ 👎 看运气 ｜ ⚠️ 无</li><li><b>高山杜鹃</b>： 👍 春色烂漫 ｜ 👎 仅春季 ｜ ⚠️ 无</li></ul>"
-      },
-      {
-        "h": "🍜 当地美食·吃什么",
-        "body": "<p>哈巴村农家菜、自制腊肉、野生菌（雨季）、青稞酒；下撤后到香格里拉可吃牦牛肉火锅、藏式包子、酥油茶。大本营的餐食比较简单，可以自带些辣味小菜提胃口。</p>"
-      },
-      {
-        "h": "⚠️ 安全与注意",
-        "body": "<p>① 海拔 <b>5396m</b>，虽被称作「入门级雪山」但<b>本质是登山而非徒步</b>，别轻敌；② <b>冲顶从凌晨 2-3 点出发</b>，需冰爪、冰镐、安全绳与结组技术；③ <b>最佳登山季是 11 月至次年 4 月</b>（雪况稳定），雨季反而更危险；④ <b>严禁独自攀登</b>，每年都有事故。</p>"
-      },
-      {
-        "h": "🎫 实操：许可 · 预约 · 证件",
-        "body": "<p>① 无需许可，但<b>必须向哈巴村登山协会报备并雇持证向导</b>；② 丽江或香格里拉包车到哈巴村约 4 小时；③ <b>建议先走虎跳峡高路作海拔适应</b>，两条线正好可以串成一趟；④ 购买<b>明确覆盖 5000m 以上登山</b>的保险（普通旅游险通常除外）；⑤ 装备在哈巴村当地租齐即可，不必从深圳背。</p>"
-      }
-    ],
-    "images": [
-      "assets/scene/route_13_0.jpg",
-      "assets/scene/route_13_1.jpg",
-      "assets/scene/route_13_2.jpg",
-      "assets/route_13.svg"
-    ]
-  }
+    {
+      "title": "圣雅各朝圣之路 · 法国线 Camino Francés",
+      "tag": "第1天 · 全球徒步路线",
+      "loc": "欧洲-西班牙-加利西亚自治区",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "沿途教堂可参与晚祷，入内请保持安静、脱帽；\"Buen Camino\"是朝圣者互道祝福的通用语。终点圣地亚哥主教座堂周日有朝圣者弥撒，可着徒步装出席；贝壳是朝圣符号，请尊重其宗教含义，勿当普通纪念品戏谑。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→巴黎/马德里转机到潘普洛纳或法国侧圣让皮耶德波尔，全程约 16-20h，往返机票 ¥5000-9000；也可飞马德里再火车北上。</p>\n\n💰 参考费用（人均）：朝圣客栈 albergue €10-20/晚、餐 €10-15/天；30 天含机票人均约 ¥1.2-2 万。Compostela 证书免费，但需最后 100km 徒步抵达。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "4-6 月：春暖、绿意浓，推荐；9-10 月：秋高气爽、人少；避开 7-8 月酷暑与朝圣旺季"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>总里程约 780km，30-35 天，日均 20-28km，总体起伏平缓。</b></p><ul><li><b>Day1</b>：圣让皮耶德波尔→龙塞斯瓦列斯，约 24km，翻越庇里牛斯山口；⚠️ 海拔骤升+风雨，慢走适应。</li><li><b>Day2</b>：龙塞斯瓦列斯→潘普洛纳，约 21km；⚠️ 古城住宿早订。</li><li><b>Day5+</b>：经布尔戈斯、莱昂、阿斯托加向萨里亚推进；<b>最后 100km（萨里亚→圣地亚哥）约 110km/5 天</b>可拿证书；沿途 albergue 出示 credencial，多 22:00 关门。</li></ul>\n\n🍱 装备与补给：轻装（12-15kg）、贝壳与 credencial 必带；沿途咖啡馆、酒吧补给充足，别错过本地 pintxos。"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返（经欧洲转机）机票 <b>¥6000-9000</b>；albergue 公营 €8-15/晚、私营 €15-30；朝圣者套餐 menú del peregrino €12-15。走完全程 30-35 天 <b>总预算约 ¥25000-35000</b>；只走最后 100km（约 5-6 天）可压到 ¥12000 以内。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>中世纪古镇（潘普洛纳/布尔戈斯）</b>：👍 历史厚重、配套成熟 ｜ 👎 旺季人挤人 ｜ ⚠️ 住宿早订</li><li><b>里昂河平原葡萄园</b>：👍 风景开阔可品酒 ｜ 👎 夏季暴晒 ｜ ⚠️ 多补水</li><li><b>圣地亚哥大教堂</b>：👍 仪式感强、终点打卡 ｜ 👎 需步行最后 100km 拿证书 ｜ ⚠️ 保管朝圣护照</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>加利西亚风章鱼 Pulpo a la Gallega（撒甜椒粉，微辣够味）、Bocadillo 火腿三明治（沿途最常见午餐）、Caldo Gallego 蔬菜浓汤、Padrón 小青椒。圣地亚哥杏仁蛋糕 Tarta de Santiago 偏甜，可跳过。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 日均 20-25km，<b>脚起水泡是头号敌人</b>——羊毛袜+凡士林+一起泡就处理；② 夏季梅塞塔高原一路无荫极晒，天亮就出发、中午前收工；③ 庇护所先到先得，7-8 月床位紧张；④ 西班牙下午 14-17 点商店午休，补给趁早。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 办<b>申根签证</b>（按停留最长国送签，一般是西班牙）；② 出发前领<b>朝圣者护照 Credencial</b>，沿途每天盖章；③ 步行满最后 100km 且有章，可在圣地亚哥朝圣者办公室领 Compostela 证书；④ 查床位用 Gronze 网站、Buen Camino App；⑤ 背包托运 Jacotrans 约 €5-7/段。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_00_0.jpg",
+        "assets/scene/route_00_1.jpg",
+        "assets/scene/route_00_2.jpg",
+        "assets/route_0.svg"
+      ]
+    },
+    {
+      "title": "印加古道 · 马丘比丘 Inca Trail",
+      "tag": "第2天 · 全球徒步路线",
+      "loc": "南美-秘鲁-库斯科",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "库斯科及周边多盖丘亚原住民，可用 \"Rimaykullayki\" 问候；古柯叶是当地待客与抗高反习俗，可礼貌接受但不宜过量。马丘比丘等遗址严禁攀爬、刻划；进入村落请先征得同意再拍照。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→利马转库斯科（海拔 3399m，需适应 2 天），再乘车到起点 KM82。往返机票 ¥9000-14000。</p>\n\n💰 参考费用（人均）：强制向导团约 $500-700（含许可 $200+），含背夫、餐食与帐篷。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "5-9 月旱季最佳、路干景明；2 月封路维护；避开雨季（12-3 月）泥泞"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>4 天 3 夜约 43km，最高 Warmiwañusca 隘口 4200m。</b></p><ul><li><b>Day1</b>：KM82→瓦伊瓦什，约 11km，渐入云雾森林；⚠️ 起步即适应海拔。</li><li><b>Day2</b>：瓦伊瓦什→帕凯马约，约 12km，翻 4200m 隘口（全程最难）；⚠️ 高反预警。</li><li><b>Day4</b>：Wiñay Wayna→太阳门→马丘比丘，约 5km，凌晨出发看日出；⚠️ 需预约时段。</li></ul>\n\n🍱 装备：帐篷睡袋由背夫扛；自带头灯、保暖层、能量棒；备好高原反应药。"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返利马机票 <b>¥9000-14000</b>（经美洲或欧洲转机，单程 30h+）；4 天经典古道跟团 <b>US$700-900</b>（含许可、向导、挑夫、餐食、帐篷）；库斯科住宿 ¥150-400/晚。<b>总预算约 ¥30000-40000</b>，是这 14 条里最贵之一。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>马丘比丘</b>：👍 世界新七大奇迹、日出绝美 ｜ 👎 限时预约、限流 ｜ ⚠️ 不攀爬石墙</li><li><b>Wiñay Wayna</b>：👍 梯田遗址依山临谷 ｜ 👎 需向导带领 ｜ ⚠️ 尊重遗址</li><li><b>云雾森林</b>：👍 生态多样、羊驼出没 ｜ 👎 潮湿蚊虫多 ｜ ⚠️ 防蚊</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>Ceviche 酸橘汁腌鱼、Lomo Saltado 酱炒牛肉配薯条、Aji de Gallina 黄辣椒鸡、烤豚鼠 Cuy（当地名菜）、古柯茶 Mate de Coca（缓解高反）。<b>秘鲁菜普遍用黄辣椒 ají，辣度合旺仔口味</b>；紫玉米汁 Chicha Morada 偏甜可跳过。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 库斯科海拔 3399m，<b>至少适应 2 天</b>再进山，第一晚少动、多喝水；② 古道许可极有限（每年 2 月封路），提前数月预约；③ 昼夜温差大，保暖层必带；④ 雨季泥泞易摔，登山杖必备。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 中国公民赴秘鲁需<b>签证</b>（提前办理，注意有效期）；② 印加古道许可通过官方授权旅行社申请，个人不能直接走；③ 马丘比丘需另买门票并预约入内时段；④ 高原保险含救援；⑤ 现金备足（山区少 ATM）。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_01_0.jpg",
+        "assets/scene/route_01_1.jpg",
+        "assets/scene/route_01_2.jpg",
+        "assets/route_1.svg"
+      ]
+    },
+    {
+      "title": "多洛米蒂 · Alta Via 1（意大利）",
+      "tag": "第3天 · 全球徒步路线",
+      "loc": "欧洲-意大利-博尔扎诺",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "山区多德语/意大利语混用，用 \"Guten Tag\" / \"Buongiorno\" 问候；山屋 Rifugio 是阿尔卑斯传统，请遵守安静时段与拖鞋规定。部分路段属自然保护区，勿采摘植物、勿惊扰岩羊。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→慕尼黑/米兰/威尼斯转火车到科尔蒂纳丹佩佐或起点附近小镇，全程约 16-20h，往返机票 ¥6000-10000。山区靠巴士+缆车接驳。</p>\n\n💰 参考费用（人均）：山屋 Rifugio €40-70/晚（含半膳）、缆车单程 €15-30；10 天含机票人均约 ¥20000-28000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "6-9 月：雪线退去、步道全开，最佳；7-8 月人最多；9 月秋色+人少；避 10 月后积雪"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>Alta Via 1 约 120km，8-10 天，累计爬升大、多刃脊与铁索段。</b></p><ul><li><b>Day1-2</b>：拉瓦莱多三峰（Tre Cime）环线，约 18km，标志性岩塔景观；⚠️ 早出发避午後雷雨。</li><li><b>Day3-5</b>：经 Cortina、Lago di Braies 向多比亚科推进；⚠️ 部分段需手脚并用。</li><li><b>Day6+</b>：玛莫拉达冰川段，约 15km/天；⚠️ 铁索段需勇气与手套。</li></ul>\n\n🍱 补给：山屋可补给热食，自带能量棒；部分段无水源，水要带足。"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返欧洲机票 <b>¥6000-10000</b>；山屋 Rifugio 半膳 €40-70/晚，10 天约 €500-700；缆车/巴士接驳 €100-200。<b>总预算约 ¥22000-30000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>三峰 La Tre Cime</b>：👍 全球最上镜岩塔、配套成熟 ｜ 👎 游客极多 ｜ ⚠️ 早到占位</li><li><b>刀锋山脊（Via Ferrata）</b>：👍 刺激、视野无敌 ｜ 👎 恐高慎入 ｜ ⚠️ 需头盔锁具</li><li><b>镜湖 Braies</b>：👍 湖水如镜、出片 ｜ 👎 停车场小 ｜ ⚠️ 旺季限流</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>南蒂罗尔风：Canederli 面包团子汤、Speck 烟熏火腿、Knödel 土豆丸子、Apple strudel（甜口，跳过）。山区餐馆偏咸鲜，配当地啤酒或热红茶正好。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 多刃脊与铁索段，<b>头盔+安全带+锁具</b>必备，恐高勿硬上；② 午后雷暴频繁，天亮即出发；③ 山屋需提前数月预订（旺季秒空）；④ 昼夜温差大，保暖层与雨衣必带。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 办<b>申根签证</b>（通常意大利或德国送签）；② 山屋 Rifugio 通过官网/电话提前订，注明半膳；③ Via Ferrata 段确认装备租赁点；④ 离线地图用 Maps.me/Outdooractive；⑤ 买含直升机救援的户外险。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_02_0.jpg",
+        "assets/scene/route_02_1.jpg",
+        "assets/scene/route_02_2.jpg",
+        "assets/route_2.svg"
+      ]
+    },
+    {
+      "title": "环勃朗峰 · TMB（法/意/瑞）",
+      "tag": "第4天 · 全球徒步路线",
+      "loc": "欧洲-法国·意大利·瑞士-勃朗峰",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "途经法/意/瑞三国，用当地语言问候即可；山屋文化与多洛米蒂类似，请安静、拖鞋、不浪费食物。跨境段注意货币（欧元通用，瑞士段物价高）。尊重牧民与牛羊通道。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→日内瓦/米兰转火车到霞慕尼（Chamonix）或库马约尔（Courmayeur），全程约 15-19h，往返机票 ¥6000-10000。</p>\n\n💰 参考费用（人均）：山屋/旅馆 €50-90/晚、餐 €20-35/天；10 天含机票人均约 ¥22000-30000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "6-9 月：雪线退、步道全开，最佳；7-8 月人最多；9 月秋色人少；避 10 月后积雪封路"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>TMB 环线约 170km，10-12 天，累计爬升约 10000m，多垭口。</b></p><ul><li><b>Day1-3</b>：霞慕尼→莱苏什→库马约尔（意大利段），约 16km/天；⚠️ 勃朗峰脚视野最震撼。</li><li><b>Day4-6</b>：瑞士段尚佩克斯→尚贝里，约 18km/天；⚠️ 瑞士侧物价高、补给贵。</li><li><b>Day7+</b>：回法国侧经 Col de la Croix 收官；⚠️ 垭口风大注意保暖。</li></ul>\n\n🍱 补给：山屋热食充足，自带坚果能量棒；垭口无水源。"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返欧洲机票 <b>¥6000-10000</b>；山屋/旅馆 €50-90/晚，10 天约 €600-900；缆车接驳 €80-150。<b>总预算约 ¥22000-30000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>勃朗峰南壁</b>：👍 欧洲屋脊、云海绝景 ｜ 👎 天气多变 ｜ ⚠️ 查预报</li><li><b>意大利库马约尔谷</b>：👍 餐饮好、物价低 ｜ 👎 段长爬升大 ｜ ⚠️ 早出发</li><li><b>瑞士尚佩克斯湖</b>：👍 湖景宁静 ｜ 👎 物价高 ｜ ⚠️ 现金备用</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>法式/意式高山餐：Tartiflette 芝士土豆焗（咸香）、Raclette 烤芝士、意面、香肠。甜点如焦糖布丁偏甜可跳过；配热红茶或本地红酒暖身。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 多垭口段<b>天气说变就变</b>，每天查预报、备雨衣；② 山屋提前数月订；③ 单日爬升超 1000m，膝盖护具+登山杖；④ 瑞士段物价高，现金/Euro 备足；⑤ 高反少见但垭口风冷，保暖层必带。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 办<b>申根签证</b>；② 山屋通过 Refuge 官网/App 提前订，跨国段分别订；③ 可选反走（逆时针）分流人流；④ 离线轨迹用 AllTrails/Outdooractive；⑤ 户外险含救援；⑥ 缆车时刻表提前查，避免误末班。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_03_0.jpg",
+        "assets/scene/route_03_1.jpg",
+        "assets/scene/route_03_2.jpg",
+        "assets/route_3.svg"
+      ]
+    },
+    {
+      "title": "乞力马扎罗 · 马切姆线（坦桑尼亚）",
+      "tag": "第5天 · 全球徒步路线",
+      "loc": "非洲-坦桑尼亚-乞力马扎罗区",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "坦桑尼亚以斯瓦希里语 \"Jambo\" / \"Asante\" 问候；登山由持证向导+背夫团队陪同，请尊重当地小费文化（登顶后统一给团队）。营地禁止乱扔垃圾，需带走所有废弃物。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→亚的斯亚贝巴/多哈/迪拜转机到乞力马扎罗机场（JRO），再车到莫希/阿鲁沙，全程约 18-24h，往返机票 ¥7000-11000。</p>\n\n💰 参考费用（人均）：向导团队 $2500-4000（含许可、背夫、餐食、帐篷），含火山口营地附加费。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "1-3 月/6-10 月：旱季、视野好，最佳；4-5 月/11 月雨季泥泞；12-1 月人较多"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>马切姆线 7 天 6 夜约 62km，最高 Uhuru 峰 5895m。</b></p><ul><li><b>Day1</b>：马切姆门(3000m)→营地，约 11km，穿越雨林；⚠️ 防蚂蟥。</li><li><b>Day3</b>：希拉高原→熔岩塔(4600m)→巴拉科营地，约 12km，海拔适应关键；⚠️ 高反预警。</li><li><b>Day6</b>：午夜冲顶 Uhuru 峰(5895m)看日出，约 6km 陡坡；⚠️ 极寒+缺氧。</li></ul>\n\n🍱 补给：团队供三餐，自带能量胶/巧克力；高海拔食欲差，强制喝水。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返 JRO 机票 <b>¥7000-11000</b>；7 天向导团 <b>$2500-4000</b>（许可+团队+营地）；莫希住宿 ¥200-400/晚。<b>总预算约 ¥28000-38000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>乌胡鲁峰日出</b>：👍 非洲之巅、云海日出 ｜ 👎 极寒缺氧 ｜ ⚠️ 冲顶慢行</li><li><b>熔岩塔</b>：👍 荒凉月球地貌 ｜ 👎 海拔陡升 ｜ ⚠️ 适应日</li><li><b>雨林段</b>：👍 植被丰富、猴子多 ｜ 👎 潮湿蚂蟥 ｜ ⚠️ 长裤</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>坦桑尼亚餐：Ugali 玉米糊、Nyama Choma 烤肉、扁豆汤、Chapati 薄饼。口味偏淡，可自备<b>辣椒粉/小米辣酱</b>提味；本地果汁偏甜可少喝。"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>高反是头号风险</b>——遵循「爬高睡低」、每天喝水 3-4L、头痛即下撤；② 冲顶夜极冷（-15℃），羽绒+手套+头灯必带；③ 雨林段防蚂蟥长裤扎脚；④ 团队小费登顶后给，提前备美元现金。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 办<b>坦桑尼亚签证</b>（可落地或提前 e-visa）；② 登山许可与团队通过持证旅行社办理（个人不可独自上）；③ 黄热病疫苗证明常需；④ 买含高原救援/医疗转运的险；⑤ 装备可当地租，但靴子建议自带磨合。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_04_0.jpg",
+        "assets/scene/route_04_1.jpg",
+        "assets/scene/route_04_2.jpg",
+        "assets/route_4.svg"
+      ]
+    },
+    {
+      "title": "冰岛 · Laugavegur 地热步道",
+      "tag": "第6天 · 全球徒步路线",
+      "loc": "欧洲-冰岛-兰德曼纳劳卡",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "冰岛语问候 \"Halló\"；温泉（如蓝湖）需先淋浴再入池，禁止涂抹护肤品。尊重自然：不偏离步道、不踩苔藓（生长极慢）、不惊扰北极狐。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→雷克雅未克（经欧洲转机），全程约 16-20h，往返机票 ¥7000-11000。再巴士到起点 Landmannalaugar。</p>\n\n💰 参考费用（人均）：山屋 €60-100/晚（需预订）、巴士接驳 €50-100；5 天含机票人均约 ¥18000-26000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "6-9 月：冰雪融、步道开，最佳；7 月午夜不黑；避 9 月后风雪封路、极寒"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>Laugavegur 约 55km，3-4 天，多黑沙、彩丘、冰川。</b></p><ul><li><b>Day1</b>：Landmannalaugar→Hrafntinnusker，约 12km，彩丘+蒸汽地热；⚠️ 地热区勿踩薄壳。</li><li><b>Day2</b>：→Álftavatn，约 12km，过黑沙原与河流；⚠️ 涉水鞋必备。</li><li><b>Day3</b>：→Þórsmörk，约 15km，冰川河口收官；⚠️ 过河看水流。</li></ul>\n\n🍱 补给：山屋可煮食，自带冻干餐/能量棒；沿途无商店。"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返雷克雅未克机票 <b>¥7000-11000</b>；山屋 €60-100/晚，3-4 天约 €200-350；巴士接驳 €50-100。<b>总预算约 ¥20000-28000</b>（冰岛物价高）。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>兰德曼纳劳卡彩丘</b>：👍 流纹岩彩虹山、地热温泉 ｜ 👎 风极大 ｜ ⚠️ 保暖</li><li><b>黑沙原</b>：👍 月球地表感 ｜ 👎 单调风大 ｜ ⚠️ 导航</li><li><b>Þórsmörk 峡谷</b>：👍 绿洲收官、徒步林 ｜ 👎 过河 ｜ ⚠️ 涉水鞋</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>冰岛新晋料：羊肉汤 Kjötsúpa、热狗（Bæjarins Beztu）、Skyr 酸奶。口味清淡偏咸，可自配<b>辣椒酱</b>；甜点如冰淇淋偏甜可偶尔。"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>风是最大敌人</b>——帐篷地钉加石头压，冲锋衣必带；② 过河穿涉水鞋、结伴探流；③ 地热区薄壳易塌，沿标记走；④ 天气瞬变，每天查 vedur.is；⑤ 苔藓极脆弱，不踩。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 持<b>申根签证</b>（冰岛属申根）；② 山屋通过 ferðafélag Íslands 官网提前数月订；③ 巴士票（Reykjavik Excursions/Trex）提前买；④ 离线地图 + 告知行程；⑤ 户外险含救援，租车时买砂石险。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_05_0.jpg",
+        "assets/scene/route_05_1.jpg",
+        "assets/scene/route_05_2.jpg",
+        "assets/route_5.svg"
+      ]
+    },
+    {
+      "title": "米尔福德步道 · Milford Track（新西兰）",
+      "tag": "第7天 · 全球徒步路线",
+      "loc": "大洋洲-新西兰-峡湾地区",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "毛利语问候 \"Kia ora\"；步道穿越峡湾国家公园，属世界遗产，严禁偏离步道、不喂食啄羊鹦鹉（kea）。尊重毛利圣地，勿移动界石。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→奥克兰/皇后镇（经澳洲转机），全程约 15-20h，往返机票 ¥7000-11000。再车/船到蒂阿瑙，船进起点 Glade House。</p>\n\n💰 参考费用（人均）：Great Walk 木屋 NZ$100-150/晚（抽签预订）、船接驳 NZ$50；4 天含机票人均约 ¥20000-28000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "11-4 月：南半球夏季、天气稳，最佳；12-2 月人最多；避 5-10 月寒冷多雨风大"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>米尔福德步道约 53km，4 天 3 夜，终点即米尔福德峡湾。</b></p><ul><li><b>Day1</b>：Glade House→Clinton 谷，约 14km，平易雨林；⚠️ 防沙蝇。</li><li><b>Day2</b>：→Mintaro，约 16km，向麦金农山口爬升；⚠️ 垭口风大。</li><li><b>Day3</b>：翻麦金农山口(1073m)→Quintin，约 14km；⚠️ 可加登谷支线看瀑布。</li><li><b>Day4</b>：→沙湾，约 16km，峡湾收官；⚠️ 船班衔接。</li></ul>\n\n🍱 补给：木屋可煮食，自带冻干餐；沙蝇区长袖。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返皇后镇机票 <b>¥7000-11000</b>；Great Walk 木屋 NZ$100-150/晚，3 晚约 NZ$350-450；船/车接驳 NZ$100-200。<b>总预算约 ¥22000-30000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>麦金农山口</b>：👍 360°雪山全景 ｜ 👎 风大陡 ｜ ⚠️ 早过</li><li><b>萨瑟兰瀑布</b>：👍 新西兰最高瀑布 ｜ 👎 需支线 ｜ ⚠️ 加爬</li><li><b>米尔福德峡湾</b>：👍 峡湾出海、海豹企鹅 ｜ 👎 雨多 ｜ ⚠️ 船班</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>新西兰餐：Meat pie 肉派、炸鱼薯条、绿唇贻贝、Pavlova 甜点（偏甜可跳过）。口味清淡，自配辣椒酱更带劲；咖啡文化发达，冰美式随处可买。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>沙蝇（sandfly）猛</b>——长袖+驱虫，傍晚最凶；② 麦金农垭口风大冷，保暖层必带；③ 木屋抽签难，提前抢；④ 终点船班固定，按时抵达；⑤ 雨林潮湿，防水袋护睡袋。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 持<b>新西兰签证/ NZeTA</b>；② Great Walk 木屋每年抽签（doc.govt.nz），提前数月；③ 船班/接驳与步道衔接预订；④ 离线地图 + 告知行程；⑤ 户外险含救援。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_06_0.jpg",
+        "assets/scene/route_06_1.jpg",
+        "assets/scene/route_06_2.jpg",
+        "assets/route_6.svg"
+      ]
+    },
+    {
+      "title": "约翰·缪尔步道 · JMT（美国加州）",
+      "tag": "第8天 · 全球徒步路线",
+      "loc": "北美洲-美国-加利福尼亚州",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "美式友好 \"Howdy / Hi\"；步道穿越优胜美地与高山，属荒野，需<b>徒步许可（permit）</b>抽签。尊重熊区规定：食物存 bear canister，营地禁留气味。原住民领地请不打扰。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→旧金山/洛杉矶转车到优胜美地或帝王谷，全程约 15-20h，往返机票 ¥7000-12000。再 Shuttle 到起点。</p>\n\n💰 参考费用（人均）：许可 $10-20+预约费、补给寄送 $60-100、镇补给 $200-300；21 天含机票人均约 ¥28000-38000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "7-9 月：雪融、步道全开，最佳；8 月蚊少；避 6 月前积雪、10 月后初雪"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>JMT 约 340km，3 周，翻越多个 3000m+ 垭口，越高山湖群。</b></p><ul><li><b>Day1-4</b>：优胜美地谷→图奥勒米草原，约 20km/天；⚠️ 半穹顶需另许可。</li><li><b>Day5-10</b>：经 Rae Lakes、Forester 山口(4009m)，约 22km/天；⚠️ 高海拔雪斑。</li><li><b>Day11+</b>：帝王谷收官，约 20km/天；⚠️ 最后下撤热。</li></ul>\n\n🍱 补给：中途寄缓存 box（MTR/Red's Meadow/VVR），自带能量棒；水源多但需滤水。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返美西机票 <b>¥7000-12000</b>；许可+预约费约 $50；补给寄送+镇购约 $300-500；21 天。<b>总预算约 ¥30000-40000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>半穹顶 Half Dome</b>：👍 花岗岩巨岩、缆索登顶 ｜ 👎 需另许可、险 ｜ ⚠️ 恐高慎</li><li><b>图奥勒米草原</b>：👍 高山草甸、孤松 ｜ 👎 蚊季凶 ｜ ⚠️ 驱虫</li><li><b>国王峡谷</b>：👍 深谷巨杉 ｜ 👎 下撤长 ｜ ⚠️ 膝盖</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>美式 trail 餐：能量棒、脱水餐、Tortilla 卷奶酪辣酱（自配辣）、镇上的墨西哥辣 burrito 最对味。山里靠自带，辣酱是提味神器；甜能量胶可少。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>徒步许可抽签极难</b>（春季开放），务必提前；② 熊区 bear canister 强制，营地存食；③ 高海拔垭口积雪+雷暴，午后避；④ 蚊虫季驱虫；⑤ 21 天长线，膝盖护具+负重渐进训练。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 持<b>美国 B1/B2 签证</b>；② JMT 许可通过 recreation.gov 抽签（每年 1 月开放）；③ 半穹顶另申请缆索许可；④ 补给缓存 box 提前寄沿途邮编点；⑤ 户外险含救援；⑥ 离线地图+卫星信使（无信号段长）。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_07_0.jpg",
+        "assets/scene/route_07_1.jpg",
+        "assets/scene/route_07_2.jpg",
+        "assets/route_7.svg"
+      ]
+    },
+    {
+      "title": "珠峰大本营 · EBC（尼泊尔）",
+      "tag": "第9天 · 全球徒步路线",
+      "loc": "亚洲-尼泊尔-索卢坤布地区",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "尼泊尔用 \"Namaste\" 双手合十问候；藏传佛教寺院请顺时针转经、不指佛像、室内禁拍。尊重夏尔巴文化，小费/布施随喜即可。高海拔请放慢节奏。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→加德满都转机到卢卡拉（Lukla，世界最险机场之一），全程约 12-18h，往返机票 ¥6000-9000 + 内陆段 $300-500。</p>\n\n💰 参考费用（人均）：许可 $30-50（含 TIMS）、客栈/餐 $25-40/天、向导背夫另计；14 天含机票人均约 ¥18000-26000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "3-5 月春季：天气稳、视野好、登顶季，最佳；10-11 月秋季：晴多风清，最佳；避 6-9 月雨季、12-2 月严寒大风"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>EBC 往返约 130km，12-14 天，最高 Gorak Shep 5164m /  Everest Base Camp 5364m。</b></p><ul><li><b>Day1-3</b>：卢卡拉→南崎巴扎→天波切，约 12km/天；⚠️ 适应海拔。</li><li><b>Day5-7</b>：丁波切→罗布切→戈拉雪普，约 10km/天；⚠️ 海拔骤升。</li><li><b>Day8</b>：上 EBC(5364m) 折返，约 14km；⚠️ 极寒缺氧。</li><li><b>Day9</b>：爬卡拉帕塔(5545m)看珠峰日出；⚠️ 慢行。</li></ul>\n\n🍱 补给：客栈供餐（面/饺/炒饭），自带能量棒；高海拔喝水多。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返加都机票 <b>¥6000-9000</b> + 卢卡拉内陆段 $300-500；客栈餐 $25-40/天，14 天约 $400-550；向导背夫另 $300-500。<b>总预算约 ¥20000-30000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>珠峰大本营</b>：👍 世界之巅脚下、昆布冰瀑 ｜ 👎 极寒 ｜ ⚠️ 适应</li><li><b>卡拉帕塔</b>：👍 珠峰最佳观景台 ｜ 👎 陡 ｜ ⚠️ 慢爬</li><li><b>天波切寺院</b>：👍 藏传文化、 panorama ｜ 👎 需绕行 ｜ ⚠️ 尊重</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>尼泊尔餐：Dal Bhat 豆汤饭（管饱、可续）、Momo 蒸饺（辣酱蘸最对味）、Thukpa 面汤。山里偏碳水，自配<b>辣椒酱</b>提味；甜奶茶可少喝。"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>高反是头号风险</b>——「爬高睡低」、每日喝水 3-4L、头痛即下撤；② 昆布冰瀑/冰川远观勿近；③ 卢卡拉航班常因天气取消，留缓冲；④ 保暖层（羽绒到 -20℃）+ 头灯；⑤ 小费给背夫向导。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 办<b>尼泊尔签证</b>（落地或提前 e-visa）；② 进山许可 Khumbu Pasang Lhamu + TIMS，加都/南崎办理；③ 买含直升机救援的险（高反救援贵）；④ 向导背夫通过旅行社订；⑤ 离线地图+告知家人行程。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_08_0.jpg",
+        "assets/scene/route_08_1.jpg",
+        "assets/scene/route_08_2.jpg",
+        "assets/route_8.svg"
+      ]
+    },
+    {
+      "title": "熊野古道 · Kumano Kodo（日本）",
+      "tag": "第10天 · 全球徒步路线",
+      "loc": "亚洲-日本-和歌山县",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "日本用 \"こんにちは / ありがとう\" 问候；熊野三山是神道圣地，请净手、轻声、不拍神像。古道多石碑与「お地蔵さん」，勿踩勿移。温泉入池前淋浴、不穿泳衣。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→关西机场（大阪/京都）转 JR/巴士到田边/新宫，全程约 8-12h，往返机票 ¥3000-6000。</p>\n\n💰 参考费用（人均）：民宿 ¥400-800/晚、便当/汤面 ¥50-100/餐；5-7 天含机票人均约 ¥9000-15000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "3-5 月 / 10-11 月：温和、红叶，最佳；7-8 月湿热台风；避 12-2 月寒冷偶有雪"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>熊野古道中边路约 70-100km，5-7 天，多石阶与杉木林。</b></p><ul><li><b>Day1-2</b>：泷尻王子→近露/发心门，约 15km/天，千年石阶；⚠️ 膝盖护具。</li><li><b>Day3-4</b>：→本宫大社（川汤温泉），约 18km；⚠️ 段长需早出。</li><li><b>Day5+</b>：那智/速玉大社收官，约 12km；⚠️ 巴士衔接。</li></ul>\n\n🍱 补给：沿途驿站便当、温泉旅馆会席；自带水与能量棒。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返关西机票 <b>¥3000-6000</b>；民宿 ¥400-800/晚，6 天约 ¥3000-5000；JR/巴士 ¥500-1000。<b>总预算约 ¥9000-15000</b>（性价比最高的出境线之一）。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>那智大瀑</b>：👍 日本第一瀑布、朱红社 ｜ 👎 台阶多 ｜ ⚠️ 体力</li><li><b>本宫大社</b>：👍 熊野信仰中心、汤之峰温泉 ｜ 👎 需绕行 ｜ ⚠️ 尊重</li><li><b>大门坂杉林</b>：👍 千年古道氛围 ｜ 👎 人多 ｜ ⚠️ 早去</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>和歌山餐：梅干便当、熊野牛、那智黑鸡、拉面（可加辣油）。口味偏鲜淡，自配<b>七味粉/辣油</b>更带劲；甜和果子偏甜可偶尔。配冰美式或玄米茶。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 千年石阶对<b>膝盖</b>极不友好，护具+登山杖；② 夏季湿热台风多，查日本气象；③ 驿站少、补给间隔长，水带足；④ 温泉旅馆订早；⑤ 部分段无信号，离线地图。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 持<b>日本签证</b>；② 古道无需特别许可，旅馆/民宿提前订；③ JR/巴士时刻查 hyperdia；④ 世界遗产「纪伊山地的灵场」巡礼盖章册可购；⑤ 普通旅游险即可，登山部分确认 coverage。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_09_0.jpg",
+        "assets/scene/route_09_1.jpg",
+        "assets/scene/route_09_2.jpg",
+        "assets/route_9.svg"
+      ]
+    },
+    {
+      "title": "虎跳峡高路（云南·香格里拉）",
+      "tag": "第11天 · 全球徒步路线",
+      "loc": "亚洲-中国-云南-香格里拉市",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "云南藏区用藏语/普通话问候；虎跳峡属纳西与藏区交界，请尊重当地习俗，不踩玛尼堆、不指神山。峡谷风大，沿标记走。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→丽江/香格里拉（飞机或高铁+汽车），全程约 6-10h，机票 ¥1500-3000；再车到桥头镇起点。</p>\n\n💰 参考费用（人均）：客栈 ¥150-300/晚、餐 ¥40-80/天；2-3 天含交通人均约 ¥3000-5000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "3-5 月 / 9-11 月：晴多、水势壮观，最佳；7-8 月雨季滑坡风险；避 12-2 月寒冷偶有雪"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>虎跳峡高路约 25km，2-3 天，沿金沙江悬崖。</b></p><ul><li><b>Day1</b>：桥头→28 道拐→Halfway（中途客栈），约 12km，28 拐爬升；⚠️ 防晒补水。</li><li><b>Day2</b>：Halfway→中虎跳→张老师栈道下到江边，约 13km；⚠️ 栈道险窄。</li><li><b>Day3</b>：下虎跳乘车返；⚠️ 颠簸。</li></ul>\n\n🍱 补给：客栈供餐（川滇家常辣菜），自带水；江边无商店。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返丽江/香格里拉机票 <b>¥1500-3000</b>；客栈 ¥150-300/晚，3 天约 ¥500-900；包车/巴士 ¥200-500。<b>总预算约 ¥3500-6000</b>（国内线最省）。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>上虎跳</b>：👍 江面最窄、水声震天 ｜ 👎 游客多 ｜ ⚠️ 护栏</li><li><b>28 道拐</b>：👍 俯瞰峡谷全景 ｜ 👎 陡 ｜ ⚠️ 膝</li><li><b>中虎跳栈道</b>：👍 贴江惊险、野趣 ｜ 👎 窄险 ｜ ⚠️ 手杖</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>滇西北餐：丽江粑粑、腊排骨火锅（辣）、野生菌（季节）、过桥米线（可加辣油）。川滇口味本来就辣，配冰美式正好；甜品少碰。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 高路多<b>悬崖窄道</b>，恐高/雨天慎行；② 中虎跳栈道湿滑，穿防滑鞋；③ 雨季（7-8 月）易落石滑坡，避开；④ 高原紫外线强，防晒；⑤ 客栈提前订，旺季满。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 国内线无需签证；② 虎跳峡门票现场购；③ 高路客栈（Halfway/Tina's）提前订；④ 包车与徒步衔接确认；⑤ 普通旅游险含意外；⑥ 告知家人行程，峡谷部分无信号。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_10_0.jpg",
+        "assets/scene/route_10_1.jpg",
+        "assets/scene/route_10_2.jpg",
+        "assets/route_10.svg"
+      ]
+    },
+    {
+      "title": "稻城亚丁 · 长线（四川）",
+      "tag": "第12天 · 全球徒步路线",
+      "loc": "亚洲-中国-四川-稻城县",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "甘孜藏区用藏语/普通话问候；亚丁三神山（仙乃日、央迈勇、夏诺多吉）是藏传圣山，请顺时针转、不指神山、不乱丢经幡。尊重寺院规矩。</p>"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→成都/稻城（飞机到稻城亚丁机场，世界最高民用机场之一，或飞成都转车），全程约 6-12h，机票 ¥1500-3500。</p>\n\n💰 参考费用（人均）：景区票+观光车 ¥270、客栈 ¥200-400/晚、餐 ¥60-100/天；3-4 天人均约 ¥4000-7000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "4-5 月 / 9-10 月：草绿/金秋、天蓝水碧，最佳；7-8 月雨季多云；避 11-3 月严寒大雪封闭"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>亚丁长线 2-3 天，最高牛奶海 4600m / 五色海 4700m。</b></p><ul><li><b>Day1</b>：景区大门→扎灌崩→冲古草甸→珍珠海，约 8km，适应；⚠️ 海拔骤升。</li><li><b>Day2</b>：洛绒牛场→牛奶海→五色海，约 12km 往返，陡爬升；⚠️ 高反预警。</li><li><b>Day3</b>：短线（冲古寺/卓玛拉措）或返程；⚠️ 缓冲。</li></ul>\n\n🍱 补给：景区内仅小卖部，自带水/能量棒/巧克力；高海拔食欲差要强制吃。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返机票 <b>¥1500-3500</b>；景区票+观光车 ¥270、电瓶车/骑马另计；客栈 ¥200-400/晚，4 天约 ¥1000-1500。<b>总预算约 ¥4000-7000</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>牛奶海/五色海</b>：👍 冰川湖、神山倒影 ｜ 👎 海拔高陡 ｜ ⚠️ 慢爬</li><li><b>央迈勇</b>：👍 最美雪峰之一 ｜ 👎 远观 ｜ ⚠️ 天气</li><li><b>珍珠海</b>：👍 仙乃日倒影、易达 ｜ 👎 人多 ｜ ⚠️ 早去</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>康巴藏餐：牦牛肉、酥油茶、糌粑、青稞酒；川味串串/火锅在稻城镇上很普遍（辣得正）。高原少喝酒，配冰美式或热茶；甜奶渣可少。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>高反是头号风险</b>——稻城机场/景区均高海拔，先低处适应再上；② 牛奶海段陡爬升，心跳过快即停；③ 高原紫外线+干燥，防晒补水；④ 天气多变，雨衣必带；⑤ 禁独自离栈道。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 国内线无需签证；② 亚棚景区门票/观光车提前在官方平台订（限流）；③ 飞稻城机场注意高反，或先到成都适应；④ 包车/拼车提前约；⑤ 普通旅游险含意外+高反条款确认。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_11_0.jpg",
+        "assets/scene/route_11_1.jpg",
+        "assets/scene/route_11_2.jpg",
+        "assets/route_11.svg"
+      ]
+    },
+    {
+      "title": "武功山 · 高山草甸（江西）",
+      "tag": "第13天 · 全球徒步路线",
+      "loc": "亚洲-中国-江西-萍乡市",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "萍乡属赣西，普通话问候即可；高山草甸是 protected 生态，请勿踩踏花甸核心、不乱丢垃圾、不野外用火。帐篷营地名「星空」多，注意防风。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→萍乡（高铁约 4-5h 到萍乡北）再包车/巴士到沈子村/龙山村起点，全程约 6-8h，高铁 ¥400-600。</p>\n\n💰 参考费用（人均）：门票 ¥70、索道单程 ¥65、帐篷/客栈 ¥150-300/晚、餐 ¥50-90/天；2-3 天人均约 ¥1500-3000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "5-6 月 / 9-10 月：草甸绿/芦花白、云海多，最佳；7-8 月湿热多蚊；避 11-3 月湿冷雾大"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>武功山环线约 30-40km，2-3 天，高山草甸+云海。</b></p><ul><li><b>Day1</b>：沈子村→金顶，约 12km，爬升草甸；⚠️ 防风。</li><li><b>Day2</b>：金顶→发云界，约 15km，连绵草甸最出片；⚠️ 膝盖下坡。</li><li><b>Day3</b>：发云界→龙山/羊狮幕下撤，约 12km；⚠️ 索道衔接。</li></ul>\n\n🍱 补给：营地有小卖部泡面热食，自带水/能量棒；草甸无遮荫。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返高铁 <b>¥400-600</b> + 接驳 ¥100-200；门票 ¥70、索道 ¥130 往返；帐篷/客栈 ¥150-300/晚，3 天约 ¥500-900。<b>总预算约 ¥1500-3000</b>（最省出境线）。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>金顶云海</b>：👍 日出云海、帐篷星河 ｜ 👎 风大冷 ｜ ⚠️ 保暖</li><li><b>发云界草甸</b>：👍 十万亩草甸、连绵 ｜ 👎 起伏大 ｜ ⚠️ 膝</li><li><b>羊狮幕</b>：👍 奇峰云瀑 ｜ 👎 需绕 ｜ ⚠️ 时间</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>萍乡/江西餐：萍乡辣（江西辣度天花板！）、莲花血鸭、炒粉、瓦罐汤。江西菜本就重辣，旺仔狂喜；配冰美式解辣。甜藕粉可少。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① 草甸<b>风大温差大</b>，山顶夜间近 0℃，羽绒必带；② 连绵起伏对膝盖考验，护具+杖；③ 雨季雾大易迷路，离线轨迹+结伴；④ 帐篷防风钉压实；⑤ 禁野外用火。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 国内线无需签证；② 武功山门票/索道现场或平台购（旺季限流）；③ 帐篷营地提前订（金顶/发云界）；④ 高铁票提前抢（周末满）；⑤ 普通旅游险含意外。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_12_0.jpg",
+        "assets/scene/route_12_1.jpg",
+        "assets/scene/route_12_2.jpg",
+        "assets/route_12.svg"
+      ]
+    },
+    {
+      "title": "哈巴雪山（云南）",
+      "tag": "第14天 · 全球徒步路线",
+      "loc": "亚洲-中国-云南-香格里拉市",
+      "blocks": [
+        {
+          "h": "🎒 行前通用准备",
+          "body": "<p>① 装备分层：排汗内层+保暖中层+防风外层，登山鞋提前磨合；登山杖、头灯、雨衣、保温毯必带。② 体能循序渐进，出发前 4-6 周做负重爬坡训练。③ 买含高原/救援的户外保险（如「美亚」「安联」高危运动险）。④ 离线下载「两步路 / AllTrails / Gaia GPS」轨迹与「MAPS.ME」地图；把行程告知家人。⑤ 出境路线查签证与徒步许可（permit），部分限流需提前数月预约。⑥ 轻量化但留安全冗余：急救包+个人药品随身。</p>"
+        },
+        {
+          "h": "🌏 当地民俗文化·传统礼仪",
+          "body": "哈巴村属纳西族聚居，用普通话/纳西语问候；雪山是神山，请尊重当地信仰，不乱丢经幡、不踩玛尼堆。海拔高，节奏放慢。"
+        },
+        {
+          "h": "✈️ 从深圳出发·如何到达",
+          "body": "<p>深圳→丽江（飞机/高铁）再车到哈巴村（约 4-5h），全程约 8-12h，机票 ¥1500-3000。</p>\n\n💰 参考费用（人均）：进山费 ¥100、客栈 ¥150-300/晚、向导 ¥300-500/天、餐 ¥60-100/天；3-4 天人均约 ¥3000-5000。"
+        },
+        {
+          "h": "🗓 最佳徒步季节",
+          "body": "4-5 月 / 10-11 月：雪线适中、登顶率高，最佳；7-8 月雨季雪松；避 12-3 月极寒风大"
+        },
+        {
+          "h": "🗺 徒步天数与路线",
+          "body": "<p><b>哈巴雪山 5396m，3-4 天，入门级雪山。</b></p><ul><li><b>Day1</b>：丽江→哈巴村(2700m)适应；⚠️ 住低处。</li><li><b>Day2</b>：哈巴村→大本营(4100m)，约 12km 骑马/徒步；⚠️ 适应海拔。</li><li><b>Day3</b>：大本营→冲顶(5396m)→下撤，约 8km 陡雪坡；⚠️ 极寒缺氧。</li></ul>\n\n🍱 补给：大本营有热食，自带能量胶/巧克力；冲顶前少睡多热食。</p>"
+        },
+        {
+          "h": "💰 价格预算（深圳出发）",
+          "body": "<p>深圳往返丽江机票 <b>¥1500-3000</b>；进山费 ¥100、向导 ¥300-500/天、客栈 ¥150-300/晚，4 天约 ¥1200-2000。<b>总预算约 ¥3000-5500</b>。</p>"
+        },
+        {
+          "h": "🏞 路线亮点·必看风景",
+          "body": "<ul><li><b>5396 顶峰</b>：👍 入门雪山、俯瞰玉龙 ｜ 👎 雪坡陡 ｜ ⚠️ 装备</li><li><b>大本营草甸</b>：👍 高山花海(春) ｜ 👎 冷 ｜ ⚠️ 保暖</li><li><b>哈巴村</b>：👍 纳西风情、适应点 ｜ 👎 远 ｜ ⚠️ 车况</li></ul>"
+        },
+        {
+          "h": "🍜 当地美食·吃什么",
+          "body": "<p>丽江/纳西餐：腊排骨火锅（辣）、丽江粑粑、鸡豆凉粉、酥油茶。滇味重辣，配冰美式；甜奶渣少碰。</p>"
+        },
+        {
+          "h": "⚠️ 安全与注意",
+          "body": "<p>① <b>入门雪山仍有高反/滑坠风险</b>——冰爪+雪套+头灯必备，跟向导；② 冲顶夜极冷（-15℃），羽绒到脚；③ 大本营到顶爬升快，慢行防高反；④ 雨季雪松易滑，避开；⑤ 向导资质确认。</p>"
+        },
+        {
+          "h": "🎫 实操：许可 · 预约 · 证件",
+          "body": "<p>① 国内线无需签证；② 进山费现场缴，向导通过客栈/俱乐部订；③ 丽江机票/高铁提前；④ 装备可当地租（靴/冰爪）；⑤ 户外险含高海拔救援条款确认。</p>"
+        }
+      ],
+      "images": [
+        "assets/scene/route_13_0.jpg",
+        "assets/scene/route_13_1.jpg",
+        "assets/scene/route_13_2.jpg",
+        "assets/route_13.svg"
+      ]
+    }
   ],
   "finance": [
-  {
-    "title": "埃隆·马斯克 Elon Musk",
-    "tag": "第1天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/500px-Elon_Musk_-_54820081119_%28cropped%29.jpg\" alt=\"埃隆·马斯克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/musk.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">特斯拉 · SpaceX · 星链 · xAI · 垂直整合</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1971 年生于南非比勒陀利亚，现兼具南非、加拿大、美国身份，工程师出身的连续创业者。截至 2026 年仍在世并活跃于一线经营。他的路径是「Zip2 → X.com/PayPal → SpaceX → 特斯拉 → 星链 → xAI」，几乎每一步都在做别人认为不可能的重资产硬件。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把特斯拉从濒临破产做成全球最具影响力的电动车企；用猎鹰九号实现一级火箭回收复用，把单位发射成本压到传统方案的零头；星链把低轨卫星互联网做成规模化商业服务；近年长期位居全球富豪榜前列。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「把问题拆到物理层面再重新算一遍成本」——第一性原理不是口号，是他砍掉电池与火箭成本的具体方法。</p>"
-      }
-    ]
-  },
-  {
-    "title": "任正非 Ren Zhengfei",
-    "tag": "第2天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ren_Zhengfei_%282016%29.jpg/500px-Ren_Zhengfei_%282016%29.jpg\" alt=\"任正非\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/ren.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">华为 · 深圳 · 5G · 海思 · 鸿蒙 · 备胎计划</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1944 年生于贵州安顺，工程兵出身。截至 2026 年仍在世。1987 年在深圳以 2.1 万元起家做交换机代理，一路做到全球最大通信设备商。面对外部极限施压，他提前多年布局「备胎计划」，押注海思自研芯片与鸿蒙操作系统。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把华为带成全球通信与 5G 专利龙头；在断供压力下推动海思麒麟与鸿蒙生态落地，成为国产替代的标志性案例；以全员持股与「灰度管理」建立了独特的组织形态。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「烧不死的鸟才是凤凰。」——总部就在深圳，这是离旺仔最近的一份硬核样本。</p>"
-      }
-    ]
-  },
-  {
-    "title": "雷军 Lei Jun",
-    "tag": "第3天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lei_Jun_at_Two_Sessions_2025.png/500px-Lei_Jun_at_Two_Sessions_2025.png\" alt=\"雷军\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/lei.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">小米 · 性价比 · IoT 生态链 · 造车 · 产品营销</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1969 年生于湖北仙桃，武汉大学计算机系毕业。截至 2026 年仍在世。先带金山软件上市，2010 年创立小米，用「互联网直销 + 极致性价比」改写手机行业；2021 年宣布造车，2024 年小米 SU7 上市即成现象级产品。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>小米长期稳居全球智能手机前三，并搭起全球最大的消费级 IoT 生态链；跨界造车三年内交出爆款；把「感动人心、价格厚道」变成可复制的产品方法论。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「参数敢公开、价格敢对比」——他把发布会做成了品牌最大的销售渠道。</p>"
-      }
-    ]
-  },
-  {
-    "title": "杰夫·贝索斯 Jeff Bezos",
-    "tag": "第4天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg/500px-260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg\" alt=\"杰夫·贝索斯\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/bezos.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">亚马逊 · 飞轮效应 · AWS · Day 1 · 蓝色起源</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1964 年生于美国新墨西哥州，普林斯顿电气工程与计算机专业毕业，曾在华尔街做量化。截至 2026 年仍在世。1994 年在车库创办亚马逊卖书，把「更多选择—更低价格—更好体验」做成自我强化的飞轮；2021 年卸任 CEO 转任执行董事长，重心转向蓝色起源与投资。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把亚马逊做成全球最大电商与云计算（AWS）双巨头；用 FBA 与 Marketplace 把第三方卖家变成平台主力——这正是中国跨境卖家出海的主战场；蓝色起源推动可复用火箭商业化。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「你的利润就是我的机会。」——理解这句话，就理解了亚马逊为什么对卖家又爱又狠。</p>"
-      }
-    ]
-  },
-  {
-    "title": "沃伦·巴菲特 Warren Buffett",
-    "tag": "第5天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/500px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg\" alt=\"沃伦·巴菲特\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/buffett.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">伯克希尔 · 价值投资 · 护城河 · 复利 · 奥马哈</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1930 年生于美国内布拉斯加州奥马哈，师从价值投资奠基人本杰明·格雷厄姆。截至 2026 年仍在世。1965 年接手濒临倒闭的纺织厂伯克希尔·哈撒韦，把它改造成横跨保险、铁路、能源与消费的控股集团，并长期持有可口可乐、苹果等核心资产。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>以数十年复利创造了投资史上最长的优异纪录；用保险浮存金做低成本杠杆，形成独特的资本配置模型；每年的《致股东信》成为全球商界公开课。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「别人贪婪时恐惧，别人恐惧时贪婪。」——对做生意的人，这句话同样适用于备货节奏。</p>"
-      }
-    ]
-  },
-  {
-    "title": "萨姆·奥尔特曼 Sam Altman",
-    "tag": "第6天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg\" alt=\"萨姆·奥尔特曼\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/altman.jpg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">OpenAI · ChatGPT · YC · 通用人工智能 · 算力</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1985 年生于美国芝加哥，斯坦福肄业创业者。截至 2026 年仍在世。early 时期创办 Loopt，后出任知名孵化器 Y Combinator 总裁；2015 年参与创立 OpenAI，2019 年起担任 CEO，主导 GPT 系列与 ChatGPT 的产品化。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>2022 年底推出 ChatGPT，把大模型从论文变成亿级用户的日常工具，直接点燃全球 AI 浪潮；推动 OpenAI 与微软的深度绑定；持续为 AI 算力与基础设施筹措巨额资本。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「先把东西做出来给人用，再谈完美。」——他证明了产品化速度本身就是壁垒。</p>"
-      }
-    ]
-  },
-  {
-    "title": "阳萌 Yang Meng",
-    "tag": "第7天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"阳萌\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">安克创新 Anker · 亚马逊 · 浅海理论 · 品牌出海 · 长沙</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>北京大学计算机专业毕业，赴美深造后进入谷歌任搜索算法工程师。截至 2026 年仍在世。2011 年回国在长沙创办安克创新，从在亚马逊卖充电配件起步，一步步做成中国消费电子品牌出海的标杆。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把 Anker 做成亚马逊充电品类的头部品牌，并成功孵化 Soundcore（音频）、eufy（智能家居）、Nebula（投影）等子品牌；2020 年登陆创业板；海外营收占比长期在九成以上。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「不去深海跟巨头搏杀，在浅海里做到第一再换下一片海。」——这就是他总结的「浅海理论」。</p>"
-      }
-    ]
-  },
-  {
-    "title": "王来春 Wang Laichun",
-    "tag": "第8天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"王来春\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">立讯精密 · 果链 · 精密制造 · 女性企业家 · 广东</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1967 年生于广东汕头澄海，1988 年进入富士康深圳工厂当流水线工人，十年间做到课长。截至 2026 年仍在世。1999 年与兄长收购香港立讯，2004 年成立立讯精密，从连接器做起，逐步切入苹果供应链。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把一家连接器小厂做成全球领先的精密制造企业，业务覆盖声学、无线充电、AirPods 整机代工与汽车线束；从打工妹到千亿市值上市公司掌门人，被视为中国制造升级的缩影。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「订单是靠良率和交期挣来的。」——她的故事说明，制造业的护城河藏在细节里。</p>"
-      }
-    ]
-  },
-  {
-    "title": "周群飞 Zhou Qunfei",
-    "tag": "第9天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"周群飞\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">蓝思科技 · 玻璃盖板 · 湖南 · 白手起家 · 女性企业家</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1970 年生于湖南湘乡，家境贫寒，十几岁南下深圳进玻璃加工厂打工。截至 2026 年仍在世。1993 年以极少积蓄创办自己的作坊，2003 年成立蓝思科技，专攻手机视窗防护玻璃。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>抓住触屏手机爆发的窗口，成为全球主要的玻璃盖板供应商，客户覆盖头部手机与消费电子品牌；2015 年蓝思科技上市，她成为备受关注的白手起家女性企业家。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「别人嫌苦嫌脏的工序，我把它做到最好。」——从打工妹到玻璃女王的全部秘密。</p>"
-      }
-    ]
-  },
-  {
-    "title": "刘靖康 Liu Jingkang",
-    "tag": "第10天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"刘靖康\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">影石创新 Insta360 · 全景相机 · 深圳 · 90 后创业 · 出海</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1991 年生，南京大学软件学院毕业，学生时代就因技术项目为人所知。截至 2026 年仍在世。2015 年在深圳创办影石创新（Insta360），瞄准当时还很小众的全景与运动相机赛道。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把 Insta360 做成全景相机全球市占率领先的品牌，凭 ONE X、X 系列与 GO 系列在海外社交媒体上打开局面；2025 年公司登陆科创板，成为 90 后创业者中的代表性案例。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「先想清楚用户会不会愿意把它发到社交平台上。」——传播力被他当成产品指标来做。</p>"
-      }
-    ]
-  },
-  {
-    "title": "钟波 Zhong Bo",
-    "tag": "第11天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"钟波\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">极米科技 XGIMI · 智能投影 · 成都 · 无屏电视 · 出海</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>电子科技大学毕业，早年在半导体与显示行业做工程师。截至 2026 年仍在世。2013 年在成都创办极米科技，提出「无屏电视」概念，把投影仪从会议室搬进客厅。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>带领极米长期位居中国智能投影市场份额前列，并把产品卖到欧美日等海外市场；2021 年登陆科创板；推动投影行业在亮度、自动对焦与梯形校正上的体验升级。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「把专业设备变成家电，关键是让用户不用看说明书。」——易用性就是他的差异化。</p>"
-      }
-    ]
-  },
-  {
-    "title": "孙中伟 Sun Zhongwei",
-    "tag": "第12天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"孙中伟\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">华宝新能源 · Jackery 电小二 · 便携储能 · 深圳 · 户外能源</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>曾在电池行业深耕多年，具备锂电与电源管理的技术背景。截至 2026 年仍在世。2011 年在深圳创办华宝新能源，2012 年推出面向海外的 Jackery 品牌，切入当时几乎空白的便携储能赛道。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把 Jackery 做成北美、日本便携储能市场的头部品牌，并以「电小二」布局国内；2022 年公司登陆创业板；踩中露营经济与家庭应急备电两波需求，成为中国新能源产品出海的代表。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「先在海外把品类教育做透，再回头做国内。」——一条反向的出海路径。</p>"
-      }
-    ]
-  },
-  {
-    "title": "黄仁勋 Jensen Huang",
-    "tag": "第13天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/500px-Jen-Hsun_Huang_2025.jpg\" alt=\"黄仁勋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">NVIDIA · GPU · CUDA · AI 算力 · 皮衣</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1963 年生于中国台湾台南，幼年随家人移居美国，俄勒冈州立大学电气工程学士、斯坦福硕士。截至 2026 年仍在世。1993 年与两位伙伴在一家餐厅里创办英伟达，长期担任 CEO，是硅谷在任时间最长的创始人 CEO 之一。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把显卡公司变成 AI 时代的基础设施供应商；2006 年推出 CUDA，用十几年把 GPU 通用计算生态做成事实标准；在生成式 AI 爆发后，英伟达成为全球市值最高的公司之一，其数据中心芯片几乎是大模型训练的默认选择。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「我们不是在卖芯片，是在卖一整套计算平台。」——CUDA 生态才是那条真正的护城河。</p>"
-      }
-    ]
-  },
-  {
-    "title": "梁文锋 Liang Wenfeng",
-    "tag": "第14天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"梁文锋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">DeepSeek · 幻方量化 · 开源大模型 · 杭州 · 低成本训练</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1985 年生于广东湛江，浙江大学电子信息工程专业毕业。截至 2026 年仍在世。他先以量化投资起家，创办幻方量化并积累起大规模 GPU 算力；2023 年成立 DeepSeek（深度求索），全力投入通用大模型研发。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>DeepSeek 以开源路线和显著更低的训练成本推出高性能模型，2025 年初引发全球关注，直接冲击了「大模型必须靠天价算力堆出来」的行业共识，也让中国开源模型进入国际主流视野。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「重要的不是追赶，是参与到最前沿的定义里去。」——他用开源撬动了话语权。</p>"
-      }
-    ]
-  },
-  {
-    "title": "王传福 Wang Chuanfu",
-    "tag": "第15天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg/500px-Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg\" alt=\"王传福\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">比亚迪 · 刀片电池 · 垂直整合 · 新能源车 · 深圳</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1966 年生于安徽无为，中南工业大学冶金物理化学专业毕业，曾在北京有色金属研究总院做电池研究。截至 2026 年仍在世。1995 年在深圳创办比亚迪做手机电池，2003 年收购秦川汽车切入整车，被当时几乎所有人质疑。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把比亚迪做成全球销量领先的新能源汽车企业，并以刀片电池重塑了磷酸铁锂的安全与成本曲线；坚持从电池、电机、电控到芯片的垂直整合；近年加速出海，在多个海外市场建厂设网。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「技术是根，工程师是本。」——他把研发人数堆到十万级，用工程能力换成本优势。</p>"
-      }
-    ]
-  },
-  {
-    "title": "曾毓群 Robin Zeng",
-    "tag": "第16天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Robin_Zeng_2023.jpg/500px-Robin_Zeng_2023.jpg\" alt=\"曾毓群\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">宁德时代 CATL · 动力电池 · 麒麟电池 · 福建 · 全球第一</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1968 年生于福建宁德，上海交通大学船舶工程专业毕业，后获中科院物理学博士。截至 2026 年仍在世。他早年参与创办新能源科技（ATL）做消费电池，2011 年分拆动力电池业务，在家乡宁德创立宁德时代。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>带领宁德时代长期占据全球动力电池装机量第一，客户覆盖特斯拉、宝马、大众等主流车企；推出 CTP、麒麟电池、神行超充等技术；在欧洲布局工厂，把中国电池产业链推向全球。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>办公室挂着「赌性坚强」——但他赌的从来是研发投入，不是运气。</p>"
-      }
-    ]
-  },
-  {
-    "title": "汪滔 Frank Wang",
-    "tag": "第17天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"汪滔\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">大疆 DJI · 消费级无人机 · 云台增稳 · 深圳 · 极客</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1980 年生于浙江杭州，香港科技大学电子工程专业毕业，毕业设计做的就是直升机飞行控制系统。截至 2026 年仍在世。2006 年在深圳创办大疆，最初只是卖飞控模块给航模爱好者。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>2013 年推出「精灵 Phantom」一体机，把航拍从极客玩具变成大众消费品；大疆长期占据全球消费级无人机绝大部分份额，并把技术延伸到手持云台（Osmo）、影像与行业应用；是中国原创硬件设计走向全球的代表。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「产品不完美就不发布。」——极致的工程洁癖，换来了一个几乎由他定义的品类。</p>"
-      }
-    ]
-  },
-  {
-    "title": "马化腾 Pony Ma",
-    "tag": "第18天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg/500px-%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg\" alt=\"马化腾\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">腾讯 · 微信 · QQ · 社交 · 深圳 · 产品经理</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1971 年生于广东汕头，深圳大学计算机专业毕业。截至 2026 年仍在世。1998 年在深圳与四位伙伴创办腾讯，靠 OICQ（后来的 QQ）起家，长期担任董事会主席兼 CEO，以「产品经理型创始人」著称。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把腾讯做成中国最大的社交与数字内容平台；2011 年支持张小龙团队推出微信，重新定义了移动互联网的入口；构建起涵盖游戏、支付、云与投资的生态，并长期位列全球市值最高的科技公司之一。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「小步快跑，快速迭代。」——他每天自己泡在产品里提意见，这是腾讯的方法论源头。</p>"
-      }
-    ]
-  },
-  {
-    "title": "萨提亚·纳德拉 Satya Nadella",
-    "tag": "第19天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/500px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg\" alt=\"萨提亚·纳德拉\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">微软 · Azure · 云优先 · OpenAI · Copilot · 转型</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1967 年生于印度海得拉巴，威斯康星大学计算机硕士、芝加哥大学 MBA。截至 2026 年仍在世。1992 年加入微软，长期负责服务器与云业务，2014 年接任 CEO，接手的是一家被认为错过移动时代的巨头。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>用「云优先、移动优先」把微软重心转向 Azure，市值增长十余倍；主动拥抱开源与跨平台，收购 GitHub；重金押注并深度绑定 OpenAI，把 Copilot 铺进 Windows、Office 与开发工具链，让微软重回 AI 时代第一梯队。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「从『无所不知』转向『无所不学』。」——他靠改文化，救回了一家掉队的巨头。</p>"
-      }
-    ]
-  },
-  {
-    "title": "蒂姆·库克 Tim Cook",
-    "tag": "第20天 · 名人故事",
-    "blocks": [
-      {
-        "h": "📷 人物照片",
-        "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tim_Cook_March_2026_%28cropped_2%29.jpg/500px-Tim_Cook_March_2026_%28cropped_2%29.jpg\" alt=\"蒂姆·库克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-      },
-      {
-        "h": "🏷 人物标签",
-        "body": "<p class=\"tags\">苹果 · 供应链大师 · 服务业务 · 自研芯片 · 库存周转</p>"
-      },
-      {
-        "h": "📖 人物介绍（在世）",
-        "body": "<p>1960 年生于美国阿拉巴马州，奥本大学工业工程学士、杜克大学 MBA，曾在 IBM 与康柏负责供应链。截至 2026 年仍在世。1998 年被乔布斯招入苹果整顿运营，2011 年接任 CEO。</p>"
-      },
-      {
-        "h": "🏆 主要成就",
-        "body": "<p>把苹果的库存周转压缩到以天计，建立了教科书级的全球供应链体系；任内苹果成为首家万亿、并持续刷新市值纪录的公司；推动 M 系列自研芯片替换英特尔，并把服务业务做成第二增长曲线。</p>"
-      },
-      {
-        "h": "🌟 一句话亮点",
-        "body": "<p>「库存是根本性的邪恶。」——对做外贸的人来说，这句话比任何励志格言都实在。</p>"
-      }
-    ]
-  }
+    {
+      "title": "埃隆·马斯克 Elon Musk",
+      "tag": "第1天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/500px-Elon_Musk_-_54820081119_%28cropped%29.jpg\" alt=\"埃隆·马斯克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/musk.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">特斯拉 · SpaceX · 星链 · xAI · 第一性原理</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1971 年生于南非比勒陀利亚，现兼具南非、加拿大、美国身份，工程师出身的连续创业者。截至 2026 年仍在世并活跃于一线经营。从 Zip2、X.com/PayPal 到 SpaceX、特斯拉、星链与 xAI，他几乎只挑别人眼里的「重资产硬骨头」下手。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把特斯拉从濒临破产做成全球电动车标杆；用猎鹰九号实现一级火箭回收复用，把发射成本压到传统方案的零头；星链把低轨卫星互联网做成规模化商业服务；近年长期位居全球富豪榜前列。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「把问题拆到物理第一性原理再重新算成本」——砍电池与火箭成本，靠的是这套算法而非拍脑袋。</p>"
+        }
+      ]
+    },
+    {
+      "title": "任正非 Ren Zhengfei",
+      "tag": "第2天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ren_Zhengfei_%282016%29.jpg/500px-Ren_Zhengfei_%282016%29.jpg\" alt=\"任正非\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/ren.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">华为 · 深圳 · 5G · 海思 · 鸿蒙 · 备胎计划</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1944 年生于贵州安顺，工程兵出身。截至 2026 年仍在世。1987 年在深圳以 2.1 万元起家做交换机代理，一路把华为带成全球最大通信设备商，面对极限施压提前布局「备胎计划」。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把华为做成全球通信与 5G 专利龙头；断供压力下推动海思麒麟与鸿蒙生态落地，成为国产替代标志性案例；以全员持股与「灰度管理」建立独特组织形态。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「烧不死的鸟才是凤凰。」总部就在深圳，这是离旺仔最近的硬核样本。</p>"
+        }
+      ]
+    },
+    {
+      "title": "雷军 Lei Jun",
+      "tag": "第3天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lei_Jun_at_Two_Sessions_2025.png/500px-Lei_Jun_at_Two_Sessions_2025.png\" alt=\"雷军\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/lei.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">小米 · 性价比 · AIoT 生态链 · 造车 · 产品营销</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1969 年生于湖北仙桃，武汉大学计算机系毕业。截至 2026 年仍在世。先带金山软件上市，2010 年创立小米，用「互联网直销 + 极致性价比」改写手机行业；2024 年小米 SU7 上市即成现象级产品。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>小米长期稳居全球智能手机前三，搭起全球最大的消费级 AIoT 生态链；跨界造车三年内交出爆款；把「感动人心、价格厚道」变成可复制的产品方法论。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「参数敢公开、价格敢对比」——他把发布会做成了品牌最大的销售渠道。</p>"
+        }
+      ]
+    },
+    {
+      "title": "杰夫·贝索斯 Jeff Bezos",
+      "tag": "第4天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg/500px-260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg\" alt=\"杰夫·贝索斯\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/bezos.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">亚马逊 · 飞轮效应 · AWS · Day 1 · 蓝色起源</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1964 年生于美国新墨西哥州，普林斯顿电气工程与计算机专业，曾在华尔街做量化。截至 2026 年仍在世。1994 年在车库创办亚马逊卖书，把「更多选择—更低价格—更好体验」做成自我强化的飞轮。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把亚马逊做成全球最大电商与云计算（AWS）双巨头；用 FBA 与 Marketplace 把第三方卖家变成平台主力——这正是中国跨境卖家出海的主战场；蓝色起源推动可复用火箭商业化。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「你的利润就是我的机会。」理解这句话，就理解了亚马逊为什么对卖家又爱又狠。</p>"
+        }
+      ]
+    },
+    {
+      "title": "沃伦·巴菲特 Warren Buffett",
+      "tag": "第5天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/500px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg\" alt=\"沃伦·巴菲特\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/buffett.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">伯克希尔 · 价值投资 · 护城河 · 复利 · 奥马哈</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1930 年生于美国内布拉斯加州奥马哈，师从价值投资奠基人本杰明·格雷厄姆。截至 2026 年仍在世。1965 年接手濒临倒闭的纺织厂伯克希尔·哈撒韦，把它改造成横跨保险、铁路、能源与消费的控股集团。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>以数十年复利创造投资史最长的优异纪录；用保险浮存金做低成本杠杆，形成独特资本配置模型；每年《致股东信》成为全球商界公开课。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「别人贪婪时恐惧，别人恐惧时贪婪。」对做生意的人，这句话同样适用于备货节奏。</p>"
+        }
+      ]
+    },
+    {
+      "title": "萨姆·奥尔特曼 Sam Altman",
+      "tag": "第6天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg\" alt=\"萨姆·奥尔特曼\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/altman.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">OpenAI · ChatGPT · YC · 通用人工智能 · 算力</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1985 年生于美国芝加哥，斯坦福肄业创业者。截至 2026 年仍在世。早年创办 Loopt，后出任孵化器 Y Combinator 总裁；2015 年参与创立 OpenAI，主导 GPT 系列与 ChatGPT 产品化。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>2022 年底推出 ChatGPT，把大模型从论文变成亿级用户日常工具，点燃全球 AI 浪潮；推动 OpenAI 与微软深度绑定；持续为 AI 算力与基础设施筹措巨额资本。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「先把东西做出来给人用，再谈完美。」他证明了产品化速度本身就是壁垒。</p>"
+        }
+      ]
+    },
+    {
+      "title": "阳萌 Yang Meng",
+      "tag": "第7天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"阳萌\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">安克创新 Anker · 亚马逊 · 浅海理论 · 品牌出海 · 长沙</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>北京大学计算机专业毕业，赴美深造后进入谷歌任搜索算法工程师。截至 2026 年仍在世。2011 年回国在长沙创办安克创新，从亚马逊卖充电配件起步，做成中国消费电子品牌出海标杆。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把 Anker 做成亚马逊充电品类头部品牌，孵化 Soundcore（音频）、eufy（智能家居）、Nebula（投影）等子品牌；2020 年登陆创业板；海外营收占比长期九成以上。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「不去深海跟巨头搏杀，在浅海里做到第一再换下一片海。」这就是他的「浅海理论」。</p>"
+        }
+      ]
+    },
+    {
+      "title": "王来春 Wang Laichun",
+      "tag": "第8天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"王来春\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">立讯精密 · 果链 · 精密制造 · 女性企业家 · 广东</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1967 年生于广东汕头澄海，1988 年进富士康深圳工厂当流水线工人，十年做到课长。截至 2026 年仍在世。1999 年与兄长收购香港立讯，2004 年成立立讯精密，从连接器做起切入苹果供应链。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把连接器小厂做成全球领先精密制造企业，覆盖声学、无线充电、AirPods 整机代工与汽车线束；从打工妹到千亿市值上市公司掌门人，是中国制造升级的缩影。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「订单是靠良率和交期挣来的。」她的故事说明制造业护城河藏在细节里。</p>"
+        }
+      ]
+    },
+    {
+      "title": "周群飞 Zhou Qunfei",
+      "tag": "第9天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"周群飞\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">蓝思科技 · 玻璃盖板 · 湖南 · 白手起家 · 女性企业家</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1970 年生于湖南湘乡，家境贫寒，十几岁南下深圳进玻璃厂打工。截至 2026 年仍在世。1993 年以极少积蓄创办作坊，2003 年成立蓝思科技，专攻手机视窗防护玻璃。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>抓住触屏手机爆发窗口，成全球主要玻璃盖板供应商，客户覆盖头部手机与消费电子品牌；2015 年蓝思上市，成为备受关注的白手起家女性企业家。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「别人嫌苦嫌脏的工序，我把它做到最好。」从打工妹到玻璃女王的全部秘密。</p>"
+        }
+      ]
+    },
+    {
+      "title": "刘靖康 Liu Jingkang",
+      "tag": "第10天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"刘靖康\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">影石创新 Insta360 · 全景相机 · 深圳 · 90 后 · 出海</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1991 年生，南京大学软件学院毕业，学生时代就因技术项目为人所知。截至 2026 年仍在世。2015 年在深圳创办影石创新，瞄准当时小众的全景与运动相机赛道。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把 Insta360 做成全景相机全球市占率领先品牌，凭 ONE X、X 系列与 GO 系列在海外社媒打开局面；2025 年登陆科创板，成 90 后创业代表。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「先想清楚用户会不会愿意把它发到社交平台上。」传播力被他当成产品指标来做。</p>"
+        }
+      ]
+    },
+    {
+      "title": "钟波 Zhong Bo",
+      "tag": "第11天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"钟波\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">极米科技 XGIMI · 智能投影 · 成都 · 无屏电视 · 出海</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>电子科技大学毕业，早年在半导体与显示行业做工程师。截至 2026 年仍在世。2013 年在成都创办极米，提出「无屏电视」概念，把投影仪从会议室搬进客厅。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>带领极米长期位居中国智能投影份额前列，并把产品卖到欧美日；2021 年登陆科创板；推动投影在亮度、自动对焦与梯形校正上的体验升级。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「把专业设备变成家电，关键是让用户不用看说明书。」易用性就是他的差异化。</p>"
+        }
+      ]
+    },
+    {
+      "title": "孙中伟 Sun Zhongwei",
+      "tag": "第12天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"孙中伟\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">华宝新能源 · Jackery 电小二 · 便携储能 · 深圳 · 户外能源</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>曾在电池行业深耕多年，具备锂电与电源管理技术背景。截至 2026 年仍在世。2011 年在深圳创办华宝新能源，2012 年推出面向海外的 Jackery 品牌，切入几乎空白的便携储能赛道。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把 Jackery 做成北美、日本便携储能头部品牌，并以「电小二」布局国内；2022 年登陆创业板；踩中露营经济与家庭应急备电两波需求，成中国新能源出海代表。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「先在海外把品类教育做透，再回头做国内。」一条反向出海路径。</p>"
+        }
+      ]
+    },
+    {
+      "title": "黄仁勋 Jensen Huang",
+      "tag": "第13天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/500px-Jen-Hsun_Huang_2025.jpg\" alt=\"黄仁勋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">NVIDIA · GPU · CUDA · AI 算力 · 皮衣</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1963 年生于中国台湾台南，幼年随家人移居美国，俄勒冈州立大学电气工程学士、斯坦福硕士。截至 2026 年仍在世。1993 年与伙伴在餐厅创办英伟达，长期任 CEO，是硅谷在任最久的创始人 CEO 之一。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把显卡公司变成 AI 时代基础设施供应商；2006 年推 CUDA，用十几年把 GPU 通用计算生态做成事实标准；生成式 AI 爆发后，英伟达成全球市值最高公司之一，数据中心芯片几乎是大模型训练默认选择。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「我们不是在卖芯片，是在卖一整套计算平台。」CUDA 生态才是真正的护城河。</p>"
+        }
+      ]
+    },
+    {
+      "title": "梁文锋 Liang Wenfeng",
+      "tag": "第14天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"梁文锋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">DeepSeek · 幻方量化 · 开源大模型 · 杭州 · 低成本训练</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1985 年生于广东湛江，浙江大学电子信息工程专业毕业。截至 2026 年仍在世。先以量化投资起家创办幻方量化，积累起大规模 GPU 算力；2023 年成立 DeepSeek（深度求索）全力投入通用大模型。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>DeepSeek 以开源路线和显著更低训练成本推出高性能模型，2025 年初引发全球关注，直接冲击「大模型必须靠天价算力堆出来」的共识，让中国开源模型进入国际主流视野。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「重要的不是追赶，是参与到最前沿的定义里去。」他用开源撬动了话语权。</p>"
+        }
+      ]
+    },
+    {
+      "title": "王传福 Wang Chuanfu",
+      "tag": "第15天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg/500px-Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg\" alt=\"王传福\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">比亚迪 · 刀片电池 · 垂直整合 · 新能源车 · 深圳</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1966 年生于安徽无为，中南工业大学冶金物理化学专业毕业，曾在北京有色金属研究总院做电池研究。截至 2026 年仍在世。1995 年在深圳创办比亚迪做手机电池，2003 年收购秦川汽车切入整车，当时被几乎所有人质疑。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把比亚迪做成全球销量领先的新能源车企，以刀片电池重塑磷酸铁锂安全与成本曲线；坚持从电池、电机、电控到芯片垂直整合；近年加速出海，在多个海外市场建厂设网。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「技术是根，工程师是本。」他把研发人数堆到十万级，用工程能力换成本优势。</p>"
+        }
+      ]
+    },
+    {
+      "title": "曾毓群 Robin Zeng",
+      "tag": "第16天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Robin_Zeng_2023.jpg/500px-Robin_Zeng_2023.jpg\" alt=\"曾毓群\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">宁德时代 CATL · 动力电池 · 麒麟电池 · 福建 · 全球第一</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1968 年生于福建宁德，上海交大船舶工程专业毕业，后获中科院物理学博士。截至 2026 年仍在世。早年参与创办新能源科技（ATL）做消费电池，2011 年分拆动力电池业务，在家乡宁德创立宁德时代。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>带领宁德时代长期占据全球动力电池装机量第一，客户覆盖特斯拉、宝马、大众等主流车企；推出 CTP、麒麟电池、神行超充等技术；在欧洲布局工厂，把中国电池产业链推向全球。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>办公室挂着「赌性坚强」——但他赌的从来是研发投入，不是运气。</p>"
+        }
+      ]
+    },
+    {
+      "title": "汪滔 Frank Wang",
+      "tag": "第17天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"汪滔\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">大疆 DJI · 消费级无人机 · 云台增稳 · 深圳 · 极客</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1980 年生于浙江杭州，香港科技大学电子工程专业毕业，毕业设计做的正是直升机飞行控制系统。截至 2026 年仍在世。2006 年在深圳创办大疆，最初只卖飞控模块给航模爱好者。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>2013 年推出「精灵 Phantom」一体机，把航拍从极客玩具变成大众消费品；大疆长期占据全球消费级无人机绝大部分份额，并把技术延伸到手持云台（Osmo）、影像与行业应用。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「产品不完美就不发布。」极致工程洁癖，换来一个几乎由他定义的品类。</p>"
+        }
+      ]
+    },
+    {
+      "title": "马化腾 Pony Ma",
+      "tag": "第18天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg/500px-%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg\" alt=\"马化腾\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">腾讯 · 微信 · QQ · 社交 · 深圳 · 产品经理</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1971 年生于广东汕头，深圳大学计算机专业毕业。截至 2026 年仍在世。1998 年在深圳与四位伙伴创办腾讯，靠 OICQ（后来的 QQ）起家，长期任董事会主席兼 CEO，以「产品经理型创始人」著称。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把腾讯做成中国最大社交与数字内容平台；2011 年支持张小龙团队推出微信，重定义移动互联网入口；构建涵盖游戏、支付、云与投资的生态，长期位列全球市值最高科技公司之一。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「小步快跑，快速迭代。」他每天自己泡在产品里提意见，这是腾讯方法论源头。</p>"
+        }
+      ]
+    },
+    {
+      "title": "萨提亚·纳德拉 Satya Nadella",
+      "tag": "第19天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/500px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg\" alt=\"萨提亚·纳德拉\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">微软 · Azure · 云优先 · OpenAI · Copilot · 转型</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1967 年生于印度海得拉巴，威斯康星大学计算机硕士、芝加哥大学 MBA。截至 2026 年仍在世。1992 年加入微软，长期负责服务器与云业务，2014 年接任 CEO，接手的是一家被认为错过移动时代的巨头。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>用「云优先、移动优先」把微软重心转向 Azure，市值增长十余倍；主动拥抱开源与跨平台，收购 GitHub；重金押注并深度绑定 OpenAI，把 Copilot 铺进 Windows、Office 与开发工具链。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「从『无所不知』转向『无所不学』。」他靠改文化，救回了一家掉队的巨头。</p>"
+        }
+      ]
+    },
+    {
+      "title": "蒂姆·库克 Tim Cook",
+      "tag": "第20天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tim_Cook_March_2026_%28cropped_2%29.jpg/500px-Tim_Cook_March_2026_%28cropped_2%29.jpg\" alt=\"蒂姆·库克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">苹果 · 供应链大师 · 服务业务 · 自研芯片 · 库存周转</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1960 年生于美国阿拉巴马州，奥本大学工业工程学士、杜克 MBA，曾在 IBM 与康柏负责供应链。截至 2026 年仍在世。1998 年被乔布斯招入苹果整顿运营，2011 年接任 CEO。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把苹果库存周转压到以天计，建立教科书级全球供应链体系；任内苹果成首家万亿市值公司并持续刷新纪录；推动 M 系列自研芯片替换英特尔，把服务业务做成第二增长曲线。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「库存是根本性的邪恶。」对做外贸的人，这句话比任何励志格言都实在。</p>"
+        }
+      ]
+    }
   ],
   "diet": [
-  {
-    "title": "第1天 · 暖胃启动餐",
-    "tag": "第1天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐（7:30-8:30）",
-        "body": "<p>温水一杯（可加薄片姜或柠檬）+ 2个水煮蛋 + 燕麦粥（燕麦30g煮成粥）+ 小番茄5颗。蛋白质优先的早餐能拉高食物热效应，帮一上午的代谢点火。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭到公司）",
-        "body": "<p>蒸鸡胸150g（前一晚用少许生抽、黑胡椒腌好，蒸10分钟）+ 清炒冬瓜胡萝卜（少油）+ 糙米饭100g。装饭盒带去公司，比外卖省一半还低脂。</p>"
-      },
-      {
-        "h": "🌙 晚餐（18:30前吃完）",
-        "body": "<p>嫩豆腐海带冬瓜汤（嫩豆腐半盒+冬瓜+海带苗，少盐）+ 蒸红薯半根。清淡好消化，睡前不胀。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>上午：无糖酸奶1杯 + 蓝莓一小把（益生菌护肠胃、缓解胀气）。下午：绿茶或乌龙1-2杯。全天温水1.5-2L，避开碳酸饮料、奶茶和口香糖。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐蒸鸡胸别干吃——蒸好切片，拌<b>蒜末+小米椒圈+生抽+两滴香醋</b>，就是一碟蒜辣口水鸡片，比手撕省事；晚餐那锅海带豆腐汤加<b>白胡椒粉+陈醋+干辣椒段</b>，做成酸辣海带豆腐汤，喝完微微发汗，湿气重的深圳最舒服。辣全靠鲜辣椒和白胡椒，糖油一律不加。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>高蛋白早餐点燃代谢；姜茶暖胃促循环；蒸煮代替油炸控油；豆腐海带补碘（碘足甲状腺才肯工作=代谢正常）；酸奶益生菌改善腹胀。食材农贸市场或钱大妈都能买，单日约¥15-20。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第2天 · 鱼蔬轻食",
-    "tag": "第2天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>温巴氏鲜奶（保质期短的那种，无糖）冲燕麦 + 1个水煮蛋 + 黄瓜条几根。只喝保质期短的巴氏鲜奶，不用豆浆豆奶和常温奶；胀气就换无糖酸奶。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>番茄龙利鱼煲（冷冻龙利鱼块铺番茄上蒸/煮）+ 蒜蓉通心菜（少油）+ 杂粮饭100g。鱼几乎无刺、低脂高蛋白。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>蒸鸡丝黄瓜玉米沙拉（鸡胸蒸熟撕丝+熟玉米粒+黄瓜，淋少许油醋）+ 紫菜蛋花汤（少油）。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；普洱茶1-2杯（去腻促代谢）；杏仁10g（约7-8颗，健康脂肪但控量）。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐番茄龙利鱼煲丢几颗<b>野山椒和一勺泡椒水</b>，秒变酸汤龙利鱼，酸辣比麻辣更清爽、也不上火；晚餐鸡丝沙拉换<b>蒜蓉辣椒+香醋+生抽</b>的凉拌汁，紫菜蛋花汤撒<b>白胡椒+小米辣</b>。下午那杯冰美式照旧，解腻一流。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>鱼和鸡双蛋白；通心菜高纤饱腹；普洱助脂肪代谢；苹果果胶养肠道；坚果防暴食。单日约¥18。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第3天 · 虾菌养肠",
-    "tag": "第3天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>2个水煮蛋 + 蒸红薯1小个 + 温巴氏鲜奶（无糖，胀气就换无糖酸奶）+ 圣女果几颗。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>虾仁蒸蛋（冻虾仁8-10只+2个蛋同蒸）+ 清炒苦瓜（少油，深圳湿热正好）+ 糙米饭100g。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>嫩豆腐菌菇汤（豆腐+香菇/金针菇+白菜，少盐）+ 半根玉米。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+奇异果；绿茶；核桃2个。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐苦瓜改<b>豆豉小米椒炒苦瓜</b>——咸辣豆豉能把苦味压下去，比清炒好入口；虾仁蒸蛋出锅淋一勺蒜蓉辣酱。晚餐菌菇汤丢两片<b>泡椒+少许泡椒水</b>，做成泡椒菌菇汤，酸辣鲜，菌菇的纤维照样护肠。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>虾仁低脂高蛋白还补锌和碘（都和代谢相关）；菌菇多糖益肠道菌群、缓解腹胀；苦瓜低糖清热；玉米替精米稳血糖。冻虾仁便宜，单日约¥20。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第4天 · 补铁促代谢",
-    "tag": "第4天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>燕麦+巴氏鲜奶（保质期短） + 1个蛋 + 香蕉1根（熟香蕉助消化，绿香蕉易胀）。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>彩椒炒牛里脊（牛肉80g少油快炒，补铁！女生易缺铁→代谢慢怕冷）+ 糙米饭 + 凉拌黄瓜。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>清蒸巴沙鱼 + 蒜蓉西兰花（少量）+ 蒸南瓜。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；乌龙茶；杏仁10g。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐彩椒牛里脊换<b>泡椒泡姜炒牛柳</b>，酸辣下饭还特别省油；晚餐巴沙鱼改<b>蒜蓉辣椒蒸鱼</b>——蒸熟后铺一层蒜末辣椒面，泼一勺滚油激香，鲜辣扑鼻。补铁这两天配辣更暖身。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>瘦牛肉补铁和蛋白质，铁足代谢才旺；彩椒维C帮铁吸收；巴沙鱼无刺低脂；南瓜低GI。成本约¥20。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第5天 · 清肠低脂",
-    "tag": "第5天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>2个蛋 + 无糖全麦面包1片 + 温柠檬水 + 小黄瓜。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>鸡胸蔬菜卷（鸡丝+生菜+黄瓜用全麦薄饼卷，或配杂粮饭）+ 番茄1个。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌木耳（促清肠）。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+草莓；绿茶；核桃2个。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐蔬菜卷里抹一层<b>小米椒蒜泥</b>，或夹一点无糖辣白菜丝（注意挑不加糖的）；晚餐凉拌木耳升级<b>川味炝拌木耳</b>——蒜末+小米辣+花椒油+香醋+生抽，脆爽麻辣，清肠这天照样有滋味。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>木耳膳食纤维清肠道、缓解腹胀；全麦缓释碳水稳血糖；番茄番茄红素抗氧化。单日约¥16。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第6天 · 一锅出省事",
-    "tag": "第6天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>燕麦粥 + 1个蛋 + 温姜茶 + 蓝莓。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>鱼豆腐煲（龙利鱼/巴沙鱼+嫩豆腐+白菜同煮一锅）+ 糙米饭。适合加班前一次做好的带饭。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>鸡胸蔬菜汤（鸡丝+冬瓜+胡萝卜）+ 半根玉米。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；普洱茶；杏仁10g。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐那锅鱼豆腐煲直接做成<b>酸菜鱼豆腐煲</b>：酸菜+泡椒+白胡椒一起下，酸辣一锅出，带饭第二天热了更入味；晚餐鸡胸蔬菜汤扔<b>干辣椒+花椒</b>煮成麻辣鸡丝汤。省事党的一锅辣。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>鱼+豆腐双蛋白；冬瓜利水消水肿（深圳湿热易水肿，常被误认胀气）；一锅出省时。单日约¥18。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第7天 · 周末稍丰",
-    "tag": "第7天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>蔬菜蛋饼（蛋2+碎菠菜/西葫芦少油煎）+ 温巴氏鲜奶（无糖少量）。</p>"
-      },
-      {
-        "h": "🍱 午餐",
-        "body": "<p>蒸鸡胸 + 清炒时蔬（菜心/通心菜）+ 红薯。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>海带豆腐汤 + 蒸南瓜 + 凉拌黄瓜。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+猕猴桃；绿茶。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>周末给点甜头（是辣的甜头）：午餐鸡胸做成<b>口水鸡</b>——煮熟撕条，浇辣椒油+花椒粉+蒜水+生抽+香醋；晚餐凉拌黄瓜改<b>拍黄瓜配蒜辣汁</b>，拍碎更入味。放松但不破功，油和糖都没多加。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>周末可稍丰富，菠菜补叶酸铁、南瓜低GI，仍保持低脂高纤节奏。单日约¥17。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第8天 · 换口味",
-    "tag": "第8天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>燕麦+巴氏鲜奶 + 1个蛋 + 香蕉。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>鸡胸番茄全麦意面（全麦面少量+鸡丝+番茄，少油）+ 西兰花少量。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>豆腐冬瓜汤 + 蒸红薯 + 凉拌木耳。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+蓝莓；绿茶；杏仁。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐意面做成<b>川辣番茄鸡丝意面</b>——番茄底加半勺豆瓣酱（挑咸口不加糖的）+ 几滴花椒油，中西混搭意外地对味；晚餐冬瓜豆腐汤加<b>白胡椒+野山椒</b>成酸辣冬瓜汤。换口味也照样辣。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>全麦面换口味但控量；番茄促代谢；木耳清肠。单日约¥18。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第9天 · 再补铁",
-    "tag": "第9天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>蛋2 + 蒸红薯 + 温柠檬姜茶 + 圣女果。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>彩椒炒牛里脊（80g少油）+ 糙米 + 凉拌黄瓜。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>清蒸鱼 + 蒜蓉通心菜 + 蒸南瓜。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+奇异果；普洱；杏仁。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐牛里脊改<b>孜然辣牛柳</b>——孜然粒+辣椒面+牛肉丝少油快煸，香得整层楼都闻得到；晚餐清蒸鱼铺<b>豆豉+小米椒</b>同蒸，豉香辣味渗进鱼肉。第二轮补铁，辣着吃更有胃口。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>牛肉补铁二次强化；通心菜高纤；普洱去腻。单日约¥21。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第10天 · 高效循环",
-    "tag": "第10天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>蛋2 + 燕麦+巴氏鲜奶（保质期短） + 小番茄。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>鸡胸蔬菜沙拉（熟：鸡丝+玉米+黄瓜，油醋少）+ 杂粮饭。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌木耳。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；绿茶；核桃2个。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐沙拉换<b>藤椒柠檬鸡丝</b>——藤椒油+柠檬汁+小米辣+少许鱼露，麻中带酸，比油醋汁开胃得多；晚餐木耳做<b>炝拌木耳</b>，辣椒面上泼热油那一下最香。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>重复高效组合，油醋代替沙拉酱控脂，木耳清肠。单日约¥16。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第11天 · 鱼蛋双蛋白",
-    "tag": "第11天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>燕麦+巴氏鲜奶（保质期短） + 1个蛋 + 蓝莓。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>龙利鱼蒸蛋（鱼碎+2蛋同蒸）+ 清炒苦瓜 + 糙米。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>鸡胸蔬菜汤（鸡丝+冬瓜+海带）+ 半根玉米。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+草莓；乌龙；杏仁。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐苦瓜改<b>剁椒炒苦瓜</b>，鱼蒸蛋淋<b>小米椒生抽</b>；晚餐鸡胸蔬菜汤加<b>白胡椒+泡椒</b>做成酸辣鸡丝汤。双蛋白配酸辣，顶饱又不撑。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>鱼蛋双蛋白；苦瓜清热下火；海带补碘助代谢。单日约¥19。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第12天 · 虾仁蛋",
-    "tag": "第12天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>蛋2 + 无糖全麦1片 + 温巴氏鲜奶（少量）+ 小黄瓜。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>虾仁炒蛋（冻虾仁+2蛋少油）+ 清炒西兰花少量 + 糙米。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>豆腐菌菇汤 + 蒸南瓜 + 凉拌黄瓜。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；普洱；核桃2个。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐虾仁炒蛋改<b>泡椒虾仁滑蛋</b>，泡椒的酸辣最配虾的鲜；西兰花用<b>蒜末+干辣椒段</b>炝炒。晚餐凉拌黄瓜换<b>花椒油+蒜+小米辣</b>版本，麻辣脆口。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>虾仁蛋优质蛋白；南瓜低GI；黄瓜补水。单日约¥22。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第13天 · 鱼腐玉米",
-    "tag": "第13天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>燕麦粥 + 1个蛋 + 温姜茶 + 小番茄。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>蒸鸡胸 + 清炒通心菜 + 红薯。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>巴沙鱼豆腐汤 + 蒸玉米 + 凉拌木耳。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>无糖酸奶+猕猴桃；绿茶；杏仁。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐通心菜改<b>腐乳小米椒炒通心菜</b>（腐乳挑咸口），鸡胸淋蒜蓉辣酱；晚餐鱼豆腐汤做成<b>酸辣鱼片汤</b>——白胡椒+陈醋+泡椒，喝一口从喉咙暖到胃。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>鱼豆腐双蛋白；玉米替米饭控糖；木耳清肠。单日约¥18。</p>"
-      }
-    ]
-  },
-  {
-    "title": "第14天 · 两周收官",
-    "tag": "第14天 · 饮食定制",
-    "blocks": [
-      {
-        "h": "🛒 采购与执行",
-        "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
-      },
-      {
-        "h": "🌅 早餐",
-        "body": "<p>蛋2 + 燕麦+巴氏鲜奶（保质期短） + 蓝莓 + 圣女果。</p>"
-      },
-      {
-        "h": "🍱 午餐（带饭）",
-        "body": "<p>鸡胸蔬菜卷（鸡丝+生菜+番茄全麦薄饼）。</p>"
-      },
-      {
-        "h": "🌙 晚餐",
-        "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌黄瓜。</p>"
-      },
-      {
-        "h": "🥤 加餐 · 饮水",
-        "body": "<p>苹果1个；乌龙；核桃2个。</p>"
-      },
-      {
-        "h": "🌶 旺仔辣味备选",
-        "body": "<p>午餐鸡胸蔬菜卷抹<b>辣椒蒜蓉酱</b>；晚餐做<b>酸辣番茄豆腐汤</b>收尾。两周下来你会发现：所有辣味只用了<b>小米椒 / 泡椒 / 剁椒 / 干辣椒 / 花椒藤椒 / 白胡椒</b>这六件套，一勺糖、一勺多余的油都没加——这就是「辣得过瘾又不长肉」的全部秘密。再配一杯冰美式或热普洱，收工。</p>"
-      },
-      {
-        "h": "💡 为什么这么搭",
-        "body": "<p>两周循环完成。核心公式：高蛋白早餐点燃代谢 + 蒸煮低脂控油 + 益生菌护肠消胀 + 控糖控盐。可继续循环或按口味微调。单日平均¥15-22，深圳随处可买。</p>"
-      }
-    ]
-  },
-  {
-    "title": "深圳辣味美食店推荐",
-    "tag": "辣味专场 · 人均 / 地址 / 菜系（本周换新）",
-    "blocks": [
-      {
-        "h": "📌 怎么用这份清单",
-        "body": "<p>按旺仔的口味筛的：<b>喜辣、戒甜、不碰奶茶饮料和甜品</b>，咖啡（冰美式优先）和茶随便喝。下面 12 家都是深圳好找、开得久的辣味馆子，按「人均 ｜ 地址 ｜ 菜系推荐」列出。凡是标了甜口的单品（冰粉、甜汤、糖水），直接跳过就行。<b>本周整份清单已换新，和上周不重样。</b></p>"
-      },
-      {
-        "h": "农耕记 · 湖南土菜",
-        "body": "<p>人均约 ¥70 ｜ 地址：深圳本土起家，全城商圈基本都有店 ｜ 推荐：辣椒炒肉、剁椒鱼头、紫苏炒黄瓜、坛子菜蒸腊肉。食材主打「土」，咸鲜辣，最下饭的一家。</p>"
-      },
-      {
-        "h": "兰湘子 · 湘菜小炒",
-        "body": "<p>人均约 ¥70 ｜ 地址：各大商场多店 ｜ 推荐：小炒黄牛肉、擂椒皮蛋、辣椒炒蛋。出餐快，主打现炒不预制，一个人也好点。</p>"
-      },
-      {
-        "h": "湘辣辣 · 湖南小炒",
-        "body": "<p>人均约 ¥65 ｜ 地址：多店 ｜ 推荐：手撕包菜、辣椒炒肉、酸辣鸡杂。价格实在，辣度可以要「重辣」。</p>"
-      },
-      {
-        "h": "珮姐老火锅 · 重庆火锅",
-        "body": "<p>人均约 ¥140 ｜ 地址：福田、南山核心商圈 ｜ 推荐：牛油锅底、麻辣毛肚、鲜鸭肠、酥肉。正宗重庆牛油味，怕燥可点鸳鸯。</p>"
-      },
-      {
-        "h": "电台巷火锅 · 重庆火锅",
-        "body": "<p>人均约 ¥150 ｜ 地址：福田、南山 ｜ 推荐：老火锅牛油锅、现炸酥肉、鲜鸭血。锅底香气重，属于「吃完衣服有味」的那种正宗。</p>"
-      },
-      {
-        "h": "蜀大侠火锅 · 成都火锅",
-        "body": "<p>人均约 ¥130 ｜ 地址：多店 ｜ 推荐：九宫格牛油锅、耙牛肉、鹅肠。环境偏江湖气，适合约人。</p>"
-      },
-      {
-        "h": "陶德砂锅菜 · 川味家常",
-        "body": "<p>人均约 ¥60 ｜ 地址：深圳老牌，多店 ｜ 推荐：砂锅耗儿鱼、水煮肉片、干煸四季豆。人均低、辣得实在，深圳川菜里的性价比选手。</p>"
-      },
-      {
-        "h": "马路边边麻辣烫 · 川味串串",
-        "body": "<p>人均约 ¥60 ｜ 地址：多店 ｜ 推荐：牛油锅底串串、冒脑花、冰粉（甜口，你直接跳过）。一个人吃也自在。</p>"
-      },
-      {
-        "h": "蓉李记 · 冷锅串串",
-        "body": "<p>人均约 ¥70 ｜ 地址：多店 ｜ 推荐：冷锅串串、钵钵鸡、藤椒鸡。麻味突出，夏天吃冷串很舒服。</p>"
-      },
-      {
-        "h": "木屋烧烤 · 深圳本土烧烤",
-        "body": "<p>人均约 ¥70 ｜ 地址：深圳起家，门店极多、开到很晚 ｜ 推荐：招牌羊肉串、烤生蚝、香辣小龙虾（季节限定）、烤茄子。加班后想吃辣的兜底选择。</p>"
-      },
-      {
-        "h": "姚姚酸菜鱼 · 川渝酸辣",
-        "body": "<p>人均约 ¥75 ｜ 地址：多店 ｜ 推荐：青花椒酸菜鱼、藤椒鱼。酸辣开胃，鱼片嫩，配米饭刚好。</p>"
-      },
-      {
-        "h": "江边城外 · 巫溪烤鱼",
-        "body": "<p>人均约 ¥95 ｜ 地址：各大商圈 ｜ 推荐：香辣烤鱼、藤椒烤鱼，配菜可加土豆宽粉。两三个人分一条正好。</p>"
-      },
-      {
-        "h": "☕ 配饮清单（不甜的那种）",
-        "body": "<p>吃辣配什么：<b>冰美式</b>最解腻——Manner、Seesaw、%Arabica 在深圳各商圈都有，本地独立咖啡馆集中在南头古城、华侨城创意园一带，值得逛。想喝茶就选<b>纯茶</b>：普洱、乌龙、单丛都压得住辣味，tea'stone 一类的纯茶馆可以坐；便利店选无糖乌龙/茉莉茶。<b>奶茶、果茶、糖水一律跳过。</b></p>"
-      }
-    ]
-  }
+    {
+      "title": "第1天 · 暖胃启动餐",
+      "tag": "第1天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐（7:30-8:30）",
+          "body": "<p>温水一杯（可加薄片姜或柠檬）+ 2个水煮蛋 + 燕麦粥（燕麦30g煮成粥）+ 小番茄5颗。蛋白质优先的早餐能拉高食物热效应，帮一上午的代谢点火。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭到公司）",
+          "body": "<p>蒸鸡胸150g（前一晚用少许生抽、黑胡椒腌好，蒸10分钟）+ 清炒冬瓜胡萝卜（少油）+ 糙米饭100g。装饭盒带去公司，比外卖省一半还低脂。</p>"
+        },
+        {
+          "h": "🌙 晚餐（18:30前吃完）",
+          "body": "<p>嫩豆腐海带冬瓜汤（嫩豆腐半盒+冬瓜+海带苗，少盐）+ 蒸红薯半根。清淡好消化，睡前不胀。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>上午：无糖酸奶1杯 + 蓝莓一小把（益生菌护肠胃、缓解胀气）。下午：绿茶或乌龙1-2杯。全天温水1.5-2L，避开碳酸饮料、奶茶和口香糖。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>蒸鸡胸别干嚼——蒸熟切片，拌<b>蒜末+小米椒圈+生抽+两滴香醋</b>，秒变蒜香口水鸡片；那锅海带豆腐汤丢几片干辣椒段、白胡椒粉和陈醋，做成酸辣海带汤，喝完微微发汗，深圳湿热的天气最舒服。辣味全靠鲜辣椒和白胡椒，糖油一律不加。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>高蛋白早餐点燃代谢；姜茶暖胃促循环；蒸煮代替油炸控油；豆腐海带补碘（碘足甲状腺才肯工作=代谢正常）；酸奶益生菌改善腹胀。食材农贸市场或钱大妈都能买，单日约¥15-20。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第2天 · 鱼蔬轻食",
+      "tag": "第2天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>温巴氏鲜奶（保质期短的那种，无糖）冲燕麦 + 1个水煮蛋 + 黄瓜条几根。只喝保质期短的巴氏鲜奶，不用豆浆豆奶和常温奶；胀气就换无糖酸奶。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>番茄龙利鱼煲（冷冻龙利鱼块铺番茄上蒸/煮）+ 蒜蓉通心菜（少油）+ 杂粮饭100g。鱼几乎无刺、低脂高蛋白。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>蒸鸡丝黄瓜玉米沙拉（鸡胸蒸熟撕丝+熟玉米粒+黄瓜，淋少许油醋）+ 紫菜蛋花汤（少油）。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；普洱茶1-2杯（去腻促代谢）；杏仁10g（约7-8颗，健康脂肪但控量）。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>番茄龙利鱼煲加几颗<b>野山椒</b>和一勺泡椒水，变酸汤龙利鱼，酸辣比麻辣更清爽不上火；鸡丝黄瓜沙拉换<b>蒜蓉辣椒+香醋+生抽</b>凉拌汁；紫菜蛋花汤撒白胡椒+小米辣。下午那杯冰美式照旧，解腻一流。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>鱼和鸡双蛋白；通心菜高纤饱腹；普洱助脂肪代谢；苹果果胶养肠道；坚果防暴食。单日约¥18。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第3天 · 虾菌养肠",
+      "tag": "第3天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>2个水煮蛋 + 蒸红薯1小个 + 温巴氏鲜奶（无糖，胀气就换无糖酸奶）+ 圣女果几颗。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>虾仁蒸蛋（冻虾仁8-10只+2个蛋同蒸）+ 清炒苦瓜（少油，深圳湿热正好）+ 糙米饭100g。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>嫩豆腐菌菇汤（豆腐+香菇/金针菇+白菜，少盐）+ 半根玉米。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+奇异果；绿茶；核桃2个。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>苦瓜改<b>豆豉小米椒炒苦瓜</b>——咸辣豆豉压住苦味，比清炒好入口；虾仁蒸蛋出锅淋一勺蒜蓉辣酱。菌菇汤丢两片<b>泡椒+少许泡椒水</b>，做成泡椒菌菇汤，酸辣鲜，菌菇纤维照样护肠。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>虾仁低脂高蛋白还补锌和碘（都和代谢相关）；菌菇多糖益肠道菌群、缓解腹胀；苦瓜低糖清热；玉米替精米稳血糖。冻虾仁便宜，单日约¥20。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第4天 · 补铁促代谢",
+      "tag": "第4天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>燕麦+巴氏鲜奶（保质期短） + 1个蛋 + 香蕉1根（熟香蕉助消化，绿香蕉易胀）。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>彩椒炒牛里脊（牛肉80g少油快炒，补铁！女生易缺铁→代谢慢怕冷）+ 糙米饭 + 凉拌黄瓜。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>清蒸巴沙鱼 + 蒜蓉西兰花（少量）+ 蒸南瓜。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；乌龙茶；杏仁10g。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>彩椒牛里脊换<b>泡椒泡姜炒牛柳</b>，酸辣下饭还特别省油；巴沙鱼改<b>蒜蓉辣椒蒸鱼</b>——蒸熟后铺一层蒜末辣椒面，泼一勺滚油激香，鲜辣扑鼻。补铁这两天配辣更暖身。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>瘦牛肉补铁和蛋白质，铁足代谢才旺；彩椒维C帮铁吸收；巴沙鱼无刺低脂；南瓜低GI。成本约¥20。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第5天 · 清肠低脂",
+      "tag": "第5天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>2个蛋 + 无糖全麦面包1片 + 温柠檬水 + 小黄瓜。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>鸡胸蔬菜卷（鸡丝+生菜+黄瓜用全麦薄饼卷，或配杂粮饭）+ 番茄1个。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌木耳（促清肠）。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+草莓；绿茶；核桃2个。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐蔬菜卷里抹一层<b>小米椒蒜泥</b>，或夹一点无糖辣白菜丝（挑不加糖的）；晚餐凉拌木耳升级<b>川味炝拌木耳</b>——蒜末+小米辣+花椒油+香醋+生抽，脆爽麻辣，清肠这天照样有滋味。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>木耳膳食纤维清肠道、缓解腹胀；全麦缓释碳水稳血糖；番茄番茄红素抗氧化。单日约¥16。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第6天 · 一锅出省事",
+      "tag": "第6天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>燕麦粥 + 1个蛋 + 温姜茶 + 蓝莓。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>鱼豆腐煲（龙利鱼/巴沙鱼+嫩豆腐+白菜同煮一锅）+ 糙米饭。适合加班前一次做好的带饭。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>鸡胸蔬菜汤（鸡丝+冬瓜+胡萝卜）+ 半根玉米。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；普洱茶；杏仁10g。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐那锅鱼豆腐煲直接做成<b>酸菜鱼豆腐煲</b>：酸菜+泡椒+白胡椒一起下，酸辣一锅出，带饭第二天热了更入味；晚餐鸡胸蔬菜汤扔<b>干辣椒+花椒</b>煮成麻辣鸡丝汤。省事党的一锅辣。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>鱼+豆腐双蛋白；冬瓜利水消水肿（深圳湿热易水肿，常被误认胀气）；一锅出省时。单日约¥18。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第7天 · 周末稍丰",
+      "tag": "第7天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>蔬菜蛋饼（蛋2+碎菠菜/西葫芦少油煎）+ 温巴氏鲜奶（无糖少量）。</p>"
+        },
+        {
+          "h": "🍱 午餐",
+          "body": "<p>蒸鸡胸 + 清炒时蔬（菜心/通心菜）+ 红薯。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>海带豆腐汤 + 蒸南瓜 + 凉拌黄瓜。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+猕猴桃；绿茶。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>周末给点辣的甜头：午餐鸡胸做成<b>口水鸡</b>——煮熟撕条，浇辣椒油+花椒粉+蒜水+生抽+香醋；晚餐凉拌黄瓜改<b>拍黄瓜配蒜辣汁</b>，拍碎更入味。放松但不破功，油和糖都没多加。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>周末可稍丰富，菠菜补叶酸铁、南瓜低GI，仍保持低脂高纤节奏。单日约¥17。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第8天 · 换口味",
+      "tag": "第8天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>燕麦+巴氏鲜奶 + 1个蛋 + 香蕉。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>鸡胸番茄全麦意面（全麦面少量+鸡丝+番茄，少油）+ 西兰花少量。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>豆腐冬瓜汤 + 蒸红薯 + 凉拌木耳。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+蓝莓；绿茶；杏仁。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐意面做成<b>川辣番茄鸡丝意面</b>——番茄底加半勺豆瓣酱（挑咸口不加糖的）+几滴花椒油，中西混搭意外对味；晚餐冬瓜豆腐汤加<b>白胡椒+野山椒</b>成酸辣冬瓜汤。换口味也照样辣。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>全麦面换口味但控量；番茄促代谢；木耳清肠。单日约¥18。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第9天 · 再补铁",
+      "tag": "第9天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>蛋2 + 蒸红薯 + 温柠檬姜茶 + 圣女果。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>彩椒炒牛里脊（80g少油）+ 糙米 + 凉拌黄瓜。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>清蒸鱼 + 蒜蓉通心菜 + 蒸南瓜。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+奇异果；普洱；杏仁。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐牛里脊改<b>孜然辣牛柳</b>——孜然粒+辣椒面+牛肉丝少油快煸，香得整层楼都闻得到；晚餐清蒸鱼铺<b>豆豉+小米椒</b>同蒸，豉香辣味渗进鱼肉。第二轮补铁，辣着吃更有胃口。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>牛肉补铁二次强化；通心菜高纤；普洱去腻。单日约¥21。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第10天 · 高效循环",
+      "tag": "第10天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>蛋2 + 燕麦+巴氏鲜奶（保质期短） + 小番茄。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>鸡胸蔬菜沙拉（熟：鸡丝+玉米+黄瓜，油醋少）+ 杂粮饭。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌木耳。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；绿茶；核桃2个。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐沙拉换<b>藤椒柠檬鸡丝</b>——藤椒油+柠檬汁+小米辣+少许鱼露，麻中带酸，比油醋汁开胃得多；晚餐木耳做<b>炝拌木耳</b>，辣椒面上泼热油那一下最香。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>重复高效组合，油醋代替沙拉酱控脂，木耳清肠。单日约¥16。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第11天 · 鱼蛋双蛋白",
+      "tag": "第11天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>燕麦+巴氏鲜奶（保质期短） + 1个蛋 + 蓝莓。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>龙利鱼蒸蛋（鱼碎+2蛋同蒸）+ 清炒苦瓜 + 糙米。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>鸡胸蔬菜汤（鸡丝+冬瓜+海带）+ 半根玉米。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+草莓；乌龙；杏仁。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐苦瓜改<b>剁椒炒苦瓜</b>，鱼蒸蛋淋<b>小米椒生抽</b>；晚餐鸡胸蔬菜汤加<b>白胡椒+泡椒</b>做成酸辣鸡丝汤。双蛋白配酸辣，顶饱又不撑。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>鱼蛋双蛋白；苦瓜清热下火；海带补碘助代谢。单日约¥19。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第12天 · 虾仁蛋",
+      "tag": "第12天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>蛋2 + 无糖全麦1片 + 温巴氏鲜奶（少量）+ 小黄瓜。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>虾仁炒蛋（冻虾仁+2蛋少油）+ 清炒西兰花少量 + 糙米。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>豆腐菌菇汤 + 蒸南瓜 + 凉拌黄瓜。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；普洱；核桃2个。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐虾仁炒蛋改<b>泡椒虾仁滑蛋</b>，泡椒的酸辣最配虾的鲜；西兰花用<b>蒜末+干辣椒段</b>炝炒。晚餐凉拌黄瓜换<b>花椒油+蒜+小米辣</b>版本，麻辣脆口。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>虾仁蛋优质蛋白；南瓜低GI；黄瓜补水。单日约¥22。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第13天 · 鱼腐玉米",
+      "tag": "第13天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>燕麦粥 + 1个蛋 + 温姜茶 + 小番茄。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>蒸鸡胸 + 清炒通心菜 + 红薯。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>巴沙鱼豆腐汤 + 蒸玉米 + 凉拌木耳。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>无糖酸奶+猕猴桃；绿茶；杏仁。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐通心菜改<b>腐乳小米椒炒通心菜</b>（腐乳挑咸口），鸡胸淋蒜蓉辣酱；晚餐鱼豆腐汤做成<b>酸辣鱼片汤</b>——白胡椒+陈醋+泡椒，喝一口从喉咙暖到胃。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>鱼豆腐双蛋白；玉米替米饭控糖；木耳清肠。单日约¥18。</p>"
+        }
+      ]
+    },
+    {
+      "title": "第14天 · 两周收官",
+      "tag": "第14天 · 饮食定制",
+      "blocks": [
+        {
+          "h": "🛒 采购与执行",
+          "body": "<p>① 食材在「钱大妈」「美团买菜」「盒马」晚间 8 点后打折囤，性价比最高；② 前一晚备好早餐/午餐，早上省时、午间带饭不踩坑；③ 用餐节奏：早餐 7:30 前、午餐 12:30 前、晚餐 19:00 前，下午 15:00 加餐防暴食；④ 外食用「薄荷健康」查热量，守每日约 1200–1400 kcal 减脂线；胀气时饭后散步 10 分钟助消化。</p>"
+        },
+        {
+          "h": "🌅 早餐",
+          "body": "<p>蛋2 + 燕麦+巴氏鲜奶（保质期短） + 蓝莓 + 圣女果。</p>"
+        },
+        {
+          "h": "🍱 午餐（带饭）",
+          "body": "<p>鸡胸蔬菜卷（鸡丝+生菜+番茄全麦薄饼）。</p>"
+        },
+        {
+          "h": "🌙 晚餐",
+          "body": "<p>豆腐番茄汤 + 蒸红薯 + 凉拌黄瓜。</p>"
+        },
+        {
+          "h": "🥤 加餐 · 饮水",
+          "body": "<p>苹果1个；乌龙；核桃2个。</p>"
+        },
+        {
+          "h": "🌶 旺仔辣味备选",
+          "body": "<p>午餐鸡胸蔬菜卷抹<b>辣椒蒜蓉酱</b>；晚餐做<b>酸辣番茄豆腐汤</b>收尾。两周下来你会发现：所有辣味只用了<b>小米椒 / 泡椒 / 剁椒 / 干辣椒 / 花椒藤椒 / 白胡椒</b>这六件套，一勺糖、一勺多余的油都没加——这就是「辣得过瘾又不长肉」的全部秘密。再配一杯冰美式或热普洱，收工。</p>"
+        },
+        {
+          "h": "💡 为什么这么搭",
+          "body": "<p>两周循环完成。核心公式：高蛋白早餐点燃代谢 + 蒸煮低脂控油 + 益生菌护肠消胀 + 控糖控盐。可继续循环或按口味微调。单日平均¥15-22，深圳随处可买。</p>"
+        }
+      ]
+    },
+    {
+      "title": "深圳辣味美食店推荐",
+      "tag": "辣味专场 · 人均 / 地址 / 菜系（本周换新）",
+      "blocks": [
+        {
+          "h": "📌 怎么用这份清单",
+          "body": "<p>按旺仔口味筛的：<b>喜辣、戒甜、不碰奶茶饮料和甜品</b>，咖啡（冰美式优先）和茶随便喝。下面 12 家都是深圳好找、开得久的辣味馆子，按「人均 ｜ 地址 ｜ 菜系推荐」列出。凡是标了甜口的单品（冰粉、甜汤、糖水），直接跳过就行。<b>本周整份清单已换新，和上周不重样。</b></p>"
+        },
+        {
+          "h": "费大厨辣椒炒肉 · 湘菜",
+          "body": "<p>人均约 ¥75 ｜ 地址：深圳多店，各大商圈均有 ｜ 推荐：辣椒炒肉（招牌必点）、小炒黄牛肉、 solanum 炒蛋。明档现炒，肉嫩椒香，一个人点一荤一素刚好。</p>"
+        },
+        {
+          "h": "炊烟小炒黄牛肉 · 湘菜",
+          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：小炒黄牛肉、剁椒鱼头、擂辣椒茄子。黄牛肉现切现炒，锅气足，辣度可以喊「重辣」。</p>"
+        },
+        {
+          "h": "周师兄重庆火锅 · 重庆火锅",
+          "body": "<p>人均约 ¥150 ｜ 地址：深圳核心商圈多店 ｜ 推荐：鲜毛肚、鸭肠、屠场鲜切牛肉。牛油锅底厚重，正宗重庆味，怕燥点鸳鸯。</p>"
+        },
+        {
+          "h": "萍姐火锅 · 重庆火锅·市井",
+          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：市井老火锅牛油锅、麻辣牛肉、脑花。装修走怀旧市井风，氛围热闹，辣得过瘾。</p>"
+        },
+        {
+          "h": "朱光玉火锅馆 · 重庆火锅",
+          "body": "<p>人均约 ¥140 ｜ 地址：深圳多店 ｜ 推荐：番茄鸳鸯、麻辣锅底、耙鸡爪。锅底香料足，适合约朋友慢慢涮。</p>"
+        },
+        {
+          "h": "巴奴毛肚火锅 · 川渝火锅",
+          "body": "<p>人均约 ¥150 ｜ 地址：深圳多店 ｜ 推荐：野山菌汤+麻辣锅、毛肚、绣球菌。主打「服务不过度、产品主义」，毛肚七上八下最脆。</p>"
+        },
+        {
+          "h": "八合里海记牛肉火锅 · 潮汕牛肉",
+          "body": "<p>人均约 ¥110 ｜ 地址：深圳本土起家，门店极多 ｜ 推荐：吊龙、匙柄、胸口朥，配<b>沙茶+辣椒圈</b>蘸料。现切黄牛，涮八秒，鲜甜带劲。</p>"
+        },
+        {
+          "h": "椒爱水煮鱼 · 川菜",
+          "body": "<p>人均约 ¥85 ｜ 地址：深圳多店 ｜ 推荐：水煮鱼（鲈鱼/草鱼）、辣子鸡、毛血旺。鱼片嫩滑、红油透亮，麻辣直给，配米饭一流。</p>"
+        },
+        {
+          "h": "太二酸菜鱼 · 酸辣",
+          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：老坛子酸菜鱼（鲈鱼）、藤椒鱼。酸辣开胃、鱼片无刺，一个人也能点小份，甜品一律跳过。</p>"
+        },
+        {
+          "h": "鱼酷活鱼烤鱼 · 烤鱼",
+          "body": "<p>人均约 ¥95 ｜ 地址：深圳多店 ｜ 推荐：麻辣/藤椒烤鱼（清江鱼）、配菜加土豆宽粉。现杀活鱼，麻辣汁收得浓，配菜比鱼还抢戏。</p>"
+        },
+        {
+          "h": "黄记煌三汁焖锅 · 焖锅",
+          "body": "<p>人均约 ¥90 ｜ 地址：深圳多店 ｜ 推荐：麻辣/香辣焖鸡翅、焖牛蛙。一锅焖出，酱汁咸辣浓郁，不用自己涮，懒人友好。</p>"
+        },
+        {
+          "h": "蜀大侠火锅 · 成都火锅",
+          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：九宫格牛油锅、耙牛肉、鹅肠。环境偏江湖气，适合约人，辣度稳。</p>"
+        },
+        {
+          "h": "☕ 配饮清单（不甜的那种）",
+          "body": "<p>吃辣配什么：<b>冰美式</b>最解腻——Manner、Seesaw、%Arabica 在深圳各商圈都有，本地独立咖啡馆集中在南头古城、华侨城创意园一带，值得逛。想喝茶就选<b>纯茶</b>：普洱、乌龙、单丛都压得住辣味，tea'stone 一类纯茶馆可以坐；便利店选无糖乌龙/茉莉茶。<b>奶茶、果茶、糖水一律跳过。</b></p>"
+        }
+      ]
+    }
   ],
   "overseas": [
     {
@@ -3166,132 +3164,132 @@ const CONTENT = {
       ]
     }
   ],
-  social: [
-  {
-    "title": "抖音内容推荐 · 第 1 周｜街头采访 / 路人问卷",
-    "tag": "第1周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：街头采访 / 路人问卷",
-        "body": "<p>街头采访天然带「冲突感 + 代入感」，容易引发评论区站队，是冷启动期性价比最高的涨粉形式之一。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛反差问题（如「在深圳，月薪多少才敢点一杯冰美式？」）<br/>② 3-40s 随机采访 3-5 人，保留真实反应与原声<br/>③ 40-55s 收尾金句 + 引导关注<br/>④ 55-60s 引导评论区投票</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「在深圳打拼的你，最想对三年前的自己说什么？」 #深圳 #街头采访 #城市故事</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳 #街头采访 #城市生活 #共鸣 #vlog</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 2 周｜知识干货拆解",
-    "tag": "第2周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：知识干货拆解",
-        "body": "<p>把一个复杂概念拆成「3 步 / 3 个误区」，是建立专业人设、拿到搜索流量的稳妥打法。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛痛点（「90% 的人都搞错了一点」）<br/>② 3-35s 用类比讲清概念，配字幕卡点<br/>③ 35-50s 给可抄作业的行动点<br/>④ 50-60s 引导收藏 + 关注</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「3 分钟讲清一件事：为什么你刷到的短视频越来越『懂你』？」 #干货 #科普 #涨知识</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#知识科普 #干货分享 #职场 #自我提升 #短视频</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 3 周｜幕后花絮 / 工作日常",
-    "tag": "第3周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：幕后花絮 / 工作日常",
-        "body": "<p>「真实感」是算法偏爱的人设资产。展示过程比展示结果更容易让人记住你这个人。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 一个反差开场（乱糟糟的桌面 / 一堆待办）<br/>② 3-40s 快剪一天关键节点，保留环境音<br/>③ 40-55s 一句真心话收尾<br/>④ 55-60s 引导「你的一天怎么过？」</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「深圳打工人的真实一天：咖啡续命，辣椒下饭」 #vlog #幕后 #打工人</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳生活 #打工日常 #vlog #真实记录 #咖啡</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 4 周｜热点跟拍 / 挑战赛",
-    "tag": "第4周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：热点跟拍 / 挑战赛",
-        "body": "<p>跟热点拿的是「搜索 + 推荐」双流量，关键是快（24h 内）且带自己的角度，不硬蹭。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 直接上热点画面 / 原声<br/>② 3-30s 给你的独特解读或翻拍<br/>③ 30-50s 落到你的领域（美食 / 城市 / 职场）<br/>④ 50-60s 引导参与挑战</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「挑战 X  Day1：用深圳的辣味打开它」 #热点 #挑战赛 #跟拍</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#热点 #挑战 #趋势 #参与挑战 #流量</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 5 周｜好物种草 / 开箱",
-    "tag": "第5周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：好物种草 / 开箱",
-        "body": "<p>种草类内容离转化最近。结构清晰（痛点-展示-对比-下单理由）转化率最高。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛痛点（「你是不是也…」）<br/>② 3-35s 开箱 + 真实试用，突出 1 个记忆点<br/>③ 35-50s 和替代品对比<br/>④ 50-60s 给明确购买理由 / 链接</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「深圳出差党必备：这瓶冰美式替我续命」 #好物 #开箱 #种草</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#好物种草 #开箱 #测评 #生活好物 #带货</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 6 周｜评论区选题 / 用户故事",
-    "tag": "第6周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：评论区选题 / 用户故事",
-        "body": "<p>把粉丝的评论变成下一条视频，是低成本、高互动的选题永动机，也能显著提升粉丝粘性。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 念一条高赞评论开场<br/>② 3-40s 认真回应 / 延展成故事<br/>③ 40-55s 抛新话题反邀评论<br/>④ 55-60s 点名感谢粉丝</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「评论区点名：那位说在深圳吃不到辣的兄弟，这期给你」 #互动 #用户故事</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#评论区 #粉丝互动 #用户故事 #社群 #陪伴</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
-      }
-    ]
-  },
-  {
-    "title": "抖音内容推荐 · 第 9 周｜反精致 · 深圳打工人真实日常 vlog",
-    "tag": "第9周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：反精致 · 深圳打工人真实日常 vlog",
-        "body": "<p><b>8 月算法就一个信号：拼真实、拼细分，不拼精致。</b>抖音 2026 趋势报告写得明白——<b>反完美素人内容的互动率比精致摆拍高约 40%</b>；TikTok 的「Locked In」浪潮也在说同一件事：展示努力比展示完美更火。而你那条爆款「义工日记·被遗弃的小白狗」恰恰就是这个基因——<b>真实 ＋ 情感</b>。这周把它平移到「打工人日常」。</p><p class=\"ct-h\">💡 为什么这周做这个</p><div class=\"ct-body ph\">① <b>踩中当下爆点：</b>8/13「精神离职」冲上抖音热榜第一——模板是「如果不考虑前途，我梦想的职业是____」，最高单条 50 万赞，热门答案里就有<b>咖啡师</b>。你爱冰美式，天然能接这波（「打工人的咖啡师梦」）。<br/>② <b>白嫖 BGM 热点：</b>8 月抖音热歌《咖啡不睡觉》就是「打工人与咖啡的日常」，直接当背景音乐蹭现成流量。<br/>③ <b>治你的两个硬伤：</b>后台显示你<b>封面点击仅 1.52%</b>、<b>完播率低于同类</b>——精致 vlog 的封面没人点，真实冲突的封面才有人点；开头 3 秒抛冲突能直接救完播。<br/>④ 深圳 ＋ 打工人 ＋ 冰美式本就是你的日常，不用演，素材天天有。</div><p class=\"ct-h\">🎬 拍摄脚本（真实 vlog · 竖屏 30–60 秒）</p><div class=\"ct-body ph\">先定死栏目名：<b>《深圳打工人的不完美一天 · EP1》</b>，一期只讲一段真实日常。<br/>① <b>开头 3 秒</b>：素颜 / 刚起床 / 挤地铁的真实画面 ＋ 一句冲突台词（「说好今天搞事业的，结果……」）——这 3 秒决定完播率；<br/>② <b>中段</b>：一个真实场景（通勤 / 午饭 / 下班后的冰美式续命），不精致剪辑，保留原声和环境音；<br/>③ <b>转折</b>：一笔带过的「小崩溃 / 小摆烂」（点了冰美式却开会忘了喝），真实感全在这一笔；<br/>④ <b>收尾钩子</b>：「你是哪种打工人？评论区对号入座」＋ 下期预告；<br/>⑤ <b>封面</b>：直接截视频里最「狼狈」或最有情绪的帧，加白字大字标题，<b>绝不磨皮</b>。</div><p class=\"ct-h\">✍️ 标题 / 文案示例（真实感优先，别端着）</p><div class=\"ct-body ph\">「深圳打工人 ｜ 说好今天搞事业的，结果在咖啡馆刷了一小时手机」<br/>「精神离职第 N 天 ｜ 如果不考虑前途，我想当个咖啡师（先把这杯冰美式喝了）」<br/>「深圳打工日记 ｜ 月薪 __，但今天我只想好好喝杯咖啡」</div><p class=\"ct-h\">🎲 顺手可蹭的热点</p><p>① <b>「精神离职」</b>：拍一条「打工人的咖啡师梦」混剪，配《咖啡不睡觉》BGM，成本极低、接现成热度，又不脱离你的咖啡 / 美食垂类；<br/>② <b>本地生活带货</b>：探到的辣馆 / 咖啡店顺手挂抖音团购（抖省省），真实探店 ＝ 小收入，和你的探店内容天然衔接。</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳打工日记 #打工人日常 #反精致 #活人感 #精神离职 #深圳咖啡 #城市生活</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① <b>今天</b>：定栏目名《深圳打工人的不完美一天》，拍一条「起床 → 地铁 → 冰美式续命」的 30 秒样片，封面用最狼狈那帧；<br/>② <b>本周内</b>：借「精神离职」热点拍 1 条「我的咖啡师梦」混剪（用《咖啡不睡觉》BGM），周二 / 周四择一发；<br/>③ <b>封面铁律</b>：绝不磨皮，第一帧就要有冲突 / 情绪，目标把封面点击从 1.52% 拉到 3%+；<br/>④ <b>开头 3 秒必须抛冲突</b>救完播（你完播率现在低于同类）；<br/>⑤ <b>探店带货</b>：探到的店顺手挂团购链接（抖省省），把真实探店变成小收入；<br/>⑥ <b>周日复盘</b>：对比这周真实 vlog 和上周图文的完播率 / 封面点击，哪个高就把主力压过去。</p>"
-      }
-    ]
-  }
-]
+  "social": [
+    {
+      "title": "抖音内容推荐 · 第 1 周｜街头采访 / 路人问卷",
+      "tag": "第1周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：街头采访 / 路人问卷",
+          "body": "<p>街头采访天然带「冲突感 + 代入感」，容易引发评论区站队，是冷启动期性价比最高的涨粉形式之一。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛反差问题（如「在深圳，月薪多少才敢点一杯冰美式？」）<br/>② 3-40s 随机采访 3-5 人，保留真实反应与原声<br/>③ 40-55s 收尾金句 + 引导关注<br/>④ 55-60s 引导评论区投票</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「在深圳打拼的你，最想对三年前的自己说什么？」 #深圳 #街头采访 #城市故事</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳 #街头采访 #城市生活 #共鸣 #vlog</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 2 周｜知识干货拆解",
+      "tag": "第2周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：知识干货拆解",
+          "body": "<p>把一个复杂概念拆成「3 步 / 3 个误区」，是建立专业人设、拿到搜索流量的稳妥打法。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛痛点（「90% 的人都搞错了一点」）<br/>② 3-35s 用类比讲清概念，配字幕卡点<br/>③ 35-50s 给可抄作业的行动点<br/>④ 50-60s 引导收藏 + 关注</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「3 分钟讲清一件事：为什么你刷到的短视频越来越『懂你』？」 #干货 #科普 #涨知识</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#知识科普 #干货分享 #职场 #自我提升 #短视频</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 3 周｜幕后花絮 / 工作日常",
+      "tag": "第3周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：幕后花絮 / 工作日常",
+          "body": "<p>「真实感」是算法偏爱的人设资产。展示过程比展示结果更容易让人记住你这个人。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 一个反差开场（乱糟糟的桌面 / 一堆待办）<br/>② 3-40s 快剪一天关键节点，保留环境音<br/>③ 40-55s 一句真心话收尾<br/>④ 55-60s 引导「你的一天怎么过？」</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「深圳打工人的真实一天：咖啡续命，辣椒下饭」 #vlog #幕后 #打工人</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳生活 #打工日常 #vlog #真实记录 #咖啡</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 4 周｜热点跟拍 / 挑战赛",
+      "tag": "第4周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：热点跟拍 / 挑战赛",
+          "body": "<p>跟热点拿的是「搜索 + 推荐」双流量，关键是快（24h 内）且带自己的角度，不硬蹭。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 直接上热点画面 / 原声<br/>② 3-30s 给你的独特解读或翻拍<br/>③ 30-50s 落到你的领域（美食 / 城市 / 职场）<br/>④ 50-60s 引导参与挑战</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「挑战 X  Day1：用深圳的辣味打开它」 #热点 #挑战赛 #跟拍</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#热点 #挑战 #趋势 #参与挑战 #流量</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 5 周｜好物种草 / 开箱",
+      "tag": "第5周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：好物种草 / 开箱",
+          "body": "<p>种草类内容离转化最近。结构清晰（痛点-展示-对比-下单理由）转化率最高。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 抛痛点（「你是不是也…」）<br/>② 3-35s 开箱 + 真实试用，突出 1 个记忆点<br/>③ 35-50s 和替代品对比<br/>④ 50-60s 给明确购买理由 / 链接</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「深圳出差党必备：这瓶冰美式替我续命」 #好物 #开箱 #种草</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#好物种草 #开箱 #测评 #生活好物 #带货</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 6 周｜评论区选题 / 用户故事",
+      "tag": "第6周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：评论区选题 / 用户故事",
+          "body": "<p>把粉丝的评论变成下一条视频，是低成本、高互动的选题永动机，也能显著提升粉丝粘性。</p><p class=\"ct-h\">🎬 拍摄脚本（60s）</p><div class=\"ct-body ph\">① 0-3s 念一条高赞评论开场<br/>② 3-40s 认真回应 / 延展成故事<br/>③ 40-55s 抛新话题反邀评论<br/>④ 55-60s 点名感谢粉丝</div><p class=\"ct-h\">✍️ 标题 / 文案示例</p><p>「评论区点名：那位说在深圳吃不到辣的兄弟，这期给你」 #互动 #用户故事</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#评论区 #粉丝互动 #用户故事 #社群 #陪伴</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① 今天定选题并写 3 条备选标题；② 拍 1 条粗剪版，先看完播率；③ 结合你在深圳、爱辣、爱咖啡的调性，把「城市生活 / 美食探店 / 打工日常」揉进去更真实；④ 发布后 2 小时内回复前 20 条评论，撬动互动权重；⑤ 复盘：哪一句/哪个画面停留最久，下周复用。</p>"
+        }
+      ]
+    },
+    {
+      "title": "抖音内容推荐 · 第 9 周｜反精致 · 深圳打工人真实日常 vlog",
+      "tag": "第9周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：反精致 · 深圳打工人真实日常 vlog",
+          "body": "<p><b>8 月算法就一个信号：拼真实、拼细分，不拼精致。</b>抖音 2026 趋势报告写得明白——<b>反完美素人内容的互动率比精致摆拍高约 40%</b>；TikTok 的「Locked In」浪潮也在说同一件事：展示努力比展示完美更火。而你那条爆款「义工日记·被遗弃的小白狗」恰恰就是这个基因——<b>真实 ＋ 情感</b>。这周把它平移到「打工人日常」。</p><p class=\"ct-h\">💡 为什么这周做这个</p><div class=\"ct-body ph\">① <b>踩中当下爆点：</b>8/13「精神离职」冲上抖音热榜第一——模板是「如果不考虑前途，我梦想的职业是____」，最高单条 50 万赞，热门答案里就有<b>咖啡师</b>。你爱冰美式，天然能接这波（「打工人的咖啡师梦」）。<br/>② <b>白嫖 BGM 热点：</b>8 月抖音热歌《咖啡不睡觉》就是「打工人与咖啡的日常」，直接当背景音乐蹭现成流量。<br/>③ <b>治你的两个硬伤：</b>后台显示你<b>封面点击仅 1.52%</b>、<b>完播率低于同类</b>——精致 vlog 的封面没人点，真实冲突的封面才有人点；开头 3 秒抛冲突能直接救完播。<br/>④ 深圳 ＋ 打工人 ＋ 冰美式本就是你的日常，不用演，素材天天有。</div><p class=\"ct-h\">🎬 拍摄脚本（真实 vlog · 竖屏 30–60 秒）</p><div class=\"ct-body ph\">先定死栏目名：<b>《深圳打工人的不完美一天 · EP1》</b>，一期只讲一段真实日常。<br/>① <b>开头 3 秒</b>：素颜 / 刚起床 / 挤地铁的真实画面 ＋ 一句冲突台词（「说好今天搞事业的，结果……」）——这 3 秒决定完播率；<br/>② <b>中段</b>：一个真实场景（通勤 / 午饭 / 下班后的冰美式续命），不精致剪辑，保留原声和环境音；<br/>③ <b>转折</b>：一笔带过的「小崩溃 / 小摆烂」（点了冰美式却开会忘了喝），真实感全在这一笔；<br/>④ <b>收尾钩子</b>：「你是哪种打工人？评论区对号入座」＋ 下期预告；<br/>⑤ <b>封面</b>：直接截视频里最「狼狈」或最有情绪的帧，加白字大字标题，<b>绝不磨皮</b>。</div><p class=\"ct-h\">✍️ 标题 / 文案示例（真实感优先，别端着）</p><div class=\"ct-body ph\">「深圳打工人 ｜ 说好今天搞事业的，结果在咖啡馆刷了一小时手机」<br/>「精神离职第 N 天 ｜ 如果不考虑前途，我想当个咖啡师（先把这杯冰美式喝了）」<br/>「深圳打工日记 ｜ 月薪 __，但今天我只想好好喝杯咖啡」</div><p class=\"ct-h\">🎲 顺手可蹭的热点</p><p>① <b>「精神离职」</b>：拍一条「打工人的咖啡师梦」混剪，配《咖啡不睡觉》BGM，成本极低、接现成热度，又不脱离你的咖啡 / 美食垂类；<br/>② <b>本地生活带货</b>：探到的辣馆 / 咖啡店顺手挂抖音团购（抖省省），真实探店 ＝ 小收入，和你的探店内容天然衔接。</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#深圳打工日记 #打工人日常 #反精致 #活人感 #精神离职 #深圳咖啡 #城市生活</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① <b>今天</b>：定栏目名《深圳打工人的不完美一天》，拍一条「起床 → 地铁 → 冰美式续命」的 30 秒样片，封面用最狼狈那帧；<br/>② <b>本周内</b>：借「精神离职」热点拍 1 条「我的咖啡师梦」混剪（用《咖啡不睡觉》BGM），周二 / 周四择一发；<br/>③ <b>封面铁律</b>：绝不磨皮，第一帧就要有冲突 / 情绪，目标把封面点击从 1.52% 拉到 3%+；<br/>④ <b>开头 3 秒必须抛冲突</b>救完播（你完播率现在低于同类）；<br/>⑤ <b>探店带货</b>：探到的店顺手挂团购链接（抖省省），把真实探店变成小收入；<br/>⑥ <b>周日复盘</b>：对比这周真实 vlog 和上周图文的完播率 / 封面点击，哪个高就把主力压过去。</p>"
+        }
+      ]
+    }
+  ]
 };

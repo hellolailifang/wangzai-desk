@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v77: 抖音社媒周更第9周（反精致·深圳打工人真实日常vlog）
-const CACHE = 'wz-desk-v77';
+// v78: 「3C跨境企业」升级为「AI搜索可见性企业」（GEO 高需求企业库，14 天 × 4 家）
+const CACHE = 'wz-desk-v78';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',
