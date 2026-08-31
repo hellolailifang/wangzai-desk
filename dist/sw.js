@@ -1,6 +1,6 @@
 // 离线缓存：在线时优先获取最新版；断网时回退到本地缓存
-// v79: 修复内容轮换——总览页与详情页统一索引；dateIndex 改用绝对天数（避免跨月跳变漏条目）
-const CACHE = 'wz-desk-v79';
+// v80: GEO 模块更名「AI搜索可见性企业」→「GEO 藏宝图」（含 14 条内容标题同步）
+const CACHE = 'wz-desk-v80';
 const FILES = ['./', './index.html', './icon.png', './manifest.webmanifest', './content.js', './en_practice.js',
   './assets/home-bg.webp', './assets/home-avatar.webp', './assets/quick-icon.webp', './assets/luffy.webp', './assets/robin.png', './assets/zoro.webp', './assets/sabo.webp', './assets/garp.webp',
   './assets/ace.webp', './assets/sanji.webp', './assets/nami.png', './assets/chopper.webp', './assets/usopp.webp',

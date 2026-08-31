@@ -1,6 +1,6 @@
 /* =========================================================
    旺仔的工作台 · 内容数据 CONTENT（每周自动焕新）
-   生成时间：2026-08-24｜finance/diet/travel 已刷新
+   生成时间：2026-08-31｜finance/geo/overseas/diet/travel 已刷新
    ========================================================= */
 const CONTENT = {
   "english": [
@@ -516,204 +516,203 @@ const CONTENT = {
     }
   ],
   "geo": [
-  {
-    "title": "Day 1 · AI 搜索可见性企业",
-    "tag": "第1天 · 出海消费电子品牌",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：把「品牌名 + 品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② <b>找缺口</b>：AI 答不上来、参数说错、或只引 Reddit / 竞品官网，就是你的机会；③ <b>补料</b>：把参数表、对比测评、FAQ、使用场景做成结构化内容，铺到 AI 爱引的站点（官网帮助中心、YouTube 测评、Reddit、行业媒体）；④ <b>提案话术</b>：别卖「谷歌排名」，卖「AI 答案里的出现率 + 引用来源占比」，按季度做前后对比；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（出海消费电子品牌）",
-        "body": "<p>海外用户越来越习惯直接问 AI「best power bank for iPhone 15」「best bone conduction headphones for running」，答案里点名谁，谁就赢下这一单。这批出海品牌投放已很成熟，缺的正是 AI 答案里的席位。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>安克创新 Anker</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于长沙，前 Google 工程师阳萌创办，从亚马逊充电配件起家，如今是全球移动充电与智能硬件出海标杆。</div><div class=\"co-r\"><b>主营业务：</b>移动充电（充电器 / 充电宝 / 数据线）、音频 Soundcore、智能家居 eufy、储能 Anker SOLIX；招牌：氮化镓充电器、MagGo 磁吸充电。</div><div class=\"co-r\"><b>市场与打法：</b>以亚马逊为基本盘，用「浅海理论」逐个品类做到第一，海外营收占比长期在九成以上；研发与品牌双驱动，独立站与线下渠道同步铺开。</div><div class=\"co-r found\"><b>📜 发家史：</b>阳萌早年在亚马逊卖充电配件，发现市面产品又贵又丑，用极简设计 + 高可靠性切中海外用户，Anker 很快做成亚马逊充电品类第一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2020 年登陆创业板后，从单一充电扩张到音频、智能家居、安防、储能，用「浅海理论」避开与巨头正面硬刚。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best portable charger for travel」这类提示词里，AI 常给一串泛泛的清单，Anker 未必总在首位；可帮它把各型号适用场景、功率参数、认证信息做成 AI 可抓取的对比内容，抢下答案里的固定位置。</div><div class=\"co-r look\"><b>💡 看点：</b>中国品牌出海的范本，证明了「先做品类第一、再滚雪球」这条路走得通。 <button class=\"fam-btn\" data-fp=\"阳萌 Yang Meng\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.anker.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.anker.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>韶音 Shokz</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>骨传导耳机全球第一梯队，深圳起家、主打开放双耳的运动耳机品牌，长期占据亚马逊与海外专业跑者圈层。</div><div class=\"co-r\"><b>主营业务：</b>骨传导 / 开放式蓝牙耳机、运动耳机、游泳耳机；招牌：OpenRun、OpenSwim 系列。</div><div class=\"co-r\"><b>市场与打法：</b>以运动垂直场景切入，靠专业跑者口碑 + 亚马逊 + 海外线下运动渠道；近年加大国内马拉松赛事与达人种草。</div><div class=\"co-r found\"><b>📜 发家史：</b>早年做专业通信音频设备，后转型消费级骨传导耳机，靠「开放双耳更安全」这个清晰卖点打穿运动人群。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工与专业市场转向自有品牌，把「不入耳」从技术名词做成品类心智，成为骨传导耳机的代名词。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best headphones for running safety」几乎是为它量身定做的提示词，但 AI 回答里常混入 AfterShokz / 竞品旧名；品牌改名 Shokz 后的资料一致性、与竞品的对比要点，正是 GEO 可以快速补齐的缺口。</div><div class=\"co-r look\"><b>💡 看点：</b>技术名词变品类代名词的经典案例，也是「场景即搜索词」的最好教材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shokz.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shokz.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>绿联科技 UGREEN</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2012 年创立于深圳，张清森创办，从数据线、电脑周边起家，如今是数码配件全品类出海品牌。</div><div class=\"co-r\"><b>主营业务：</b>数据线、扩展坞、充电器、NAS 私有云、音频配件；招牌：Type-C 扩展坞、百瓦氮化镓充电器、NAS 私有云。</div><div class=\"co-r\"><b>市场与打法：</b>国内天猫基本盘 + 亚马逊 / 独立站出海双线；SKU 极宽、供应链与性价比并重，2024 年登陆创业板。</div><div class=\"co-r found\"><b>📜 发家史：</b>早期靠 3C 配件代工与电商起量，抓住 Type-C 与多设备互联趋势，用高性价比配件快速铺开海内外渠道。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从一根数据线做到全品类配件，并把 NAS 私有云做成第二增长曲线，从「配件」走向「数据存储」。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>NAS 是高决策成本品类，用户会反复问 AI「best NAS for home use」「NAS 和网盘有什么区别」；绿联在 AI 答案里的出现率远低于群晖，靠科普型内容 + 场景化对比完全有翻盘空间。</div><div class=\"co-r look\"><b>💡 看点：</b>配件赛道的品类收割机，也是研究中企 3C 出海的合适标本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ugreen.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ugreen.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>倍思 Baseus</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2011 年创立于深圳，何世友创办，主打设计感与性价比的 3C 数码配件品牌。</div><div class=\"co-r\"><b>主营业务：</b>充电器、车载支架、音频、数据线、移动电源；招牌：磁吸无线充、伸缩数据线、车载配件。</div><div class=\"co-r\"><b>市场与打法：</b>海外独立站 + 亚马逊双线，以设计感与性价比切入年轻用户，国内电商同样强势。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「好看不贵」切入被大牌忽略的年轻用户，靠快速上新与外观设计在配件红海里撕开口子。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纯线上性价比路线逐步走向品牌化、设计化，把配件做成有辨识度的消费品牌。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>配件品类在 AI 答案里最容易被「泛化推荐」淹没——AI 一说就是 Anker，倍思很少被点名；用车场景、磁吸生态这类长尾提示词是它的突破口。</div><div class=\"co-r look\"><b>💡 看点：</b>配件红海里的设计派，适合研究「如何让 AI 记住一个非头部品牌」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.baseus.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.baseus.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 2 · AI 搜索可见性企业",
-    "tag": "第2天 · 便携储能与光储出海",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「best portable power station for camping / home backup」问 ChatGPT 与 Google AI Overview，看这几个品牌谁被点名、引的是官网还是测评站；② <b>找缺口</b>：容量、充电速度、是否支持 UPS 这些关键参数 AI 经常说错或含糊；③ <b>补料</b>：做场景化的参数对比表（露营 / 停电 / 房车 / 户外作业），铺到官网 FAQ、YouTube 测评、Reddit 的 r/vandwellers 等 AI 高频引用源；④ <b>提案话术</b>：储能是高客单决策，AI 一次推荐就能省掉一大笔广告费，按「AI 答案出现率 + 参数准确率」报价；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（便携储能与光储出海）",
-        "body": "<p>储能客单价动辄几百到上千美元，用户一定会先问 AI 再下单。谁出现在答案里，谁就省下一大笔广告费——这是 GEO 最典型的高回报场景。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>华宝新能源 Jackery</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>便携储能龙头，深圳起家，孙中伟创办，Jackery 品牌在北美户外与应急场景认知度极高。</div><div class=\"co-r\"><b>主营业务：</b>便携储能电源、太阳能板、家庭备电；招牌：Jackery 户外电源、SolarSaga 太阳能板。</div><div class=\"co-r\"><b>市场与打法：</b>北美独立站 + 亚马逊为核心，户外与应急场景强势，线下商超渠道同步铺设。</div><div class=\"co-r found\"><b>📜 发家史：</b>从充电宝、电池业务切入，看到「户外带电」这个空白需求，创立 Jackery 做便携储能，靠露营文化红利起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押中露营与家庭应急两大风口，把「电随人走」做成一个全球性品类，并在国内创业板上市。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best solar generator for home backup」是它最该拿下却常被 EcoFlow 分走的提示词；把 UPS 切换时间、带载能力这类硬参数做成 AI 可直接引用的结构化内容，胜算很大。</div><div class=\"co-r look\"><b>💡 看点：</b>把「带电的户外生活」做成全球品类的范本。 <button class=\"fam-btn\" data-fp=\"孙中伟 Sun Zhongwei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jackery.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jackery.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>正浩 EcoFlow</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于深圳，王雷创办，便携储能与家庭储能新锐，以快充技术著称。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、户外电源、家庭储能、阳台光储；招牌：DELTA / RIVER 系列、快充技术。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊三板斧，用技术差异化打高客单价市场。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自高校技术背景，以高倍率快充切入便携储能，靠海外众筹一炮打响。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用「半小时充满」这种可感知的技术指标建立差异，在高端储能站稳脚跟，并延伸到家庭与阳台光储。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>技术参数正是 AI 最爱引用的内容，但 EcoFlow 的型号命名（DELTA Pro / Max / 2 / 3）让 AI 经常张冠李戴；帮它把型号能力边界梳理清楚，本身就是一单很实在的 GEO 生意。</div><div class=\"co-r look\"><b>💡 看点：</b>用技术差异化打高端市场的新锐样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecoflow.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecoflow.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>德兰明海 Bluetti</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的便携储能品牌，主打大容量与家庭备电，海外市场知名度高。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、家庭备电、太阳能板；招牌：AC 系列、可扩容的家庭储能方案。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站 + 亚马逊，主攻家庭应急与大容量场景。</div><div class=\"co-r found\"><b>📜 发家史：</b>以磷酸铁锂长循环寿命和大容量为卖点，切入家庭应急备电这个更刚需的市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从户外玩家市场扩展到家庭应急，用「可扩容」这个设计承接长期用电需求。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>家庭备电是最典型的「先问 AI 再买」场景，而 Bluetti 在 AI 答案里的存在感明显弱于其市场份额；用停电场景、电器带载时长这类实用问答抢占答案位是它的捷径。</div><div class=\"co-r look\"><b>💡 看点：</b>储能赛道里把「家庭场景」讲得最透的一家。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.bluetti.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.bluetti.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>征拓 Zendure</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的便携储能品牌，主打模块化设计与快充，海外众筹起家。</div><div class=\"co-r\"><b>主营业务：</b>便携储能、移动电源、家庭储能；招牌：SuperBase 系列、可叠堆模块化设计。</div><div class=\"co-r\"><b>市场与打法：</b>海外众筹 + 独立站，设计驱动的储能品牌，在欧美极客圈层口碑好。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「可叠堆、可上飞机」的模块化设计切入海外众筹，靠差异化形态获得关注。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从移动电源延伸到家庭备用储能，走设计差异化而非价格战路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>设计与便携性是小众但精准的提示词（如「portable power station for van life」）；Zendure 缺的不是好产品，而是让 AI 知道它「好在哪」的结构化素材。</div><div class=\"co-r look\"><b>💡 看点：</b>储能赛道的「设计派」，适合研究长尾场景打法。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zendure.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zendure.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 3 · AI 搜索可见性企业",
-    "tag": "第3天 · 跨境 DTC 服饰与时尚",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「best affordable summer dresses」「sustainable fashion brands」问 AI，看跨境 DTC 品牌是否被点名；② <b>找缺口</b>：快时尚品牌在 AI 答案里常被贴上「质量差 / 不环保」标签，这是内容层面的危机公关机会；③ <b>补料</b>：把尺码指南、面料成分、供应链透明度做成结构化页面，AI 极爱引用这类「事实型」内容；④ <b>提案话术</b>：服饰是纯 AI 答案可左右决策的品类，卖「答案里的品牌调性与标签」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与描述词正负向。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（跨境 DTC 服饰与时尚）",
-        "body": "<p>服饰是 AI 搜索渗透最快的品类之一：用户问「XX 场合穿什么」「哪家性价比高」，答案直接决定点击。快时尚品牌在 AI 口中的标签，比广告更影响形象。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>SHEIN</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球最大的跨境快时尚 DTC 平台之一，中国起家、总部迁至新加坡，以「小单快反」供应链闻名。</div><div class=\"co-r\"><b>主营业务：</b>女装、男装、童装、家居、美妆等全品类时尚商品；核心能力是按需生产与极速上新。</div><div class=\"co-r\"><b>市场与打法：</b>App + 独立站直供全球，社媒种草 + 网红分销 + 极低价格带，用数据中台驱动选款。</div><div class=\"co-r found\"><b>📜 发家史：</b>从跨境婚纱电商起步，逐步转型自有品牌快时尚，用数字化供应链把上新周期压到极致。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把「小单快反」做成行业标准，从卖货平台升级为全球时尚零售巨头，并开放平台引入第三方商家。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>AI 回答里 SHEIN 几乎总伴随「环保与质量争议」，这是典型的品牌叙事危机；用可持续供应链、面料成分、质检标准等可验证事实内容去「喂」AI，是它当前最刚需的一件事。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链极致效率的教科书，也是 GEO 里「品牌标签管理」的头号案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shein.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shein.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Cider</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>面向 Z 世代的跨境 DTC 时尚品牌，中国团队创办，以社媒原生打法快速起量。</div><div class=\"co-r\"><b>主营业务：</b>女装、配饰、家居服；主打设计感强、上新快的年轻化款式。</div><div class=\"co-r\"><b>市场与打法：</b>独立站 + App + Instagram / TikTok 种草，用社群反馈驱动设计，预售制控制库存。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住 Z 世代对「有态度但不贵」的需求，用社媒原生内容而非买量起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一女装扩展到多品类，用预售 + 社群共创把库存风险压到最低。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新品牌最大的问题不是产品，而是 AI「不认识它」；把品牌故事、设计灵感、尺码实测做成 AI 可引用的内容资产，是从零建立 AI 存在感的标准动作。</div><div class=\"co-r look\"><b>💡 看点：</b>社群驱动设计的代表，适合研究「新品牌如何被 AI 认识」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shopcider.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shopcider.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Halara</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>主打运动休闲与日常通勤的跨境 DTC 品牌，中国团队创办，在欧美年轻女性中增长迅速。</div><div class=\"co-r\"><b>主营业务：</b>瑜伽裤、运动裙、休闲装；招牌是把运动面料做成日常可穿的款式。</div><div class=\"co-r\"><b>市场与打法：</b>独立站 + 社媒投放 + 达人种草，高频上新、价格带亲民。</div><div class=\"co-r found\"><b>📜 发家史：</b>从「运动服饰日常化」这个细分切口出发，用高性价比产品配合密集社媒内容打开市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把运动休闲从健身房拉进日常穿搭场景，形成高频复购。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「workout dresses with shorts」「office to gym outfit」这类长尾提示词是它的天然主场，但 AI 更常提到 Lululemon；用场景化内容把这些长尾词占住，投入产出比极高。</div><div class=\"co-r look\"><b>💡 看点：</b>场景细分的典型打法，长尾提示词是它的金矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://thehalara.com\" target=\"_blank\" rel=\"noopener\">🌐 https://thehalara.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Urbanic</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>面向新兴市场的跨境时尚 DTC 品牌，中国团队创办，主攻拉美、南亚等增长市场。</div><div class=\"co-r\"><b>主营业务：</b>女装、配饰、鞋包；以本地化选款和性价比见长。</div><div class=\"co-r\"><b>市场与打法：</b>App + 独立站 + 本地化社媒，按区域市场做选款与定价，物流与支付本地化。</div><div class=\"co-r found\"><b>📜 发家史：</b>避开欧美红海，押注新兴市场的电商增长红利，用本地化运营建立壁垒。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从泛品类转向区域深耕，把供应链能力复制到多个高增长市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新兴市场语种杂、本地信息少，AI 更容易给出过时或不准确的品牌信息；多语种结构化内容是它最明显的缺口，也是最容易见效的切入口。</div><div class=\"co-r look\"><b>💡 看点：</b>新兴市场本地化打法的样本，多语种 GEO 的绝佳练兵场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.urbanic.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.urbanic.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 4 · AI 搜索可见性企业",
-    "tag": "第4天 · 智能家居与清洁电器",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「best robot vacuum for pet hair」「扫地机器人怎么选」问 ChatGPT、豆包、DeepSeek，看国产品牌谁被点名、参数是否准确；② <b>找缺口</b>：吸力、避障、自清洁基站这些卖点，AI 常给笼统答案或引境外媒体；③ <b>补料</b>：做「按户型 / 按宠物 / 按地毯」的场景化选购指南，铺到官网、知乎、B站测评、YouTube；④ <b>提案话术</b>：清洁电器国内外双线作战，卖「国内外 AI 平台同步可见」；⑤ <b>复盘</b>：每月固定 20 条中英文提示词各跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（智能家居与清洁电器）",
-        "body": "<p>扫地机器人是高客单、强参数对比的品类，国内外用户都爱先问 AI。这个赛道的品牌技术都很强，却常常输在「AI 不知道你强在哪」。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>石头科技 Roborock</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2014 年创立于北京，昌敬创办，扫地机器人技术派代表，国内外市场双线强势。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、洗地机、洗烘一体机；招牌：激光导航、全能基站、机械臂越障。</div><div class=\"co-r\"><b>市场与打法：</b>国内电商 + 海外亚马逊与独立站并重，以技术研发与高端定位著称，海外营收占比高。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自互联网与硬件背景，用激光导航与算法能力切入被 random 碰撞机占据的扫地机市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工小米生态链产品走向自有品牌高端化，把中国扫地机卖到全球高端价位段。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best robot vacuum for pet hair / carpet」这类提示词里石头常与 iRobot 并列，但 AI 引用的多是境外测评站；补充中英文双语的结构化参数与实测数据，能直接提升推荐位次。</div><div class=\"co-r look\"><b>💡 看点：</b>技术派做高端的范本，也是国货出海里最值得研究的 GEO 案例。 <button class=\"fam-btn\" data-fp=\"昌敬 Chang Jing\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.roborock.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.roborock.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>追觅科技 Dreame</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于苏州，俞浩创办，以高速数字马达技术起家的智能清洁品牌。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、无线吸尘器、洗地机、高速吹风机；核心是自研高速马达。</div><div class=\"co-r\"><b>市场与打法：</b>国内 + 海外双线，技术参数激进、上新速度快，主打「性能越级」。</div><div class=\"co-r found\"><b>📜 发家史：</b>以高速数字马达这一底层技术切入，从吸尘器扩展到清洁全品类。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>掌握核心马达技术后快速横向扩张品类，用性能参数正面挑战国际大牌。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>追觅的参数往往比竞品更亮眼，但 AI 回答里常只写「中国品牌」而不写具体优势；把马达转速、吸力实测这类硬指标做成可引用内容，是把参数优势转化为答案优势的关键。</div><div class=\"co-r look\"><b>💡 看点：</b>底层技术驱动多品类扩张的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.dreametech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.dreametech.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>科沃斯 Ecovacs</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>1998 年创立于苏州，钱东奇创办，国内扫地机器人与家用服务机器人老牌龙头。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、擦窗机器人、空气净化机器人、商用服务机器人；招牌：地宝、窗宝系列。</div><div class=\"co-r\"><b>市场与打法：</b>国内全渠道 + 海外多国布局，产品线宽、品牌认知度高，近年发力高端与商用。</div><div class=\"co-r found\"><b>📜 发家史：</b>从代工吸尘器起家，转型做自有品牌家用机器人，是国内最早一批扫地机玩家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一扫地机扩展到擦窗、空气净化与商用机器人，走「家庭服务机器人平台」路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>老品牌的优势是认知度高，风险是 AI 引用的仍是几年前的老款信息；做一轮型号与能力的「信息焕新」，是见效最快的 GEO 动作。</div><div class=\"co-r look\"><b>💡 看点：</b>国产服务机器人的长跑选手，适合研究品牌信息的时效性问题。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ecovacs.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ecovacs.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>云鲸智能 Narwal</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2016 年创立，张峻彬创办，以「自清洁基站」创新切入的智能清洁品牌。</div><div class=\"co-r\"><b>主营业务：</b>扫地机器人、洗地机；招牌：自动洗拖布的基站设计。</div><div class=\"co-r\"><b>市场与打法：</b>国内线上起家 + 逐步出海，靠单点创新口碑传播，产品迭代节奏克制。</div><div class=\"co-r found\"><b>📜 发家史：</b>团队以「拖地要手洗拖布」这个真实痛点切入，用自清洁基站做出差异化。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭一个创新点引爆市场，再逐步补齐产品线，走出「少而精」的路线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>云鲸的创新点非常适合做 AI 科普内容（「为什么扫地机要自动洗拖布」），但目前这类内容几乎空白；用痛点型科普抢答案，是它最划算的 GEO 路径。</div><div class=\"co-r look\"><b>💡 看点：</b>单点创新突围的样本，科普型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.narwal.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.narwal.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 5 · AI 搜索可见性企业",
-    "tag": "第5天 · 美妆个护国货品牌",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「油皮夏天用什么水乳」「国货美妆哪个牌子好用」问豆包、DeepSeek、Kimi，看国货品牌谁被点名、依据是什么；② <b>找缺口</b>：AI 常引小红书笔记与电商详情页，信息杂乱、成分说不清；③ <b>补料</b>：把成分表、适用肤质、用法步骤做成结构化页面，并同步到知乎、小红书等 AI 高频引用源；④ <b>提案话术</b>：美妆决策高度依赖内容种草，卖「AI 答案里的成分可信度与品牌提及率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与描述正负向。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（美妆个护国货品牌）",
-        "body": "<p>国内用户问「什么成分好」「哪个牌子靠谱」已经从搜索框转到豆包、DeepSeek。美妆是被 AI 推荐影响最大的品类之一，而很多国货在 AI 答案里仍然是「信息空白」。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>珀莱雅</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国货美妆龙头，杭州起家，侯军呈创办，以「大单品策略」著称的护肤品牌集团。</div><div class=\"co-r\"><b>主营业务：</b>护肤（精华、面霜、面膜）、彩妆、洗护；招牌：双抗精华、红宝石面霜、源力系列。</div><div class=\"co-r\"><b>市场与打法：</b>线上天猫抖音为核心 + 线下 CS 与商超，产品线覆盖大众到中高端，营销投入大。</div><div class=\"co-r found\"><b>📜 发家史：</b>从日化渠道起步，抓住电商红利转型线上，靠大单品打法迅速做大规模。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>押注「早 C 晚 A」等成分教育式营销，把单品做成现象级爆款，稳坐国货美妆头部。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>珀莱雅的内容营销极强，但信息大量散落在短视频与直播里，AI 抓不到；把成分、适用肤质、使用顺序沉淀为结构化问答，是它从「流量品牌」变成「AI 眼里的权威品牌」的关键一步。</div><div class=\"co-r look\"><b>💡 看点：</b>大单品打法的教科书，也是国货营销投入产出比的标杆。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.proya.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.proya.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>上美股份 · 韩束 KANS</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>上海起家的国货美妆集团，吕义雄创办，旗下韩束、一叶子、红色小象等多品牌。</div><div class=\"co-r\"><b>主营业务：</b>护肤、面膜、母婴护理；招牌：韩束红蛮腰环肽系列、一叶子面膜。</div><div class=\"co-r\"><b>市场与打法：</b>抖音短剧营销 + 电商全渠道，内容投放极为激进，品牌曝光量巨大。</div><div class=\"co-r found\"><b>📜 发家史：</b>从传统日化渠道起家，靠电视购物与线下渠道完成原始积累，随后全面转战线上。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>重注抖音内容生态，用短剧与达人矩阵把品牌声量拉到行业前列，完成老品牌年轻化。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>声量大不等于 AI 认知强——韩束在 AI 答案里常被描述为「营销品牌」；用成分科普、功效实测这类硬内容改写 AI 口中的品牌标签，是它当下最值钱的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌国货借内容生态翻身的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.kans.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.kans.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>花西子 Florasis</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>2017 年创立于杭州，主打东方美学与雕花工艺的国风彩妆品牌。</div><div class=\"co-r\"><b>主营业务：</b>彩妆（气垫、口红、蜜粉、眉笔）；招牌：同心锁口红、蚕丝蜜粉、浮雕工艺彩妆。</div><div class=\"co-r\"><b>市场与打法：</b>国内线上起家 + 逐步出海，以设计与文化叙事驱动，客单价高于同价位国货。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「东方彩妆」定位切入同质化严重的国货彩妆市场，用雕花工艺和国风设计做差异。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从国内爆红走向海外（日本、东南亚等），把文化符号做成品类护城河。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>花西子的强项是视觉与文化叙事，弱项是成分与功效的事实型内容；在 AI 答案里它常被当成「送礼好看」，补上成分与使用场景的结构化信息，能打开日常自用这个更大的盘子。</div><div class=\"co-r look\"><b>💡 看点：</b>文化叙事驱动品牌的样本，也是出海做高端定位的参考。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.florasis.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.florasis.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>逸仙电商 · 完美日记</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>广州起家、黄锦峰创办的国货彩妆集团，纽交所上市，旗下完美日记、小奥汀、完子心选等。</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤；招牌：动物眼影盘、名片唇釉、散粉。</div><div class=\"co-r\"><b>市场与打法：</b>早年以小红书种草 + 私域 + 电商爆量著称，近年转向护肤与品牌建设、收缩战线提毛利。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住小红书种草红利与国货彩妆风口，用极致性价比和高频上新迅速起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>上市后经历增长瓶颈，主动从「规模优先」转向「品牌与毛利优先」，加码护肤与研发。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>完美日记最痛的不是知名度，而是 AI 回答里残留的「平价替代」「网红品牌」旧印象；做一轮品牌信息焕新与功效内容沉淀，是典型的 GEO 品牌重塑项目。</div><div class=\"co-r look\"><b>💡 看点：</b>从流量红利到品牌建设的转型样本，品牌标签重塑的绝佳案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.perfectdiary.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.perfectdiary.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 6 · AI 搜索可见性企业",
-    "tag": "第6天 · 母婴与宠物消费",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「幼猫吃什么猫粮好」「婴儿湿巾哪个牌子安全」问豆包、DeepSeek、小红书 AI 搜索，看国产品牌谁被推荐；② <b>找缺口</b>：母婴与宠物是典型的「信任型决策」，AI 却常给出泛泛的安全提示而不点名品牌；③ <b>补料</b>：做成分 / 配料透明度页面、月龄与体重对应表、第三方检测报告，AI 极爱引用可验证事实；④ <b>提案话术</b>：这个品类一次推荐就能带来长期复购，卖「AI 答案里的安全背书」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（母婴与宠物消费）",
-        "body": "<p>母婴与宠物是信任门槛最高的消费决策——用户一定会问，且一旦被推荐就长期复购。AI 在这个品类给的答案往往保守笼统，谁先把可信事实摆出来，谁就能被点名。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>乖宝宠物 · 麦富迪</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>山东聊城起家、秦华创办的宠物食品企业，麦富迪是国内宠物食品头部品牌之一。</div><div class=\"co-r\"><b>主营业务：</b>宠物主粮、零食、湿粮、冻干；招牌：弗列加特、麦富迪 BARF 生骨肉系列。</div><div class=\"co-r\"><b>市场与打法：</b>国内电商 + 线下宠物店 + 出海代工与自主品牌并行，营销投入大、品类覆盖全。</div><div class=\"co-r found\"><b>📜 发家史：</b>从宠物零食出口代工起步，积累供应链后转做自有品牌，抓住国内养宠爆发红利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工走向品牌，再用高端子品牌向上突破价格带，完成「代工—大众—高端」三段跳。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「国产猫粮哪个牌子好」是全网高频问题，AI 答案却常给进口品牌或泛泛建议；把配料表、营养指标、检测报告做成可引用内容，是国产品牌打破 AI 偏见的最短路径。</div><div class=\"co-r look\"><b>💡 看点：</b>代工转品牌的完整样本，也是国货在 AI 时代的信任建设案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.myfoodie.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.myfoodie.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中宠股份 · 顽皮 Wanpy</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>烟台起家、郝忠礼创办的宠物食品企业，国内宠物食品行业最早一批上市公司。</div><div class=\"co-r\"><b>主营业务：</b>宠物零食、主粮、湿粮；招牌：顽皮鲜封包、鸡肉干系列。</div><div class=\"co-r\"><b>市场与打法：</b>海外代工出口 + 国内自主品牌双轮，海外收入占比高，国内外工厂布局完善。</div><div class=\"co-r found\"><b>📜 发家史：</b>从宠物零食出口加工起步，靠国际客户的质量体系背书，逐步建立自有品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在保持出口优势的同时重注国内市场，用「全球同厂同标准」作为品牌信任状。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「同厂同标准」这个卖点极具说服力，但 AI 完全不知道它的存在；把工厂资质、国际认证、出口国家这些事实结构化，就能让 AI 在推荐时多一句关键背书。</div><div class=\"co-r look\"><b>💡 看点：</b>出口转内销的信任打法，事实型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.wanpy.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.wanpy.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Babycare</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>杭州起家、李阔创办的母婴消费品牌，以设计与安全标准切入年轻父母群体。</div><div class=\"co-r\"><b>主营业务：</b>纸尿裤、婴儿湿巾、奶瓶、推车、母婴洗护；核心是「设计师品牌 + 高安全标准」。</div><div class=\"co-r\"><b>市场与打法：</b>线上天猫抖音为主 + 线下门店，主打一二线城市年轻家庭，客单价高于传统母婴品牌。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始人从工业设计背景出发，用「好看又安全」切入被国际大牌占据的母婴市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纸尿裤单品扩展到全场景母婴用品，用品类宽度承接家庭长期消费。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>母婴用户问 AI 的高频句式是「XX 品牌安全吗」， Babycare 有检测标准却没做成 AI 可读的内容；把标准、检测、材质对比做成问答页，能直接命中这类提示词。</div><div class=\"co-r look\"><b>💡 看点：</b>设计驱动 + 安全背书的国产母婴样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.babycare.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.babycare.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>pidan 彼诞</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>上海起家的宠物消费品牌，以极简设计与猫砂产品出圈的宠物生活方式品牌。</div><div class=\"co-r\"><b>主营业务：</b>猫砂、猫砂盆、宠物家居、猫粮；招牌：混合猫砂、极简设计猫砂盆。</div><div class=\"co-r\"><b>市场与打法：</b>线上电商 + 内容种草 + 线下门店，主打年轻养宠人群的审美与体验。</div><div class=\"co-r found\"><b>📜 发家史：</b>用设计与审美切入被功能导向占据的宠物用品市场，靠单品口碑自传播。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从猫砂这个高频耗材切入建立信任，再逐步扩展到宠物家居与食品。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「什么猫砂好用不臭」是极高频提示词，但 AI 很少点名具体国产品牌；用除臭原理、粉尘率实测这类硬内容去填，是低投入高回报的典型场景。</div><div class=\"co-r look\"><b>💡 看点：</b>审美驱动消费品的样本，高频耗材品类的 GEO 富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.pidan.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.pidan.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 7 · AI 搜索可见性企业",
-    "tag": "第7天 · 跨境 SaaS 与工具类",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「Shopify  alternatives for Chinese sellers」「跨境电商用什么 ERP」问 ChatGPT、Perplexity，看中国 SaaS 是否被提及；② <b>找缺口</b>：AI 答案几乎被 Shopify、国外工具垄断，中国 SaaS 即使更适配跨境卖家也进不了答案；③ <b>补料</b>：做「对比页 + 迁移指南 + 费率透明表」，并争取被行业媒体与 Reddit 讨论；④ <b>提案话术</b>：SaaS 决策长、客单高，卖「AI 答案里的对比位次」比投广告更划算；⑤ <b>复盘</b>：每月固定 20 条中英文提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（跨境 SaaS 与工具类）",
-        "body": "<p>B2B 软件的选型问题是最早被 AI 搜索吞掉的搜索场景之一。中国跨境 SaaS 功能并不弱，但在 AI 答案里几乎是隐形人——这是最典型的 GEO 蓝海。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>SHOPLINE</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>面向全球商家的独立站 SaaS 建站平台，中国团队创办、业务覆盖多国市场，是 Shopify 的主要替代方案之一。</div><div class=\"co-r\"><b>主营业务：</b>独立站建站、店铺运营工具、支付与物流对接、营销插件；近年也做 B2B 与全渠道。</div><div class=\"co-r\"><b>市场与打法：</b>以亚洲市场为根据地并向欧美扩张，靠本地化服务与更低门槛吸引中小商家。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住中国及亚洲商家做独立站的浪潮，用本地化服务能力和价格优势打开市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从区域建站工具升级为全球化 SaaS 平台，并扩展支付、物流、B2B 等增值服务。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「best Shopify alternative」是它最该拿下却几乎不出现的提示词；把迁移成本、费率对比、本地支付支持做成结构化对比页并争取第三方引用，是它最直接的 GEO 突破口。</div><div class=\"co-r look\"><b>💡 看点：</b>中国 SaaS 出海的代表，也是「替代型提示词」战术的最佳案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shopline.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shopline.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>店匠 SHOPLAZZA</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的独立站建站 SaaS，专注服务中国品牌出海商家。</div><div class=\"co-r\"><b>主营业务：</b>独立站建站、模板与插件、支付与营销工具、跨境合规支持。</div><div class=\"co-r\"><b>市场与打法：</b>以中国出海商家为核心客群，靠本地团队服务与行业解决方案获客。</div><div class=\"co-r found\"><b>📜 发家史：</b>抓住 DTC 出海浪潮，为不懂海外技术的中国商家提供开箱即用的建站服务。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从工具型建站走向「建站 + 增长」一体化，服务头部出海品牌客户。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>客户案例是 B2B SaaS 在 AI 答案里最有效的信任状，但店匠的成功案例多以线下形式存在；把可公开的客户成果、行业解决方案写成结构化内容，能显著提升 AI 推荐概率。</div><div class=\"co-r look\"><b>💡 看点：</b>服务中国出海商家的典型 SaaS，案例内容化空间极大。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.shoplazza.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.shoplazza.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>领星 ERP</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的跨境电商 ERP SaaS，专注亚马逊卖家的精细化运营。</div><div class=\"co-r\"><b>主营业务：</b>亚马逊店铺 ERP、财务核算、广告管理、供应链与库存管理。</div><div class=\"co-r\"><b>市场与打法：</b>以亚马逊卖家为核心客群，靠口碑与服务商生态获客，SaaS 订阅制。</div><div class=\"co-r found\"><b>📜 发家史：</b>从卖家的利润核算痛点切入，做出比通用财务软件更懂跨境卖家的 ERP。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在亚马逊卖家群体中建立强口碑，从工具走向数据化运营平台。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「亚马逊卖家怎么算利润」「跨境 ERP 哪个好」这类提示词决策意图极强，而 AI 答案多为泛泛科普；用实操教程 + 术语解释占据答案，是 SaaS 获取高质量线索的低成本方式。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直 SaaS 靠口碑做深的样本，教程型内容 ROI 极高。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lingxing.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lingxing.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>易仓科技</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>深圳起家的跨境电商 SaaS 服务商，覆盖 ERP、海外仓、物流等跨境全链路。</div><div class=\"co-r\"><b>主营业务：</b>跨境 ERP、海外仓 WMS、国际物流 TMS、分销与供应链协同系统。</div><div class=\"co-r\"><b>市场与打法：</b>服务中大型跨境卖家与海外仓企业，产品矩阵宽、实施能力强。</div><div class=\"co-r found\"><b>📜 发家史：</b>从跨境卖家的多平台管理痛点出发，逐步把 ERP 能力延伸到仓储与物流环节。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一 ERP 扩展到「商流 + 仓储 + 物流」一体化系统，客单价与客户粘性同步提升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>全链路能力是它最强的事实优势，但 AI 检索时往往只看到「ERP」这个窄标签；用行业白皮书、术语百科、链路图等可引用资产把能力范围讲清楚，是 B2B GEO 的标准打法。</div><div class=\"co-r look\"><b>💡 看点：</b>全链路 SaaS 的代表，能力边界被低估的典型。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yicang.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yicang.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 8 · AI 搜索可见性企业",
-    "tag": "第8天 · 本地生活与连锁餐饮",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「深圳南山附近有什么好喝的咖啡」「XX 商场吃什么」问豆包、DeepSeek、高德 AI、大众点评 AI，看连锁品牌谁被点名；② <b>找缺口</b>：本地推荐高度依赖位置与实时信息，AI 常给过时或不准确的门店信息；③ <b>补料</b>：把门店信息、招牌产品、价格带、场景（办公 / 约会 / 带娃）做成结构化内容，并保持多平台一致；④ <b>提案话术</b>：连锁品牌门店多、信息更新快，卖「AI 答案里的门店信息准确率」；⑤ <b>复盘</b>：每月固定 20 条本地提示词跑一遍，记录品牌被提及与信息准确率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（本地生活与连锁餐饮）",
-        "body": "<p>「附近吃什么」是移动端最高频的 AI 提问之一。连锁品牌门店多、更新快，最容易出现 AI 给出错误门店、错误价格的情况——信息准确率本身就是刚需。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>瑞幸咖啡</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国门店数量最多的咖啡连锁品牌之一，以小店快取模式与数字化运营著称。</div><div class=\"co-r\"><b>主营业务：</b>现制咖啡、茶饮、轻食；招牌：生椰拿铁、丝绒拿铁、9.9 元价格带产品。</div><div class=\"co-r\"><b>市场与打法：</b>App 与小程序直营为主，密集开店 + 数字化发券 + 高频联名，覆盖办公与通勤场景。</div><div class=\"co-r found\"><b>📜 发家史：</b>以「快取店 + 低价 + 数字化」模式切入中国咖啡市场，用密度换便利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历资本与治理风波后重整团队，靠产品创新与极致效率重回增长，门店规模持续领先。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>瑞幸的产品更新极快，AI 却常停留在旧菜单与旧价格；把当季产品、价格带、口味描述做成可同步更新的结构化内容，是连锁品牌 GEO 最典型的运维型需求。</div><div class=\"co-r look\"><b>💡 看点：</b>数字化运营的极致样本，也是「AI 信息保鲜」的头号案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.luckincoffee.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.luckincoffee.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>蜜雪冰城</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>郑州起家、张红超创办的现制茶饮连锁，全球门店数量位居餐饮连锁前列。</div><div class=\"co-r\"><b>主营业务：</b>现制茶饮、冰淇淋、咖啡（幸运咖）；招牌：4 元柠檬水、珍珠奶茶、冰淇淋。</div><div class=\"co-r\"><b>市场与打法：</b>加盟扩张 + 极致低价 + 供应链自建，下沉市场为主，近年加速出海东南亚。</div><div class=\"co-r found\"><b>📜 发家史：</b>从刨冰小店起步，靠极致性价比与加盟模式在下沉市场快速铺开。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>自建原料与冷链供应链，把成本压到行业极限，并成功复制到海外市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>雪王的强项是价格心智，弱项是 AI 对海外门店、加盟信息掌握混乱；出海国家的门店与产品信息标准化，是它当前最实际的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>极致性价比 + 供应链自建的教科书，出海信息标准化的典型案例。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mxbc.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mxbc.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>喜茶 HEYTEA</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>深圳起家、聂云宸创办的新茶饮品牌，曾是高端现制茶饮的定义者。</div><div class=\"co-r\"><b>主营业务：</b>现制茶饮、瓶装饮料、烘焙；招牌：芝芝莓莓、多肉葡萄、烤黑糖波波牛乳。</div><div class=\"co-r\"><b>市场与打法：</b>直营为主，近年开放事业合伙人并降价下沉，同时布局海外市场与瓶装零售。</div><div class=\"co-r found\"><b>📜 发家史：</b>用真奶真果与门店设计重新定义了现制茶饮的价格带与体验标准。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从坚持直营高价转向开放加盟与价格下探，把品牌势能转化为规模。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>喜茶的联名与新品节奏极快，AI 回答里的产品信息常常滞后数月；做「当期菜单 + 经典产品 + 场景推荐」的结构化内容并保持更新，能直接提升被推荐的概率。</div><div class=\"co-r look\"><b>💡 看点：</b>品牌势能变现的样本，内容保鲜需求最迫切的连锁之一。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.heytea.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.heytea.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>老乡鸡</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>合肥起家、束从轩创办的中式快餐连锁，以「养鸡起家 + 明厨亮灶」建立信任。</div><div class=\"co-r\"><b>主营业务：</b>中式快餐、鸡汤与小碗菜、早餐；招牌：肥西老母鸡汤、农家小炒肉。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 加盟并行，主攻社区与写字楼场景，主打干净与性价比。</div><div class=\"co-r found\"><b>📜 发家史：</b>从养殖端起家，向餐饮终端延伸，用「自己养的鸡」讲清楚供应链故事。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把养殖—中央厨房—门店的链路打通，并用明厨亮灶把透明度做成品牌资产。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「干净的中式快餐有哪些」这类提示词是它的主场，但 AI 很少能说出它的供应链优势；把可追溯、明厨亮灶这些事实做成可视化内容，是餐饮品牌建立 AI 信任的最有效手段。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链透明化的中式快餐样本，信任型内容的最佳素材。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.laoxiangji.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.laoxiangji.cn</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 9 · AI 搜索可见性企业",
-    "tag": "第9天 · 医美与口腔医疗",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「热玛吉和超声刀选哪个」「隐形牙套哪个牌子好」「深圳做近视手术哪家医院好」问豆包、DeepSeek、小红书 AI，看机构与品牌谁被点名；② <b>找缺口</b>：医美与医疗决策风险高，AI 回答普遍保守、常不点名，且引用的多为科普站与广告页；③ <b>补料</b>：做项目原理、禁忌人群、恢复周期、价格区间的中性科普，并标注医生资质与机构资质；④ <b>提案话术</b>：这是转化价值最高的品类之一，卖「AI 答案里的专业可信度」，务必避免夸大功效表述；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及与描述正负向。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（医美与口腔医疗）",
-        "body": "<p>医美与口腔是高客单、高信任门槛的决策，用户会反复向 AI 求证。这个品类 AI 回答普遍保守，谁先提供中性、可验证的专业内容，谁就拿下这个答案位。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>时代天使 Angelalign</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国产隐形正畸龙头，与隐适美并列为国内隐形矫正的两大主流选择，港股上市。</div><div class=\"co-r\"><b>主营业务：</b>隐形矫治器、数字化正畸方案设计、口腔扫描与矫治管理系统。</div><div class=\"co-r\"><b>市场与打法：</b>通过口腔诊所与医院渠道触达用户，靠医生端方案能力与病例数据库建立壁垒。</div><div class=\"co-r found\"><b>📜 发家史：</b>由正畸医生与工程团队共同创立，用数字化方案设计切入被进口品牌垄断的隐形正畸市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭借本土病例数据与性价比优势，在国内市场与隐适美形成双寡头格局。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「隐适美和时代天使怎么选」是全网最典型的对比型提示词，而 AI 的回答往往两边都说得含糊；把适应症差异、疗程差异、价格区间做成中性对比内容，是这个品类最有效的 GEO 动作。</div><div class=\"co-r look\"><b>💡 看点：</b>国产替代进口的标杆，对比型提示词的最佳战场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.angelalign.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.angelalign.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>通策医疗</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内口腔医疗服务龙头，以「区域总院 + 分院」模式扩张，A 股上市。</div><div class=\"co-r\"><b>主营业务：</b>口腔诊疗（种植、正畸、儿牙、综合治疗）、口腔医院运营与管理。</div><div class=\"co-r\"><b>市场与打法：</b>以浙江省为大本营，依托总院品牌与医生资源做区域扩张，口碑与复诊驱动为主。</div><div class=\"co-r found\"><b>📜 发家史：</b>从公立医院改制切入口腔医疗服务，抓住居民口腔消费升级的长期红利。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把「总院 + 分院」模式跑通，用品牌与医生培养体系支撑跨区域复制。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>医疗服务机构的 GEO 核心不是排名而是「被信任」——把医生资质、诊疗流程、真实病例（脱敏后）做成结构化内容，能让 AI 在回答「XX 城市看牙去哪」时给出更具体的推荐。</div><div class=\"co-r look\"><b>💡 看点：</b>医疗服务连锁化的样本，本地化 GEO 的标杆场景。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tcmedical.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tcmedical.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>美莱 MYLIKE</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内大型医美连锁集团，覆盖多座城市的综合医美机构品牌。</div><div class=\"co-r\"><b>主营业务：</b>整形外科、皮肤美容、微整形、口腔与植发等综合医美服务。</div><div class=\"co-r\"><b>市场与打法：</b>多城市直营连锁 + 线上投放获客，品牌认知度高、营销投入大。</div><div class=\"co-r found\"><b>📜 发家史：</b>在国内医美市场早期扩张阶段跑马圈地，用连锁规模建立品牌认知。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从规模扩张转向规范化与合规经营，在监管趋严背景下重建专业形象。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>医美行业整体面临 AI 回答偏负面、偏科普的困境；用严谨的项目科普、风险提示与资质公示去改善 AI 口中的行业叙事，是比投放广告更划算的品牌投资。</div><div class=\"co-r look\"><b>💡 看点：</b>医美连锁规模化的代表，行业叙事重塑的典型需求方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mylike.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mylike.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>伊美尔</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>国内老牌医美连锁机构，以北京为基地，主打微创与皮肤管理。</div><div class=\"co-r\"><b>主营业务：</b>微整形、皮肤美容、抗衰管理、私密与植发等项目。</div><div class=\"co-r\"><b>市场与打法：</b>区域连锁 + 私域运营为主，客户复购与会员制是核心。</div><div class=\"co-r found\"><b>📜 发家史：</b>在国内医美消费启蒙期入局，靠医生资源与老客口碑积累品牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业竞争与合规压力下，转向精细化运营与老客深耕。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>老牌机构的优势是真实案例沉淀，劣势是这些内容从未结构化；把项目科普、医生介绍、常见问题做成可被 AI 引用的内容库，是低成本重获新客的路径。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌医美机构的精细化转型样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yimeier.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yimeier.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 10 · AI 搜索可见性企业",
-    "tag": "第10天 · 教育与职业培训",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「考公怎么准备」「MBA 辅导机构哪个好」「深圳少儿英语选哪家」问豆包、DeepSeek、Kimi，看机构谁被点名；② <b>找缺口</b>：教育决策周期长，AI 回答多为方法论科普，几乎不点名机构，且常引用过时政策；③ <b>补料</b>：做考试政策解读、时间线规划、班型对比与适配人群分析，并标注更新时间；④ <b>提案话术</b>：教育客单高、口碑敏感，卖「AI 答案里的专业性与信息时效性」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与政策信息准确率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（教育与职业培训）",
-        "body": "<p>从「怎么备考」到「选哪家机构」，教育是全场景被 AI 搜索影响的品类。政策与时间线变化快，AI 答案经常过时——信息时效性就是最直接的切入口。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>新东方</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最具知名度的教育品牌之一，俞敏洪创办，业务已从留学培训扩展到素质教育与文旅。</div><div class=\"co-r\"><b>主营业务：</b>留学考试培训、语言培训、国内素质教育、大学生与成人学习、东方甄选电商。</div><div class=\"co-r\"><b>市场与打法：</b>线下网点 + 线上平台双线，品牌认知度极高，近年重心转向素质教育与文旅业务。</div><div class=\"co-r found\"><b>📜 发家史：</b>从出国英语培训起步，靠名师与品牌口碑做成全国性教育机构。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业政策变化后完成大规模转型，把品牌资产迁移到素质教育、直播电商等新业务上。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>新东方在 AI 答案里几乎总被提及，但描述多是「英语培训」这个旧标签；把当下的业务结构、课程变化讲清楚，是老品牌做 AI 信息焕新的典型需求。</div><div class=\"co-r look\"><b>💡 看点：</b>老品牌转型的极限样本，也是「AI 印象滞后」的头号案例。 <button class=\"fam-btn\" data-fp=\"俞敏洪 Yu Minhong\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xdf.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xdf.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中公教育</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内公职类考试培训龙头，北京起家、李永新创办，A 股上市。</div><div class=\"co-r\"><b>主营业务：</b>公务员 / 事业单位 / 教师招录考试培训、职业技能与学历提升培训。</div><div class=\"co-r\"><b>市场与打法：</b>线下网点 + 线上平台，以协议班与大规模师资队伍著称，渠道下沉到县城。</div><div class=\"co-r found\"><b>📜 发家史：</b>从公务员考试图书与培训起步，抓住考公热与下沉市场需求迅速做大。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在政策与竞争变化后调整班型与退费模式，转向稳健经营与线上化。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「考公怎么准备」这类提示词月搜索量极大，AI 却极少点名机构；把考试节点、备考时间线、班型适配人群做成结构化内容，是这个品类最稳的获客方式。</div><div class=\"co-r look\"><b>💡 看点：</b>下沉市场培训连锁的样本，高意图提示词的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.offcn.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.offcn.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>高顿教育</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>上海起家的财经职业教育机构，以财会与金融证书培训见长。</div><div class=\"co-r\"><b>主营业务：</b>CPA / CFA / ACCA / 税务师等财经证书培训、企业财务培训、财经学历项目。</div><div class=\"co-r\"><b>市场与打法：</b>线上课程 + 线下学习中心，面向大学生与职场人群，客单价较高。</div><div class=\"co-r found\"><b>📜 发家史：</b>从财经证书培训这一垂直切口出发，用系统化教研与师资建立口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一证书培训扩展到财经职业教育全链条，并加码企业培训与国际化项目。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>证书类培训的提示词意图极其明确（「CPA 和税务师先考哪个」），但 AI 极少推荐具体机构；用考试路径规划、难度对比、时间成本分析这类内容切入，转化效率远高于投放。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直证书培训的样本，决策路径型内容的最佳场景。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.gaodun.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.gaodun.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>粉笔</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>以线上题库与低价课起家的公职考试培训机构，港股上市，主打年轻用户。</div><div class=\"co-r\"><b>主营业务：</b>公考 / 事业单位 / 教师招录线上课程、题库 App、图书与线下班。</div><div class=\"co-r\"><b>市场与打法：</b>以 App 与线上课程为核心获客入口，用低价与内容吸引年轻考生，线下轻资产补充。</div><div class=\"co-r found\"><b>📜 发家史：</b>用免费题库与线上系统课切走线下巨头的份额，靠产品体验与性价比突围。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业调整期收缩线下、强化线上与 AI 功能，把效率做成竞争力。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>粉笔本身就在做 AI 功能，理应最懂 AI 内容；把题库里的高频问题整理成公开问答页，能同时吃到搜索与 AI 推荐两边的流量。</div><div class=\"co-r look\"><b>💡 看点：</b>线上化逆袭线下巨头的样本，内容资产化的天然优势方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fenbi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fenbi.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 11 · AI 搜索可见性企业",
-    "tag": "第11天 · 房产与家装家居",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「深圳二手房怎么买」「全屋定制哪个牌子好」「装修预算怎么做」问豆包、DeepSeek、小红书 AI，看平台与品牌谁被点名；② <b>找缺口</b>：房产家装决策周期长、金额大，AI 回答多为通用流程科普，几乎不涉及具体平台与品牌；③ <b>补料</b>：做流程节点、费用清单、避坑指南、品牌工艺对比，并标明城市与更新时间；④ <b>提案话术</b>：这是客单价最高的品类，卖「AI 答案里的专业可信度」，一次推荐价值远超点击；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（房产与家装家居）",
-        "body": "<p>买房装修是普通人最大的一笔消费，决策前一定会反复问 AI。目前 AI 在这一品类大多只给通用流程，谁先把本地化、可执行的细节做出来，谁就占据答案。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>贝壳找房</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最大的房产交易与居住服务平台之一，左晖创办，链家与贝壳体系的核心平台。</div><div class=\"co-r\"><b>主营业务：</b>二手房 / 新房 / 租房交易服务、家装家居、房产经纪加盟平台。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台 + 线下门店网络，以真房源与经纪人协作网络（ACN）为核心壁垒。</div><div class=\"co-r found\"><b>📜 发家史：</b>从链家线下中介起步，用真房源与标准化服务建立信任，再做开放平台。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从线下中介转型为平台型公司，用数据与规则重构行业分工，并延伸至家装家居。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「买房要注意什么」「二手房交易流程」这类提示词量极大，AI 常给通用清单；把本地化流程、税费清单、避坑要点做成结构化内容，是这个平台最值得做的 GEO 资产。</div><div class=\"co-r look\"><b>💡 看点：</b>线下重资产平台化的样本，本地化内容的最佳战场。 <button class=\"fam-btn\" data-fp=\"左晖 Zuo Hui\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ke.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ke.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>欧派家居</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>广州起家、姚良松创办的定制家居龙头，橱柜起家、全屋定制领先。</div><div class=\"co-r\"><b>主营业务：</b>橱柜、衣柜、全屋定制、木门、卫浴与整装服务。</div><div class=\"co-r\"><b>市场与打法：</b>全国经销商门店 + 整装渠道 + 大宗业务，以规模化制造与渠道深度著称。</div><div class=\"co-r found\"><b>📜 发家史：</b>从橱柜单品切入定制家居，抓住房地产与家装升级的红利迅速扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单品类做到全屋定制与整装，用供应链与信息化系统支撑大规模非标交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「全屋定制怎么选板材」「欧派和索菲亚哪个好」是典型对比型提示词；把板材、五金、工艺、交付周期讲清楚并做成对比内容，能直接影响高客单决策。</div><div class=\"co-r look\"><b>💡 看点：</b>定制家居规模化的样本，对比型内容的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.oppein.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.oppein.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>居然智家</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内家居建材卖场龙头之一，北京起家、汪林朋创办，近年转型智能家居与产业服务平台。</div><div class=\"co-r\"><b>主营业务：</b>家居建材卖场运营、招商与物业管理、家装与智能家居服务、数字化平台。</div><div class=\"co-r\"><b>市场与打法：</b>以全国连锁卖场为核心，向智能家居与产业互联网方向转型。</div><div class=\"co-r found\"><b>📜 发家史：</b>从家居建材卖场起家，靠连锁规模与商户资源做成行业基础设施。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在地产周期与渠道变化下推进数字化转型，把卖场升级为智能家居体验与服务平台。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>卖场型品牌的 AI 存在感极弱，用户问「买家具去哪」得到的常是通用建议；把品牌入驻、品类���购、服务承诺做成结构化内容，是线下卖场少有的线上增量口子。</div><div class=\"co-r look\"><b>💡 看点：</b>线下卖场转型产业平台的样本。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.juran.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.juran.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>尚品宅配</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>广州起家、李连柱创办的定制家居品牌，以数字化与整装模式著称。</div><div class=\"co-r\"><b>主营业务：</b>全屋定制、整装、配套家居、智能家居；以软件设计与数字化生产见长。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 加盟门店，用免费设计与数字化方案获客，主打整装一站式。</div><div class=\"co-r found\"><b>📜 发家史：</b>从家装设计软件切入家居零售，用数字化能力重新设计消费流程。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从软件与定制家具走向整装，用 IT 系统串联设计、生产与交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>尚品宅配本身有很强的数字化内容生产能力，却很少对外沉淀；把户型改造、空间利用、预算分配这类实用内容开放出来，是它最自然的 GEO 路径。</div><div class=\"co-r look\"><b>💡 看点：</b>数字化驱动的家居品牌，内容资产化的天然优势方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.spzp.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.spzp.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 12 · AI 搜索可见性企业",
-    "tag": "第12天 · 汽车与新能源车",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「30 万买什么车」「增程和插混怎么选」「家用七座推荐」问豆包、DeepSeek、Kimi，看谁被点名、参数是否准确；② <b>找缺口</b>：车型配置更新快，AI 常给过时价格与配置，且常引境外媒体；③ <b>补料</b>：做配置对比表、用车场景分析、能耗与补能实测，并标明更新月份；④ <b>提案话术</b>：汽车是客单天花板，卖「AI 答案里的车型推荐位次与参数准确率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌与车型被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（汽车与新能源车）",
-        "body": "<p>「XX 预算买什么车」是 AI 搜索最典型的高意图问题。车型迭代快、参数复杂，AI 答案经常过时或张冠李戴——这正是车企最愿意付费修正的地方。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>比亚迪 BYD</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球新能源汽车销量领先的中国车企，深圳起家、王传福创办，垂直整合能力极强。</div><div class=\"co-r\"><b>主营业务：</b>新能源乘用车与商用车、动力电池、半导体与电子制造；王朝网、海洋网、腾势、仰望等品牌矩阵。</div><div class=\"co-r\"><b>市场与打法：</b>以自研电池与三电系统为基础，覆盖从家用到豪华的全价格带，国内外市场同步扩张。</div><div class=\"co-r found\"><b>📜 发家史：</b>从充电电池制造起步，进入汽车行业后用垂直整合把成本与技术优势做到极致。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>全面转向新能源，凭 DM 混动与刀片电池两大技术路线实现销量跃升，并加速出海。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>比亚迪的车型命名与配置更新极快，AI 回答里常出现已停产车型和旧价格；把在售车型矩阵与配置差异做成可维护的结构化内容，是它最实际也最持续的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直整合的极致样本，车型信息保鲜的典型需求方。 <button class=\"fam-btn\" data-fp=\"王传福 Wang Chuanfu\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.byd.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.byd.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>理想汽车 Li Auto</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以增程与家庭定位切入的新势力车企，李想创办，主打大六座家用 SUV。</div><div class=\"co-r\"><b>主营业务：</b>增程电动 SUV 与 MPV、智能座舱与辅助驾驶；招牌：L 系列、MEGA。</div><div class=\"co-r\"><b>市场与打法：</b>直营门店 + 线上订单，产品定义极度聚焦家庭用户，单品爆款策略。</div><div class=\"co-r found\"><b>📜 发家史：</b>从单一增程大六座 SUV 切入，用精准的家庭场景定义避开与纯电的正面竞争。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>凭一款产品打穿家庭增程市场后横向扩展产品线，成为新势力中率先稳定盈利的一家。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「家里有娃买什么车」这类场景化提示词几乎是理想的主场，但 AI 很少把场景与车型对上号；把家庭场景、空间布局、续航焦虑解法做成内容，能直接命中高转化提示词。</div><div class=\"co-r look\"><b>💡 看点：</b>场景定义产品的教科书，场景型提示词的最佳案例。 <button class=\"fam-btn\" data-fp=\"李想 Li Xiang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.lixiang.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.lixiang.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>小鹏汽车 XPENG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以智能化与辅助驾驶为标签的新势力车企，何小鹏创办，广州为基地。</div><div class=\"co-r\"><b>主营业务：</b>纯电轿车与 SUV、智能驾驶系统、飞行汽车与机器人等前沿业务。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 经销混合渠道，以智驾技术与科技形象吸引年轻用户，近年加速出海。</div><div class=\"co-r found\"><b>📜 发家史：</b>以互联网与智能化基因进入造车，把辅助驾驶作为核心差异化。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>经历产品与组织调整后，靠新平台与智驾能力重回增长，并布局出海与前沿硬件。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>智驾是最容易被 AI 问到也最容易说错的领域；把智驾能力边界、开通城市、使用条件讲清楚，既修正信息偏差，也建立技术可信度。</div><div class=\"co-r look\"><b>💡 看点：</b>技术标签驱动的车企，术语解释类内容的刚需方。 <button class=\"fam-btn\" data-fp=\"何小鹏 He Xiaopeng\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xiaopeng.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xiaopeng.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>蔚来 NIO</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>以用户服务与换电模式著称的高端新势力车企，李斌创办。</div><div class=\"co-r\"><b>主营业务：</b>高端纯电车型、换电站与补能网络、用户社区与服务体系、子品牌乐道与萤火虫。</div><div class=\"co-r\"><b>市场与打法：</b>直营 + 用户社区运营，以换电与服务体验建立高端心智，多品牌覆盖更宽价格带。</div><div class=\"co-r found\"><b>📜 发家史：</b>从高端纯电 SUV 起步，用服务体系与换电模式做差异化竞争。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在盈利压力下推进多品牌战略与换电网络开放，把补能资产变成可对外输出的生意。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「换电到底靠不靠谱」是高频争议问题，AI 回答往往含糊；把换电原理、覆盖范围、成本对比做成中性科普，是蔚来最典型的 GEO 内容缺口。</div><div class=\"co-r look\"><b>💡 看点：</b>服务体系驱动的高端化样本，争议型提示词的战场。 <button class=\"fam-btn\" data-fp=\"李斌 Li Bin\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nio.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nio.com</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 13 · AI 搜索可见性企业",
-    "tag": "第13天 · 旅游出行与免税",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「三亚住哪个湾区好」「日本七日游怎么安排」「免税店买什么划算」问豆包、DeepSeek、Kimi，看平台与品牌谁被点名；② <b>找缺口</b>：旅游信息时效性强（签证、价格、政策），AI 常给过时内容，且很少点名具体品牌；③ <b>补料</b>：做行程模板、区域对比、费用清单与避坑提示，并标明更新时间；④ <b>提案话术</b>：旅游决策链条长且金额不低，卖「AI 答案里的最新信息与品牌提及率」；⑤ <b>复盘</b>：每月固定 20 条提示词跑一遍，记录品牌被提及率与信息时效。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（旅游出行与免税）",
-        "body": "<p>行程规划是 AI 最天然的应用场景之一，也正在快速取代传统搜索。这个品类信息更新快、决策链条长，谁能给 AI 提供最新最准的内容，谁就被写进行程里。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>携程集团 Trip.com</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国最大的在线旅游平台之一，上海起家、梁建章创办，旗下携程、去哪儿、Trip.com 多品牌。</div><div class=\"co-r\"><b>主营业务：</b>机票酒店预订、旅游度假、商旅管理、火车票与门票、入境游服务。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台为主，覆盖国内外全场景，国际化业务由 Trip.com 承担。</div><div class=\"co-r found\"><b>📜 发家史：</b>从机票与酒店预订起步，靠呼叫中心与标准化服务建立早期口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>通过并购与整合成为行业龙头，随后推进国际化与 AI 化，把服务做成核心壁垒。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>用户问 AI「XX 城市住哪里方便」时，AI 常给通用区域建议而不提平台；把区域住宿指南、交通接驳、行程模板做成可引用内容，是把 AI 流量接住的关键动作。</div><div class=\"co-r look\"><b>💡 看点：</b>OTA 平台化的样本，行程型内容的天然主场。 <button class=\"fam-btn\" data-fp=\"梁建章 Liang Jianzhang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.trip.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.trip.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>华住会 Huazhu</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国规模领先的酒店集团之一，季琦创办，旗下汉庭、全季、桔子、禧玥等品牌。</div><div class=\"co-r\"><b>主营业务：</b>经济型到中高端酒店连锁、会员体系与直销平台。</div><div class=\"co-r\"><b>市场与打法：</b>加盟为主 + 强会员体系，以高密度布点和标准化运营著称，直销占比高。</div><div class=\"co-r found\"><b>📜 发家史：</b>从经济型酒店切入，抓住商旅住宿标准化与连锁化的红利迅速扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从中低端向上延伸到中高端与高端，并用会员体系把流量从 OTA 手里收回。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「出差住哪个酒店品牌性价比高」这类提示词决策意图很强，但 AI 很少按品牌档次讲清楚；把品牌梯度、适用场景、会员权益做成结构化内容，能直接带动直销。</div><div class=\"co-r look\"><b>💡 看点：</b>会员体系反制 OTA 的样本，品牌梯度内容的缺口方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.huazhu.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.huazhu.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>亚朵 Atour</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>以「住宿 + 阅读 + 属地文化」为特色的中高端酒店品牌，上海起家、王海军创办。</div><div class=\"co-r\"><b>主营业务：</b>中高端连锁酒店、会员与零售（枕头、洗护等）、文化空间运营。</div><div class=\"co-r\"><b>市场与打法：</b>加盟扩张 + 会员体系 + 零售业务，主打商旅与新中产人群。</div><div class=\"co-r found\"><b>📜 发家史：</b>用人文与阅读体验切入同质化严重的中端酒店市场，做出鲜明品牌调性。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>把住宿体验延伸到零售，用「睡个好觉」的产品逻辑做出第二增长曲线。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>亚朵的品牌故事很清晰，但 AI 回答里几乎没有它的位置；把属地文化、睡眠体验、商旅适配这些差异化点做成内容，是中小品牌低成本进入 AI 答案的路径。</div><div class=\"co-r look\"><b>💡 看点：</b>体验差异化驱动的品牌，中小酒店集团 GEO 的样板。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yaduo.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yaduo.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>中国中免 CDFG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国免税行业龙头，业务覆盖机场、口岸、市内免税店与海南离岛免税。</div><div class=\"co-r\"><b>主营业务：</b>免税商品零售（香化、精品、烟酒、食品）、离岛免税与机场免税运营。</div><div class=\"co-r\"><b>市场与打法：</b>以海南离岛免税与核心机场口岸为核心场景，牌照壁垒是其最大优势。</div><div class=\"co-r found\"><b>📜 发家史：</b>依托牌照与渠道资源，在国内免税市场开放过程中成长为行业龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>海南离岛免税政策红利叠加消费回流，推动其规模跃居全球免税行业前列。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「免税店买什么最划算」「离岛免税政策是什么」是高频问题，而政策细节 AI 经常说错；把政策、额度、提货方式做成准确且持续更新的内容，是这个品类最硬的 GEO 需求。</div><div class=\"co-r look\"><b>💡 看点：</b>牌照壁垒型零售的样本，政策信息准确性的刚需方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.cdfg.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.cdfg.com.cn</a></div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 14 · AI 搜索可见性企业",
-    "tag": "第14天 · B2B 与工业制造",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这份清单",
-        "body": "<p>① <b>先自查</b>：用「工业品采购平台哪个好」「工厂自动化改造找哪家」「MRO 采购怎么降本」问 ChatGPT、豆包、百度 AI，看中国 B2B 企业谁被点名；② <b>找缺口</b>：B2B 采购决策专业度高，AI 答案常引境外资料或泛泛而谈；③ <b>补料</b>：做产品选型手册、行业解决方案、案例数据与术语百科，AI 极爱引用结构化专业内容；④ <b>提案话术</b>：B2B 单客价值高、决策链长，卖「AI 答案里的专业可信度与选型位次」；⑤ <b>复盘</b>：每月固定 20 条中英文提示词跑一遍，记录品牌被提及率。</p>"
-      },
-      {
-        "h": "今日推荐 · 4 家（B2B 与工业制造）",
-        "body": "<p>B2B 采购是 AI 搜索渗透最快、却最少被中国品牌重视的领域。工程师与采购经理已经开始问 AI 选型，而答案里几乎没有中国企业的身影。</p>\n        <div class=\"co\"><div class=\"co-h\"><b>震坤行 ZKH</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>国内领先的 MRO 工业用品采购服务平台，上海起家、陈龙创办，纽交所上市。</div><div class=\"co-r\"><b>主营业务：</b>工业用品（工具、劳保、备件、化学品等）一站式采购、供应链与仓储服务。</div><div class=\"co-r\"><b>市场与打法：</b>线上平台 + 自营仓储物流，服务制造业与大型企业客户，主打降本与合规。</div><div class=\"co-r found\"><b>📜 发家史：</b>从传统工业品经销转型数字化平台，用一站式采购解决企业采购零散低效的痛点。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>用数字化与自营供应链把非标、长尾的 MRO 品类标准化，做成规模化平台生意。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>「MRO 采购怎么降本」这类提示词几乎全被境外内容占据；把品类目录、选型要点、采购流程做成中文结构化内容，是这个赛道最容易吃到红利的动作。</div><div class=\"co-r look\"><b>💡 看点：</b>工业品数字化采购的样本，B2B GEO 的蓝海赛道。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.zkh.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.zkh.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>三一重工 SANY</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国工程机械龙头，长沙起家、梁稳根创办，混凝土机械与挖掘机全球领先。</div><div class=\"co-r\"><b>主营业务：</b>混凝土机械、挖掘机械、起重机械、路面机械、港口与风电设备。</div><div class=\"co-r\"><b>市场与打法：</b>国内渠道 + 海外子公司与本地化生产，近年大力推进数字化与电动化。</div><div class=\"co-r found\"><b>📜 发家史：</b>从焊接材料厂起步进入工程机械，靠产品可靠性与服务在国内市场站稳。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>通过海外并购与全球化布局，把中国工程机械卖到全球主要市场。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外客户问 AI「which excavator brand is reliable」时，三一很少出现在答案里；用多语种的工况案例、设备参数、服务网络内容去补，是出海 B2B 最值得投入的 GEO 项目。</div><div class=\"co-r look\"><b>💡 看点：</b>中国制造全球化的样本，出海 B2B 内容缺口的典型。 <button class=\"fam-btn\" data-fp=\"梁稳根 Liang Wengen\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sany.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sany.com.cn</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>徐工机械 XCMG</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国工程机械龙头之一，徐州起家，产品覆盖起重、挖掘、道路与矿山机械。</div><div class=\"co-r\"><b>主营业务：</b>汽车起重机、挖掘机、装载机、道路机械、矿山机械与港口机械。</div><div class=\"co-r\"><b>市场与打法：</b>国内渠道 + 海外营销网络与本地化制造，近年加码数字化与新能源产品。</div><div class=\"co-r found\"><b>📜 发家史：</b>作为老牌国企背景的工程机械企业，靠产品线宽度与制造能力持续扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>在行业周期波动中推进国际化与产品升级，稳居全球工程机械第一梯队。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>徐工的产品线极宽，但 AI 几乎无法说清它的能力范围；把产品矩阵、应用场景、海外服务网络整理成结构化内容，能明显提升在国际采购决策中的曝光。</div><div class=\"co-r look\"><b>💡 看点：</b>产品线宽度优势被低估的典型，结构化内容的强需求方。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xcmg.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xcmg.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>汇川技术 Inovance</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>深圳起家、朱兴明创办的工业自动化与电驱系统企业，国产替代的核心力量。</div><div class=\"co-r\"><b>主营业务：</b>变频器、伺服系统、PLC、电驱与电源、工业机器人与智能装备。</div><div class=\"co-r\"><b>市场与打法：</b>以行业解决方案 + 客户定制为打法，覆盖电梯、锂电、光伏、汽车等多个行业。</div><div class=\"co-r found\"><b>📜 发家史：</b>创始团队出自变频器领域，用技术与服务响应速度切入被外资品牌垄断的自动化市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单一变频器扩展到自动化全栈能力，并抓住新能源与智能制造红利实现高速增长。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>自动化选型是极专业的长尾问题，工程师会直接问 AI 参数与兼容性；把选型手册、应用案例、技术术语做成可引用内容，是这个品类最精准的获客方式。</div><div class=\"co-r look\"><b>💡 看点：</b>国产替代的标杆，长尾技术型提示词的富矿。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.inovance.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.inovance.com</a></div></div>"
-      }
-    ]
-  }
-],
-
+    {
+      "title": "Day 1 · GEO 藏宝图",
+      "tag": "第1天 · 出海消费电子品牌",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（出海消费电子品牌）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>华为 Huawei</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球最大通信设备商；1987｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>运营商设备、手机、鸿蒙、海思芯片　招牌：5G、Mate 系列</div><div class=\"co-r\"><b>市场与打法：</b>研发驱动+全员持股；极限施压下推「备胎计划」自研芯片与系统</div><div class=\"co-r found\"><b>📜 发家史：</b>1987 年任正非在深圳以 2.1 万元代理交换机起家，一路做成全球通信龙头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2019 年后遭遇断供，海思与鸿蒙从备胎转正，国产替代标杆。</div><div class=\"co-r look\"><b>💡 看点：</b>深圳走出的硬核样本，备胎计划值得每个做制造的人研究。 <button class=\"fam-btn\" data-fp=\"任正非 Ren Zhengfei\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.huawei.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.huawei.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>影石 Insta360</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全景/运动相机全球新锐；2015｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>全景相机、运动相机、AI 影像</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年刘靖康在深圳创办，凭 ONE X 系列在海外社媒打开局面。</div><div class=\"co-r look\"><b>💡 看点：</b>把传播力当产品指标，是 90 后出海代表。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>大疆 DJI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>消费级无人机全球绝对龙头；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>无人机、手持云台、行业应用</div><div class=\"co-r found\"><b>📜 发家史：</b>2006 年汪滔在深圳创办，2013 年精灵 Phantom 把航拍变大众消费品。</div><div class=\"co-r look\"><b>💡 看点：</b>用极致工程洁癖定义一个品类。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>安克 Anker</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>充电配件出海标杆；2011｜总部：中国·长沙</div><div class=\"co-r\"><b>主营业务：</b>充电器、音频、智能家居</div><div class=\"co-r found\"><b>📜 发家史：</b>前谷歌工程师阳萌 2011 年回国创办，从亚马逊充电配件起家。</div><div class=\"co-r look\"><b>💡 看点：</b>先做品类第一再滚雪雪球的范本。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 2 · GEO 藏宝图",
+      "tag": "第2天 · 便携储能与光储出海",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（便携储能与光储出海）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>小米 Xiaomi</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球前三智能手机+AIoT 生态；2010｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>手机、IoT、汽车　招牌：SU7、米家生态</div><div class=\"co-r\"><b>市场与打法：</b>互联网直销+极致性价比+生态链投资</div><div class=\"co-r found\"><b>📜 发家史：</b>2010 年雷军创立，用性价比改写手机行业格局。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2024 年 SU7 上市即成现象级，跨界造车三年落地。</div><div class=\"co-r look\"><b>💡 看点：</b>把发布会做成渠道，参数公开、价格透明，是产品方法论样本。 <button class=\"fam-btn\" data-fp=\"雷军 Lei Jun\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mi.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>添可 Tineco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能清洁电器；1998 品牌创立｜总部：中国·苏州</div><div class=\"co-r\"><b>主营业务：</b>洗地机、智能料理机</div><div class=\"co-r found\"><b>📜 发家史：</b>科沃斯旗下高端品牌，用智能交互切入欧美。</div><div class=\"co-r look\"><b>💡 看点：</b>传统制造做品牌升级的范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>极米 XGIMI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能投影龙头；2013｜总部：中国·成都</div><div class=\"co-r\"><b>主营业务：</b>家用投影、无屏电视</div><div class=\"co-r found\"><b>📜 发家史：</b>钟波 2013 年提出「无屏电视」，把投影搬进客厅。</div><div class=\"co-r look\"><b>💡 看点：</b>把专业设备做成家电。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>传音 Transsion</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>非洲手机之王；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>手机、家电、售后服务</div><div class=\"co-r found\"><b>📜 发家史：</b>专攻新兴市场，深谙本地化（深肤色美颜、多卡多待）。</div><div class=\"co-r look\"><b>💡 看点：</b>被忽视的十亿级市场打法。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 3 · GEO 藏宝图",
+      "tag": "第3天 · 跨境 DTC 服饰与时尚",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（跨境 DTC 服饰与时尚）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>阿里巴巴 Alibaba</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国电商与云计算双巨头；1999｜总部：中国·杭州</div><div class=\"co-r\"><b>主营业务：</b>淘宝天猫、阿里云、国际站　招牌：双11、通义千问</div><div class=\"co-r\"><b>市场与打法：</b>平台+云+出海；速卖通与阿里国际站做跨境</div><div class=\"co-r found\"><b>📜 发家史：</b>1999 年马云在杭州湖畔花园创业，从 B2B 黄页起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2009 年推阿里云，2023 年后重注 AI，通义大模型全面铺开。</div><div class=\"co-r look\"><b>💡 看点：</b>阿里国际站是中国出海卖家的早期摇篮，值得做外贸的反复研究。 <button class=\"fam-btn\" data-fp=\"马云 Jack Ma\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.alibabagroup.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.alibabagroup.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>TCL</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>电视与面板双线；1981｜总部：中国·惠州</div><div class=\"co-r\"><b>主营业务：</b>TV、面板、家电</div><div class=\"co-r found\"><b>📜 发家史：</b>从磁带小厂到全球 TV 前列，华星光电补齐面板。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直整合对抗周期。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>美的 Midea</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>白电与机器人综合集团；1968｜总部：中国·佛山</div><div class=\"co-r\"><b>主营业务：</b>空调、家电、库卡机器人</div><div class=\"co-r found\"><b>📜 发家史：</b>从乡镇小厂到全球家电前列，收购东芝白电、库卡。</div><div class=\"co-r look\"><b>💡 看点：</b>并购+数字化出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>海尔 Haier</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球家电品牌；1984｜总部：中国·青岛</div><div class=\"co-r\"><b>主营业务：</b>冰箱、洗衣机、智慧家居</div><div class=\"co-r found\"><b>📜 发家史：</b>从亏空小厂到收购 GE 家电、斐雪派克。</div><div class=\"co-r look\"><b>💡 看点：</b>人单合一模式出海。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 4 · GEO 藏宝图",
+      "tag": "第4天 · 智能家居与清洁电器",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（智能家居与清洁电器）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>京东 JD</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>自营电商与物流标杆；1998｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>自营零售、京东物流、工业　招牌：211 限时达</div><div class=\"co-r\"><b>市场与打法：</b>重资产自建物流，正品+快送体验</div><div class=\"co-r found\"><b>📜 发家史：</b>1998 年刘强东中关村卖光磁起家，2004 年转线上。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2007 年自建物流，把履约体验做成护城河。</div><div class=\"co-r look\"><b>💡 看点：</b>自营+物流模型，是品牌出海可借鉴的履约样本。 <button class=\"fam-btn\" data-fp=\"刘强东 Liu Qiangdong\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jd.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jd.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>OPPO</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球手机主力；2004｜总部：中国·东莞</div><div class=\"co-r\"><b>主营业务：</b>智能手机、影像、IoT</div><div class=\"co-r found\"><b>📜 发家史：</b>从 MP3 到手机，靠线下+影像深耕东南亚南亚。</div><div class=\"co-r look\"><b>💡 看点：</b>渠道深耕型出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>vivo</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球手机主力；2009｜总部：中国·东莞</div><div class=\"co-r\"><b>主营业务：</b>智能手机、影像</div><div class=\"co-r found\"><b>📜 发家史：</b>与 OPPO 同源，深耕线下与影像。</div><div class=\"co-r look\"><b>💡 看点：</b>同生态双品牌全球打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>绿联 UGREEN</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数码配件出海品牌；2012｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>扩展坞、线材、充电</div><div class=\"co-r found\"><b>📜 发家史：</b>从 3C 配件到 NAS、储能，渠道覆盖亚马逊全球。</div><div class=\"co-r look\"><b>💡 看点：</b>小而美配件品牌升级。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 5 · GEO 藏宝图",
+      "tag": "第5天 · 本地生活与连锁餐饮",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（本地生活与连锁餐饮）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>美团 Meituan</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>本地生活服务超级平台；2010｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>外卖、到店、即时零售、骑行　招牌：美团闪购</div><div class=\"co-r\"><b>市场与打法：</b>地推铁军+算法调度，做本地即时网络</div><div class=\"co-r found\"><b>📜 发家史：</b>2010 年王兴从团购起家，合并大众点评成霸主。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从团购到外卖再到即时零售，边界持续扩张。</div><div class=\"co-r look\"><b>💡 看点：</b>本地生活的履约密度，对中国商家出海做同城配送有参照。 <button class=\"fam-btn\" data-fp=\"王兴 Wang Xing\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.meituan.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.meituan.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>公牛 Bull</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>电工与连接器龙头；1995｜总部：中国·宁波</div><div class=\"co-r\"><b>主营业务：</b>插座、开关、新能源</div><div class=\"co-r found\"><b>📜 发家史：</b>把插座做成安全心智第一。</div><div class=\"co-r look\"><b>💡 看点：</b>品类冠军的渠道壁垒。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>名创优品 MINISO</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>生活百货全球连锁；2013｜总部：中国·广州</div><div class=\"co-r\"><b>主营业务：</b>家居、美妆、文创</div><div class=\"co-r found\"><b>📜 发家史：</b>高频上新+ IP 联名，海外门店快速铺开。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链+IP 的零售出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>泡泡玛特 POP MART</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>潮玩 IP 龙头；2010｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>盲盒、艺术家 IP</div><div class=\"co-r found\"><b>📜 发家史：</b>把潮玩做成全球年轻人的情绪消费。</div><div class=\"co-r look\"><b>💡 看点：</b>中国 IP 出海破圈样本。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 6 · GEO 藏宝图",
+      "tag": "第6天 · 美妆个护国货品牌",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（美妆个护国货品牌）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>拼多多 Pinduoduo</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>极致性价比电商；2015｜总部：中国·上海</div><div class=\"co-r\"><b>主营业务：</b>拼团电商、Temu 出海　招牌：百亿补贴、Temu</div><div class=\"co-r\"><b>市场与打法：</b>社交拼团+农业直连+低价供给</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年黄峥创立，用拼团切下沉市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2022 年 Temu 出海北美，廉价供给横扫海外。</div><div class=\"co-r look\"><b>💡 看点：</b>Temu 是中国供应链出海最猛的样本之一。 <button class=\"fam-btn\" data-fp=\"黄峥 Colin Huang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.pinduoduo.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.pinduoduo.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>希音 SHEIN</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>跨境快时尚巨头；2008｜总部：新加坡(中国团队)</div><div class=\"co-r\"><b>主营业务：</b>女装、服饰全品类</div><div class=\"co-r found\"><b>📜 发家史：</b>小单快返柔性供应链，TikTok 引爆全球。</div><div class=\"co-r look\"><b>💡 看点：</b>实时数据驱动的超快反供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>花西子 Florasis</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>东方彩妆品牌；2017｜总部：中国·杭州</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤</div><div class=\"co-r found\"><b>📜 发家史：</b>以东方美学+社媒打法出海东亚东南亚。</div><div class=\"co-r look\"><b>💡 看点：</b>文化美学赋能品牌出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>完美日记 Perfect Diary</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数字化美妆品牌；2017｜总部：中国·广州</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤</div><div class=\"co-r found\"><b>📜 发家史：</b>DTC+私域起家，母公司逸仙拓展多品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>DTC 打法出海参照。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 7 · GEO 藏宝图",
+      "tag": "第7天 · 母婴与宠物消费",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（母婴与宠物消费）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>农夫山泉 Nongfu</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中国包装水与饮料龙头；1996｜总部：中国·杭州</div><div class=\"co-r\"><b>主营业务：</b>饮用水、茶π、东方树叶　招牌：天然水</div><div class=\"co-r\"><b>市场与打法：</b>水源地品牌+广告心智占领</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年钟睒睒做保健品起家，后转饮用水。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>东方树叶无糖茶逆袭，押中健康趋势。</div><div class=\"co-r look\"><b>💡 看点：</b>把「天然」做成溢价，品牌功底很深。 <button class=\"fam-btn\" data-fp=\"钟睒睒 Zhong Shanshan\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nongfuspring.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nongfuspring.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>TCL</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>电视与面板双线；1981｜总部：中国·惠州</div><div class=\"co-r\"><b>主营业务：</b>TV、面板、家电</div><div class=\"co-r found\"><b>📜 发家史：</b>从磁带小厂到全球 TV 前列，华星光电补齐面板。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直整合对抗周期。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>美的 Midea</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>白电与机器人综合集团；1968｜总部：中国·佛山</div><div class=\"co-r\"><b>主营业务：</b>空调、家电、库卡机器人</div><div class=\"co-r found\"><b>📜 发家史：</b>从乡镇小厂到全球家电前列，收购东芝白电、库卡。</div><div class=\"co-r look\"><b>💡 看点：</b>并购+数字化出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>海尔 Haier</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球家电品牌；1984｜总部：中国·青岛</div><div class=\"co-r\"><b>主营业务：</b>冰箱、洗衣机、智慧家居</div><div class=\"co-r found\"><b>📜 发家史：</b>从亏空小厂到收购 GE 家电、斐雪派克。</div><div class=\"co-r look\"><b>💡 看点：</b>人单合一模式出海。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 8 · GEO 藏宝图",
+      "tag": "第8天 · 跨境 SaaS 与工具类",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（跨境 SaaS 与工具类）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>福耀玻璃 Fuyao</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球汽车玻璃龙头；1987｜总部：中国·福清</div><div class=\"co-r\"><b>主营业务：</b>汽车玻璃、浮法玻璃　招牌：OE 原厂配套</div><div class=\"co-r\"><b>市场与打法：</b>专注主业+全球建厂贴近车厂</div><div class=\"co-r found\"><b>📜 发家史：</b>1987 年曹德旺接手小厂，专注汽车玻璃。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>赴美建厂（代顿），成中美制造合作样本。</div><div class=\"co-r look\"><b>💡 看点：</b>专注主业的长期主义典范。 <button class=\"fam-btn\" data-fp=\"曹德旺 Cao Dewang\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fuyaogroup.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fuyaogroup.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>影石 Insta360</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全景/运动相机全球新锐；2015｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>全景相机、运动相机、AI 影像</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年刘靖康在深圳创办，凭 ONE X 系列在海外社媒打开局面。</div><div class=\"co-r look\"><b>💡 看点：</b>把传播力当产品指标，是 90 后出海代表。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>大疆 DJI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>消费级无人机全球绝对龙头；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>无人机、手持云台、行业应用</div><div class=\"co-r found\"><b>📜 发家史：</b>2006 年汪滔在深圳创办，2013 年精灵 Phantom 把航拍变大众消费品。</div><div class=\"co-r look\"><b>💡 看点：</b>用极致工程洁癖定义一个品类。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>安克 Anker</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>充电配件出海标杆；2011｜总部：中国·长沙</div><div class=\"co-r\"><b>主营业务：</b>充电器、音频、智能家居</div><div class=\"co-r found\"><b>📜 发家史：</b>前谷歌工程师阳萌 2011 年回国创办，从亚马逊充电配件起家。</div><div class=\"co-r look\"><b>💡 看点：</b>先做品类第一再滚雪雪球的范本。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 9 · GEO 藏宝图",
+      "tag": "第9天 · 汽车与新能源车",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（汽车与新能源车）",
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>格力电器 Gree</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>空调与家电龙头；1991｜总部：中国·珠海</div><div class=\"co-r\"><b>主营业务：</b>空调、家电、装备　招牌：变频空调</div><div class=\"co-r\"><b>市场与打法：</b>掌握核心科技+线下渠道</div><div class=\"co-r found\"><b>📜 发家史：</b>1991 年起于珠海小厂，董明珠从销售做起。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>渠道变革+多元化，董明珠成企业招牌。</div><div class=\"co-r look\"><b>💡 看点：</b>渠道与话语权案例，女性企业家标杆。 <button class=\"fam-btn\" data-fp=\"董明珠 Dong Mingzhu\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.gree.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.gree.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>添可 Tineco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能清洁电器；1998 品牌创立｜总部：中国·苏州</div><div class=\"co-r\"><b>主营业务：</b>洗地机、智能料理机</div><div class=\"co-r found\"><b>📜 发家史：</b>科沃斯旗下高端品牌，用智能交互切入欧美。</div><div class=\"co-r look\"><b>💡 看点：</b>传统制造做品牌升级的范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>极米 XGIMI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能投影龙头；2013｜总部：中国·成都</div><div class=\"co-r\"><b>主营业务：</b>家用投影、无屏电视</div><div class=\"co-r found\"><b>📜 发家史：</b>钟波 2013 年提出「无屏电视」，把投影搬进客厅。</div><div class=\"co-r look\"><b>💡 看点：</b>把专业设备做成家电。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>传音 Transsion</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>非洲手机之王；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>手机、家电、售后服务</div><div class=\"co-r found\"><b>📜 发家史：</b>专攻新兴市场，深谙本地化（深肤色美颜、多卡多待）。</div><div class=\"co-r look\"><b>💡 看点：</b>被忽视的十亿级市场打法。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 10 · GEO 藏宝图",
+      "tag": "第10天 · 数码配件与影像",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（数码配件与影像）",
+          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>OPPO</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球手机主力；2004｜总部：中国·东莞</div><div class=\"co-r\"><b>主营业务：</b>智能手机、影像、IoT</div><div class=\"co-r found\"><b>📜 发家史：</b>从 MP3 到手机，靠线下+影像深耕东南亚南亚。</div><div class=\"co-r look\"><b>💡 看点：</b>渠道深耕型出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>vivo</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球手机主力；2009｜总部：中国·东莞</div><div class=\"co-r\"><b>主营业务：</b>智能手机、影像</div><div class=\"co-r found\"><b>📜 发家史：</b>与 OPPO 同源，深耕线下与影像。</div><div class=\"co-r look\"><b>💡 看点：</b>同生态双品牌全球打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>绿联 UGREEN</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数码配件出海品牌；2012｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>扩展坞、线材、充电</div><div class=\"co-r found\"><b>📜 发家史：</b>从 3C 配件到 NAS、储能，渠道覆盖亚马逊全球。</div><div class=\"co-r look\"><b>💡 看点：</b>小而美配件品牌升级。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>倍思 Baseus</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>3C 配件设计品牌；2011｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>充电器、车载、音频</div><div class=\"co-r found\"><b>📜 发家史：</b>靠设计感+性价比横扫海外数码配件。</div><div class=\"co-r look\"><b>💡 看点：</b>设计驱动配件出海。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 11 · GEO 藏宝图",
+      "tag": "第11天 · 白电与综合家电",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（白电与综合家电）",
+          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>公牛 Bull</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>电工与连接器龙头；1995｜总部：中国·宁波</div><div class=\"co-r\"><b>主营业务：</b>插座、开关、新能源</div><div class=\"co-r found\"><b>📜 发家史：</b>把插座做成安全心智第一。</div><div class=\"co-r look\"><b>💡 看点：</b>品类冠军的渠道壁垒。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>名创优品 MINISO</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>生活百货全球连锁；2013｜总部：中国·广州</div><div class=\"co-r\"><b>主营业务：</b>家居、美妆、文创</div><div class=\"co-r found\"><b>📜 发家史：</b>高频上新+ IP 联名，海外门店快速铺开。</div><div class=\"co-r look\"><b>💡 看点：</b>供应链+IP 的零售出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>泡泡玛特 POP MART</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>潮玩 IP 龙头；2010｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>盲盒、艺术家 IP</div><div class=\"co-r found\"><b>📜 发家史：</b>把潮玩做成全球年轻人的情绪消费。</div><div class=\"co-r look\"><b>💡 看点：</b>中国 IP 出海破圈样本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>希音 SHEIN</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>跨境快时尚巨头；2008｜总部：新加坡(中国团队)</div><div class=\"co-r\"><b>主营业务：</b>女装、服饰全品类</div><div class=\"co-r found\"><b>📜 发家史：</b>小单快返柔性供应链，TikTok 引爆全球。</div><div class=\"co-r look\"><b>💡 看点：</b>实时数据驱动的超快反供应链。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 12 · GEO 藏宝图",
+      "tag": "第12天 · 潮玩文创与百货",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（潮玩文创与百货）",
+          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>希音 SHEIN</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>跨境快时尚巨头；2008｜总部：新加坡(中国团队)</div><div class=\"co-r\"><b>主营业务：</b>女装、服饰全品类</div><div class=\"co-r found\"><b>📜 发家史：</b>小单快返柔性供应链，TikTok 引爆全球。</div><div class=\"co-r look\"><b>💡 看点：</b>实时数据驱动的超快反供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>花西子 Florasis</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>东方彩妆品牌；2017｜总部：中国·杭州</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤</div><div class=\"co-r found\"><b>📜 发家史：</b>以东方美学+社媒打法出海东亚东南亚。</div><div class=\"co-r look\"><b>💡 看点：</b>文化美学赋能品牌出海。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>完美日记 Perfect Diary</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数字化美妆品牌；2017｜总部：中国·广州</div><div class=\"co-r\"><b>主营业务：</b>彩妆、护肤</div><div class=\"co-r found\"><b>📜 发家史：</b>DTC+私域起家，母公司逸仙拓展多品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>DTC 打法出海参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>九号 Segway-Ninebot</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能短交通龙头；2012｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>电动滑板、平衡车、割草机器人</div><div class=\"co-r found\"><b>📜 发家史：</b>收购 Segway 后成全球短交通核心。</div><div class=\"co-r look\"><b>💡 看点：</b>并购+技术整合出海。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 13 · GEO 藏宝图",
+      "tag": "第13天 · 非洲与新兴市场",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（非洲与新兴市场）",
+          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>影石 Insta360</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全景/运动相机全球新锐；2015｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>全景相机、运动相机、AI 影像</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年刘靖康在深圳创办，凭 ONE X 系列在海外社媒打开局面。</div><div class=\"co-r look\"><b>💡 看点：</b>把传播力当产品指标，是 90 后出海代表。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>大疆 DJI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>消费级无人机全球绝对龙头；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>无人机、手持云台、行业应用</div><div class=\"co-r found\"><b>📜 发家史：</b>2006 年汪滔在深圳创办，2013 年精灵 Phantom 把航拍变大众消费品。</div><div class=\"co-r look\"><b>💡 看点：</b>用极致工程洁癖定义一个品类。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>安克 Anker</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>充电配件出海标杆；2011｜总部：中国·长沙</div><div class=\"co-r\"><b>主营业务：</b>充电器、音频、智能家居</div><div class=\"co-r found\"><b>📜 发家史：</b>前谷歌工程师阳萌 2011 年回国创办，从亚马逊充电配件起家。</div><div class=\"co-r look\"><b>💡 看点：</b>先做品类第一再滚雪雪球的范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>石头 Roborock</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>扫地机器人高端出海代表；2014｜总部：中国·北京</div><div class=\"co-r\"><b>主营业务：</b>扫拖机器人、洗地机</div><div class=\"co-r found\"><b>📜 发家史：</b>2014 年脱胎于小米生态链，凭激光导航做高端。</div><div class=\"co-r look\"><b>💡 看点：</b>硬科技+品牌溢价出海样本。</div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 14 · GEO 藏宝图",
+      "tag": "第14天 · 柔性供应链与快反",
+      "blocks": [
+        {
+          "h": "💡 今日怎么用这份清单",
+          "body": "<p>① 先自查：把「品牌名+品类词」丢进 ChatGPT、Google AI Overview、Perplexity，看 AI 怎么介绍它、引用了哪些来源；② 找缺口：AI 答不上来、参数说错、或只引竞品，就是你的机会；③ 补料：把参数表、对比测评、FAQ 做成结构化内容，铺到 AI 爱引的站点；④ 提案话术：别卖「谷歌排名」，卖「AI 答案里的出现率+引用来源占比」，按季度做前后对比；⑤ 复盘：每月固定 20 条提示词跑一遍，记录品牌被提及率。</p>"
+        },
+        {
+          "h": "今日推荐 · 4 家（柔性供应链与快反）",
+          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>添可 Tineco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能清洁电器；1998 品牌创立｜总部：中国·苏州</div><div class=\"co-r\"><b>主营业务：</b>洗地机、智能料理机</div><div class=\"co-r found\"><b>📜 发家史：</b>科沃斯旗下高端品牌，用智能交互切入欧美。</div><div class=\"co-r look\"><b>💡 看点：</b>传统制造做品牌升级的范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>极米 XGIMI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智能投影龙头；2013｜总部：中国·成都</div><div class=\"co-r\"><b>主营业务：</b>家用投影、无屏电视</div><div class=\"co-r found\"><b>📜 发家史：</b>钟波 2013 年提出「无屏电视」，把投影搬进客厅。</div><div class=\"co-r look\"><b>💡 看点：</b>把专业设备做成家电。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>传音 Transsion</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>非洲手机之王；2006｜总部：中国·深圳</div><div class=\"co-r\"><b>主营业务：</b>手机、家电、售后服务</div><div class=\"co-r found\"><b>📜 发家史：</b>专攻新兴市场，深谙本地化（深肤色美颜、多卡多待）。</div><div class=\"co-r look\"><b>💡 看点：</b>被忽视的十亿级市场打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>海信 Hisense</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>黑电与白电综合巨头；1969｜总部：中国·青岛</div><div class=\"co-r\"><b>主营业务：</b>电视、冰箱、中央空调</div><div class=\"co-r found\"><b>📜 发家史：</b>从 radios 起家，靠体育营销（世界杯）打开全球。</div><div class=\"co-r look\"><b>💡 看点：</b>并购+体育 IP 出海路径。</div></div>"
+        }
+      ]
+    }
+  ],
   "news": [
     {
       "title": "全球供应链的重构",
@@ -1162,9 +1161,8 @@ const CONTENT = {
   ],
   "travel": [
     {
-      "title": "圣雅各朝圣之路 · 法国线 Camino Francés",
-      "tag": "第1天 · 全球徒步路线",
-      "loc": "欧洲-西班牙-加利西亚自治区",
+      "title": "安娜普纳环线 · 尼泊尔 Annapurna Circuit",
+      "loc": "亚洲-尼泊尔-甘达基专区",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1172,39 +1170,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "沿途教堂可参与晚祷，入内请保持安静、脱帽；\"Buen Camino\"是朝圣者互道祝福的通用语。终点圣地亚哥主教座堂周日有朝圣者弥撒，可着徒步装出席；贝壳是朝圣符号，请尊重其宗教含义，勿当普通纪念品戏谑。"
+          "body": "尼泊尔以印度教为主，进寺庙脱鞋、不穿鞋踩门槛；绕佛塔/玛尼堆请顺时针。山区居民多信藏传佛教，拍照先征得同意。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→巴黎/马德里转机到潘普洛纳或法国侧圣让皮耶德波尔，全程约 16-20h，往返机票 ¥5000-9000；也可飞马德里再火车北上。</p>\n\n💰 参考费用（人均）：朝圣客栈 albergue €10-20/晚、餐 €10-15/天；30 天含机票人均约 ¥1.2-2 万。Compostela 证书免费，但需最后 100km 徒步抵达。"
+          "body": "<p>深圳→加德满都（经成都/昆明/广州或曼谷中转），往返机票约 ¥3500-6000；落地后乘车到 Besishahar 开始徒步。</p>\n\n💰 参考费用（人均）：山区客栈 ¥40-90/晚、餐 ¥25-50/天；18 天含机票人均约 ¥9000-14000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "4-6 月：春暖、绿意浓，推荐；9-10 月：秋高气爽、人少；避开 7-8 月酷暑与朝圣旺季"
+          "body": "3-5 月：春暖、高山杜鹃盛开，推荐；10-11 月：秋高气爽、雪山最清晰；避开 6-9 月雨季与 12-2 月严寒。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>总里程约 780km，30-35 天，日均 20-28km，总体起伏平缓。</b></p><ul><li><b>Day1</b>：圣让皮耶德波尔→龙塞斯瓦列斯，约 24km，翻越庇里牛斯山口；⚠️ 海拔骤升+风雨，慢走适应。</li><li><b>Day2</b>：龙塞斯瓦列斯→潘普洛纳，约 21km；⚠️ 古城住宿早订。</li><li><b>Day5+</b>：经布尔戈斯、莱昂、阿斯托加向萨里亚推进；<b>最后 100km（萨里亚→圣地亚哥）约 110km/5 天</b>可拿证书；沿途 albergue 出示 credencial，多 22:00 关门。</li></ul>\n\n🍱 装备与补给：轻装（12-15kg）、贝壳与 credencial 必带；沿途咖啡馆、酒吧补给充足，别错过本地 pintxos。"
+          "body": "<p><b>总里程约 160-230km，12-21 天，翻越 Thorong La 垭口（5416m）。</b></p><ul><li><b>Day1-5</b>：Besishahar→Chame，海拔缓升，河谷与森林。</li><li><b>Day6-10</b>：Chame→Manang，进入高海拔适应区。</li><li><b>Day11-13</b>：翻 Thorong La 到 Muktinath，⚠️ 垭口风大缺氧，早出发。</li><li><b>Day14+</b>：经 Jomsom 飞或乘车撤离。</li></ul>\n\n🍱 补给：山区茶馆解决食宿，能量棒+坚果随身。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返（经欧洲转机）机票 <b>¥6000-9000</b>；albergue 公营 €8-15/晚、私营 €15-30；朝圣者套餐 menú del peregrino €12-15。走完全程 30-35 天 <b>总预算约 ¥25000-35000</b>；只走最后 100km（约 5-6 天）可压到 ¥12000 以内。</p>"
+          "body": "<p>深圳往返机票 <b>¥3500-6000</b>；客栈 ¥40-90/晚、餐 ¥25-50；徒步 12-21 天 <b>总预算约 ¥9000-14000</b>（不含向导）。请背夫/向导另计 ¥200-350/天。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>中世纪古镇（潘普洛纳/布尔戈斯）</b>：👍 历史厚重、配套成熟 ｜ 👎 旺季人挤人 ｜ ⚠️ 住宿早订</li><li><b>里昂河平原葡萄园</b>：👍 风景开阔可品酒 ｜ 👎 夏季暴晒 ｜ ⚠️ 多补水</li><li><b>圣地亚哥大教堂</b>：👍 仪式感强、终点打卡 ｜ 👎 需步行最后 100km 拿证书 ｜ ⚠️ 保管朝圣护照</li></ul>"
+          "body": "<ul><li><b>Thorong La 垭口</b>：👍 5416m 雪域成就感 ｜ 👎 高反风险 ｜ ⚠️ 早出早归</li><li><b>Manang 高原湖泊</b>：👍 蓝湖倒影 ｜ 👎 需适应 ｜ ⚠️ 别跑跳</li><li><b> Muktinath 神庙</b>：👍 印度教佛教交汇 ｜ 👎 人多 ｜ ⚠️ 尊重宗教</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>加利西亚风章鱼 Pulpo a la Gallega（撒甜椒粉，微辣够味）、Bocadillo 火腿三明治（沿途最常见午餐）、Caldo Gallego 蔬菜浓汤、Padrón 小青椒。圣地亚哥杏仁蛋糕 Tarta de Santiago 偏甜，可跳过。</p>"
+          "body": "<p>Dal Bhat（豆汤饭，徒步者主食管饱）、Momo 蒸饺、Thukpa 面汤。正餐偏碳水管饱，辣度适中带点孜然香，饮品自配无糖茶或冰美式。</p>"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 日均 20-25km，<b>脚起水泡是头号敌人</b>——羊毛袜+凡士林+一起泡就处理；② 夏季梅塞塔高原一路无荫极晒，天亮就出发、中午前收工；③ 庇护所先到先得，7-8 月床位紧张；④ 西班牙下午 14-17 点商店午休，补给趁早。</p>"
+          "body": "<p>① <b>高反是头号风险</b>——海拔 3000m 以上每天升幅别超 500m，出现头痛恶心立刻下撤；② 垭口天气多变，防风保暖层必带；③ 现金带够，山区无 ATM；④ 饮用水务必净水片/煮沸，防肠胃病。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 办<b>申根签证</b>（按停留最长国送签，一般是西班牙）；② 出发前领<b>朝圣者护照 Credencial</b>，沿途每天盖章；③ 步行满最后 100km 且有章，可在圣地亚哥朝圣者办公室领 Compostela 证书；④ 查床位用 Gronze 网站、Buen Camino App；⑤ 背包托运 Jacotrans 约 €5-7/段。</p>"
+          "body": "<p>① 持<b>有效期6个月以上护照</b>办尼泊尔落地签或电子签；② 进 Annapurna 保护区办 <b>ACAP 许可</b>与 <b>TIMS 卡</b>（办证点设在加都/博卡拉）；③ 背夫向导可在博卡拉当地旅行社雇佣；④ 离线地图+保险单打印随身。</p>"
         }
       ],
       "images": [
@@ -1215,9 +1213,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "印加古道 · 马丘比丘 Inca Trail",
-      "tag": "第2天 · 全球徒步路线",
-      "loc": "南美-秘鲁-库斯科",
+      "title": "多洛米蒂 · 阿尔塔维亚1 Alta Via 1",
+      "loc": "欧洲-意大利-南蒂罗尔",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1225,39 +1222,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "库斯科及周边多盖丘亚原住民，可用 \"Rimaykullayki\" 问候；古柯叶是当地待客与抗高反习俗，可礼貌接受但不宜过量。马丘比丘等遗址严禁攀爬、刻划；进入村落请先征得同意再拍照。"
+          "body": "南蒂罗尔德语区与意大利语区交融，入山屋（Rifugio）请脱鞋、轻声；垃圾分类严格，请配合屋主。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→利马转库斯科（海拔 3399m，需适应 2 天），再乘车到起点 KM82。往返机票 ¥9000-14000。</p>\n\n💰 参考费用（人均）：强制向导团约 $500-700（含许可 $200+），含背夫、餐食与帐篷。"
+          "body": "<p>深圳→米兰/慕尼黑/威尼斯转火车到 Cortina d'Ampezzo 或 Lago di Braies 起点的公交；往返机票约 ¥5000-9000。</p>\n\n💰 参考费用（人均）：山屋 €30-60/晚、半餐 €15-25；10 天含机票人均约 ¥16000-24000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "5-9 月旱季最佳、路干景明；2 月封路维护；避开雨季（12-3 月）泥泞"
+          "body": "7-9 月：雪线退、步道全开，推荐；6 月与 9 月人少但高垭口仍可能有残雪；避开 10-5 月冬季封山。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>4 天 3 夜约 43km，最高 Warmiwañusca 隘口 4200m。</b></p><ul><li><b>Day1</b>：KM82→瓦伊瓦什，约 11km，渐入云雾森林；⚠️ 起步即适应海拔。</li><li><b>Day2</b>：瓦伊瓦什→帕凯马约，约 12km，翻 4200m 隘口（全程最难）；⚠️ 高反预警。</li><li><b>Day4</b>：Wiñay Wayna→太阳门→马丘比丘，约 5km，凌晨出发看日出；⚠️ 需预约时段。</li></ul>\n\n🍱 装备：帐篷睡袋由背夫扛；自带头灯、保暖层、能量棒；备好高原反应药。"
+          "body": "<p><b>总里程约 120km，8-12 天，多个 2500m+ 垭口。</b></p><ul><li><b>Day1-3</b>：Lago di Braies→Cortina，湖光山色经典段。</li><li><b>Day4-7</b>：翻越几座钢索辅助垭口（Via Ferrata），⚠️ 需安全带与头盔。</li><li><b>Day8-12</b>：抵 Belluno 方向撤离。</li></ul>\n\n🍱 补给：山屋可住宿用餐，自带能量棒与水。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返利马机票 <b>¥9000-14000</b>（经美洲或欧洲转机，单程 30h+）；4 天经典古道跟团 <b>US$700-900</b>（含许可、向导、挑夫、餐食、帐篷）；库斯科住宿 ¥150-400/晚。<b>总预算约 ¥30000-40000</b>，是这 14 条里最贵之一。</p>"
+          "body": "<p>深圳往返机票 <b>¥5000-9000</b>；山屋 €30-60/晚；徒步 8-12 天 <b>总预算约 ¥16000-24000</b>。旺季山屋务必提前 2-3 月预订。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>马丘比丘</b>：👍 世界新七大奇迹、日出绝美 ｜ 👎 限时预约、限流 ｜ ⚠️ 不攀爬石墙</li><li><b>Wiñay Wayna</b>：👍 梯田遗址依山临谷 ｜ 👎 需向导带领 ｜ ⚠️ 尊重遗址</li><li><b>云雾森林</b>：👍 生态多样、羊驼出没 ｜ 👎 潮湿蚊虫多 ｜ ⚠️ 防蚊</li></ul>"
+          "body": "<ul><li><b>三峰群 Tre Cime</b>：👍 标志性岩塔 ｜ 👎 游客多 ｜ ⚠️ 早去</li><li><b>Lago di Braies</b>：👍 翡翠湖 ｜ 👎 停车难 ｜ ⚠️ 早到</li><li><b>钢索垭口</b>：👍 刺激视野 ｜ 👎 需装备 ｜ ⚠️ 恐高慎选</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>Ceviche 酸橘汁腌鱼、Lomo Saltado 酱炒牛肉配薯条、Aji de Gallina 黄辣椒鸡、烤豚鼠 Cuy（当地名菜）、古柯茶 Mate de Coca（缓解高反）。<b>秘鲁菜普遍用黄辣椒 ají，辣度合旺仔口味</b>；紫玉米汁 Chicha Morada 偏甜可跳过。</p>"
+          "body": "<p>意面、Knödel 面包团、Speck 烟熏火腿、Apple strudel（偏甜可少尝）。山屋半膳管饱，咖啡随处有。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 库斯科海拔 3399m，<b>至少适应 2 天</b>再进山，第一晚少动、多喝水；② 古道许可极有限（每年 2 月封路），提前数月预约；③ 昼夜温差大，保暖层必带；④ 雨季泥泞易摔，登山杖必备。</p>"
+          "body": "<p>① 钢索段需 <b>Via Ferrata 安全带+头盔</b>，无装备勿上；② 雷雨高发，垭口遇雷雨立即下撤；③ 山屋旺季爆满，务必提前订；④ 欧洲物价高，现金卡都带。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 中国公民赴秘鲁需<b>签证</b>（提前办理，注意有效期）；② 印加古道许可通过官方授权旅行社申请，个人不能直接走；③ 马丘比丘需另买门票并预约入内时段；④ 高原保险含救援；⑤ 现金备足（山区少 ATM）。</p>"
+          "body": "<p>① 办<b>申根签证</b>（按主要停留国）；② 山屋通过 Rifugio 官网或预订平台提前 2-3 月订；③ 购买含登山救援的旅行险；④ 离线地图 Komoot/Outdooractive 下载。</p>"
         }
       ],
       "images": [
@@ -1268,9 +1265,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "多洛米蒂 · Alta Via 1（意大利）",
-      "tag": "第3天 · 全球徒步路线",
-      "loc": "欧洲-意大利-博尔扎诺",
+      "title": "冰岛环岛 · 1号公路 Route 1",
+      "loc": "欧洲-冰岛-全境",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1278,39 +1274,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "山区多德语/意大利语混用，用 \"Guten Tag\" / \"Buongiorno\" 问候；山屋 Rifugio 是阿尔卑斯传统，请遵守安静时段与拖鞋规定。部分路段属自然保护区，勿采摘植物、勿惊扰岩羊。"
+          "body": "冰岛人低调友善，泡温泉（如蓝湖）前必须冲净身体；户外尊重私有地，勿擅闯牧场。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→慕尼黑/米兰/威尼斯转火车到科尔蒂纳丹佩佐或起点附近小镇，全程约 16-20h，往返机票 ¥6000-10000。山区靠巴士+缆车接驳。</p>\n\n💰 参考费用（人均）：山屋 Rifugio €40-70/晚（含半膳）、缆车单程 €15-30；10 天含机票人均约 ¥20000-28000。"
+          "body": "<p>深圳→哥本哈根/伦敦/巴黎转机雷克雅未克；往返机票约 ¥6000-10000；落地租两车自驾环岛。</p>\n\n💰 参考费用（人均）：租车分摊 ¥300-500/天、营地 ¥150-300/晚；10 天含机票人均约 ¥18000-26000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "6-9 月：雪线退去、步道全开，最佳；7-8 月人最多；9 月秋色+人少；避 10 月后积雪"
+          "body": "6-8 月：极昼、路况最佳，推荐；9 月秋色+可能见极光；避开 11-3 月暴风雪与极夜。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>Alta Via 1 约 120km，8-10 天，累计爬升大、多刃脊与铁索段。</b></p><ul><li><b>Day1-2</b>：拉瓦莱多三峰（Tre Cime）环线，约 18km，标志性岩塔景观；⚠️ 早出发避午後雷雨。</li><li><b>Day3-5</b>：经 Cortina、Lago di Braies 向多比亚科推进；⚠️ 部分段需手脚并用。</li><li><b>Day6+</b>：玛莫拉达冰川段，约 15km/天；⚠️ 铁索段需勇气与手套。</li></ul>\n\n🍱 补给：山屋可补给热食，自带能量棒；部分段无水源，水要带足。"
+          "body": "<p><b>环岛约 1300km 自驾+徒步点，8-12 天。</b></p><ul><li><b>Day1-3</b>：黄金圈+南岸瀑布（Skógafoss、Seljalandsfoss）。</li><li><b>Day4-6</b>：东峡湾徒步+钻石冰沙滩。</li><li><b>Day7-10</b>：米湖地热区+斯奈山半岛。</li></ul>\n\n🍱 补给：小镇超市（Bonus）采购，野营自炊省钱。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返欧洲机票 <b>¥6000-10000</b>；山屋 Rifugio 半膳 €40-70/晚，10 天约 €500-700；缆车/巴士接驳 €100-200。<b>总预算约 ¥22000-30000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥6000-10000</b>；租车分摊 ¥300-500/天；环岛 8-12 天 <b>总预算约 ¥18000-26000</b>。冰岛物价高，自炊明显省钱。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>三峰 La Tre Cime</b>：👍 全球最上镜岩塔、配套成熟 ｜ 👎 游客极多 ｜ ⚠️ 早到占位</li><li><b>刀锋山脊（Via Ferrata）</b>：👍 刺激、视野无敌 ｜ 👎 恐高慎入 ｜ ⚠️ 需头盔锁具</li><li><b>镜湖 Braies</b>：👍 湖水如镜、出片 ｜ 👎 停车场小 ｜ ⚠️ 旺季限流</li></ul>"
+          "body": "<ul><li><b>杰古沙龙冰沙滩</b>：👍 蓝冰奇观 ｜ 👎 风大冷 ｜ ⚠️ 别靠浪</li><li><b>斯奈山半岛</b>：👍 火山冰川同框 ｜ 👎 路远 ｜ ⚠️ 早出</li><li><b>米湖</b>：👍 地热地貌 ｜ 👎 硫磺味 ｜ ⚠️ 走木栈道</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>南蒂罗尔风：Canederli 面包团子汤、Speck 烟熏火腿、Knödel 土豆丸子、Apple strudel（甜口，跳过）。山区餐馆偏咸鲜，配当地啤酒或热红茶正好。</p>"
+          "body": "<p>羊肉汤、热狗（Bæjarins Beztu）、海鲜浓汤管暖。冰岛甜点偏甜可少尝，主食管饱。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 多刃脊与铁索段，<b>头盔+安全带+锁具</b>必备，恐高勿硬上；② 午后雷暴频繁，天亮即出发；③ 山屋需提前数月预订（旺季秒空）；④ 昼夜温差大，保暖层与雨衣必带。</p>"
+          "body": "<p>① <b>风速极大</b>，车门易被吹坏、徒步易被吹倒，看天气预报（vedur.is）；② 冰沙滩「疯狗浪」夺命，远离水线；③ 地热区只走木栈道；④ 油价高，满油再进内陆。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 办<b>申根签证</b>（通常意大利或德国送签）；② 山屋 Rifugio 通过官网/电话提前订，注明半膳；③ Via Ferrata 段确认装备租赁点；④ 离线地图用 Maps.me/Outdooractive；⑤ 买含直升机救援的户外险。</p>"
+          "body": "<p>① 持<b>护照</b>免签停留≤90天（中国护照需提前办申根/过境签，建议先查最新政策）；② 租车需国际驾照认证件+信用卡；③ 营地/蓝湖提前订；④ 下载 1337 紧急 App 与离线地图。</p>"
         }
       ],
       "images": [
@@ -1321,9 +1317,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "环勃朗峰 · TMB（法/意/瑞）",
-      "tag": "第4天 · 全球徒步路线",
-      "loc": "欧洲-法国·意大利·瑞士-勃朗峰",
+      "title": "熊野古道 · 日本 Kumano Kodo",
+      "loc": "亚洲-日本-和歌山",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1331,39 +1326,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "途经法/意/瑞三国，用当地语言问候即可；山屋文化与多洛米蒂类似，请安静、拖鞋、不浪费食物。跨境段注意货币（欧元通用，瑞士段物价高）。尊重牧民与牛羊通道。"
+          "body": "神道教与佛教交融，进鸟居脱帽、净手漱口后再参拜；熊野三山是世界遗产，请保持肃静。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→日内瓦/米兰转火车到霞慕尼（Chamonix）或库马约尔（Courmayeur），全程约 15-19h，往返机票 ¥6000-10000。</p>\n\n💰 参考费用（人均）：山屋/旅馆 €50-90/晚、餐 €20-35/天；10 天含机票人均约 ¥22000-30000。"
+          "body": "<p>深圳→大阪/关西机场，转 JR/巴士到田边或新宫开始；往返机票约 ¥2000-4000。</p>\n\n💰 参考费用（人均）：民宿 ¥300-600/晚、餐 ¥60-120/天；6 天含机票人均约 ¥6000-10000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "6-9 月：雪线退、步道全开，最佳；7-8 月人最多；9 月秋色人少；避 10 月后积雪封路"
+          "body": "3-5 月与 10-11 月：气候宜人、红叶绿意，推荐；夏季湿热多蚊；冬季部分山路湿滑。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>TMB 环线约 170km，10-12 天，累计爬升约 10000m，多垭口。</b></p><ul><li><b>Day1-3</b>：霞慕尼→莱苏什→库马约尔（意大利段），约 16km/天；⚠️ 勃朗峰脚视野最震撼。</li><li><b>Day4-6</b>：瑞士段尚佩克斯→尚贝里，约 18km/天；⚠️ 瑞士侧物价高、补给贵。</li><li><b>Day7+</b>：回法国侧经 Col de la Croix 收官；⚠️ 垭口风大注意保暖。</li></ul>\n\n🍱 补给：山屋热食充足，自带坚果能量棒；垭口无水源。"
+          "body": "<p><b>中边路约 30-40km，4-6 天，起伏山林古道。</b></p><ul><li><b>Day1-2</b>：田边→近露/野中，石阶古道。</li><li><b>Day3-4</b>：翻越高野山方向，参拜发心门。</li><li><b>Day5-6</b>：抵熊野本宫大社、那智大社。</li></ul>\n\n🍱 补给：沿线和歌山小镇餐馆、便利店充足。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返欧洲机票 <b>¥6000-10000</b>；山屋/旅馆 €50-90/晚，10 天约 €600-900；缆车接驳 €80-150。<b>总预算约 ¥22000-30000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥2000-4000</b>；民宿 ¥300-600/晚；4-6 天 <b>总预算约 ¥6000-10000</b>，是日本近程高性价比之选。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>勃朗峰南壁</b>：👍 欧洲屋脊、云海绝景 ｜ 👎 天气多变 ｜ ⚠️ 查预报</li><li><b>意大利库马约尔谷</b>：👍 餐饮好、物价低 ｜ 👎 段长爬升大 ｜ ⚠️ 早出发</li><li><b>瑞士尚佩克斯湖</b>：👍 湖景宁静 ｜ 👎 物价高 ｜ ⚠️ 现金备用</li></ul>"
+          "body": "<ul><li><b>那智瀑布</b>：👍 日本第一落差 ｜ 👎 人多 ｜ ⚠️ 早去</li><li><b>高野山奥之院</b>：👍 千年杉道 ｜ 👎 雨多 ｜ ⚠️ 静默</li><li><b>本宫大社</b>：👍 世界遗产 ｜ 👎 需换乘 ｜ ⚠️ 查巴士</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>法式/意式高山餐：Tartiflette 芝士土豆焗（咸香）、Raclette 烤芝士、意面、香肠。甜点如焦糖布丁偏甜可跳过；配热红茶或本地红酒暖身。</p>"
+          "body": "<p>麦饭（香菇饭）、熊野古道便当、关西拉面。辣度低，可自加七味粉提味；甜食（和果子）偏甜少尝。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 多垭口段<b>天气说变就变</b>，每天查预报、备雨衣；② 山屋提前数月订；③ 单日爬升超 1000m，膝盖护具+登山杖；④ 瑞士段物价高，现金/Euro 备足；⑤ 高反少见但垭口风冷，保暖层必带。</p>"
+          "body": "<p>① 古道石阶湿滑，<b>防水登山鞋+护膝</b>必备；② 山区信号弱，离线地图+纸质地图；③ 夏季蚊虫多，驱蚊+长袖；④ 公共交通班次少，提前查时刻表。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 办<b>申根签证</b>；② 山屋通过 Refuge 官网/App 提前订，跨国段分别订；③ 可选反走（逆时针）分流人流；④ 离线轨迹用 AllTrails/Outdooractive；⑤ 户外险含救援；⑥ 缆车时刻表提前查，避免误末班。</p>"
+          "body": "<p>① 持<b>有效期6个月以上护照</b>办日本单次/三年签；② 熊野古道不需特别 permit，但住宿（民宿/温泉旅馆）旺季提前订；③ 买 JR Pass 或 ICOCA 交通卡；④ 下载「Japan Travel」离线地图。</p>"
         }
       ],
       "images": [
@@ -1374,9 +1369,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "乞力马扎罗 · 马切姆线（坦桑尼亚）",
-      "tag": "第5天 · 全球徒步路线",
-      "loc": "非洲-坦桑尼亚-乞力马扎罗区",
+      "title": "阿尔卑斯高山徒步 · 瑞士 Eiger Trail",
+      "loc": "欧洲-瑞士-伯尔尼高地",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1384,39 +1378,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "坦桑尼亚以斯瓦希里语 \"Jambo\" / \"Asante\" 问候；登山由持证向导+背夫团队陪同，请尊重当地小费文化（登顶后统一给团队）。营地禁止乱扔垃圾，需带走所有废弃物。"
+          "body": "瑞士山屋文化成熟，进屋脱鞋；公共区间保持安静，垃圾分类细致。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→亚的斯亚贝巴/多哈/迪拜转机到乞力马扎罗机场（JRO），再车到莫希/阿鲁沙，全程约 18-24h，往返机票 ¥7000-11000。</p>\n\n💰 参考费用（人均）：向导团队 $2500-4000（含许可、背夫、餐食、帐篷），含火山口营地附加费。"
+          "body": "<p>深圳→苏黎世/日内瓦，火车到 Grindelwald/采尔马特；往返机票约 ¥5000-9000。</p>\n\n💰 参考费用（人均）：山屋/客栈 CHF 60-120/晚、餐饮偏贵；7 天含机票人均约 ¥20000-30000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "1-3 月/6-10 月：旱季、视野好，最佳；4-5 月/11 月雨季泥泞；12-1 月人较多"
+          "body": "7-9 月：雪退步道全开，推荐；6 月与 9 月人少；10 月后高海拔积雪封路。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>马切姆线 7 天 6 夜约 62km，最高 Uhuru 峰 5895m。</b></p><ul><li><b>Day1</b>：马切姆门(3000m)→营地，约 11km，穿越雨林；⚠️ 防蚂蟥。</li><li><b>Day3</b>：希拉高原→熔岩塔(4600m)→巴拉科营地，约 12km，海拔适应关键；⚠️ 高反预警。</li><li><b>Day6</b>：午夜冲顶 Uhuru 峰(5895m)看日出，约 6km 陡坡；⚠️ 极寒+缺氧。</li></ul>\n\n🍱 补给：团队供三餐，自带能量胶/巧克力；高海拔食欲差，强制喝水。</p>"
+          "body": "<p><b>采尔马特/格林德瓦周边 5-8 天，单段 8-20km。</b></p><ul><li><b>Day1-2</b>：Eiger Trail（艾格北壁脚下），仰望峰壁。</li><li><b>Day3-5</b>：五湖步道、高山牧场环线。</li><li><b>Day6-8</b>：齿轨火车登少女峰/马特洪峰观景。</li></ul>\n\n🍱 补给：山屋与缆车站餐厅，自带水与能量棒。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返 JRO 机票 <b>¥7000-11000</b>；7 天向导团 <b>$2500-4000</b>（许可+团队+营地）；莫希住宿 ¥200-400/晚。<b>总预算约 ¥28000-38000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥5000-9000</b>；瑞士物价高，山屋 CHF 60-120/晚；7 天 <b>总预算约 ¥20000-30000</b>。建议买 Swiss Travel Pass 省交通费。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>乌胡鲁峰日出</b>：👍 非洲之巅、云海日出 ｜ 👎 极寒缺氧 ｜ ⚠️ 冲顶慢行</li><li><b>熔岩塔</b>：👍 荒凉月球地貌 ｜ 👎 海拔陡升 ｜ ⚠️ 适应日</li><li><b>雨林段</b>：👍 植被丰富、猴子多 ｜ 👎 潮湿蚂蟥 ｜ ⚠️ 长裤</li></ul>"
+          "body": "<ul><li><b>马特洪峰</b>：👍 金字塔峰 ｜ 👎 排队 ｜ ⚠️ 早缆车</li><li><b>艾格北壁</b>：👍 史诗岩壁 ｜ 👎 风大 ｜ ⚠️ 保暖</li><li><b>高山湖泊</b>：👍 倒影绝景 ｜ 👎 人多 ｜ ⚠️ 错峰</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>坦桑尼亚餐：Ugali 玉米糊、Nyama Choma 烤肉、扁豆汤、Chapati 薄饼。口味偏淡，可自备<b>辣椒粉/小米辣酱</b>提味；本地果汁偏甜可少喝。"
+          "body": "<p>奶酪火锅（Fondue）、Rösti 土豆饼、香肠。偏油腻管饱，配茶解腻；甜点偏甜少尝。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>高反是头号风险</b>——遵循「爬高睡低」、每天喝水 3-4L、头痛即下撤；② 冲顶夜极冷（-15℃），羽绒+手套+头灯必带；③ 雨林段防蚂蟥长裤扎脚；④ 团队小费登顶后给，提前备美元现金。</p>"
+          "body": "<p>① 高山天气瞬变，<b>防风硬壳+头灯</b>必带；② 部分路段临崖，恐高慎行；③ 瑞士极贵，现金卡都备；④ 齿轨火车时刻固定，提前查。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 办<b>坦桑尼亚签证</b>（可落地或提前 e-visa）；② 登山许可与团队通过持证旅行社办理（个人不可独自上）；③ 黄热病疫苗证明常需；④ 买含高原救援/医疗转运的险；⑤ 装备可当地租，但靴子建议自带磨合。</p>"
+          "body": "<p>① 办<b>申根签证</b>；② 高山山屋（SAC  hut）官网提前订；③ 买 Swiss Travel Pass；④ 下载 SwitzerlandMobility 离线轨迹。</p>"
         }
       ],
       "images": [
@@ -1427,9 +1421,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "冰岛 · Laugavegur 地热步道",
-      "tag": "第6天 · 全球徒步路线",
-      "loc": "欧洲-冰岛-兰德曼纳劳卡",
+      "title": "清迈+素可泰文化徒步 · 泰国",
+      "loc": "亚洲-泰国-清迈",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1437,39 +1430,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "冰岛语问候 \"Halló\"；温泉（如蓝湖）需先淋浴再入池，禁止涂抹护肤品。尊重自然：不偏离步道、不踩苔藓（生长极慢）、不惊扰北极狐。"
+          "body": "泰国尊佛，进寺庙遮肩膝、脱鞋；不高声、不指佛像；王室肖像请尊重。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→雷克雅未克（经欧洲转机），全程约 16-20h，往返机票 ¥7000-11000。再巴士到起点 Landmannalaugar。</p>\n\n💰 参考费用（人均）：山屋 €60-100/晚（需预订）、巴士接驳 €50-100；5 天含机票人均约 ¥18000-26000。"
+          "body": "<p>深圳→清迈（直飞或经曼谷），往返机票约 ¥1500-3500；素可泰可乘火车/巴士。</p>\n\n💰 参考费用（人均）：guesthouse ¥80-200/晚、餐 ¥25-60/天；8 天含机票人均约 ¥5000-9000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "6-9 月：冰雪融、步道开，最佳；7 月午夜不黑；避 9 月后风雪封路、极寒"
+          "body": "11-2 月：凉季干爽，推荐；3-5 月极热；6-10 月雨季湿热多阵雨。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>Laugavegur 约 55km，3-4 天，多黑沙、彩丘、冰川。</b></p><ul><li><b>Day1</b>：Landmannalaugar→Hrafntinnusker，约 12km，彩丘+蒸汽地热；⚠️ 地热区勿踩薄壳。</li><li><b>Day2</b>：→Álftavatn，约 12km，过黑沙原与河流；⚠️ 涉水鞋必备。</li><li><b>Day3</b>：→Þórsmörk，约 15km，冰川河口收官；⚠️ 过河看水流。</li></ul>\n\n🍱 补给：山屋可煮食，自带冻干餐/能量棒；沿途无商店。"
+          "body": "<p><b>清迈古城+素可泰遗址，7-9 天，以城市步行+周边山径为主。</b></p><ul><li><b>Day1-3</b>：清迈古城寺庙、素贴山双龙寺步道。</li><li><b>Day4-5</b>：因他暖山（泰国最高峰）轻徒步。</li><li><b>Day6-8</b>：火车赴素可泰历史公园骑行+步行。</li></ul>\n\n🍱 补给：夜市与街边摊极丰富，注意肠胃。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返雷克雅未克机票 <b>¥7000-11000</b>；山屋 €60-100/晚，3-4 天约 €200-350；巴士接驳 €50-100。<b>总预算约 ¥20000-28000</b>（冰岛物价高）。</p>"
+          "body": "<p>深圳往返机票 <b>¥1500-3500</b>；住宿便宜；7-9 天 <b>总预算约 ¥5000-9000</b>，是高性价比热带文化线。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>兰德曼纳劳卡彩丘</b>：👍 流纹岩彩虹山、地热温泉 ｜ 👎 风极大 ｜ ⚠️ 保暖</li><li><b>黑沙原</b>：👍 月球地表感 ｜ 👎 单调风大 ｜ ⚠️ 导航</li><li><b>Þórsmörk 峡谷</b>：👍 绿洲收官、徒步林 ｜ 👎 过河 ｜ ⚠️ 涉水鞋</li></ul>"
+          "body": "<ul><li><b>素贴山</b>：👍 俯瞰清迈 ｜ 👎 人多 ｜ ⚠️ 早去</li><li><b>素可泰遗址</b>：👍 暹罗古都 ｜ 👎 暴晒 ｜ ⚠️ 带伞</li><li><b>因他暖</b>：👍 凉润森林 ｜ 👎 远 ｜ ⚠️ 包车</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>冰岛新晋料：羊肉汤 Kjötsúpa、热狗（Bæjarins Beztu）、Skyr 酸奶。口味清淡偏咸，可自配<b>辣椒酱</b>；甜点如冰淇淋偏甜可偶尔。"
+          "body": "<p>冬阴功（可喊「不太辣」也行）、咖喱面 Khao Soi、芒果糯米饭（偏甜少尝）。泰北菜香料足，配冰美式解辣一流。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>风是最大敌人</b>——帐篷地钉加石头压，冲锋衣必带；② 过河穿涉水鞋、结伴探流；③ 地热区薄壳易塌，沿标记走；④ 天气瞬变，每天查 vedur.is；⑤ 苔藓极脆弱，不踩。</p>"
+          "body": "<p>① 热带<b>防晒防蚊</b>第一，登革热季尤甚；② 饮用水喝瓶装；③ 寺庙着装遮肩膝；④ 租摩托需国际驾照，谨慎骑行。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 持<b>申根签证</b>（冰岛属申根）；② 山屋通过 ferðafélag Íslands 官网提前数月订；③ 巴士票（Reykjavik Excursions/Trex）提前买；④ 离线地图 + 告知行程；⑤ 户外险含救援，租车时买砂石险。</p>"
+          "body": "<p>① 中国护照可办<b>泰国电子签/落地签</b>（按最新政策）；② 古城步行无需 permit；③ 因他暖可报一日游或包车；④ 下载 Grab 打车+离线地图。</p>"
         }
       ],
       "images": [
@@ -1480,9 +1473,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "米尔福德步道 · Milford Track（新西兰）",
-      "tag": "第7天 · 全球徒步路线",
-      "loc": "大洋洲-新西兰-峡湾地区",
+      "title": "下龙湾+河内 · 越南",
+      "loc": "亚洲-越南-广宁",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1490,39 +1482,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "毛利语问候 \"Kia ora\"；步道穿越峡湾国家公园，属世界遗产，严禁偏离步道、不喂食啄羊鹦鹉（kea）。尊重毛利圣地，勿移动界石。"
+          "body": "越南受儒释道与法式影响，进寺脱鞋；大街过马路「慢步匀速」让车流绕你。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→奥克兰/皇后镇（经澳洲转机），全程约 15-20h，往返机票 ¥7000-11000。再车/船到蒂阿瑙，船进起点 Glade House。</p>\n\n💰 参考费用（人均）：Great Walk 木屋 NZ$100-150/晚（抽签预订）、船接驳 NZ$50；4 天含机票人均约 ¥20000-28000。"
+          "body": "<p>深圳→河内/海防（直飞或经南宁陆路），往返机票约 ¥1200-3000；下龙湾从河内乘车 3-4h。</p>\n\n💰 参考费用（人均）：酒店 ¥120-300/晚、餐 ¥30-80/天；7 天含机票人均约 ¥5000-8000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "11-4 月：南半球夏季、天气稳，最佳；12-2 月人最多；避 5-10 月寒冷多雨风大"
+          "body": "10-4 月：干凉季，推荐；5-9 月湿热多台风雨。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>米尔福德步道约 53km，4 天 3 夜，终点即米尔福德峡湾。</b></p><ul><li><b>Day1</b>：Glade House→Clinton 谷，约 14km，平易雨林；⚠️ 防沙蝇。</li><li><b>Day2</b>：→Mintaro，约 16km，向麦金农山口爬升；⚠️ 垭口风大。</li><li><b>Day3</b>：翻麦金农山口(1073m)→Quintin，约 14km；⚠️ 可加登谷支线看瀑布。</li><li><b>Day4</b>：→沙湾，约 16km，峡湾收官；⚠️ 船班衔接。</li></ul>\n\n🍱 补给：木屋可煮食，自带冻干餐；沙蝇区长袖。</p>"
+          "body": "<p><b>河内老城步行+下龙湾巡航，6-8 天。</b></p><ul><li><b>Day1-3</b>：河内老城区、还剑湖、三十六行街徒步。</li><li><b>Day4-6</b>：下龙湾乘船/皮划艇探喀斯特。</li><li><b>Day7-8</b>：返河内或北上沙坝（如需徒步）。</li></ul>\n\n🍱 补给：河内街头咖啡与粉面极便宜。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返皇后镇机票 <b>¥7000-11000</b>；Great Walk 木屋 NZ$100-150/晚，3 晚约 NZ$350-450；船/车接驳 NZ$100-200。<b>总预算约 ¥22000-30000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥1200-3000</b>；越南物价低；6-8 天 <b>总预算约 ¥5000-8000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>麦金农山口</b>：👍 360°雪山全景 ｜ 👎 风大陡 ｜ ⚠️ 早过</li><li><b>萨瑟兰瀑布</b>：👍 新西兰最高瀑布 ｜ 👎 需支线 ｜ ⚠️ 加爬</li><li><b>米尔福德峡湾</b>：👍 峡湾出海、海豹企鹅 ｜ 👎 雨多 ｜ ⚠️ 船班</li></ul>"
+          "body": "<ul><li><b>下龙湾</b>：👍 海上桂林 ｜ 👎 游船多 ｜ ⚠️ 选小众航线</li><li><b>还剑湖</b>：👍 老城心脏 ｜ 👎 商业化 ｜ ⚠️ 清晨去</li><li><b>沙坝梯田</b>：👍 云海梯田 ｜ 👎 路远 ｜ ⚠️ 另排行程</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>新西兰餐：Meat pie 肉派、炸鱼薯条、绿唇贻贝、Pavlova 甜点（偏甜可跳过）。口味清淡，自配辣椒酱更带劲；咖啡文化发达，冰美式随处可买。</p>"
+          "body": "<p>Pho 牛肉粉、Bun Cha 烤肉米粉、越南咖啡（炼乳甜可换黑咖啡）。米粉多辛香料，配冰美式解腻。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>沙蝇（sandfly）猛</b>——长袖+驱虫，傍晚最凶；② 麦金农垭口风大冷，保暖层必带；③ 木屋抽签难，提前抢；④ 终点船班固定，按时抵达；⑤ 雨林潮湿，防水袋护睡袋。</p>"
+          "body": "<p>① 过马路极危险，<b>匀速慢行</b>别停；② 防飞车抢包，斜挎包前背；③ 只喝瓶装水；④ 下龙湾选正规游船，查天气。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 持<b>新西兰签证/ NZeTA</b>；② Great Walk 木屋每年抽签（doc.govt.nz），提前数月；③ 船班/接驳与步道衔接预订；④ 离线地图 + 告知行程；⑤ 户外险含救援。</p>"
+          "body": "<p>① 中国护照可办<b>越南电子签（E-visa）</b>；② 河内步行无需 permit；③ 下龙湾船票官网/代理订；④ 下载 Grab+离线地图。</p>"
         }
       ],
       "images": [
@@ -1533,9 +1525,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "约翰·缪尔步道 · JMT（美国加州）",
-      "tag": "第8天 · 全球徒步路线",
-      "loc": "北美洲-美国-加利福尼亚州",
+      "title": "京那巴鲁山 · 马来西亚沙巴",
+      "loc": "亚洲-马来西亚-沙巴",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1543,39 +1534,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "美式友好 \"Howdy / Hi\"；步道穿越优胜美地与高山，属荒野，需<b>徒步许可（permit）</b>抽签。尊重熊区规定：食物存 bear canister，营地禁留气味。原住民领地请不打扰。"
+          "body": "沙巴多元族群，入原住民村落先征得同意；清真寺入内需脱鞋、女性披肩。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→旧金山/洛杉矶转车到优胜美地或帝王谷，全程约 15-20h，往返机票 ¥7000-12000。再 Shuttle 到起点。</p>\n\n💰 参考费用（人均）：许可 $10-20+预约费、补给寄送 $60-100、镇补给 $200-300；21 天含机票人均约 ¥28000-38000。"
+          "body": "<p>深圳→亚庇（沙巴）直飞，往返机票约 ¥1500-3500；登山从亚庇乘车 2h 到神山公园。</p>\n\n💰 参考费用（人均）：公园小屋 ¥200-400/晚、餐 ¥40-90/天；5 天含机票人均约 ¥5000-8000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "7-9 月：雪融、步道全开，最佳；8 月蚊少；避 6 月前积雪、10 月后初雪"
+          "body": "3-9 月：干季清晰，推荐；10-2 月雨季多雾路滑。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>JMT 约 340km，3 周，翻越多个 3000m+ 垭口，越高山湖群。</b></p><ul><li><b>Day1-4</b>：优胜美地谷→图奥勒米草原，约 20km/天；⚠️ 半穹顶需另许可。</li><li><b>Day5-10</b>：经 Rae Lakes、Forester 山口(4009m)，约 22km/天；⚠️ 高海拔雪斑。</li><li><b>Day11+</b>：帝王谷收官，约 20km/天；⚠️ 最后下撤热。</li></ul>\n\n🍱 补给：中途寄缓存 box（MTR/Red's Meadow/VVR），自带能量棒；水源多但需滤水。</p>"
+          "body": "<p><b>神山（4095m）2 天 1 夜登顶，配周边热带雨林步道。</b></p><ul><li><b>Day1</b>：Timpohon 门→宿 Laban Rata（3270m），6-8h。</li><li><b>Day2</b>：凌晨冲顶 Low's Peak 看日出，后下撤。</li><li><b>Day3-5</b>：波令温泉/雨林吊桥轻松走。</li></ul>\n\n🍱 补给：小屋有餐，自带高能量零食。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返美西机票 <b>¥7000-12000</b>；许可+预约费约 $50；补给寄送+镇购约 $300-500；21 天。<b>总预算约 ¥30000-40000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥1500-3500</b>；登山需向导费+许可（约 ¥600-1000）；5 天 <b>总预算约 ¥5000-8000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>半穹顶 Half Dome</b>：👍 花岗岩巨岩、缆索登顶 ｜ 👎 需另许可、险 ｜ ⚠️ 恐高慎</li><li><b>图奥勒米草原</b>：👍 高山草甸、孤松 ｜ 👎 蚊季凶 ｜ ⚠️ 驱虫</li><li><b>国王峡谷</b>：👍 深谷巨杉 ｜ 👎 下撤长 ｜ ⚠️ 膝盖</li></ul>"
+          "body": "<ul><li><b>Low's Peak</b>：👍 东南亚最高峰日出 ｜ 👎 需许可 ｜ ⚠️ 高原反应</li><li><b>波令温泉</b>：👍 登后放松 ｜ 👎 远 ｜ ⚠️ 自带泳衣</li><li><b>雨林吊桥</b>：👍 生态丰富 ｜ 👎 湿热 ｜ ⚠️ 防蚊</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>美式 trail 餐：能量棒、脱水餐、Tortilla 卷奶酪辣酱（自配辣）、镇上的墨西哥辣 burrito 最对味。山里靠自带，辣酱是提味神器；甜能量胶可少。</p>"
+          "body": "<p>沙捞越面、椰浆饭 Nasi Lemak、肉骨茶（巴生风味偏药膳）。辣度中上，配冰美式；甜品偏甜少尝。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>徒步许可抽签极难</b>（春季开放），务必提前；② 熊区 bear canister 强制，营地存食；③ 高海拔垭口积雪+雷暴，午后避；④ 蚊虫季驱虫；⑤ 21 天长线，膝盖护具+负重渐进训练。</p>"
+          "body": "<p>① 登顶<b>必须向导+许可</b>，每日限额，提前 2-3 月订；② 4095m 有高反，下降时别猛；③ 热带防蚊防蚂蟥；④ 雨林步道湿滑穿防滑鞋。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 持<b>美国 B1/B2 签证</b>；② JMT 许可通过 recreation.gov 抽签（每年 1 月开放）；③ 半穹顶另申请缆索许可；④ 补给缓存 box 提前寄沿途邮编点；⑤ 户外险含救援；⑥ 离线地图+卫星信使（无信号段长）。</p>"
+          "body": "<p>① 中国护照<b>免签入境马来西亚</b>（按最新政策，可停留30天）；② 神山登顶通过沙巴公园官网订向导+ permit；③ 亚庇机场取现金/卡；④ 下载离线地图。</p>"
         }
       ],
       "images": [
@@ -1586,9 +1577,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "珠峰大本营 · EBC（尼泊尔）",
-      "tag": "第9天 · 全球徒步路线",
-      "loc": "亚洲-尼泊尔-索卢坤布地区",
+      "title": "林贾尼火山 · 印尼巴厘岛+龙目岛",
+      "loc": "亚洲-印尼-西努沙登加拉",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1596,39 +1586,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "尼泊尔用 \"Namaste\" 双手合十问候；藏传佛教寺院请顺时针转经、不指佛像、室内禁拍。尊重夏尔巴文化，小费/布施随喜即可。高海拔请放慢节奏。"
+          "body": "印尼以伊斯兰为主，进村遮肩膝；火山视为圣山，请尊重当地祈福习俗。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→加德满都转机到卢卡拉（Lukla，世界最险机场之一），全程约 12-18h，往返机票 ¥6000-9000 + 内陆段 $300-500。</p>\n\n💰 参考费用（人均）：许可 $30-50（含 TIMS）、客栈/餐 $25-40/天、向导背夫另计；14 天含机票人均约 ¥18000-26000。"
+          "body": "<p>深圳→巴厘岛/龙目岛（经雅加达或直飞），往返机票约 ¥2000-4500；林贾尼从龙目岛圣吉吉乘车到 Senaru。</p>\n\n💰 参考费用（人均）：向导营 ¥300-500/天、客栈 ¥120-300/晚；6 天含机票人均约 ¥7000-11000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "3-5 月春季：天气稳、视野好、登顶季，最佳；10-11 月秋季：晴多风清，最佳；避 6-9 月雨季、12-2 月严寒大风"
+          "body": "4-10 月：干季清晰，推荐；11-3 月雨季泥泞危险。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>EBC 往返约 130km，12-14 天，最高 Gorak Shep 5164m /  Everest Base Camp 5364m。</b></p><ul><li><b>Day1-3</b>：卢卡拉→南崎巴扎→天波切，约 12km/天；⚠️ 适应海拔。</li><li><b>Day5-7</b>：丁波切→罗布切→戈拉雪普，约 10km/天；⚠️ 海拔骤升。</li><li><b>Day8</b>：上 EBC(5364m) 折返，约 14km；⚠️ 极寒缺氧。</li><li><b>Day9</b>：爬卡拉帕塔(5545m)看珠峰日出；⚠️ 慢行。</li></ul>\n\n🍱 补给：客栈供餐（面/饺/炒饭），自带能量棒；高海拔喝水多。</p>"
+          "body": "<p><b>林贾尼（3726m）3 天 2 夜，火山口湖 Segara Anak。</b></p><ul><li><b>Day1</b>：Senaru→Pelawangan 营地（2600m）。</li><li><b>Day2</b>：凌晨冲顶看日出，下到火山口湖温泉。</li><li><b>Day3</b>：撤至 Senaru；巴厘岛侧另排梯田/火山徒步。</li></ul>\n\n🍱 补给：向导营供餐，自带能量棒。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返加都机票 <b>¥6000-9000</b> + 卢卡拉内陆段 $300-500；客栈餐 $25-40/天，14 天约 $400-550；向导背夫另 $300-500。<b>总预算约 ¥20000-30000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥2000-4500</b>；林贾尼需向导营（强制）；6 天 <b>总预算约 ¥7000-11000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>珠峰大本营</b>：👍 世界之巅脚下、昆布冰瀑 ｜ 👎 极寒 ｜ ⚠️ 适应</li><li><b>卡拉帕塔</b>：👍 珠峰最佳观景台 ｜ 👎 陡 ｜ ⚠️ 慢爬</li><li><b>天波切寺院</b>：👍 藏传文化、 panorama ｜ 👎 需绕行 ｜ ⚠️ 尊重</li></ul>"
+          "body": "<ul><li><b>火山口湖</b>：👍 碧湖温泉 ｜ 👎 陡降 ｜ ⚠️ 护膝</li><li><b> summit 日出</b>：👍 云海火山 ｜ 👎 冷 ｜ ⚠️ 凌晨出发</li><li><b>巴厘梯田</b>：👍 翠绿层叠 ｜ 👎 晒 ｜ ⚠️ 早去</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>尼泊尔餐：Dal Bhat 豆汤饭（管饱、可续）、Momo 蒸饺（辣酱蘸最对味）、Thukpa 面汤。山里偏碳水，自配<b>辣椒酱</b>提味；甜奶茶可少喝。"
+          "body": "<p>椰浆饭、沙爹串、印尼炒饭 Nasi Goreng。香料重辣度可调，配冰美式；甜食（椰糖糕）偏甜少尝。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>高反是头号风险</b>——「爬高睡低」、每日喝水 3-4L、头痛即下撤；② 昆布冰瀑/冰川远观勿近；③ 卢卡拉航班常因天气取消，留缓冲；④ 保暖层（羽绒到 -20℃）+ 头灯；⑤ 小费给背夫向导。</p>"
+          "body": "<p>① 林贾尼<b>强制向导</b>，雨季禁止登山；② 火山口边缘松动，勿靠近；③ 热带防蚊+饮水净化；④ 巴厘岛交通乱，谨慎租摩托。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 办<b>尼泊尔签证</b>（落地或提前 e-visa）；② 进山许可 Khumbu Pasang Lhamu + TIMS，加都/南崎办理；③ 买含直升机救援的险（高反救援贵）；④ 向导背夫通过旅行社订；⑤ 离线地图+告知家人行程。</p>"
+          "body": "<p>① 中国护照赴印尼可办<b>落地签/电子签</b>（停留30天）；② 林贾尼经 Rinjani trek 官方代理订向导+ permit；③ 巴厘侧景点到处可走；④ 下载离线地图+ Grab。</p>"
         }
       ],
       "images": [
@@ -1639,9 +1629,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "熊野古道 · Kumano Kodo（日本）",
-      "tag": "第10天 · 全球徒步路线",
-      "loc": "亚洲-日本-和歌山县",
+      "title": "卡帕多奇亚+棉花堡 · 土耳其",
+      "loc": "亚洲-土耳其-内夫谢希尔",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1649,39 +1638,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "日本用 \"こんにちは / ありがとう\" 问候；熊野三山是神道圣地，请净手、轻声、不拍神像。古道多石碑与「お地蔵さん」，勿踩勿移。温泉入池前淋浴、不穿泳衣。"
+          "body": "土耳其跨亚欧，清真寺入内脱鞋、女性披肩；集市砍价是文化，微笑应对。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→关西机场（大阪/京都）转 JR/巴士到田边/新宫，全程约 8-12h，往返机票 ¥3000-6000。</p>\n\n💰 参考费用（人均）：民宿 ¥400-800/晚、便当/汤面 ¥50-100/餐；5-7 天含机票人均约 ¥9000-15000。"
+          "body": "<p>深圳→伊斯坦布尔转内夫谢希尔/代尼兹利（或伊兹密尔），往返机票约 ¥4000-7000。</p>\n\n💰 参考费用（人均）：洞穴酒店 ¥250-600/晚、餐 ¥50-120/天；9 天含机票人均约 ¥12000-18000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "3-5 月 / 10-11 月：温和、红叶，最佳；7-8 月湿热台风；避 12-2 月寒冷偶有雪"
+          "body": "4-6 月与 9-10 月：温和少雨，推荐；7-8 月酷热；冬季偶尔雪。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>熊野古道中边路约 70-100km，5-7 天，多石阶与杉木林。</b></p><ul><li><b>Day1-2</b>：泷尻王子→近露/发心门，约 15km/天，千年石阶；⚠️ 膝盖护具。</li><li><b>Day3-4</b>：→本宫大社（川汤温泉），约 18km；⚠️ 段长需早出。</li><li><b>Day5+</b>：那智/速玉大社收官，约 12km；⚠️ 巴士衔接。</li></ul>\n\n🍱 补给：沿途驿站便当、温泉旅馆会席；自带水与能量棒。</p>"
+          "body": "<p><b>卡帕多奇亚峡谷步道+棉花堡，8-10 天。</b></p><ul><li><b>Day1-4</b>：格雷梅露天博物馆、玫瑰谷/鸽谷徒步、热气球。</li><li><b>Day5-7</b>：南下代尼兹利，棉花堡钙华台步行。</li><li><b>Day8-10</b>：以弗所古城遗址。</li></ul>\n\n🍱 补给：小镇餐馆与烤串摊充足。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返关西机票 <b>¥3000-6000</b>；民宿 ¥400-800/晚，6 天约 ¥3000-5000；JR/巴士 ¥500-1000。<b>总预算约 ¥9000-15000</b>（性价比最高的出境线之一）。</p>"
+          "body": "<p>深圳往返机票 <b>¥4000-7000</b>；洞穴酒店体验价高；8-10 天 <b>总预算约 ¥12000-18000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>那智大瀑</b>：👍 日本第一瀑布、朱红社 ｜ 👎 台阶多 ｜ ⚠️ 体力</li><li><b>本宫大社</b>：👍 熊野信仰中心、汤之峰温泉 ｜ 👎 需绕行 ｜ ⚠️ 尊重</li><li><b>大门坂杉林</b>：👍 千年古道氛围 ｜ 👎 人多 ｜ ⚠️ 早去</li></ul>"
+          "body": "<ul><li><b>热气球</b>：👍 精灵烟囱日出 ｜ 👎 贵/看天 ｜ ⚠️ 早订</li><li><b>棉花堡</b>：👍 雪白钙华 ｜ 👎 人多 ｜ ⚠️ 赤脚走</li><li><b>以弗所</b>：👍 罗马废墟 ｜ 👎 晒 ｜ ⚠️ 带水</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>和歌山餐：梅干便当、熊野牛、那智黑鸡、拉面（可加辣油）。口味偏鲜淡，自配<b>七味粉/辣油</b>更带劲；甜和果子偏甜可偶尔。配冰美式或玄米茶。</p>"
+          "body": "<p>烤肉串 Kebab、瓦罐牛肉、土耳其披萨 pide。香料足可喊少辣；甜点（巴克拉瓦）极甜只尝一小块，配红茶/冰美式。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 千年石阶对<b>膝盖</b>极不友好，护具+登山杖；② 夏季湿热台风多，查日本气象；③ 驿站少、补给间隔长，水带足；④ 温泉旅馆订早；⑤ 部分段无信号，离线地图。</p>"
+          "body": "<p>① 热气球受风影响常取消，留弹性；② 夏季暴晒，防晒补水；③ 集市防扒手、砍价别急；④ 偏远步道信号弱，离线地图。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 持<b>日本签证</b>；② 古道无需特别许可，旅馆/民宿提前订；③ JR/巴士时刻查 hyperdia；④ 世界遗产「纪伊山地的灵场」巡礼盖章册可购；⑤ 普通旅游险即可，登山部分确认 coverage。</p>"
+          "body": "<p>① 中国护照赴土耳其可办<b>电子签（E-visa）</b>，停留30天；② 热气球/洞穴酒店提前订；③ 境内交通用大巴/租车；④ 下载离线地图+翻译 App。</p>"
         }
       ],
       "images": [
@@ -1692,9 +1681,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "虎跳峡高路（云南·香格里拉）",
-      "tag": "第11天 · 全球徒步路线",
-      "loc": "亚洲-中国-云南-香格里拉市",
+      "title": "佩特拉+瓦迪拉姆 · 约旦",
+      "loc": "亚洲-约旦-马安",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1702,39 +1690,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "云南藏区用藏语/普通话问候；虎跳峡属纳西与藏区交界，请尊重当地习俗，不踩玛尼堆、不指神山。峡谷风大，沿标记走。"
+          "body": "约旦以伊斯兰为主，着装保守、入寺脱鞋；贝都因人待客热情，拍照先问。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→丽江/香格里拉（飞机或高铁+汽车），全程约 6-10h，机票 ¥1500-3000；再车到桥头镇起点。</p>\n\n💰 参考费用（人均）：客栈 ¥150-300/晚、餐 ¥40-80/天；2-3 天含交通人均约 ¥3000-5000。"
+          "body": "<p>深圳→安曼（经迪拜/伊斯坦布尔/多哈转），往返机票约 ¥4000-7000；佩特拉从安曼乘车 3h。</p>\n\n💰 参考费用（人均）：客栈 ¥200-450/晚、餐 ¥50-110/天；8 天含机票人均约 ¥12000-17000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "3-5 月 / 9-11 月：晴多、水势壮观，最佳；7-8 月雨季滑坡风险；避 12-2 月寒冷偶有雪"
+          "body": "3-5 月与 9-11 月：温和，推荐；6-8 月酷热；冬季夜冷。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>虎跳峡高路约 25km，2-3 天，沿金沙江悬崖。</b></p><ul><li><b>Day1</b>：桥头→28 道拐→Halfway（中途客栈），约 12km，28 拐爬升；⚠️ 防晒补水。</li><li><b>Day2</b>：Halfway→中虎跳→张老师栈道下到江边，约 13km；⚠️ 栈道险窄。</li><li><b>Day3</b>：下虎跳乘车返；⚠️ 颠簸。</li></ul>\n\n🍱 补给：客栈供餐（川滇家常辣菜），自带水；江边无商店。</p>"
+          "body": "<p><b>佩特拉古城+瓦迪拉姆沙漠，7-9 天。</b></p><ul><li><b>Day1-3</b>：佩特拉蛇道、宝库、修道院徒步（日均 15-20km）。</li><li><b>Day4-6</b>：瓦迪拉姆吉普车+徒步穿越红沙岩。</li><li><b>Day7-9</b>：死海漂浮+安曼城堡山。</li></ul>\n\n🍱 补给：佩特拉镇餐厅、沙漠营供餐。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返丽江/香格里拉机票 <b>¥1500-3000</b>；客栈 ¥150-300/晚，3 天约 ¥500-900；包车/巴士 ¥200-500。<b>总预算约 ¥3500-6000</b>（国内线最省）。</p>"
+          "body": "<p>深圳往返机票 <b>¥4000-7000</b>；佩特拉门票按天数计价偏高；7-9 天 <b>总预算约 ¥12000-17000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>上虎跳</b>：👍 江面最窄、水声震天 ｜ 👎 游客多 ｜ ⚠️ 护栏</li><li><b>28 道拐</b>：👍 俯瞰峡谷全景 ｜ 👎 陡 ｜ ⚠️ 膝</li><li><b>中虎跳栈道</b>：👍 贴江惊险、野趣 ｜ 👎 窄险 ｜ ⚠️ 手杖</li></ul>"
+          "body": "<ul><li><b>卡兹尼宝库</b>：👍 玫瑰古城门面 ｜ 👎 人多 ｜ ⚠️ 早进</li><li><b>修道院 Ad Deir</b>：👍 巨构震撼 ｜ 👎 爬 800 级 ｜ ⚠️ 体力</li><li><b>瓦迪拉姆</b>：👍 火星地貌 ｜ 👎 暴晒 ｜ ⚠️ 防晒</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>滇西北餐：丽江粑粑、腊排骨火锅（辣）、野生菌（季节）、过桥米线（可加辣油）。川滇口味本来就辣，配冰美式正好；甜品少碰。</p>"
+          "body": "<p>鹰嘴豆泥 Hummus、烤肉、曼萨夫（国菜，偏香浓）。香料足，配冰美式；甜点（果仁蜜饼）极甜只尝一点。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 高路多<b>悬崖窄道</b>，恐高/雨天慎行；② 中虎跳栈道湿滑，穿防滑鞋；③ 雨季（7-8 月）易落石滑坡，避开；④ 高原紫外线强，防晒；⑤ 客栈提前订，旺季满。</p>"
+          "body": "<p>① 沙漠<b>白天极晒、夜间骤冷</b>，分层着装+大量水；② 佩特拉台阶多，防滑鞋；③ 约旦总体安全但远离边境；④ 现金为主，带第纳尔。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 国内线无需签证；② 虎跳峡门票现场购；③ 高路客栈（Halfway/Tina's）提前订；④ 包车与徒步衔接确认；⑤ 普通旅游险含意外；⑥ 告知家人行程，峡谷部分无信号。</p>"
+          "body": "<p>① 中国护照可办<b>约旦落地签/电子签</b>（停留30天）；② 佩特拉门票在门口买（1/2/3日票）；③ 瓦迪拉姆吉普游找正规营；④ 下载离线地图。</p>"
         }
       ],
       "images": [
@@ -1745,9 +1733,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "稻城亚丁 · 长线（四川）",
-      "tag": "第12天 · 全球徒步路线",
-      "loc": "亚洲-中国-四川-稻城县",
+      "title": "罗卡角+里斯本 · 葡萄牙",
+      "loc": "欧洲-葡萄牙-里斯本",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1755,39 +1742,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "甘孜藏区用藏语/普通话问候；亚丁三神山（仙乃日、央迈勇、夏诺多吉）是藏传圣山，请顺时针转、不指神山、不乱丢经幡。尊重寺院规矩。</p>"
+          "body": "葡萄牙人松弛友善，法朵餐厅请保持安静；小费非强制，凑整即可。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→成都/稻城（飞机到稻城亚丁机场，世界最高民用机场之一，或飞成都转车），全程约 6-12h，机票 ¥1500-3500。</p>\n\n💰 参考费用（人均）：景区票+观光车 ¥270、客栈 ¥200-400/晚、餐 ¥60-100/天；3-4 天人均约 ¥4000-7000。"
+          "body": "<p>深圳→里斯本（经迪拜/巴黎/阿姆斯特丹转），往返机票约 ¥5000-9000。</p>\n\n💰 参考费用（人均）：旅馆 ¥250-500/晚、餐 ¥70-150/天；8 天含机票人均约 ¥15000-22000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "4-5 月 / 9-10 月：草绿/金秋、天蓝水碧，最佳；7-8 月雨季多云；避 11-3 月严寒大雪封闭"
+          "body": "5-6 月与 9-10 月：温暖少人，推荐；7-8 月游客爆满；冬季多雨但温和。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>亚丁长线 2-3 天，最高牛奶海 4600m / 五色海 4700m。</b></p><ul><li><b>Day1</b>：景区大门→扎灌崩→冲古草甸→珍珠海，约 8km，适应；⚠️ 海拔骤升。</li><li><b>Day2</b>：洛绒牛场→牛奶海→五色海，约 12km 往返，陡爬升；⚠️ 高反预警。</li><li><b>Day3</b>：短线（冲古寺/卓玛拉措）或返程；⚠️ 缓冲。</li></ul>\n\n🍱 补给：景区内仅小卖部，自带水/能量棒/巧克力；高海拔食欲差要强制吃。</p>"
+          "body": "<p><b>里斯本老城坡道+辛特拉山径+罗卡角，7-9 天。</b></p><ul><li><b>Day1-3</b>：里斯本 Alfama 坡道、电车道徒步。</li><li><b>Day4-6</b>：辛特拉佩纳宫、摩尔城堡山径。</li><li><b>Day7-9</b>：罗卡角（欧洲大陆最西端）+ 卡斯凯什海岸。</li></ul>\n\n🍱 补给：葡式蛋挞+海鲜饭管饱。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返机票 <b>¥1500-3500</b>；景区票+观光车 ¥270、电瓶车/骑马另计；客栈 ¥200-400/晚，4 天约 ¥1000-1500。<b>总预算约 ¥4000-7000</b>。</p>"
+          "body": "<p>深圳往返机票 <b>¥5000-9000</b>；南欧物价适中；7-9 天 <b>总预算约 ¥15000-22000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>牛奶海/五色海</b>：👍 冰川湖、神山倒影 ｜ 👎 海拔高陡 ｜ ⚠️ 慢爬</li><li><b>央迈勇</b>：👍 最美雪峰之一 ｜ 👎 远观 ｜ ⚠️ 天气</li><li><b>珍珠海</b>：👍 仙乃日倒影、易达 ｜ 👎 人多 ｜ ⚠️ 早去</li></ul>"
+          "body": "<ul><li><b>罗卡角</b>：👍 陆止于此海始于斯 ｜ 👎 风大 ｜ ⚠️ 护栏外勿近</li><li><b>佩纳宫</b>：👍 童话城堡 ｜ 👎 排队 ｜ ⚠️ 早去</li><li><b>25 号电车道</b>：👍 老城俯瞰 ｜ 👎 挤 ｜ ⚠️ 错峰</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>康巴藏餐：牦牛肉、酥油茶、糌粑、青稞酒；川味串串/火锅在稻城镇上很普遍（辣得正）。高原少喝酒，配冰美式或热茶；甜奶渣可少。</p>"
+          "body": "<p>葡式蛋挞（偏甜少尝）、海鲜饭 Arroz de Marisco、烤沙丁鱼。配绿酒 Vinho Verde 或冰美式；主食管饱。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>高反是头号风险</b>——稻城机场/景区均高海拔，先低处适应再上；② 牛奶海段陡爬升，心跳过快即停；③ 高原紫外线+干燥，防晒补水；④ 天气多变，雨衣必带；⑤ 禁独自离栈道。</p>"
+          "body": "<p>① 老城坡陡石滑，<b>防滑鞋</b>必备；② 电车扒手多，背包前背；③ 海风大，海岸崖边勿越栏；④ 南欧午休，景点避开正午。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 国内线无需签证；② 亚棚景区门票/观光车提前在官方平台订（限流）；③ 飞稻城机场注意高反，或先到成都适应；④ 包车/拼车提前约；⑤ 普通旅游险含意外+高反条款确认。</p>"
+          "body": "<p>① 办<b>申根签证</b>；② 辛特拉景点官网提前订免排；③ 里斯本用步行+电车；④ 下载离线地图。</p>"
         }
       ],
       "images": [
@@ -1798,9 +1785,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "武功山 · 高山草甸（江西）",
-      "tag": "第13天 · 全球徒步路线",
-      "loc": "亚洲-中国-江西-萍乡市",
+      "title": "撒哈拉+马拉喀什 · 摩洛哥",
+      "loc": "非洲-摩洛哥-德拉",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1808,39 +1794,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "萍乡属赣西，普通话问候即可；高山草甸是 protected 生态，请勿踩踏花甸核心、不乱丢垃圾、不野外用火。帐篷营地名「星空」多，注意防风。"
+          "body": "摩洛哥伊斯兰为主，着装遮肩膝；老城麦地那易迷路，向导带路；集市砍价是文化。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→萍乡（高铁约 4-5h 到萍乡北）再包车/巴士到沈子村/龙山村起点，全程约 6-8h，高铁 ¥400-600。</p>\n\n💰 参考费用（人均）：门票 ¥70、索道单程 ¥65、帐篷/客栈 ¥150-300/晚、餐 ¥50-90/天；2-3 天人均约 ¥1500-3000。"
+          "body": "<p>深圳→卡萨布兰卡/马拉喀什（经迪拜/巴黎转），往返机票约 ¥4500-8000。</p>\n\n💰 参考费用（人均）：里亚德庭院民宿 ¥200-450/晚、餐 ¥50-120/天；9 天含机票人均约 ¥13000-19000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "5-6 月 / 9-10 月：草甸绿/芦花白、云海多，最佳；7-8 月湿热多蚊；避 11-3 月湿冷雾大"
+          "body": "3-5 月与 9-11 月：沙漠温和，推荐；6-8 月酷热；冬季夜冷至冰点。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>武功山环线约 30-40km，2-3 天，高山草甸+云海。</b></p><ul><li><b>Day1</b>：沈子村→金顶，约 12km，爬升草甸；⚠️ 防风。</li><li><b>Day2</b>：金顶→发云界，约 15km，连绵草甸最出片；⚠️ 膝盖下坡。</li><li><b>Day3</b>：发云界→龙山/羊狮幕下撤，约 12km；⚠️ 索道衔接。</li></ul>\n\n🍱 补给：营地有小卖部泡面热食，自带水/能量棒；草甸无遮荫。</p>"
+          "body": "<p><b>马拉喀什老城+梅尔祖卡沙漠，8-10 天。</b></p><ul><li><b>Day1-3</b>：马拉喀什麦地那、库图比亚清真寺周边步行。</li><li><b>Day4-6</b>：驱车翻阿特拉斯山到梅尔祖卡，骑骆驼进沙丘。</li><li><b>Day7-10</b>：沙漠营徒步+返回。</li></ul>\n\n🍱 补给：里亚德供餐，塔吉锅管饱。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返高铁 <b>¥400-600</b> + 接驳 ¥100-200；门票 ¥70、索道 ¥130 往返；帐篷/客栈 ¥150-300/晚，3 天约 ¥500-900。<b>总预算约 ¥1500-3000</b>（最省出境线）。</p>"
+          "body": "<p>深圳往返机票 <b>¥4500-8000</b>；沙漠营+租车另计；8-10 天 <b>总预算约 ¥13000-19000</b>。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>金顶云海</b>：👍 日出云海、帐篷星河 ｜ 👎 风大冷 ｜ ⚠️ 保暖</li><li><b>发云界草甸</b>：👍 十万亩草甸、连绵 ｜ 👎 起伏大 ｜ ⚠️ 膝</li><li><b>羊狮幕</b>：👍 奇峰云瀑 ｜ 👎 需绕 ｜ ⚠️ 时间</li></ul>"
+          "body": "<ul><li><b>梅尔祖卡沙丘</b>：👍 橙红沙海日出 ｜ 👎 暴晒 ｜ ⚠️ 防晒水</li><li><b>阿特拉斯山</b>：👍 雪峰峡谷 ｜ 👎 盘路 ｜ ⚠️ 晕车药</li><li><b>老城麦地那</b>：👍 迷宫市集 ｜ 👎 易迷路 ｜ ⚠️ 跟向导</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>萍乡/江西餐：萍乡辣（江西辣度天花板！）、莲花血鸭、炒粉、瓦罐汤。江西菜本就重辣，旺仔狂喜；配冰美式解辣。甜藕粉可少。</p>"
+          "body": "<p>塔吉锅 Tagine、库斯库斯、薄荷甜茶（甜可少喝）。香料丰富辣度温和，配冰美式；甜茶偏甜适量。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① 草甸<b>风大温差大</b>，山顶夜间近 0℃，羽绒必带；② 连绵起伏对膝盖考验，护具+杖；③ 雨季雾大易迷路，离线轨迹+结伴；④ 帐篷防风钉压实；⑤ 禁野外用火。</p>"
+          "body": "<p>① 沙漠<b>昼夜温差极大</b>，保暖层必带+大量水；② 老城扒手与「热心向导」多，跟正规团；③ 只喝瓶装水；④ 女性着装保守更自在。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 国内线无需签证；② 武功山门票/索道现场或平台购（旺季限流）；③ 帐篷营地提前订（金顶/发云界）；④ 高铁票提前抢（周末满）；⑤ 普通旅游险含意外。</p>"
+          "body": "<p>① 中国护照赴摩洛哥<b>免签</b>（停留90天）；② 沙漠营通过马拉喀什正规旅行社订；③ 境内长途用 CTM 大巴/包车；④ 下载离线地图+翻译。</p>"
         }
       ],
       "images": [
@@ -1851,9 +1837,8 @@ const CONTENT = {
       ]
     },
     {
-      "title": "哈巴雪山（云南）",
-      "tag": "第14天 · 全球徒步路线",
-      "loc": "亚洲-中国-云南-香格里拉市",
+      "title": "黄山+徽州古道 · 中国安徽",
+      "loc": "亚洲-中国-安徽",
       "blocks": [
         {
           "h": "🎒 行前通用准备",
@@ -1861,39 +1846,39 @@ const CONTENT = {
         },
         {
           "h": "🌏 当地民俗文化·传统礼仪",
-          "body": "哈巴村属纳西族聚居，用普通话/纳西语问候；雪山是神山，请尊重当地信仰，不乱丢经幡、不踩玛尼堆。海拔高，节奏放慢。"
+          "body": "徽州古建与祠堂文化厚重，入村勿攀刻碑刻；山区寺庙清静，低声慢行。"
         },
         {
           "h": "✈️ 从深圳出发·如何到达",
-          "body": "<p>深圳→丽江（飞机/高铁）再车到哈巴村（约 4-5h），全程约 8-12h，机票 ¥1500-3000。</p>\n\n💰 参考费用（人均）：进山费 ¥100、客栈 ¥150-300/晚、向导 ¥300-500/天、餐 ¥60-100/天；3-4 天人均约 ¥3000-5000。"
+          "body": "<p>深圳→黄山北（高铁约 6-7h）或飞黄山机场；市内转景区巴士。往返交通约 ¥800-2500。</p>\n\n💰 参考费用（人均）：山上酒店 ¥400-900/晚、餐 ¥60-150/天；5 天含交通人均约 ¥4000-7000。"
         },
         {
           "h": "🗓 最佳徒步季节",
-          "body": "4-5 月 / 10-11 月：雪线适中、登顶率高，最佳；7-8 月雨季雪松；避 12-3 月极寒风大"
+          "body": "4-5 月与 10-11 月：云海杜鹃/秋色，推荐；7-8 月湿热多雷；冬季雪景美但路滑封部分段。"
         },
         {
           "h": "🗺 徒步天数与路线",
-          "body": "<p><b>哈巴雪山 5396m，3-4 天，入门级雪山。</b></p><ul><li><b>Day1</b>：丽江→哈巴村(2700m)适应；⚠️ 住低处。</li><li><b>Day2</b>：哈巴村→大本营(4100m)，约 12km 骑马/徒步；⚠️ 适应海拔。</li><li><b>Day3</b>：大本营→冲顶(5396m)→下撤，约 8km 陡雪坡；⚠️ 极寒缺氧。</li></ul>\n\n🍱 补给：大本营有热食，自带能量胶/巧克力；冲顶前少睡多热食。</p>"
+          "body": "<p><b>黄山风景区+徽杭古道，4-6 天。</b></p><ul><li><b>Day1-3</b>：黄山后山云谷索道上，经始信峰、光明顶、西海大峡谷，宿山顶看日出。</li><li><b>Day4-6</b>：徽杭古道（绩溪→清凉峰）轻徒步，访宏村/西递。</li></ul>\n\n🍱 补给：山顶酒店供餐贵，自带能量棒与水。"
         },
         {
           "h": "💰 价格预算（深圳出发）",
-          "body": "<p>深圳往返丽江机票 <b>¥1500-3000</b>；进山费 ¥100、向导 ¥300-500/天、客栈 ¥150-300/晚，4 天约 ¥1200-2000。<b>总预算约 ¥3000-5500</b>。</p>"
+          "body": "<p>深圳往返交通 <b>¥800-2500</b>；黄山门票+索道约 ¥400-600；4-6 天 <b>总预算约 ¥4000-7000</b>，是高性价比近程线。</p>"
         },
         {
           "h": "🏞 路线亮点·必看风景",
-          "body": "<ul><li><b>5396 顶峰</b>：👍 入门雪山、俯瞰玉龙 ｜ 👎 雪坡陡 ｜ ⚠️ 装备</li><li><b>大本营草甸</b>：👍 高山花海(春) ｜ 👎 冷 ｜ ⚠️ 保暖</li><li><b>哈巴村</b>：👍 纳西风情、适应点 ｜ 👎 远 ｜ ⚠️ 车况</li></ul>"
+          "body": "<ul><li><b>光明顶日出</b>：👍 云海金光 ｜ 👎 冷/挤 ｜ ⚠️ 凌晨占位</li><li><b>西海大峡谷</b>：👍 险峻栈道 ｜ 👎 耗体力 ｜ ⚠️ 下行护膝</li><li><b>宏村</b>：👍 画里乡村 ｜ 👎 商业化 ｜ ⚠️ 早进</li></ul>"
         },
         {
           "h": "🍜 当地美食·吃什么",
-          "body": "<p>丽江/纳西餐：腊排骨火锅（辣）、丽江粑粑、鸡豆凉粉、酥油茶。滇味重辣，配冰美式；甜奶渣少碰。</p>"
+          "body": "<p>徽州臭鳜鱼、毛豆腐、笋干烧肉，咸鲜重油管饱；辣度低可自加辣。配黄山毛峰或冰美式解腻。"
         },
         {
           "h": "⚠️ 安全与注意",
-          "body": "<p>① <b>入门雪山仍有高反/滑坠风险</b>——冰爪+雪套+头灯必备，跟向导；② 冲顶夜极冷（-15℃），羽绒到脚；③ 大本营到顶爬升快，慢行防高反；④ 雨季雪松易滑，避开；⑤ 向导资质确认。</p>"
+          "body": "<p>① 山顶<b>风大温低</b>，即便夏季也带冲锋衣；② 西海大峡谷台阶陡，恐高慎行；③ 雷雨天勿登高峰；④ 古道部分段信号弱，离线地图。</p>"
         },
         {
           "h": "🎫 实操：许可 · 预约 · 证件",
-          "body": "<p>① 国内线无需签证；② 进山费现场缴，向导通过客栈/俱乐部订；③ 丽江机票/高铁提前；④ 装备可当地租（靴/冰爪）；⑤ 户外险含高海拔救援条款确认。</p>"
+          "body": "<p>① 国内游带<b>身份证</b>；② 黄山门票/索道/山顶房旺季提前在官方小程序订；③ 徽杭古道部分收费段购票；④ 下载「两步路」离线轨迹。</p>"
         }
       ],
       "images": [
@@ -1906,38 +1891,12 @@ const CONTENT = {
   ],
   "finance": [
     {
-      "title": "埃隆·马斯克 Elon Musk",
+      "title": "任正非 Ren Zhengfei",
       "tag": "第1天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/500px-Elon_Musk_-_54820081119_%28cropped%29.jpg\" alt=\"埃隆·马斯克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/musk.jpg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">特斯拉 · SpaceX · 星链 · xAI · 第一性原理</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1971 年生于南非比勒陀利亚，现兼具南非、加拿大、美国身份，工程师出身的连续创业者。截至 2026 年仍在世并活跃于一线经营。从 Zip2、X.com/PayPal 到 SpaceX、特斯拉、星链与 xAI，他几乎只挑别人眼里的「重资产硬骨头」下手。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把特斯拉从濒临破产做成全球电动车标杆；用猎鹰九号实现一级火箭回收复用，把发射成本压到传统方案的零头；星链把低轨卫星互联网做成规模化商业服务；近年长期位居全球富豪榜前列。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「把问题拆到物理第一性原理再重新算成本」——砍电池与火箭成本，靠的是这套算法而非拍脑袋。</p>"
-        }
-      ]
-    },
-    {
-      "title": "任正非 Ren Zhengfei",
-      "tag": "第2天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ren_Zhengfei_%282016%29.jpg/500px-Ren_Zhengfei_%282016%29.jpg\" alt=\"任正非\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/ren.jpg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ren_Zhengfei_%282016%29.jpg/500px-Ren_Zhengfei_%282016%29.jpg\" alt=\"任正非 Ren Zhengfei\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/ren.jpg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -1949,21 +1908,21 @@ const CONTENT = {
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>把华为做成全球通信与 5G 专利龙头；断供压力下推动海思麒麟与鸿蒙生态落地，成为国产替代标志性案例；以全员持股与「灰度管理」建立独特组织形态。</p>"
+          "body": "<p>把华为做成全球通信与 5G 专利龙头；断供压力下推动海思麒麟与鸿蒙生态落地；以全员持股与「灰度管理」建立独特组织形态。</p>"
         },
         {
           "h": "🌟 一句话亮点",
-          "body": "<p>「烧不死的鸟才是凤凰。」总部就在深圳，这是离旺仔最近的硬核样本。</p>"
+          "body": "<p>「烧不死的鸟才是凤凰。」总部在深圳，这是离旺仔最近的硬核样本。</p>"
         }
       ]
     },
     {
       "title": "雷军 Lei Jun",
-      "tag": "第3天 · 名人故事",
+      "tag": "第2天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lei_Jun_at_Two_Sessions_2025.png/500px-Lei_Jun_at_Two_Sessions_2025.png\" alt=\"雷军\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/lei.jpg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lei_Jun_at_Two_Sessions_2025.png/500px-Lei_Jun_at_Two_Sessions_2025.png\" alt=\"雷军 Lei Jun\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/lei.jpg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -1971,25 +1930,233 @@ const CONTENT = {
         },
         {
           "h": "📖 人物介绍（在世）",
-          "body": "<p>1969 年生于湖北仙桃，武汉大学计算机系毕业。截至 2026 年仍在世。先带金山软件上市，2010 年创立小米，用「互联网直销 + 极致性价比」改写手机行业；2024 年小米 SU7 上市即成现象级产品。</p>"
+          "body": "<p>1969 年生于湖北仙桃，武汉大学计算机系毕业。截至 2026 年仍在世。先带金山软件上市，2010 年创立小米，用「互联网直销+极致性价比」改写手机行业；2024 年小米 SU7 上市即成现象级。</p>"
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>小米长期稳居全球智能手机前三，搭起全球最大的消费级 AIoT 生态链；跨界造车三年内交出爆款；把「感动人心、价格厚道」变成可复制的产品方法论。</p>"
+          "body": "<p>小米长期稳居全球智能手机前三，搭起全球最大消费级 AIoT 生态链；跨界造车三年内交出爆款；把「感动人心、价格厚道」变成可复制方法论。</p>"
         },
         {
           "h": "🌟 一句话亮点",
-          "body": "<p>「参数敢公开、价格敢对比」——他把发布会做成了品牌最大的销售渠道。</p>"
+          "body": "<p>「参数敢公开、价格敢对比。」他把发布会做成了品牌最大的销售渠道。</p>"
+        }
+      ]
+    },
+    {
+      "title": "马云 Jack Ma",
+      "tag": "第3天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jack_Ma_2018.jpg/500px-Jack_Ma_2018.jpg\" alt=\"马云 Jack Ma\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/ma.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">阿里巴巴 · 淘宝 · 阿里云 · 蚂蚁 · 通义千问</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1964 年生于浙江杭州，杭州师范大学英语专业毕业。截至 2026 年仍在世。1999 年在杭州湖畔花园创办阿里巴巴，从 B2B 黄页做到电商与云计算双巨头，近年把重心转向 AI 与公益。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>缔造淘宝天猫与阿里云两大生态；推动中国电商与数字支付普及；卸任后把更多精力投入教育与农业技术。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「今天很残酷，明天更残酷，后天很美好。」他擅长用长期主义讲清一件事。</p>"
+        }
+      ]
+    },
+    {
+      "title": "刘强东 Liu Qiangdong",
+      "tag": "第4天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Liu_Qiangdong_WEF_2015.jpg/500px-Liu_Qiangdong_WEF_2015.jpg\" alt=\"刘强东 Liu Qiangdong\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/liu.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">京东 · 自营电商 · 京东物流 · 211 限时达</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1973 年生于江苏宿迁，中国人民大学社会学系毕业。截至 2026 年仍在世。1998 年在中关村卖光磁产品起家，2004 年转型线上，用重资产自建物流把正品与速度做成标签。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把京东做成中国自营电商与物流标杆；211 限时达重塑用户体验；以供应链能力支撑家电 3C 主战场。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「倒退回去若干年，谁能想到卖光磁的能做成物流帝国。」敢重投入是底色。</p>"
+        }
+      ]
+    },
+    {
+      "title": "王兴 Wang Xing",
+      "tag": "第5天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Wang_Xing.jpg/500px-Wang_Xing.jpg\" alt=\"王兴 Wang Xing\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/wang.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">美团 · 本地生活 · 外卖 · 即时零售 · 地推铁军</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1979 年生于福建龙岩，清华大学电子工程系毕业。截至 2026 年仍在世。校内网、饭否连续创业后，2010 年创办美团，从团购打到外卖与即时零售，做成本地生活超级平台。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>带领美团成为中国本地生活服务霸主；以地推铁军与算法调度构建即时网络；边界从外卖扩张到到店、闪购。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「既往不恋，纵情向前。」他习惯在低谷里把事做透。</p>"
+        }
+      ]
+    },
+    {
+      "title": "黄峥 Colin Huang",
+      "tag": "第6天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Colin_Huang.jpg/500px-Colin_Huang.jpg\" alt=\"黄峥 Colin Huang\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/huang.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">拼多多 · Temu · 极致性价比 · 农业直连</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1980 年生于浙江杭州，浙江大学信电系、威斯康星大学计算机硕士。截至 2026 年仍在世。早年创办游戏公司，2015 年创立拼多多，用拼团切下沉市场；2022 年推出 Temu 横扫海外。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>拼多多靠社交拼团与低价供给崛起；Temu 把中国供应链以极致性价比输出全球；2024 年后逐步退居二线专注长期研究。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「消费升级不是让上海人过巴黎人的生活，是让安徽人用上好东西。」</p>"
+        }
+      ]
+    },
+    {
+      "title": "钟睒睒 Zhong Shanshan",
+      "tag": "第7天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Zhong_Shanshan.jpg/500px-Zhong_Shanshan.jpg\" alt=\"钟睒睒 Zhong Shanshan\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/zhong.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">农夫山泉 · 东方树叶 · 万泰生物 · 首富</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1954 年生于浙江诸暨，曾做过记者与保健品。截至 2026 年仍在世。1996 年创办农夫山泉，把「天然水」做成国民心智；同时通过万泰生物布局生物医药。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把农夫山泉做成包装水与无糖茶龙头；东方树叶押中健康趋势逆袭；一度位居中国首富。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「我们不生产水，我们只是大自然的搬运工。」一句广告词撑起溢价。</p>"
+        }
+      ]
+    },
+    {
+      "title": "曹德旺 Cao Dewang",
+      "tag": "第8天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cao_Dewang.jpg/500px-Cao_Dewang.jpg\" alt=\"曹德旺 Cao Dewang\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/cao.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">福耀玻璃 · 汽车玻璃 · 专注主业 · 赴美建厂</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1946 年生于福建福清，辍学后从贩运白木耳起家。截至 2026 年仍在世。1987 年接手小玻璃厂，专注汽车玻璃，做到全球配套龙头，并赴美建厂成中美制造样本。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把福耀做成全球汽车玻璃龙头，配套几乎所有主流车厂；以专注主业对抗多元化诱惑；捐资办学回馈社会。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「我捐给社会的钱，比留在公司的多。」他把专注与慈善都做到极致。</p>"
+        }
+      ]
+    },
+    {
+      "title": "董明珠 Dong Mingzhu",
+      "tag": "第9天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dong_Mingzhu.jpg/500px-Dong_Mingzhu.jpg\" alt=\"董明珠 Dong Mingzhu\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/dong.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">格力 · 空调 · 渠道变革 · 女性企业家</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1954 年生于江苏南京，安徽芜湖长大，毕业于安徽芜湖职业技术学院。截至 2026 年仍在世。从格力一线销售做起，36 岁南下，把格力带成空调龙头，并以强话语权著称。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>带领格力长期占据空调行业头部；推动自主渠道与核心科技；以强势风格成为企业招牌与女性企业家标杆。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「好空调，格力造。」她把质量口号变成了企业人格。</p>"
+        }
+      ]
+    },
+    {
+      "title": "埃隆·马斯克 Elon Musk",
+      "tag": "第10天 · 名人故事",
+      "blocks": [
+        {
+          "h": "📷 人物照片",
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/500px-Elon_Musk_-_54820081119_%28cropped%29.jpg\" alt=\"埃隆·马斯克 Elon Musk\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/musk.jpg'\">"
+        },
+        {
+          "h": "🏷 人物标签",
+          "body": "<p class=\"tags\">特斯拉 · SpaceX · 星链 · xAI · 第一性原理</p>"
+        },
+        {
+          "h": "📖 人物介绍（在世）",
+          "body": "<p>1971 年生于南非比勒陀利亚，工程师出身的连续创业者。截至 2026 年仍在世并活跃于一线经营。从 Zip2、X.com/PayPal 到 SpaceX、特斯拉、星链与 xAI，专挑别人眼里的硬骨头。</p>"
+        },
+        {
+          "h": "🏆 主要成就",
+          "body": "<p>把特斯拉做成全球电动车标杆；用猎鹰九号实现火箭回收复用；星链做成低轨卫星互联网；稳居全球富豪榜前列。</p>"
+        },
+        {
+          "h": "🌟 一句话亮点",
+          "body": "<p>「把问题拆到物理第一性原理再重新算成本。」砍成本靠算法而非拍脑袋。</p>"
         }
       ]
     },
     {
       "title": "杰夫·贝索斯 Jeff Bezos",
-      "tag": "第4天 · 名人故事",
+      "tag": "第11天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg/500px-260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg\" alt=\"杰夫·贝索斯\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/bezos.jpg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg/500px-260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg\" alt=\"杰夫·贝索斯 Jeff Bezos\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/bezos.jpg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -1997,25 +2164,25 @@ const CONTENT = {
         },
         {
           "h": "📖 人物介绍（在世）",
-          "body": "<p>1964 年生于美国新墨西哥州，普林斯顿电气工程与计算机专业，曾在华尔街做量化。截至 2026 年仍在世。1994 年在车库创办亚马逊卖书，把「更多选择—更低价格—更好体验」做成自我强化的飞轮。</p>"
+          "body": "<p>1964 年生于美国新墨西哥州，普林斯顿电气工程与计算机专业。截至 2026 年仍在世。1994 年在车库创办亚马逊卖书，把「更多选择—更低价格—更好体验」做成自我强化的飞轮。</p>"
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>把亚马逊做成全球最大电商与云计算（AWS）双巨头；用 FBA 与 Marketplace 把第三方卖家变成平台主力——这正是中国跨境卖家出海的主战场；蓝色起源推动可复用火箭商业化。</p>"
+          "body": "<p>把亚马逊做成全球最大电商与云计算（AWS）双巨头；FBA 与 Marketplace 让第三方卖家成平台主力；蓝色起源推动可复用火箭。</p>"
         },
         {
           "h": "🌟 一句话亮点",
-          "body": "<p>「你的利润就是我的机会。」理解这句话，就理解了亚马逊为什么对卖家又爱又狠。</p>"
+          "body": "<p>「你的利润就是我的机会。」理解这句话就懂了亚马逊对卖家又爱又狠。</p>"
         }
       ]
     },
     {
       "title": "沃伦·巴菲特 Warren Buffett",
-      "tag": "第5天 · 名人故事",
+      "tag": "第12天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/500px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg\" alt=\"沃伦·巴菲特\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/buffett.jpg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/500px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg\" alt=\"沃伦·巴菲特 Warren Buffett\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/buffett.jpg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -2023,25 +2190,25 @@ const CONTENT = {
         },
         {
           "h": "📖 人物介绍（在世）",
-          "body": "<p>1930 年生于美国内布拉斯加州奥马哈，师从价值投资奠基人本杰明·格雷厄姆。截至 2026 年仍在世。1965 年接手濒临倒闭的纺织厂伯克希尔·哈撒韦，把它改造成横跨保险、铁路、能源与消费的控股集团。</p>"
+          "body": "<p>1930 年生于美国内布拉斯加州奥马哈，师从价值投资奠基人本杰明·格雷厄姆。截至 2026 年仍在世。1965 年接手濒临倒闭的纺织厂伯克希尔，把它改造成横跨保险、铁路、能源与消费的控股集团。</p>"
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>以数十年复利创造投资史最长的优异纪录；用保险浮存金做低成本杠杆，形成独特资本配置模型；每年《致股东信》成为全球商界公开课。</p>"
+          "body": "<p>以数十年复利创造投资史最长优异纪录；用保险浮存金做低成本杠杆；每年《致股东信》成全球商界公开课。</p>"
         },
         {
           "h": "🌟 一句话亮点",
-          "body": "<p>「别人贪婪时恐惧，别人恐惧时贪婪。」对做生意的人，这句话同样适用于备货节奏。</p>"
+          "body": "<p>「别人贪婪时恐惧，别人恐惧时贪婪。」对做生意的人同样适用备货节奏。</p>"
         }
       ]
     },
     {
       "title": "萨姆·奥尔特曼 Sam Altman",
-      "tag": "第6天 · 名人故事",
+      "tag": "第13天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg\" alt=\"萨姆·奥尔特曼\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/altman.jpg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg/500px-Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg\" alt=\"萨姆·奥尔特曼 Sam Altman\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/people/altman.jpg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -2049,181 +2216,25 @@ const CONTENT = {
         },
         {
           "h": "📖 人物介绍（在世）",
-          "body": "<p>1985 年生于美国芝加哥，斯坦福肄业创业者。截至 2026 年仍在世。早年创办 Loopt，后出任孵化器 Y Combinator 总裁；2015 年参与创立 OpenAI，主导 GPT 系列与 ChatGPT 产品化。</p>"
+          "body": "<p>1985 年生于美国芝加哥，斯坦福肄业创业者。截至 2026 年仍在世。早年创办 Loopt，后出任 Y Combinator 总裁；2015 年参与创立 OpenAI，主导 GPT 系列与 ChatGPT 产品化。</p>"
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>2022 年底推出 ChatGPT，把大模型从论文变成亿级用户日常工具，点燃全球 AI 浪潮；推动 OpenAI 与微软深度绑定；持续为 AI 算力与基础设施筹措巨额资本。</p>"
+          "body": "<p>2022 年底推出 ChatGPT，把大模型从论文变成亿级用户日常工具，点燃全球 AI 浪潮；持续为算力与基础设施筹措巨额资本。</p>"
         },
         {
           "h": "🌟 一句话亮点",
-          "body": "<p>「先把东西做出来给人用，再谈完美。」他证明了产品化速度本身就是壁垒。</p>"
-        }
-      ]
-    },
-    {
-      "title": "阳萌 Yang Meng",
-      "tag": "第7天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"阳萌\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">安克创新 Anker · 亚马逊 · 浅海理论 · 品牌出海 · 长沙</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>北京大学计算机专业毕业，赴美深造后进入谷歌任搜索算法工程师。截至 2026 年仍在世。2011 年回国在长沙创办安克创新，从亚马逊卖充电配件起步，做成中国消费电子品牌出海标杆。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把 Anker 做成亚马逊充电品类头部品牌，孵化 Soundcore（音频）、eufy（智能家居）、Nebula（投影）等子品牌；2020 年登陆创业板；海外营收占比长期九成以上。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「不去深海跟巨头搏杀，在浅海里做到第一再换下一片海。」这就是他的「浅海理论」。</p>"
-        }
-      ]
-    },
-    {
-      "title": "王来春 Wang Laichun",
-      "tag": "第8天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"王来春\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">立讯精密 · 果链 · 精密制造 · 女性企业家 · 广东</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1967 年生于广东汕头澄海，1988 年进富士康深圳工厂当流水线工人，十年做到课长。截至 2026 年仍在世。1999 年与兄长收购香港立讯，2004 年成立立讯精密，从连接器做起切入苹果供应链。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把连接器小厂做成全球领先精密制造企业，覆盖声学、无线充电、AirPods 整机代工与汽车线束；从打工妹到千亿市值上市公司掌门人，是中国制造升级的缩影。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「订单是靠良率和交期挣来的。」她的故事说明制造业护城河藏在细节里。</p>"
-        }
-      ]
-    },
-    {
-      "title": "周群飞 Zhou Qunfei",
-      "tag": "第9天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"周群飞\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">蓝思科技 · 玻璃盖板 · 湖南 · 白手起家 · 女性企业家</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1970 年生于湖南湘乡，家境贫寒，十几岁南下深圳进玻璃厂打工。截至 2026 年仍在世。1993 年以极少积蓄创办作坊，2003 年成立蓝思科技，专攻手机视窗防护玻璃。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>抓住触屏手机爆发窗口，成全球主要玻璃盖板供应商，客户覆盖头部手机与消费电子品牌；2015 年蓝思上市，成为备受关注的白手起家女性企业家。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「别人嫌苦嫌脏的工序，我把它做到最好。」从打工妹到玻璃女王的全部秘密。</p>"
-        }
-      ]
-    },
-    {
-      "title": "刘靖康 Liu Jingkang",
-      "tag": "第10天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"刘靖康\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">影石创新 Insta360 · 全景相机 · 深圳 · 90 后 · 出海</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1991 年生，南京大学软件学院毕业，学生时代就因技术项目为人所知。截至 2026 年仍在世。2015 年在深圳创办影石创新，瞄准当时小众的全景与运动相机赛道。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把 Insta360 做成全景相机全球市占率领先品牌，凭 ONE X、X 系列与 GO 系列在海外社媒打开局面；2025 年登陆科创板，成 90 后创业代表。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「先想清楚用户会不会愿意把它发到社交平台上。」传播力被他当成产品指标来做。</p>"
-        }
-      ]
-    },
-    {
-      "title": "钟波 Zhong Bo",
-      "tag": "第11天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"钟波\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">极米科技 XGIMI · 智能投影 · 成都 · 无屏电视 · 出海</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>电子科技大学毕业，早年在半导体与显示行业做工程师。截至 2026 年仍在世。2013 年在成都创办极米，提出「无屏电视」概念，把投影仪从会议室搬进客厅。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>带领极米长期位居中国智能投影份额前列，并把产品卖到欧美日；2021 年登陆科创板；推动投影在亮度、自动对焦与梯形校正上的体验升级。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「把专业设备变成家电，关键是让用户不用看说明书。」易用性就是他的差异化。</p>"
-        }
-      ]
-    },
-    {
-      "title": "孙中伟 Sun Zhongwei",
-      "tag": "第12天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"孙中伟\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">华宝新能源 · Jackery 电小二 · 便携储能 · 深圳 · 户外能源</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>曾在电池行业深耕多年，具备锂电与电源管理技术背景。截至 2026 年仍在世。2011 年在深圳创办华宝新能源，2012 年推出面向海外的 Jackery 品牌，切入几乎空白的便携储能赛道。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把 Jackery 做成北美、日本便携储能头部品牌，并以「电小二」布局国内；2022 年登陆创业板；踩中露营经济与家庭应急备电两波需求，成中国新能源出海代表。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「先在海外把品类教育做透，再回头做国内。」一条反向出海路径。</p>"
+          "body": "<p>「先把东西做出来给人用，再谈完美。」产品化速度本身就是壁垒。</p>"
         }
       ]
     },
     {
       "title": "黄仁勋 Jensen Huang",
-      "tag": "第13天 · 名人故事",
+      "tag": "第14天 · 名人故事",
       "blocks": [
         {
           "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/500px-Jen-Hsun_Huang_2025.jpg\" alt=\"黄仁勋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
+          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/500px-Jen-Hsun_Huang_2025.jpg\" alt=\"黄仁勋 Jensen Huang\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
         },
         {
           "h": "🏷 人物标签",
@@ -2231,197 +2242,15 @@ const CONTENT = {
         },
         {
           "h": "📖 人物介绍（在世）",
-          "body": "<p>1963 年生于中国台湾台南，幼年随家人移居美国，俄勒冈州立大学电气工程学士、斯坦福硕士。截至 2026 年仍在世。1993 年与伙伴在餐厅创办英伟达，长期任 CEO，是硅谷在任最久的创始人 CEO 之一。</p>"
+          "body": "<p>1963 年生于中国台湾台南，幼年移居美国，俄勒冈州立大学电气工程学士、斯坦福硕士。截至 2026 年仍在世。1993 年与伙伴在餐厅创办英伟达，长期任 CEO，是硅谷在任最久的创始人 CEO 之一。</p>"
         },
         {
           "h": "🏆 主要成就",
-          "body": "<p>把显卡公司变成 AI 时代基础设施供应商；2006 年推 CUDA，用十几年把 GPU 通用计算生态做成事实标准；生成式 AI 爆发后，英伟达成全球市值最高公司之一，数据中心芯片几乎是大模型训练默认选择。</p>"
+          "body": "<p>把显卡公司变成 AI 时代基础设施供应商；2006 年推 CUDA，用十几年把 GPU 通用计算做成事实标准；生成式 AI 爆发后成全球市值最高公司之一。</p>"
         },
         {
           "h": "🌟 一句话亮点",
           "body": "<p>「我们不是在卖芯片，是在卖一整套计算平台。」CUDA 生态才是真正的护城河。</p>"
-        }
-      ]
-    },
-    {
-      "title": "梁文锋 Liang Wenfeng",
-      "tag": "第14天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"梁文锋\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">DeepSeek · 幻方量化 · 开源大模型 · 杭州 · 低成本训练</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1985 年生于广东湛江，浙江大学电子信息工程专业毕业。截至 2026 年仍在世。先以量化投资起家创办幻方量化，积累起大规模 GPU 算力；2023 年成立 DeepSeek（深度求索）全力投入通用大模型。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>DeepSeek 以开源路线和显著更低训练成本推出高性能模型，2025 年初引发全球关注，直接冲击「大模型必须靠天价算力堆出来」的共识，让中国开源模型进入国际主流视野。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「重要的不是追赶，是参与到最前沿的定义里去。」他用开源撬动了话语权。</p>"
-        }
-      ]
-    },
-    {
-      "title": "王传福 Wang Chuanfu",
-      "tag": "第15天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg/500px-Wang_Chuanfu_IAA_2023_1X7A0154_%28cropped%29.jpg\" alt=\"王传福\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">比亚迪 · 刀片电池 · 垂直整合 · 新能源车 · 深圳</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1966 年生于安徽无为，中南工业大学冶金物理化学专业毕业，曾在北京有色金属研究总院做电池研究。截至 2026 年仍在世。1995 年在深圳创办比亚迪做手机电池，2003 年收购秦川汽车切入整车，当时被几乎所有人质疑。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把比亚迪做成全球销量领先的新能源车企，以刀片电池重塑磷酸铁锂安全与成本曲线；坚持从电池、电机、电控到芯片垂直整合；近年加速出海，在多个海外市场建厂设网。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「技术是根，工程师是本。」他把研发人数堆到十万级，用工程能力换成本优势。</p>"
-        }
-      ]
-    },
-    {
-      "title": "曾毓群 Robin Zeng",
-      "tag": "第16天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Robin_Zeng_2023.jpg/500px-Robin_Zeng_2023.jpg\" alt=\"曾毓群\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">宁德时代 CATL · 动力电池 · 麒麟电池 · 福建 · 全球第一</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1968 年生于福建宁德，上海交大船舶工程专业毕业，后获中科院物理学博士。截至 2026 年仍在世。早年参与创办新能源科技（ATL）做消费电池，2011 年分拆动力电池业务，在家乡宁德创立宁德时代。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>带领宁德时代长期占据全球动力电池装机量第一，客户覆盖特斯拉、宝马、大众等主流车企；推出 CTP、麒麟电池、神行超充等技术；在欧洲布局工厂，把中国电池产业链推向全球。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>办公室挂着「赌性坚强」——但他赌的从来是研发投入，不是运气。</p>"
-        }
-      ]
-    },
-    {
-      "title": "汪滔 Frank Wang",
-      "tag": "第17天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"assets/face-fallback.svg\" alt=\"汪滔\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=null;this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">大疆 DJI · 消费级无人机 · 云台增稳 · 深圳 · 极客</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1980 年生于浙江杭州，香港科技大学电子工程专业毕业，毕业设计做的正是直升机飞行控制系统。截至 2026 年仍在世。2006 年在深圳创办大疆，最初只卖飞控模块给航模爱好者。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>2013 年推出「精灵 Phantom」一体机，把航拍从极客玩具变成大众消费品；大疆长期占据全球消费级无人机绝大部分份额，并把技术延伸到手持云台（Osmo）、影像与行业应用。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「产品不完美就不发布。」极致工程洁癖，换来一个几乎由他定义的品类。</p>"
-        }
-      ]
-    },
-    {
-      "title": "马化腾 Pony Ma",
-      "tag": "第18天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg/500px-%E9%A9%AC%E5%8C%96%E8%85%BE_Pony_Ma_2019.jpg\" alt=\"马化腾\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">腾讯 · 微信 · QQ · 社交 · 深圳 · 产品经理</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1971 年生于广东汕头，深圳大学计算机专业毕业。截至 2026 年仍在世。1998 年在深圳与四位伙伴创办腾讯，靠 OICQ（后来的 QQ）起家，长期任董事会主席兼 CEO，以「产品经理型创始人」著称。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把腾讯做成中国最大社交与数字内容平台；2011 年支持张小龙团队推出微信，重定义移动互联网入口；构建涵盖游戏、支付、云与投资的生态，长期位列全球市值最高科技公司之一。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「小步快跑，快速迭代。」他每天自己泡在产品里提意见，这是腾讯方法论源头。</p>"
-        }
-      ]
-    },
-    {
-      "title": "萨提亚·纳德拉 Satya Nadella",
-      "tag": "第19天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/500px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg\" alt=\"萨提亚·纳德拉\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">微软 · Azure · 云优先 · OpenAI · Copilot · 转型</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1967 年生于印度海得拉巴，威斯康星大学计算机硕士、芝加哥大学 MBA。截至 2026 年仍在世。1992 年加入微软，长期负责服务器与云业务，2014 年接任 CEO，接手的是一家被认为错过移动时代的巨头。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>用「云优先、移动优先」把微软重心转向 Azure，市值增长十余倍；主动拥抱开源与跨平台，收购 GitHub；重金押注并深度绑定 OpenAI，把 Copilot 铺进 Windows、Office 与开发工具链。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「从『无所不知』转向『无所不学』。」他靠改文化，救回了一家掉队的巨头。</p>"
-        }
-      ]
-    },
-    {
-      "title": "蒂姆·库克 Tim Cook",
-      "tag": "第20天 · 名人故事",
-      "blocks": [
-        {
-          "h": "📷 人物照片",
-          "body": "<img class=\"face\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tim_Cook_March_2026_%28cropped_2%29.jpg/500px-Tim_Cook_March_2026_%28cropped_2%29.jpg\" alt=\"蒂姆·库克\" loading=\"lazy\" referrerpolicy=\"no-referrer\" onerror=\"this.onerror=function(){this.onerror=null;this.src='assets/face-fallback.svg'};this.src='assets/face-fallback.svg'\">"
-        },
-        {
-          "h": "🏷 人物标签",
-          "body": "<p class=\"tags\">苹果 · 供应链大师 · 服务业务 · 自研芯片 · 库存周转</p>"
-        },
-        {
-          "h": "📖 人物介绍（在世）",
-          "body": "<p>1960 年生于美国阿拉巴马州，奥本大学工业工程学士、杜克 MBA，曾在 IBM 与康柏负责供应链。截至 2026 年仍在世。1998 年被乔布斯招入苹果整顿运营，2011 年接任 CEO。</p>"
-        },
-        {
-          "h": "🏆 主要成就",
-          "body": "<p>把苹果库存周转压到以天计，建立教科书级全球供应链体系；任内苹果成首家万亿市值公司并持续刷新纪录；推动 M 系列自研芯片替换英特尔，把服务业务做成第二增长曲线。</p>"
-        },
-        {
-          "h": "🌟 一句话亮点",
-          "body": "<p>「库存是根本性的邪恶。」对做外贸的人，这句话比任何励志格言都实在。</p>"
         }
       ]
     }
@@ -2453,7 +2282,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>蒸鸡胸别干嚼——蒸熟切片，拌<b>蒜末+小米椒圈+生抽+两滴香醋</b>，秒变蒜香口水鸡片；那锅海带豆腐汤丢几片干辣椒段、白胡椒粉和陈醋，做成酸辣海带汤，喝完微微发汗，深圳湿热的天气最舒服。辣味全靠鲜辣椒和白胡椒，糖油一律不加。</p>"
+          "body": "<p>蒸鸡胸别干嚼——切片拌<b>蒜末+小米椒圈+生抽+两滴香醋</b>，秒变蒜香口水鸡片；海带豆腐汤丢几片干辣椒段、白胡椒粉和陈醋，做成酸辣海带汤，喝完微微发汗，深圳湿热天最舒服。辣味全靠鲜辣椒和白胡椒，糖油一律不加。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2487,7 +2316,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>番茄龙利鱼煲加几颗<b>野山椒</b>和一勺泡椒水，变酸汤龙利鱼，酸辣比麻辣更清爽不上火；鸡丝黄瓜沙拉换<b>蒜蓉辣椒+香醋+生抽</b>凉拌汁；紫菜蛋花汤撒白胡椒+小米辣。下午那杯冰美式照旧，解腻一流。</p>"
+          "body": "<p>番茄龙利鱼煲加几颗<b>野山椒</b>和一勺泡椒水，变酸汤龙利鱼，酸辣比麻辣更清爽不上火；鸡丝黄瓜沙拉换<b>蒜蓉辣椒+香醋+生抽</b>凉拌汁；下午那杯冰美式照旧，解腻一流。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2521,7 +2350,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>苦瓜改<b>豆豉小米椒炒苦瓜</b>——咸辣豆豉压住苦味，比清炒好入口；虾仁蒸蛋出锅淋一勺蒜蓉辣酱。菌菇汤丢两片<b>泡椒+少许泡椒水</b>，做成泡椒菌菇汤，酸辣鲜，菌菇纤维照样护肠。</p>"
+          "body": "<p>虾仁蒸蛋出锅淋一勺<b>辣椒油（自熬，无糖）+蒸鱼豉油</b>，鲜辣开胃；嫩豆腐菌菇汤撒白胡椒+小米辣，暖胃又低卡。配巴氏鲜奶当早餐，胀气就换无糖酸奶。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2555,7 +2384,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>彩椒牛里脊换<b>泡椒泡姜炒牛柳</b>，酸辣下饭还特别省油；巴沙鱼改<b>蒜蓉辣椒蒸鱼</b>——蒸熟后铺一层蒜末辣椒面，泼一勺滚油激香，鲜辣扑鼻。补铁这两天配辣更暖身。</p>"
+          "body": "<p>蒸红薯别只当主食——压成泥拌<b>辣椒面+蒜水+生抽</b>做成辣味薯泥；水煮蛋对半切淋<b>剁椒+香醋</b>。全天多喝温绿茶，避开一切甜饮。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2589,7 +2418,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐蔬菜卷里抹一层<b>小米椒蒜泥</b>，或夹一点无糖辣白菜丝（挑不加糖的）；晚餐凉拌木耳升级<b>川味炝拌木耳</b>——蒜末+小米辣+花椒油+香醋+生抽，脆爽麻辣，清肠这天照样有滋味。</p>"
+          "body": "<p>鸡胸炒青椒（少油）撒<b>花椒粉+干辣椒碎</b>，做成简易辣子鸡丁；紫菜蛋花汤加白胡椒和几滴辣油。牛奶统一用巴氏鲜奶（保质期短），不用豆浆豆奶。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2623,7 +2452,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐那锅鱼豆腐煲直接做成<b>酸菜鱼豆腐煲</b>：酸菜+泡椒+白胡椒一起下，酸辣一锅出，带饭第二天热了更入味；晚餐鸡胸蔬菜汤扔<b>干辣椒+花椒</b>煮成麻辣鸡丝汤。省事党的一锅辣。</p>"
+          "body": "<p>龙利鱼换成<b>藤椒汁</b>蒸（藤椒+生抽+少许泡椒水），麻香不燥；玉米+黄瓜沙拉拌<b>辣椒蒜醋汁</b>。下午来杯冰美式压住油腻感。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2657,7 +2486,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>周末给点辣的甜头：午餐鸡胸做成<b>口水鸡</b>——煮熟撕条，浇辣椒油+花椒粉+蒜水+生抽+香醋；晚餐凉拌黄瓜改<b>拍黄瓜配蒜辣汁</b>，拍碎更入味。放松但不破功，油和糖都没多加。</p>"
+          "body": "<p>豆腐海带汤升级成<b>韩式辣味汤</b>底（韩式辣酱少放、不加糖，配蒜末白胡椒）；蒸鸡丝拌<b>油泼辣子+陈醋</b>。巴氏鲜奶照喝，胀气换酸奶。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2691,7 +2520,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐意面做成<b>川辣番茄鸡丝意面</b>——番茄底加半勺豆瓣酱（挑咸口不加糖的）+几滴花椒油，中西混搭意外对味；晚餐冬瓜豆腐汤加<b>白胡椒+野山椒</b>成酸辣冬瓜汤。换口味也照样辣。</p>"
+          "body": "<p>虾仁不蒸了，用<b>少油爆香蒜片+小米辣</b>快炒，鲜辣下饭；苦瓜清炒丢几粒花椒提香。全天温姜茶一杯暖胃。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2725,7 +2554,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐牛里脊改<b>孜然辣牛柳</b>——孜然粒+辣椒面+牛肉丝少油快煸，香得整层楼都闻得到；晚餐清蒸鱼铺<b>豆豉+小米椒</b>同蒸，豉香辣味渗进鱼肉。第二轮补铁，辣着吃更有胃口。</p>"
+          "body": "<p>鸡胸撕丝拌<b>麻辣花生碎（无糖）+辣椒油+香菜</b>；红薯蘸<b>辣椒面+生抽</b>。膳食纤维够，辣味靠花椒辣椒，零糖零油负担。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2759,7 +2588,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐沙拉换<b>藤椒柠檬鸡丝</b>——藤椒油+柠檬汁+小米辣+少许鱼露，麻中带酸，比油醋汁开胃得多；晚餐木耳做<b>炝拌木耳</b>，辣椒面上泼热油那一下最香。</p>"
+          "body": "<p>番茄汤底加<b>一勺剁椒</b>煮龙利鱼，酸辣暖身；鸡蛋做成<b>辣椒酱油煮蛋</b>。早餐巴氏鲜奶+水煮蛋，蛋白质拉满。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2793,7 +2622,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐苦瓜改<b>剁椒炒苦瓜</b>，鱼蒸蛋淋<b>小米椒生抽</b>；晚餐鸡胸蔬菜汤加<b>白胡椒+泡椒</b>做成酸辣鸡丝汤。双蛋白配酸辣，顶饱又不撑。</p>"
+          "body": "<p>蒸鸡胸切条裹<b>辣椒面+孜然粉（无糖）+少许生抽</b>做成低脂辣条风味；豆腐汤加白胡椒和野山椒。冰美式照旧解腻。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2827,7 +2656,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐虾仁炒蛋改<b>泡椒虾仁滑蛋</b>，泡椒的酸辣最配虾的鲜；西兰花用<b>蒜末+干辣椒段</b>炝炒。晚餐凉拌黄瓜换<b>花椒油+蒜+小米辣</b>版本，麻辣脆口。</p>"
+          "body": "<p>菌菇豆腐汤撒<b>花椒油+小米辣</b>变麻辣鲜汤；虾仁用<b>蒜蓉辣椒</b>轻炒。全天喝水 1.5–2L，避开奶茶碳酸饮料。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2861,7 +2690,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐通心菜改<b>腐乳小米椒炒通心菜</b>（腐乳挑咸口），鸡胸淋蒜蓉辣酱；晚餐鱼豆腐汤做成<b>酸辣鱼片汤</b>——白胡椒+陈醋+泡椒，喝一口从喉咙暖到胃。</p>"
+          "body": "<p>鸡丝黄瓜换<b>麻辣凉拌汁（辣椒油+花椒粉+醋+生抽）</b>；蒸红薯蘸辣味生抽。深圳湿重，辣味微微发汗正合适。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2895,7 +2724,7 @@ const CONTENT = {
         },
         {
           "h": "🌶 旺仔辣味备选",
-          "body": "<p>午餐鸡胸蔬菜卷抹<b>辣椒蒜蓉酱</b>；晚餐做<b>酸辣番茄豆腐汤</b>收尾。两周下来你会发现：所有辣味只用了<b>小米椒 / 泡椒 / 剁椒 / 干辣椒 / 花椒藤椒 / 白胡椒</b>这六件套，一勺糖、一勺多余的油都没加——这就是「辣得过瘾又不长肉」的全部秘密。再配一杯冰美式或热普洱，收工。</p>"
+          "body": "<p>龙利鱼<b>泡椒蒸</b>（泡椒+姜丝+生抽），酸辣够味；鸡蛋淋<b>辣椒豉油</b>。牛奶只喝巴氏鲜奶或换无糖酸奶，坚决不碰豆浆豆奶和常温奶。</p>"
         },
         {
           "h": "💡 为什么这么搭",
@@ -2913,11 +2742,11 @@ const CONTENT = {
         },
         {
           "h": "费大厨辣椒炒肉 · 湘菜",
-          "body": "<p>人均约 ¥75 ｜ 地址：深圳多店，各大商圈均有 ｜ 推荐：辣椒炒肉（招牌必点）、小炒黄牛肉、 solanum 炒蛋。明档现炒，肉嫩椒香，一个人点一荤一素刚好。</p>"
+          "body": "<p>人均约 ¥75 ｜ 地址：深圳多店，各大商圈均有 ｜ 推荐：辣椒炒肉（招牌必点）、小炒黄牛肉。明档现炒，肉嫩椒香，一个人点一荤一素刚好。</p>"
         },
         {
           "h": "炊烟小炒黄牛肉 · 湘菜",
-          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：小炒黄牛肉、剁椒鱼头、擂辣椒茄子。黄牛肉现切现炒，锅气足，辣度可以喊「重辣」。</p>"
+          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：小炒黄牛肉、剁椒鱼头、擂辣椒茄子。黄牛肉现切现炒，锅气足，辣度可喊「重辣」。</p>"
         },
         {
           "h": "周师兄重庆火锅 · 重庆火锅",
@@ -2925,7 +2754,7 @@ const CONTENT = {
         },
         {
           "h": "萍姐火锅 · 重庆火锅·市井",
-          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：市井老火锅牛油锅、麻辣牛肉、脑花。装修走怀旧市井风，氛围热闹，辣得过瘾。</p>"
+          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：市井老火锅牛油锅、麻辣牛肉、脑花。装修走怀旧市井风，氛围热闹。</p>"
         },
         {
           "h": "朱光玉火锅馆 · 重庆火锅",
@@ -2933,7 +2762,7 @@ const CONTENT = {
         },
         {
           "h": "巴奴毛肚火锅 · 川渝火锅",
-          "body": "<p>人均约 ¥150 ｜ 地址：深圳多店 ｜ 推荐：野山菌汤+麻辣锅、毛肚、绣球菌。主打「服务不过度、产品主义」，毛肚七上八下最脆。</p>"
+          "body": "<p>人均约 ¥150 ｜ 地址：深圳多店 ｜ 推荐：野山菌汤+麻辣锅、毛肚、绣球菌。主打「产品主义」，毛肚七上八下最脆。</p>"
         },
         {
           "h": "八合里海记牛肉火锅 · 潮汕牛肉",
@@ -2941,27 +2770,27 @@ const CONTENT = {
         },
         {
           "h": "椒爱水煮鱼 · 川菜",
-          "body": "<p>人均约 ¥85 ｜ 地址：深圳多店 ｜ 推荐：水煮鱼（鲈鱼/草鱼）、辣子鸡、毛血旺。鱼片嫩滑、红油透亮，麻辣直给，配米饭一流。</p>"
+          "body": "<p>人均约 ¥85 ｜ 地址：深圳多店 ｜ 推荐：水煮鱼（鲈鱼）、辣子鸡、毛血旺。鱼片嫩滑、红油透亮，麻辣直给，配米饭一流。</p>"
         },
         {
           "h": "太二酸菜鱼 · 酸辣",
-          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：老坛子酸菜鱼（鲈鱼）、藤椒鱼。酸辣开胃、鱼片无刺，一个人也能点小份，甜品一律跳过。</p>"
+          "body": "<p>人均约 ¥80 ｜ 地址：深圳多店 ｜ 推荐：老坛子酸菜鱼（鲈鱼）、藤椒鱼。酸辣开胃、鱼片无刺，甜品一律跳过。</p>"
         },
         {
           "h": "鱼酷活鱼烤鱼 · 烤鱼",
-          "body": "<p>人均约 ¥95 ｜ 地址：深圳多店 ｜ 推荐：麻辣/藤椒烤鱼（清江鱼）、配菜加土豆宽粉。现杀活鱼，麻辣汁收得浓，配菜比鱼还抢戏。</p>"
+          "body": "<p>人均约 ¥95 ｜ 地址：深圳多店 ｜ 推荐：麻辣/藤椒烤鱼（清江鱼）、配菜加土豆宽粉。现杀活鱼，麻辣汁收得浓。</p>"
         },
         {
           "h": "黄记煌三汁焖锅 · 焖锅",
-          "body": "<p>人均约 ¥90 ｜ 地址：深圳多店 ｜ 推荐：麻辣/香辣焖鸡翅、焖牛蛙。一锅焖出，酱汁咸辣浓郁，不用自己涮，懒人友好。</p>"
+          "body": "<p>人均约 ¥90 ｜ 地址：深圳多店 ｜ 推荐：麻辣/香辣焖鸡翅、焖牛蛙。一锅焖出，酱汁咸辣浓郁，懒人友好。</p>"
         },
         {
           "h": "蜀大侠火锅 · 成都火锅",
-          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：九宫格牛油锅、耙牛肉、鹅肠。环境偏江湖气，适合约人，辣度稳。</p>"
+          "body": "<p>人均约 ¥130 ｜ 地址：深圳多店 ｜ 推荐：九宫格牛油锅、耙牛肉、鹅肠。环境偏江湖气，辣度稳。</p>"
         },
         {
           "h": "☕ 配饮清单（不甜的那种）",
-          "body": "<p>吃辣配什么：<b>冰美式</b>最解腻——Manner、Seesaw、%Arabica 在深圳各商圈都有，本地独立咖啡馆集中在南头古城、华侨城创意园一带，值得逛。想喝茶就选<b>纯茶</b>：普洱、乌龙、单丛都压得住辣味，tea'stone 一类纯茶馆可以坐；便利店选无糖乌龙/茉莉茶。<b>奶茶、果茶、糖水一律跳过。</b></p>"
+          "body": "<p>吃辣配什么：<b>冰美式</b>最解腻——Manner、Seesaw、%Arabica 在深圳各商圈都有，本地独立咖啡馆集中在南头古城、华侨城创意园一带。想喝茶就选<b>纯茶</b>：普洱、乌龙、单丛都压得住辣味，tea'stone 一类纯茶馆可以坐；便利店选无糖乌龙/茉莉茶。<b>奶茶、果茶、糖水一律跳过。</b></p>"
         }
       ]
     }
@@ -2969,7 +2798,7 @@ const CONTENT = {
   "overseas": [
     {
       "title": "Day 1 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第1天 · 中小 4 / 头部 2",
+      "tag": "第1天 · 头部1 / 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -2977,13 +2806,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>特斯拉 Tesla</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电动车与能源巨头；2003 ｜ 总部：美国·得州</div><div class=\"co-r\"><b>主营业务：</b>电动车、储能、自动驾驶　招牌：Model 3/Y、FSD</div><div class=\"co-r\"><b>市场与打法：</b>直营+超级工厂+软件OTA；上海超级工厂是全球化关键</div><div class=\"co-r found\"><b>📜 发家史：</b>2003 年特斯拉创立，2004 年马斯克入主并力推 Roadster 到 Model S，把电车从\"玩具\"做成\"性能怪兽\"。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2019 年上海超级工厂投产，产能与成本骤降，Model 3/Y 成全球爆款；马斯克同时押注 SpaceX、xAI，是跨界狂人。</div><div class=\"co-r look\"><b>💡 看点：</b>上海工厂是中国供应链反哺全球品牌的经典案例，出海必读。<button class=\"fam-btn\" data-fp=\"埃隆·马斯克 Elon Musk\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tesla.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tesla.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Monoprice</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高性价比 3C 与线缆配件电商（被 DTC 收购）；2002 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>高性价比线材/配件进口商</div><div class=\"co-r\"><b>采购画像：</b>采购 线材/适配器/音频配件；渠道 1688/阿里国际站直采　招牌：HDMI 线、显示器、音频配件，主打低价高质</div><div class=\"co-r found\"><b>📜 发家史：</b>2002 年，Monoprice 在美国加州创立，靠超低价线材、HDMI 线与 3C 配件电商起家，用工厂直供、砍掉品牌溢价的打法走红，一度是极客圈便宜好用的代名词。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以无品牌高性价比模式被多次转手（曾被乐天收购又卖出），成为平价 3C 渠道样本，也折射出纯价格模式的脆弱，缺乏品牌忠诚，易被后来者替代。</div><div class=\"co-r look\"><b>💡 看点：</b>低价不低质的配件模式，是中国卖家的直接竞品与参照；推荐：纯进口商选品与定价研究</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.monoprice.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.monoprice.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Crutchfield</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端影音与汽车音响专业零售商（目录营销起家）；1974 ｜ 总部：美国·弗吉尼亚</div><div class=\"co-r\"><b>企业简介：</b>汽车/家庭影音专业零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 车载电子/扬声器/配件；渠道 直接对华 OEM　招牌：发烧音响、电视、智能家居，重内容与客服</div><div class=\"co-r found\"><b>📜 发家史：</b>1974 年，Bill Crutchfield 在美国弗吉尼亚以邮购汽车音响起家，靠一份厚厚的目录和把参数写清楚的专业精神，在音响发烧友里建立信任。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>Crutchfield 靠极致的客服与详尽的选购指南（甚至帮客户算好安装件），做成美国最被信任的专业影音渠道，在电商时代反而因专业加服务活得滋润，是慢生意的长青样本。</div><div class=\"co-r look\"><b>💡 看点：</b>用专业内容加极致服务做高客单，值得研究其测评体系；推荐：垂直品类专业渠道研究</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.crutchfield.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.crutchfield.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>B&amp;H Photo Video</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>纽约专业影像与 IT 器材零售商；1973 ｜ 总部：美国·纽约</div><div class=\"co-r\"><b>企业简介：</b>专业影像/电子大经销商</div><div class=\"co-r\"><b>采购画像：</b>采购 相机配件/音频/智能家居；渠道 直接对华 + 港展　招牌：相机、镜头、专业设备，全球摄影师首选</div><div class=\"co-r found\"><b>📜 发家史：</b>1973 年，Herman Schreiber 在纽约创办一家相机小店，靠犹太安息日闭店等另类规则和极度专业，在摄影师圈子里积累口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>B&amp;H 从单店做到专业影像/电子超级卖场加巨型线上目录，是影音发烧友与专业摄影师的朝圣地，靠品类极全、不缺货、专家客服在亚马逊时代守住专业市场。</div><div class=\"co-r look\"><b>💡 看点：</b>专业垂直电商的标杆，看其商品信息与社区运营；推荐：专业品类大 SKU 采购</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.bhphotovideo.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.bhphotovideo.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Newegg</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美 IT/DIY 硬件电商（华人创办）；2001 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>电商/DIY 硬件平台</div><div class=\"co-r\"><b>采购画像：</b>采购 PC 配件/外设/组件；渠道 直接对华工厂　招牌：电脑配件、显卡、整机，极客用户多</div><div class=\"co-r found\"><b>📜 发家史：</b>2001 年，Fred Chang（张法俊）创办 Newegg，专注 PC 硬件电商，从服务北美 DIY 极客社区起家，靠真货加快评加极客氛围做成重镇。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>Newegg 靠服务 DIY 社区做成北美 3C 电商一极，2022 年通过 SPAC 上市；但它也因品类偏窄、竞争加剧而起伏，是中国 3C 卖家重要的出海平台之一。</div><div class=\"co-r look\"><b>💡 看点：</b>中国卖家熟悉的平台，研究北美 DIY 硬件渠道；推荐：线上 3C 渠道与华强北联动</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.newegg.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.newegg.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Best Buy</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>美国最大的消费电子连锁零售商；1966 ｜ 总部：美国·明尼苏达</div><div class=\"co-r\"><b>企业简介：</b>北美最大消费电子零售商，全品类渠道之王</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类消费电子（耳机/音箱/电视/智能配件），含 ONN 等自牌；渠道 直接对华 OEM/ODM 采购 + 深圳/华中等采购团队　招牌：门店加线上，Geek Squad 上门服务，家电/数码/游戏</div><div class=\"co-r\"><b>规模：</b>全美约 1000 家门店，年销售数百亿美元</div><div class=\"co-r found\"><b>📜 发家史：</b>1966 年，理查德·舒尔茨在美国明尼苏达州圣保罗开出一家叫音乐之声 Sound of Music 的音频专卖小店，卖音箱和唱片，第一年就因为一场龙卷风把库存清仓打折而尝到低价引流的甜头。1981 年一场仓库火灾后，他干脆把剩余库存大幅打折、做成了轰动当地的促销，这次意外营销让他看清了低价加大流量的零售本质。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>1983 年公司更名 Best Buy，并改用仓储式大卖场加自助选购加天天低价模式，把价格打透明、把门店开成大盒子 superstore，用规模碾压传统高价专卖店，最终登顶北美消费电子零售，并在 2000 年代后靠以旧换新加会员加服务抵御电商冲击。</div><div class=\"co-r look\"><b>💡 看点：</b>价格匹配与会员体系是护城河；中国品牌多走 Vendor Central 或贸易商入其供应链；推荐：研究大买家的采购规格、合规与自牌打法</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.bestbuy.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.bestbuy.com</a></div></div>"
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>特斯拉 Tesla</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电动车与能源巨头；2003｜总部：美国·得州</div><div class=\"co-r\"><b>主营业务：</b>电动车、储能、FSD　招牌：Model 3/Y</div><div class=\"co-r\"><b>市场与打法：</b>直营+超级工厂+软件 OTA</div><div class=\"co-r found\"><b>📜 发家史：</b>2003 年创立，2004 年马斯克入主推 Roadster 到 Model S。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2019 年上海超级工厂投产，成本骤降、爆款频出。</div><div class=\"co-r look\"><b>💡 看点：</b>上海工厂是中国供应链反哺全球品牌的经典案例。 <button class=\"fam-btn\" data-fp=\"埃隆·马斯克 Elon Musk\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tesla.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tesla.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Monoprice</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高性价比 3C 配件电商；2002｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 线材/适配器/音频；渠道 1688/阿里国际站直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠超低价线材电商起家，极客圈便宜好用代名词。</div><div class=\"co-r look\"><b>💡 看点：</b>中国卖家的直接竞品与参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Satechi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端 3C 配件设计品牌；2007｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 扩展坞/充电器；深圳 OEM 直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>专做苹果生态配件，踩中生态红利。</div><div class=\"co-r look\"><b>💡 看点：</b>轻资产品牌+OEM 打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Twelve South</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国苹果生态配件品牌；2009｜总部：美国·南卡</div><div class=\"co-r\"><b>采购画像：</b>采购 保护壳/支架；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>只做苹果、做精致的小众路线。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直生态配件样本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nonda</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国车联网配件品牌；2013｜总部：美国·密歇根</div><div class=\"co-r\"><b>采购画像：</b>采购 车载电子；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从众筹起步，解决开车小痛点。</div><div class=\"co-r look\"><b>💡 看点：</b>美国痛点洞察+中国供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wyze</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国智能家居品牌；2017｜总部：美国·西雅图</div><div class=\"co-r\"><b>采购画像：</b>采购 摄像头/传感器；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>前亚马逊员工用极致低价智能硬件走红。</div><div class=\"co-r look\"><b>💡 看点：</b>低价智能家居出海。</div></div>"
         }
       ]
     },
     {
       "title": "Day 2 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第2天 · 中小 4 / 头部 2",
+      "tag": "第2天 · 头部1 / 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -2991,13 +2820,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>亚马逊 Amazon</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电商与云计算霸主；1994 ｜ 总部：美国·西雅图</div><div class=\"co-r\"><b>主营业务：</b>电商 Marketplace、AWS、广告　招牌：FBA、Prime</div><div class=\"co-r\"><b>市场与打法：</b>第三方卖家平台 + FBA 物流 + AWS 技术底座</div><div class=\"co-r found\"><b>📜 发家史：</b>1994 年，贝索斯在西雅图车库卖书起家，以\"地球上最大的商店\"愿景做电商，长期\"Day 1\"式扩张。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2006 年推 AWS、2005 年推 Prime，从零售商蜕变为\"卖铲子\"的云与广告巨头，FBA 是中国卖家出海的主场。</div><div class=\"co-r look\"><b>💡 看点：</b>FBA/Marketplace 是中国跨境卖家最大的出海通道，必研究。<button class=\"fam-btn\" data-fp=\"杰夫·贝索斯 Jeff Bezos\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.amazon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.amazon.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Satechi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国（华裔创立）高端 3C 配件设计品牌；2007 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>苹果生态配件品牌（OEM 中国）</div><div class=\"co-r\"><b>采购画像：</b>采购 扩展坞/充电器/支架；渠道 深圳 OEM 直采　招牌：铝合金扩展坞、充电器，设计感强</div><div class=\"co-r found\"><b>📜 发家史：</b>2007 年，Satechi 创立于加州，专做苹果生态配件（拓展坞、支架、充电器），踩中 iPhone/Mac 生态扩张的红利。它只做和苹果沾边的配件。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它借苹果生态红利加深圳 OEM 直采，做成轻资产配件品牌，是美国品牌加中国制造的典型的只做设计与营销，供应链全在深圳。</div><div class=\"co-r look\"><b>💡 看点：</b>中国团队做的海外品牌，是中国出海者的自己人参照；推荐：轻资产品牌 + OEM 打法</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://satechi.net\" target=\"_blank\" rel=\"noopener\">🌐 https://satechi.net</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Twelve South</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国苹果生态配件设计品牌；2009 ｜ 总部：美国·南卡</div><div class=\"co-r\"><b>企业简介：</b>苹果高端配件品牌</div><div class=\"co-r\"><b>采购画像：</b>采购 保护壳/支架（OEM 中国）；渠道 深圳 OEM　招牌：Mac/iPad 支架、保护壳，简约设计</div><div class=\"co-r found\"><b>📜 发家史：</b>2009 年，Twelve South 创立于南卡，做苹果高端配件（笔记本支架、保护壳），从只做苹果、做精致的小众路线起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以果链配件里的高级感定位，成为小众高端样本，证明小品类加高溢价加强设计也能在美国市场立住，是深圳 OEM 承接的设计型客户。</div><div class=\"co-r look\"><b>💡 看点：</b>小众精品配件品牌，看设计溢价打法；推荐：小众高端配件品牌路径</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.twelvesouth.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.twelvesouth.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>iFixit</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国维修指南与配件平台；2003 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>维修工具/配件社区</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/配件/备件；渠道 直接对华采购　招牌：拆解教程、维修工具与零件，倡导可维修权</div><div class=\"co-r found\"><b>📜 发家史：</b>2003 年，Kyle Wiens 创办 iFixit，从拆解指南与维修社区起步，靠教人修手机/电脑积累海量流量与口碑。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>iFixit 以维修权（Right to Repair）倡导加工具售卖，做成独特的维修社区品牌，并给厂商打分（可维修指数），从社区长成影响政策的公共力量，是内容与电商的另类样本。</div><div class=\"co-r look\"><b>💡 看点：</b>用内容加零件建社区，研究测评与信任经济；推荐：维修权生态与配件采购</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ifixit.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ifixit.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Voltaic Systems</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国太阳能充电装备品牌；2006 ｜ 总部：美国·纽约</div><div class=\"co-r\"><b>企业简介：</b>太阳能充电宝/背包品牌</div><div class=\"co-r\"><b>采购画像：</b>采购 太阳能板/锂电池包（OEM 中国）；渠道 中国 OEM　招牌：太阳能背包、充电板，户外与救援场景</div><div class=\"co-r found\"><b>📜 发家史：</b>2006 年，Voltaic 在纽约创立，做太阳能充电产品（太阳能背包、充电板），从给户外与救灾场景供离网供电起步。它押注太阳能加便携的细分。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以太阳能背包/充电宝 OEM 中国（深圳供应链），是细分功能电子出海案例，踩中户外加应急加环保三重需求，但市场偏小众。</div><div class=\"co-r look\"><b>💡 看点：</b>细分绿色能源配件，看 niche 品牌出海；推荐：细分功能电子 OEM 研究</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://voltaicsystems.com\" target=\"_blank\" rel=\"noopener\">🌐 https://voltaicsystems.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Walmart</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球最大零售商，美国零售霸主；1962 ｜ 总部：美国·阿肯色</div><div class=\"co-r\"><b>企业简介：</b>全球最大零售商，消费电子海量采购方</div><div class=\"co-r\"><b>采购画像：</b>采购 消费电子全品类（电视/耳机/智能家电），自牌 ONN 占大头；渠道 全球采购办（深圳/华中）+ 工厂直采　招牌：超市加电商加山姆会员店，全品类低价</div><div class=\"co-r\"><b>规模：</b>全球约 1 万加门店，年营收超 6000 亿美元</div><div class=\"co-r found\"><b>📜 发家史：</b>1962 年，山姆·沃尔顿在美国阿肯色州本顿维尔开出第一家沃尔玛折扣店，口号直白：低价卖给穷人也能赚钱。他早年经营杂货店和 Ben Franklin 加盟店，把天天低价 EDLP 刻进了基因。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>沃尔玛的关键转折不是某次并购，而是把天天低价和一套超前于时代的卫星供应链、配送中心绑在一起，1970 年代就发射自用卫星做实时库存与补货，再用自有品牌（ONN、Great Value）吃掉利润，最终长成全球最大的零售商，也是中国制造业最大的海外买家之一。</div><div class=\"co-r look\"><b>💡 看点：</b>天天低价加卫星供应链；中国卖家多经第三方或自营供货，是体量最大的出海入口；推荐：研究大卖场如何做贴牌消费电子</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.walmart.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.walmart.com</a></div></div>"
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>亚马逊 Amazon</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电商与云霸主；1994｜总部：美国·西雅图</div><div class=\"co-r\"><b>主营业务：</b>Marketplace、AWS、广告　招牌：FBA、Prime</div><div class=\"co-r\"><b>市场与打法：</b>第三方平台+FBA 物流+AWS 技术底座</div><div class=\"co-r found\"><b>📜 发家史：</b>1994 年贝索斯车库卖书起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2006 年 AWS、2005 年 Prime，蜕变为云与广告巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>FBA/Marketplace 是中国跨境卖家最大的出海主通道。 <button class=\"fam-btn\" data-fp=\"杰夫·贝索斯 Jeff Bezos\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.amazon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.amazon.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Boulanger</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家电电子零售商；1954｜总部：法国·里尔</div><div class=\"co-r\"><b>采购画像：</b>采购 白电/黑电/智能；集中对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从修收音机卖家电起家的家族连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>法国区域渠道入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>AO.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国线上家电零售商；2000｜总部：英国·博尔顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；直接对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>把家电搬上网站的英国早班车。</div><div class=\"co-r look\"><b>💡 看点：</b>英国线上家电渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Crutchfield</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端影音专业零售；1974｜总部：美国·弗吉尼亚</div><div class=\"co-r\"><b>采购画像：</b>采购 车载/家庭影音；直接对华 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>目录营销起家的发烧音响专家。</div><div class=\"co-r look\"><b>💡 看点：</b>重内容重服务的专业零售。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Best Buy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美最大消费电子连锁；1966｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类 3C；大单直接采购</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从音响专卖到全品类电子巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>北美线下大卖场主渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Walmart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球零售巨头；1962｜总部：美国·阿肯色</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；供应商严审+EDI</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>天天低价模式的开创者。</div><div class=\"co-r look\"><b>💡 看点：</b>最大体量的采购方，准入门槛高。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 3 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第3天 · 中小 4 / 头部 2",
+      "title": "Day 3 · 海外企业推荐（采购中国投资与控股）",
+      "tag": "第3天 · 头部1 / 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3005,13 +2834,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>伯克希尔·哈撒韦 Berkshire</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球投资控股巨头；1965（哈撒韦）/1956（巴菲特合伙）｜ 总部：美国·内布拉斯加</div><div class=\"co-r\"><b>主营业务：</b>股票投资、全资收购（保险+实业）　招牌：复利、价值投资</div><div class=\"co-r\"><b>市场与打法：</b>保险浮存金+长期持有优质企业；看中消费/金融/能源现金流</div><div class=\"co-r found\"><b>📜 发家史：</b>1956 年巴菲特以 10 万美元起家做合伙投资，1965 年接手纺织厂伯克希尔，把它改造为投资控股平台。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>以\"能力圈+安全边际+复利\"穿越半个世纪，重仓可口可乐、苹果等，年化回报长年跑赢大盘，是价值投资的活标本。</div><div class=\"co-r look\"><b>💡 看点：</b>看企业要看现金流与护城河，对分析外贸龙头很有启发。<button class=\"fam-btn\" data-fp=\"沃伦·巴菲特 Warren Buffett\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.berkshirehathaway.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.berkshirehathaway.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nonda</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国（华裔）车联网与车载配件品牌；2013 ｜ 总部：美国·密歇根</div><div class=\"co-r\"><b>企业简介：</b>车载智能电子品牌</div><div class=\"co-r\"><b>采购画像：</b>采购 车载充电/胎压监测（OEM 中国）；渠道 深圳 OEM　招牌：车载诊断、胎压、充电配件</div><div class=\"co-r found\"><b>📜 发家史：</b>2013 年，Nonda 在密歇根创立，做车载智能电子（胎压监测、车载充电），从众筹起步，靠解决开车小痛点起量。它用众筹验证需求。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它靠众筹加深圳 OEM 做车载电子，是车载电子跨境品牌，体现出美国痛点洞察加中国供应链的硬件出海打法。</div><div class=\"co-r look\"><b>💡 看点：</b>汽车配件出海样本，看车载智能品类；推荐：车载电子跨境品牌</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nonda.co\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nonda.co</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wyze</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国智能摄像头与智能家居品牌（华裔团队）；2017 ｜ 总部：美国·西雅图</div><div class=\"co-r\"><b>企业简介：</b>智能家居品牌（制造中国）</div><div class=\"co-r\"><b>采购画像：</b>采购 摄像头/传感器/智能设备；渠道 深圳 OEM 直采　招牌：低价智能摄像头、门锁、传感器</div><div class=\"co-r found\"><b>📜 发家史：</b>2017 年，几位前亚马逊员工在西雅图创立 Wyze，用极致低价智能硬件（20 美元的摄像头对标 Nest 一两百美元）快速走红。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>Wyze 用低价加订阅服务对标 Nest 迅速走红，是低价智能家居打法的代表；但也伴随隐私争议与服务器泄露风波，说明便宜背后的成本取舍。</div><div class=\"co-r look\"><b>💡 看点：</b>小米式低价智能家居打法在美复制，中国团队标杆；推荐：极低价智能硬件打法</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.wyze.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.wyze.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Roku</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国流媒体电视平台与硬件公司；2002 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>流媒体设备品牌（中国制造）</div><div class=\"co-r\"><b>采购画像：</b>采购 机顶盒/遥控/配件；渠道 代工厂（中国）直采　招牌：电视棒、系统 OS，聚合流媒体内容</div><div class=\"co-r found\"><b>📜 发家史：</b>2002 年，Anthony Wood 创办 Roku，最早给 Netflix 做机顶盒（Netflix 后来放弃硬件），Roku 转而做独立流媒体播放器。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>关键转折是放弃硬件血拼、转为操作系统加广告平台模式，把 Roku OS 装进低价电视、靠广告与订阅分成赚钱，这才是它真正赚钱的引擎，也从硬件商变成电视界的安卓。</div><div class=\"co-r look\"><b>💡 看点：</b>硬件加平台模式，看中国电视/盒子品牌的海外竞争环境；推荐：流媒体硬件 + 内容分成模式</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.roku.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.roku.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Belkin</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国老牌 3C 配件品牌（现属富士康）；1983 ｜ 总部：美国·加州</div><div class=\"co-r\"><b>企业简介：</b>连接配件品牌（现属鸿海）</div><div class=\"co-r\"><b>采购画像：</b>采购 充电器/线缆/路由（OEM 中国）；渠道 鸿海体系 + 对华采购　招牌：充电器、线缆、路由器配件</div><div class=\"co-r found\"><b>📜 发家史：</b>1983 年，Chet Pipkin 在车库创办 Belkin，做连接配件（线材、集线器），从给电脑用户解决连线痛点起步，成长为配件大牌。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2018 年 Belkin 被代工厂鸿海 Foxconn 收购，是品牌被代工厂收编的典型案例，也折射出配件品牌在供应链面前的弱势。</div><div class=\"co-r look\"><b>💡 看点：</b>被代工厂收购的配件品牌，研究产业链纵向整合；推荐：被代工厂收购的品牌案例</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.belkin.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.belkin.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Target</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>美国第二大折扣百货（偏中产设计感）；1962 ｜ 总部：美国·明尼苏达</div><div class=\"co-r\"><b>企业简介：</b>美国第二大零售商，中高端自牌突出</div><div class=\"co-r\"><b>采购画像：</b>采购 智能家电/耳机/充电配件 自牌；渠道 直接对华采购 + 代采商　招牌：家居、服饰、电子、自有品牌</div><div class=\"co-r found\"><b>📜 发家史：</b>根基可追溯到 1902 年 George Dayton 在明尼苏达开的 Dayton 百货；1962 年才开出第一家 Target 折扣店，定位刻意与沃尔玛错开，它不选最便宜，而要有点设计感。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>Target 把自己做成平价里的时髦（upscale discount / cheap chic）：用设计师联名（如 1999 年与设计师 Isaac Mizrahi 合作引爆）、自有品牌（如儿童品牌 Cat &amp; Jack、家居 Threshold）和更讲究的门店体验，拿下对品质敏感的中产，避免陷入纯价格战，成为红圈靶心式的生活方式零售商。</div><div class=\"co-r look\"><b>💡 看点：</b>对供应商合规/设计/ESG 要求高，是中国品牌进美国中产的跳板；推荐：研究中高端自牌消费电子选品</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.target.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.target.com</a></div></div>"
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>伯克希尔·哈撒韦 Berkshire</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球投资控股巨头；1965｜总部：美国·内布拉斯加</div><div class=\"co-r\"><b>主营业务：</b>股票投资、全资收购　招牌：复利、价值投资</div><div class=\"co-r\"><b>市场与打法：</b>保险浮存金+长期持有优质企业</div><div class=\"co-r found\"><b>📜 发家史：</b>1956 年巴菲特合伙起家，1965 年接手伯克希尔。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>能力圈+安全边际+复利穿越半个世纪。</div><div class=\"co-r look\"><b>💡 看点：</b>看企业要看现金流与护城河，对分析外贸龙头很有启发。 <button class=\"fam-btn\" data-fp=\"沃伦·巴菲特 Warren Buffett\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.berkshirehathaway.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.berkshirehathaway.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Target</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国中高端连锁零售；1962｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 家居/电子/服饰；重设计感</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>主打 design for all 的差异化零售。</div><div class=\"co-r look\"><b>💡 看点：</b>注重设计感的采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Costco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>会员制仓储零售；1976｜总部：美国·华盛顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大包装/自有品牌；少 SKU 大单</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠会员费+精选 SKU 的仓储模式。</div><div class=\"co-r look\"><b>💡 看点：</b>大单量、强议价采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Home Depot</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家居建材巨头；1978｜总部：美国·佐治亚</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/建材/五金；直接进口</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>DIY 建材连锁龙头。</div><div class=\"co-r look\"><b>💡 看点：</b>五金建材出海重点客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>MediaMarkt</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲电子连锁；1979｜总部：德国·慕尼黑</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类 3C；欧洲主流渠道</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大家电电子连锁之一。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲线下主渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Currys</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国电子零售连锁；1884｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/家电/智能；集中进口</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从邮政目录到电子连锁的百年零售。</div><div class=\"co-r look\"><b>💡 看点：</b>英国综合电子渠道。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 4 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第4天 · 中小 4 / 头部 2",
+      "title": "Day 4 · 海外企业推荐（采购中国AI 与软件）",
+      "tag": "第4天 · 头部1 / 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3019,13 +2848,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-          "body": "<div class=\"co\"><div class=\"co-h\"><b>OpenAI</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球 AI 研究与产品领军；2015 ｜ 总部：美国·旧金山</div><div class=\"co-r\"><b>主营业务：</b>GPT 大模型、ChatGPT、API　招牌：ChatGPT、Sora</div><div class=\"co-r\"><b>市场与打法：</b>前沿研究 + 产品化 + 与微软结盟；API 赋能千行百业</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年 OpenAI 以非营利研究起步，2022 年 ChatGPT 引爆生成式 AI，把大模型带进普通人生活。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2023 年\"宫斗\"后 Altman 回归并加速商业化，GPT-4o、Sora 持续领先；AI 正重写外贸（客服、选品、营销）。</div><div class=\"co-r look\"><b>💡 看点：</b>AI 是外贸人提效的新杠杆，老板 Altman 是这一轮技术周期的旗手。<button class=\"fam-btn\" data-fp=\"萨姆·奥尔特曼 Sam Altman\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://openai.com\" target=\"_blank\" rel=\"noopener\">🌐 https://openai.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Boulanger</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国电子与家电零售商；1954 ｜ 总部：法国·里尔</div><div class=\"co-r\"><b>企业简介：</b>法国家电电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 白电/黑电/智能；渠道 集中对华　招牌：家电、影音、IT，重体验与服务</div><div class=\"co-r found\"><b>📜 发家史：</b>1954 年，Boulanger 始于法国里尔的一家家族家电店，从修收音机、卖家电起家，靠本地口碑生长。它从维修铺子长成连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它靠多门店加服务化转型，成为法国区域家电电子连锁，在 Fnac Darty、Amazon 夹击下以本地服务加安装守住份额。</div><div class=\"co-r look\"><b>💡 看点：</b>法国市场入口，看欧洲本地零售的服务文化；推荐：法国 regional 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.boulanger.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.boulanger.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>AO.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国线上家电零售商；2000 ｜ 总部：英国·博尔顿</div><div class=\"co-r\"><b>企业简介：</b>在线家电零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；渠道 直接对华　招牌：大家电、厨电，配送安装一体</div><div class=\"co-r found\"><b>📜 发家史：</b>2000 年，AO.com 创立于英国博尔顿，做线上家电零售，从把家电搬上网站起步，靠透明价格起量。它踩中英国线上家电的早班车。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以自建物流与配送/安装服务建立口碑，是英国线上家电代表，2014 年上市，靠专业配送大家电对抗亚马逊。</div><div class=\"co-r look\"><b>💡 看点：</b>英国家电线上渠道，研究欧洲大件物流；推荐：线上家电配送模式</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ao.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ao.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Euronics</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲独立家电零售商采购联盟；1990s ｜ 总部：荷兰·阿姆斯特丹</div><div class=\"co-r\"><b>企业简介：</b>欧洲采购联盟（成员制）</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类家电电子；渠道 联合招标对华　招牌：多国本地家电卖场联合采购</div><div class=\"co-r found\"><b>📜 发家史：</b>1990 年代，Euronics 由欧洲多国独立零售商组成采购联盟，目的是用联合招标集采中国货来对抗全国连锁。它是小零售商抱团的产物。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它靠联合集采与联合采购对抗全国连锁，以规模换低价，是小零售商抱团对抗巨头的中国货采购通道。</div><div class=\"co-r look\"><b>💡 看点：</b>联盟式渠道，中国品牌需借本地成员进入；推荐：采购联盟如何集采中国货</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.euronics.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.euronics.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Worten</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>葡萄牙/西班牙消费电子与家电连锁；1996 ｜ 总部：葡萄牙·里斯本</div><div class=\"co-r\"><b>企业简介：</b>葡/西电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类消费电子；渠道 对华采购　招牌：IT、家电、影音，伊比利亚半岛主力</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年，Worten 起步于葡萄牙/西班牙的电子连锁，从葡语区家电电子门店起家，依托 Sonae 集团。它是伊比利亚半岛的线下入口。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>作为 Sonae 旗下电子臂，Worten 覆盖伊比利亚半岛的家电电子渠道，是葡语/西语区的重要线下入口，也是中国品牌进入伊比利亚的跳板。</div><div class=\"co-r look\"><b>💡 看点：</b>南欧市场入口，看西欧外围国家渠道；推荐：南欧渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.worten.pt\" target=\"_blank\" rel=\"noopener\">🌐 https://www.worten.pt</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>MediaMarkt（CECONOMY）</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>欧洲最大的消费电子连锁（德国系）；1979 ｜ 总部：德国·慕尼黑</div><div class=\"co-r\"><b>企业简介：</b>欧洲最大消费电子连锁，覆盖德/荷/比等</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类消费电子 + 自有配件；渠道 集中招标采购，大量中国 OEM　招牌：门店遍布德/西/意等，家电/数码/游戏</div><div class=\"co-r\"><b>规模：</b>欧洲数百家门店，CECONOMY 旗下</div><div class=\"co-r found\"><b>📜 发家史：</b>1979 年，Leopold Stiefel 等人在德国慕尼黑开出第一家 MediaMarkt，用别生气、来 MediaMarkt 的凶悍广告和公开比价砸开市场，门店里把价格牌明晃晃挂出来，颠覆了德国传统报价不透明的家电卖场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它有两招很特别：一是门店经理享有极大自主权（像内部加盟，可自主定价与采购），二是员工认购股份的员工股东模式；这套组合让它成为欧洲最大的消费电子连锁，后与 Saturn 合并、再分拆出 CECONOMY 上市。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲线下霸主；进入需强本地合规与账期管理，是中国品牌的欧洲天花板渠道；推荐：研究欧洲渠道采购标准与 CE/GS 认证</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mediamarkt.de\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mediamarkt.de</a></div></div>"
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>OpenAI</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球 AI 研究与产品领军；2015｜总部：美国·旧金山</div><div class=\"co-r\"><b>主营业务：</b>GPT 大模型、ChatGPT、API　招牌：ChatGPT、Sora</div><div class=\"co-r\"><b>市场与打法：</b>前沿研究+产品化+与微软结盟</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年以非营利研究起步，2022 年 ChatGPT 引爆生成式 AI。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2023 年 Altman 回归加速商业化，GPT-4o、Sora 持续领先。</div><div class=\"co-r look\"><b>💡 看点：</b>AI 是外贸人提效的新杠杆，Altman 是这一轮旗手。 <button class=\"fam-btn\" data-fp=\"萨姆·奥尔特曼 Sam Altman\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.openai.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.openai.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Coolblue</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢电商零售；1999｜总部：荷兰·埃因霍温</div><div class=\"co-r\"><b>采购画像：</b>采购 3C/家电；重服务</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠极致客服体验成长的低地国家电商。</div><div class=\"co-r look\"><b>💡 看点：</b>高服务标准采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>bol.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢最大电商平台；1999｜总部：荷兰</div><div class=\"co-r\"><b>采购画像：</b>平台卖家；开放第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>低地国家版「亚马逊」。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲平台卖家入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Zalando</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲时尚电商；2008｜总部：德国·柏林</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰/鞋包；品牌直供</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大时尚电商平台。</div><div class=\"co-r look\"><b>💡 看点：</b>服饰出海欧洲平台。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>ASOS</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国时尚电商；2000｜总部：英国·伦敦</div><div class=\"co-r\"><b>采购画像：</b>采购 快时尚服饰；自有+第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>面向年轻人的线上时尚巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>快时尚线上渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wayfair</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家具家居电商；2002｜总部：美国·波士顿</div><div class=\"co-r\"><b>采购画像：</b>采购 家具/家居；中国供应链为主</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠海量 SKU 的家居电商。</div><div class=\"co-r look\"><b>💡 看点：</b>家居品类出海主平台。</div></div>"
         }
       ]
     },
     {
       "title": "Day 5 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第5天 · 中小 4 / 头部 1",
+      "tag": "第5天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3033,13 +2862,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Power</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷兰消费电子零售商；1991 ｜ 总部：荷兰/比利时</div><div class=\"co-r\"><b>企业简介：</b>荷比电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 直接对华　招牌：线上加门店，IT/家电/游戏</div><div class=\"co-r found\"><b>📜 发家史：</b>1991 年，Power 创立于荷兰/比利时，做电子连锁，从低地国家的家电电子门店起家。它是荷比地区的区域连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以荷比地区的门店网络，成为当地 3C 渠道之一，后并入荷兰零售集团，体现出欧洲区域连锁的整合并购趋势。</div><div class=\"co-r look\"><b>💡 看点：</b>低地国家渠道样本，看荷兰的物流枢纽角色；推荐：低地国家渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.power.nl\" target=\"_blank\" rel=\"noopener\">🌐 https://www.power.nl</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Coolblue</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷兰起家的家电与 IT 电商（重服务）；1999 ｜ 总部：荷兰·埃因霍温</div><div class=\"co-r\"><b>企业简介：</b>荷比电商/零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类电子；渠道 直接对华 + 自有仓　招牌：次日达、自己配送、贴心客服</div><div class=\"co-r found\"><b>📜 发家史：</b>1999 年，Coolblue 创立于荷兰埃因霍温，做电商，从把电子产品卖得有趣起步，靠极致的退换货与客服出名。它把客服做成卖点。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以一切为了你的微笑的变态服务加自建物流，成为荷比卢领先网店，证明服务极致化能对抗亚马逊。</div><div class=\"co-r look\"><b>💡 看点：</b>极致服务体验电商范本，研究欧洲 DTC 的本地化；推荐：极致服务电商的采购</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.coolblue.nl\" target=\"_blank\" rel=\"noopener\">🌐 https://www.coolblue.nl</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Komplett</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北欧（挪威）IT/家电电商；1996 ｜ 总部：挪威·桑德尔福德</div><div class=\"co-r\"><b>企业简介：</b>北欧电商/零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设/家电；渠道 对华采购　招牌：电脑、家电、组件，北欧市场</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年，Komplett 创立于挪威，做线上 IT 零售，从北欧电商加自有仓起步，服务游戏与硬件玩家。它从挪威一国做起。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以北欧电商加自有仓，成为斯堪的纳维亚的 3C 渠道，靠本地化物流与品类深度在寒冷市场里扎根。</div><div class=\"co-r look\"><b>💡 看点：</b>北欧高客单市场，研究寒冷地区电商；推荐：北欧渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.komplett.no\" target=\"_blank\" rel=\"noopener\">🌐 https://www.komplett.no</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Cyberport</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国消费电子连锁；1998 ｜ 总部：德国·柏林</div><div class=\"co-r\"><b>企业简介：</b>德国 IT 零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设/组件；渠道 对华采购　招牌：IT、家电、通讯，德国本土</div><div class=\"co-r found\"><b>📜 发家史：</b>1998 年，Cyberport 创立于德国柏林，做 IT 零售，从德国 3C 电商/门店起步，服务德语区硬件玩家。它是柏林的硬件店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以德国 3C 电商/门店服务德语区，是欧洲 DIY 配件市场的一环，体现德国硬件发烧文化。</div><div class=\"co-r look\"><b>💡 看点：</b>德国区域渠道，看本地化零售；推荐：德国 3C 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.cyberport.de\" target=\"_blank\" rel=\"noopener\">🌐 https://www.cyberport.de</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Currys</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>英国/爱尔兰最大的电子与家电零售商；1884 ｜ 总部：英国·伦敦</div><div class=\"co-r\"><b>企业简介：</b>英国最大电子零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/家电/智能设备全品类；渠道 直接对华 + 香港电子展　招牌：PC、家电、服务，门店加线上</div><div class=\"co-r found\"><b>📜 发家史：</b>前身可追到 1884 年 Henry Curry 在莱斯特做的自行车生意，后来一路演进到家电与电子产品零售；20 世纪靠以旧换新加分期的普惠金融打开大众市场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>关键转折是 2000 年代与 Dixons 合并组成 Dixons Carphone（后精简为 Currys），靠卖电器加装维服务加分期金融打包，把硬件加服务做成护城河，稳坐英国最大电子连锁位置，并在电商冲击下靠上门安装/维修守住阵地。</div><div class=\"co-r look\"><b>💡 看点：</b>英国市场核心渠道，进入需满足英国合规与售后；推荐：研究英国市场准入与脱欧后合规</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.currys.co.uk\" target=\"_blank\" rel=\"noopener\">🌐 https://www.currys.co.uk</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Newegg</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美 IT 电商；2001｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/配件；极客向</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从 DIY 硬件社区成长的电商品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>IT 硬件垂直渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>B&H Photo</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国影像器材零售；1973｜总部：美国·纽约</div><div class=\"co-r\"><b>采购画像：</b>采购 相机/配件；专业向</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>影像爱好者心中的器材圣地。</div><div class=\"co-r look\"><b>💡 看点：</b>专业器材采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Flexport</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数字化货代；2013｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>服务 跨境物流；API 对接</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>用软件重塑国际货运代理。</div><div class=\"co-r look\"><b>💡 看点：</b>外贸人的数字物流伙伴。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Maersk</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球航运巨头；1904｜总部：丹麦·哥本哈根</div><div class=\"co-r\"><b>采购画像：</b>服务 海运/端到端物流</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>集装箱航运的百年老店。</div><div class=\"co-r look\"><b>💡 看点：</b>大货出海的运力基石。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>DHL</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球快递物流；1969｜总部：德国·波恩</div><div class=\"co-r\"><b>采购画像：</b>服务 国际快递/履约</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从三个字母的快递网络长成物流巨擘。</div><div class=\"co-r look\"><b>💡 看点：</b>小包跨境履约主力。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 6 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第6天 · 中小 4 / 头部 1",
+      "title": "Day 6 · 海外企业推荐（采购中国家居建材）",
+      "tag": "第6天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3047,13 +2876,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Alternate</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国 IT 硬件电商；1986 ｜ 总部：德国·亚琛</div><div class=\"co-r\"><b>企业简介：</b>德国硬件电商</div><div class=\"co-r\"><b>采购画像：</b>采购 组件/外设；渠道 对华　招牌：电脑、组件、外设，极客向</div><div class=\"co-r found\"><b>📜 发家史：</b>1986 年，Alternate 创立于德国亚琛，做硬件电商，是欧洲最早的 DIY 配件网店之一，从邮购目录走到线上。它是德国老牌 3C 网店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以德系硬件电商起家，靠专业选品与社区在德国长青，是欧洲老牌 3C 网店的代表。</div><div class=\"co-r look\"><b>💡 看点：</b>德国 DIY 硬件渠道，类比 Newegg；推荐：德系硬件电商</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.alternate.de\" target=\"_blank\" rel=\"noopener\">🌐 https://www.alternate.de</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>LDLC</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国 IT/游戏电商；1996 ｜ 总部：法国·里昂</div><div class=\"co-r\"><b>企业简介：</b>法国 IT 电商</div><div class=\"co-r\"><b>采购画像：</b>采购 组件/外设；渠道 对华　招牌：电脑、组件、外设</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年，LDLC 创立于法国里昂，做 IT 电商，从法文社区加专业内容起步，服务法国硬件玩家。它靠论坛社区起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以法文社区加专业内容，做成法国头部硬件电商，靠内容种草加自营物流立足。</div><div class=\"co-r look\"><b>💡 看点：</b>法国极客渠道，看法语市场；推荐：法系硬件电商</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ldlc.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ldlc.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Materiel.net</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国 IT 组件电商；1999 ｜ 总部：法国·巴黎</div><div class=\"co-r\"><b>企业简介：</b>法国硬件电商</div><div class=\"co-r\"><b>采购画像：</b>采购 组件/外设；渠道 对华　招牌：电脑硬件、外设</div><div class=\"co-r found\"><b>📜 发家史：</b>1999 年，Materiel.net 创立于法国巴黎，做 IT 电商，从专业硬件选品起步，面向发烧友。它是法国专业级 3C 电商。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以专业硬件选品，成为法国专业级 3C 电商，与 LDLC 等形成法国硬件电商的竞争格局。</div><div class=\"co-r look\"><b>💡 看点：</b>法国小众硬件渠道；推荐：法系专业电商</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.materiel.net\" target=\"_blank\" rel=\"noopener\">🌐 https://www.materiel.net</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Sharaf DG</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>阿联酋（迪拜）电子零售商；2001 ｜ 总部：阿联酋·迪拜</div><div class=\"co-r\"><b>企业简介：</b>阿联酋电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华 + 港展　招牌：IT、家电、手机，海湾地区主力</div><div class=\"co-r found\"><b>📜 发家史：</b>2001 年，Sharaf DG 创立于迪拜，做电子连锁，从海湾地区的电器门店起步，借迪拜转口贸易红利。它是迪拜的线下电子大店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它借迪拜转口与华为等中国品牌合作，成为海湾地区主流电子渠道，是中国品牌进入中东的线下入口。</div><div class=\"co-r look\"><b>💡 看点：</b>中东富裕市场入口，研究海湾渠道与免税红利；推荐：海湾渠道与迪拜转口</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sharafdg.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sharafdg.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>JB Hi-Fi</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚最大的电子与家电连锁；1974 ｜ 总部：澳大利亚·墨尔本</div><div class=\"co-r\"><b>企业简介：</b>澳洲最大电子零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类消费电子；渠道 直接对华采购 + 澳本地仓　招牌：IT、家电、游戏、影音，低价高周转</div><div class=\"co-r\"><b>规模：</b>澳洲百余家门店，年销售数十亿澳元</div><div class=\"co-r found\"><b>📜 发家史：</b>1974 年，John Barbuto 在墨尔本开出第一家 JB Hi-Fi（名字取自他名字缩写），主打平价 hi-fi 音响，走堆货加低价加懂行店员的路线，在澳洲电器连锁的缝隙里生长。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>JB Hi-Fi 用低毛利、高周转、门店像仓库的打法在澳洲站稳，再向新西兰扩张并收购 The Good Guys（2016），成为澳新地区消费电子零售老大，把便宜又全做成国民心智。</div><div class=\"co-r look\"><b>💡 看点：</b>低价加高坪效碾压对手，是中国品牌进澳洲的首选渠道；推荐：研究南半球大买家采购节奏与澳标 RCM</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jbhifi.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jbhifi.com.au</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Uber</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球出行平台；2009｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 出行/配送生态</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>共享出行的开创者之一。</div><div class=\"co-r look\"><b>💡 看点：</b>海外本地出行参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>DoorDash</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国外卖配送平台；2013｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 本地生活配送</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>美国外卖配送份额领先。</div><div class=\"co-r look\"><b>💡 看点：</b>出海做本地生活的对标。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Airbnb</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球民宿平台；2008｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 住宿生态</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>把闲置房源做成全球住宿网络。</div><div class=\"co-r look\"><b>💡 看点：</b>平台出海范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Booking.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球酒店预订平台；1996｜总部：荷兰</div><div class=\"co-r\"><b>采购画像：</b>合作 住宿供应</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>覆盖全球的在线旅游巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>旅游出海渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Rakuten</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本电商与互联网集团；1997｜总部：日本·东京</div><div class=\"co-r\"><b>采购画像：</b>平台卖家；开放第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>日本最大电商生态之一。</div><div class=\"co-r look\"><b>💡 看点：</b>日本市场入口。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 7 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第7天 · 中小 4 / 头部 1",
+      "title": "Day 7 · 海外企业推荐（采购中国时尚电商）",
+      "tag": "第7天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3061,13 +2890,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Virgin Megastore</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>中东/北非的 Virgin 品牌零售（音乐/电子/书）；2001 ｜ 总部：阿联酋/中东</div><div class=\"co-r\"><b>企业简介：</b>中东电子/文化连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 消费电子/耳机；渠道 对华采购　招牌：黎凡特、海湾的娱乐与电子卖场</div><div class=\"co-r found\"><b>📜 发家史：</b>2001 年，Virgin Megastore 以维珍品牌授权进入中东，从音像文化店起步，带着维珍的潮流调性。它把唱片店搬到了中东。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它从音像文化店转型为中东电子/娱乐连锁，在沙特、阿联酋等地把书+唱片+电子混搭，迎合年轻消费。</div><div class=\"co-r look\"><b>💡 看点：</b>中东品牌化零售，看区域文化差异；推荐：中东零售</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.virginmegastore.ae\" target=\"_blank\" rel=\"noopener\">🌐 https://www.virginmegastore.ae</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Jumbo Electronics</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>阿联酋消费电子零售商；1974 ｜ 总部：阿联酋·迪拜</div><div class=\"co-r\"><b>企业简介：</b>阿联酋电子零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：手机、IT、家电，本地连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>1974 年，Jumbo Electronics 创立于迪拜，做电子分销与零售，从海湾地区的电器分销起家，是老牌渠道。它是海湾的老买手。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以海湾家电分销网络，长期对接中国白电出口，是中国大家电进入海湾的老买手。</div><div class=\"co-r look\"><b>💡 看点：</b>海湾本地渠道补充；推荐：海湾老牌渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jumbomegastore.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jumbomegastore.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Axiom Telecom</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>中东手机分销与零售龙头；1997 ｜ 总部：阿联酋·迪拜</div><div class=\"co-r\"><b>企业简介：</b>中东手机/配件分销商</div><div class=\"co-r\"><b>采购画像：</b>采购 手机配件/智能设备；渠道 对华直采　招牌：智能手机、配件，海湾分销网络</div><div class=\"co-r found\"><b>📜 发家史：</b>1997 年，Axiom Telecom 创立于迪拜，做手机分销，从海湾手机批发起步，踩中功能机/智能机普及。它是海湾的手机渠道商。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以中东手机/配件分销网络，成为区域手机渠道关键一环，是中国手机品牌（华为、小米、传音）进入海湾的重要伙伴。</div><div class=\"co-r look\"><b>💡 看点：</b>中东手机渠道关键一环，研究分销体系；推荐：中东手机渠道研究</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.axiomtelecom.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.axiomtelecom.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>X-cite</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>科威特电子零售商；2001 ｜ 总部：科威特</div><div class=\"co-r\"><b>企业简介：</b>科威特电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：IT、家电、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>2001 年，X-cite 创立于科威特，做电子连锁，从科威特门店网络起步，覆盖海湾小国市场。它是科威特的主流 3C 店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以科威特门店网络，成为海湾小国主流 3C 渠道，是高端电子（苹果、游戏机）在海湾的入口。</div><div class=\"co-r look\"><b>💡 看点：</b>海湾小国渠道样本；推荐：海湾小国渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.xcite.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.xcite.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Fnac Darty</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>法国最大的文化加电子加家电零售集团；1954 ｜ 总部：法国·巴黎</div><div class=\"co-r\"><b>企业简介：</b>法国最大电子/文化零售商（Fnac+Darty）</div><div class=\"co-r\"><b>采购画像：</b>采购 智能设备/耳机/家电；渠道 集中对华采购　招牌：书店加电子加家电（Darty 维修口碑），法国/比利时/瑞士</div><div class=\"co-r found\"><b>📜 发家史：</b>Fnac 1954 年由 André Essel 等人创办，从巴黎的文化/音像产品（书、唱片、影音）起家，带着文化百货的调性；Darty 则更早（1957）做家电，并以 30 天内最便宜的价格承诺出名。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2016 年两者合并为 Fnac Darty，把文化娱乐加家电电子两条线合流，并借电商与门店网络成为法国乃至欧洲法语区最具影响力的零售集团之一，既卖书也卖冰箱。</div><div class=\"co-r look\"><b>💡 看点：</b>Darty 维修 garantie 是信任招牌；进入法国市场难绕开的渠道；推荐：研究法国市场与售后（反修权）合规</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fnac.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fnac.com</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Monoprice</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高性价比 3C 配件电商；2002｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 线材/适配器/音频；渠道 1688/阿里国际站直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠超低价线材电商起家，极客圈便宜好用代名词。</div><div class=\"co-r look\"><b>💡 看点：</b>中国卖家的直接竞品与参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Satechi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端 3C 配件设计品牌；2007｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 扩展坞/充电器；深圳 OEM 直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>专做苹果生态配件，踩中生态红利。</div><div class=\"co-r look\"><b>💡 看点：</b>轻资产品牌+OEM 打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Twelve South</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国苹果生态配件品牌；2009｜总部：美国·南卡</div><div class=\"co-r\"><b>采购画像：</b>采购 保护壳/支架；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>只做苹果、做精致的小众路线。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直生态配件样本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nonda</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国车联网配件品牌；2013｜总部：美国·密歇根</div><div class=\"co-r\"><b>采购画像：</b>采购 车载电子；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从众筹起步，解决开车小痛点。</div><div class=\"co-r look\"><b>💡 看点：</b>美国痛点洞察+中国供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wyze</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国智能家居品牌；2017｜总部：美国·西雅图</div><div class=\"co-r\"><b>采购画像：</b>采购 摄像头/传感器；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>前亚马逊员工用极致低价智能硬件走红。</div><div class=\"co-r look\"><b>💡 看点：</b>低价智能家居出海。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 8 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第8天 · 中小 5",
+      "title": "Day 8 · 海外企业推荐（采购中国物流与货运）",
+      "tag": "第8天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3075,13 +2904,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>B.Tech</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>埃及领先的家电与电子零售商；1997 ｜ 总部：埃及·开罗</div><div class=\"co-r\"><b>企业简介：</b>埃及电子零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/消费电子；渠道 对华　招牌：家电、空调、手机，本土连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>1997 年，B.Tech 创立于埃及开罗，做电子零售，从北非本土连锁起步，是埃及消费电子的重要渠道。它是北非的连锁电器店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以本土连锁覆盖北非市场，是埃及消费电子的重要渠道，也是中国品牌进入北非（埃及、摩洛哥）的落地伙伴。</div><div class=\"co-r look\"><b>💡 看点：</b>北非最大市场入口，研究阿拉伯语与本地支付；推荐：北非市场</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.btech.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.btech.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Eros Group</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>阿联酋家电与空调分销集团；1967 ｜ 总部：阿联酋·迪拜</div><div class=\"co-r\"><b>企业简介：</b>阿联酋家电分销商</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；渠道 对华　招牌：代理 LG、Whirlpool 等，海湾分销</div><div class=\"co-r found\"><b>📜 发家史：</b>1967 年，Eros Group 创立于迪拜，做家电分销，从海湾地区的白电分销起家，是老牌贸易商。它是海湾的白电中间商。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以海湾家电分销网络，长期对接中国白电出口（美的、海尔等），是中国制造卖进中东的关键中间商。</div><div class=\"co-r look\"><b>💡 看点：</b>海湾代理制渠道，看品牌总代模式；推荐：海湾家电分销</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.erosgroup.ae\" target=\"_blank\" rel=\"noopener\">🌐 https://www.erosgroup.ae</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Magazine Luiza</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>巴西最大的零售与电商集团之一（Magalu）；1957 ｜ 总部：巴西·圣保罗</div><div class=\"co-r\"><b>企业简介：</b>巴西零售巨头</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类电子/家电；渠道 对华 + 本地组装　招牌：家电、电子、全品类，线上线下融合</div><div class=\"co-r found\"><b>📜 发家史：</b>1957 年，Trajano 家族在巴西内陆小城创立 Magazine Luiza（原名 Lojas Mercado），从一家小百货起家，靠分期付款贴近普通家庭。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>真正的转折是激进数字化转型，自建物流、上线 App、做社交电商加门店提货，从区域百货长成巴西电商巨头，并在疫情中进一步放量，是拉美传统零售数字化的标杆。</div><div class=\"co-r look\"><b>💡 看点：</b>拉美最大市场入口，研究巴西税复杂与本地仓；推荐：巴西市场与高关税应对</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.magazineluiza.com.br\" target=\"_blank\" rel=\"noopener\">🌐 https://www.magazineluiza.com.br</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Americanas</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>巴西老牌零售/电商集团；1929 ｜ 总部：巴西·里约</div><div class=\"co-r\"><b>企业简介：</b>巴西零售</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：全品类、家电电子，门店加线上</div><div class=\"co-r found\"><b>📜 发家史：</b>1929 年，Americanas 创立于巴西，做大众零售，从街边小店长成覆盖全国的连锁，靠低价加密集门店深入人心。它是巴西国民商店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以门店加电商双线成为巴西国民级零售，覆盖最广的下沉市场；但 2023 年曝出巨额财务造假危机，成为巴西零售史上的重大事件，也提醒规模不等于健康。</div><div class=\"co-r look\"><b>💡 看点：</b>巴西大众渠道，注意其曾财务风波的供应链风险；推荐：巴西电商渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.americanas.com.br\" target=\"_blank\" rel=\"noopener\">🌐 https://www.americanas.com.br</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Casas Bahia</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>巴西家电与家具零售商（偏大众/分期）；1952 ｜ 总部：巴西·圣保罗</div><div class=\"co-r\"><b>企业简介：</b>巴西家电电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/消费电子；渠道 对华　招牌：家电、家具，分期付款文化</div><div class=\"co-r found\"><b>📜 发家史：</b>1952 年，波兰裔移民 Samuel Klein 在巴西创立 Casas Bahia，从圣保罗周边的小家电店起步，专做低收入人群生意。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以面向低收入人群的分期付款模式，做成巴西大众家电霸主（后并入 Via 集团），用先买后付把冰箱电视卖进贫民社区，是巴西特有的普惠金融式零售。</div><div class=\"co-r look\"><b>💡 看点：</b>巴西分期消费文化样本，研究拉美信贷渠道；推荐：巴西大众渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.casasbahia.com.br\" target=\"_blank\" rel=\"noopener\">🌐 https://www.casasbahia.com.br</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Boulanger</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家电电子零售商；1954｜总部：法国·里尔</div><div class=\"co-r\"><b>采购画像：</b>采购 白电/黑电/智能；集中对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从修收音机卖家电起家的家族连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>法国区域渠道入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>AO.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国线上家电零售商；2000｜总部：英国·博尔顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；直接对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>把家电搬上网站的英国早班车。</div><div class=\"co-r look\"><b>💡 看点：</b>英国线上家电渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Crutchfield</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端影音专业零售；1974｜总部：美国·弗吉尼亚</div><div class=\"co-r\"><b>采购画像：</b>采购 车载/家庭影音；直接对华 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>目录营销起家的发烧音响专家。</div><div class=\"co-r look\"><b>💡 看点：</b>重内容重服务的专业零售。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Best Buy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美最大消费电子连锁；1966｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类 3C；大单直接采购</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从音响专卖到全品类电子巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>北美线下大卖场主渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Walmart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球零售巨头；1962｜总部：美国·阿肯色</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；供应商严审+EDI</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>天天低价模式的开创者。</div><div class=\"co-r look\"><b>💡 看点：</b>最大体量的采购方，准入门槛高。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 9 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第9天 · 中小 5",
+      "title": "Day 9 · 海外企业推荐（采购中国出行与本地生活）",
+      "tag": "第9天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3089,13 +2918,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Fast Shop</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>巴西电子零售商；1992 ｜ 总部：巴西·圣保罗</div><div class=\"co-r\"><b>企业简介：</b>巴西高端电子零售</div><div class=\"co-r\"><b>采购画像：</b>采购 高端电子/家电；渠道 对华　招牌：IT、家电、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>1992 年，Fast Shop 创立于巴西，做高端电子零售，从体验式门店起步，瞄准中高收入人群。它走精品路线。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以高端定位与体验式门店，成为巴西中高端 3C 渠道，在 Magazine Luiza、Americanas 的夹击中走精品路线。</div><div class=\"co-r look\"><b>💡 看点：</b>巴西电子渠道补充；推荐：巴西中高端渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.fastshop.com.br\" target=\"_blank\" rel=\"noopener\">🌐 https://www.fastshop.com.br</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Falabella</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>智利/南美百货与电商巨头；1889 ｜ 总部：智利·圣地亚哥</div><div class=\"co-r\"><b>企业简介：</b>南美零售集团</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：百货、家居、金融，覆盖智利/秘鲁/哥伦比亚</div><div class=\"co-r found\"><b>📜 发家史：</b>1889 年，Falabella 创立于智利圣地亚哥，起家是百货公司，靠布匹与百货在安第斯山脉脚下生长，是拉美最老牌零售之一。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以全渠道加 marketplace 加金融服务（自有信用卡 CMR）长成覆盖智利、秘鲁、哥伦比亚、阿根廷的多国零售集团，是零售加金融模式的拉美范本。</div><div class=\"co-r look\"><b>💡 看点：</b>南美多国渠道，研究安第斯市场；推荐：南美多国渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.falabella.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.falabella.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Liverpool</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>墨西哥高端百货集团；1847 ｜ 总部：墨西哥·墨西哥城</div><div class=\"co-r\"><b>企业简介：</b>墨西哥高端百货</div><div class=\"co-r\"><b>采购画像：</b>采购 消费电子/家电；渠道 对华 + 近岸　招牌：家电、服饰、美妆，中高产</div><div class=\"co-r found\"><b>📜 发家史：</b>1847 年，Liverpool 创立于墨西哥城，是老牌百货，从进口百货起家，靠比美国货便宜吸引中产。它有一百多年的历史。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以中高端定位加自有信用卡体系，成为墨西哥零售 icon，用百货加金融黏住中产家庭，历经百年仍是墨国零售旗帜。</div><div class=\"co-r look\"><b>💡 看点：</b>墨西哥中产入口，研究近岸外包红利；推荐：墨国市场与美墨近岸</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.liverpool.com.mx\" target=\"_blank\" rel=\"noopener\">🌐 https://www.liverpool.com.mx</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Coppel</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>墨西哥大众百货（分期付款强）；1941 ｜ 总部：墨西哥·库利亚坎</div><div class=\"co-r\"><b>企业简介：</b>墨西哥大众零售（分期）</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/电子；渠道 对华　招牌：家电、电子、家具，覆盖下沉</div><div class=\"co-r found\"><b>📜 发家史：</b>1941 年，Coppel 创立于墨西哥，做大众零售，从家族鞋店起家，专攻下沉市场与普通家庭。它靠赊销起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以分期赊销切入下沉市场，是墨西哥门店最多的连锁之一，用周付加送货上门把家电卖进低收入社区，是墨版先买后付。</div><div class=\"co-r look\"><b>💡 看点：</b>墨西哥下沉加分期样本，看拉美信贷零售；推荐：分期付款渠道模式</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.coppel.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.coppel.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Sears Mexico</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>墨西哥 Sears 百货（当地运营）；1947 ｜ 总部：墨西哥</div><div class=\"co-r\"><b>企业简介：</b>墨西哥电子百货</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/电子；渠道 对华　招牌：家电、服饰、家居，城市门店</div><div class=\"co-r found\"><b>📜 发家史：</b>1947 年，Sears 进入墨西哥，曾隶属美国 Sears，从美式百货起步，是墨西哥现代零售的启蒙者之一。它把美式百货带进墨西哥。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2022 年从美国 Sears 分拆独立，继续深耕墨西哥家电电子，在 Liverpool、Coppel 竞争中以美式百货底蕴维持地位。</div><div class=\"co-r look\"><b>💡 看点：</b>墨西哥老牌渠道，研究本地零售惯性；推荐：墨国渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.sears.com.mx\" target=\"_blank\" rel=\"noopener\">🌐 https://www.sears.com.mx</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Target</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国中高端连锁零售；1962｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 家居/电子/服饰；重设计感</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>主打 design for all 的差异化零售。</div><div class=\"co-r look\"><b>💡 看点：</b>注重设计感的采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Costco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>会员制仓储零售；1976｜总部：美国·华盛顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大包装/自有品牌；少 SKU 大单</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠会员费+精选 SKU 的仓储模式。</div><div class=\"co-r look\"><b>💡 看点：</b>大单量、强议价采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Home Depot</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家居建材巨头；1978｜总部：美国·佐治亚</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/建材/五金；直接进口</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>DIY 建材连锁龙头。</div><div class=\"co-r look\"><b>💡 看点：</b>五金建材出海重点客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>MediaMarkt</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲电子连锁；1979｜总部：德国·慕尼黑</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类 3C；欧洲主流渠道</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大家电电子连锁之一。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲线下主渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Currys</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国电子零售连锁；1884｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/家电/智能；集中进口</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从邮政目录到电子连锁的百年零售。</div><div class=\"co-r look\"><b>💡 看点：</b>英国综合电子渠道。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 10 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第10天 · 中小 5",
+      "title": "Day 10 · 海外企业推荐（采购中国旅游与住宿）",
+      "tag": "第10天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3103,13 +2932,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Bic Camera</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本大型家电/相机/游戏综合电器店；1968 ｜ 总部：日本·东京</div><div class=\"co-r\"><b>企业简介：</b>日本电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类（含中国 OEM）；渠道 直接对华采购　招牌：全国门店，积分返点文化，秋叶原等地标</div><div class=\"co-r found\"><b>📜 发家史：</b>1968 年，Bic Camera 创立于东京，做相机/电子连锁，从相机专门店起步，踩中日本相机大国的黄金期。它是相机制造国的连锁店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以超大型门店加积分卡忠诚度，做成日本电子零售巨头，并把业态延伸到药妆、酒类，成为什么都能卖的量贩电子店。</div><div class=\"co-r look\"><b>💡 看点：</b>日本渠道重服务与信任，进入需极致品质与合规；推荐：日本渠道与品质要求</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.biccamera.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.biccamera.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Yodobashi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本大型家电/相机/游戏综合电器店；1960 ｜ 总部：日本·东京</div><div class=\"co-r\"><b>企业简介：</b>日本电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：秋叶原地标，全品类加积分返点</div><div class=\"co-r found\"><b>📜 发家史：</b>1960 年，Yodobashi 创立于东京，做相机起家，从淀桥相机小店长成综合电子卖场。它是东京的标志性电器店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以巨型 Yodobashi Camera 门店加齐全品类加强势线上，成为日本综合电子卖场，靠品类全、不缺货、积分对抗 Bic Camera 与电商。</div><div class=\"co-r look\"><b>💡 看点：</b>日本渠道重服务与信任，进入需极致品质与合规；推荐：日本大店模式</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yodobashi.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yodobashi.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Yamada Denki</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本家电量贩连锁；1973 ｜ 总部：日本·东京</div><div class=\"co-r\"><b>企业简介：</b>日本家电连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/电子；渠道 对华　招牌：家电、IT、手机，全国门店</div><div class=\"co-r found\"><b>📜 发家史：</b>1973 年，Yamada Denki 创立于日本，做家电连锁，从群马县的地方门店起步，靠 Tecc Land 巨型门店扩张。它一度是日本最大家电连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它一度成日本最大家电连锁，但电商与同业的夹击让它后来收缩，是线下量贩被线上颠覆的日本样本。</div><div class=\"co-r look\"><b>💡 看点：</b>日本量贩店样本，研究日本零售规则；推荐：日本家电渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yamada-denki.jp\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yamada-denki.jp</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Joshin</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本关西家电连锁；1952 ｜ 总部：日本·大阪</div><div class=\"co-r\"><b>企业简介：</b>日本电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：家电、影音、游戏</div><div class=\"co-r found\"><b>📜 发家史：</b>1952 年，Joshin 创立于大阪，做电子连锁，从关西区域门店起步，靠本地口碑生长。它是关西的老牌电器店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以关西区域深耕，成为日本西日本重要电子渠道，在巨头夹缝中以区域密度加服务立足。</div><div class=\"co-r look\"><b>💡 看点：</b>日本区域渠道；推荐：日本区域渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.joshin.co.jp\" target=\"_blank\" rel=\"noopener\">🌐 https://www.joshin.co.jp</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Edion</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本中国地方（关西/中国地方）家电连锁；2002 ｜ 总部：日本·大阪</div><div class=\"co-r\"><b>企业简介：</b>日本家电连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/电子；渠道 对华　招牌：家电、IT</div><div class=\"co-r found\"><b>📜 发家史：</b>2002 年，Edion 由关西多家区域电子连锁（如石丸、Midori）合并而成，是典型的同业整合产物。它是关西抱团的结果。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它通过同业整合，做成覆盖西日本的家电电子集团，是日本家电连锁抱团取暖对抗全国巨头的代表。</div><div class=\"co-r look\"><b>💡 看点：</b>日本区域渠道补充；推荐：日本西日本渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.edion.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.edion.com</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Coolblue</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢电商零售；1999｜总部：荷兰·埃因霍温</div><div class=\"co-r\"><b>采购画像：</b>采购 3C/家电；重服务</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠极致客服体验成长的低地国家电商。</div><div class=\"co-r look\"><b>💡 看点：</b>高服务标准采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>bol.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢最大电商平台；1999｜总部：荷兰</div><div class=\"co-r\"><b>采购画像：</b>平台卖家；开放第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>低地国家版「亚马逊」。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲平台卖家入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Zalando</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲时尚电商；2008｜总部：德国·柏林</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰/鞋包；品牌直供</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大时尚电商平台。</div><div class=\"co-r look\"><b>💡 看点：</b>服饰出海欧洲平台。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>ASOS</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国时尚电商；2000｜总部：英国·伦敦</div><div class=\"co-r\"><b>采购画像：</b>采购 快时尚服饰；自有+第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>面向年轻人的线上时尚巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>快时尚线上渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wayfair</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家具家居电商；2002｜总部：美国·波士顿</div><div class=\"co-r\"><b>采购画像：</b>采购 家具/家居；中国供应链为主</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠海量 SKU 的家居电商。</div><div class=\"co-r look\"><b>💡 看点：</b>家居品类出海主平台。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 11 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第11天 · 中小 5 / 头部 0",
+      "title": "Day 11 · 海外企业推荐（采购中国拉美与非洲电商）",
+      "tag": "第11天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3117,13 +2946,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Nojima</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本家电与手机连锁；1980 ｜ 总部：日本·横滨</div><div class=\"co-r\"><b>企业简介：</b>日本电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：家电、手机、IT</div><div class=\"co-r found\"><b>📜 发家史：</b>1980 年，Nojima 创立于日本，做电子零售，从神奈川的地方门店起步，靠并购扩张。它是关东的连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以并购扩张加关东布局，成为日本主流电子连锁之一，体现日本区域连锁并购整合的生存之道。</div><div class=\"co-r look\"><b>💡 看点：</b>日本渠道补充；推荐：日本渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nojima.co.jp\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nojima.co.jp</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Lotte Hi-Mart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>韩国最大的家电专营连锁（乐天系）；1993 ｜ 总部：韩国·首尔</div><div class=\"co-r\"><b>企业简介：</b>韩国电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类（含中国 OEM）；渠道 直接对华　招牌：家电、IT、手机，韩国全覆盖</div><div class=\"co-r found\"><b>📜 发家史：</b>1993 年，Lotte Hi-Mart 创立于韩国，做家电连锁，从家电专卖起步，是韩国家电大卖场模式的开创者之一。它是韩国的家电大卖场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2012 年被乐天 Lotte 收购，借助集团生态（百货、食品、金融）成韩国家电渠道龙头，是集团协同的胜利。</div><div class=\"co-r look\"><b>💡 看点：</b>韩国市场核心渠道，研究韩系品牌竞争；推荐：韩国渠道与韩标</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.hmart.co.kr\" target=\"_blank\" rel=\"noopener\">🌐 https://www.hmart.co.kr</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Electromart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>韩国电子连锁；1997 ｜ 总部：韩国·首尔</div><div class=\"co-r\"><b>企业简介：</b>韩国电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：IT、家电、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>1997 年，Electromart 创立于韩国，做电子连锁，从新世界 Shinsegae 体系支撑的门店起步。它背靠百货巨头。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以新世界集团（百货巨头）体系支撑，成为韩国主流 3C 渠道，与 Hi-Mart 形成双雄竞争。</div><div class=\"co-r look\"><b>💡 看点：</b>韩国渠道补充；推荐：韩国渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.emart.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.emart.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Croma</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>印度高端电子与家电连锁（塔塔系）；2006 ｜ 总部：印度·孟买</div><div class=\"co-r\"><b>企业简介：</b>印度电子连锁（Tata）</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华 + 印度组装　招牌：IT、家电、手机，门店加线上</div><div class=\"co-r found\"><b>📜 发家史：</b>2006 年，Croma 由 Tata 在印度创立，做电子连锁，从塔塔零售体系下的门店起步，背靠印度最大财阀之一。它出身财阀。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它借塔塔零售体系做全渠道，是印度重要电子零售商，靠财阀信用加线下体验对抗亚马逊与 Flipkart。</div><div class=\"co-r look\"><b>💡 看点：</b>印度高端渠道，研究印度制造与关税；推荐：印度市场与 PLI 政策</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.croma.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.croma.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Reliance Digital</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>印度信实集团（Jio）旗下电子零售；2007 ｜ 总部：印度·孟买</div><div class=\"co-r\"><b>企业简介：</b>印度电子零售</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：全品类电子家电，门店加线上</div><div class=\"co-r found\"><b>📜 发家史：</b>2007 年，Reliance Digital 由信实 Reliance 在印度创立，从信实零售旗下的电子门店起步，背靠印度最大民营企业。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它背靠信实零售规模与 Jio 生态（电信加数字），快速铺成印度大渠道，把电信用户转化为电子产品买家，是生态协同的印度样本。</div><div class=\"co-r look\"><b>💡 看点：</b>印度最大财团渠道，体量即门槛；推荐：印度大渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.reliancedigital.in\" target=\"_blank\" rel=\"noopener\">🌐 https://www.reliancedigital.in</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Newegg</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美 IT 电商；2001｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/配件；极客向</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从 DIY 硬件社区成长的电商品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>IT 硬件垂直渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>B&H Photo</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国影像器材零售；1973｜总部：美国·纽约</div><div class=\"co-r\"><b>采购画像：</b>采购 相机/配件；专业向</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>影像爱好者心中的器材圣地。</div><div class=\"co-r look\"><b>💡 看点：</b>专业器材采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Flexport</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>数字化货代；2013｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>服务 跨境物流；API 对接</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>用软件重塑国际货运代理。</div><div class=\"co-r look\"><b>💡 看点：</b>外贸人的数字物流伙伴。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Maersk</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球航运巨头；1904｜总部：丹麦·哥本哈根</div><div class=\"co-r\"><b>采购画像：</b>服务 海运/端到端物流</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>集装箱航运的百年老店。</div><div class=\"co-r look\"><b>💡 看点：</b>大货出海的运力基石。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>DHL</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球快递物流；1969｜总部：德国·波恩</div><div class=\"co-r\"><b>采购画像：</b>服务 国际快递/履约</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从三个字母的快递网络长成物流巨擘。</div><div class=\"co-r look\"><b>💡 看点：</b>小包跨境履约主力。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 12 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第12天 · 中小 5 / 头部 0",
+      "title": "Day 12 · 海外企业推荐（采购中国东南亚与中东）",
+      "tag": "第12天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3131,13 +2960,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>Vijay Sales</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>印度西部电子连锁；1980 ｜ 总部：印度·孟买</div><div class=\"co-r\"><b>企业简介：</b>印度电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/电子；渠道 对华　招牌：家电、IT、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>1980 年，Vijay Sales 创立于孟买，做电子连锁，从家族电器店起步，靠口碑在西部生长。它是孟买的老牌电器店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以区域低价连锁，成为印度西部的家电电子渠道，在 Croma、Reliance 夹击中以本地低价守住份额。</div><div class=\"co-r look\"><b>💡 看点：</b>印度区域强势渠道；推荐：印度区域渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.vijaysales.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.vijaysales.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Poorvika</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>印度南部手机与电子连锁；2004 ｜ 总部：印度·金奈</div><div class=\"co-r\"><b>企业简介：</b>印度手机电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 手机/配件；渠道 对华　招牌：智能手机、配件，南印强</div><div class=\"co-r found\"><b>📜 发家史：</b>2004 年，Poorvika 创立于金奈，做手机电子连锁，从南印手机门店起步，踩中印度功能机换智能机浪潮。它是南印的手机连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以手机品类深耕，成为印度南方重要手机渠道，是手机专卖加分期在南印的代表。</div><div class=\"co-r look\"><b>💡 看点：</b>印度区域渠道，看南印市场；推荐：印度手机渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.poorvika.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.poorvika.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Senheng</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>马来西亚电子连锁（伟力/哪吒）；1989 ｜ 总部：马来西亚·吉隆坡</div><div class=\"co-r\"><b>企业简介：</b>马来西亚电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华 + 港展　招牌：家电、手机、IT，大马覆盖</div><div class=\"co-r found\"><b>📜 发家史：</b>1989 年，Senheng 创立于吉隆坡，做电子连锁，从马来家族电器店起步，靠会员体系生长。它是马来西亚的电器连锁。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以会员 App 加多品类，成为马来西亚主流电子渠道，是会员制加全品类的东南亚样本。</div><div class=\"co-r look\"><b>💡 看点：</b>东南亚渠道样本，研究东盟市场；推荐：东南亚渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.senheng.com.my\" target=\"_blank\" rel=\"noopener\">🌐 https://www.senheng.com.my</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Power Buy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>泰国电子零售商（中央零售系）；1993 ｜ 总部：泰国·曼谷</div><div class=\"co-r\"><b>企业简介：</b>泰国电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：家电、IT、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>1993 年，Power Buy 创立于曼谷，属 Central 集团，做电子连锁，从泰国中产门店起步。它背靠 Central 百货。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以泰国中产定位，成为当地电子连锁之一，借 Central 百货客流做店中店加独立店组合。</div><div class=\"co-r look\"><b>💡 看点：</b>泰国市场入口；推荐：泰国渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.powerbuy.co.th\" target=\"_blank\" rel=\"noopener\">🌐 https://www.powerbuy.co.th</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Banana</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>泰国/东盟 IT 零售连锁；1994 ｜ 总部：泰国·曼谷</div><div class=\"co-r\"><b>企业简介：</b>泰国 IT 连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设；渠道 对华　招牌：IT、手机、配件</div><div class=\"co-r found\"><b>📜 发家史：</b>1994 年，Banana 创立于曼谷，做 IT 连锁，从 PC/外设门店起步，踩中泰国 PC 普及期。它是泰国的 IT 店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以 PC/外设门店，成为泰国 IT 零售渠道，在消费电子与 IT 分野中占据攒机/外设市场。</div><div class=\"co-r look\"><b>💡 看点：</b>东盟 IT 渠道；推荐：泰国 IT 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.banana.it\" target=\"_blank\" rel=\"noopener\">🌐 https://www.banana.it</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Uber</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球出行平台；2009｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 出行/配送生态</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>共享出行的开创者之一。</div><div class=\"co-r look\"><b>💡 看点：</b>海外本地出行参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>DoorDash</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国外卖配送平台；2013｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 本地生活配送</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>美国外卖配送份额领先。</div><div class=\"co-r look\"><b>💡 看点：</b>出海做本地生活的对标。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Airbnb</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球民宿平台；2008｜总部：美国·旧金山</div><div class=\"co-r\"><b>采购画像：</b>合作 住宿生态</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>把闲置房源做成全球住宿网络。</div><div class=\"co-r look\"><b>💡 看点：</b>平台出海范本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Booking.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球酒店预订平台；1996｜总部：荷兰</div><div class=\"co-r\"><b>采购画像：</b>合作 住宿供应</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>覆盖全球的在线旅游巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>旅游出海渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Rakuten</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>日本电商与互联网集团；1997｜总部：日本·东京</div><div class=\"co-r\"><b>采购画像：</b>平台卖家；开放第三方</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>日本最大电商生态之一。</div><div class=\"co-r look\"><b>💡 看点：</b>日本市场入口。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 13 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第13天 · 中小 5 / 头部 0",
+      "title": "Day 13 · 海外企业推荐（采购中国欧洲零售）",
+      "tag": "第13天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3145,13 +2974,13 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>The Gioi Di Dong (MWG)</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>越南最大的电子与家电零售集团；2004 ｜ 总部：越南·胡志明</div><div class=\"co-r\"><b>企业简介：</b>越南最大电子零售</div><div class=\"co-r\"><b>采购画像：</b>采购 手机/电子全品类；渠道 对华　招牌：手机、家电、IT，越南全覆盖（Thế Giới Di Động）</div><div class=\"co-r found\"><b>📜 发家史：</b>2004 年，Nguyen Duc Tai 在越南创立 The Gioi Di Dong（移动世界），从手机专卖小店起步，靠极致零售运营（统一话术、强考核）起量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以极致零售运营加 Dien May Xanh 蓝领家电连锁扩张，做成越南第一零售商，并孵化 Bach Hoa Xanh 社区便利店，从卖手机长成越南零售巨无霸。</div><div class=\"co-r look\"><b>💡 看点：</b>越南渠道霸主，研究东盟本土品牌崛起；推荐：越南渠道龙头</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.thegioididong.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.thegioididong.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nguyen Kim</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>越南家电零售连锁；1992 ｜ 总部：越南·胡志明</div><div class=\"co-r\"><b>企业简介：</b>越南电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：家电、IT、手机</div><div class=\"co-r found\"><b>📜 发家史：</b>1992 年，Nguyen Kim 创立于越南，做电子连锁，从胡志明市家电门店起步，是越南早期家电卖场之一。它是越南的老牌电器店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2015 年，Nguyen Kim 被 MWG 收购，并入越南零售龙头体系，成为 MWG 大家电版图的拼图，体现越南零售的整合潮。</div><div class=\"co-r look\"><b>💡 看点：</b>越南渠道补充；推荐：越南渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.nguyenkim.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.nguyenkim.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Harvey Norman</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚/新西兰家居与电子连锁；1982 ｜ 总部：澳大利亚·悉尼</div><div class=\"co-r\"><b>企业简介：</b>澳新家电电子连锁</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 直接对华　招牌：家具、家电、IT、bedding</div><div class=\"co-r found\"><b>📜 发家史：</b>1982 年，Gerry Harvey 在澳洲悉尼创立 Harvey Norman，从家具加家电加电脑的混合大卖场起步，靠一店卖全屋的体验。它是澳新的混合大卖场。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以 franchise 加自持物业模式（加盟商经营、公司持物业），成为澳新地区家电电子龙头，把重资产门店做成护城河。</div><div class=\"co-r look\"><b>💡 看点：</b>澳新大件加电子混合渠道；推荐：澳新渠道与 RCM 认证</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.harveynorman.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.harveynorman.com.au</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>The Good Guys</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳洲家电与电子连锁（被 JB 收购）；1973 ｜ 总部：澳大利亚</div><div class=\"co-r\"><b>企业简介：</b>澳洲电子连锁（属 JB Hi-Fi）</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；渠道 对华　招牌：家电、IT</div><div class=\"co-r found\"><b>📜 发家史：</b>1973 年，The Good Guys 创立于澳洲，做电子连锁，从便宜大家电加活泼广告起步，是澳洲国民家电店。它靠便宜大声量起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2016 年，The Good Guys 被 JB Hi-Fi 收购，归入澳新电子零售老大旗下，是澳洲零售整合的标志性一役。</div><div class=\"co-r look\"><b>💡 看点：</b>澳洲渠道，已被 JB Hi-Fi 收入；推荐：澳洲渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.thegoodguys.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.thegoodguys.com.au</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Mighty Ape</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>新西兰电商（书籍/IT/游戏）；2000 ｜ 总部：新西兰·奥克兰</div><div class=\"co-r\"><b>企业简介：</b>新西兰电商</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类电子；渠道 对华　招牌：图书、游戏、IT，新西兰为主</div><div class=\"co-r found\"><b>📜 发家史：</b>2000 年，Mighty Ape 创立于新西兰，做电商，从图书/电子线上起家，是新西兰最早一批网店。它是新西兰的早期电商。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2020 年，Mighty Ape 被 Kogan 收购，并入澳洲电商版图，是新西兰小市场被邻国巨头收编的案例。</div><div class=\"co-r look\"><b>💡 看点：</b>新西兰小市场渠道；推荐：新西兰电商</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mightyape.co.nz\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mightyape.co.nz</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Monoprice</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高性价比 3C 配件电商；2002｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 线材/适配器/音频；渠道 1688/阿里国际站直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>靠超低价线材电商起家，极客圈便宜好用代名词。</div><div class=\"co-r look\"><b>💡 看点：</b>中国卖家的直接竞品与参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Satechi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端 3C 配件设计品牌；2007｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 扩展坞/充电器；深圳 OEM 直采</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>专做苹果生态配件，踩中生态红利。</div><div class=\"co-r look\"><b>💡 看点：</b>轻资产品牌+OEM 打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Twelve South</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国苹果生态配件品牌；2009｜总部：美国·南卡</div><div class=\"co-r\"><b>采购画像：</b>采购 保护壳/支架；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>只做苹果、做精致的小众路线。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直生态配件样本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nonda</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国车联网配件品牌；2013｜总部：美国·密歇根</div><div class=\"co-r\"><b>采购画像：</b>采购 车载电子；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从众筹起步，解决开车小痛点。</div><div class=\"co-r look\"><b>💡 看点：</b>美国痛点洞察+中国供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wyze</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国智能家居品牌；2017｜总部：美国·西雅图</div><div class=\"co-r\"><b>采购画像：</b>采购 摄像头/传感器；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>前亚马逊员工用极致低价智能硬件走红。</div><div class=\"co-r look\"><b>💡 看点：</b>低价智能家居出海。</div></div>"
         }
       ]
     },
     {
-      "title": "Day 14 · 海外企业推荐（采购中国消费电子）",
-      "tag": "第14天 · 中小 5 / 头部 0",
+      "title": "Day 14 · 海外企业推荐（采购中国专业器材与 IT）",
+      "tag": "第14天 · 中小5",
       "blocks": [
         {
           "h": "💡 今日怎么用这笔清单",
@@ -3159,7 +2988,7 @@ const CONTENT = {
         },
         {
           "h": "今日推荐 · 5 家（中小企业为主，含行业标杆）",
-          "body": "\n        <div class=\"co\"><div class=\"co-h\"><b>PB Tech</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>新西兰 IT/电子电商与零售；1993 ｜ 总部：新西兰·奥克兰</div><div class=\"co-r\"><b>企业简介：</b>新西兰 IT 零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设；渠道 对华　招牌：电脑、组件、外设</div><div class=\"co-r found\"><b>📜 发家史：</b>1993 年，PB Tech 创立于新西兰，做 IT 零售，从本地 IT 电商/门店起步，服务玩家与中小企业。它是新西兰的 IT 店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以新西兰本地 IT 电商/门店，成为新西兰主要 3C 渠道，靠本地库存加快配送对抗澳洲巨头的跨境渗透。</div><div class=\"co-r look\"><b>💡 看点：</b>新西兰 IT 渠道标杆；推荐：新西兰 IT 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.pbtech.co.nz\" target=\"_blank\" rel=\"noopener\">🌐 https://www.pbtech.co.nz</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Scorptec</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚 IT 硬件电商；1999 ｜ 总部：澳大利亚·墨尔本</div><div class=\"co-r\"><b>企业简介：</b>澳洲 IT 电商</div><div class=\"co-r\"><b>采购画像：</b>采购 组件/外设；渠道 对华　招牌：电脑、组件、外设</div><div class=\"co-r found\"><b>📜 发家史：</b>1999 年，Scorptec 创立于澳洲墨尔本，做 IT 电商，从硬件玩法加线上起步，服务 DIY 玩家。它是澳洲的极客硬件店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以硬件玩法加线上，成为澳洲 DIY 配件电商，是澳洲极客硬件市场的一极。</div><div class=\"co-r look\"><b>💡 看点：</b>澳洲 DIY 硬件渠道；推荐：澳洲硬件电商</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.scorptec.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.scorptec.com.au</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>MSY</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚低价 IT 配件零售商；1996 ｜ 总部：澳大利亚·墨尔本</div><div class=\"co-r\"><b>企业简介：</b>澳洲 IT 零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 组件/外设；渠道 对华　招牌：电脑组件、外设，极致低价</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年，MSY 创立于澳洲，做 IT 零售，从极致低价硬件起步，靠薄利多销在玩家圈出名。它是澳洲的低价 PC 店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以极致低价硬件，成为澳洲预算型 PC 配件渠道，但低价加槽点服务也成双刃剑，在电商冲击下式微。</div><div class=\"co-r look\"><b>💡 看点：</b>价格屠夫模式，研究澳洲预算型买家与口碑双刃剑；推荐：澳洲硬件零售</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.msy.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.msy.com.au</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Computer Alliance</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚昆士兰 IT 零售商；1996 ｜ 总部：澳大利亚·布里斯班</div><div class=\"co-r\"><b>企业简介：</b>澳洲 IT 零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设；渠道 对华　招牌：电脑、组件、维修</div><div class=\"co-r found\"><b>📜 发家史：</b>1996 年，Computer Alliance 创立于布里斯班，做 IT 零售，从昆士兰本地门店起步，服务区域玩家。它是昆士兰的本地店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以区域 IT 门店，服务昆士兰市场，是澳洲各州本地 IT 店生态的缩影。</div><div class=\"co-r look\"><b>💡 看点：</b>澳洲区域 IT 渠道；推荐：澳洲区域 IT 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.computeralliance.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.computeralliance.com.au</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>JW Computers</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>澳大利亚 IT 零售商；1993 ｜ 总部：澳大利亚·悉尼</div><div class=\"co-r\"><b>企业简介：</b>澳洲 IT 零售商</div><div class=\"co-r\"><b>采购画像：</b>采购 PC/外设；渠道 对华　招牌：电脑、组件、外设</div><div class=\"co-r found\"><b>📜 发家史：</b>1993 年，JW Computers 创立于悉尼，做 IT 零售，从悉尼本地门店起步，是澳洲老牌 PC 卖家。它是悉尼的老牌电脑店。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>它以悉尼本地 IT 门店，成为澳洲区域 3C 渠道，体现各州本地店加全国电商并存的澳洲零售格局。</div><div class=\"co-r look\"><b>💡 看点：</b>澳洲 IT 渠道补充；推荐：澳洲区域 IT 渠道</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.jw.com.au\" target=\"_blank\" rel=\"noopener\">🌐 https://www.jw.com.au</a></div></div>\n      "
+          "body": "<div class=\"co\"><div class=\"co-h\"><b>Boulanger</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家电电子零售商；1954｜总部：法国·里尔</div><div class=\"co-r\"><b>采购画像：</b>采购 白电/黑电/智能；集中对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从修收音机卖家电起家的家族连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>法国区域渠道入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>AO.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国线上家电零售商；2000｜总部：英国·博尔顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；直接对华</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>把家电搬上网站的英国早班车。</div><div class=\"co-r look\"><b>💡 看点：</b>英国线上家电渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Crutchfield</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端影音专业零售；1974｜总部：美国·弗吉尼亚</div><div class=\"co-r\"><b>采购画像：</b>采购 车载/家庭影音；直接对华 OEM</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>目录营销起家的发烧音响专家。</div><div class=\"co-r look\"><b>💡 看点：</b>重内容重服务的专业零售。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Best Buy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美最大消费电子连锁；1966｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类 3C；大单直接采购</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>从音响专卖到全品类电子巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>北美线下大卖场主渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Walmart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球零售巨头；1962｜总部：美国·阿肯色</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类；供应商严审+EDI</div><div class=\"co-r\"><b>主营业务：</b>undefined</div><div class=\"co-r found\"><b>📜 发家史：</b>天天低价模式的开创者。</div><div class=\"co-r look\"><b>💡 看点：</b>最大体量的采购方，准入门槛高。</div></div>"
         }
       ]
     }
@@ -3274,22 +3103,22 @@ const CONTENT = {
       ]
     },
     {
-    "title": "抖音内容推荐 · 第 10 周｜搜索型清单 · 深圳「请3休13」双节本地攻略",
-    "tag": "第10周 · 每周一篇",
-    "blocks": [
-      {
-        "h": "📊 我的抖音账号分析（153146893）",
-        "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
-      },
-      {
-        "h": "🔥 本周推荐：搜索型清单 · 深圳「请3休13」双节本地攻略",
-        "body": "<p><b>这周的机会不在推荐页，在搜索框。</b>前两周你做的是「推荐流」内容（图文连载、真实 vlog），靠算法把你推给陌生人。这周换一条路：<b>做能被搜到、值得被收藏的清单体</b>，吃双节前整整一个月的搜索长尾。而且这次深圳不是「出发地」，是<b>目的地</b>——你坐在流量入口上。</p><p class=\"ct-h\">💡 为什么这周做这个</p><div class=\"ct-body ph\">① <b>热点确定性 100%，不靠猜：</b>国务院办公厅通知已定死——中秋 <b>9/25(五)–9/27(日)</b> 放 3 天，国庆 <b>10/1(四)–10/7(三)</b> 放 7 天，中间只隔 9/28、29、30 三个工作日。请这 3 天 ＝ 从 9/25 连休到 10/7，<b>整整 13 天</b>（补班日 9/20、10/10）。平台热词就叫<b>「请3休13」</b>，本周搜索周环比约 +120%（业内估算），是全网涨最猛的词之一。<br/>② <b>深圳是这波的目的地：</b>中国网 / 中国青年网引用机票预订数据，双节热门飞行目的地 TOP10 里<b>深圳、广州双双入围</b>。也就是说未来一个月，大量人会搜「深圳吃什么 / 玩什么」——你人在深圳、手里有店，这是天然的搜索红利。<br/>③ <b>正好治你最大的病：流量不转粉。</b>后台是主页访问 <b>7477</b>、30 日净增粉只有 <b>19</b>——播放来了但人没留下。清单体是<b>收藏型内容</b>：2026 抖音已把收藏率与复访率提到核心指标（行业口径），机制也从「推荐作品」转向「推荐作者」，主页访问与铁粉互动直接抬新内容的初始流量。观众要收藏、要回来找清单 → 这才会转粉。<br/>④ <b>零新增成本：</b>你吃过的辣馆、喝过的冰美式本来就是清单素材，不用重新踩点。<br/>⑤ <b>提前 4 周发＝抢跑：</b>别人 9 月底才做，你现在发，视频会在整个双节窗口被反复搜到。</div><p class=\"ct-h\">🎬 拍摄脚本（清单体 · 竖屏 60–90 秒）</p><div class=\"ct-body ph\">栏目名定死：<b>《深圳双节不踩雷清单 · EP1》</b>，一期一个主题（辣馆 / 咖啡 / 夜宵）。<br/>① <b>前 3 秒 ＝ 数字 ＋ 冲突</b>（同时治 1.52% 封面点击和 8.6% 完播）：「双节请 3 天假能休 13 天，但外地朋友来深圳，90% 会踩这 5 个坑」；<br/>② <b>清单结构</b>：5 条，每条约 10 秒，<b>先给结论再给理由</b>（「第 1 家：XX 辣馆，人均 XX，别在周六晚 7 点去」）；<br/>③ <b>每条打屏幕字幕卡</b>：店名 / 人均 / 地铁站——观众想截图，就是收藏动机；<br/>④ <b>中段插互动钩子</b>：「你更想看辣馆还是咖啡？评论区打 1 或 2，下期就拍」——投票 / 二选一式互动的完播与互动率显著高于普通视频（行业口径约 1.7 倍 / 3.2 倍）；<br/>⑤ <b>收尾明确索要收藏</b>：「双节前先存一下，别到时候现搜」＋「主页有完整清单」——这句就是把播放转成主页访问的开关，别省；<br/>⑥ <b>封面</b>：白底大字 ＋ 数字 ＋ 地标，写「深圳双节 · 5 家不踩雷」，不要花哨设计，<b>字要大到缩略图也看得清</b>。</div><p class=\"ct-h\">✍️ 标题 / 文案示例（前 5 字带数字或冲突词，且必须含搜索关键词）</p><div class=\"ct-body ph\">「请3休13 ｜ 双节来深圳，先存这 5 家不踩雷的辣馆」<br/>「深圳双节清单 ｜ 13 天假期，本地人只推荐这几家（含人均和地铁站）」<br/>「不出深圳也能过双节 ｜ 打工人版 13 天吃喝清单，第 3 家我私藏很久」<br/><b>铁律：</b>标题里必须出现「深圳」＋「双节 / 请3休13」，这是被搜到的钩子，别用纯情绪标题。</div><p class=\"ct-h\">🎲 顺手可蹭的热点</p><p>① <b>开学季情绪：</b>8 月抖音热歌《听悲伤的情歌》(苏星婕) 适配开学 / 离别；城市夜景可用《迟来的爱(新版)》(金润吉)、《晚风告白》(陆杰)——均为 8 月热歌榜可直接搜到的曲名。<br/>② <b>本地生活变现：</b>清单里的店顺手挂抖音团购。2026 抖音把街边小店独立运营、对中小商户扶持加大，探店佣金 ＋ 团购是清单体最自然的变现方式。</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#请3休13 #中秋国庆 #深圳美食 #深圳探店 #深圳攻略 #双节出游 #打工人日常 #深圳咖啡</p>"
-      },
-      {
-        "h": "✅ 本周行动清单",
-        "body": "<p>① <b>今天</b>：定栏目名《深圳双节不踩雷清单》，把你已经吃过的辣馆 ＋ 咖啡店列成表（店名 / 人均 / 地铁站 / 避坑点），凑够 5 条就能开拍；<br/>② <b>本周内发 2 条</b>：一条辣馆清单、一条咖啡清单，标题里必须带「深圳」＋「双节 / 请3休13」；<br/>③ <b>封面铁律</b>：白底大字 ＋ 数字（「5 家」「13 天」），目标把封面点击从 1.52% 拉到 3%+；<br/>④ <b>前 3 秒抛数字冲突</b>——完播 8.6% vs 同类 12.2%，这是本周第一优先级；<br/>⑤ <b>每条结尾必须说</b>「存一下」＋「主页有完整清单」，这是把 7477 主页访问变成粉丝的唯一动作；<br/>⑥ <b>中段加二选一互动</b>（「辣馆 or 咖啡，评论区打 1 或 2」），下期按票数拍，制造复访；<br/>⑦ <b>顺手挂团购链接</b>，把清单变成小收入；<br/>⑧ <b>周日复盘只看两个数</b>：<b>收藏率</b>和<b>新增粉丝</b>。清单体的收藏率若明显高于你的 vlog，就把 9 月主力压在清单体上。</p>"
-      }
-    ]
-  }
+      "title": "抖音内容推荐 · 第 10 周｜搜索型清单 · 深圳「请3休13」双节本地攻略",
+      "tag": "第10周 · 每周一篇",
+      "blocks": [
+        {
+          "h": "📊 我的抖音账号分析（153146893）",
+          "body": "<div style='background:#e6f1fb;border:1px solid #85b7eb;border-radius:12px;padding:12px 14px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'><b style='font-size:14px;color:#0c447c;'>📊 抖音账号分析</b><span style='font-size:11px;color:#185fa5;background:#caf0f8;padding:2px 8px;border-radius:10px;'>已同步 2026-08-19</span></div><div style='font-size:12.5px;line-height:1.75;color:#2c2c2a;'><p style='margin:0 0 4px;'><b>近7日：</b>播放 <b>1.4万</b>(超越98.65%同类)｜完播率 <b>8.6%</b>(同类12.2%)｜互动率 <b>9.3%</b>(同类6.4%)</p><p style='margin:0 0 4px;'><b>30日：</b>投稿 <b>9</b>(+800%)｜播放 <b>17.6万</b>(+12507%)｜点赞 <b>3526</b>(+18458%)｜完播率 <b>17.13%</b>(-17.5%)</p><p style='margin:0 0 4px;'><b>粉丝：</b>总粉 <b>2454</b>(+0.8%)｜30日净增 <b>19</b>｜取关 <b>18</b>｜主页访问 <b>7477</b>(+37285%)｜账号搜索 <b>35</b>(+94.4%)</p><p style='margin:0 0 4px;'><b>🔥 爆款：</b>「义工日记·被遗弃在宠物店的小白狗」<b>1万播放/695赞/48评/9收藏</b>，获3670流量激励</p><p style='margin:0 0 4px;'><b>📈 次热：</b>@深圳地铁地垫 1187播/4赞/2评｜恶霸犬撒娇 287播/6赞</p><p style='margin:0 0 4px;'><b>⚠️ 短板：</b>封面点击仅 <b>1.52%</b>(很弱)；完播率低于同类；互动指数 <b>2.53%</b>；近期海南粉丝流失-1</p><p style='margin:0 0 4px;'><b>💡 方向：</b>复制「义工日记」(真实+公益情感)；升级封面把点击拉到3%+；3秒抛冲突救完播；周更2-3篇</p><p style='margin:6px 0 0;font-size:11.5px;color:#5f5e5a;'>发最新截图给我即可更新本卡片。</p></div></div>"
+        },
+        {
+          "h": "🔥 本周推荐：搜索型清单 · 深圳「请3休13」双节本地攻略",
+          "body": "<p><b>这周的机会不在推荐页，在搜索框。</b>前两周你做的是「推荐流」内容（图文连载、真实 vlog），靠算法把你推给陌生人。这周换一条路：<b>做能被搜到、值得被收藏的清单体</b>，吃双节前整整一个月的搜索长尾。而且这次深圳不是「出发地」，是<b>目的地</b>——你坐在流量入口上。</p><p class=\"ct-h\">💡 为什么这周做这个</p><div class=\"ct-body ph\">① <b>热点确定性 100%，不靠猜：</b>国务院办公厅通知已定死——中秋 <b>9/25(五)–9/27(日)</b> 放 3 天，国庆 <b>10/1(四)–10/7(三)</b> 放 7 天，中间只隔 9/28、29、30 三个工作日。请这 3 天 ＝ 从 9/25 连休到 10/7，<b>整整 13 天</b>（补班日 9/20、10/10）。平台热词就叫<b>「请3休13」</b>，本周搜索周环比约 +120%（业内估算），是全网涨最猛的词之一。<br/>② <b>深圳是这波的目的地：</b>中国网 / 中国青年网引用机票预订数据，双节热门飞行目的地 TOP10 里<b>深圳、广州双双入围</b>。也就是说未来一个月，大量人会搜「深圳吃什么 / 玩什么」——你人在深圳、手里有店，这是天然的搜索红利。<br/>③ <b>正好治你最大的病：流量不转粉。</b>后台是主页访问 <b>7477</b>、30 日净增粉只有 <b>19</b>——播放来了但人没留下。清单体是<b>收藏型内容</b>：2026 抖音已把收藏率与复访率提到核心指标（行业口径），机制也从「推荐作品」转向「推荐作者」，主页访问与铁粉互动直接抬新内容的初始流量。观众要收藏、要回来找清单 → 这才会转粉。<br/>④ <b>零新增成本：</b>你吃过的辣馆、喝过的冰美式本来就是清单素材，不用重新踩点。<br/>⑤ <b>提前 4 周发＝抢跑：</b>别人 9 月底才做，你现在发，视频会在整个双节窗口被反复搜到。</div><p class=\"ct-h\">🎬 拍摄脚本（清单体 · 竖屏 60–90 秒）</p><div class=\"ct-body ph\">栏目名定死：<b>《深圳双节不踩雷清单 · EP1》</b>，一期一个主题（辣馆 / 咖啡 / 夜宵）。<br/>① <b>前 3 秒 ＝ 数字 ＋ 冲突</b>（同时治 1.52% 封面点击和 8.6% 完播）：「双节请 3 天假能休 13 天，但外地朋友来深圳，90% 会踩这 5 个坑」；<br/>② <b>清单结构</b>：5 条，每条约 10 秒，<b>先给结论再给理由</b>（「第 1 家：XX 辣馆，人均 XX，别在周六晚 7 点去」）；<br/>③ <b>每条打屏幕字幕卡</b>：店名 / 人均 / 地铁站——观众想截图，就是收藏动机；<br/>④ <b>中段插互动钩子</b>：「你更想看辣馆还是咖啡？评论区打 1 或 2，下期就拍」——投票 / 二选一式互动的完播与互动率显著高于普通视频（行业口径约 1.7 倍 / 3.2 倍）；<br/>⑤ <b>收尾明确索要收藏</b>：「双节前先存一下，别到时候现搜」＋「主页有完整清单」——这句就是把播放转成主页访问的开关，别省；<br/>⑥ <b>封面</b>：白底大字 ＋ 数字 ＋ 地标，写「深圳双节 · 5 家不踩雷」，不要花哨设计，<b>字要大到缩略图也看得清</b>。</div><p class=\"ct-h\">✍️ 标题 / 文案示例（前 5 字带数字或冲突词，且必须含搜索关键词）</p><div class=\"ct-body ph\">「请3休13 ｜ 双节来深圳，先存这 5 家不踩雷的辣馆」<br/>「深圳双节清单 ｜ 13 天假期，本地人只推荐这几家（含人均和地铁站）」<br/>「不出深圳也能过双节 ｜ 打工人版 13 天吃喝清单，第 3 家我私藏很久」<br/><b>铁律：</b>标题里必须出现「深圳」＋「双节 / 请3休13」，这是被搜到的钩子，别用纯情绪标题。</div><p class=\"ct-h\">🎲 顺手可蹭的热点</p><p>① <b>开学季情绪：</b>8 月抖音热歌《听悲伤的情歌》(苏星婕) 适配开学 / 离别；城市夜景可用《迟来的爱(新版)》(金润吉)、《晚风告白》(陆杰)——均为 8 月热歌榜可直接搜到的曲名。<br/>② <b>本地生活变现：</b>清单里的店顺手挂抖音团购。2026 抖音把街边小店独立运营、对中小商户扶持加大，探店佣金 ＋ 团购是清单体最自然的变现方式。</p><p class=\"ct-h\">🏷️ 话题标签</p><p>#请3休13 #中秋国庆 #深圳美食 #深圳探店 #深圳攻略 #双节出游 #打工人日常 #深圳咖啡</p>"
+        },
+        {
+          "h": "✅ 本周行动清单",
+          "body": "<p>① <b>今天</b>：定栏目名《深圳双节不踩雷清单》，把你已经吃过的辣馆 ＋ 咖啡店列成表（店名 / 人均 / 地铁站 / 避坑点），凑够 5 条就能开拍；<br/>② <b>本周内发 2 条</b>：一条辣馆清单、一条咖啡清单，标题里必须带「深圳」＋「双节 / 请3休13」；<br/>③ <b>封面铁律</b>：白底大字 ＋ 数字（「5 家」「13 天」），目标把封面点击从 1.52% 拉到 3%+；<br/>④ <b>前 3 秒抛数字冲突</b>——完播 8.6% vs 同类 12.2%，这是本周第一优先级；<br/>⑤ <b>每条结尾必须说</b>「存一下」＋「主页有完整清单」，这是把 7477 主页访问变成粉丝的唯一动作；<br/>⑥ <b>中段加二选一互动</b>（「辣馆 or 咖啡，评论区打 1 或 2」），下期按票数拍，制造复访；<br/>⑦ <b>顺手挂团购链接</b>，把清单变成小收入；<br/>⑧ <b>周日复盘只看两个数</b>：<b>收藏率</b>和<b>新增粉丝</b>。清单体的收藏率若明显高于你的 vlog，就把 9 月主力压在清单体上。</p>"
+        }
+      ]
+    }
   ]
 };
