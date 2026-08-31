@@ -1563,7 +1563,7 @@ if('serviceWorker' in navigator){
     if(navigator.onLine && !_wzReloading){ _wzReloading = true; location.reload(); }
   });
   window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js?v=77',{updateViaCache:'none'})
+    navigator.serviceWorker.register('sw.js?v=78',{updateViaCache:'none'})
       .then(reg=>reg.update())
       .catch(()=>{});
   });

@@ -1,661 +1,2548 @@
 /* =========================================================
    旺仔的工作台 · 英语学习「听 / 说 / 单词」交互训练数据
    与 content.js 中 english 数组一一对应（索引 0-20）。
-   每条：
-     lines    听力对话 10 句（role + en + zh 中文翻译）
-     speak    口语跟读 3 个目标句（数组）
-     words    单词卡 12-15 个（w + ph + zh）
-   说明：本文件不依赖任何外部库，配合 index.html 的 Web Speech API 使用。
+   每周焕新：2026-08-24 生成，21 天外贸/差旅/商务场景全新对话
    ========================================================= */
 const EN_PRACTICE = {
-  0: {
-    lines: [
-      {role:"A", en:"May I see your passport, please?", zh:"请出示您的护照好吗？"},
-      {role:"B", en:"Here you are.", zh:"给您。"},
-      {role:"A", en:"Window or aisle seat?", zh:"靠窗还是靠走道的座位？"},
-      {role:"B", en:"An aisle seat, please.", zh:"请给我靠走道的座位。"},
-      {role:"A", en:"Your gate is B12. Have a nice flight!", zh:"您的登机口是 B12。祝您飞行愉快！"},
-      {role:"B", en:"Where is the baggage claim?", zh:"行李提取处在哪里？"},
-      {role:"A", en:"Carousel 5, downstairs.", zh:"5 号传送带，下楼就是。"},
-      {role:"B", en:"How long is the layover?", zh:"中转停留多久？"},
-      {role:"A", en:"About 90 minutes.", zh:"大约 90 分钟。"},
-      {role:"B", en:"Great, plenty of time for coffee.", zh:"太好了，有足够的时间喝杯咖啡。"},
+  "0": {
+    "lines": [
+      {
+        "role": "A",
+        "en": "Good morning, may I see your passport and ticket?",
+        "zh": "早上好，请出示您的护照和机票好吗？"
+      },
+      {
+        "role": "B",
+        "en": "Sure, here you are.",
+        "zh": "好的，给您。"
+      },
+      {
+        "role": "A",
+        "en": "Will you be checking any bags?",
+        "zh": "您要托运行李吗？"
+      },
+      {
+        "role": "B",
+        "en": "Just one suitcase.",
+        "zh": "只托运一个行李箱。"
+      },
+      {
+        "role": "A",
+        "en": "Window or aisle seat?",
+        "zh": "靠窗还是靠走道？"
+      },
+      {
+        "role": "B",
+        "en": "Aisle, please.",
+        "zh": "请给我靠走道的。"
+      },
+      {
+        "role": "A",
+        "en": "Your gate is C7, boarding at 10:40.",
+        "zh": "您的登机口是 C7，10:40 登机。"
+      },
+      {
+        "role": "B",
+        "en": "How do I get to the gate?",
+        "zh": "怎么去登机口？"
+      },
+      {
+        "role": "A",
+        "en": "Take the shuttle train to Terminal 2.",
+        "zh": "坐捷运列车到 T2 航站楼。"
+      },
+      {
+        "role": "B",
+        "en": "Thank you, have a good day.",
+        "zh": "谢谢，祝您一天愉快。"
+      }
     ],
-    speak: ["May I see your passport, please?", "Where is the baggage claim?", "How long is the layover?"],
-    words: [
-      {w:"passport", ph:"/ˈpæspɔːt/", zh:"护照"},
-      {w:"ticket", ph:"/ˈtɪkɪt/", zh:"机票"},
-      {w:"boarding pass", ph:"/ˈbɔːrdɪŋ pæs/", zh:"登机牌"},
-      {w:"gate", ph:"/ɡeɪt/", zh:"登机口"},
-      {w:"luggage", ph:"/ˈlʌɡɪdʒ/", zh:"行李"},
-      {w:"departure", ph:"/dɪˈpɑːrtʃər/", zh:"出发"},
-      {w:"arrival", ph:"/əˈraɪvl/", zh:"到达"},
-      {w:"baggage claim", ph:"/ˈbæɡɪdʒ kleɪm/", zh:"行李提取处"},
-      {w:"carousel", ph:"/kæˈruːsəl/", zh:"传送带"},
-      {w:"terminal", ph:"/ˈtɜːrmɪnl/", zh:"航站楼"},
-      {w:"layover", ph:"/ˈleɪoʊvər/", zh:"中转停留"},
-      {w:"take off", ph:"/teɪk ɔːf/", zh:"起飞"},
-      {w:"land", ph:"/lænd/", zh:"着陆"},
-      {w:"window seat", ph:"/ˈwɪndoʊ siːt/", zh:"靠窗座位"},
+    "speak": [
+      "May I see your passport and ticket?",
+      "Window or aisle seat?",
+      "How do I get to the gate?"
+    ],
+    "words": [
+      {
+        "w": "passport",
+        "ph": "/ˈpæspɔːrt/",
+        "zh": "护照"
+      },
+      {
+        "w": "ticket",
+        "ph": "/ˈtɪkɪt/",
+        "zh": "机票"
+      },
+      {
+        "w": "boarding pass",
+        "ph": "/ˈbɔːrdɪŋ pæs/",
+        "zh": "登机牌"
+      },
+      {
+        "w": "gate",
+        "ph": "/ɡeɪt/",
+        "zh": "登机口"
+      },
+      {
+        "w": "luggage",
+        "ph": "/ˈlʌɡɪdʒ/",
+        "zh": "行李"
+      },
+      {
+        "w": "suitcase",
+        "ph": "/ˈsuːtkeɪs/",
+        "zh": "行李箱"
+      },
+      {
+        "w": "aisle seat",
+        "ph": "/aɪl siːt/",
+        "zh": "靠走道座位"
+      },
+      {
+        "w": "window seat",
+        "ph": "/ˈwɪndoʊ siːt/",
+        "zh": "靠窗座位"
+      },
+      {
+        "w": "terminal",
+        "ph": "/ˈtɜːrmɪnl/",
+        "zh": "航站楼"
+      },
+      {
+        "w": "shuttle",
+        "ph": "/ˈʃʌtl/",
+        "zh": "穿梭/捷运"
+      },
+      {
+        "w": "depart",
+        "ph": "/dɪˈpɑːrt/",
+        "zh": "出发"
+      },
+      {
+        "w": "boarding",
+        "ph": "/ˈbɔːrdɪŋ/",
+        "zh": "登机"
+      }
     ]
   },
-  1: {
-    lines: [
-      {role:"R", en:"Good evening, do you have a reservation?", zh:"晚上好，您有预订吗？"},
-      {role:"G", en:"Yes, under the name Wang.", zh:"有，用 Wang 这个名字预订的。"},
-      {role:"R", en:"Your room is 805. Here is your key card.", zh:"您的房间是 805。这是您的房卡。"},
-      {role:"G", en:"What time is breakfast?", zh:"早餐几点供应？"},
-      {role:"R", en:"7 to 10, on the second floor.", zh:"7 点到 10 点，在二楼。"},
-      {role:"G", en:"Could I have a wake-up call at six?", zh:"能帮我定早上六点的叫早电话吗？"},
-      {role:"R", en:"Sure, six sharp.", zh:"没问题，六点整。"},
-      {role:"G", en:"What is the wifi password?", zh:"WiFi 密码是多少？"},
-      {role:"R", en:"It is on your key card holder.", zh:"在您的房卡套上。"},
-      {role:"G", en:"Thanks, I would like to check out tomorrow at noon.", zh:"谢谢，我想明天中午退房。"},
+  "1": {
+    "lines": [
+      {
+        "role": "A",
+        "en": "Good evening, do you have a reservation?",
+        "zh": "晚上好，您有预订吗？"
+      },
+      {
+        "role": "B",
+        "en": "Yes, under the name Li.",
+        "zh": "有，用 Li 这个名字预订的。"
+      },
+      {
+        "role": "A",
+        "en": "Your room is 1210. Here is your key card.",
+        "zh": "您的房间是 1210，这是您的房卡。"
+      },
+      {
+        "role": "B",
+        "en": "What time is breakfast served?",
+        "zh": "早餐几点供应？"
+      },
+      {
+        "role": "A",
+        "en": "6:30 to 10, on the third floor.",
+        "zh": "6:30 到 10 点，在三楼。"
+      },
+      {
+        "role": "B",
+        "en": "Could I get a wake-up call at 7?",
+        "zh": "能帮我设早上 7 点的叫早电话吗？"
+      },
+      {
+        "role": "A",
+        "en": "Certainly, 7 a.m. sharp.",
+        "zh": "当然，7 点整。"
+      },
+      {
+        "role": "B",
+        "en": "Is there a socket for my laptop?",
+        "zh": "房间有笔记本电脑的插座吗？"
+      },
+      {
+        "role": "A",
+        "en": "Yes, by the desk, and USB ports too.",
+        "zh": "有，在书桌旁，还有 USB 接口。"
+      },
+      {
+        "role": "B",
+        "en": "Great, I will check out on Friday.",
+        "zh": "好的，我周五退房。"
+      }
     ],
-    speak: ["Do you have a reservation?", "What time is breakfast?", "Could I have a wake-up call?"],
-    words: [
-      {w:"reservation", ph:"/ˌrezərˈveɪʃn/", zh:"预订"},
-      {w:"check in", ph:"/tʃek ɪn/", zh:"入住"},
-      {w:"check out", ph:"/tʃek aʊt/", zh:"退房"},
-      {w:"key card", ph:"/kiː kɑːrd/", zh:"房卡"},
-      {w:"breakfast", ph:"/ˈbrekfəst/", zh:"早餐"},
-      {w:"room service", ph:"/ruːm ˈsɜːrvɪs/", zh:"客房服务"},
-      {w:"extra towel", ph:"/ˈekstrə ˈtaʊəl/", zh:"额外毛巾"},
-      {w:"wifi password", ph:"/ˈwaɪfaɪ ˈpæswɜːrd/", zh:"无线密码"},
-      {w:"wake-up call", ph:"/ˈweɪk ʌp kɔːl/", zh:"叫早电话"},
-      {w:"lobby", ph:"/ˈlɑːbi/", zh:"大堂"},
-      {w:"air conditioning", ph:"/er kənˈdɪʃənɪŋ/", zh:"空调"},
-      {w:"single bed", ph:"/ˈsɪŋɡl bed/", zh:"单人床"},
-      {w:"double bed", ph:"/ˈdʌbl bed/", zh:"双人床"},
-      {w:"minibar", ph:"/ˈmɪnibɑːr/", zh:"迷你吧"},
+    "speak": [
+      "Do you have a reservation?",
+      "What time is breakfast served?",
+      "I will check out on Friday."
+    ],
+    "words": [
+      {
+        "w": "reservation",
+        "ph": "/ˌrezərˈveɪʃn/",
+        "zh": "预订"
+      },
+      {
+        "w": "check in",
+        "ph": "/tʃek ɪn/",
+        "zh": "入住"
+      },
+      {
+        "w": "check out",
+        "ph": "/tʃek aʊt/",
+        "zh": "退房"
+      },
+      {
+        "w": "key card",
+        "ph": "/kiː kɑːrd/",
+        "zh": "房卡"
+      },
+      {
+        "w": "breakfast",
+        "ph": "/ˈbrekfəst/",
+        "zh": "早餐"
+      },
+      {
+        "w": "wake-up call",
+        "ph": "/ˈweɪk ʌp kɔːl/",
+        "zh": "叫早电话"
+      },
+      {
+        "w": "lobby",
+        "ph": "/ˈlɑːbi/",
+        "zh": "大堂"
+      },
+      {
+        "w": "socket",
+        "ph": "/ˈsɑːkɪt/",
+        "zh": "插座"
+      },
+      {
+        "w": "reception",
+        "ph": "/rɪˈsepʃn/",
+        "zh": "前台"
+      },
+      {
+        "w": "floor",
+        "ph": "/flɔːr/",
+        "zh": "楼层"
+      },
+      {
+        "w": "deposit",
+        "ph": "/dɪˈpɑːzɪt/",
+        "zh": "押金"
+      },
+      {
+        "w": "luggage storage",
+        "ph": "/ˈlʌɡɪdʒ ˈstɔːrɪdʒ/",
+        "zh": "行李寄存"
+      }
     ]
   },
-  2: {
-    lines: [
-      {role:"W", en:"Are you ready to order?", zh:"您准备好点餐了吗？"},
-      {role:"G", en:"What do you recommend?", zh:"您推荐什么？"},
-      {role:"W", en:"The grilled fish is popular.", zh:"烤鱼很受欢迎。"},
-      {role:"G", en:"I will have that, medium, no spice.", zh:"我要那份，五分熟，不要辣。"},
-      {role:"W", en:"Sure. Anything to drink?", zh:"好的。喝点什么？"},
-      {role:"G", en:"A glass of water, please.", zh:"请给我一杯水。"},
-      {role:"W", en:"Are you allergic to anything?", zh:"您对什么过敏吗？"},
-      {role:"G", en:"Yes, peanuts. Please avoid them.", zh:"对，花生。请避开它。"},
-      {role:"W", en:"Got it. Dessert today is cheesecake.", zh:"明白了。今天的甜点是芝士蛋糕。"},
-      {role:"G", en:"Could we have the bill, please?", zh:"麻烦给我们账单好吗？"},
+  "2": {
+    "lines": [
+      {
+        "role": "W",
+        "en": "Are you ready to order?",
+        "zh": "您准备好点餐了吗？"
+      },
+      {
+        "role": "G",
+        "en": "What's today's special?",
+        "zh": "今天的特色菜是什么？"
+      },
+      {
+        "role": "W",
+        "en": "The spicy beef with cumin is popular.",
+        "zh": "孜然辣牛肉很受欢迎。"
+      },
+      {
+        "role": "G",
+        "en": "I'll have that, and a bowl of rice.",
+        "zh": "我要那份，再加一碗米饭。"
+      },
+      {
+        "role": "W",
+        "en": "How spicy would you like it?",
+        "zh": "您要多辣？"
+      },
+      {
+        "role": "G",
+        "en": "Medium spicy, please.",
+        "zh": "中辣，谢谢。"
+      },
+      {
+        "role": "W",
+        "en": "Anything to drink?",
+        "zh": "喝点什么？"
+      },
+      {
+        "role": "G",
+        "en": "Just sparkling water, no ice.",
+        "zh": "气泡水就好，不要冰。"
+      },
+      {
+        "role": "W",
+        "en": "Sure. Anything else?",
+        "zh": "好的，还要别的吗？"
+      },
+      {
+        "role": "G",
+        "en": "No, could we have the bill later?",
+        "zh": "不用，账单稍后给我们好吗？"
+      }
     ],
-    speak: ["What do you recommend?", "I am allergic to peanuts.", "Could we have the bill?"],
-    words: [
-      {w:"menu", ph:"/ˈmenjuː/", zh:"菜单"},
-      {w:"order", ph:"/ˈɔːrdər/", zh:"点餐"},
-      {w:"recommend", ph:"/ˌrekəˈmend/", zh:"推荐"},
-      {w:"spicy", ph:"/ˈspaɪsi/", zh:"辣的"},
-      {w:"well done", ph:"/wel dʌn/", zh:"全熟"},
-      {w:"medium", ph:"/ˈmiːdiəm/", zh:"五分熟"},
-      {w:"the bill", ph:"/ðə bɪl/", zh:"账单"},
-      {w:"tip", ph:"/tɪp/", zh:"小费"},
-      {w:"appetizer", ph:"/ˈæpɪtaɪzər/", zh:"前菜"},
-      {w:"dessert", ph:"/dɪˈzɜːrt/", zh:"甜点"},
-      {w:"allergy", ph:"/ˈælərdʒi/", zh:"过敏"},
-      {w:"takeaway", ph:"/ˈteɪkəweɪ/", zh:"外带"},
-      {w:"table for two", ph:"/ˈteɪbl fɔːr tuː/", zh:"两人桌"},
-      {w:"split the bill", ph:"/splɪt ðə bɪl/", zh:"AA 账单"},
+    "speak": [
+      "What's today's special?",
+      "Medium spicy, please.",
+      "Could we have the bill later?"
+    ],
+    "words": [
+      {
+        "w": "menu",
+        "ph": "/ˈmenjuː/",
+        "zh": "菜单"
+      },
+      {
+        "w": "order",
+        "ph": "/ˈɔːrdər/",
+        "zh": "点餐"
+      },
+      {
+        "w": "special",
+        "ph": "/ˈspeʃl/",
+        "zh": "特色菜"
+      },
+      {
+        "w": "spicy",
+        "ph": "/ˈspaɪsi/",
+        "zh": "辣的"
+      },
+      {
+        "w": "medium",
+        "ph": "/ˈmiːdiəm/",
+        "zh": "中等的"
+      },
+      {
+        "w": "rice",
+        "ph": "/raɪs/",
+        "zh": "米饭"
+      },
+      {
+        "w": "drink",
+        "ph": "/drɪŋk/",
+        "zh": "饮料"
+      },
+      {
+        "w": "sparkling water",
+        "ph": "/ˈspɑːrklɪŋ ˈwɔːtər/",
+        "zh": "气泡水"
+      },
+      {
+        "w": "bill",
+        "ph": "/bɪl/",
+        "zh": "账单"
+      },
+      {
+        "w": "tip",
+        "ph": "/tɪp/",
+        "zh": "小费"
+      },
+      {
+        "w": "fork",
+        "ph": "/fɔːrk/",
+        "zh": "叉子"
+      },
+      {
+        "w": "knife",
+        "ph": "/naɪf/",
+        "zh": "刀"
+      }
     ]
   },
-  3: {
-    lines: [
-      {role:"T", en:"Excuse me, how do I get to the station?", zh:"打扰一下，去车站怎么走？"},
-      {role:"P", en:"Go straight, then turn left at the bank.", zh:"直走，然后在银行处左转。"},
-      {role:"T", en:"Is it far?", zh:"远吗？"},
-      {role:"P", en:"No, about five minutes on foot.", zh:"不远，步行大约五分钟。"},
-      {role:"T", en:"Is there a bus stop nearby?", zh:"附近有公交站吗？"},
-      {role:"P", en:"Yes, just across the street.", zh:"有，就在街对面。"},
-      {role:"T", en:"Which bus goes to the museum?", zh:"哪路公交去博物馆？"},
-      {role:"P", en:"Bus 24, but a taxi is faster.", zh:"24 路，不过打车更快。"},
-      {role:"T", en:"How long does it take by taxi?", zh:"打车要多久？"},
-      {role:"P", en:"Around ten minutes if traffic is light.", zh:"如果路况顺畅，大约十分钟。"},
+  "3": {
+    "lines": [
+      {
+        "role": "S",
+        "en": "Welcome to our booth. What brings you here?",
+        "zh": "欢迎来到我们的展位，您主要想看什么？"
+      },
+      {
+        "role": "B",
+        "en": "I'm looking for OEM suppliers for smart lamps.",
+        "zh": "我在找智能灯的 OEM 供应商。"
+      },
+      {
+        "role": "S",
+        "en": "Great, this is our latest model. May I have your card?",
+        "zh": "太好了，这是我们最新款，能留张名片吗？"
+      },
+      {
+        "role": "B",
+        "en": "Sure, here you go.",
+        "zh": "好的，给您。"
+      },
+      {
+        "role": "S",
+        "en": "Are you buying for your own brand or reselling?",
+        "zh": "您是自牌采购还是转售？"
+      },
+      {
+        "role": "B",
+        "en": "We have our own brand in Europe.",
+        "zh": "我们在欧洲有自己的品牌。"
+      },
+      {
+        "role": "S",
+        "en": "Nice. What's your monthly volume?",
+        "zh": "好，您月用量大概多少？"
+      },
+      {
+        "role": "B",
+        "en": "Around 20,000 units to start.",
+        "zh": "起步大约两万件。"
+      },
+      {
+        "role": "S",
+        "en": "Let me note that. I'll email you the catalog.",
+        "zh": "我记一下，稍后把目录发给您。"
+      },
+      {
+        "role": "B",
+        "en": "Perfect, talk soon.",
+        "zh": "太好了，回头聊。"
+      }
     ],
-    speak: ["How do I get to the station?", "Is it far from here?", "How long does it take?"],
-    words: [
-      {w:"subway", ph:"/ˈsʌbweɪ/", zh:"地铁"},
-      {w:"bus stop", ph:"/bʌs stɑːp/", zh:"公交站"},
-      {w:"crossroad", ph:"/ˈkrɔːsroʊd/", zh:"十字路口"},
-      {w:"turn left", ph:"/tɜːrn left/", zh:"左转"},
-      {w:"turn right", ph:"/tɜːrn raɪt/", zh:"右转"},
-      {w:"straight", ph:"/streɪt/", zh:"直走"},
-      {w:"opposite", ph:"/ˈɑːpəzɪt/", zh:"对面"},
-      {w:"taxi", ph:"/ˈtæksi/", zh:"出租车"},
-      {w:"address", ph:"/əˈdres/", zh:"地址"},
-      {w:"traffic light", ph:"/ˈtræfɪk laɪt/", zh:"红绿灯"},
-      {w:"block", ph:"/blɑːk/", zh:"街区"},
-      {w:"sidewalk", ph:"/ˈsaɪdwɔːk/", zh:"人行道"},
-      {w:"on foot", ph:"/ɑːn fʊt/", zh:"步行"},
-      {w:"traffic", ph:"/ˈtræfɪk/", zh:"交通"},
+    "speak": [
+      "What brings you here?",
+      "Are you buying for your own brand or reselling?",
+      "I'll email you the catalog."
+    ],
+    "words": [
+      {
+        "w": "booth",
+        "ph": "/buːð/",
+        "zh": "展位"
+      },
+      {
+        "w": "supplier",
+        "ph": "/səˈplaɪər/",
+        "zh": "供应商"
+      },
+      {
+        "w": "OEM",
+        "ph": "/ˌoʊ iː ˈem/",
+        "zh": "代工生产"
+      },
+      {
+        "w": "model",
+        "ph": "/ˈmɑːdl/",
+        "zh": "型号"
+      },
+      {
+        "w": "business card",
+        "ph": "/ˈbɪznəs kɑːrd/",
+        "zh": "名片"
+      },
+      {
+        "w": "brand",
+        "ph": "/brænd/",
+        "zh": "品牌"
+      },
+      {
+        "w": "resell",
+        "ph": "/ˌriːˈsel/",
+        "zh": "转售"
+      },
+      {
+        "w": "volume",
+        "ph": "/ˈvɑːljuːm/",
+        "zh": "用量/量"
+      },
+      {
+        "w": "catalog",
+        "ph": "/ˈkætəlɔːɡ/",
+        "zh": "目录"
+      },
+      {
+        "w": "monthly",
+        "ph": "/ˈmʌnθli/",
+        "zh": "每月的"
+      },
+      {
+        "w": "sample",
+        "ph": "/ˈsæmpl/",
+        "zh": "样品"
+      },
+      {
+        "w": "lead time",
+        "ph": "/liːd taɪm/",
+        "zh": "交期"
+      }
     ]
   },
-  4: {
-    lines: [
-      {role:"S", en:"Can I help you?", zh:"需要帮忙吗？"},
-      {role:"G", en:"How much is this T-shirt?", zh:"这件 T 恤多少钱？"},
-      {role:"S", en:"25 dollars.", zh:"25 美元。"},
-      {role:"G", en:"That is a bit much. Can you give a discount?", zh:"有点贵。能打折吗？"},
-      {role:"S", en:"OK, 20 for you.", zh:"行，20 给您。"},
-      {role:"G", en:"Do you have a smaller size?", zh:"有更小号的吗？"},
-      {role:"S", en:"Let me check. Yes, medium fits.", zh:"我查一下。有，中号合适。"},
-      {role:"G", en:"May I try it on?", zh:"我可以试穿吗？"},
-      {role:"S", en:"Sure, fitting room is on your left.", zh:"当然，试衣间在您左边。"},
-      {role:"G", en:"I will take it. Card, please.", zh:"我要了。请刷卡。"},
+  "4": {
+    "lines": [
+      {
+        "role": "A",
+        "en": "Hello, we're here for the factory audit.",
+        "zh": "您好，我们是来做工厂验厂的。"
+      },
+      {
+        "role": "F",
+        "en": "Welcome. The production line is ready for you.",
+        "zh": "欢迎，生产线已经准备好了。"
+      },
+      {
+        "role": "A",
+        "en": "When will the audit start?",
+        "zh": "验厂什么时候开始？"
+      },
+      {
+        "role": "F",
+        "en": "Right after the safety briefing, at 9.",
+        "zh": "安全简报后九点就开始。"
+      },
+      {
+        "role": "A",
+        "en": "Do you have the certificates ready?",
+        "zh": "你们证书都准备好了吗？"
+      },
+      {
+        "role": "F",
+        "en": "Yes, ISO and BSCI are in this folder.",
+        "zh": "准备好了，ISO 和 BSCI 都在这个文件夹里。"
+      },
+      {
+        "role": "A",
+        "en": "Good. We'll inspect the warehouse too.",
+        "zh": "好，我们也会检查仓库。"
+      },
+      {
+        "role": "F",
+        "en": "No problem, this way please.",
+        "zh": "没问题，这边请。"
+      },
+      {
+        "role": "A",
+        "en": "We'll send the report next week.",
+        "zh": "报告我们下周发出。"
+      },
+      {
+        "role": "F",
+        "en": "Looking forward to your feedback.",
+        "zh": "期待您的反馈。"
+      }
     ],
-    speak: ["Can you give a discount?", "Do you have a smaller size?", "Can I try this on?"],
-    words: [
-      {w:"price", ph:"/praɪs/", zh:"价格"},
-      {w:"discount", ph:"/ˈdɪskaʊnt/", zh:"折扣"},
-      {w:"cash", ph:"/kæʃ/", zh:"现金"},
-      {w:"card", ph:"/kɑːrd/", zh:"刷卡"},
-      {w:"size", ph:"/saɪz/", zh:"尺码"},
-      {w:"receipt", ph:"/rɪˈsiːt/", zh:"收据"},
-      {w:"try on", ph:"/traɪ ɑːn/", zh:"试穿"},
-      {w:"fitting room", ph:"/ˈfɪtɪŋ ruːm/", zh:"试衣间"},
-      {w:"color", ph:"/ˈkʌlər/", zh:"颜色"},
-      {w:"refund", ph:"/ˈriːfʌnd/", zh:"退款"},
-      {w:"exchange", ph:"/ɪksˈtʃeɪndʒ/", zh:"换货"},
-      {w:"on sale", ph:"/ɑːn seɪl/", zh:"打折中"},
-      {w:"checkout", ph:"/ˈtʃekaʊt/", zh:"结账"},
-      {w:"shop assistant", ph:"/ʃɑːp əˈsɪstənt/", zh:"店员"},
+    "speak": [
+      "When will the audit start?",
+      "Do you have the certificates ready?",
+      "We'll send the report next week."
+    ],
+    "words": [
+      {
+        "w": "audit",
+        "ph": "/ˈɔːdɪt/",
+        "zh": "验厂/审计"
+      },
+      {
+        "w": "certificate",
+        "ph": "/sərˈtɪfɪkət/",
+        "zh": "证书"
+      },
+      {
+        "w": "production line",
+        "ph": "/prəˈdʌkʃn laɪn/",
+        "zh": "生产线"
+      },
+      {
+        "w": "warehouse",
+        "ph": "/ˈwerhaʊs/",
+        "zh": "仓库"
+      },
+      {
+        "w": "safety",
+        "ph": "/ˈseɪfti/",
+        "zh": "安全"
+      },
+      {
+        "w": "inspect",
+        "ph": "/ɪnˈspekt/",
+        "zh": "检查"
+      },
+      {
+        "w": "ISO",
+        "ph": "/ˌaɪ es ˈoʊ/",
+        "zh": "国际标准化"
+      },
+      {
+        "w": "BSCI",
+        "ph": "/ˌbiː ɛs ˈsiː ˈaɪ/",
+        "zh": "商界社会责任"
+      },
+      {
+        "w": "report",
+        "ph": "/rɪˈpɔːrt/",
+        "zh": "报告"
+      },
+      {
+        "w": "feedback",
+        "ph": "/ˈfiːdbæk/",
+        "zh": "反馈"
+      },
+      {
+        "w": "compliance",
+        "ph": "/kəmˈplaɪəns/",
+        "zh": "合规"
+      },
+      {
+        "w": "folder",
+        "ph": "/ˈfoʊldər/",
+        "zh": "文件夹"
+      }
     ]
   },
-  5: {
-    lines: [
-      {role:"G", en:"Excuse me, I lost my wallet.", zh:"打扰一下，我的钱包丢了。"},
-      {role:"P", en:"Stay calm. Did you call the police?", zh:"保持冷静。您报警了吗？"},
-      {role:"G", en:"Not yet. Can you help me?", zh:"还没。能帮我吗？"},
-      {role:"P", en:"Sure, let us go to the station together.", zh:"当然，我们一起去警局。"},
-      {role:"G", en:"I also have a high fever. Can I see a doctor?", zh:"我还发高烧。能看医生吗？"},
-      {role:"P", en:"There is a hospital two blocks away.", zh:"两个街区外有家医院。"},
-      {role:"G", en:"Please call an ambulance.", zh:"请叫辆救护车。"},
-      {role:"P", en:"Ambulance is on the way, five minutes.", zh:"救护车已在路上，五分钟到。"},
-      {role:"G", en:"My passport was stolen. Where is the embassy?", zh:"我的护照被偷了。大使馆在哪里？"},
-      {role:"P", en:"I will call them and explain your situation.", zh:"我打电话给他们说明您的情况。"},
+  "5": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Hi, could you send the updated quote?",
+        "zh": "你好，能发一份更新后的报价吗？"
+      },
+      {
+        "role": "S",
+        "en": "Sure, attaching the PDF now.",
+        "zh": "可以，这就把 PDF 附上。"
+      },
+      {
+        "role": "B",
+        "en": "What's your best price for 5,000 units?",
+        "zh": "五千件的话你们最优价是多少？"
+      },
+      {
+        "role": "S",
+        "en": "At that volume, 4.20 per unit FOB.",
+        "zh": "那个量，FOB 每件 4.2 美元。"
+      },
+      {
+        "role": "B",
+        "en": "Can you include the tooling cost?",
+        "zh": "能把模具费也含进去吗？"
+      },
+      {
+        "role": "S",
+        "en": "Tooling is one-time, 800 total.",
+        "zh": "模具费是一次性的，共 800。"
+      },
+      {
+        "role": "B",
+        "en": "What about the lead time?",
+        "zh": "交期呢？"
+      },
+      {
+        "role": "S",
+        "en": "30 days after deposit.",
+        "zh": "收到定金后 30 天。"
+      },
+      {
+        "role": "B",
+        "en": "Good. I'll confirm by Friday.",
+        "zh": "好，我周五前确认。"
+      },
+      {
+        "role": "S",
+        "en": "Great, talk soon.",
+        "zh": "太好了，回头聊。"
+      }
     ],
-    speak: ["I lost my wallet.", "Please call an ambulance.", "I need to see a doctor."],
-    words: [
-      {w:"help", ph:"/help/", zh:"帮助"},
-      {w:"lost", ph:"/lɔːst/", zh:"迷路/丢失"},
-      {w:"emergency", ph:"/ɪˈmɜːrdʒənsi/", zh:"紧急情况"},
-      {w:"hospital", ph:"/ˈhɑːspɪtl/", zh:"医院"},
-      {w:"police", ph:"/pəˈliːs/", zh:"警察"},
-      {w:"medicine", ph:"/ˈmedɪsn/", zh:"药"},
-      {w:"insurance", ph:"/ɪnˈʃʊrəns/", zh:"保险"},
-      {w:"ambulance", ph:"/ˈæmbjələns/", zh:"救护车"},
-      {w:"fever", ph:"/ˈfiːvər/", zh:"发烧"},
-      {w:"pain", ph:"/peɪn/", zh:"疼痛"},
-      {w:"embassy", ph:"/ˈembəsi/", zh:"大使馆"},
-      {w:"stolen", ph:"/ˈstoʊlən/", zh:"被偷"},
-      {w:"first aid", ph:"/fɜːrst eɪd/", zh:"急救"},
-      {w:"pharmacy", ph:"/ˈfɑːrməsi/", zh:"药店"},
+    "speak": [
+      "Could you send the updated quote?",
+      "What's your best price for 5,000 units?",
+      "I'll confirm by Friday."
+    ],
+    "words": [
+      {
+        "w": "quote",
+        "ph": "/kwoʊt/",
+        "zh": "报价"
+      },
+      {
+        "w": "updated",
+        "ph": "/ʌpˈdeɪtɪd/",
+        "zh": "更新的"
+      },
+      {
+        "w": "volume",
+        "ph": "/ˈvɑːljuːm/",
+        "zh": "数量"
+      },
+      {
+        "w": "FOB",
+        "ph": "/ˌef oʊ ˈbiː/",
+        "zh": "离岸价"
+      },
+      {
+        "w": "tooling",
+        "ph": "/ˈtuːlɪŋ/",
+        "zh": "模具费"
+      },
+      {
+        "w": "deposit",
+        "ph": "/dɪˈpɑːzɪt/",
+        "zh": "定金"
+      },
+      {
+        "w": "lead time",
+        "ph": "/liːd taɪm/",
+        "zh": "交期"
+      },
+      {
+        "w": "unit",
+        "ph": "/ˈjuːnɪt/",
+        "zh": "件/单位"
+      },
+      {
+        "w": "attach",
+        "ph": "/əˈtætʃ/",
+        "zh": "附上"
+      },
+      {
+        "w": "confirm",
+        "ph": "/kənˈfɜːrm/",
+        "zh": "确认"
+      },
+      {
+        "w": "PDF",
+        "ph": "/ˌpiː diː ˈef/",
+        "zh": "文档格式"
+      },
+      {
+        "w": "cost",
+        "ph": "/kɔːst/",
+        "zh": "成本"
+      }
     ]
   },
-  6: {
-    lines: [
-      {role:"A", en:"Good morning. Here is your boarding pass.", zh:"早上好。这是您的登机牌。"},
-      {role:"B", en:"Thank you. Where is gate B12?", zh:"谢谢。B12 登机口在哪里？"},
-      {role:"A", en:"Go straight, then turn left.", zh:"直走，然后左转。"},
-      {role:"B", en:"Got it. And breakfast?", zh:"明白了。那早餐呢？"},
-      {role:"A", en:"The hotel serves it from 7.", zh:"酒店从 7 点开始供应。"},
-      {role:"B", en:"Could I have a wake-up call at six?", zh:"能帮我定六点的叫早吗？"},
-      {role:"A", en:"Sure, six sharp.", zh:"没问题，六点整。"},
-      {role:"B", en:"What time is checkout?", zh:"几点退房？"},
-      {role:"A", en:"Noon. Enjoy your stay.", zh:"中午。祝您住得愉快。"},
-      {role:"B", en:"Thanks, I would like the bill now.", zh:"谢谢，我现在要账单。"},
+  "6": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Good morning, can you share your screen?",
+        "zh": "早上好，能共享一下屏幕吗？"
+      },
+      {
+        "role": "S",
+        "en": "Sure, opening the proposal now.",
+        "zh": "可以，这就打开方案。"
+      },
+      {
+        "role": "B",
+        "en": "Let's align on the specs first.",
+        "zh": "我们先把规格对齐。"
+      },
+      {
+        "role": "S",
+        "en": "Agreed. Color, size, and packaging?",
+        "zh": "同意。颜色、尺寸和包装？"
+      },
+      {
+        "role": "B",
+        "en": "Black, 10cm, with gift box.",
+        "zh": "黑色、10 厘米，带礼盒。"
+      },
+      {
+        "role": "S",
+        "en": "Noted. MOQ is 1,000 for that.",
+        "zh": "记下了。这个最小起订量是一千。"
+      },
+      {
+        "role": "B",
+        "en": "Can we do 800 for the first trial?",
+        "zh": "首单八百件可以吗？"
+      },
+      {
+        "role": "S",
+        "en": "Let me check with production… yes, 800 OK.",
+        "zh": "我问问生产…可以，八百行。"
+      },
+      {
+        "role": "B",
+        "en": "Perfect. I'll send the minutes after.",
+        "zh": "太好了。会后我把纪要发出来。"
+      },
+      {
+        "role": "S",
+        "en": "Thanks, talk soon.",
+        "zh": "谢谢，回头聊。"
+      }
     ],
-    speak: ["Where is gate B12?", "Could I have a wake-up call?", "I would like the bill now."],
-    words: [
-      {w:"passport", ph:"/ˈpæspɔːt/", zh:"护照"},
-      {w:"boarding pass", ph:"/ˈbɔːrdɪŋ pæs/", zh:"登机牌"},
-      {w:"gate", ph:"/ɡeɪt/", zh:"登机口"},
-      {w:"reservation", ph:"/ˌrezərˈveɪʃn/", zh:"预订"},
-      {w:"menu", ph:"/ˈmenjuː/", zh:"菜单"},
-      {w:"discount", ph:"/ˈdɪskaʊnt/", zh:"折扣"},
-      {w:"help", ph:"/help/", zh:"帮助"},
-      {w:"wake-up call", ph:"/ˈweɪk ʌp kɔːl/", zh:"叫早"},
-      {w:"checkout", ph:"/ˈtʃekaʊt/", zh:"退房"},
-      {w:"bill", ph:"/bɪl/", zh:"账单"},
-      {w:"straight", ph:"/streɪt/", zh:"直走"},
-      {w:"turn left", ph:"/tɜːrn left/", zh:"左转"},
-      {w:"recommend", ph:"/ˌrekəˈmend/", zh:"推荐"},
-      {w:"noon", ph:"/nuːn/", zh:"中午"},
+    "speak": [
+      "Can you share your screen?",
+      "Let's align on the specs.",
+      "I'll send the minutes after."
+    ],
+    "words": [
+      {
+        "w": "share screen",
+        "ph": "/ʃer skriːn/",
+        "zh": "共享屏幕"
+      },
+      {
+        "w": "proposal",
+        "ph": "/prəˈpoʊzl/",
+        "zh": "方案"
+      },
+      {
+        "w": "specs",
+        "ph": "/spɛks/",
+        "zh": "规格"
+      },
+      {
+        "w": "packaging",
+        "ph": "/ˈpækɪdʒɪŋ/",
+        "zh": "包装"
+      },
+      {
+        "w": "MOQ",
+        "ph": "/ˌem oʊ ˈkjuː/",
+        "zh": "最小起订量"
+      },
+      {
+        "w": "trial",
+        "ph": "/ˈtraɪəl/",
+        "zh": "试单"
+      },
+      {
+        "w": "color",
+        "ph": "/ˈkʌlər/",
+        "zh": "颜色"
+      },
+      {
+        "w": "size",
+        "ph": "/saɪz/",
+        "zh": "尺寸"
+      },
+      {
+        "w": "minutes",
+        "ph": "/ˈmɪnɪts/",
+        "zh": "会议纪要"
+      },
+      {
+        "w": "production",
+        "ph": "/prəˈdʌkʃn/",
+        "zh": "生产"
+      },
+      {
+        "w": "align",
+        "ph": "/əˈlaɪn/",
+        "zh": "对齐"
+      },
+      {
+        "w": "gift box",
+        "ph": "/ɡɪft bɑːks/",
+        "zh": "礼盒"
+      }
     ]
   },
-  7: {
-    lines: [
-      {role:"R", en:"Hello, ABC Company, how may I help?", zh:"您好，ABC 公司，有什么可以帮您？"},
-      {role:"W", en:"This is Wang. I would like to book a meeting on Friday.", zh:"我是 Wang。我想预约周五的会议。"},
-      {role:"R", en:"10 a.m. is available. Shall I confirm?", zh:"上午 10 点有空。要我确认吗？"},
-      {role:"W", en:"Yes, please. Thank you.", zh:"好的，麻烦了。谢谢。"},
-      {role:"R", en:"May I have your callback number?", zh:"能留个回电号码吗？"},
-      {role:"W", en:"Sure, 555-0188.", zh:"当然，555-0188。"},
-      {role:"R", en:"Could you put me on hold for a moment?", zh:"能让我稍等一下吗？"},
-      {role:"W", en:"Of course, take your time.", zh:"当然，您慢慢来。"},
-      {role:"R", en:"Sorry, the line was busy.", zh:"抱歉，刚才线路忙。"},
-      {role:"W", en:"No problem, please leave a message.", zh:"没关系，请留言。"},
+  "7": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Excuse me, where is the customs office?",
+        "zh": "请问海关办公室在哪？"
+      },
+      {
+        "role": "O",
+        "en": "On the second floor, desk 5.",
+        "zh": "二楼，5 号台。"
+      },
+      {
+        "role": "B",
+        "en": "Do I need to declare this sample?",
+        "zh": "这个样品需要申报吗？"
+      },
+      {
+        "role": "O",
+        "en": "Yes, samples over value must be declared.",
+        "zh": "要，超值的样品必须申报。"
+      },
+      {
+        "role": "B",
+        "en": "How long will clearance take?",
+        "zh": "清关要多久？"
+      },
+      {
+        "role": "O",
+        "en": "Usually one to two working days.",
+        "zh": "通常一到两个工作日。"
+      },
+      {
+        "role": "B",
+        "en": "Can I pay the duty online?",
+        "zh": "关税能在线上付吗？"
+      },
+      {
+        "role": "O",
+        "en": "Yes, scan the QR code here.",
+        "zh": "可以，扫这里的二维码。"
+      },
+      {
+        "role": "B",
+        "en": "Thank you, very helpful.",
+        "zh": "谢谢，很有帮助。"
+      },
+      {
+        "role": "O",
+        "en": "You're welcome.",
+        "zh": "不客气。"
+      }
     ],
-    speak: ["This is Wang. I would like to book a meeting.", "Could you put me on hold?", "May I leave a message?"],
-    words: [
-      {w:"appointment", ph:"/əˈpɔɪntmənt/", zh:"预约"},
-      {w:"available", ph:"/əˈveɪləbl/", zh:"有空的"},
-      {w:"call back", ph:"/kɔːl bæk/", zh:"回电"},
-      {w:"message", ph:"/ˈmesɪdʒ/", zh:"留言"},
-      {w:"confirm", ph:"/kənˈfɜːrm/", zh:"确认"},
-      {w:"reschedule", ph:"/riːˈskedʒuːl/", zh:"改期"},
-      {w:"extension", ph:"/ɪkˈstenʃn/", zh:"分机"},
-      {w:"voicemail", ph:"/ˈvɔɪsmeɪl/", zh:"语音信箱"},
-      {w:"hold on", ph:"/hoʊld ɑːn/", zh:"稍等"},
-      {w:"wrong number", ph:"/rɔːŋ ˈnʌmbər/", zh:"错号"},
-      {w:"operator", ph:"/ˈɑːpəreɪtər/", zh:"接线员"},
-      {w:"dial", ph:"/ˈdaɪəl/", zh:"拨号"},
-      {w:"busy line", ph:"/ˈbɪzi laɪn/", zh:"占线"},
-      {w:"landline", ph:"/ˈlændlaɪn/", zh:"座机"},
+    "speak": [
+      "Where is the customs office?",
+      "Do I need to declare this?",
+      "How long will clearance take?"
+    ],
+    "words": [
+      {
+        "w": "customs",
+        "ph": "/ˈkʌstəmz/",
+        "zh": "海关"
+      },
+      {
+        "w": "declare",
+        "ph": "/dɪˈkler/",
+        "zh": "申报"
+      },
+      {
+        "w": "sample",
+        "ph": "/ˈsæmpl/",
+        "zh": "样品"
+      },
+      {
+        "w": "clearance",
+        "ph": "/ˈklɪrəns/",
+        "zh": "清关"
+      },
+      {
+        "w": "duty",
+        "ph": "/ˈduːti/",
+        "zh": "关税"
+      },
+      {
+        "w": "value",
+        "ph": "/ˈvæljuː/",
+        "zh": "价值"
+      },
+      {
+        "w": "working days",
+        "ph": "/ˈwɜːrkɪŋ deɪz/",
+        "zh": "工作日"
+      },
+      {
+        "w": "QR code",
+        "ph": "/ˌkjuː ˈɑːr koʊd/",
+        "zh": "二维码"
+      },
+      {
+        "w": "scan",
+        "ph": "/skæn/",
+        "zh": "扫描"
+      },
+      {
+        "w": "office",
+        "ph": "/ˈɔːfɪs/",
+        "zh": "办公室"
+      },
+      {
+        "w": "desk",
+        "ph": "/desk/",
+        "zh": "柜台"
+      },
+      {
+        "w": "helpful",
+        "ph": "/ˈhelpfl/",
+        "zh": "有帮助的"
+      }
     ]
   },
-  8: {
-    lines: [
-      {role:"W", en:"Dear Mr. Smith, I am writing to confirm our meeting at 10 a.m. on Friday.", zh:"尊敬的 Smith 先生，我写此信确认我们周五上午 10 点的会议。"},
-      {role:"W", en:"Please find the agenda in the attachment.", zh:"请在附件中查收议程。"},
-      {role:"W", en:"Kindly let me know if the time works for you.", zh:"烦请告知该时间对您是否合适。"},
-      {role:"W", en:"Best regards, Wang.", zh:"此致敬礼，Wang。"},
-      {role:"W", en:"Could you please reply by Thursday noon?", zh:"能否在周四中午前回复？"},
-      {role:"W", en:"I have also copied our manager on this email.", zh:"我也把这封邮件抄送给了我们的经理。"},
-      {role:"W", en:"Looking forward to our discussion.", zh:"期待我们的讨论。"},
-      {role:"W", en:"Please let me know if you have any questions.", zh:"如有任何问题请告知。"},
-      {role:"W", en:"Feel free to suggest a better time.", zh:"欢迎您提出更合适的时间。"},
-      {role:"W", en:"Thank you for your time and consideration.", zh:"感谢您的时间与考虑。"},
+  "8": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "When can you ship the samples?",
+        "zh": "样品什么时候能寄？"
+      },
+      {
+        "role": "S",
+        "en": "Within two days after payment.",
+        "zh": "付款后两天内。"
+      },
+      {
+        "role": "B",
+        "en": "Which courier do you use?",
+        "zh": "你们用哪家快递？"
+      },
+      {
+        "role": "S",
+        "en": "Usually DHL for overseas.",
+        "zh": "海外一般用 DHL。"
+      },
+      {
+        "role": "B",
+        "en": "Can you put 'sample, no commercial value'?",
+        "zh": "能写「样品，无商业价值」吗？"
+      },
+      {
+        "role": "S",
+        "en": "Sure, to avoid duty at your end.",
+        "zh": "可以，帮您那边省关税。"
+      },
+      {
+        "role": "B",
+        "en": "Please send me the tracking number.",
+        "zh": "请把运单号发我。"
+      },
+      {
+        "role": "S",
+        "en": "Will do once it's picked up.",
+        "zh": "揽收后马上发。"
+      },
+      {
+        "role": "B",
+        "en": "Great, thanks.",
+        "zh": "太好了，谢谢。"
+      },
+      {
+        "role": "S",
+        "en": "Anytime.",
+        "zh": "随时。"
+      }
     ],
-    speak: ["I am writing to confirm our meeting.", "Please find the agenda attached.", "Could you kindly reply by Friday?"],
-    words: [
-      {w:"subject", ph:"/ˈsʌbdʒɪkt/", zh:"主题"},
-      {w:"attachment", ph:"/əˈtætʃmənt/", zh:"附件"},
-      {w:"regards", ph:"/rɪˈɡɑːrdz/", zh:"此致敬礼"},
-      {w:"deadline", ph:"/ˈdedlaɪn/", zh:"截止日"},
-      {w:"follow up", ph:"/ˈfɑːloʊ ʌp/", zh:"跟进"},
-      {w:"apologize", ph:"/əˈpɑːlədʒaɪz/", zh:"致歉"},
-      {w:"kindly", ph:"/ˈkaɪndli/", zh:"劳烦"},
-      {w:"cc", ph:"/siː siː/", zh:"抄送"},
-      {w:"bcc", ph:"/biː siː siː/", zh:"密送"},
-      {w:"signature", ph:"/ˈsɪɡnətʃər/", zh:"签名"},
-      {w:"recipient", ph:"/rɪˈsɪpiənt/", zh:"收件人"},
-      {w:"urgent", ph:"/ˈɜːrdʒənt/", zh:"紧急"},
-      {w:"inquiry", ph:"/ɪnˈkwaɪəri/", zh:"询问"},
-      {w:"reply", ph:"/rɪˈplaɪ/", zh:"回复"},
+    "speak": [
+      "When can you ship the samples?",
+      "Which courier do you use?",
+      "Please send me the tracking number."
+    ],
+    "words": [
+      {
+        "w": "ship",
+        "ph": "/ʃɪp/",
+        "zh": "寄/发运"
+      },
+      {
+        "w": "sample",
+        "ph": "/ˈsæmpl/",
+        "zh": "样品"
+      },
+      {
+        "w": "courier",
+        "ph": "/ˈkʊriər/",
+        "zh": "快递"
+      },
+      {
+        "w": "overseas",
+        "ph": "/ˌoʊvərˈsiːz/",
+        "zh": "海外"
+      },
+      {
+        "w": "payment",
+        "ph": "/ˈpeɪmənt/",
+        "zh": "付款"
+      },
+      {
+        "w": "tracking number",
+        "ph": "/ˈtrækɪŋ ˈnʌmbər/",
+        "zh": "运单号"
+      },
+      {
+        "w": "pick up",
+        "ph": "/pɪk ʌp/",
+        "zh": "揽收"
+      },
+      {
+        "w": "duty",
+        "ph": "/ˈduːti/",
+        "zh": "关税"
+      },
+      {
+        "w": "commercial",
+        "ph": "/kəˈmɜːrʃl/",
+        "zh": "商业的"
+      },
+      {
+        "w": "value",
+        "ph": "/ˈvæljuː/",
+        "zh": "价值"
+      },
+      {
+        "w": "DHL",
+        "ph": "/ˌdiː eɪtʃ ˈel/",
+        "zh": "快递公司"
+      },
+      {
+        "w": "avoid",
+        "ph": "/əˈvɔɪd/",
+        "zh": "避免"
+      }
     ]
   },
-  9: {
-    lines: [
-      {role:"A", en:"Let me introduce myself. I am Wang from the sales team.", zh:"让我自我介绍一下。我是销售团队的 Wang。"},
-      {role:"B", en:"Nice to meet you, Wang. I handle marketing.", zh:"很高兴认识你，Wang。我负责市场。"},
-      {role:"A", en:"Pleased to meet you. Hope we can work together.", zh:"幸会。希望我们能一起共事。"},
-      {role:"A", en:"I am responsible for the Asia-Pacific region.", zh:"我负责亚太地区。"},
-      {role:"B", en:"Great, my background is in product design.", zh:"太好了，我的背景是产品设计。"},
-      {role:"A", en:"How long have you been with the company?", zh:"你在这家公司多久了？"},
-      {role:"B", en:"Five years. I joined right after graduation.", zh:"五年了。我毕业后就加入了。"},
-      {role:"A", en:"Impressive. What are you in charge of now?", zh:"真不错。你现在负责什么？"},
-      {role:"B", en:"I lead the user research team.", zh:"我带领用户研究团队。"},
-      {role:"A", en:"I look forward to collaborating with you.", zh:"期待与您合作。"},
+  "9": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "What are your payment terms?",
+        "zh": "你们的付款条款是怎样的？"
+      },
+      {
+        "role": "S",
+        "en": "Usually 30% deposit, 70% before shipment.",
+        "zh": "一般是三成定金，七成发货前。"
+      },
+      {
+        "role": "B",
+        "en": "Can we do 30% deposit, 70% against B/L copy?",
+        "zh": "我们能否三成定金、七成见提单副本付？"
+      },
+      {
+        "role": "S",
+        "en": "For first order, 50/50 is safer for us.",
+        "zh": "首单的话，五五对我们更稳妥。"
+      },
+      {
+        "role": "B",
+        "en": "Alright, 50/50 then.",
+        "zh": "行，那就五五。"
+      },
+      {
+        "role": "S",
+        "en": "T/T to our account is fine.",
+        "zh": "T/T 打到我们账户就行。"
+      },
+      {
+        "role": "B",
+        "en": "OK, I'll arrange the deposit today.",
+        "zh": "好，我今天安排定金。"
+      },
+      {
+        "role": "S",
+        "en": "Thanks, I'll start sourcing.",
+        "zh": "谢谢，我就开始备料。"
+      },
+      {
+        "role": "B",
+        "en": "Please keep me updated.",
+        "zh": "请随时同步进展。"
+      },
+      {
+        "role": "S",
+        "en": "Will do.",
+        "zh": "一定。"
+      }
     ],
-    speak: ["I am Wang from the sales team.", "Let me introduce myself.", "I look forward to working with you."],
-    words: [
-      {w:"introduce", ph:"/ˌɪntrəˈdjuːs/", zh:"介绍"},
-      {w:"responsibility", ph:"/rɪˌspɑːnsəˈbɪləti/", zh:"职责"},
-      {w:"team", ph:"/tiːm/", zh:"团队"},
-      {w:"project", ph:"/ˈprɑːdʒekt/", zh:"项目"},
-      {w:"in charge of", ph:"/ɪn tʃɑːrdʒ ʌv/", zh:"负责"},
-      {w:"pleased", ph:"/pliːzd/", zh:"荣幸"},
-      {w:"colleague", ph:"/ˈkɑːliːɡ/", zh:"同事"},
-      {w:"department", ph:"/dɪˈpɑːrtmənt/", zh:"部门"},
-      {w:"position", ph:"/pəˈzɪʃn/", zh:"职位"},
-      {w:"background", ph:"/ˈbækɡraʊnd/", zh:"背景"},
-      {w:"experience", ph:"/ɪkˈspɪriəns/", zh:"经验"},
-      {w:"graduation", ph:"/ˌɡrædʒuˈeɪʃn/", zh:"毕业"},
-      {w:"collaborate", ph:"/kəˈlæbəreɪt/", zh:"合作"},
-      {w:"region", ph:"/ˈriːdʒən/", zh:"区域"},
+    "speak": [
+      "What are your payment terms?",
+      "Can we do 30% deposit, 70% before shipment?",
+      "T/T is fine."
+    ],
+    "words": [
+      {
+        "w": "payment terms",
+        "ph": "/ˈpeɪmənt tɜːrmz/",
+        "zh": "付款条款"
+      },
+      {
+        "w": "deposit",
+        "ph": "/dɪˈpɑːzɪt/",
+        "zh": "定金"
+      },
+      {
+        "w": "shipment",
+        "ph": "/ˈʃɪpmənt/",
+        "zh": "发货"
+      },
+      {
+        "w": "against B/L",
+        "ph": "/əˈɡenst bi ˈel/",
+        "zh": "凭提单"
+      },
+      {
+        "w": "T/T",
+        "ph": "/ˌtiː ˈtiː/",
+        "zh": "电汇"
+      },
+      {
+        "w": "account",
+        "ph": "/əˈkaʊnt/",
+        "zh": "账户"
+      },
+      {
+        "w": "sourcing",
+        "ph": "/ˈsɔːrsɪŋ/",
+        "zh": "备料/采购"
+      },
+      {
+        "w": "first order",
+        "ph": "/fɜːrst ˈɔːrdər/",
+        "zh": "首单"
+      },
+      {
+        "w": "copy",
+        "ph": "/ˈkɑːpi/",
+        "zh": "副本"
+      },
+      {
+        "w": "arrange",
+        "ph": "/əˈreɪndʒ/",
+        "zh": "安排"
+      },
+      {
+        "w": "updated",
+        "ph": "/ʌpˈdeɪtɪd/",
+        "zh": "更新的"
+      },
+      {
+        "w": "safe",
+        "ph": "/seɪf/",
+        "zh": "稳妥的"
+      }
     ]
   },
-  10: {
-    lines: [
-      {role:"H", en:"Welcome to our city! Please try the local specialty.", zh:"欢迎来到我们城市！请尝尝当地特色菜。"},
-      {role:"G", en:"Thank you, it is delicious.", zh:"谢谢，很好吃。"},
-      {role:"H", en:"Let us toast to our cooperation.", zh:"为我们的合作干杯。"},
-      {role:"G", en:"Cheers! I look forward to working with you.", zh:"干杯！期待与您共事。"},
-      {role:"H", en:"Please help yourself to the seafood.", zh:"请随意享用海鲜。"},
-      {role:"G", en:"The wine is wonderful. What is it?", zh:"这酒很棒。是什么酒？"},
-      {role:"H", en:"A local vintage from 2018.", zh:"2018 年的本地年份酒。"},
-      {role:"G", en:"I am honored by your hospitality.", zh:"您的款待让我倍感荣幸。"},
-      {role:"H", en:"It is our pleasure. Enjoy the evening.", zh:"这是我们的荣幸。祝您度过美好的夜晚。"},
-      {role:"G", en:"Could we have the bill, please?", zh:"麻烦给我们账单好吗？"},
+  "10": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "We got a complaint about quality.",
+        "zh": "我们收到一宗质量投诉。"
+      },
+      {
+        "role": "S",
+        "en": "I'm sorry to hear that. What's the issue?",
+        "zh": "很抱歉听到。是什么问题？"
+      },
+      {
+        "role": "B",
+        "en": "Two units arrived with scratches.",
+        "zh": "有两件到货有划痕。"
+      },
+      {
+        "role": "S",
+        "en": "Can you send photos of the batch?",
+        "zh": "能发一下这批的照片吗？"
+      },
+      {
+        "role": "B",
+        "en": "Sure, I'll forward them now.",
+        "zh": "可以，我现在转过去。"
+      },
+      {
+        "role": "S",
+        "en": "Looks like packing was too thin.",
+        "zh": "看起来是包装太薄了。"
+      },
+      {
+        "role": "B",
+        "en": "Can you check the batch?",
+        "zh": "能查一下这一批吗？"
+      },
+      {
+        "role": "S",
+        "en": "Yes, we'll reinforce the foam.",
+        "zh": "可以，我们会加厚泡棉。"
+      },
+      {
+        "role": "B",
+        "en": "Good. We'll send replacements.",
+        "zh": "好，我们会补发。"
+      },
+      {
+        "role": "S",
+        "en": "Appreciate your patience.",
+        "zh": "感谢您的耐心。"
+      }
     ],
-    speak: ["Let us toast to our cooperation.", "Please help yourself.", "It was a wonderful evening."],
-    words: [
-      {w:"host", ph:"/hoʊst/", zh:"招待"},
-      {w:"toast", ph:"/toʊst/", zh:"祝酒"},
-      {w:"specialty", ph:"/ˈspeʃəlti/", zh:"特色菜"},
-      {w:"honor", ph:"/ˈɑːnər/", zh:"荣幸"},
-      {w:"cooperation", ph:"/koʊˌɑːpəˈreɪʃn/", zh:"合作"},
-      {w:"enjoy", ph:"/ɪnˈdʒɔɪ/", zh:"享用"},
-      {w:"delicious", ph:"/dɪˈlɪʃəs/", zh:"美味"},
-      {w:"appetizer", ph:"/ˈæpɪtaɪzər/", zh:"前菜"},
-      {w:"seafood", ph:"/ˈsiːfuːd/", zh:"海鲜"},
-      {w:"vintage", ph:"/ˈvɪntɪdʒ/", zh:"年份酒"},
-      {w:"hospitality", ph:"/ˌhɑːspɪˈtæləti/", zh:"款待"},
-      {w:"cheers", ph:"/tʃɪrz/", zh:"干杯"},
-      {w:"main course", ph:"/meɪn kɔːrs/", zh:"主菜"},
-      {w:"the bill", ph:"/ðə bɪl/", zh:"账单"},
+    "speak": [
+      "We got a complaint about quality.",
+      "Can you check the batch?",
+      "We'll send replacements."
+    ],
+    "words": [
+      {
+        "w": "complaint",
+        "ph": "/kəmˈpleɪnt/",
+        "zh": "投诉"
+      },
+      {
+        "w": "quality",
+        "ph": "/ˈkwɑːləti/",
+        "zh": "质量"
+      },
+      {
+        "w": "scratch",
+        "ph": "/skrætʃ/",
+        "zh": "划痕"
+      },
+      {
+        "w": "batch",
+        "ph": "/bætʃ/",
+        "zh": "批次"
+      },
+      {
+        "w": "photo",
+        "ph": "/ˈfoʊtoʊ/",
+        "zh": "照片"
+      },
+      {
+        "w": "packing",
+        "ph": "/ˈpækɪŋ/",
+        "zh": "包装"
+      },
+      {
+        "w": "foam",
+        "ph": "/foʊm/",
+        "zh": "泡棉"
+      },
+      {
+        "w": "replacement",
+        "ph": "/rɪˈpleɪsmənt/",
+        "zh": "补发/替换"
+      },
+      {
+        "w": "forward",
+        "ph": "/ˈfɔːrwərd/",
+        "zh": "转发"
+      },
+      {
+        "w": "reinforce",
+        "ph": "/ˌriːɪnˈfɔːrs/",
+        "zh": "加强"
+      },
+      {
+        "w": "issue",
+        "ph": "/ˈɪʃuː/",
+        "zh": "问题"
+      },
+      {
+        "w": "patience",
+        "ph": "/ˈpeɪʃns/",
+        "zh": "耐心"
+      }
     ]
   },
-  11: {
-    lines: [
-      {role:"W", en:"I would like to submit my travel expenses.", zh:"我想提交我的差旅费报销。"},
-      {role:"F", en:"Sure, do you have all the receipts?", zh:"好的，您有所有发票吗？"},
-      {role:"W", en:"Yes, taxi, hotel and meals.", zh:"有，打车、酒店和餐费。"},
-      {role:"F", en:"Great, I will forward it for approval.", zh:"好的，我会转交审批。"},
-      {role:"W", en:"What is the per diem limit?", zh:"每日补贴上限是多少？"},
-      {role:"F", en:"100 dollars per day for meals.", zh:"餐费每天 100 美元。"},
-      {role:"W", en:"Should I include taxi mileage?", zh:"我要把打车里程也算进去吗？"},
-      {role:"F", en:"Yes, please itemize everything.", zh:"是的，请把每一项都列清楚。"},
-      {role:"W", en:"When will it be reimbursed?", zh:"什么时候能报销下来？"},
-      {role:"F", en:"Within five business days.", zh:"五个工作日内。"},
+  "11": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Your price is a bit high for us.",
+        "zh": "你们的价格对我们来说偏高。"
+      },
+      {
+        "role": "S",
+        "en": "It includes the new cert cost.",
+        "zh": "这包含了新认证的费用。"
+      },
+      {
+        "role": "B",
+        "en": "Can you meet 3.80 per unit?",
+        "zh": "单价能做到 3.8 吗？"
+      },
+      {
+        "role": "S",
+        "en": "At 3.80 I'd need a larger volume.",
+        "zh": "3.8 的话我需要更大的量。"
+      },
+      {
+        "role": "B",
+        "en": "We can place a yearly contract, 60k units.",
+        "zh": "我们可以签年框，六万件。"
+      },
+      {
+        "role": "S",
+        "en": "Then 3.80 works. Deal?",
+        "zh": "那 3.8 可以。成交？"
+      },
+      {
+        "role": "B",
+        "en": "Deal. Send the contract.",
+        "zh": "成交。发合同吧。"
+      },
+      {
+        "role": "S",
+        "en": "Great, I'll prepare it today.",
+        "zh": "好，我今天准备。"
+      },
+      {
+        "role": "B",
+        "en": "We'll review by tomorrow.",
+        "zh": "我们明天前审完。"
+      },
+      {
+        "role": "S",
+        "en": "Perfect.",
+        "zh": "太好了。"
+      }
     ],
-    speak: ["I would like to submit my travel expenses.", "Please keep all receipts.", "When will it be reimbursed?"],
-    words: [
-      {w:"expense", ph:"/ɪkˈspens/", zh:"费用"},
-      {w:"reimburse", ph:"/ˌriːɪmˈbɜːrs/", zh:"报销"},
-      {w:"receipt", ph:"/rɪˈsiːt/", zh:"发票"},
-      {w:"claim", ph:"/kleɪm/", zh:"申领"},
-      {w:"budget", ph:"/ˈbʌdʒɪt/", zh:"预算"},
-      {w:"approve", ph:"/əˈpruːv/", zh:"批准"},
-      {w:"submit", ph:"/səbˈmɪt/", zh:"提交"},
-      {w:"per diem", ph:"/pər ˈdiːəm/", zh:"每日补贴"},
-      {w:"allowance", ph:"/əˈlaʊəns/", zh:"津贴"},
-      {w:"advance", ph:"/ədˈvæns/", zh:"预支"},
-      {w:"mileage", ph:"/ˈmaɪlɪdʒ/", zh:"里程"},
-      {w:"itemize", ph:"/ˈaɪtəmaɪz/", zh:"分项列出"},
-      {w:"currency", ph:"/ˈkɜːrənsi/", zh:"货币"},
-      {w:"exchange rate", ph:"/ɪksˈtʃeɪndʒ reɪt/", zh:"汇率"},
+    "speak": [
+      "Your price is a bit high.",
+      "Can you meet 3.80?",
+      "We can place a yearly contract."
+    ],
+    "words": [
+      {
+        "w": "price",
+        "ph": "/praɪs/",
+        "zh": "价格"
+      },
+      {
+        "w": "high",
+        "ph": "/haɪ/",
+        "zh": "高的"
+      },
+      {
+        "w": "meet",
+        "ph": "/miːt/",
+        "zh": "达到"
+      },
+      {
+        "w": "unit",
+        "ph": "/ˈjuːnɪt/",
+        "zh": "每件"
+      },
+      {
+        "w": "volume",
+        "ph": "/ˈvɑːljuːm/",
+        "zh": "量"
+      },
+      {
+        "w": "contract",
+        "ph": "/ˈkɑːntrækt/",
+        "zh": "合同"
+      },
+      {
+        "w": "yearly",
+        "ph": "/ˈjɪrli/",
+        "zh": "年度的"
+      },
+      {
+        "w": "deal",
+        "ph": "/diːl/",
+        "zh": "成交"
+      },
+      {
+        "w": "review",
+        "ph": "/rɪˈvjuː/",
+        "zh": "审核"
+      },
+      {
+        "w": "cost",
+        "ph": "/kɔːst/",
+        "zh": "成本"
+      },
+      {
+        "w": "cert",
+        "ph": "/sɜːrt/",
+        "zh": "认证"
+      },
+      {
+        "w": "prepare",
+        "ph": "/prɪˈper/",
+        "zh": "准备"
+      }
     ]
   },
-  12: {
-    lines: [
-      {role:"A", en:"I think we should launch in June.", zh:"我认为我们应该在六月推出。"},
-      {role:"B", en:"I see it differently. Perhaps September is safer.", zh:"我看法不同。也许九月更稳妥。"},
-      {role:"A", en:"Good point. Let us consider both.", zh:"说得对。我们把两个都考虑一下。"},
-      {role:"A", en:"In my opinion, the market is ready now.", zh:"在我看来，市场现在已就绪。"},
-      {role:"B", en:"I disagree. The data shows risk in Q2.", zh:"我不同意。数据显示第二季度有风险。"},
-      {role:"A", en:"Fair point, but we cannot wait forever.", zh:"说得在理，但我们不能一直等。"},
-      {role:"B", en:"On the other hand, rushing is risky.", zh:"另一方面，操之过急也有风险。"},
-      {role:"A", en:"Let us compromise on August.", zh:"我们就折中定在八月吧。"},
-      {role:"B", en:"That sounds reasonable. I can agree.", zh:"听起来合理。我可以同意。"},
-      {role:"A", en:"Great, we will finalize next week.", zh:"很好，我们下周敲定。"},
+  "12": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Where is my container now?",
+        "zh": "我的柜子现在到哪了？"
+      },
+      {
+        "role": "S",
+        "en": "It's at the port, clearing customs.",
+        "zh": "在港口，正在清关。"
+      },
+      {
+        "role": "B",
+        "en": "Any delay expected?",
+        "zh": "预计会延误吗？"
+      },
+      {
+        "role": "S",
+        "en": "A day or two, nothing major.",
+        "zh": "一两天，问题不大。"
+      },
+      {
+        "role": "B",
+        "en": "What's the ETA at my warehouse?",
+        "zh": "到我仓库的预计时间？"
+      },
+      {
+        "role": "S",
+        "en": "ETA is next Monday.",
+        "zh": "预计下周一。"
+      },
+      {
+        "role": "B",
+        "en": "Please notify the driver.",
+        "zh": "请通知一下司机。"
+      },
+      {
+        "role": "S",
+        "en": "Will do, I'll cc you.",
+        "zh": "会的，抄送您。"
+      },
+      {
+        "role": "B",
+        "en": "Thanks for the update.",
+        "zh": "谢谢同步进展。"
+      },
+      {
+        "role": "S",
+        "en": "Anytime.",
+        "zh": "随时。"
+      }
     ],
-    speak: ["I see it differently.", "In my opinion, we should wait.", "Fair point, but consider the cost."],
-    words: [
-      {w:"agree", ph:"/əˈɡriː/", zh:"同意"},
-      {w:"disagree", ph:"/ˌdɪsəˈɡriː/", zh:"不同意"},
-      {w:"opinion", ph:"/əˈpɪnjən/", zh:"观点"},
-      {w:"suggest", ph:"/səˈdʒest/", zh:"建议"},
-      {w:"perhaps", ph:"/pərˈhæps/", zh:"也许"},
-      {w:"however", ph:"/haʊˈevər/", zh:"然而"},
-      {w:"consider", ph:"/kənˈsɪdər/", zh:"考虑"},
-      {w:"point of view", ph:"/pɔɪnt əv vjuː/", zh:"观点"},
-      {w:"on the other hand", ph:"/ɑːn ðə ˈʌðər hænd/", zh:"另一方面"},
-      {w:"compromise", ph:"/ˈkɑːmprəmaɪz/", zh:"妥协"},
-      {w:"reasonable", ph:"/ˈriːznəbəl/", zh:"合理"},
-      {w:"risk", ph:"/rɪsk/", zh:"风险"},
-      {w:"finalize", ph:"/ˈfaɪnəlaɪz/", zh:"敲定"},
+    "speak": [
+      "Where is my container now?",
+      "It's at the port, clearing.",
+      "ETA is next Monday."
+    ],
+    "words": [
+      {
+        "w": "container",
+        "ph": "/kənˈteɪnər/",
+        "zh": "集装箱"
+      },
+      {
+        "w": "port",
+        "ph": "/pɔːrt/",
+        "zh": "港口"
+      },
+      {
+        "w": "clear customs",
+        "ph": "/klɪr ˈkʌstəmz/",
+        "zh": "清关"
+      },
+      {
+        "w": "delay",
+        "ph": "/dɪˈleɪ/",
+        "zh": "延误"
+      },
+      {
+        "w": "ETA",
+        "ph": "/ˌiː tiː ˈeɪ/",
+        "zh": "预计到达"
+      },
+      {
+        "w": "warehouse",
+        "ph": "/ˈwerhaʊs/",
+        "zh": "仓库"
+      },
+      {
+        "w": "driver",
+        "ph": "/ˈdraɪvər/",
+        "zh": "司机"
+      },
+      {
+        "w": "notify",
+        "ph": "/ˈnoʊtɪfaɪ/",
+        "zh": "通知"
+      },
+      {
+        "w": "update",
+        "ph": "/ˈʌpdeɪt/",
+        "zh": "进展"
+      },
+      {
+        "w": "cc",
+        "ph": "/ˌsiː ˈsiː/",
+        "zh": "抄送"
+      },
+      {
+        "w": "major",
+        "ph": "/ˈmeɪdʒər/",
+        "zh": "重大的"
+      },
+      {
+        "w": "expected",
+        "ph": "/ɪkˈspektɪd/",
+        "zh": "预期的"
+      }
     ]
   },
-  13: {
-    lines: [
-      {role:"A", en:"Let me start the meeting. I am Wang from sales.", zh:"我来主持会议。我是销售的 Wang。"},
-      {role:"B", en:"Nice to meet you. I handle marketing.", zh:"很高兴认识你。我负责市场。"},
-      {role:"A", en:"I am writing to confirm our plan.", zh:"我写此信确认我们的计划。"},
-      {role:"B", en:"Good. Let us toast to cooperation.", zh:"好。为合作干杯。"},
-      {role:"A", en:"Could we reschedule the call to Friday?", zh:"能把通话改到周五吗？"},
-      {role:"B", en:"Sure, Friday 10 a.m. works for me.", zh:"当然，周五上午 10 点对我可以。"},
-      {role:"A", en:"Please find the agenda attached.", zh:"请在附件中查收议程。"},
-      {role:"B", en:"Got it. I will reply by tomorrow.", zh:"收到。我明天前回复。"},
-      {role:"A", en:"Let us submit the expense report today.", zh:"我们今天提交费用报告吧。"},
-      {role:"B", en:"I agree, let us finalize it now.", zh:"我同意，现在就敲定。"},
+  "13": {
+    "lines": [
+      {
+        "role": "S",
+        "en": "Let me show you the demo.",
+        "zh": "我给您看下演示。"
+      },
+      {
+        "role": "B",
+        "en": "Looks compact. How long does it last?",
+        "zh": "看着挺小巧。续航多久？"
+      },
+      {
+        "role": "S",
+        "en": "Eight hours on one charge.",
+        "zh": "一次充电八小时。"
+      },
+      {
+        "role": "B",
+        "en": "Can it pair with our app?",
+        "zh": "能和我们 App 配对吗？"
+      },
+      {
+        "role": "S",
+        "en": "Yes, both iOS and Android.",
+        "zh": "可以，iOS 和安卓都行。"
+      },
+      {
+        "role": "B",
+        "en": "What about the waterproof rating?",
+        "zh": "防水等级呢？"
+      },
+      {
+        "role": "S",
+        "en": "IP67, fine for daily use.",
+        "zh": "IP67，日常够用。"
+      },
+      {
+        "role": "B",
+        "en": "Good. We can customize the app.",
+        "zh": "好。我们可以定制 App。"
+      },
+      {
+        "role": "S",
+        "en": "Great, let's discuss the SDK.",
+        "zh": "太好了，我们聊下 SDK。"
+      },
+      {
+        "role": "B",
+        "en": "Send me the specs sheet.",
+        "zh": "把规格表发我。"
+      }
     ],
-    speak: ["Let me start the meeting.", "I am writing to confirm our plan.", "Let us toast to cooperation."],
-    words: [
-      {w:"appointment", ph:"/əˈpɔɪntmənt/", zh:"预约"},
-      {w:"attachment", ph:"/əˈtætʃmənt/", zh:"附件"},
-      {w:"introduce", ph:"/ˌɪntrəˈdjuːs/", zh:"介绍"},
-      {w:"toast", ph:"/toʊst/", zh:"祝酒"},
-      {w:"expense", ph:"/ɪkˈspens/", zh:"费用"},
-      {w:"agree", ph:"/əˈɡriː/", zh:"同意"},
-      {w:"reschedule", ph:"/riːˈskedʒuːl/", zh:"改期"},
-      {w:"submit", ph:"/səbˈmɪt/", zh:"提交"},
-      {w:"agenda", ph:"/əˈdʒendə/", zh:"议程"},
-      {w:"reply", ph:"/rɪˈplaɪ/", zh:"回复"},
-      {w:"deadline", ph:"/ˈdedlaɪn/", zh:"截止日"},
-      {w:"cooperation", ph:"/koʊˌɑːpəˈreɪʃn/", zh:"合作"},
-      {w:"finalize", ph:"/ˈfaɪnəlaɪz/", zh:"敲定"},
-      {w:"follow up", ph:"/ˈfɑːloʊ ʌp/", zh:"跟进"},
+    "speak": [
+      "Let me show you the demo.",
+      "How long does it last?",
+      "We can customize the app."
+    ],
+    "words": [
+      {
+        "w": "demo",
+        "ph": "/ˈdemoʊ/",
+        "zh": "演示"
+      },
+      {
+        "w": "compact",
+        "ph": "/kəmˈpækt/",
+        "zh": "小巧的"
+      },
+      {
+        "w": "last",
+        "ph": "/læst/",
+        "zh": "续航/持续"
+      },
+      {
+        "w": "charge",
+        "ph": "/tʃɑːrdʒ/",
+        "zh": "充电"
+      },
+      {
+        "w": "pair",
+        "ph": "/per/",
+        "zh": "配对"
+      },
+      {
+        "w": "Android",
+        "ph": "/ˈændrɔɪd/",
+        "zh": "安卓"
+      },
+      {
+        "w": "waterproof",
+        "ph": "/ˈwɔːtərpruːf/",
+        "zh": "防水的"
+      },
+      {
+        "w": "customize",
+        "ph": "/ˈkʌstəmaɪz/",
+        "zh": "定制"
+      },
+      {
+        "w": "SDK",
+        "ph": "/ˌes diː ˈkeɪ/",
+        "zh": "开发工具包"
+      },
+      {
+        "w": "specs sheet",
+        "ph": "/spɛks ʃiːt/",
+        "zh": "规格表"
+      },
+      {
+        "w": "iOS",
+        "ph": "/ˌaɪ oʊ ˈes/",
+        "zh": "苹果系统"
+      },
+      {
+        "w": "rating",
+        "ph": "/ˈreɪtɪŋ/",
+        "zh": "等级"
+      }
     ]
   },
-  14: {
-    lines: [
-      {role:"B", en:"Our quote is 10,000 dollars.", zh:"我们报价 10,000 美元。"},
-      {role:"S", en:"That is above our budget. Can you do better?", zh:"这超出了我们的预算。能再优惠些吗？"},
-      {role:"B", en:"For a long-term deal, I can offer 5 percent off.", zh:"如果是长期合作，我可以给 5% 折扣。"},
-      {role:"S", en:"Accepted. Let us finalize the terms.", zh:"成交。我们来敲定条款吧。"},
-      {role:"S", en:"What about the payment terms?", zh:"付款条款呢？"},
-      {role:"B", en:"Net 30 days, bank transfer is fine.", zh:"30 天净期，银行转账即可。"},
-      {role:"S", en:"Could we split the difference on shipping?", zh:"运费我们能否各让一半？"},
-      {role:"B", en:"Agreed, we split 50-50.", zh:"同意，我们五五分。"},
-      {role:"S", en:"When can we sign the contract?", zh:"我们什么时候签合同？"},
-      {role:"B", en:"This Friday. We have a win-win deal.", zh:"这周五。我们达成了双赢交易。"},
+  "14": {
+    "lines": [
+      {
+        "role": "G",
+        "en": "Have you tried the local dishes?",
+        "zh": "您尝过本地菜吗？"
+      },
+      {
+        "role": "C",
+        "en": "Not yet, please recommend.",
+        "zh": "还没，请推荐。"
+      },
+      {
+        "role": "G",
+        "en": "Let's order some spicy ones.",
+        "zh": "我们点几道辣的吧。"
+      },
+      {
+        "role": "C",
+        "en": "Perfect, I love spicy food.",
+        "zh": "太好了，我爱吃辣。"
+      },
+      {
+        "role": "G",
+        "en": "This is the signature chili fish.",
+        "zh": "这是招牌辣子鱼。"
+      },
+      {
+        "role": "C",
+        "en": "Smells amazing. Cheers!",
+        "zh": "闻着太香了。干杯！"
+      },
+      {
+        "role": "G",
+        "en": "Cheers to our partnership.",
+        "zh": "为我们的合作干杯。"
+      },
+      {
+        "role": "C",
+        "en": "To a long one.",
+        "zh": "希望合作长久。"
+      },
+      {
+        "role": "G",
+        "en": "More tea or just water?",
+        "zh": "再添茶还是喝水？"
+      },
+      {
+        "role": "C",
+        "en": "Tea, thanks. No sugar.",
+        "zh": "茶，谢谢。不加糖。"
+      }
     ],
-    speak: ["Can you do better on price?", "Let us finalize the terms.", "Could we split the difference?"],
-    words: [
-      {w:"quote", ph:"/kwoʊt/", zh:"报价"},
-      {w:"negotiate", ph:"/nɪˈɡoʊʃieɪt/", zh:"谈判"},
-      {w:"discount", ph:"/ˈdɪskaʊnt/", zh:"折扣"},
-      {w:"final offer", ph:"/ˈfaɪnl ˈɔːfər/", zh:"最终价"},
-      {w:"win-win", ph:"/wɪn wɪn/", zh:"双赢"},
-      {w:"terms", ph:"/tɜːrmz/", zh:"条款"},
-      {w:"deal", ph:"/diːl/", zh:"交易"},
-      {w:"counter offer", ph:"/ˈkaʊntər ˈɔːfər/", zh:"还价"},
-      {w:"contract", ph:"/ˈkɑːntrækt/", zh:"合同"},
-      {w:"sign", ph:"/saɪn/", zh:"签署"},
-      {w:"payment terms", ph:"/ˈpeɪmənt tɜːrmz/", zh:"付款条款"},
-      {w:"split the difference", ph:"/splɪt ðə ˈdɪfrəns/", zh:"折中"},
-      {w:"vendor", ph:"/ˈvendər/", zh:"供应商"},
-      {w:"budget", ph:"/ˈbʌdʒɪt/", zh:"预算"},
+    "speak": [
+      "Have you tried the local dishes?",
+      "Let's order some spicy ones.",
+      "Cheers to our partnership."
+    ],
+    "words": [
+      {
+        "w": "local dishes",
+        "ph": "/ˈloʊkl ˈdɪʃɪz/",
+        "zh": "本地菜"
+      },
+      {
+        "w": "recommend",
+        "ph": "/ˌrekəˈmend/",
+        "zh": "推荐"
+      },
+      {
+        "w": "spicy",
+        "ph": "/ˈspaɪsi/",
+        "zh": "辣的"
+      },
+      {
+        "w": "signature",
+        "ph": "/ˈsɪɡnətʃər/",
+        "zh": "招牌的"
+      },
+      {
+        "w": "chili",
+        "ph": "/ˈtʃɪli/",
+        "zh": "辣椒"
+      },
+      {
+        "w": "cheers",
+        "ph": "/tʃɪrz/",
+        "zh": "干杯"
+      },
+      {
+        "w": "partnership",
+        "ph": "/ˈpɑːrtnərʃɪp/",
+        "zh": "合作"
+      },
+      {
+        "w": "tea",
+        "ph": "/tiː/",
+        "zh": "茶"
+      },
+      {
+        "w": "sugar",
+        "ph": "/ˈʃʊɡər/",
+        "zh": "糖"
+      },
+      {
+        "w": "amazing",
+        "ph": "/əˈmeɪzɪŋ/",
+        "zh": "惊艳的"
+      },
+      {
+        "w": "try",
+        "ph": "/traɪ/",
+        "zh": "尝试"
+      },
+      {
+        "w": "long",
+        "ph": "/lɔːŋ/",
+        "zh": "长久的"
+      }
     ]
   },
-  15: {
-    lines: [
-      {role:"W", en:"Good morning. Today I will cover three points about our plan.", zh:"早上好。今天我将讲我们计划的三点内容。"},
-      {role:"W", en:"First, the market. As the chart shows, demand is rising.", zh:"首先，市场。如图表所示，需求正在上升。"},
-      {role:"W", en:"Let me highlight the key point. We must move fast.", zh:"我来强调关键点。我们必须快速行动。"},
-      {role:"W", en:"Any questions?", zh:"有什么问题吗？"},
-      {role:"A", en:"What is our target market?", zh:"我们的目标市场是什么？"},
-      {role:"W", en:"Mid-size companies in Southeast Asia.", zh:"东南亚的中型企业。"},
-      {role:"A", en:"How big is the addressable market?", zh:"可触达市场规模有多大？"},
-      {role:"W", en:"Around two billion dollars by 2028.", zh:"到 2028 年约 20 亿美元。"},
-      {role:"A", en:"What is the timeline?", zh:"时间线是怎样的？"},
-      {role:"W", en:"Six months. In summary, now is the time to act.", zh:"六个月。总之，现在是行动的时候了。"},
+  "15": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Do I need a visa for this trip?",
+        "zh": "这次出差需要签证吗？"
+      },
+      {
+        "role": "T",
+        "en": "Yes, apply two weeks ahead.",
+        "zh": "需要，提前两周办。"
+      },
+      {
+        "role": "B",
+        "en": "When should I apply?",
+        "zh": "我该什么时候申请？"
+      },
+      {
+        "role": "T",
+        "en": "Now, slots fill fast.",
+        "zh": "现在就办，名额很快满。"
+      },
+      {
+        "role": "B",
+        "en": "Book the hotel near the fair.",
+        "zh": "酒店订在展会附近。"
+      },
+      {
+        "role": "T",
+        "en": "Done, three nights from Monday.",
+        "zh": "好了，周一起三晚。"
+      },
+      {
+        "role": "B",
+        "en": "Get me an aisle seat, window for return.",
+        "zh": "去程靠走道，回程靠窗。"
+      },
+      {
+        "role": "T",
+        "en": "Noted. I'll confirm today.",
+        "zh": "记下了，今天确认。"
+      },
+      {
+        "role": "B",
+        "en": "Send the itinerary tonight.",
+        "zh": "今晚把行程发我。"
+      },
+      {
+        "role": "T",
+        "en": "Will do.",
+        "zh": "一定。"
+      }
     ],
-    speak: ["Today I will cover three points about our plan.", "Let me highlight the key point.", "Any questions so far?"],
-    words: [
-      {w:"present", ph:"/prɪˈzent/", zh:"演示"},
-      {w:"chart", ph:"/tʃɑːrt/", zh:"图表"},
-      {w:"highlight", ph:"/ˈhaɪlaɪt/", zh:"强调"},
-      {w:"key point", ph:"/kiː pɔɪnt/", zh:"要点"},
-      {w:"summary", ph:"/ˈsʌməri/", zh:"总结"},
-      {w:"question", ph:"/ˈkwestʃən/", zh:"提问"},
-      {w:"feedback", ph:"/ˈfiːdbæk/", zh:"反馈"},
-      {w:"overview", ph:"/ˈoʊvərvjuː/", zh:"概览"},
-      {w:"statistic", ph:"/stəˈtɪstɪk/", zh:"数据"},
-      {w:"trend", ph:"/trend/", zh:"趋势"},
-      {w:"conclusion", ph:"/kənˈkluːʒn/", zh:"结论"},
-      {w:"timeline", ph:"/ˈtaɪmlaɪn/", zh:"时间线"},
-      {w:"target market", ph:"/ˈtɑːrɡɪt ˈmɑːrkɪt/", zh:"目标市场"},
-      {w:"objective", ph:"/əbˈdʒektɪv/", zh:"目标"},
+    "speak": [
+      "Do I need a visa for this trip?",
+      "When should I apply?",
+      "Book the hotel near the fair."
+    ],
+    "words": [
+      {
+        "w": "visa",
+        "ph": "/ˈviːzə/",
+        "zh": "签证"
+      },
+      {
+        "w": "apply",
+        "ph": "/əˈplaɪ/",
+        "zh": "申请"
+      },
+      {
+        "w": "ahead",
+        "ph": "/əˈhed/",
+        "zh": "提前"
+      },
+      {
+        "w": "slot",
+        "ph": "/slɑːt/",
+        "zh": "名额/时段"
+      },
+      {
+        "w": "fair",
+        "ph": "/fer/",
+        "zh": "展会"
+      },
+      {
+        "w": "itinerary",
+        "ph": "/aɪˈtɪnəreri/",
+        "zh": "行程"
+      },
+      {
+        "w": "aisle",
+        "ph": "/aɪl/",
+        "zh": "靠走道"
+      },
+      {
+        "w": "return",
+        "ph": "/rɪˈtɜːrn/",
+        "zh": "回程"
+      },
+      {
+        "w": "hotel",
+        "ph": "/hoʊˈtel/",
+        "zh": "酒店"
+      },
+      {
+        "w": "confirm",
+        "ph": "/kənˈfɜːrm/",
+        "zh": "确认"
+      },
+      {
+        "w": "nights",
+        "ph": "/naɪts/",
+        "zh": "晚"
+      },
+      {
+        "w": "Monday",
+        "ph": "/ˈmʌndeɪ/",
+        "zh": "周一"
+      }
     ]
   },
-  16: {
-    lines: [
-      {role:"W", en:"Can everyone hear me? Good. Let us start with the agenda.", zh:"大家都能听到我吗？好。我们按议程开始。"},
-      {role:"L", en:"Your action item was the report. Status?", zh:"你的待办是那份报告。进度如何？"},
-      {role:"W", en:"Done, I will send the minutes after.", zh:"完成了，会后我会发纪要。"},
-      {role:"W", en:"Great, I will delegate the follow-up to Tom.", zh:"好的，我会把跟进工作委派给 Tom。"},
-      {role:"L", en:"Could you put yourself on mute?", zh:"能请您静音吗？"},
-      {role:"W", en:"Sorry, done.", zh:"抱歉，好了。"},
-      {role:"L", en:"Let us share the screen now.", zh:"我们现在共享屏幕吧。"},
-      {role:"W", en:"Can everyone see the chart?", zh:"大家都能看到图表吗？"},
-      {role:"L", en:"Yes, please raise your hand for questions.", zh:"能，有问题请举手。"},
-      {role:"W", en:"Any other questions before we close?", zh:"结束前还有其他问题吗？"},
+  "16": {
+    "lines": [
+      {
+        "role": "S",
+        "en": "Hello, am I speaking with the purchasing manager?",
+        "zh": "您好，请问是采购经理吗？"
+      },
+      {
+        "role": "C",
+        "en": "Speaking. Who is this?",
+        "zh": "我是。您哪位？"
+      },
+      {
+        "role": "S",
+        "en": "This is Leo from a smart-home factory.",
+        "zh": "我是智能家居工厂的 Leo。"
+      },
+      {
+        "role": "C",
+        "en": "What can I do for you?",
+        "zh": "有什么可以帮您？"
+      },
+      {
+        "role": "S",
+        "en": "We supply OEM smart-home devices.",
+        "zh": "我们供应智能家居 OEM 产品。"
+      },
+      {
+        "role": "C",
+        "en": "Are you certified for EU?",
+        "zh": "你们有欧盟认证吗？"
+      },
+      {
+        "role": "S",
+        "en": "Yes, CE and RoHS ready.",
+        "zh": "有，CE 和 RoHS 都齐。"
+      },
+      {
+        "role": "C",
+        "en": "Send me the catalog then.",
+        "zh": "那把目录发我。"
+      },
+      {
+        "role": "S",
+        "en": "Sure, what's your email?",
+        "zh": "好，您邮箱是？"
+      },
+      {
+        "role": "C",
+        "en": "It's buyer@retail.com.",
+        "zh": "buyer@retail.com。"
+      }
     ],
-    speak: ["Can everyone hear me?", "Could you put yourself on mute?", "I will send the minutes after."],
-    words: [
-      {w:"mute", ph:"/mjuːt/", zh:"静音"},
-      {w:"signal", ph:"/ˈsɪɡnəl/", zh:"信号"},
-      {w:"agenda", ph:"/əˈdʒendə/", zh:"议程"},
-      {w:"action item", ph:"/ˈækʃn ˈaɪtəm/", zh:"待办"},
-      {w:"minutes", ph:"/ˈmɪnɪts/", zh:"纪要"},
-      {w:"follow up", ph:"/ˈfɑːloʊ ʌp/", zh:"跟进"},
-      {w:"delegate", ph:"/ˈdelɪɡeɪt/", zh:"委派"},
-      {w:"dial in", ph:"/ˈdaɪəl ɪn/", zh:"拨入"},
-      {w:"screen share", ph:"/skriːn ʃer/", zh:"屏幕共享"},
-      {w:"raise hand", ph:"/reɪz hænd/", zh:"举手"},
-      {w:"breakout", ph:"/ˈbreɪkaʊt/", zh:"分组讨论"},
-      {w:"host", ph:"/hoʊst/", zh:"主持人"},
-      {w:"chat", ph:"/tʃæt/", zh:"文字聊天"},
-      {w:"unmute", ph:"/ʌnˈmjuːt/", zh:"取消静音"},
+    "speak": [
+      "Am I speaking with the purchasing manager?",
+      "We supply OEM smart home.",
+      "Can I send you our catalog?"
+    ],
+    "words": [
+      {
+        "w": "purchasing",
+        "ph": "/ˈpɜːrtʃəsɪŋ/",
+        "zh": "采购"
+      },
+      {
+        "w": "manager",
+        "ph": "/ˈmænɪdʒər/",
+        "zh": "经理"
+      },
+      {
+        "w": "supply",
+        "ph": "/səˈplaɪ/",
+        "zh": "供应"
+      },
+      {
+        "w": "OEM",
+        "ph": "/ˌoʊ iː ˈem/",
+        "zh": "代工"
+      },
+      {
+        "w": "certified",
+        "ph": "/ˈsɜːrtɪfaɪd/",
+        "zh": "认证的"
+      },
+      {
+        "w": "CE",
+        "ph": "/ˌsiː ˈiː/",
+        "zh": "欧盟认证"
+      },
+      {
+        "w": "RoHS",
+        "ph": "/rɔːz/",
+        "zh": "环保指令"
+      },
+      {
+        "w": "catalog",
+        "ph": "/ˈkætəlɔːɡ/",
+        "zh": "目录"
+      },
+      {
+        "w": "email",
+        "ph": "/ˈiːmeɪl/",
+        "zh": "邮箱"
+      },
+      {
+        "w": "smart-home",
+        "ph": "/ˈsmɑːrt hoʊm/",
+        "zh": "智能家居"
+      },
+      {
+        "w": "device",
+        "ph": "/dɪˈvaɪs/",
+        "zh": "设备"
+      },
+      {
+        "w": "retail",
+        "ph": "/ˈriːteɪl/",
+        "zh": "零售"
+      }
     ]
   },
-  17: {
-    lines: [
-      {role:"W", en:"Mr. Smith, welcome! You must be tired from the flight.", zh:"Smith 先生，欢迎！您坐飞机一定累了吧。"},
-      {role:"S", en:"A little, thank you.", zh:"有一点，谢谢。"},
-      {role:"W", en:"The car is outside. We arranged a hotel near the office.", zh:"车在外面。我们安排了离办公室很近的酒店。"},
-      {role:"W", en:"Rest well, we will start tomorrow.", zh:"好好休息，我们明天开始。"},
-      {role:"S", en:"Hope you had a smooth flight.", zh:"希望您一路飞行顺利。"},
-      {role:"W", en:"Yes, on time. Your itinerary is here.", zh:"是的，准点到达。这是您的行程单。"},
-      {role:"S", en:"Could we go over the schedule tonight?", zh:"我们今晚过一遍日程可以吗？"},
-      {role:"W", en:"Sure, it is on your desk. Please refresh first.", zh:"当然，在您桌上。请先休息调整一下。"},
-      {role:"S", en:"Thank you for the warm welcome.", zh:"谢谢您的热情欢迎。"},
-      {role:"W", en:"My pleasure. Let us drive to the hotel.", zh:"我的荣幸。我们开车去酒店吧。"},
+  "17": {
+    "lines": [
+      {
+        "role": "S",
+        "en": "Nice meeting you at the fair.",
+        "zh": "展会见到您很高兴。"
+      },
+      {
+        "role": "B",
+        "en": "Likewise. You had interesting products.",
+        "zh": "我也是。你们产品挺有意思。"
+      },
+      {
+        "role": "S",
+        "en": "Shall we schedule a call next week?",
+        "zh": "下周约个电话聊聊？"
+      },
+      {
+        "role": "B",
+        "en": "Sure, Tuesday afternoon?",
+        "zh": "好，周二下午？"
+      },
+      {
+        "role": "S",
+        "en": "Works for me. 3 p.m. your time.",
+        "zh": "可以。您那边下午三点。"
+      },
+      {
+        "role": "B",
+        "en": "Send a calendar invite.",
+        "zh": "发个日历邀请吧。"
+      },
+      {
+        "role": "S",
+        "en": "Will do. I'll attach the quote too.",
+        "zh": "会的。我也把报价附上。"
+      },
+      {
+        "role": "B",
+        "en": "Great, talk Tuesday.",
+        "zh": "好，周二聊。"
+      },
+      {
+        "role": "S",
+        "en": "I'll follow up next week regardless.",
+        "zh": "不管怎样我下周也会跟进。"
+      },
+      {
+        "role": "B",
+        "en": "Appreciated.",
+        "zh": "多谢。"
+      }
     ],
-    speak: ["You must be tired from the flight.", "The car is outside.", "Hope you had a smooth flight."],
-    words: [
-      {w:"pick up", ph:"/pɪk ʌp/", zh:"接机"},
-      {w:"itinerary", ph:"/aɪˈtɪnəreri/", zh:"行程"},
-      {w:"hotel", ph:"/hoʊˈtel/", zh:"酒店"},
-      {w:"rest", ph:"/rest/", zh:"休息"},
-      {w:"schedule", ph:"/ˈskedʒuːl/", zh:"日程"},
-      {w:"comfortable", ph:"/ˈkʌmftərbəl/", zh:"舒适"},
-      {w:"arrange", ph:"/əˈreɪndʒ/", zh:"安排"},
-      {w:"hospitality", ph:"/ˌhɑːspɪˈtæləti/", zh:"款待"},
-      {w:"driver", ph:"/ˈdraɪvər/", zh:"司机"},
-      {w:"refresh", ph:"/rɪˈfreʃ/", zh:"休息调整"},
-      {w:"flight", ph:"/flaɪt/", zh:"航班"},
-      {w:"smooth", ph:"/smuːð/", zh:"顺利的"},
-      {w:"welcome", ph:"/ˈwelkəm/", zh:"欢迎"},
-      {w:"gift", ph:"/ɡɪft/", zh:"礼物"},
+    "speak": [
+      "Nice meeting you at the fair.",
+      "Shall we schedule a call?",
+      "I'll follow up next week."
+    ],
+    "words": [
+      {
+        "w": "fair",
+        "ph": "/fer/",
+        "zh": "展会"
+      },
+      {
+        "w": "likewise",
+        "ph": "/ˈlaɪkwaɪz/",
+        "zh": "同样"
+      },
+      {
+        "w": "schedule",
+        "ph": "/ˈskedʒuːl/",
+        "zh": "安排"
+      },
+      {
+        "w": "call",
+        "ph": "/kɔːl/",
+        "zh": "电话"
+      },
+      {
+        "w": "Tuesday",
+        "ph": "/ˈtuːzdeɪ/",
+        "zh": "周二"
+      },
+      {
+        "w": "calendar",
+        "ph": "/ˈkælɪndər/",
+        "zh": "日历"
+      },
+      {
+        "w": "invite",
+        "ph": "/ɪnˈvaɪt/",
+        "zh": "邀请"
+      },
+      {
+        "w": "attach",
+        "ph": "/əˈtætʃ/",
+        "zh": "附上"
+      },
+      {
+        "w": "follow up",
+        "ph": "/ˈfɑːloʊ ʌp/",
+        "zh": "跟进"
+      },
+      {
+        "w": "regardless",
+        "ph": "/rɪˈɡɑːrdləs/",
+        "zh": "不管怎样"
+      },
+      {
+        "w": "interesting",
+        "ph": "/ˈɪntrəstɪŋ/",
+        "zh": "有趣的"
+      },
+      {
+        "w": "product",
+        "ph": "/ˈprɑːdʌkt/",
+        "zh": "产品"
+      }
     ]
   },
-  18: {
-    lines: [
-      {role:"C", en:"The delivery is late again.", zh:"货又送晚了。"},
-      {role:"W", en:"We sincerely apologize for the inconvenience.", zh:"我们诚挚地为带来的不便道歉。"},
-      {role:"W", en:"We will resolve it today and compensate you with a discount.", zh:"我们今天会解决，并以折扣补偿您。"},
-      {role:"C", en:"This is the third time this month.", zh:"这已经是这个月第三次了。"},
-      {role:"W", en:"I understand your frustration. Let me investigate.", zh:"我理解您的懊恼。让我调查一下。"},
-      {role:"C", en:"What is your root cause?", zh:"根本原因是什么？"},
-      {role:"W", en:"A logistics issue at the port. We will fix it.", zh:"港口的物流问题。我们会修好。"},
-      {role:"C", en:"Could I get a refund or replacement?", zh:"我能退款或换货吗？"},
-      {role:"W", en:"Both options are available. Which do you prefer?", zh:"两种都可以。您偏好哪一种？"},
-      {role:"C", en:"Replacement, please. And improve your process.", zh:"请换货。并改进你们的流程。"},
+  "18": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "We're here for the QC inspection.",
+        "zh": "我们来做质量验货。"
+      },
+      {
+        "role": "F",
+        "en": "Welcome. The lot is ready.",
+        "zh": "欢迎。这批货准备好了。"
+      },
+      {
+        "role": "B",
+        "en": "What's the AQL level?",
+        "zh": "AQL 等级是多少？"
+      },
+      {
+        "role": "F",
+        "en": "Level II, 2.5.",
+        "zh": "II 级，2.5。"
+      },
+      {
+        "role": "B",
+        "en": "I'll pick samples randomly.",
+        "zh": "我随机抽样品。"
+      },
+      {
+        "role": "F",
+        "en": "Go ahead.",
+        "zh": "请便。"
+      },
+      {
+        "role": "B",
+        "en": "Mark the defect ones.",
+        "zh": "把不良品标出来。"
+      },
+      {
+        "role": "F",
+        "en": "Understood.",
+        "zh": "明白。"
+      },
+      {
+        "role": "B",
+        "en": "We'll rework the rejects.",
+        "zh": "不良品我们会返工。"
+      },
+      {
+        "role": "F",
+        "en": "Thanks for the strict check.",
+        "zh": "感谢严格把关。"
+      }
     ],
-    speak: ["We sincerely apologize for the inconvenience.", "We will resolve it today.", "We will compensate you with a discount."],
-    words: [
-      {w:"complaint", ph:"/kəmˈpleɪnt/", zh:"投诉"},
-      {w:"apologize", ph:"/əˈpɑːlədʒaɪz/", zh:"道歉"},
-      {w:"inconvenience", ph:"/ˌɪnkənˈviːniəns/", zh:"不便"},
-      {w:"resolve", ph:"/rɪˈzɑːlv/", zh:"解决"},
-      {w:"compensate", ph:"/ˈkɑːmpenseɪt/", zh:"补偿"},
-      {w:"sincere", ph:"/sɪnˈsɪr/", zh:"诚挚"},
-      {w:"improve", ph:"/ɪmˈpruːv/", zh:"改进"},
-      {w:"investigate", ph:"/ɪnˈvestɪɡeɪt/", zh:"调查"},
-      {w:"refund", ph:"/ˈriːfʌnd/", zh:"退款"},
-      {w:"replacement", ph:"/rɪˈpleɪsmənt/", zh:"换货"},
-      {w:"logistics", ph:"/loʊˈdʒɪstɪks/", zh:"物流"},
-      {w:"frustration", ph:"/frʌˈstreɪʃn/", zh:"沮丧"},
-      {w:"root cause", ph:"/ruːt kɔːz/", zh:"根本原因"},
-      {w:"process", ph:"/ˈprɑːses/", zh:"流程"},
+    "speak": [
+      "We're here for the QC inspection.",
+      "What's the AQL level?",
+      "We'll rework the rejects."
+    ],
+    "words": [
+      {
+        "w": "QC",
+        "ph": "/ˌkjuː ˈsiː/",
+        "zh": "质量控制"
+      },
+      {
+        "w": "inspection",
+        "ph": "/ɪnˈspekʃn/",
+        "zh": "验货"
+      },
+      {
+        "w": "lot",
+        "ph": "/lɑːt/",
+        "zh": "批次"
+      },
+      {
+        "w": "AQL",
+        "ph": "/ˌeɪ kjuː ˈel/",
+        "zh": "可接受质量限"
+      },
+      {
+        "w": "sample",
+        "ph": "/ˈsæmpl/",
+        "zh": "样品"
+      },
+      {
+        "w": "randomly",
+        "ph": "/ˈrændəmli/",
+        "zh": "随机地"
+      },
+      {
+        "w": "defect",
+        "ph": "/dɪˈfekt/",
+        "zh": "不良/缺陷"
+      },
+      {
+        "w": "reject",
+        "ph": "/rɪˈdʒekt/",
+        "zh": "拒收品"
+      },
+      {
+        "w": "rework",
+        "ph": "/riːˈwɜːrk/",
+        "zh": "返工"
+      },
+      {
+        "w": "strict",
+        "ph": "/strɪkt/",
+        "zh": "严格的"
+      },
+      {
+        "w": "level",
+        "ph": "/ˈlevl/",
+        "zh": "等级"
+      },
+      {
+        "w": "understood",
+        "ph": "/ˌʌndərˈstʊd/",
+        "zh": "明白"
+      }
     ]
   },
-  19: {
-    lines: [
-      {role:"S", en:"Friends, I believe in our vision.", zh:"朋友们，我坚信我们的愿景。"},
-      {role:"S", en:"The market gives us a rare opportunity.", zh:"市场给了我们难得的机会。"},
-      {role:"S", en:"If we work together, we will achieve what others think impossible.", zh:"如果我们齐心协力，就能达成别人认为不可能的事。"},
-      {role:"S", en:"The future is promising. Let us build it now.", zh:"未来充满希望。让我们现在就着手打造。"},
-      {role:"S", en:"Every milestone we have reached is proof of our drive.", zh:"我们达成的每个里程碑，都是我们干劲的证明。"},
-      {role:"S", en:"I have seen your commitment in every project.", zh:"我在每个项目里都看到了你们的投入。"},
-      {role:"S", en:"Today, we celebrate not just success, but the journey.", zh:"今天，我们庆祝的不只是成功，还有这段历程。"},
-      {role:"S", en:"Your passion is what makes our team spirit strong.", zh:"你们的热情让我们的团队精神坚强。"},
-      {role:"S", en:"Together, we will write the next chapter.", zh:"携手同行，我们将书写下一章。"},
-      {role:"S", en:"Let us begin. Thank you from the bottom of my heart.", zh:"让我们开始吧。发自内心地感谢大家。"},
+  "19": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Is the brand name trademarked?",
+        "zh": "这个品牌名注册了吗？"
+      },
+      {
+        "role": "S",
+        "en": "Yes, in the EU and US.",
+        "zh": "注册了，欧盟和美国都有。"
+      },
+      {
+        "role": "B",
+        "en": "Can we use it for our market?",
+        "zh": "我们市场能使用吗？"
+      },
+      {
+        "role": "S",
+        "en": "We can license it to you.",
+        "zh": "我们可以授权给你们。"
+      },
+      {
+        "role": "B",
+        "en": "What's the annual fee?",
+        "zh": "年费多少？"
+      },
+      {
+        "role": "S",
+        "en": "Two percent of sales.",
+        "zh": "销售额的百分之二。"
+      },
+      {
+        "role": "B",
+        "en": "Reasonable. Let's sign an IP agreement.",
+        "zh": "合理。我们签个知识产权协议。"
+      },
+      {
+        "role": "S",
+        "en": "I'll draft it this week.",
+        "zh": "我这周起草。"
+      },
+      {
+        "role": "B",
+        "en": "Include the territory clause.",
+        "zh": "把地域条款写进去。"
+      },
+      {
+        "role": "S",
+        "en": "Noted, thanks.",
+        "zh": "记下了，谢谢。"
+      }
     ],
-    speak: ["I believe in our vision.", "The future is promising.", "Let us build it now."],
-    words: [
-      {w:"vision", ph:"/ˈvɪʒn/", zh:"愿景"},
-      {w:"opportunity", ph:"/ˌɑːpərˈtuːnəti/", zh:"机遇"},
-      {w:"together", ph:"/təˈɡeðər/", zh:"携手"},
-      {w:"inspire", ph:"/ɪnˈspaɪər/", zh:"激励"},
-      {w:"future", ph:"/ˈfjuːtʃər/", zh:"未来"},
-      {w:"believe", ph:"/bɪˈliːv/", zh:"相信"},
-      {w:"achieve", ph:"/əˈtʃiːv/", zh:"达成"},
-      {w:"passion", ph:"/ˈpæʃn/", zh:"热情"},
-      {w:"commitment", ph:"/kəˈmɪtmənt/", zh:"承诺"},
-      {w:"drive", ph:"/draɪv/", zh:"动力"},
-      {w:"milestone", ph:"/ˈmaɪlstoʊn/", zh:"里程碑"},
-      {w:"team spirit", ph:"/tiːm ˈspɪrɪt/", zh:"团队精神"},
-      {w:"celebrate", ph:"/ˈselɪbreɪt/", zh:"庆祝"},
-      {w:"journey", ph:"/ˈdʒɜːrni/", zh:"旅程"},
+    "speak": [
+      "Is the brand name trademarked?",
+      "We can license it.",
+      "Let's sign an IP agreement."
+    ],
+    "words": [
+      {
+        "w": "trademark",
+        "ph": "/ˈtreɪdmɑːrk/",
+        "zh": "商标"
+      },
+      {
+        "w": "brand",
+        "ph": "/brænd/",
+        "zh": "品牌"
+      },
+      {
+        "w": "license",
+        "ph": "/ˈlaɪsns/",
+        "zh": "授权"
+      },
+      {
+        "w": "market",
+        "ph": "/ˈmɑːrkɪt/",
+        "zh": "市场"
+      },
+      {
+        "w": "annual",
+        "ph": "/ˈænjuəl/",
+        "zh": "年度的"
+      },
+      {
+        "w": "fee",
+        "ph": "/fiː/",
+        "zh": "费用"
+      },
+      {
+        "w": "sales",
+        "ph": "/seɪlz/",
+        "zh": "销售额"
+      },
+      {
+        "w": "IP",
+        "ph": "/ˌaɪ ˈpiː/",
+        "zh": "知识产权"
+      },
+      {
+        "w": "agreement",
+        "ph": "/əˈɡriːmənt/",
+        "zh": "协议"
+      },
+      {
+        "w": "territory",
+        "ph": "/ˈterətɔːri/",
+        "zh": "地域"
+      },
+      {
+        "w": "draft",
+        "ph": "/dræft/",
+        "zh": "起草"
+      },
+      {
+        "w": "clause",
+        "ph": "/klɔːz/",
+        "zh": "条款"
+      }
     ]
   },
-  20: {
-    lines: [
-      {role:"A", en:"Mr. Smith, welcome to China! Let us toast to cooperation.", zh:"Smith 先生，欢迎来到中国！为合作干杯。"},
-      {role:"B", en:"Cheers! I look forward to the meeting.", zh:"干杯！我期待这次会议。"},
-      {role:"A", en:"Today I will present three points about our plan.", zh:"今天我将演示我们计划的三点。"},
-      {role:"B", en:"Good. If the price works, we have a deal.", zh:"好。如果价格谈得拢，我们就成交。"},
-      {role:"A", en:"I believe in our shared vision.", zh:"我相信我们共同的愿景。"},
-      {role:"B", en:"The future looks promising indeed.", zh:"未来确实充满希望。"},
-      {role:"A", en:"Could you put yourself on mute for the presentation?", zh:"演示时请您静音好吗？"},
-      {role:"B", en:"Done. Let me highlight the key point.", zh:"好了。我来强调关键点。"},
-      {role:"A", en:"Any other questions before we sign?", zh:"签约前还有其他问题吗？"},
-      {role:"B", en:"None. We have a win-win deal. Let us build it now.", zh:"没有了。我们达成了双赢交易。让我们现在就着手打造。"},
+  "20": {
+    "lines": [
+      {
+        "role": "B",
+        "en": "Let's review this year's numbers.",
+        "zh": "我们复盘下今年的数据。"
+      },
+      {
+        "role": "S",
+        "en": "Sure. Volume grew 20%.",
+        "zh": "好。量增长了 20%。"
+      },
+      {
+        "role": "B",
+        "en": "And defects dropped to 1%.",
+        "zh": "不良率也降到了 1%。"
+      },
+      {
+        "role": "S",
+        "en": "Good progress.",
+        "zh": "进步明显。"
+      },
+      {
+        "role": "B",
+        "en": "Shall we renew the contract?",
+        "zh": "我们要续约吗？"
+      },
+      {
+        "role": "S",
+        "en": "Yes, for another year.",
+        "zh": "续，再签一年。"
+      },
+      {
+        "role": "B",
+        "en": "Can we add a new SKU?",
+        "zh": "能加个新 SKU 吗？"
+      },
+      {
+        "role": "S",
+        "en": "Agreed, Q2 launch.",
+        "zh": "同意，二季度上线。"
+      },
+      {
+        "role": "B",
+        "en": "I'll send the renewed terms.",
+        "zh": "我把续约条款发您。"
+      },
+      {
+        "role": "S",
+        "en": "Looking forward to year two.",
+        "zh": "期待第二年合作。"
+      }
     ],
-    speak: ["Let us toast to cooperation.", "Today I will present three points.", "If the price works, we have a deal."],
-    words: [
-      {w:"welcome", ph:"/ˈwelkəm/", zh:"欢迎"},
-      {w:"toast", ph:"/toʊst/", zh:"祝酒"},
-      {w:"present", ph:"/prɪˈzent/", zh:"演示"},
-      {w:"negotiate", ph:"/nɪˈɡoʊʃieɪt/", zh:"谈判"},
-      {w:"believe", ph:"/bɪˈliːv/", zh:"相信"},
-      {w:"achieve", ph:"/əˈtʃiːv/", zh:"达成"},
-      {w:"vision", ph:"/ˈvɪʒn/", zh:"愿景"},
-      {w:"deal", ph:"/diːl/", zh:"交易"},
-      {w:"win-win", ph:"/wɪn wɪn/", zh:"双赢"},
-      {w:"future", ph:"/ˈfjuːtʃər/", zh:"未来"},
-      {w:"highlight", ph:"/ˈhaɪlaɪt/", zh:"强调"},
-      {w:"key point", ph:"/kiː pɔɪnt/", zh:"要点"},
-      {w:"cooperation", ph:"/koʊˌɑːpəˈreɪʃn/", zh:"合作"},
-      {w:"shared", ph:"/ʃerd/", zh:"共同的"},
+    "speak": [
+      "Let's review this year's numbers.",
+      "Volume grew 20%.",
+      "Shall we renew the contract?"
+    ],
+    "words": [
+      {
+        "w": "review",
+        "ph": "/rɪˈvjuː/",
+        "zh": "复盘"
+      },
+      {
+        "w": "numbers",
+        "ph": "/ˈnʌmbərz/",
+        "zh": "数据"
+      },
+      {
+        "w": "volume",
+        "ph": "/ˈvɑːljuːm/",
+        "zh": "量"
+      },
+      {
+        "w": "defect",
+        "ph": "/dɪˈfekt/",
+        "zh": "不良"
+      },
+      {
+        "w": "renew",
+        "ph": "/rɪˈnjuː/",
+        "zh": "续约"
+      },
+      {
+        "w": "contract",
+        "ph": "/ˈkɑːntrækt/",
+        "zh": "合同"
+      },
+      {
+        "w": "SKU",
+        "ph": "/ˌes keɪ ˈjuː/",
+        "zh": "库存单位/款"
+      },
+      {
+        "w": "launch",
+        "ph": "/lɔːntʃ/",
+        "zh": "上线"
+      },
+      {
+        "w": "terms",
+        "ph": "/tɜːrmz/",
+        "zh": "条款"
+      },
+      {
+        "w": "progress",
+        "ph": "/ˈprɑːɡres/",
+        "zh": "进展"
+      },
+      {
+        "w": "dropped",
+        "ph": "/drɑːpt/",
+        "zh": "下降"
+      },
+      {
+        "w": "year two",
+        "ph": "/jɪr tuː/",
+        "zh": "第二年"
+      }
     ]
-  },
+  }
 };
