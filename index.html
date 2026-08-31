@@ -534,10 +534,11 @@ function dayDiff(a,b){ // a,b: Date
 // 基于日历日期的稳定索引：同一天稳定、不同天不同，与"首次使用天数"无关
 function dateIndex(id, len){
   const d=new Date();
-  const dayKey = d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate();
-  let h = dayKey >>> 0;
-  for(let i=0;i<id.length;i++){ h = (Math.imul(h,31) + id.charCodeAt(i)) >>> 0; }
-  return h % len;
+  // 用「绝对天数」而非日期数字：后者跨月会跳变（8/31→9/1 是 +70），打乱步长导致部分条目永远轮不到
+  const days = Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())/86400000);
+  let off = 0;
+  for(let i=0;i<id.length;i++){ off = (Math.imul(off,31) + id.charCodeAt(i)) >>> 0; }
+  return (((days + off) % len) + len) % len;
 }
 // 判断 ISO 时间戳是否为今天（用于手动刷新只当天有效）
 function isTodayISO(iso){
@@ -1087,6 +1088,8 @@ function contentIdx(id, arr){
   const manualPick = (typeof meta.pick==='number' && isTodayISO(meta.updated)) ? meta.pick : null;
   if(manualPick !== null) return manualPick % arr.length;
   if(id==='news' && meta.live) return 0;
+  // 课程类（英语/AI 课）有难度梯度，按天循序渐进；一轮学完回头复习
+  if(id==='english' || id==='ai') return dayNumber() % arr.length;
   return dateIndex(id, arr.length);
 }
 /* ============ 今日内容 ============ */
@@ -1376,11 +1379,8 @@ function getTodayEntry(id){
   let arr=(typeof CONTENT!=='undefined' && CONTENT[id])?CONTENT[id]:null;
   if(id==='news' && LIVE.news && DB.contentMeta.news && DB.contentMeta.news.live) arr=LIVE.news;
   if(!arr||!arr.length) return null;
-  const n=dayNumber();
-  const meta=DB.contentMeta[id]||{};
-  let idx;
-  if(id==='english'){ const cap=Math.min(n,arr.length-1); idx=(typeof meta.pick==='number')?Math.min(meta.pick,cap):cap; }
-  else { const base=(id==='news'&&meta.live)?0:(n%arr.length); idx=(typeof meta.pick==='number')?(meta.pick%arr.length):base; }
+  // 与详情页共用 contentIdx，保证总览显示的条目 = 点进去看到的条目
+  const idx=contentIdx(id, arr);
   return {m, e:arr[idx], idx, total:arr.length};
 }
 function renderOverview(){
