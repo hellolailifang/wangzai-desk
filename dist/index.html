@@ -581,7 +581,7 @@ const MODULES = [
   {id:'geo',      name:'客户开发',en:'Client Development',desc:'中国企业客户清单', unit:'家', img:'assets/zoro.webp', char:'布鲁克', noCheckin:true},
   {id:'overseas', name:'海外企业',     en:'Overseas Companies',    desc:'海外公司图谱', unit:'家',   img:'assets/usopp.webp', char:'山治', noCheckin:true},
   {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'娜美',  noCheckin:true},
-  {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'选题与素材', unit:'篇',   img:'assets/luffy.webp',   char:'乔巴', noCheckin:true},
+  {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'小红书 · GEO日更', unit:'篇',   img:'assets/luffy.webp',   char:'乔巴', noCheckin:true},
   {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'饮食记录', unit:'餐',   img:'assets/chopper.webp', char:'罗宾',  noCheckin:true},
   {id:'overview', name:'今日航海总览', en:"Today's Overview",      unit:'',     img:null,                  char:'🧭', noCheckin:true},
   {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sabo.webp', char:'甚平',  noCheckin:true},
@@ -1092,6 +1092,8 @@ function contentIdx(id, arr){
   const manualPick = (typeof meta.pick==='number' && isTodayISO(meta.updated)) ? meta.pick : null;
   if(manualPick !== null) return manualPick % arr.length;
   if(id==='news' && meta.live) return 0;
+  // 社媒：每天一篇新内容（脚本每日追加），永远显示最新一篇；断更时停在最后一篇，不重复旧内容
+  if(id==='social') return arr.length - 1;
   // 课程类（英语/AI 课）有难度梯度，按天循序渐进；一轮学完回头复习
   if(id==='english' || id==='ai') return dayNumber() % arr.length;
   return dateIndex(id, arr.length);
