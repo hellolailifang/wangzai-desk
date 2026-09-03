@@ -2,5 +2,8 @@
 outputs/
 .DS_Store
 
-# 备份文件不入库（append_xhs.py / build_*.py 生成）
+# 备份文件不入库（append_xhs.py / build_*.py / inject_*.py 生成）
+# 注意：历史上有 *.dietbak / *.newsbak 这种「bak 前无点」的命名，*.bak* 匹配不到，必须单列
 *.bak*
+*.dietbak
+*.newsbak
