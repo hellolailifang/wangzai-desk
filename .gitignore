@@ -1,3 +1,6 @@
 .workbuddy/
 outputs/
 .DS_Store
+
+# 备份文件不入库（append_xhs.py / build_*.py 生成）
+*.bak*
