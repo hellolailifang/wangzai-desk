@@ -64,7 +64,7 @@ def box(bg, bd, title, color, html):
 
 
 b_progress = box(
-    "#eef7ff", "#9ec9ee", "🎯 Day 2 / 30 · 目标 1000 粉", "#0a3d62",
+    "#eef7ff", "#9ec9ee", "🎯 Day 2 · 阶段目标 1000 粉", "#0a3d62",
     '<p style="margin:0 0 6px;"><b>今天的核心任务：把「共鸣」转成「关注」。</b>'
     'Day 1 让人觉得"这说的不就是我"，Day 2 要让人觉得"关注他能学到东西"。'
     '科普型笔记不靠情绪涨粉，靠<b>收藏率</b>——收藏会进「我的收藏」长期分发，是长尾流量的主力。</p>'
@@ -156,7 +156,7 @@ b_action = box(
 entry = {
     "tag": "小红书 · GEO 日更 Day 2｜GEO 到底是什么，和 SEO 的区别",
     "blocks": [
-        {"h": "🎯 30 天涨粉进度 · Day 2", "body": b_progress},
+        {"h": "🎯 Day 2 · 阶段目标 1000 粉", "body": b_progress},
         {"h": "📕 今日选题", "body": b_topic},
         {"h": "✍️ 正文文案（可直接复制）", "body": TA_BOX},
         {"h": "🏷️ 标签 & 💬 互动钩子", "body": b_tags},
