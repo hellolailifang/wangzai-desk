@@ -2,7 +2,7 @@
 // v93（2026-09-04）：HTML / JS（含 content.js）改为「网络优先」，手机端打开即见最新内容；
 //   图片等静态资源仍走 stale-while-revalidate（省流量、秒开）。
 //   旧版全部走 stale-while-revalidate，导致手机端每次打开先看旧缓存，内容"永远慢一天"。
-const CACHE = 'wz-desk-v94';
+const CACHE = 'wz-desk-v95';
 
 // 需要「网络优先」的关键文件：内容/逻辑变了必须立刻生效
 const NETWORK_FIRST_RE = /(\/$|\/(index\.html|content\.js|en_practice\.js|manifest\.webmanifest)$)/;

@@ -1651,7 +1651,7 @@ if('serviceWorker' in navigator){
     if(navigator.onLine && !_wzReloading){ _wzReloading = true; location.reload(); }
   });
   window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js?v=94',{updateViaCache:'none'})
+    navigator.serviceWorker.register('sw.js?v=95',{updateViaCache:'none'})
       .then(reg=>reg.update())
       .catch(()=>{});
   });
