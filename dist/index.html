@@ -245,6 +245,17 @@
   .ct-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
   .ct-head h4{font-size:16.5px;color:var(--ocean-deep);}
   .ct-badge{font-size:12.5px;color:var(--ocean);background:rgba(72,202,228,.16);padding:3px 10px;border-radius:20px;white-space:nowrap;}
+  /* 社媒模块 · 篇目导航（可提前预览备好的未来篇目） */
+  .social-nav{background:linear-gradient(135deg,rgba(72,202,228,.10),rgba(202,240,248,.45));border:1px solid rgba(72,202,228,.4);border-radius:12px;padding:10px 12px;margin-bottom:12px;}
+  .sn-h{font-size:13px;color:var(--ocean-deep);font-weight:800;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;}
+  .sn-tip{font-size:11.5px;font-weight:600;color:#0a7d5a;background:rgba(16,185,129,.15);padding:2px 8px;border-radius:20px;}
+  .sn-list{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;}
+  .sn-item{flex:0 0 auto;background:#fff;border:1.5px solid rgba(27,108,168,.25);border-radius:10px;padding:6px 10px;font-size:12.5px;font-weight:700;color:var(--ocean);cursor:pointer;text-align:left;line-height:1.35;font-family:inherit;}
+  .sn-item .sn-d{display:block;font-size:10.5px;font-weight:500;color:#7a9cb3;margin-top:1px;}
+  .sn-item.future{border-style:dashed;color:#0a7d5a;border-color:rgba(16,185,129,.45);}
+  .sn-item.on{background:var(--ocean);border-color:var(--ocean);color:#fff;}
+  .sn-item.on .sn-d{color:rgba(255,255,255,.85);}
+  .sn-item.on.future{background:#0a7d5a;border-color:#0a7d5a;}
   .ct-title{font-size:17.5px;font-weight:800;color:var(--ocean-deep);margin:2px 0 4px;padding-left:10px;border-left:3px solid var(--gold);}
   .ct-loc{font-size:13.5px;font-weight:700;color:#5a7d95;margin:0 0 12px 13px;letter-spacing:.3px;}
   .ct-block{background:var(--card-bg);border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
@@ -429,6 +440,9 @@
     .content-today{margin:0;padding:0;border:none;border-radius:0;background:var(--app-bg);box-shadow:none;}
     .ct-head{padding:12px 12px 6px;}
     .ct-sub{padding:0 12px 10px;}
+    .social-nav{margin:0 0 8px;border-radius:0;border-left:none;border-right:none;border-top:none;padding:10px 12px;}
+    .sn-item{font-size:12px;padding:6px 9px;}
+    .sn-h{font-size:12.5px;}
     .ct-title{margin:0 12px 4px;}
     .ct-loc{margin:0 12px 12px;padding-left:0;}
     .ct-block{margin:0 0 8px;border-radius:0;border-left:none;border-right:none;padding:12px;background:var(--card-bg);box-shadow:none;}
@@ -1086,14 +1100,55 @@ function renderHomeQuote(){
 }
 
 /* ============ 模块详情 ============ */
+/* ============ 社媒内容：按「计划发布日」定位 + 篇目导航 ============ */
+const WD = ['周日','周一','周二','周三','周四','周五','周六'];
+function dateOfEntry(e){ return e && e.date ? String(e.date).slice(0,10) : ''; }
+// 默认显示「到今天为止最新的一篇」；备好的未来篇目不会自动跳过去
+function socialIdx(arr){
+  const t = todayStr();
+  let idx = -1;
+  for(let i=0;i<arr.length;i++){
+    const d = dateOfEntry(arr[i]);
+    if(d && d <= t) idx = i;
+  }
+  return idx >= 0 ? idx : arr.length - 1;
+}
+function socialNavHTML(arr, idx){
+  if(!arr || arr.length < 2) return '';
+  const t = todayStr();
+  const items = arr.map((e,i)=>{
+    const d = dateOfEntry(e);
+    const wd = d ? WD[new Date(d+'T00:00:00').getDay()] : '';
+    const st = !d ? '' : (d===t ? '今天' : (d<t ? '已发' : '待发'));
+    const label = (e.day!=null) ? ('Day '+e.day) : String(e.title||'').replace(' · 社媒内容','');
+    const cls = ['sn-item', i===idx?'on':'', (d&&d>t)?'future':''].filter(Boolean).join(' ');
+    return `<button type="button" class="${cls}" data-si="${i}">${label}<span class="sn-d">${d?d.slice(5).replace('-','/')+' '+wd:''}${st?' · '+st:''}</span></button>`;
+  }).join('');
+  const future = arr.filter(e=>{ const d=dateOfEntry(e); return d && d>t; }).length;
+  return `<div class="social-nav">
+    <div class="sn-h">📅 篇目 · 共 ${arr.length} 篇${future?`<span class="sn-tip">已备好 ${future} 篇待发，可提前做图</span>`:''}<span class="en-sm">Episodes</span></div>
+    <div class="sn-list">${items}</div>
+  </div>`;
+}
+function socialDateTip(e){
+  const d = dateOfEntry(e);
+  if(!d) return '';
+  const t = todayStr();
+  const wd = WD[new Date(d+'T00:00:00').getDay()];
+  const md = d.slice(5).replace('-','/');
+  if(d === t) return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd} · 今天`;
+  if(d > t)  return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd} · 提前备好，可先做主图`;
+  return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd}`;
+}
 /* ============ 今日内容索引：日历日稳定 + 手动刷新当天优先 ============ */
 function contentIdx(id, arr){
   const meta = DB.contentMeta[id] || {};
   const manualPick = (typeof meta.pick==='number' && isTodayISO(meta.updated)) ? meta.pick : null;
   if(manualPick !== null) return manualPick % arr.length;
   if(id==='news' && meta.live) return 0;
-  // 社媒：每天一篇新内容（脚本每日追加），永远显示最新一篇；断更时停在最后一篇，不重复旧内容
-  if(id==='social') return arr.length - 1;
+  // 社媒内容：每篇带「计划发布日 date」，默认显示到今天为止最新的一篇；
+  // 休息/长假前会一次性备好后面几天，那些篇目可在详情页的篇目条里提前预览（做主图用）
+  if(id==='social') return socialIdx(arr);
   // 饮食：8 周减脂计划，从「计划起始日」起按顺序走完 56 天（不能走 dateIndex，否则起点随机、阶段对不上）
   if(id==='diet'){
     if(!DB.dietStart){ DB.dietStart = todayStr(); save(DB); }
@@ -1155,16 +1210,24 @@ function todayContent(id){
   const blocks = rawBlocks.length>1 ? (mainBlocks + extra + gallery + firstBlock) : firstBlock;
   const lbl = (id==='english')
     ? `第 ${Math.min(idx+1,arr.length)} / ${arr.length} 课`
-    : `第 ${idx+1} / ${arr.length} 天`;
+    : (id==='social')
+      ? `Day ${e.day!=null?e.day:(idx+1)}`
+      : `第 ${idx+1} / ${arr.length} 天`;
   // 更新时间 / 实时标识
   const isLive = (id==='news' && meta.live);
   const upd = meta.updated ? new Date(meta.updated).toLocaleString('zh-CN',{hour12:false}) : todayStr();
   const freshBadge = isLive
     ? `<span class="ct-badge live">🔴 实时<span class="en-sm">Live</span> · ${e.tag||'今日热点'}</span>`
     : `<span class="ct-badge">${e.tag||''} ｜ ${lbl}</span>`;
-  const updTip = isLive ? `实时拉取于<span class="en-sm">Fetched at</span> ${upd}` : `更新于<span class="en-sm">Updated</span> ${upd} · <span class="ct-refresh" id="ctRefresh">🔄 换一批<span class="en-sm">Refresh</span></span>`;
+  const updTip = isLive
+    ? `实时拉取于<span class="en-sm">Fetched at</span> ${upd}`
+    : (id==='social')
+      ? socialDateTip(e)          // 日更内容按计划发布日走，不用「换一批」打乱顺序
+      : `更新于<span class="en-sm">Updated</span> ${upd} · <span class="ct-refresh" id="ctRefresh">🔄 换一批<span class="en-sm">Refresh</span></span>`;
+  const nav = (id==='social') ? socialNavHTML(arr, idx) : '';
   return `
     <div class="panel content-today">
+      ${nav}
       <div class="ct-head">
         <h4>📚 今日内容<span class="en-sm">Today's Content</span> · ${m.name}</h4>
         ${freshBadge}
@@ -1490,6 +1553,20 @@ function openModule(id){
     const cb=$('#checkBtn');
     if(cb) cb.onclick=()=>{ toggleCheckin(id); openModule(id); };
   }
+  // 社媒模块：篇目导航（可提前查看已备好的未来篇目，方便先做主图）
+  content.querySelectorAll('.sn-item').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const i = parseInt(btn.dataset.si,10);
+      if(isNaN(i)) return;
+      if(!DB.contentMeta.social) DB.contentMeta.social = {};
+      DB.contentMeta.social.pick = i;
+      DB.contentMeta.social.updated = new Date().toISOString();
+      save(DB);
+      openModule('social');
+      const nv = document.querySelector('.social-nav');
+      if(nv && nv.scrollIntoView) nv.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
   const rb=$('#ctRefresh');
   if(rb) rb.onclick=async ()=>{
     try {
@@ -1574,9 +1651,13 @@ if('serviceWorker' in navigator){
     if(navigator.onLine && !_wzReloading){ _wzReloading = true; location.reload(); }
   });
   window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js?v=78',{updateViaCache:'none'})
+    navigator.serviceWorker.register('sw.js?v=94',{updateViaCache:'none'})
       .then(reg=>reg.update())
       .catch(()=>{});
+  });
+  // 网络优先策略下，若首次打开先用了缓存、随后网络拉到新内容，SW 会发消息 → 顶部提示一键刷新
+  navigator.serviceWorker.addEventListener('message', ev=>{
+    if(ev.data && ev.data.type==='WZ_CONTENT_UPDATED') showUpdateTip();
   });
   // 监听网络状态，恢复在线时尝试拉新
   window.addEventListener('online', () => {
@@ -1584,6 +1665,19 @@ if('serviceWorker' in navigator){
       navigator.serviceWorker.getRegistration().then(reg => reg && reg.update()).catch(()=>{});
     }
   });
+}
+// 顶部「有新内容」提示条：点一下刷新即可看到最新内容
+function showUpdateTip(){
+  if(document.getElementById('wzUpdateTip')) return;
+  const el=document.createElement('div');
+  el.id='wzUpdateTip';
+  el.innerHTML='🆕 工作台有新内容 <span class="en-sm">New content</span> · 点此刷新 <span class="en-sm">Tap to refresh</span>';
+  el.style.cssText='position:fixed;left:50%;transform:translateX(-50%);top:10px;z-index:9999;'
+    +'background:linear-gradient(135deg,#1b6ca8,#48cae4);color:#fff;padding:10px 16px;border-radius:999px;'
+    +'font-size:13px;box-shadow:0 6px 20px rgba(10,61,98,.35);cursor:pointer;white-space:nowrap;';
+  el.onclick=()=>{ el.remove(); location.reload(); };
+  document.body.appendChild(el);
+  setTimeout(()=>{ const n=document.getElementById('wzUpdateTip'); if(n) n.remove(); }, 12000);
 }</script>
 </body>
 </html>

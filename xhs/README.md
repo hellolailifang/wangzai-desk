@@ -55,9 +55,9 @@
 | 1 | 开篇立人设：老板问我「豆包能搜到我们吗」 | 共鸣 |
 | 2 | GEO 到底是什么，和 SEO 的区别 | 科普 |
 | 3 | GEO 是怎么来的，为什么这两年突然火 | 由来 |
-| 4 | 实测：同一个问题问 5 个 AI，答案差多少 | 实测 |
-| 5 | 什么企业最适合做 GEO | 清单 |
-| 6 | 什么企业暂时别做 GEO | 反共识 |
+| 4 | 什么企业适合做 GEO | 清单 |
+| 5 | 什么企业暂时别做 GEO | 反共识 |
+| 6 | 实测：同一个问题问 5 个 AI，答案差多少 | 实测 |
 | 7 | 第一周复盘：7 篇数据告诉我什么 | 复盘 |
 | 8 | 核心指标不是排名，是「被引用率」 | 干货 |
 | 9 | 怎么让 AI 愿意引用你：信源 / 结构 / 证据 | 干货 |
@@ -106,33 +106,73 @@
 - 每月做一次数据复盘（对应 S5 / Day 26 那类内容）。
 - 「5 个 AI 同时问」这类实测（C7 / T2）每隔 1–2 个月复测一次，本身就是一个系列。
 
-## 四、更新流程（三步）
+## 四、更新流程（四步）
+
+> 2026-09-04 起改为「按排期批量生成」：每天都提前备好下一天，
+> 遇到双休 / 法定假在**休息前一天**一次性把整个休息期备齐。
 
 ```bash
 cd /Users/lailifang/WorkBuddy/2026-07-27-09-50-21
+P=/Users/lailifang/.workbuddy/binaries/python/versions/3.13.12/bin/python3
 
-# 1）复制上一天的生成脚本，改内容（Day 序号、tag、各板块正文）
-cp xhs/make_day01.py xhs/make_dayNN.py   # 编辑它
-/Users/lailifang/.workbuddy/binaries/python/versions/3.13.12/bin/python3 xhs/make_dayNN.py
+# 0）先看今天要备哪几天（会跳过已生成的日期）
+$P xhs/schedule.py --have 2026-09-02,2026-09-03,2026-09-04
 
-# 2）注入 content.js（自动算 Day 序号 = 数组长度 + 1，自带备份与语法校验，失败自动还原）
-/Users/lailifang/.workbuddy/binaries/python/versions/3.13.12/bin/python3 xhs/append_xhs.py xhs/dayNN.json
+# 1）为每个待生成日期写脚本（复制上一天改内容：Day 序号、date、tag、各板块正文）
+cp xhs/make_day05.py xhs/make_dayNN.py   # 编辑它，记得带上 "date" 和 "day"
+$P xhs/make_dayNN.py
 
-# 3）部署（sw 缓存 +1 → 同步 dist → rebase → push）
+# 2）违禁词检查 —— 发布区 P0 必须为 0 才能注入
+$P xhs/check_words.py xhs/dayNN.json
+
+# 3）注入 content.js（自动备份 + 语法校验，失败自动还原；--all 直接部署）
+$P xhs/append_xhs.py xhs/dayNN.json
+
+# 4）部署（sw 缓存 +1 → 同步 dist → rebase → push）
 bash xhs/deploy.sh "社媒内容：小红书 GEO 日更 Day NN"
 ```
 
+### 排期规则（`schedule.py`，改规则改这一个文件）
+
+| 情况 | 生成策略 |
+|---|---|
+| 普通工作日 | 今天 + 下一天（永远能提前一天看到，方便先做主图） |
+| 双休（2 天） | 周五一并备好周六、周日 |
+| 短假 ≤3 天（如中秋 9/25–9/27） | 放假前一天备齐假期每一天 |
+| 长假 ≥4 天（如国庆 10/1–10/7） | **隔天一篇**，不必日更，但页面每天都有内容 |
+| 调休上班日（如 9/20 周日） | 按工作日处理，照常生成 |
+
+2026 年放假安排写死在 `schedule.py` 的 `HOLIDAYS_2026` / `MAKEUP_WORKDAYS_2026`
+（来源：国务院办公厅 2025-11-04 通知）。**2027 年的安排要手动补进去**，脚本不会自动推算。
+
 ### 脚本说明
+- `schedule.py [--date YYYY-MM-DD] [--have d1,d2] [--json]`：算今天该备哪几天
+- `check_words.py [json] [--strict]`：违禁词扫描，发布区有 P0 命中就退出码 1
 - `append_xhs.py <json> [--reset] [--all]`
   - 只填 json：仅注入，适合本地预览
   - `--reset`：先清空 `CONTENT.social` 再追加（换赛道时用，**慎用**）
-  - `--all`：注入 + 升缓存 + 同步 dist + 提交推送（等价于注入后再跑 deploy.sh）
+  - `--all`：注入 + 升缓存 + 同步 dist + 提交推送
   - 会自动备份 `content.js.bak_xhs`，语法校验失败自动还原
-- `deploy.sh "提交信息"`：升 sw 缓存版本 → 同步 dist → `git pull --rebase` → 再同步 dist → push（rebase 会重写 root 文件，所以 dist 要同步两次）
+  - json 里带 `date` / `day` 字段时按字段写入，不带则 day = 长度 + 1
+- `deploy.sh "提交信息"`：升 sw 缓存版本 → 同步 dist → `git pull --rebase` → 再同步 dist → push
+
+### 违禁词规范（硬性，2026-09-04 建立）
+
+起因：Day 1 / Day 2 笔记发布成功但被屏蔽，长时间 0 浏览——文案踩了
+**绝对化承诺 + 站外引流 + 数据承诺**三类词。**发布区 P0 必须为 0。**
+
+- 词表与替换建议：`banned_words.md`（改词表改 `check_words.py` 的 `WORDS`）
+- 三类高频雷：站外引流（微信 / 加V / 私信我 / 二维码）、绝对化（保证 / 一定 / 100%）、
+  极限词（最好 / 第一 / 顶级 / 全网）
+- 检查脚本会**区分发布区和内部区**：标题 / 正文 / 标签 / 封面是发布区，命中必须清零；
+  「今日选题」「涨粉动作」这类工作台内部看的板块只提示、不阻断
 
 ## 五、代码相关（改了这里要同步）
-- `content.js` 的 `CONTENT.social`：`title` 存 `Day N · 社媒内容`，`tag` 存当天主题。
-- `index.html` 的 `contentIdx()`：**social 走 `arr.length - 1`（永远显示最新一篇）**，不走 `dateIndex()`。
-  这样自动化断更时会停在最后一篇，不会重复推旧内容。
-- 内容只允许**追加**，不要截断数组（截断会让 "最新一篇" 错位）。30 篇约 150KB，可接受。
+- `content.js` 的 `CONTENT.social`：`title` 存 `Day N · 社媒内容`，`tag` 存当天主题，
+  另有 **`date`（计划发布日 YYYY-MM-DD）** 和 **`day`（连载序号）** 两个字段。
+- `index.html` 的 `contentIdx()`：**social 走 `socialIdx(arr)`** —— 取「date ≤ 今天」的最后一篇。
+  这样提前备好的未来篇目不会自动跳出来抢位置，但可以在详情页的**篇目条**里点开预览。
+  前端还会在篇目条上标「今天 / 已发 / 待发」，待发篇目提示「可先做主图」。
+- 内容只允许**追加**，不要截断数组（截断会让篇目错位）。30 篇约 150KB，可接受。
+- 自动化的 `pick`（手动切换的篇目）只在当天有效，跨天会被清除。
 - 发布后 Pages 有几十秒延迟，`curl` 验证要等一会儿。

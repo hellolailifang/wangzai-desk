@@ -141,12 +141,14 @@ def main():
         src = CONTENT.read_text(encoding="utf-8")
         start, end = find_key_span(src, "social")
     n = count_entries(src, start, end)
-    day = n + 1
-    entry_out = {
-        "title": f"Day {day} · 社媒内容",
-        "tag": entry["tag"],
-        "blocks": entry["blocks"],
-    }
+    day = entry.get("day") or (n + 1)
+    entry_out = {"title": f"Day {day} · 社媒内容"}
+    # 计划发布日（休息/长假前一天会一次性备好后面几天，前端靠它决定默认显示哪篇）
+    if entry.get("date"):
+        entry_out["date"] = entry["date"]
+    entry_out["day"] = day
+    entry_out["tag"] = entry["tag"]
+    entry_out["blocks"] = entry["blocks"]
 
     # 备份
     shutil.copy(CONTENT, ROOT / "content.js.bak_xhs")
