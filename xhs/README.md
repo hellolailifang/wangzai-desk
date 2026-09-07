@@ -202,7 +202,7 @@
 > 遇到双休 / 法定假在**休息前一天**一次性把整个休息期备齐。
 
 ```bash
-cd /Users/lailifang/WorkBuddy/2026-07-27-09-50-21
+cd /Users/lailifang/WorkBuddy/wangzai-desk-local
 P=/Users/lailifang/.workbuddy/binaries/python/versions/3.13.12/bin/python3
 
 # 0）先看今天要备哪几天（会跳过已生成的日期）
