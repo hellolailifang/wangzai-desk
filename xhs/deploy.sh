@@ -2,7 +2,8 @@
 # 工作台部署：升 sw 缓存版本 → 同步 dist → SSH 推送 GitHub Pages
 # 用法：bash xhs/deploy.sh "提交信息"
 set -e
-cd /Users/lailifang/WorkBuddy/2026-07-27-09-50-21
+# 自动定位仓库根目录（无论从哪个目录调用此脚本，都切到 git 仓库根）
+cd "$(git rev-parse --show-toplevel)"
 MSG="${1:-更新工作台内容}"
 
 PY=/Users/lailifang/.workbuddy/binaries/python/versions/3.13.12/bin/python3
