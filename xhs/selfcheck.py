@@ -8,6 +8,7 @@
 
 用法：python3 xhs/selfcheck.py xhs/day10.json
 """
+import html
 import json
 import re
 import sys
@@ -19,9 +20,11 @@ MKT_WORDS = [
     "干货预警", "纯干货", "万字", "建议收藏", "划重点", "小白必看",
     "保姆式", "全方位", "爆款", "引流",
 ]
-SELF_DOUBT = ["想多了", "不敢下结论", "说不准", "我也不确定", "样本", "我也不敢", "可能我想", "不敢说"]
+SELF_DOUBT = ["想多了", "不敢下结论", "说不准", "我也不确定", "样本", "我也不敢", "可能我想",
+              "不敢说", "不见得", "没十足把握", "不敢下", "不一定"]
 IMPERFECT = ["我那会儿还挺自信", "挺懵", "随手写", "发了像没发", "差点", "懵", "失神", "分不清",
-             "咯噔一下", "看了好久", "人就没了", "白纸一张", "有点慌", "松了口气"]
+             "咯噔一下", "看了好久", "人就没了", "白纸一张", "有点慌", "松了口气",
+             "破防", "挺尬", "尬", "扎心", "委屈", "不好意思", "有点虚", "嫌它"]
 SOften = ["你们要是", "你们那行", "你要是有空", "你们里", "你们做"]
 INVITE = ["聊聊", "讲讲", "说说", "跟我聊", "我还挺想听", "回来跟我说", "甩评论区", "跟我说说"]
 CONCRETE_TIME = ["上周", "前天", "今晚", "昨天", "今天", "早上", "晚上", "两周", "五天",
@@ -38,11 +41,27 @@ LECTURE_MARK = ["也就是说", "说白了", "本质上", "换句话说", "换�
 
 
 def strip_ta(text):
-    """从 textarea 块里抠出正文纯文本。"""
+    """从 textarea 块里抠出正文纯文本（还原 HTML 实体，计数才准）。"""
     m = re.search(r">([\s\S]*?)</textarea>", text)
-    if not m:
-        return re.sub(r"<[^>]+>", "", text)
-    return m.group(1)
+    t = m.group(1) if m else re.sub(r"<[^>]+>", "", text)
+    return html.unescape(t)
+
+
+def kw_and_title(e):
+    """从 blocks[3] 取核心搜索词，从 blocks[1] 取主推标题。"""
+    kw = title = None
+    try:
+        b3 = e["blocks"][3]["body"]
+        m = re.search(r"核心搜索词：</b>([^<]+)", b3)
+        if m:
+            kw = m.group(1).strip()
+    except Exception:
+        pass
+    b1 = e["blocks"][1]["body"]
+    m = re.search(r"主推(?:（🔍 搜索向）)?：</b>([^<]+)", b1)
+    if m:
+        title = m.group(1).strip()
+    return kw, title
 
 
 def audit(path):
@@ -116,6 +135,26 @@ def audit(path):
         ok10 = (not lec) and (cause <= 4)
         print(f"[{'PASS' if ok10 else 'WARN'}] 去说教：说教标记{lec or '无'} "
               f"｜因为/所以共 {cause} 处（≤4）")
+
+
+        # 11. 搜索关键词布局（2026-09-20 新增：核心词是否真的埋进去了）
+        kw, title = kw_and_title(e)
+        if not kw:
+            print("[WARN] 搜索词：blocks[3] 里没找到「核心搜索词」，本篇没做搜索词布局")
+        else:
+            cnt = post.count(kw)
+            in_head = kw in post[:120]
+            print(f"[{'PASS' if 2 <= cnt <= 6 else 'WARN'}] 搜索词「{kw}」正文出现 {cnt} 次  (要求 2–6，别堆砌)")
+            print(f"[{'PASS' if in_head else 'WARN'}] 搜索词进了正文前 120 字：{in_head}")
+            if title:
+                ok_t = kw in title[:20]
+                print(f"[{'PASS' if ok_t else 'WARN'}] 搜索词进了标题前 20 字：{ok_t}（标题：{title}）")
+            else:
+                print("[WARN] 没取到主推标题，无法检查标题埋词")
+        # 12. 板块完整性：必须有 🔍 搜索关键词板块
+        heads = [b.get("h", "") for b in e["blocks"]]
+        has_seo = any("搜索关键词" in h for h in heads)
+        print(f"[{'PASS' if has_seo else 'WARN'}] 含 🔍 搜索关键词板块：{has_seo}（板块：{heads}）")
 
 
 if __name__ == "__main__":
