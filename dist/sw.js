@@ -1,9 +1,11 @@
 // 离线缓存策略
+// v115（2026-09-21）：客户开发（geo）滚动换血 —— Day1 换「两轮车与电动出行」、
+//   Day2 换「机器人与智能装备」，共 12 家中国企业（各 1 家头部 + 5 家腰部），同步 dist 部署；
 // v114（2026-09-21）：社媒模块新增抖音周更第 11 周推荐，同步 dist 部署；
 // v93（2026-09-04）：HTML / JS（含 content.js）改为「网络优先」，手机端打开即见最新内容；
 //   图片等静态资源仍走 stale-while-revalidate（省流量、秒开）。
 //   旧版全部走 stale-while-revalidate，导致手机端每次打开先看旧缓存，内容"永远慢一天"。
-const CACHE = 'wz-desk-v114';
+const CACHE = 'wz-desk-v115';
 
 // 需要「网络优先」的关键文件：内容/逻辑变了必须立刻生效
 const NETWORK_FIRST_RE = /(\/$|\/(index\.html|content\.js|en_practice\.js|manifest\.webmanifest)$)/;
