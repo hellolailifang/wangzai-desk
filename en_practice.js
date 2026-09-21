@@ -1,7 +1,7 @@
 /* =========================================================
    旺仔的工作台 · 英语学习「听 / 说 / 单词」交互训练数据
    与 content.js 中 english 数组一一对应（索引 0-20）。
-   每周焕新：2026-08-31 生成，21 天外贸/差旅/商务场景全新对话
+   每周焕新：2026-09-21 生成，21 天外贸/差旅/商务场景全新对话（单词复用旧库）
    ========================================================= */
 const EN_PRACTICE = {
   "0": {
@@ -129,59 +129,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Good evening, do you have a reservation?",
-        "zh": "晚上好，您有预订吗？"
+        "en": "Welcome to China. What is the purpose of your visit?",
+        "zh": "欢迎来到中国。您此行的目的是什么？"
       },
       {
         "role": "B",
-        "en": "Yes, under the name Li.",
-        "zh": "有，用 Li 这个名字预订的。"
+        "en": "I'm here for a trade fair and factory visits.",
+        "zh": "我是来参加展会和参观工厂的。"
       },
       {
         "role": "A",
-        "en": "Your room is 1210. Here is your key card.",
-        "zh": "您的房间是 1210，这是您的房卡。"
+        "en": "How long will you be staying?",
+        "zh": "您打算停留多久？"
       },
       {
         "role": "B",
-        "en": "What time is breakfast served?",
-        "zh": "早餐几点供应？"
+        "en": "About ten days.",
+        "zh": "大约十天。"
       },
       {
         "role": "A",
-        "en": "6:30 to 10, on the third floor.",
-        "zh": "6:30 到 10 点，在三楼。"
+        "en": "Do you have a hotel reservation?",
+        "zh": "您有酒店预订吗？"
       },
       {
         "role": "B",
-        "en": "Could I get a wake-up call at 7?",
-        "zh": "能帮我设早上 7 点的叫早电话吗？"
+        "en": "Yes, at a hotel in the city center.",
+        "zh": "有，在市中心一家酒店。"
       },
       {
         "role": "A",
-        "en": "Certainly, 7 a.m. sharp.",
-        "zh": "当然，7 点整。"
+        "en": "Please place your fingerprints here.",
+        "zh": "请在这里按指纹。"
       },
       {
         "role": "B",
-        "en": "Is there a socket for my laptop?",
-        "zh": "房间有笔记本电脑的插座吗？"
+        "en": "Like this?",
+        "zh": "是这样吗？"
       },
       {
         "role": "A",
-        "en": "Yes, by the desk, and USB ports too.",
-        "zh": "有，在书桌旁，还有 USB 接口。"
+        "en": "Exactly. Enjoy your trip.",
+        "zh": "对的。祝您旅途愉快。"
       },
       {
         "role": "B",
-        "en": "Great, thank you.",
-        "zh": "好的，谢谢。"
+        "en": "Thank you very much.",
+        "zh": "非常感谢。"
       }
     ],
     "speak": [
-      "Do you have a reservation?",
-      "What time is breakfast served?",
-      "Could I get a wake-up call at 7?"
+      "What is the purpose of your visit?",
+      "I'm here for a trade fair.",
+      "About ten days."
     ],
     "words": [
       {
@@ -250,59 +250,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "A table for two, please.",
-        "zh": "请安排两人桌。"
+        "en": "Good afternoon, do you have a reservation?",
+        "zh": "下午好，您有预订吗？"
       },
       {
         "role": "B",
-        "en": "By the window okay?",
-        "zh": "靠窗可以吗？"
+        "en": "Yes, under the name Wang.",
+        "zh": "有，用 Wang 这个名字订的。"
       },
       {
         "role": "A",
-        "en": "Perfect. Could I see the menu?",
-        "zh": "很好。可以看下菜单吗？"
+        "en": "A standard room for two nights?",
+        "zh": "标准间两晚，对吗？"
       },
       {
         "role": "B",
-        "en": "Here you are. Today's special is grilled fish.",
-        "zh": "给您。今日特餐是烤鱼。"
+        "en": "That's right. Is breakfast included?",
+        "zh": "对。含早餐吗？"
       },
       {
         "role": "A",
-        "en": "I'll have the fish, medium.",
-        "zh": "我要那份鱼，七分熟。"
+        "en": "Yes, breakfast is on the 12th floor.",
+        "zh": "含的，早餐在 12 楼。"
       },
       {
         "role": "B",
-        "en": "Anything to drink?",
-        "zh": "喝点什么？"
+        "en": "Great. Could I have a quiet room?",
+        "zh": "太好了。能给我一间安静的房间吗？"
       },
       {
         "role": "A",
-        "en": "Sparkling water, no ice.",
-        "zh": "气泡水，不加冰。"
+        "en": "Sure, a high floor away from the elevator.",
+        "zh": "可以，给您高楼层、远离电梯的。"
       },
       {
         "role": "B",
-        "en": "And for dessert?",
-        "zh": "甜点呢？"
+        "en": "Perfect. What time is checkout?",
+        "zh": "很好。几点退房？"
       },
       {
         "role": "A",
-        "en": "No thanks, just the bill please.",
-        "zh": "不用了，请结账。"
+        "en": "Before noon, please.",
+        "zh": "中午之前，谢谢。"
       },
       {
         "role": "B",
-        "en": "Sure, I'll bring it over.",
-        "zh": "好的，我拿过来。"
+        "en": "Got it. Thank you.",
+        "zh": "明白了，谢谢。"
       }
     ],
     "speak": [
-      "A table for two, please.",
-      "Could I see the menu?",
-      "Just the bill please."
+      "Do you have a reservation?",
+      "Is breakfast included?",
+      "Could I have a quiet room?"
     ],
     "words": [
       {
@@ -371,59 +371,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Excuse me, how do I get to the trade fair?",
-        "zh": "打扰一下，去展会怎么走？"
+        "en": "Thank you for coming to our meeting today.",
+        "zh": "感谢您今天来参加我们的会议。"
       },
       {
         "role": "B",
-        "en": "Take Metro Line 2 to International Expo.",
-        "zh": "坐地铁 2 号线到国际会展中心。"
+        "en": "My pleasure. I've heard good things about your company.",
+        "zh": "我的荣幸。我听说贵公司口碑很好。"
       },
       {
         "role": "A",
-        "en": "Is it far from here?",
-        "zh": "离这儿远吗？"
+        "en": "Let me walk you through our main products.",
+        "zh": "我给您介绍一下我们的主打产品。"
       },
       {
         "role": "B",
-        "en": "About twenty minutes.",
-        "zh": "大概二十分钟。"
+        "en": "Please go ahead.",
+        "zh": "请讲。"
       },
       {
         "role": "A",
-        "en": "Should I transfer?",
-        "zh": "需要换乘吗？"
+        "en": "We focus on cost-effective solutions for export.",
+        "zh": "我们专注于面向出口的高性价比方案。"
       },
       {
         "role": "B",
-        "en": "No, it's a direct line.",
-        "zh": "不用，直达。"
+        "en": "That fits our needs exactly.",
+        "zh": "那正合我们的需求。"
       },
       {
         "role": "A",
-        "en": "Which exit should I take?",
-        "zh": "我该走哪个出口？"
+        "en": "Shall we discuss pricing next?",
+        "zh": "接下来我们聊聊价格好吗？"
       },
       {
         "role": "B",
-        "en": "Exit C leads to the south gate.",
-        "zh": "C 出口通向南门。"
+        "en": "Yes, please send me a formal quote.",
+        "zh": "好，请给我一份正式报价单。"
       },
       {
         "role": "A",
-        "en": "Got it, thanks a lot.",
-        "zh": "明白了，多谢。"
+        "en": "I'll prepare it after the meeting.",
+        "zh": "会后我就准备好。"
       },
       {
         "role": "B",
-        "en": "You're welcome, safe travels.",
-        "zh": "不客气，一路顺风。"
+        "en": "Looking forward to it.",
+        "zh": "期待。"
       }
     ],
     "speak": [
-      "How do I get to the trade fair?",
-      "Is it far from here?",
-      "Which exit should I take?"
+      "Thank you for coming to our meeting.",
+      "We focus on cost-effective solutions.",
+      "Please send me a formal quote."
     ],
     "words": [
       {
@@ -492,59 +492,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "How much is this power bank?",
-        "zh": "这个充电宝多少钱？"
+        "en": "This is our best-selling model this year.",
+        "zh": "这是我们今年最畅销的型号。"
       },
       {
         "role": "B",
-        "en": "180 yuan each.",
-        "zh": "每个 180 元。"
+        "en": "What makes it different from last year?",
+        "zh": "和去年比有什么不同？"
       },
       {
         "role": "A",
-        "en": "That's a bit high. Any discount?",
-        "zh": "有点贵。有折扣吗？"
+        "en": "It's 20% lighter and uses less power.",
+        "zh": "轻了 20%，也更省电。"
       },
       {
         "role": "B",
-        "en": "If you take three, 150 each.",
-        "zh": "拿三个的话，每个 150。"
+        "en": "Impressive. What's the warranty?",
+        "zh": "不错。保修多久？"
       },
       {
         "role": "A",
-        "en": "Can you do 130?",
-        "zh": "130 行吗？"
+        "en": "Two years, with free spare parts.",
+        "zh": "两年，免费提供备件。"
       },
       {
         "role": "B",
-        "en": "Okay, 140, final price.",
-        "zh": "行，140，最低了。"
+        "en": "And the lead time?",
+        "zh": "交货期呢？"
       },
       {
         "role": "A",
-        "en": "Deal. I'll take five.",
-        "zh": "成交。我要五个。"
+        "en": "Usually 15 to 20 days after deposit.",
+        "zh": "通常收到定金后 15 到 20 天。"
       },
       {
         "role": "B",
-        "en": "Cash or scan?",
-        "zh": "现金还是扫码？"
+        "en": "Can you customize the packaging?",
+        "zh": "可以定制包装吗？"
       },
       {
         "role": "A",
-        "en": "I'll scan.",
-        "zh": "我扫码。"
+        "en": "Yes, we do OEM and private label.",
+        "zh": "可以，我们做 OEM 和自有品牌。"
       },
       {
         "role": "B",
-        "en": "Done, thank you.",
-        "zh": "好了，谢谢。"
+        "en": "Good to know.",
+        "zh": "了解，很好。"
       }
     ],
     "speak": [
-      "How much is this power bank?",
-      "Any discount?",
-      "Can you do 130?"
+      "This is our best-selling model.",
+      "What's the warranty?",
+      "Can you customize the packaging?"
     ],
     "words": [
       {
@@ -613,59 +613,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Sir, are you okay? You look pale.",
-        "zh": "先生，您没事吧？脸色不太好。"
+        "en": "Here is our quote for 1,000 units.",
+        "zh": "这是 1000 台的报价。"
       },
       {
         "role": "B",
-        "en": "I feel dizzy and my chest hurts.",
-        "zh": "我头晕，胸口疼。"
+        "en": "It's a bit above our budget.",
+        "zh": "比我们的预算略高。"
       },
       {
         "role": "A",
-        "en": "Let me call an ambulance.",
-        "zh": "我帮您叫救护车。"
+        "en": "We can offer 5% off for a first order.",
+        "zh": "首单我们可以给 5% 折扣。"
       },
       {
         "role": "B",
-        "en": "My medicine is in the left pocket.",
-        "zh": "我的药在左边口袋里。"
+        "en": "What about the shipping cost?",
+        "zh": "运费怎么算？"
       },
       {
         "role": "A",
-        "en": "Got it. Help is on the way.",
-        "zh": "找到了。救援在路上。"
+        "en": "FOB Shenzhen, you arrange the freight.",
+        "zh": "深圳 FOB，运费您自己安排。"
       },
       {
         "role": "B",
-        "en": "Thank you, I'm so sorry for the trouble.",
-        "zh": "谢谢，给你添麻烦了。"
+        "en": "Could you do CIF to our port?",
+        "zh": "能报 CIF 到我们港口吗？"
       },
       {
         "role": "A",
-        "en": "Don't worry, just breathe slowly.",
-        "zh": "别担心，慢慢呼吸。"
+        "en": "Sure, I'll add the sea freight.",
+        "zh": "可以，我把海运费加上。"
       },
       {
         "role": "B",
-        "en": "Where is the nearest hospital?",
-        "zh": "最近的医院在哪？"
+        "en": "Deal. Send me the revised quote.",
+        "zh": "成交。把修改后的报价发我。"
       },
       {
         "role": "A",
-        "en": "Two blocks ahead, turn right.",
-        "zh": "往前两个街区，右转。"
+        "en": "Will do, with the contract attached.",
+        "zh": "好的，附上合同一起发。"
       },
       {
         "role": "B",
-        "en": "I'll remember that.",
-        "zh": "我记住了。"
+        "en": "Appreciated.",
+        "zh": "多谢。"
       }
     ],
     "speak": [
-      "Are you okay?",
-      "Let me call an ambulance.",
-      "Where is the nearest hospital?"
+      "It's a bit above our budget.",
+      "Could you do CIF to our port?",
+      "Deal."
     ],
     "words": [
       {
@@ -734,59 +734,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Hi, I'm Leo from Shenzhen. Nice to meet you.",
-        "zh": "您好，我是深圳的 Leo，很高兴认识您。"
+        "en": "This is our production line, fully automated.",
+        "zh": "这是我们的生产线，全自动的。"
       },
       {
         "role": "B",
-        "en": "Welcome! What line of business are you in?",
-        "zh": "欢迎！您做哪一行？"
+        "en": "What's your monthly capacity?",
+        "zh": "月产能多少？"
       },
       {
         "role": "A",
-        "en": "We manufacture smart home devices.",
-        "zh": "我们生产智能家居设备。"
+        "en": "Around 80,000 units per month.",
+        "zh": "每月大约 8 万台。"
       },
       {
         "role": "B",
-        "en": "Interesting. Do you have a catalog?",
-        "zh": "有意思。有产品目录吗？"
+        "en": "And quality control?",
+        "zh": "质量控制呢？"
       },
       {
         "role": "A",
-        "en": "Sure, here's our latest one.",
-        "zh": "有，这是我们最新的。"
+        "en": "We inspect at three checkpoints.",
+        "zh": "我们在三个节点做检验。"
       },
       {
         "role": "B",
-        "en": "What's your MOQ and lead time?",
-        "zh": "最小起订量和交期是多少？"
+        "en": "May I see the QC reports?",
+        "zh": "能看一下质检报告吗？"
       },
       {
         "role": "A",
-        "en": "MOQ 500 units, 25 days.",
-        "zh": "最小 500 台，25 天。"
+        "en": "Of course, here are the latest ones.",
+        "zh": "当然，这是最新的。"
       },
       {
         "role": "B",
-        "en": "Could you send a quotation later?",
-        "zh": "稍后能发一份报价吗？"
+        "en": "Your workshop is cleaner than expected.",
+        "zh": "你们的车间比预期干净。"
       },
       {
         "role": "A",
-        "en": "Absolutely, may I have your card?",
-        "zh": "当然，能留张名片吗？"
+        "en": "We follow strict standards.",
+        "zh": "我们执行严格标准。"
       },
       {
         "role": "B",
-        "en": "Of course, here you go.",
-        "zh": "当然，给您。"
+        "en": "I'm convinced. Let's talk MOQ.",
+        "zh": "我放心了。聊聊起订量吧。"
       }
     ],
     "speak": [
-      "What line of business are you in?",
-      "What's your MOQ and lead time?",
-      "Could you send a quotation later?"
+      "What's your monthly capacity?",
+      "May I see the QC reports?",
+      "I'm convinced."
     ],
     "words": [
       {
@@ -855,59 +855,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "This is our assembly line for earbuds.",
-        "zh": "这是我们的耳机组装线。"
+        "en": "Please, have a seat. Try some local dishes.",
+        "zh": "请坐，尝尝本地菜。"
       },
       {
         "role": "B",
-        "en": "What's your monthly capacity?",
-        "zh": "月产能多少？"
+        "en": "Everything looks delicious.",
+        "zh": "每道菜看起来都好吃。"
       },
       {
         "role": "A",
-        "en": "Around 300,000 units per month.",
-        "zh": "大约每月 30 万台。"
+        "en": "This is our famous spicy hotpot.",
+        "zh": "这是我们有名的麻辣火锅。"
       },
       {
         "role": "B",
-        "en": "How do you control quality?",
-        "zh": "你们怎么控质量？"
+        "en": "I love spicy food.",
+        "zh": "我喜欢辣的。"
       },
       {
         "role": "A",
-        "en": "Every unit is tested before packing.",
-        "zh": "每台出厂前都经过测试。"
+        "en": "Let me pour you a glass of tea.",
+        "zh": "我给您倒杯茶。"
       },
       {
         "role": "B",
-        "en": "Can we audit the warehouse?",
-        "zh": "能看一下仓库吗？"
+        "en": "Thank you. To our partnership!",
+        "zh": "谢谢。为我们的合作干杯！"
       },
       {
         "role": "A",
-        "en": "Sure, this way please.",
-        "zh": "可以，这边请。"
+        "en": "To our partnership!",
+        "zh": "为合作干杯！"
       },
       {
         "role": "B",
-        "en": "The hygiene looks good.",
-        "zh": "卫生状况不错。"
+        "en": "How long have you been in this business?",
+        "zh": "您做这行多久了？"
       },
       {
         "role": "A",
-        "en": "We follow ISO 9001 strictly.",
-        "zh": "我们严格执行 ISO 9001。"
+        "en": "Over fifteen years now.",
+        "zh": "十五年多了。"
       },
       {
         "role": "B",
-        "en": "Impressive, thank you.",
-        "zh": "很不错，谢谢。"
+        "en": "No wonder you're so professional.",
+        "zh": "难怪您这么专业。"
       }
     ],
     "speak": [
-      "What's your monthly capacity?",
-      "How do you control quality?",
-      "Can we audit the warehouse?"
+      "Please, have a seat.",
+      "I love spicy food.",
+      "To our partnership!"
     ],
     "words": [
       {
@@ -976,59 +976,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Here's our best quotation for 1,000 units.",
-        "zh": "这是 1000 台的优惠报价。"
+        "en": "Hi Mark, I'm following up on the email I sent.",
+        "zh": "Hi Mark，我跟进一下发的邮件。"
       },
       {
         "role": "B",
-        "en": "Could you break down the cost?",
-        "zh": "能拆分一下成本吗？"
+        "en": "Got it. I'm reviewing the samples now.",
+        "zh": "收到了。我正在看样品。"
       },
       {
         "role": "A",
-        "en": "Sure: material 40%, labor 25%, overhead 15%.",
-        "zh": "可以：材料 40%、人工 25%、管理费 15%。"
+        "en": "Let me know if the specs match.",
+        "zh": "规格相符的话告诉我。"
       },
       {
         "role": "B",
-        "en": "If we order 5,000, what's the unit price?",
-        "zh": "如果订 5000，单价多少？"
+        "en": "Looks good, but the color is slightly off.",
+        "zh": "看起来不错，但颜色有点偏差。"
       },
       {
         "role": "A",
-        "en": "It drops to 22 dollars each.",
-        "zh": "降到每台 22 美元。"
+        "en": "We can adjust to your Pantone code.",
+        "zh": "可以按您的潘通色号调整。"
       },
       {
         "role": "B",
-        "en": "Can you include free samples?",
-        "zh": "能包样品吗？"
+        "en": "That works. Send an updated proof.",
+        "zh": "可以。发一份更新稿。"
       },
       {
         "role": "A",
-        "en": "Yes, 3 samples included.",
-        "zh": "可以，含 3 件样品。"
+        "en": "Will do by tomorrow.",
+        "zh": "明天之前发您。"
       },
       {
         "role": "B",
-        "en": "What are your payment terms?",
-        "zh": "付款条件呢？"
+        "en": "Perfect. Thanks for the quick reply.",
+        "zh": "太好了。多谢及时回复。"
       },
       {
         "role": "A",
-        "en": "30% deposit, 70% before shipment.",
-        "zh": "30% 定金，70% 发货前付清。"
+        "en": "Anytime. We want this right.",
+        "zh": "不客气。我们想把事情做对。"
       },
       {
         "role": "B",
-        "en": "That works for us.",
-        "zh": "这个我们可以接受。"
+        "en": "Glad to work with you.",
+        "zh": "很高兴和您合作。"
       }
     ],
     "speak": [
-      "Could you break down the cost?",
-      "What's the unit price for 5,000?",
-      "What are your payment terms?"
+      "I'm following up on the email.",
+      "Looks good, but the color is off.",
+      "Send an updated proof."
     ],
     "words": [
       {
@@ -1097,59 +1097,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "I'm drafting a follow-up email to the client.",
-        "zh": "我在起草给客户的跟进邮件。"
+        "en": "Hello, this is Wang from Shenzhen.",
+        "zh": "您好，我是深圳的 Wang。"
       },
       {
         "role": "B",
-        "en": "Keep it short and clear.",
-        "zh": "简短清晰就好。"
+        "en": "Hi Wang, what can I do for you?",
+        "zh": "Hi Wang，有什么可以帮您？"
       },
       {
         "role": "A",
-        "en": "Should I attach the updated catalog?",
-        "zh": "要附上更新后的目录吗？"
+        "en": "I'd like to confirm the shipment date.",
+        "zh": "我想确认一下发货日期。"
       },
       {
         "role": "B",
-        "en": "Yes, and a one-page spec sheet.",
-        "zh": "要，再加一页规格表。"
+        "en": "It will leave on Friday as planned.",
+        "zh": "按计划和周五发出。"
       },
       {
         "role": "A",
-        "en": "What subject line works best?",
-        "zh": "主题行怎么写比较好？"
+        "en": "Could you send the tracking number?",
+        "zh": "能发一下追踪单号吗？"
       },
       {
         "role": "B",
-        "en": "Quote follow-up: smart sensor MOQ 500.",
-        "zh": "写：报价跟进—智能传感器 最小500。"
+        "en": "Sure, I'll text it after packing.",
+        "zh": "可以，打包后短信发您。"
       },
       {
         "role": "A",
-        "en": "Good. I'll send it this afternoon.",
-        "zh": "好，今天下午发。"
+        "en": "Great. Please keep me posted.",
+        "zh": "好的。请随时告知进展。"
       },
       {
         "role": "B",
-        "en": "Set a reminder to call if no reply in 3 days.",
-        "zh": "设个提醒，三天没回就电话。"
+        "en": "Will do. Anything else?",
+        "zh": "会的。还有别的事吗？"
       },
       {
         "role": "A",
-        "en": "Noted. Anything else?",
-        "zh": "记下了。还有别的吗？"
+        "en": "No, that's all. Thank you.",
+        "zh": "没了，谢谢。"
       },
       {
         "role": "B",
-        "en": "No, that's all.",
-        "zh": "没了，就这些。"
+        "en": "Talk soon.",
+        "zh": "回头聊。"
       }
     ],
     "speak": [
-      "Should I attach the updated catalog?",
-      "What subject line works best?",
-      "I'll send it this afternoon."
+      "I'd like to confirm the shipment date.",
+      "Could you send the tracking number?",
+      "Keep me posted."
     ],
     "words": [
       {
@@ -1218,59 +1218,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Do you accept PayPal or T/T?",
-        "zh": "你们收 PayPal 还是电汇？"
+        "en": "Just a reminder, the balance is due this week.",
+        "zh": "提醒一下，尾款这周到期。"
       },
       {
         "role": "B",
-        "en": "We prefer T/T for bulk orders.",
-        "zh": "大单我们更接受电汇。"
+        "en": "Understood. We're processing it now.",
+        "zh": "明白。我们正在处理。"
       },
       {
         "role": "A",
-        "en": "Is the price FOB or CIF?",
-        "zh": "价格是 FOB 还是 CIF？"
+        "en": "Could you share the wire slip?",
+        "zh": "能发一下汇款底单吗？"
       },
       {
         "role": "B",
-        "en": "FOB Shenzhen by default.",
-        "zh": "默认深圳 FOB。"
+        "en": "Yes, I'll email it today.",
+        "zh": "好，今天邮件发您。"
       },
       {
         "role": "A",
-        "en": "Who covers the insurance?",
-        "zh": "保险谁出？"
+        "en": "Once received, I'll arrange delivery.",
+        "zh": "收到后我就安排发货。"
       },
       {
         "role": "B",
-        "en": "Buyer's side under FOB.",
-        "zh": "FOB 下由买方承担。"
+        "en": "Appreciate the flexibility.",
+        "zh": "多谢通融。"
       },
       {
         "role": "A",
-        "en": "Can we use a letter of credit?",
-        "zh": "能用信用证吗？"
+        "en": "We value long-term partners.",
+        "zh": "我们重视长期伙伴。"
       },
       {
         "role": "B",
-        "en": "Yes, for first orders only.",
-        "zh": "可以，但仅限首单。"
+        "en": "So do we. See you next order.",
+        "zh": "我们也一样。下单相见。"
       },
       {
         "role": "A",
-        "en": "Understood, I'll arrange the deposit.",
-        "zh": "明白，我来安排定金。"
+        "en": "Looking forward to it.",
+        "zh": "期待。"
       },
       {
         "role": "B",
-        "en": "Great, thank you.",
-        "zh": "好的，谢谢。"
+        "en": "Have a good day.",
+        "zh": "祝一天愉快。"
       }
     ],
     "speak": [
-      "Do you accept PayPal or T/T?",
-      "Is the price FOB or CIF?",
-      "Can we use a letter of credit?"
+      "The balance is due this week.",
+      "Could you share the wire slip?",
+      "We value long-term partners."
     ],
     "words": [
       {
@@ -1339,59 +1339,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "When can you ship the order?",
-        "zh": "订单什么时候能发？"
+        "en": "I've prepared the samples you requested.",
+        "zh": "您要的样品我准备好了。"
       },
       {
         "role": "B",
-        "en": "Within 5 days after deposit.",
-        "zh": "收到定金后 5 天内。"
+        "en": "Great. How will you ship them?",
+        "zh": "太好了。怎么寄？"
       },
       {
         "role": "A",
-        "en": "Which port do you use?",
-        "zh": "走哪个港口？"
+        "en": "By express, DHL, about three days.",
+        "zh": "走 DHL 快递，大概三天。"
       },
       {
         "role": "B",
-        "en": "Yantian, Shenzhen.",
-        "zh": "深圳盐田。"
+        "en": "Please mark them as samples, no commercial value.",
+        "zh": "请标为样品、无商业价值。"
       },
       {
         "role": "A",
-        "en": "Sea or air freight?",
-        "zh": "海运还是空运？"
+        "en": "Of course, to avoid customs issues.",
+        "zh": "当然，避免清关麻烦。"
       },
       {
         "role": "B",
-        "en": "Sea for this volume, 18 days to LA.",
-        "zh": "这个量走海运，到洛杉矶 18 天。"
+        "en": "And the shipping cost?",
+        "zh": "运费呢？"
       },
       {
         "role": "A",
-        "en": "Can you handle customs clearance?",
-        "zh": "能代办清关吗？"
+        "en": "We'll cover it for this first batch.",
+        "zh": "首批我们承担。"
       },
       {
         "role": "B",
-        "en": "Yes, we work with a local broker.",
-        "zh": "可以，我们有本地代理。"
+        "en": "That's very kind.",
+        "zh": "太客气了。"
       },
       {
         "role": "A",
-        "en": "Please share the tracking number.",
-        "zh": "请提供追踪单号。"
+        "en": "We want you to test with confidence.",
+        "zh": "希望您放心测试。"
       },
       {
         "role": "B",
-        "en": "Will do once it sails.",
-        "zh": "一开船就发您。"
+        "en": "I'll place an order if they pass.",
+        "zh": "通过就下单。"
       }
     ],
     "speak": [
-      "When can you ship the order?",
-      "Which port do you use?",
-      "Can you handle customs clearance?"
+      "I've prepared the samples.",
+      "Please mark them as samples.",
+      "We'll cover the shipping."
     ],
     "words": [
       {
@@ -1460,59 +1460,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Can you see and hear me clearly?",
-        "zh": "能看清听清我吗？"
+        "en": "Welcome to our booth! What are you looking for?",
+        "zh": "欢迎来到我们的展位！您在找什么产品？"
       },
       {
         "role": "B",
-        "en": "Yes, the video is sharp.",
-        "zh": "可以，画面很清晰。"
+        "en": "I saw your catalog online.",
+        "zh": "我在网上看到了你们的产品册。"
       },
       {
         "role": "A",
-        "en": "Let's review the prototype together.",
-        "zh": "我们一起看下样品。"
+        "en": "This is the new version, just launched.",
+        "zh": "这是新版，刚上市。"
       },
       {
         "role": "B",
-        "en": "Looks good, but the button feels stiff.",
-        "zh": "不错，但按键偏硬。"
+        "en": "The design is cleaner than before.",
+        "zh": "设计比之前简洁。"
       },
       {
         "role": "A",
-        "en": "Noted, we'll soften the spring.",
-        "zh": "记下了，我们把弹簧调软。"
+        "en": "We redesigned it for overseas markets.",
+        "zh": "我们为海外市场重做了设计。"
       },
       {
         "role": "B",
-        "en": "Could you share the 3D file?",
-        "zh": "能共享下 3D 文件吗？"
+        "en": "What's the MOQ for this item?",
+        "zh": "这款起订量多少？"
       },
       {
         "role": "A",
-        "en": "Sure, sending the link now.",
-        "zh": "可以，现在发链接。"
+        "en": "500 pieces for the first trial.",
+        "zh": "首单 500 件。"
       },
       {
         "role": "B",
-        "en": "Got it. When's the revised sample ready?",
-        "zh": "收到了。改版样品何时好？"
+        "en": "Reasonable. Can I get a quote here?",
+        "zh": "合理。能现场报价吗？"
       },
       {
         "role": "A",
-        "en": "Two weeks from today.",
-        "zh": "从今天起两周。"
+        "en": "Sure, I'll note your details now.",
+        "zh": "可以，我记下您的资料。"
       },
       {
         "role": "B",
-        "en": "Perfect, talk soon.",
-        "zh": "好，回头聊。"
+        "en": "Thanks, talk later.",
+        "zh": "谢谢，回头聊。"
       }
     ],
     "speak": [
-      "Can you see and hear me clearly?",
-      "Could you share the 3D file?",
-      "When's the revised sample ready?"
+      "Welcome to our booth!",
+      "What's the MOQ for this item?",
+      "Can I get a quote here?"
     ],
     "words": [
       {
@@ -1581,59 +1581,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "We received the first sample yesterday.",
-        "zh": "我们昨天收到首批样品。"
+        "en": "Your container has been loaded today.",
+        "zh": "您的柜子今天已经装柜了。"
       },
       {
         "role": "B",
-        "en": "How does it compare to the spec?",
-        "zh": "和规格比怎么样？"
+        "en": "Perfect. When will it sail?",
+        "zh": "太好了。几号开船？"
       },
       {
         "role": "A",
-        "en": "Color is 5% darker than approved.",
-        "zh": "颜色比确认样深了 5%。"
+        "en": "Next Monday, ETA in 28 days.",
+        "zh": "下周一，预计 28 天到。"
       },
       {
         "role": "B",
-        "en": "Can you adjust before mass production?",
-        "zh": "量产前能调吗？"
+        "en": "Could you share the Bill of Lading?",
+        "zh": "能发一下提单吗？"
       },
       {
         "role": "A",
-        "en": "Yes, we'll reprint the panel.",
-        "zh": "可以，我们重印面板。"
+        "en": "Yes, once the copy is ready.",
+        "zh": "可以，副本一好就发。"
       },
       {
         "role": "B",
-        "en": "Also the logo position is off by 2mm.",
-        "zh": "还有 logo 位置偏了 2 毫米。"
+        "en": "And the insurance?",
+        "zh": "保险呢？"
       },
       {
         "role": "A",
-        "en": "We'll fix the jig immediately.",
-        "zh": "我们马上修治具。"
+        "en": "Covered at 110% of invoice value.",
+        "zh": "按发票金额 110% 投保。"
       },
       {
         "role": "B",
-        "en": "Send photos after correction, okay?",
-        "zh": "改完发照片，好吗？"
+        "en": "Good. Keep me updated.",
+        "zh": "好。随时告知。"
       },
       {
         "role": "A",
-        "en": "Of course, within two days.",
-        "zh": "当然，两天内。"
+        "en": "I'll send the arrival notice.",
+        "zh": "到港通知我会发您。"
       },
       {
         "role": "B",
         "en": "Appreciated.",
-        "zh": "辛苦了。"
+        "zh": "多谢。"
       }
     ],
     "speak": [
-      "How does it compare to the spec?",
-      "Can you adjust before mass production?",
-      "Send photos after correction, okay?"
+      "Your container has been loaded.",
+      "When will it sail?",
+      "Could you share the Bill of Lading?"
     ],
     "words": [
       {
@@ -1702,59 +1702,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "We got a complaint about broken clips.",
-        "zh": "收到投诉，夹子有断裂。"
+        "en": "We received the goods, but some are damaged.",
+        "zh": "货收到了，但有些破损。"
       },
       {
         "role": "B",
-        "en": "How many units are affected?",
-        "zh": "影响多少台？"
+        "en": "I'm sorry to hear that. Photos, please?",
+        "zh": "很抱歉。方便发照片吗？"
       },
       {
         "role": "A",
-        "en": "About 40 out of 1,000.",
-        "zh": "1000 台里约 40 台。"
+        "en": "Here are the pictures and the count.",
+        "zh": "这是照片和数量。"
       },
       {
         "role": "B",
-        "en": "Send us photos and batch numbers.",
-        "zh": "发照片和批号给我们。"
+        "en": "Looks like transit damage.",
+        "zh": "看起来是运输途中损坏。"
       },
       {
         "role": "A",
-        "en": "Already forwarded.",
-        "zh": "已经转过去了。"
+        "en": "Can we get a replacement?",
+        "zh": "能补发吗？"
       },
       {
         "role": "B",
-        "en": "We'll ship free replacements next week.",
-        "zh": "下周我们免费补发。"
+        "en": "Yes, we'll send spares with your next order.",
+        "zh": "可以，下次订单一起补发。"
       },
       {
         "role": "A",
-        "en": "And the root cause?",
-        "zh": "根本原因呢？"
+        "en": "Or a partial refund?",
+        "zh": "或者部分退款？"
       },
       {
         "role": "B",
-        "en": "Mold worn out, now replaced.",
-        "zh": "模具磨损，已更换。"
+        "en": "We can offer 8% for this batch.",
+        "zh": "这批我们给 8% 补偿。"
       },
       {
         "role": "A",
-        "en": "Good, please prevent recurrence.",
-        "zh": "好，请避免再发生。"
+        "en": "Acceptable. Let's close it.",
+        "zh": "可以。就这样吧。"
       },
       {
         "role": "B",
-        "en": "We've tightened QC.",
-        "zh": "我们已加强质检。"
+        "en": "Thanks for your understanding.",
+        "zh": "感谢理解。"
       }
     ],
     "speak": [
-      "How many units are affected?",
-      "Send us photos and batch numbers.",
-      "We'll ship free replacements next week."
+      "Some are damaged.",
+      "Can we get a replacement?",
+      "A partial refund is fine."
     ],
     "words": [
       {
@@ -1823,59 +1823,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Welcome to Shenzhen, let's have dinner.",
-        "zh": "欢迎来深圳，一起吃个饭。"
+        "en": "Excuse me, how do I get to the Metro?",
+        "zh": "打扰一下，地铁怎么走？"
       },
       {
         "role": "B",
-        "en": "Thank you, that's very kind.",
-        "zh": "谢谢，太客气了。"
+        "en": "Go straight and turn left at the corner.",
+        "zh": "直走，在拐角左转。"
       },
       {
         "role": "A",
-        "en": "Do you prefer spicy or mild?",
-        "zh": "您吃辣还是清淡？"
+        "en": "Is it far from here?",
+        "zh": "离这儿远吗？"
       },
       {
         "role": "B",
-        "en": "Spicy is great, I love it.",
-        "zh": "辣的很好，我就爱辣。"
+        "en": "About a ten-minute walk.",
+        "zh": "步行大约十分钟。"
       },
       {
         "role": "A",
-        "en": "Then we'll order Sichuan hotpot.",
-        "zh": "那我们点川渝火锅。"
+        "en": "Should I take the blue or red line?",
+        "zh": "我该坐蓝线还是红线？"
       },
       {
         "role": "B",
-        "en": "Perfect choice!",
-        "zh": "好选择！"
+        "en": "Blue line to the center.",
+        "zh": "蓝线到市中心。"
       },
       {
         "role": "A",
-        "en": "Try this, dip it in the sauce.",
-        "zh": "尝尝这个，蘸料吃。"
+        "en": "Got it. Which exit for the fair?",
+        "zh": "明白了。展会从哪个口出？"
       },
       {
         "role": "B",
-        "en": "Delicious, what's in it?",
-        "zh": "好吃，里面是什么？"
+        "en": "Exit C, follow the signs.",
+        "zh": "C 口，跟着指示牌。"
       },
       {
         "role": "A",
-        "en": "Beef and tripe, our specialty.",
-        "zh": "牛肉和毛肚，我们的招牌。"
+        "en": "Thank you so much.",
+        "zh": "非常感谢。"
       },
       {
         "role": "B",
-        "en": "I'll remember this meal.",
-        "zh": "这顿我记下了。"
+        "en": "You're welcome.",
+        "zh": "不客气。"
       }
     ],
     "speak": [
-      "Do you prefer spicy or mild?",
-      "Then we'll order Sichuan hotpot.",
-      "Try this, dip it in the sauce."
+      "How do I get to the Metro?",
+      "Is it far from here?",
+      "Which exit for the fair?"
     ],
     "words": [
       {
@@ -1944,59 +1944,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "What's the top-selling category here?",
-        "zh": "这里最畅销的品类是什么？"
+        "en": "A table for one, please.",
+        "zh": "一位，谢谢。"
       },
       {
         "role": "B",
-        "en": "Wireless earbuds and chargers.",
-        "zh": "无线耳机和充电器。"
+        "en": "Smoking or non-smoking?",
+        "zh": "吸烟区还是非吸烟区？"
       },
       {
         "role": "A",
-        "en": "Who are the main competitors?",
-        "zh": "主要竞争对手是谁？"
+        "en": "Non-smoking, by the window.",
+        "zh": "非吸烟区，靠窗。"
       },
       {
         "role": "B",
-        "en": "Two local brands and one from Korea.",
-        "zh": "两个本地品牌和一个韩国品牌。"
+        "en": "Here's the menu.",
+        "zh": "这是菜单。"
       },
       {
         "role": "A",
-        "en": "What price range sells best?",
-        "zh": "什么价位最好卖？"
+        "en": "What's today's special?",
+        "zh": "今天有什么特色？"
       },
       {
         "role": "B",
-        "en": "20 to 40 dollars.",
-        "zh": "20 到 40 美元。"
+        "en": "Spicy beef with chili, very popular.",
+        "zh": "辣味牛肉，很受欢迎。"
       },
       {
         "role": "A",
-        "en": "Any gap in the market?",
-        "zh": "市场有空白吗？"
+        "en": "I'll have that, extra spicy.",
+        "zh": "来一份，特辣。"
       },
       {
         "role": "B",
-        "en": "Eco-friendly cases are rising.",
-        "zh": "环保壳在上升。"
+        "en": "Drink?",
+        "zh": "喝点什么？"
       },
       {
         "role": "A",
-        "en": "Good insight, thanks.",
-        "zh": "很有洞察，谢谢。"
+        "en": "Just water, no ice.",
+        "zh": "白水就好，不加冰。"
       },
       {
         "role": "B",
-        "en": "Anytime, happy to help.",
-        "zh": "不客气，乐意帮忙。"
+        "en": "Coming right up.",
+        "zh": "马上来。"
       }
     ],
     "speak": [
-      "What's the top-selling category here?",
-      "Who are the main competitors?",
-      "Any gap in the market?"
+      "A table for one, please.",
+      "What's today's special?",
+      "Extra spicy, please."
     ],
     "words": [
       {
@@ -2065,59 +2065,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Which documents do we need for clearance?",
-        "zh": "清关需要哪些单据？"
+        "en": "I'd like to rent a car for three days.",
+        "zh": "我想租辆车，三天。"
       },
       {
         "role": "B",
-        "en": "Commercial invoice and packing list.",
-        "zh": "商业发票和装箱单。"
+        "en": "Manual or automatic?",
+        "zh": "手动还是自动？"
       },
       {
         "role": "A",
-        "en": "Do we need a certificate of origin?",
-        "zh": "需要原产地证吗？"
+        "en": "Automatic, with GPS.",
+        "zh": "自动，带导航。"
       },
       {
         "role": "B",
-        "en": "Yes, for the tariff preference.",
-        "zh": "要，为了关税优惠。"
+        "en": "Your license, please.",
+        "zh": "请出示驾照。"
       },
       {
         "role": "A",
-        "en": "What about the HS code?",
-        "zh": "HS 编码呢？"
+        "en": "Here's my international permit.",
+        "zh": "这是国际驾照许可。"
       },
       {
         "role": "B",
-        "en": "Use 8518.30 for earbuds.",
-        "zh": "耳机用 8518.30。"
+        "en": "Full insurance included?",
+        "zh": "含全险吗？"
       },
       {
         "role": "A",
-        "en": "Who files the declaration?",
-        "zh": "谁报关？"
+        "en": "Yes, with zero deductible.",
+        "zh": "含，零免赔。"
       },
       {
         "role": "B",
-        "en": "Our broker handles it.",
-        "zh": "我们的代理处理。"
+        "en": "Sign here and you're set.",
+        "zh": "这里签字就好。"
       },
       {
         "role": "A",
-        "en": "How long does clearance take?",
-        "zh": "清关要多久？"
+        "en": "What's the fuel policy?",
+        "zh": "油怎么算？"
       },
       {
         "role": "B",
-        "en": "Usually two to three days.",
-        "zh": "通常两三天。"
+        "en": "Return it full, please.",
+        "zh": "还车时加满，谢谢。"
       }
     ],
     "speak": [
-      "Which documents do we need for clearance?",
-      "Do we need a certificate of origin?",
-      "What about the HS code?"
+      "I'd like to rent a car.",
+      "Automatic, with GPS.",
+      "Full insurance, please."
     ],
     "words": [
       {
@@ -2186,59 +2186,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Hi Mark, how's the new batch selling?",
-        "zh": "Mark 你好，新批次卖得怎样？"
+        "en": "Do you have this in a larger size?",
+        "zh": "这款有更大的码吗？"
       },
       {
         "role": "B",
-        "en": "Pretty well, almost sold out.",
-        "zh": "不错，快卖光了。"
+        "en": "Let me check the stock.",
+        "zh": "我查一下库存。"
       },
       {
         "role": "A",
-        "en": "Glad to hear that. Any feedback?",
-        "zh": "很高兴听到。有反馈吗？"
+        "en": "I prefer something in blue.",
+        "zh": "我更喜欢蓝色的。"
       },
       {
         "role": "B",
-        "en": "Customers want a longer cable.",
-        "zh": "客户想要更长的线。"
+        "en": "Blue is on the shelf behind you.",
+        "zh": "蓝色在您身后货架上。"
       },
       {
         "role": "A",
-        "en": "We can offer 1.5m as an option.",
-        "zh": "我们可以提供 1.5 米选项。"
+        "en": "Can I try it on?",
+        "zh": "可以试穿吗？"
       },
       {
         "role": "B",
-        "en": "Nice, send a quote for 3,000.",
-        "zh": "好，发 3000 的报价。"
+        "en": "Sure, the fitting room is there.",
+        "zh": "可以，试衣间在那边。"
       },
       {
         "role": "A",
-        "en": "Will do today. Reorder soon?",
-        "zh": "今天发。要续订吗？"
+        "en": "It fits well. I'll take it.",
+        "zh": "很合身。我要了。"
       },
       {
         "role": "B",
-        "en": "Yes, same spec, next month.",
-        "zh": "要，同规格，下个月。"
+        "en": "Cash or card?",
+        "zh": "现金还是刷卡？"
       },
       {
         "role": "A",
-        "en": "Perfect, I'll prepare the contract.",
-        "zh": "好，我来准备合同。"
+        "en": "Card, please.",
+        "zh": "刷卡。"
       },
       {
         "role": "B",
-        "en": "Looking forward to it.",
-        "zh": "期待合作。"
+        "en": "Here's your receipt.",
+        "zh": "这是小票。"
       }
     ],
     "speak": [
-      "How's the new batch selling?",
-      "Any feedback?",
-      "Will do today. Reorder soon?"
+      "Do you have this in a larger size?",
+      "Can I try it on?",
+      "I'll take it."
     ],
     "words": [
       {
@@ -2307,59 +2307,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "Let's go through the contract clause by clause.",
-        "zh": "我们逐条过一下合同。"
+        "en": "Help! I think I lost my wallet.",
+        "zh": "救命！我好像丢钱包了。"
       },
       {
         "role": "B",
-        "en": "Start with delivery terms.",
-        "zh": "从交货条款开始。"
+        "en": "Stay calm. Where did you last see it?",
+        "zh": "别慌。您最后在哪看到的？"
       },
       {
         "role": "A",
-        "en": "Shipment within 30 days of PO.",
-        "zh": "收到订单后 30 天内发货。"
+        "en": "Maybe on the train.",
+        "zh": "可能在火车上。"
       },
       {
         "role": "B",
-        "en": "And penalty for delay?",
-        "zh": "延误罚则呢？"
+        "en": "Call the lost-and-found now.",
+        "zh": "现在就打电话给失物招领。"
       },
       {
         "role": "A",
-        "en": "0.5% per week, capped at 5%.",
-        "zh": "每周 0.5%，上限 5%。"
+        "en": "I also need a police report.",
+        "zh": "我还需要报警记录。"
       },
       {
         "role": "B",
-        "en": "Acceptable. What about IP?",
-        "zh": "可以。知识产权呢？"
+        "en": "I'll help you find the station.",
+        "zh": "我帮您找警局。"
       },
       {
         "role": "A",
-        "en": "Your design stays your property.",
-        "zh": "您的设计归您所有。"
+        "en": "Thank you, you're a lifesaver.",
+        "zh": "谢谢，您真是救星。"
       },
       {
         "role": "B",
-        "en": "Good. Where do we sign?",
-        "zh": "好。在哪签？"
+        "en": "Let's go this way.",
+        "zh": "我们走这边。"
       },
       {
         "role": "A",
-        "en": "Two copies, both parties sign here.",
-        "zh": "两份，双方在此签署。"
+        "en": "My passport is in it too.",
+        "zh": "护照也在里面。"
       },
       {
         "role": "B",
-        "en": "Done, pleasure working with you.",
-        "zh": "签好了，合作愉快。"
+        "en": "Then report it to your embassy too.",
+        "zh": "那也要联系您的大使馆。"
       }
     ],
     "speak": [
-      "Let's go through the contract clause by clause.",
-      "And penalty for delay?",
-      "What about IP?"
+      "I think I lost my wallet.",
+      "Where did you last see it?",
+      "I need a police report."
     ],
     "words": [
       {
@@ -2428,59 +2428,59 @@ const EN_PRACTICE = {
     "lines": [
       {
         "role": "A",
-        "en": "The Canton Fair was a success.",
-        "zh": "广交会很成功。"
+        "en": "How was your trip overall?",
+        "zh": "这次出差整体怎么样？"
       },
       {
         "role": "B",
-        "en": "How many leads did we collect?",
-        "zh": "收了多少条线索？"
+        "en": "Very productive. We signed two deals.",
+        "zh": "很有成效。签了两单。"
       },
       {
         "role": "A",
-        "en": "Over 80, 20 are hot.",
-        "zh": "80 多条，20 条是重点。"
+        "en": "Glad to hear that.",
+        "zh": "太好了。"
       },
       {
         "role": "B",
-        "en": "Let's prioritize the hot ones.",
-        "zh": "重点客户优先跟进。"
+        "en": "The factory visit changed my mind.",
+        "zh": "工厂参观让我改了观。"
       },
       {
         "role": "A",
-        "en": "I'll assign them to the team.",
-        "zh": "我分配给团队。"
+        "en": "That's what we hoped for.",
+        "zh": "这正是我们希望的。"
       },
       {
         "role": "B",
-        "en": "Send thank-you notes this week.",
-        "zh": "这周发感谢信。"
+        "en": "I'll recommend you to my partners.",
+        "zh": "我会推荐给同行。"
       },
       {
         "role": "A",
-        "en": "And update the CRM.",
-        "zh": "并更新 CRM。"
+        "en": "Much appreciated.",
+        "zh": "非常感谢。"
       },
       {
         "role": "B",
-        "en": "What's next quarter's plan?",
-        "zh": "下季度计划呢？"
+        "en": "When should we meet again?",
+        "zh": "下次什么时候见？"
       },
       {
         "role": "A",
-        "en": "Expand to the EU market.",
-        "zh": "拓展欧洲市场。"
+        "en": "Let's sync next quarter.",
+        "zh": "下季度再对接。"
       },
       {
         "role": "B",
-        "en": "Sounds like a plan.",
-        "zh": "听起来不错。"
+        "en": "Safe flight home!",
+        "zh": "一路平安！"
       }
     ],
     "speak": [
-      "The Canton Fair was a success.",
-      "How many leads did we collect?",
-      "Let's prioritize the hot ones."
+      "How was your trip overall?",
+      "We signed two deals.",
+      "Let's sync next quarter."
     ],
     "words": [
       {
