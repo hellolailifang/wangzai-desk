@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "day": 22,
+  "tag": "小红书 · GEO 日更 Day 22｜搞笑：AI 写代码门槛碎了，谁都是「程序员」？",
+  "blocks": [
+    {
+      "h": "🎯 Day 22 · 阶段目标 1000 粉",
+      "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 22 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：用 GitHub 2025 真数据讲个搞笑事——开发者暴增不是爱上写代码，是门槛被 AI 拆了。</b>这是账号第一篇纯搞笑画风，自带转发（梗感强）。</p><p style=\"margin:0 0 4px;\">· <b>为什么今天写这个</b>：① 真实数据撑腰（每秒新增、一年 3600 万、八成首周用 AI）；② 搞笑共鸣人人可转，破「GEO 号太硬」的观感。</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 22 篇；② 评论区问「你身边突然会写程序的朋友」；③ 挂进「AI 工具」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「AI 写代码」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+    },
+    {
+      "h": "📕 今日选题",
+      "body": "<p><b>今天不聊 GEO 干货，讲个真事：GitHub 说现在每秒都有新人注册，一年新增三千多万人，八成新手第一周就用上 AI 写代码。</b>我盯着这个数笑了半天。</p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反的地方：开发者暴增 = 突然多了几千万热爱编程的人。<br/><b>这篇反着来</b>：是<b>AI 写代码门槛被拆了</b>——以前得啃语法、配环境、调报错，现在只要你会说人话描述想要啥，AI 就把活干了。门槛一降，谁都来凑热闹。<br/><span style=\"color:#8a8a85;\">⚠️ 用「同学聚会光环碎了」「面试考骂 AI」这种梗把数据讲成人话。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「刷到 GitHub 年报笑了半天」开头（带时间带画面）；具象细节「我妈用 AI 搓记菜谱小程序」「产品朋友半天搭工具群里发截图」；污点「说句有点虚的，我自己写脚本也靠 AI」；留口子「底层架构还是得人」。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>AI 写代码门槛碎了，谁都是「程序员」？<br/><b>备选 A：</b>以前面试考快排，现在考怎么骂 AI<br/><b>备选 B：</b>我妈都用 AI 写程序了，光环碎一地<br/><span style=\"color:#8a8a85;\">主推把「AI 写代码」顶最前，反问拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 B · 手写笔记）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>一张手写风对比：<br/>「以前：我会写代码（光环）<br/>现在：我让 AI 写（普通技能）」<br/>主文案压中上部：<br/>「<b>写代码<br/>要变成用 Excel 了？</b>」<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>。<br/><span style=\"color:#8a8a85;\">Day 21 用 D 大字，本篇回 B 手写（搞笑梗感强）；Day 23 可换 A 真实照。</span></div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① <b>被「身边人突然会写程序」震到的普通打工人</b>：共鸣最强；<br/>② <b>产品 / 运营 / 非技术岗</b>：会转发「我用 AI 搓了个小工具」的爽感；<br/>③ <b>真程序员</b>：又爱又恨，评论区最容易吵（「AI 写的 bug 我修过」）。</div>"
+    },
+    {
+      "h": "✍️ 正文文案（可直接复制）",
+      "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2a;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">昨天刷到 GitHub 年报，说现在每秒都有新人注册，一年新增三千多万人，八成新手第一周就用上 AI 写代码。我盯着这个数笑了半天。\n\n我干这行前，「会写代码」是个硬身份。同学聚会说句「我是写程序的」，自带「你不懂但很厉害」的光环。现在呢，我妈都跟我说「用 AI 搓了个记菜谱的小程序」。光环碎一地。\n\n最搞笑的是招聘话术也变。前几年考手写快排，现在有些岗位直接问「你平时怎么使唤 AI」。以前比语法熟，现在比谁更会骂 AI 让它听话。我一个做产品的朋友，上周用 AI 半天搭了个小工具，群里发截图配文「小小的成就」，底下一片「求带」。\n\n多数人没想到的点：这波暴增，不是突然多了几千万热爱编程的人，是 AI 写代码门槛被拆了。以前得啃语法、配环境、调报错，现在只要会说人话描述想要啥，AI 写代码就把活干了。门槛一降，谁都凑热闹。\n\n当然底层架构、真要命的 bug 还是得人扛，AI 写的烂摊子我收拾过不止一次。说句有点虚的，我自己写脚本也靠 AI，十年前叫「不会写代码」，现在叫「会用工具」。\n\n这事往后怎么走我说不准，写代码会不会变成像用 Excel 一样普通。你们要是身边也有那种「突然会写程序了」的朋友，评论区跟我讲讲他的神操作，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是「AI 写代码」），搜索词全靠它。<br/>数据用 GitHub Octoverse 2025 公开口径（每秒新增 / 一年约 3600 万 / 八成首周用 AI），别写成精确承诺；「三千多万」是量级表述。<br/>⚠️ 发完 30 分钟内回前几条，有人晒「我妈用 AI 写程序」就接梗，气氛越轻松转发越高。</div>"
+    },
+    {
+      "h": "🔍 搜索关键词（搜索流量）",
+      "body": "<p><b>这篇在讲什么（一句话）：</b>GitHub 说每秒都有新人注册、一年新增三千多万、八成首周用 AI 写代码——开发者暴增不是爱上编程，是 AI 写代码门槛被拆了，谁都能凑热闹。</p><p class=\"ct-h\">🔍 搜索关键词（发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>AI 写代码<br/><b>长尾词（3 个）：</b><br/>　· 不会编程用 AI 做软件<br/>　· vibe coding 是什么<br/>　· 产品经理用 AI 写代码<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「AI」，「AI 写代码」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「GitHub 年报」「AI 写代码」「八成首周」<br/><b>③ 话题标签</b>：#AI写代码 #不会编程用AI做软件 #vibecoding（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「开发者暴增，是 AI 写代码门槛被拆了，不是突然都爱编程」<br/><span style=\"color:#8a8a85;\">核心词全文 2–4 次，别堆砌。</span></div>"
+    },
+    {
+      "h": "🏷️ 标签 & 💬 互动钩子",
+      "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#AI写代码 #不会编程用AI做软件 #vibecoding #豆包 #DeepSeek #Kimi #AI工具 #编程 #产品经理 #职场</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 豆包/DeepSeek/Kimi，与 Day 21（豆包/Kimi/元宝）只重合 2 个。</div><p class=\"ct-h\">💬 互动钩子 · D 类「求故事（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「写代码会不会变成像用 Excel 一样的普通技能，我说不准」；② 软化——「你们要是身边也有那种突然会写程序了的朋友」；③ 邀请——「评论区跟我讲讲他的神操作，我还挺想听」。<br/><b>① 为什么用 D 类</b>：Day 21 F、Day 20 C，D 类隔了多篇，安全；搞笑梗用求故事最容易引 UGC。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：开发者暴增，是 AI 写代码门槛被拆了，不是突然都爱编程」<br/>　·「我妈真用 AI 写了个记菜谱的小程序，我笑了一周」<br/>　·「AI 写的 bug 我修过，修到怀疑人生」<br/><b>③ 有人晒「我妈用 AI 写程序」</b>：接梗别端着，气氛越轻松转发越高。</div>"
+    },
+    {
+      "h": "📈 今日涨粉动作",
+      "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：07:00–09:30 随机落点</b>（明天工作日）。建议 <b>07:40</b> 前后——错开前几日。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「我妈/我爸用 AI 写程序」的梗，把评论区变成段子现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「AI 工具」合集</b>：合集名带核心词，吃「AI 写代码 / vibe coding」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「AI 写代码」「不会编程用 AI 做软件」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看转发</b>：搞笑篇转发率比收藏率更关键，第 2 天看转发数而非小眼睛。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：数据用 GitHub 公开年报口径，别写精确承诺；「三千多万」是量级，别写成「3680 万」硬数字。</p></div></div>"
+    }
+  ]
+}
