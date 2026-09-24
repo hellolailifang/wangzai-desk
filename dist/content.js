@@ -5255,5 +5255,101 @@ const CONTENT = {
         "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：07:00–09:30 随机落点</b>（明天工作日）。建议 <b>07:40</b> 前后——错开前几日。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「我妈/我爸用 AI 写程序」的梗，把评论区变成段子现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「AI 工具」合集</b>：合集名带核心词，吃「AI 写代码 / vibe coding」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「AI 写代码」「不会编程用 AI 做软件」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看转发</b>：搞笑篇转发率比收藏率更关键，第 2 天看转发数而非小眼睛。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：数据用 GitHub 公开年报口径，别写精确承诺；「三千多万」是量级，别写成「3680 万」硬数字。</p></div></div>"
       }
     ]
+  },
+  {
+    "title": "Day 23 · 社媒内容",
+    "date": "2026-09-25",
+    "day": 23,
+    "tag": "小红书 · GEO 日更 Day 23｜吐槽：那些说「做了 GEO 立马爆单」的，基本在吹",
+    "blocks": [
+      {
+        "h": "🎯 Day 23 · 阶段目标 1000 粉",
+        "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 23 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：作为卖 GEO 的人，泼一盆冷水——「做了就爆单」基本是卖课的在吹，做交付的从不敢这么讲。</b>假期第一天用一条朋友圈推广当引子，立「自己人敢拆穿」人设。</p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：中秋刷到「一周被 AI 收录、订单接到手软」，最容易被这句勾住的就是正焦虑的老板；拆穿反而显真诚。</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 23 篇；② 评论区问「你接过哪家这种保证」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「被 AI 收录」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+      },
+      {
+        "h": "📕 今日选题",
+        "body": "<p><b>今天拆一句大实话：被 AI 收录和爆单之间，差得远——能把这俩画等号的，基本是卖课的，不是做交付的。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反的地方：被 AI 收录 = 流量来了 = 订单来了。<br/><b>这篇反着来</b>：被 AI 收录只解决「客户搜你时 AI 嘴里有你」，不产生订单；真转化还得官网接得住、销售跟得上。把它当魔法开关的，最后都失望。<br/><span style=\"color:#8a8a85;\">⚠️ 把「爆单幻觉」拉回「只是被提到」这个具体动作。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「中秋刷朋友圈推广笑了」开头（带节日带画面）；污点「刚入行也差点上这种话术的当」；留口子「样本就这些，不敢说所有赛道都这么慢」；段落长短交错，别分点。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>被 AI 收录就能爆单？做了这行的我先笑为敬<br/><b>备选 A：</b>做了 GEO 一周被 AI 收录、订单接到手软？别信<br/><b>备选 B：</b>被 AI 收录 ≠ 爆单，卖课的才这么说<br/><span style=\"color:#8a8a85;\">主推把「被 AI 收录」顶最前，反问拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 C · 真实聊天截图）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>截一条「做了 GEO 一周被 AI 收录、订单接到手软」的推广朋友圈，圈出「订单接到手软」。<br/>主文案压中上部：<br/>「<b>被 AI 收录<br/>≠ 爆单</b>」<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>。<br/><span style=\"color:#8a8a85;\">Day 22 用 B 手写，本篇换 C 聊天截图（吐槽/争议类流量倾斜）；Day 24 回 A 真实照。</span></div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① <b>正被「做了就爆单」勾住的老板</b>：这句帮他冷静；<br/>② <b>刚被销售催单的细分供应商</b>：会被「交付和卖课不是一回事」戳中；<br/>③ <b>同行 / 销售</b>：拆穿的话术他们会转给客户当避坑。</div>"
+      },
+      {
+        "h": "✍️ 正文文案（可直接复制）",
+        "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-system-ui,-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2a;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">中秋放假第一天，刷朋友圈看到一条推广：做了 GEO，一周被 AI 收录、订单接到手软。我干这行先笑为敬。被 AI 收录到底要多久，跟爆单根本不是一回事。\n\n我经手的客户里，真有上线两三个月才偶尔被 AI 收录的，也有做了大半年还在等一次回响。前阵子一个做定制家具的老板，上线四个月才在豆包里被提了一次，还排在第三句。能把被 AI 收录和当天爆单画等号的，基本是卖课的，不是做交付的。我刚入行也差点上这种话术的当，后来发现所谓案例连公司名都含糊其辞。\n\n多数人没想到的点：被 AI 收录本身不产生订单，它只解决客户搜你时，AI 嘴里有你。真要转化，还得官网接得住、销售跟得上，就像你印了一盒名片，不等于客户主动打给你。把它当魔法开关的，最后都失望。\n\n当然我也见过确实有客户做了之后询盘变多，可能行业不同。样本就这些，我不敢说所有赛道都这么慢。\n\n这事我也常拿不准，被 AI 收录算不算有效曝光，后面怎么衡量我说不准。你们那行要是也接过做了就爆单的那套话，评论区跟我讲讲是哪个服务商，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是「被 AI 收录」），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人问「那到底多久能出效果」就老实说：看行业，别把话说死。</div>"
+      },
+      {
+        "h": "🔍 搜索关键词（搜索流量）",
+        "body": "<p><b>这篇在讲什么（一句话）：</b>被 AI 收录本身不产生订单，只解决「客户搜你时 AI 嘴里有你」；把它当爆单开关的，最后都失望。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>被 AI 收录<br/><b>长尾词（3 个）：</b><br/>　· 做了 GEO 多久能被收录<br/>　· GEO 做了没效果怎么办<br/>　· 怎么让 AI 收录我们公司<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「被 AI 收录」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「被 AI 收录」「被 AI 收录到底要多久」<br/><b>③ 话题标签</b>：#被AI收录 #做了GEO多久能被收录 #GEO做了没效果（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「被 AI 收录只解决 AI 嘴里有你，不产订单」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+      },
+      {
+        "h": "🏷️ 标签 & 💬 互动钩子",
+        "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#被AI收录 #做了GEO多久能被收录 #GEO做了没效果 #豆包 #元宝 #百度AI搜索 #GEO #SEO #品牌营销 #创业避坑</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 豆包/元宝/百度AI搜索，与 Day 22 只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · A 类「报行业（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「被 AI 收录算不算有效曝光，后面怎么衡量我说不准」；② 软化——「你们那行要是也接过做了就爆单的那套话」；③ 邀请——「评论区跟我讲讲是哪个服务商，我还挺想听」。<br/><b>① 为什么用 A 类</b>：Day 22 D、Day 21 F，A 类隔了多篇，安全。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：被 AI 收录只解决 AI 嘴里有你，不产订单」<br/>　·「我经手有客户做了大半年才被提一次」<br/>　·「所谓一周爆单的案例，连公司名都含糊」<br/><b>③ 有人问「那到底多久出效果」</b>：别把话说死，说「看行业，有的两三月，有的大半年」。</div>"
+      },
+      {
+        "h": "📈 今日涨粉动作",
+        "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽</b>。中秋当天建议在 <b>10:00–11:30</b> 或 <b>20:30–22:00</b> 之间落点，别卡 07:30。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，接「我也被这种话术催过」的共鸣，把评论区变成避坑现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，覆盖「做了没效果」搜索意图。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「被 AI 收录」「GEO 做了没效果」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：打假类笔记吵起来才涨粉，第 2、3 天再看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「订单接到手软」是反讽引用，不是给自己下承诺。</p></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 24 · 社媒内容",
+    "date": "2026-09-26",
+    "day": 24,
+    "tag": "小红书 · GEO 日更 Day 24｜搞笑：老板眼中 vs 实际上的 GEO",
+    "blocks": [
+      {
+        "h": "🎯 Day 24 · 阶段目标 1000 粉",
+        "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 24 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：用一段老板语音的段子，把「GEO 是什么」讲成人话——老板以为发几篇稿，实际上是让 AI 替你说话。</b>假期第二天轻松点，搞笑共鸣自带转发。</p><p style=\"margin:0 0 4px;\">· <b>为什么今天写这个</b>：几乎每个 GEO 销售都听过「不就是发稿让百度搜到嘛」，段子感强、人人可转，破「GEO 号太硬」。</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 24 篇；② 评论区问「你老板原话是啥」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「GEO 是什么」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+      },
+      {
+        "h": "📕 今日选题",
+        "body": "<p><b>今天不聊干货，讲个真事：一个老板语音说「GEO 不就是发几篇稿让百度搜到嘛」，我沉默三秒。</b>GEO 是什么，在他脑子里是 SEO 换皮。</p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反的地方：老板觉得 GEO 是个动作（发几篇稿）。<br/><b>这篇反着来</b>：GEO 实际上是份资产——让 AI 长期嘴里有你。动作做完就结束，资产是慢慢攒的，两件事不是一回事。<br/><span style=\"color:#8a8a85;\">⚠️ 用「让 AI 替你说话」这种一句话把概念讲成人话。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「假期第二天老板发语音」开头（带节日带对话）；具象「说到第三遍他才恍然大悟」「一上来就要一个月搞定」；污点「刚做这行也以为交付就是交稿」；留口子「怎么跟老板讲清楚还在琢磨」。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>GEO 是什么？老板以为是发稿，实际上是资产<br/><b>备选 A：</b>老板说 GEO 就是发几篇稿，我沉默了<br/><b>备选 B：</b>让 AI 替你说话，才是 GEO 真正的样子<br/><span style=\"color:#8a8a85;\">主推把「GEO 是什么」顶最前，反差拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 A · 真实场景照 + 文字 overlay）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>拍一张「老板发语音」的手机界面（打码），overlay 大字：<br/>「<b>GEO 是什么？<br/>老板：发几篇稿<br/>实际：让 AI 替你说话</b>」<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>；主文案压中上部。<br/><span style=\"color:#8a8a85;\">Day 23 用 C 聊天截图，本篇回 A 真实照（Day 25 用手写笔记）。</span></div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① <b>被老板问「GEO 不就是发稿吗」的销售</b>：直接转给老板当科普；<br/>② <b>对 GEO 有误解的老板</b>：用段子把概念讲明白不冒犯；<br/>③ <b>普通打工人</b>：会转发「我老板也这样」的共鸣。</div>"
+      },
+      {
+        "h": "✍️ 正文文案（可直接复制）",
+        "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-system-ui,-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2a;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">假期第二天，群里一个做建材的老板发语音：GEO 我懂，不就是发几篇稿让百度搜到嘛。我听完沉默三秒。GEO 是什么，在他脑子里大概是 SEO 换了个皮。\n\n实际上的 GEO 是什么？是让 AI 在回答问题时主动提到你。他问 Siri 深圳哪家家政靠谱，AI 嘴里得有你名字。这跟发稿上百度，差着一代。我前阵子给一家做家政的张姐解释，前后说了三遍，她才恍然大悟：哦，你是让 AI 替我说话，不是帮我发广告。GEO 是什么，我刚做这行时其实也挺懵，没讲明白过。\n\n多数人没想到的点：老板觉得 GEO 是个动作，做完就结束；实际上它是份资产，今天被提一次、明天被提一次，攒久了客户一问 AI 你就在名单里。动作的红利是一锤子，资产的红利是滚雪球。\n\n当然也有老板反过来，一上来就要一个月搞定，我只能苦笑。我刚做这行时也以为交付就是交稿，后来被客户问住才懂差别，差点把一单谈崩。\n\n这事往后怎么跟老板讲清楚，我也还在琢磨，不同行业 GEO 是什么的答案真的不见得一样。你们公司老板要是也把 GEO 当发几篇稿，评论区说说他原话，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是「GEO 是什么」），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人晒「我老板原话」就接梗，气氛越轻松转发越高。</div>"
+      },
+      {
+        "h": "🔍 搜索关键词（搜索流量）",
+        "body": "<p><b>这篇在讲什么（一句话）：</b>GEO 是什么？老板以为就是发几篇稿上百度，实际上是让 AI 在回答问题时主动提到你、替你说话——是份资产不是个动作。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>GEO 是什么<br/><b>长尾词（3 个）：</b><br/>　· 老板以为 GEO 是什么<br/>　· GEO 实际是做什么的<br/>　· 中小企业 GEO 是什么<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1–2 字「GEO 是什么」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「GEO 是什么」「在他脑子里大概是 SEO 换了个皮」<br/><b>③ 话题标签</b>：#GEO是什么 #老板以为GEO是什么 #中小企业GEO（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「GEO 实际上是让 AI 替你说话，不是发几篇稿」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+      },
+      {
+        "h": "🏷️ 标签 & 💬 互动钩子",
+        "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#GEO是什么 #老板以为GEO是什么 #中小企业GEO #DeepSeek #Kimi #元宝 #GEO #AI搜索 #职场 #创业避坑</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 DeepSeek/Kimi/元宝，与 Day 23（豆包/元宝/百度）只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · B 类「二选一（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「怎么跟老板讲清楚，我也还在琢磨」；② 软化——「你们公司老板要是也把 GEO 当发几篇稿」；③ 邀请——「评论区说说他原话，我还挺想听」。<br/><b>① 为什么用 B 类</b>：Day 23 A、Day 22 D，B 类最近没用，安全；段子用二选一最容易引 UGC。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：GEO 实际上是让 AI 替你说话，不是发几篇稿」<br/>　·「我老板原话：不就是让百度搜到嘛」<br/>　·「说到第三遍他才懂，笑死」<br/><b>③ 有人晒「我老板也这样」</b>：接梗别端着，气氛越轻松转发越高。</div>"
+      },
+      {
+        "h": "📈 今日涨粉动作",
+        "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽</b>。建议在 <b>10:00–11:30</b> 落点，别卡 07:30。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「我老板原话是 XXX」的梗，把评论区变成段子现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「GEO 是什么」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「GEO 是什么」「老板以为 GEO 是什么」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看转发</b>：搞笑共鸣篇转发率比收藏率更关键，第 2 天看转发数而非小眼睛。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：老板语音截图务必打码，别露真名真头像；别写绝对化 / 极限词。</p></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 25 · 社媒内容",
+    "date": "2026-09-27",
+    "day": 25,
+    "tag": "小红书 · GEO 日更 Day 25｜吐槽：GEO 销售最怕客户问的 3 个问题（自曝）",
+    "blocks": [
+      {
+        "h": "🎯 Day 25 · 阶段目标 1000 粉",
+        "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 25 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：作为 GEO 销售自曝——最怕客户问的 3 个问题，反而都是最容易冲动买单的。</b>假期最后一天收个尾，用自曝拉信任，立「不装一贯正确」人设。</p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：销售视角同行和老板都爱看，且「最怕被问哑口」自带共鸣，评论区容易接「我也是」。</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 25 篇；② 评论区问「你被问得最哑口的是哪句」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「AI 搜索 获客」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+      },
+      {
+        "h": "📕 今日选题",
+        "body": "<p><b>今天自曝：做了 GEO 销售，最怕的不是砍价，是这 3 个问题——而且它们往往最容易让客户冲动买单。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反的地方：销售最怕的是难答的专业问题。<br/><b>这篇反着来</b>：最怕的反而是「做了能来多少客户」「再不做就晚了」这种——答不上精确数字，却最容易靠焦虑成交。靠吓唬成的单，后面都难收场。<br/><span style=\"color:#8a8a85;\">⚠️ 把「销售怕什么」从专业题拉到「冲动买单的焦虑题」。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「假期最后一天翻客户常问」开头（带节日带场景）；污点「刚入行也用过吓唬这招，现在想想挺不好意思」；留口子「AI 搜索 获客到底怎么衡量，还在看」；用 ①②③ 列三个问题，不做 1/2/3 分点排版。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>AI 搜索 获客？做 GEO 销售最怕客户问这 3 个问题<br/><b>备选 A：</b>做了 GEO 销售，最怕客户问这 3 句<br/><b>备选 B：</b>靠吓唬成的 GEO 单，后面都难收场<br/><span style=\"color:#8a8a85;\">主推把「AI 搜索 获客」顶最前，自曝拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 B · 手写笔记）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>一张手写风清单：<br/>「销售最怕的 3 句：<br/>① 能来多少客户？<br/>② 竞品做了我还做吗？<br/>③ 不做就被淘汰？」<br/>主文案压中上部：<br/>「<b>这 3 句<br/>最容易冲动买单</b>」<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>。<br/><span style=\"color:#8a8a85;\">Day 24 用 A 真实照，本篇回 B 手写（自曝清单感强）。</span></div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① <b>同行 GEO 销售</b>：会转发「我也是」；<br/>② <b>正被销售催单的老板</b>：看清「焦虑型话术」长啥样，以后不被忽悠；<br/>③ <b>刚入行的销售</b>：当避坑看。</div>"
+      },
+      {
+        "h": "✍️ 正文文案（可直接复制）",
+        "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-system-ui,-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2a;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">假期最后一天，翻了翻这阵子客户最常问的。做了 GEO 销售，最怕的不是砍价，是这三种问题。\n\n① 做了 AI 搜索 获客能来多少？我答不上来。AI 搜索 获客这事儿，没人能拍出精确数字。上周有个做外贸的朋友，上线俩月才第一次在 ChatGPT 里被提到，他后台根本看不到这条线索从哪来。我能做的只是让 AI 嘴里有你，至于来几个，真不敢说准。\n\n② 竞品也做了，我还有必要吗？这问题我反而高兴，说明他认真了。我的答案永远是：都做了你更得做，不然 AI 提的全是别人，你连被比的机会都没。\n\n③ 再不做是不是就晚了？我最怕这句，因为它是焦虑不是需求。我会先问：你的客户在不在 AI 对话框里搜你。搜不到才急，搜得到就别慌。\n\n多数人没想到的点：销售最怕的问题，往往不是最难答的，是最容易让客户冲动买单的。靠吓唬成的单，后面都难收场。我刚入行也用过这招，现在想想挺不好意思。\n\n这事我也没完全通透，AI 搜索 获客到底怎么衡量，还在看。你们被客户问得最哑口的是哪句，评论区跟我聊聊，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是「AI 搜索 获客」），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人问「那到底怎么算效果」就老实说：先看 AI 提没提你，别用精确数字压自己。</div>"
+      },
+      {
+        "h": "🔍 搜索关键词（搜索流量）",
+        "body": "<p><b>这篇在讲什么（一句话）：</b>AI 搜索 获客没人能拍出精确数字——客户在 AI 那看完直接去搜你品牌，后台零点击。GEO 销售能做的只是让 AI 嘴里有你，至于来几个真不敢说准。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>AI 搜索 获客<br/><b>长尾词（3 个）：</b><br/>　· 做了 GEO 能获客吗<br/>　· AI 搜索 获客 怎么衡量<br/>　· 中小企业 AI 搜索获客<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1–2 字「AI 搜索 获客」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「AI 搜索 获客能来多少」「AI 搜索 获客这事儿」<br/><b>③ 话题标签</b>：#AI搜索获客 #做了GEO能获客吗 #AI搜索获客怎么衡量（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「AI 搜索 获客没人能拍精确数字，GEO 先让 AI 嘴里有你」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+      },
+      {
+        "h": "🏷️ 标签 & 💬 互动钩子",
+        "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#AI搜索获客 #做了GEO能获客吗 #AI搜索获客怎么衡量 #豆包 #DeepSeek #百度AI搜索 #GEO #出海 #品牌营销 #创业避坑</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 豆包/DeepSeek/百度AI搜索，与 Day 24（DeepSeek/Kimi/元宝）只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · C 类「自曝（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「AI 搜索 获客到底怎么衡量，我也没完全通透，还在看」；② 软化——「你们被客户问得最哑口的是哪句」；③ 邀请——「评论区跟我聊聊，我还挺想听」。<br/><b>① 为什么用 C 类</b>：Day 24 B、Day 23 A，C 类隔了多篇，安全；自曝主题天然贴合 C 类。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：AI 搜索 获客没人能拍精确数字，先做让 AI 嘴里有你」<br/>　·「我刚入行也用过『不做就淘汰』吓客户，现在挺不好意思」<br/>　·「竞品做了你更得做，不然 AI 提的全是别人」<br/><b>③ 有人问「那到底怎么算效果」</b>：别硬编，说「先看 AI 提没提你，再盯品牌词搜索量」。</div>"
+      },
+      {
+        "h": "📈 今日涨粉动作",
+        "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽</b>。建议在 <b>10:00–11:30</b> 落点，别卡 07:30。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「我也是，最怕被问能来多少」的共鸣，把评论区变成同行吐槽现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「做了 GEO 能获客吗」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「AI 搜索 获客」「做了 GEO 能获客吗」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：自曝型笔记同行最爱接「我也是」，第 2 天看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「能来多少」是客户原话引用，不是给自己下承诺。</p></div></div>"
+      }
+    ]
   }]
 };
