@@ -4350,6 +4350,10 @@ const CONTENT = {
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球 CNC 加工最大基地，几千家工厂卷价格、卷交期、卷精度。海外机械/电子工程师、采购在 ChatGPT/Perplexity 问「best CNC machining supplier in China」时，答案往往是平台或大英文站，你的官网常常不在场——这就是 GEO 的空位。适合 GEO 的原因：① 品类高度标准化、参数可比；② 认证（ISO 9001、材料证书）是硬门槛，AI 最爱引用；③ 决策周期长（数周~数月），内容会被反复检索。"
       },
       {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家在 ChatGPT / Perplexity 搜\"best CNC machining supplier in China\"\"aluminum CNC prototyping\"时，答案几乎被 Proto Labs、Xometry、星速等平台型玩家和少数老牌英文站占据；纯靠阿里国际站 + 官网 SEO 的中国工厂基本不在 AI 答案里——等于最肥的免费流量入口没占到。\n② 买家决策极专业（公差 ±0.005、材质证明、五轴/走心机能力、打样周期），但多数厂长官网只有\"专业、设备先进\"八个字，没有 FAQ、没有材质/公差技术页、没有真实量产案例，AI 没有可引用的\"硬证据\"，自然不引你。\n③ 同质化严重，\"我们也是做 CNC 的\"，买家比价只看单价，利润被卷；缺乏\"某一细分难件（钛合金 / 薄壁 / 微米级 / 小批量快速打样）专家\"的差异化标签，AI 更不会把你当权威推荐。\n④ 认证 / 设备清单散落在 PDF 彩页里，AI 抓不到；来的询盘也多是泛泛\"quote for CNC parts\"，高净值精准询盘很少。"
+      },
+      {
         "h": "🧭 买家决策链路 · GEO 命中场景",
         "body": "海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「best CNC machining supplier in China」「top CNC suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「CNC machining tolerance standard」「5-axis vs 3-axis when to use」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「精密加工 CNC with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom CNC factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。"
       },
@@ -4379,6 +4383,10 @@ const CONTENT = {
       {
         "h": "🏭 行业画像 · 为什么最该做 GEO",
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球汽车供应链往中国转移，Tier1/Tier2 大量在中国找铸件、机加、注塑、电子件。买家问「IATF 16949 machining China」「automotive die casting supplier」时，能讲清「认证 + 产能 + PPAP 能力」的工厂极少。适合 GEO：认证即护城河、参数高度可比、采购周期长、替换供应商成本高。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 汽配买家极度看重 IATF 16949、PPAP、APQP、可追溯性，但这些资质不少工厂只挂在展厅墙上，官网 / AI 可检索内容几乎为零；海外 Tier1、售后市场（AM）买家搜\"China IATF16949 machining supplier\"时根本找不到你。\n② 汽配是长周期、强信任生意，买家要先验证\"你供过谁、出过哪些件、不良率多少\"，但工厂几乎没有案例库和质量体系说明，AI 没有素材可引，信任建立极慢。\n③ 原厂（OE）与售后市场（AM）两套话术常被混淆，买家问\"OE replacement vs aftermarket bracket\"你答不清，AI 更答不清，白白错失高毛利的 AM 询盘。\n④ 被阿里 / 环球同行价格战淹没，没有\"小批量快速打样 + 柔性交付\"标签，只能接到低质低价单。"
       },
       {
         "h": "🧭 买家决策链路 · GEO 命中场景",
@@ -4412,6 +4420,10 @@ const CONTENT = {
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球产品公司找注塑厂做外壳/结构件，模具一次性投入、量产靠复购。买家问「plastic injection molding China」「rapid tooling China」时，大多是平台或老牌站。适合 GEO：模具/材料/缩水率等参数极适合结构化内容、交期与精度是核心卖点、竞品内容普遍薄弱。"
       },
       {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家搜\"rapid tooling China\"\"injection molding supplier for [行业]\"时，答案被杰瑞、星速等占据，中小模具厂在 AI 里几乎是隐形的。\n② 注塑买家关心模具寿命、缩水率、材料认证（食品级 / 医疗级 / UL）、二次加工，但工厂页面只有\"质优价廉\"，没有材料 / 工艺 FAQ，AI 无料可引。\n③ 试模→改模→量产周期长、易扯皮，买家最怕\"模具做好了件不行\"，但工厂很少把 DFM 报告、模流分析、首件报告等信任证据上墙，AI 无法替你背书。\n④ 多品种小批量趋势下，工厂仍按大批量思维报价，错失 prototyping 高频小单。"
+      },
+      {
         "h": "🧭 买家决策链路 · GEO 命中场景",
         "body": "海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「plastic injection molding China」「top 注塑 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「rapid tooling vs production tooling」「how to choose mold steel」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「注塑 / 模具 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 注塑 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。"
       },
@@ -4441,6 +4453,10 @@ const CONTENT = {
       {
         "h": "🏭 行业画像 · 为什么最该做 GEO",
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>设备外壳、机箱、支架大量靠中国钣金厂。买家问「sheet metal fabrication China」「precision stamping China」「laser cutting service China」。适合 GEO：非标件参数多、图纸/材料/表面处理可比、认证（ISO/UL）是门槛、竞品少做结构化内容。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 钣金买家搜\"custom sheet metal fabrication China\"\"laser cutting + bending service\"，AI 答案里很少出现中国专业厂，流量被本地化服务商截走。\n② 钣金件高度非标（折弯系数、焊接工艺、表面处理），买家决策靠\"你能不能读我的 STEP / 图纸、给 DFMA 建议\"，但工厂官网无技术解读，AI 没法证明你懂行。\n③ 表面处理（粉末 / 电镀 / 阳极）良率与环保合规是买家雷区，工厂很少公开工艺能力与 RoHS / 环保认证，AI 不敢推荐。\n④ 小批量钣金打样贵且慢，工厂没有\"快速打样通道\"标签，被 FastRadius 类平台抢走订单。"
       },
       {
         "h": "🧭 买家决策链路 · GEO 命中场景",
@@ -4474,6 +4490,10 @@ const CONTENT = {
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>铝/锌压铸广泛用于汽车、3C、灯具。买家问「aluminum die casting China」「zinc die casting supplier China」。适合 GEO：模具/吨位/材料（ADC12 等）参数清晰、认证门槛、量产案例强、竞品英文 GEO 内容弱。"
       },
       {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家搜\"aluminum die casting China\"\"zinc die casting supplier automotive\"，答案被少数大厂和平台占据，中小压铸厂在 AI 里查无此人。\n② 压铸核心痛点是气孔、缩松、模具寿命、后加工（去毛刺 / 攻牙），买家极度关心良率与 X-ray / 气密性检测，但工厂无检测能力展示，AI 无据可引。\n③ 材料牌号（ADC12 / A380 / 锌合金）与认证（IATF / ISO）是硬门槛，工厂资质散落各处，AI 检索不到。\n④ 被当成\"便宜代工\"，缺乏\"高真空压铸 / 薄壁压铸专家\"的定位，只能拼单价。"
+      },
+      {
         "h": "🧭 买家决策链路 · GEO 命中场景",
         "body": "海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「aluminum die casting China」「top 压铸 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「die casting tolerance」「ADC12 vs A380」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「压铸 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 压铸 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。"
       },
@@ -4505,6 +4525,10 @@ const CONTENT = {
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球硬件品牌在中国找 EMS/PCBA 代工。买家问「turnkey PCBA supplier China」「IPC-A-610 class 3 assembly」。适合 GEO：认证（ISO 13485/UL/IPC-A-610）是硬门槛、工艺参数多、客户案例强背书、医疗/工控类买家尤其信 AI 引用。"
       },
       {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家搜\"EMS PCBA manufacturer China\"\"turnkey electronics assembly\"，答案被系思迈、鸿海系、PcbWay 等占据，中小 EMS 在 AI 里明显弱势。\n② PCBA 买家关心认证（ISO13485 医疗 / UL / IATF16949 / ISO9001）、追溯（MES / 条码）、ICT / FCT 测试能力，但工厂页面只是堆叠证书图、无解读，AI 抓不到语义。\n③ 元器件采购真实性（防假货 / 原装）、交期波动是买家大雷，工厂若无\"受控供应链 / 假货防控\"说明，AI 不敢推。\n④ 小批量多品种（prototype→NPI→量产）切换能力是差异化，但工厂无分层服务说明，AI 无法把你和纯打样厂区分开。"
+      },
+      {
         "h": "🧭 买家决策链路 · GEO 命中场景",
         "body": "海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「turnkey PCBA supplier China」「top PCBA suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「IPC-A-610 class 3 assembly」「ISO 13485 PCBA」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「EMS / PCBA 电子制造 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom PCBA factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。"
       },
@@ -4534,6 +4558,10 @@ const CONTENT = {
       {
         "h": "🏭 行业画像 · 为什么最该做 GEO",
         "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>储能系统、逆变器、光伏组件大量中国出货。买家问「energy storage system China」「inverter manufacturer with UL」。适合 GEO：认证（UL/CE/TÜV）是出海硬门槛、参数（效率/容量）高度可比、政策驱动需求旺、竞品英文内容参差。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家搜\"ESS lithium battery manufacturer China\"\"solar inverter OEM\"\"BMS supplier\"，答案被宁德、比亚迪、华为及少数海外媒体占据，中小逆变器 / 储能 PACK / 光伏配件厂在 AI 里几乎隐形。\n② 新能源买家极重合规与认证（UL9540A / CE / IEC62619 / UN38.3），且关心循环寿命、热管理、安全设计，但工厂技术内容浅、认证只贴标无解读，AI 无权威素材可引。\n③ 海外买家警惕\"什么都能做\"的组装厂，更信\"某细分（户用储能 PACK / 工商业 ESS / 微型逆变器）专家\"，工厂缺乏细分定位，AI 推荐权重低。\n④ 海外本地化服务（认证支持、售后、质保）是成交关键，工厂无英文案例 / 并网案例，AI 无法替你建立信任。"
       },
       {
         "h": "🧭 买家决策链路 · GEO 命中场景",
