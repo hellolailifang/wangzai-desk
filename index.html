@@ -1150,15 +1150,17 @@ function socialDateTip(e){
   if(d > t)  return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd} · 提前备好，可先做主图`;
   return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd}`;
 }
-function overseasNavHTML(arr, idx){
+function overseasNavHTML(arr, idx, moduleId='overseas'){
   if(!arr || arr.length < 2) return '';
   const items = arr.map((e,i)=>{
     const sub = e.short || ('Day '+(i+1));
     const cls = ['ov-item', i===idx?'on':''].filter(Boolean).join(' ');
     return `<button type="button" class="${cls}" data-oi="${i}">Day ${i+1}<span class="ov-d">${sub}</span></button>`;
   }).join('');
+  const title = moduleId==='geo' ? `🗂 客户开发 · 共 ${arr.length} 个方向` : `🗂 开发方向 · 共 ${arr.length} 个方向`;
+  const tip = moduleId==='geo' ? '点选查看每日客户开发方向' : '点选查看每日方向';
   return `<div class="ov-nav">
-    <div class="ov-h">🗂 开发方向 · 共 ${arr.length} 个方向<span class="en-sm">Directions</span><span class="ov-tip">点选查看每日方向</span></div>
+    <div class="ov-h">${title}<span class="en-sm">Directions</span><span class="ov-tip">${tip}</span></div>
     <div class="ov-list">${items}</div>
   </div>`;
 }
@@ -1246,7 +1248,7 @@ function todayContent(id){
     : (id==='social')
       ? socialDateTip(e)          // 日更内容按计划发布日走，不用「换一批」打乱顺序
       : `更新于<span class="en-sm">Updated</span> ${upd} · <span class="ct-refresh" id="ctRefresh">🔄 换一批<span class="en-sm">Refresh</span></span>`;
-  const nav = (id==='social') ? socialNavHTML(arr, idx) : (id==='overseas') ? overseasNavHTML(arr, idx) : '';
+  const nav = (id==='social') ? socialNavHTML(arr, idx) : (id==='overseas' || id==='geo') ? overseasNavHTML(arr, idx, id) : '';
   return `
     <div class="panel content-today">
       ${nav}
@@ -1589,16 +1591,16 @@ function openModule(id){
       if(nv && nv.scrollIntoView) nv.scrollIntoView({behavior:'smooth', block:'start'});
     });
   });
-  // 开发方向模块：Day1–Day7 篇目导航（可点选查看每日开发方向，前后一目了然）
+  // 开发方向 / 客户开发模块：Day1–Day7 篇目导航（可点选查看每日方向，前后一目了然）
   content.querySelectorAll('.ov-item').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const i = parseInt(btn.dataset.oi,10);
       if(isNaN(i)) return;
-      if(!DB.contentMeta.overseas) DB.contentMeta.overseas = {};
-      DB.contentMeta.overseas.pick = i;
-      DB.contentMeta.overseas.updated = new Date().toISOString();
+      if(!DB.contentMeta[id]) DB.contentMeta[id] = {};
+      DB.contentMeta[id].pick = i;
+      DB.contentMeta[id].updated = new Date().toISOString();
       save(DB);
-      openModule('overseas');
+      openModule(id);
       const nv = document.querySelector('.ov-nav');
       if(nv && nv.scrollIntoView) nv.scrollIntoView({behavior:'smooth', block:'start'});
     });
