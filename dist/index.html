@@ -269,6 +269,9 @@
   .ct-block{background:var(--card-bg);border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
   .ct-h{font-size:14.5px;font-weight:700;color:var(--ocean);margin-bottom:5px;}
   .ct-body{font-size:14.5px;line-height:1.7;color:#2b4a63;}
+  /* 开发方向 / 客户开发：GEO 切入点 ①②③④ 紧凑排版 */
+  .mod-overseas .ct-body,
+  .mod-geo .ct-body{line-height:1.45;}
   /* 徒步路线图片画廊 */
   .rg-block{border-left:3px solid var(--gold);}
   .route-gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:8px;}
@@ -1552,7 +1555,7 @@ function openModule(id){
 
   const lb=L(m);
   const content=$('#content');
-  content.className = 'content';
+  content.className = 'content mod-' + id;
   content.innerHTML = `
     <div class="mob-back" id="mobBack"><span class="arrow">‹</span><span>返回主页</span><span class="en-sm">Home</span></div>
     <div class="detail-head">
