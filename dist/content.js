@@ -4337,198 +4337,184 @@ const CONTENT = {
   ],
   "overseas": [
   {
-    "title": "Day 1 · 海外企业推荐（采购中国消费电子）",
-    "tag": "第1天 · 头部1 / 中小5",
+    "title": "Day 1 · 开发方向（精密加工 CNC（铣/车/走心机/五轴））",
+    "tag": "第1天 · 精密加工 CNC（铣/车/走心机/五轴）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打精密加工 CNC —— 它是最容易被 AI 推荐上来的中国供应链，没有之一。先按 4 步把技术内容和认证铺起来，再去「开发地址」捞工厂。"
       },
       {
-        "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>特斯拉 Tesla</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电动车与能源巨头；2003｜总部：美国·得州</div><div class=\"co-r\"><b>主营业务：</b>电动车、储能、FSD　招牌：Model 3/Y</div><div class=\"co-r\"><b>市场与打法：</b>直营+超级工厂+软件 OTA</div><div class=\"co-r found\"><b>📜 发家史：</b>2003 年创立，2004 年马斯克入主推 Roadster 到 Model S。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2019 年上海超级工厂投产，成本骤降、爆款频出。</div><div class=\"co-r look\"><b>💡 看点：</b>上海工厂是中国供应链反哺全球品牌的经典案例。 <button class=\"fam-btn\" data-fp=\"埃隆·马斯克 Elon Musk\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tesla.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tesla.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Monoprice</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高性价比 3C 配件电商；2002｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 线材/适配器/音频；渠道 1688/阿里国际站直采</div><div class=\"co-r\"><b>主营业务：</b>线材、适配器、音频配件</div><div class=\"co-r found\"><b>📜 发家史：</b>靠超低价线材电商起家，极客圈便宜好用代名词。</div><div class=\"co-r look\"><b>💡 看点：</b>中国卖家的直接竞品与参照。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Satechi</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端 3C 配件设计品牌；2007｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 扩展坞/充电器；深圳 OEM 直采</div><div class=\"co-r\"><b>主营业务：</b>扩展坞、充电器、苹果生态配件</div><div class=\"co-r found\"><b>📜 发家史：</b>专做苹果生态配件，踩中生态红利。</div><div class=\"co-r look\"><b>💡 看点：</b>轻资产品牌+OEM 打法。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Twelve South</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国苹果生态配件品牌；2009｜总部：美国·南卡</div><div class=\"co-r\"><b>采购画像：</b>采购 保护壳/支架；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>保护壳、支架、桌面配件</div><div class=\"co-r found\"><b>📜 发家史：</b>只做苹果、做精致的小众路线。</div><div class=\"co-r look\"><b>💡 看点：</b>垂直生态配件样本。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Nonda</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国车联网配件品牌；2013｜总部：美国·密歇根</div><div class=\"co-r\"><b>采购画像：</b>采购 车载电子；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>车载充电、胎压监测等车联网小件</div><div class=\"co-r found\"><b>📜 发家史：</b>从众筹起步，解决开车小痛点。</div><div class=\"co-r look\"><b>💡 看点：</b>美国痛点洞察+中国供应链。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wyze</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国智能家居品牌；2017｜总部：美国·西雅图</div><div class=\"co-r\"><b>采购画像：</b>采购 摄像头/传感器；深圳 OEM</div><div class=\"co-r\"><b>主营业务：</b>智能摄像头、传感器、门锁</div><div class=\"co-r found\"><b>📜 发家史：</b>前亚马逊员工用极致低价智能硬件走红。</div><div class=\"co-r look\"><b>💡 看点：</b>低价智能家居出海。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球 CNC 加工最大基地，几千家工厂卷价格、卷交期、卷精度。买家（海外机械/电子工程师、采购）在 ChatGPT / Perplexity 问「best CNC machining supplier in China」「CNC prototyping China tolerance」时，答案往往是平台或大英文站，你的官网常常不在场——这就是 GEO 的空位。<br><br>适合 GEO 的原因：① 品类高度标准化、参数可比；② 认证（ISO 9001、材料证书）是硬门槛，AI 最爱引用；③ 决策周期长（数周~数月），内容会被反复检索。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究场景（最容易被 AI 提问）：筛选供应商短名单、对比公差/材质/表面处理参数、查 ISO / 材料认证、找 OEM/ODM 打样工厂。<br>特征：决策周期长、有明确技术标准、多供应商比价、使用者是采购工程师 / 经理。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "① 技术适配：Schema 结构化数据 + llms.txt + Robots，让 AI 读懂工厂能力；<br>② 内容生态：把「怎么选 CNC 材料」「公差怎么定」「五轴适合什么件」写成客户真问题 FAQ / TLDR；<br>③ 权威信任：海外行业媒体 PR、外链、社媒背书；<br>④ GEO 监控迭代：月度看 AI 引用截图与链接，持续补内容。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里巴巴国际站（搜 CNC machining，筛 Gold Supplier 工厂）｜中国制造网 made-in-china.com｜1688.com（国内工厂源头，反向找出海主体）｜Google「CNC machining China」AI 概览 / SERP｜LinkedIn 搜「Mechanical Engineer / Sourcing Manager」+ 行业｜展会：ITES 深圳工业展、广交会、IMTS。"
       }
     ]
   },
   {
-    "title": "Day 2 · 海外企业推荐（采购中国电商与云）",
-    "tag": "第2天 · 头部1 / 中小5",
+    "title": "Day 2 · 开发方向（汽车零部件（Tier2/3 铸件·机加·注塑））",
+    "tag": "第2天 · 汽车零部件（Tier2/3 铸件·机加·注塑）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天第二个重点：汽车零部件。认证门槛比通用机加高（IATF 16949），但一旦占住 AI 答案位，客户黏性极强。"
       },
       {
-        "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>亚马逊 Amazon</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球电商与云霸主；1994｜总部：美国·西雅图</div><div class=\"co-r\"><b>主营业务：</b>Marketplace、AWS、广告　招牌：FBA、Prime</div><div class=\"co-r\"><b>市场与打法：</b>第三方平台+FBA 物流+AWS 技术底座</div><div class=\"co-r found\"><b>📜 发家史：</b>1994 年贝索斯车库卖书起家。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2006 年 AWS、2005 年 Prime，蜕变为云与广告巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>FBA/Marketplace 是中国跨境卖家最大的出海主通道。 <button class=\"fam-btn\" data-fp=\"杰夫·贝索斯 Jeff Bezos\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.amazon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.amazon.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Boulanger</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家电电子零售商；1954｜总部：法国·里尔</div><div class=\"co-r\"><b>采购画像：</b>采购 白电/黑电/智能；集中对华</div><div class=\"co-r\"><b>主营业务：</b>家电、消费电子连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>从修收音机卖家电起家的家族连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>法国区域渠道入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>AO.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国线上家电零售商；2000｜总部：英国·博尔顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电；直接对华</div><div class=\"co-r\"><b>主营业务：</b>线上家电零售</div><div class=\"co-r found\"><b>📜 发家史：</b>把家电搬上网站的英国早班车。</div><div class=\"co-r look\"><b>💡 看点：</b>英国线上家电渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Crutchfield</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国高端影音专业零售；1974｜总部：美国·弗吉尼亚</div><div class=\"co-r\"><b>采购画像：</b>采购 车载/家庭影音；直接对华 OEM</div><div class=\"co-r\"><b>主营业务：</b>影音器材、汽车音响</div><div class=\"co-r found\"><b>📜 发家史：</b>目录营销起家的发烧音响专家。</div><div class=\"co-r look\"><b>💡 看点：</b>重内容重服务的专业零售。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Newegg</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美 3C 电商；2001｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/配件；华强北直采</div><div class=\"co-r\"><b>主营业务：</b>电脑硬件、电子配件电商</div><div class=\"co-r found\"><b>📜 发家史：</b>华人创办、极客向的 3C 平台。</div><div class=\"co-r look\"><b>💡 看点：</b>北美华强北式选品入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Best Buy</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国最大家电电子连锁；1966｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/3C；大单直采</div><div class=\"co-r\"><b>主营业务：</b>家电、消费电子连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>从音响店做成全美连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>北美线下大卖场采购方。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球汽车供应链往中国转移，Tier1/Tier2 大量在中国找铸件、机加、注塑、电子件。买家问「die casting supplier China」「automotive injection molding China」「IATF 16949 machining China」时，能讲清「认证 + 产能 + PPAP 能力」的工厂极少。<br><br>适合 GEO：认证即护城河、参数高度可比、采购周期长、替换供应商成本高。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找通过 IATF 16949 / ISO 9001 的工厂、对比铸造/机加/注塑工艺能力、查 PPAP/APQP 流程、找 OEM/ODM 配套厂。<br>特征：认证门槛高、决策链长（含工程验证）、多轮比价、使用者是汽车采购 / SQE。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点放在「认证资质页 + 工艺能力 + 量产案例 + PPAP 流程说明」，让 AI 在回答汽车采购问题时优先引用你。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里巴巴（auto parts / automotive parts）｜中国制造网｜SEMA / Automechanika 展会名录｜LinkedIn「Purchasing Manager Automotive / SQE」｜行业：IATF 16949 供应商目录。"
       }
     ]
   },
   {
-    "title": "Day 3 · 海外企业推荐（采购中国投资与零售）",
-    "tag": "第3天 · 头部1 / 中小5",
+    "title": "Day 3 · 开发方向（注塑 / 模具（rapid tooling / injection molding））",
+    "tag": "第3天 · 注塑 / 模具（rapid tooling / injection molding）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "注塑/模具是出海工厂里「内容最薄」的赛道之一，GEO 几乎没人做，先发优势明显。"
       },
       {
-        "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>伯克希尔·哈撒韦 Berkshire</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球投资控股巨头；1965｜总部：美国·内布拉斯加</div><div class=\"co-r\"><b>主营业务：</b>股票投资、全资收购　招牌：复利、价值投资</div><div class=\"co-r\"><b>市场与打法：</b>保险浮存金+长期持有优质企业</div><div class=\"co-r found\"><b>📜 发家史：</b>1956 年巴菲特合伙起家，1965 年接手伯克希尔。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>能力圈+安全边际+复利穿越半个世纪。</div><div class=\"co-r look\"><b>💡 看点：</b>看企业要看现金流与护城河，对分析外贸龙头很有启发。 <button class=\"fam-btn\" data-fp=\"沃伦·巴菲特 Warren Buffett\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.berkshirehathaway.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.berkshirehathaway.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Target</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国中高端连锁零售；1962｜总部：美国·明尼苏达</div><div class=\"co-r\"><b>采购画像：</b>采购 家居/电子/服饰；重设计感</div><div class=\"co-r\"><b>主营业务：</b>连锁零售、自有品牌</div><div class=\"co-r found\"><b>📜 发家史：</b>主打 design for all 的差异化零售。</div><div class=\"co-r look\"><b>💡 看点：</b>注重设计感的采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Costco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>会员制仓储零售；1976｜总部：美国·华盛顿</div><div class=\"co-r\"><b>采购画像：</b>采购 大包装/自有品牌；少 SKU 大单</div><div class=\"co-r\"><b>主营业务：</b>仓储会员店、Kirkland 自有品牌</div><div class=\"co-r found\"><b>📜 发家史：</b>靠会员费+精选 SKU 的仓储模式。</div><div class=\"co-r look\"><b>💡 看点：</b>大单量、强议价采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Home Depot</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家居建材巨头；1978｜总部：美国·佐治亚</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/建材/五金；直接进口</div><div class=\"co-r\"><b>主营业务：</b>家居建材、工具连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>DIY 建材连锁龙头。</div><div class=\"co-r look\"><b>💡 看点：</b>五金建材出海重点客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>MediaMarkt</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲最大消费电子连锁；1979｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 3C/家电；欧洲大单</div><div class=\"co-r\"><b>主营业务：</b>消费电子连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>万得城式的欧洲 3C 渠道。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲 3C 渠道入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Carrefour</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国零售巨头；1958｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 快消/家居/食品；全球直采</div><div class=\"co-r\"><b>主营业务：</b>大卖场、便利店、电商</div><div class=\"co-r found\"><b>📜 发家史：</b>从大卖场做成全球零售巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>全球快消采购方。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球产品公司找注塑厂做外壳/结构件，模具一次性投入、量产靠复购。买家问「plastic injection molding China」「rapid tooling China」「custom mold maker China」时，大多是平台或老牌站。<br><br>适合 GEO：模具/材料/缩水率等参数极适合结构化内容、交期与精度是核心卖点。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找注塑/快速模具厂、对比型腔数/材料/缩水率、查 ISO、找能做 DFM 的厂。<br>特征：项目制、打样→量产周期长、多供应商比价。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点：材料选型指南、DFM 要点、缩水率/公差 FAQ——把工程师真正搜的问题写成页面。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里国际站（injection molding / mold）｜中国制造网｜展会：CHINAPLAS 国际橡塑展、广交会｜LinkedIn「Product Development / Mechanical Engineer」。"
       }
     ]
   },
   {
-    "title": "Day 4 · 海外企业推荐（采购中国AI 与软件）",
-    "tag": "第4天 · 头部1 / 中小5",
+    "title": "Day 4 · 开发方向（钣金 / 冲压（sheet metal fabrication））",
+    "tag": "第4天 · 钣金 / 冲压（sheet metal fabrication）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "钣金/冲压买家常问「fabrication」，内容门槛低，但把「工艺能力 + 图纸转化」写清楚就能赢。"
       },
       {
-        "h": "今日推荐 · 6 家（中小企业为主，含行业标杆）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>OpenAI</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>全球 AI 研究与产品领军；2015｜总部：美国·旧金山</div><div class=\"co-r\"><b>主营业务：</b>GPT 大模型、ChatGPT、API　招牌：ChatGPT、Sora</div><div class=\"co-r\"><b>市场与打法：</b>前沿研究+产品化+与微软结盟</div><div class=\"co-r found\"><b>📜 发家史：</b>2015 年以非营利研究起步，2022 年 ChatGPT 引爆生成式 AI。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>2023 年 Altman 回归加速商业化，GPT-4o、Sora 持续领先。</div><div class=\"co-r look\"><b>💡 看点：</b>AI 是外贸人提效的新杠杆，Altman 是这一轮旗手。 <button class=\"fam-btn\" data-fp=\"萨姆·奥尔特曼 Sam Altman\">📖 名人故事</button></div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.openai.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.openai.com</a></div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Coolblue</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢电商零售；1999｜总部：荷兰·埃因霍温</div><div class=\"co-r\"><b>采购画像：</b>采购 3C/家电；重服务</div><div class=\"co-r\"><b>主营业务：</b>3C、家电电商</div><div class=\"co-r found\"><b>📜 发家史：</b>靠极致客服体验成长的低地国家电商。</div><div class=\"co-r look\"><b>💡 看点：</b>高服务标准采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>bol.com</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>荷比卢最大电商平台；1999｜总部：荷兰</div><div class=\"co-r\"><b>采购画像：</b>平台卖家；开放第三方</div><div class=\"co-r\"><b>主营业务：</b>综合电商平台</div><div class=\"co-r found\"><b>📜 发家史：</b>低地国家版「亚马逊」。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲平台卖家入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Zalando</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲时尚电商；2008｜总部：德国·柏林</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰/鞋包；品牌直供</div><div class=\"co-r\"><b>主营业务：</b>时尚电商</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大时尚电商平台。</div><div class=\"co-r look\"><b>💡 看点：</b>服饰出海欧洲平台。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>ASOS</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国时尚电商；2000｜总部：英国·伦敦</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰；快时尚供应链</div><div class=\"co-r\"><b>主营业务：</b>年轻时尚电商</div><div class=\"co-r found\"><b>📜 发家史：</b>面向 Z 世代的快时尚平台。</div><div class=\"co-r look\"><b>💡 看点：</b>快时尚出海入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Wayfair</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>北美家居电商；2002｜总部：美国·波士顿</div><div class=\"co-r\"><b>采购画像：</b>采购 家具/家居；中国工厂直采</div><div class=\"co-r\"><b>主营业务：</b>线上家居家具</div><div class=\"co-r found\"><b>📜 发家史：</b>从长尾家居做成线上家居巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>家居工厂出海大客户。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>设备外壳、机箱、支架大量靠中国钣金厂。买家问「sheet metal fabrication China」「precision stamping China」「laser cutting service China」。<br><br>适合 GEO：非标件参数多、图纸/材料/表面处理可比、认证（ISO/UL）是门槛。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找钣金/冲压厂、对比材质/厚度/表面处理、查认证、找小批量打样。<br>特征：非标、交期敏感、工程项目制。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点：材料与厚度选型、表面处理对比、图纸转 STEP/IGES 能力说明。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里国际站（sheet metal）｜中国制造网｜Thomasnet（美国采购目录）｜展会：FABTECH、广交会。"
       }
     ]
   },
   {
-    "title": "Day 5 · 海外企业推荐（采购中国家居建材）",
-    "tag": "第5天 · 中小5",
+    "title": "Day 5 · 开发方向（压铸（die casting 铝/锌））",
+    "tag": "第5天 · 压铸（die casting 铝/锌）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "压铸和汽车零部件高度重叠，可打包开发：同一批工厂常兼做汽车件 + 消费电子壳。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>IKEA 宜家</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球家居巨头；1943｜总部：瑞典</div><div class=\"co-r\"><b>采购画像：</b>采购 板式家具/家居；全球供应商</div><div class=\"co-r\"><b>主营业务：</b>板式家具、家居用品</div><div class=\"co-r found\"><b>📜 发家史：</b>从邮购目录做到全球家居标杆。</div><div class=\"co-r look\"><b>💡 看点：</b>大单量、标准极严的采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Lowe's</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国家居建材连锁；1946｜总部：美国·北卡</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/建材/五金；大单</div><div class=\"co-r\"><b>主营业务：</b>家居建材连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>家得宝的主要对手。</div><div class=\"co-r look\"><b>💡 看点：</b>北美建材出海客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>B&Q</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国建材园艺连锁；1969｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 园艺/工具/建材</div><div class=\"co-r\"><b>主营业务：</b>建材园艺连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲 DIY 建材老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲园艺采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Leroy Merlin</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家居建材连锁；1923｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 建材/工具/园艺</div><div class=\"co-r\"><b>主营业务：</b>家居建材、园艺</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲 DIY 连锁巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲建材采购入口。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Kingfisher</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲 DIY 集团（B&Q/Screwfix 母公司）；1982｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 工具/建材/五金</div><div class=\"co-r\"><b>主营业务：</b>建材零售集团</div><div class=\"co-r found\"><b>📜 发家史：</b>旗下多品牌覆盖欧洲。</div><div class=\"co-r look\"><b>💡 看点：</b>集团级采购方。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>铝/锌压铸广泛用于汽车、3C、灯具。买家问「aluminum die casting China」「zinc die casting supplier China」。<br><br>适合 GEO：模具/吨位/材料（ADC12 等）参数清晰、认证门槛、量产案例强。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找压铸厂、对比吨位/材料/后处理、查 IATF/ISO、找 OEM。<br>特征：模具投入大、量产依赖强、比价重点在良率。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点：吨位与材料对照、后处理（CNC/喷涂/电镀）能力、量产良率案例。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里国际站（die casting）｜中国制造网｜展会：CHINAPLAS、Automechanika。"
       }
     ]
   },
   {
-    "title": "Day 6 · 海外企业推荐（采购中国3C 与家电）",
-    "tag": "第6天 · 中小5",
+    "title": "Day 6 · 开发方向（EMS / PCBA 电子制造）",
+    "tag": "第6天 · EMS / PCBA 电子制造",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "EMS/PCBA 买家极依赖「认证 + 产能」背书，GEO 内容做好了，询盘质量会明显高。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Currys</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国 3C 家电连锁；1884｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 电脑/家电/手机</div><div class=\"co-r\"><b>主营业务：</b>3C、家电连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国消费电子老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>英国 3C 渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Fnac</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国文化 3C 零售；1954｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 电子/影音/书</div><div class=\"co-r\"><b>主营业务：</b>文化电子零售</div><div class=\"co-r found\"><b>📜 发家史：</b>法国文化+电子混合连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲 3C 采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Darty</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国家电连锁；1957｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 大家电/小家电</div><div class=\"co-r\"><b>主营业务：</b>家电连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>法国家电服务口碑王。</div><div class=\"co-r look\"><b>💡 看点：</b>法国家电渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>El Corte Inglés</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>西班牙百货巨头；1945｜总部：西班牙</div><div class=\"co-r\"><b>采购画像：</b>采购 家电/服饰/家居</div><div class=\"co-r\"><b>主营业务：</b>百货、电商</div><div class=\"co-r found\"><b>📜 发家史：</b>西班牙百货一哥。</div><div class=\"co-r look\"><b>💡 看点：</b>南欧百货采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Saturn</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国 3C 连锁（MediaMarkt 同门）；1961｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 3C/家电</div><div class=\"co-r\"><b>主营业务：</b>消费电子连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>德国 3C 渠道。</div><div class=\"co-r look\"><b>💡 看点：</b>德国 3C 采购入口。</div></div>"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球硬件品牌在中国找 EMS/PCBA 代工。买家问「PCB assembly China」「EMS electronics manufacturing China」「turnkey PCBA supplier」。<br><br>适合 GEO：认证（ISO 13485/UL/IPC-A-610）是硬门槛、工艺参数多、客户案例强背书。"
+      },
+      {
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找 EMS/PCBA 厂、对比产线/认证/良率、查 UL/ISO、找 turnkey 服务。<br>特征：认证驱动、NPI 周期长、多轮工程验证。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点：认证资质页、NPI/DFM 流程、IPC 标准说明、行业案例（医疗/工控/消费）。"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里国际站（pcba / ems）｜香港贸发局 hktdc.com｜展会：HK Electronics Fair、慕尼黑电子展｜LinkedIn「Hardware / NPI Engineer」。"
       }
     ]
   },
   {
-    "title": "Day 7 · 海外企业推荐（采购中国服饰鞋包）",
-    "tag": "第7天 · 中小5",
+    "title": "Day 7 · 开发方向（新能源 / 储能 / 光伏（inverter / ESS / solar））",
+    "tag": "第7天 · 新能源 / 储能 / 光伏（inverter / ESS / solar）",
     "blocks": [
       {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🎯 今天怎么打这个方向",
+        "body": "新能源是这两年出海最热的赛道，买家问得多、但中文工厂的英文 GEO 内容普遍弱，机会最大。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Nike 耐克</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球运动巨头；1964｜总部：美国·俄勒冈</div><div class=\"co-r\"><b>采购画像：</b>采购 运动鞋服；亚洲代工</div><div class=\"co-r\"><b>主营业务：</b>运动鞋、运动服饰</div><div class=\"co-r found\"><b>📜 发家史：</b>从跑步鞋做到全球运动标杆。</div><div class=\"co-r look\"><b>💡 看点：</b>运动代工大单采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Adidas 阿迪达斯</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国运动巨头；1949｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 运动鞋服；亚洲供应链</div><div class=\"co-r\"><b>主营业务：</b>运动鞋、运动服饰</div><div class=\"co-r found\"><b>📜 发家史：</b>与耐克分庭抗礼的德国运动品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>运动供应链采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>H&M</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>瑞典快时尚巨头；1947｜总部：瑞典</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰；全球快反</div><div class=\"co-r\"><b>主营业务：</b>快时尚服饰</div><div class=\"co-r found\"><b>📜 发家史：</b>以极致快反供应链著称。</div><div class=\"co-r look\"><b>💡 看点：</b>快时尚出海大客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Inditex（Zara）</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>西班牙快时尚母公司；1963｜总部：西班牙</div><div class=\"co-r\"><b>采购画像：</b>采购 服饰；垂直快反</div><div class=\"co-r\"><b>主营业务：</b>快时尚、Zara 等品牌</div><div class=\"co-r found\"><b>📜 发家史：</b>Zara 极速上新模式的发明者。</div><div class=\"co-r look\"><b>💡 看点：</b>极速供应链采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Decathlon 迪卡侬</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>法国运动零售；1976｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 全品类运动装备</div><div class=\"co-r\"><b>主营业务：</b>运动用品零售+自有品牌</div><div class=\"co-r found\"><b>📜 发家史：</b>把运动装备做成平价超市。</div><div class=\"co-r look\"><b>💡 看点：</b>运动装备出海大单。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 8 · 海外企业推荐（采购中国美妆个护）",
-    "tag": "第8天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>储能系统、逆变器、光伏组件大量中国出货。买家问「energy storage system China」「inverter manufacturer China」「solar panel supplier China」。<br><br>适合 GEO：认证（UL/CE/TÜV）是出海硬门槛、参数（效率/容量）高度可比、政策驱动需求旺。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Sephora 丝芙兰</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球美妆零售；1969｜总部：法国</div><div class=\"co-r\"><b>采购画像：</b>采购 美妆/护肤/香氛</div><div class=\"co-r\"><b>主营业务：</b>高端美妆连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>LVMH 旗下的美妆渠道王。</div><div class=\"co-r look\"><b>💡 看点：</b>美妆出海高端渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Ulta Beauty</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国美妆连锁；1990｜总部：美国·伊利诺伊</div><div class=\"co-r\"><b>采购画像：</b>采购 美妆/护肤/工具</div><div class=\"co-r\"><b>主营业务：</b>美妆连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国大众美妆一站式门店。</div><div class=\"co-r look\"><b>💡 看点：</b>美国美妆采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Boots</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国药妆连锁；1849｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 个护/药妆/美妆</div><div class=\"co-r\"><b>主营业务：</b>药妆、健康零售</div><div class=\"co-r found\"><b>📜 发家史：</b>英国街角药妆老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>英国药妆渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>dm（drogerie）</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国日化连锁；1973｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 个护/日化/健康</div><div class=\"co-r\"><b>主营业务：</b>日化折扣连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>德国性价比日化之王。</div><div class=\"co-r look\"><b>💡 看点：</b>日化出海采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Lush</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国手工美妆；1995｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 沐浴/护肤原料</div><div class=\"co-r\"><b>主营业务：</b>手工香皂、浴球</div><div class=\"co-r found\"><b>📜 发家史：</b>以裸装环保美妆出圈。</div><div class=\"co-r look\"><b>💡 看点：</b>环保美妆采购方。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 9 · 海外企业推荐（采购中国户外装备）",
-    "tag": "第9天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "🧭 买家怎么找供应商（GEO 命中场景）",
+        "body": "采购前研究：找储能/逆变器/光伏厂、对比效率/容量/认证、查 UL/CE/TÜV、找 OEM/ODM。<br>特征：认证驱动、项目制、比价重点在合规与交付。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>REI</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国户外合作社；1938｜总部：美国·华盛顿</div><div class=\"co-r\"><b>采购画像：</b>采购 徒步/露营装备</div><div class=\"co-r\"><b>主营业务：</b>户外装备、服装</div><div class=\"co-r found\"><b>📜 发家史：</b>美国户外爱好者合作社。</div><div class=\"co-r look\"><b>💡 看点：</b>户外装备采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Columbia 哥伦比亚</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国户外品牌；1938｜总部：美国·俄勒冈</div><div class=\"co-r\"><b>采购画像：</b>采购 户外服饰；亚洲代工</div><div class=\"co-r\"><b>主营业务：</b>户外服装、鞋</div><div class=\"co-r found\"><b>📜 发家史：</b>从帽子做到全户外线。</div><div class=\"co-r look\"><b>💡 看点：</b>户外服饰代工大单。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Patagonia</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国户外品牌；1973｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 户外服饰；可持续供应链</div><div class=\"co-r\"><b>主营业务：</b>户外服装</div><div class=\"co-r found\"><b>📜 发家史：</b>环保叙事极强的户外品牌。</div><div class=\"co-r look\"><b>💡 看点：</b>可持续户外采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Mountain Warehouse</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国户外折扣；1997｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 户外/登山装备</div><div class=\"co-r\"><b>主营业务：</b>户外折扣零售</div><div class=\"co-r found\"><b>📜 发家史：</b>英国平价户外连锁。</div><div class=\"co-r look\"><b>💡 看点：</b>平价户外采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>GO Outdoors</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国户外连锁；1995｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 露营/徒步装备</div><div class=\"co-r\"><b>主营业务：</b>户外用品连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国大众户外门店。</div><div class=\"co-r look\"><b>💡 看点：</b>户外渠道采购方。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 10 · 海外企业推荐（采购中国食品商超）",
-    "tag": "第10天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
+        "h": "⚡ GEO 切入点（4 步动作）",
+        "body": "4 步同上，内容重点：认证资质页、产品参数对比、并网/离网方案、海外项目案例。"
       },
       {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Aldi 奥乐齐</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国折扣超市；1946｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 食品/日用品；全球直采</div><div class=\"co-r\"><b>主营业务：</b>折扣超市</div><div class=\"co-r found\"><b>📜 发家史：</b>全球折扣超市标杆。</div><div class=\"co-r look\"><b>💡 看点：</b>食品出海大单。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Lidl</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>德国折扣超市；1930｜总部：德国</div><div class=\"co-r\"><b>采购画像：</b>采购 食品/家居；欧洲直采</div><div class=\"co-r\"><b>主营业务：</b>折扣超市</div><div class=\"co-r found\"><b>📜 发家史：</b>Aldi 的主要对手。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲食品采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Tesco 乐购</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国超市巨头；1919｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 食品/日用品；全球供应链</div><div class=\"co-r\"><b>主营业务：</b>超市连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国第一大超市。</div><div class=\"co-r look\"><b>💡 看点：</b>英国食品采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Sainsbury's</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国超市；1869｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 食品/日用品</div><div class=\"co-r\"><b>主营业务：</b>超市连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国老牌超市。</div><div class=\"co-r look\"><b>💡 看点：</b>英国食品渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Kroger 克罗格</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国超市巨头；1883｜总部：美国·俄亥俄</div><div class=\"co-r\"><b>采购画像：</b>采购 食品/日用品；大单</div><div class=\"co-r\"><b>主营业务：</b>超市连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国第一大传统超市。</div><div class=\"co-r look\"><b>💡 看点：</b>美国食品大单。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 11 · 海外企业推荐（采购中国玩具母婴）",
-    "tag": "第11天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
-      },
-      {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Toys\"R\"Us</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>全球玩具零售；1948｜总部：美国</div><div class=\"co-r\"><b>采购画像：</b>采购 玩具/婴童；亚洲 OEM</div><div class=\"co-r\"><b>主营业务：</b>玩具、婴童零售</div><div class=\"co-r found\"><b>📜 发家史：</b>玩具反斗城，全球玩具渠道。</div><div class=\"co-r look\"><b>💡 看点：</b>玩具出海大客户。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Mothercare</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国母婴品牌；1961｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 婴童服饰/用品</div><div class=\"co-r\"><b>主营业务：</b>母婴服饰、用品</div><div class=\"co-r found\"><b>📜 发家史：</b>英国母婴老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>母婴采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Smyths Toys</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲玩具连锁；1986｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 玩具/游戏；大单</div><div class=\"co-r\"><b>主营业务：</b>玩具连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲最大玩具连锁之一。</div><div class=\"co-r look\"><b>💡 看点：</b>欧洲玩具采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>The Entertainer</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国玩具连锁；1981｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 玩具/积木</div><div class=\"co-r\"><b>主营业务：</b>玩具连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国平价玩具门店。</div><div class=\"co-r look\"><b>💡 看点：</b>英国玩具渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Babyshop</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>中东母婴零售；1973｜总部：阿联酋</div><div class=\"co-r\"><b>采购画像：</b>采购 婴童服饰/用品</div><div class=\"co-r\"><b>主营业务：</b>母婴、童装零售</div><div class=\"co-r found\"><b>📜 发家史：</b>中东母婴龙头。</div><div class=\"co-r look\"><b>💡 看点：</b>中东母婴采购方。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 12 · 海外企业推荐（采购中国汽配工具）",
-    "tag": "第12天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
-      },
-      {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>AutoZone</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国汽配连锁；1979｜总部：美国·田纳西</div><div class=\"co-r\"><b>采购画像：</b>采购 配件/工具；亚洲供应链</div><div class=\"co-r\"><b>主营业务：</b>汽车配件连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国汽配渠道王。</div><div class=\"co-r look\"><b>💡 看点：</b>汽配出海大单。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>O'Reilly</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国汽配连锁；1957｜总部：美国·密苏里</div><div class=\"co-r\"><b>采购画像：</b>采购 配件/工具</div><div class=\"co-r\"><b>主营业务：</b>汽车配件连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国汽配双雄之一。</div><div class=\"co-r look\"><b>💡 看点：</b>汽配采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>NAPA</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国汽配连锁；1925｜总部：美国</div><div class=\"co-r\"><b>采购画像：</b>采购 汽配/工具</div><div class=\"co-r\"><b>主营业务：</b>汽配分销网络</div><div class=\"co-r found\"><b>📜 发家史：</b>全美汽配分销巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>汽配分销采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Halfords</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国汽配自行车连锁；1899｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 汽配/骑行装备</div><div class=\"co-r\"><b>主营业务：</b>汽配、骑行零售</div><div class=\"co-r found\"><b>📜 发家史：</b>英国汽配+骑行老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>英国汽配渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Euro Car Parts</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国汽配分销；1978｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 汽配/耗材</div><div class=\"co-r\"><b>主营业务：</b>汽配分销</div><div class=\"co-r found\"><b>📜 发家史：</b>英国汽配分销大户。</div><div class=\"co-r look\"><b>💡 看点：</b>英国汽配采购方。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 13 · 海外企业推荐（采购中国办公文具）",
-    "tag": "第13天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
-      },
-      {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Staples</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国办公用品连锁；1986｜总部：美国·麻省</div><div class=\"co-r\"><b>采购画像：</b>采购 文具/办公/耗材</div><div class=\"co-r\"><b>主营业务：</b>办公用品连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国办公渠道老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>办公采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Office Depot</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国办公用品；1986｜总部：美国·佛州</div><div class=\"co-r\"><b>采购画像：</b>采购 文具/办公设备</div><div class=\"co-r\"><b>主营业务：</b>办公用品、设备</div><div class=\"co-r found\"><b>📜 发家史：</b>美国办公双雄之一。</div><div class=\"co-r look\"><b>💡 看点：</b>办公采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Ryman</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国文具连锁；1899｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 文具/办公</div><div class=\"co-r\"><b>主营业务：</b>文具连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>英国文具老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>英国文具渠道。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Viking</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>欧洲办公直邮；1960｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 文具/办公耗材</div><div class=\"co-r\"><b>主营业务：</b>办公直邮、B2B</div><div class=\"co-r found\"><b>📜 发家史：</b>欧洲 B2B 办公供应商。</div><div class=\"co-r look\"><b>💡 看点：</b>办公 B2B 采购。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>WHSmith</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国文具书报连锁；1792｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 文具/书报/旅行用品</div><div class=\"co-r\"><b>主营业务：</b>文具、书报零售</div><div class=\"co-r found\"><b>📜 发家史：</b>英国车站书店老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>英国文具渠道。</div></div>"
-      }
-    ]
-  },
-  {
-    "title": "Day 14 · 海外企业推荐（采购中国宠物健康）",
-    "tag": "第14天 · 中小5",
-    "blocks": [
-      {
-        "h": "💡 今日怎么用这笔清单",
-        "body": "① 在 Google / LinkedIn 搜企业名 + sourcing / procurement / purchasing manager，找采购负责人；② 用「阿里巴巴国际站」「中国制造网」对照其采购品类，反向以这些买家为目标做开发；③ 参加「香港电子展」「广交会」「Global Sources」定向约访；④ 用海关数据 / ImportGenius 查其中国进口记录，锁定具体 SKU；⑤ 开发信：Hi [Name], we supply [品类] to EU/US retailers，附 catalog 与合规证书（CE / FCC / RoHS）。"
-      },
-      {
-        "h": "今日推荐 · 5 家（中小买家）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>Petco</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国宠物连锁；1965｜总部：美国·加州</div><div class=\"co-r\"><b>采购画像：</b>采购 宠物食品/用品</div><div class=\"co-r\"><b>主营业务：</b>宠物食品、用品连锁</div><div class=\"co-r found\"><b>📜 发家史：</b>美国宠物渠道老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>宠物出海大单。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>PetSmart</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国宠物连锁；1986｜总部：美国·亚利桑那</div><div class=\"co-r\"><b>采购画像：</b>采购 宠物食品/用品</div><div class=\"co-r\"><b>主营业务：</b>宠物连锁、服务</div><div class=\"co-r found\"><b>📜 发家史：</b>美国宠物连锁巨头。</div><div class=\"co-r look\"><b>💡 看点：</b>宠物采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Walgreens</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国药妆连锁；1901｜总部：美国·伊利诺伊</div><div class=\"co-r\"><b>采购画像：</b>采购 健康/个护/保健品</div><div class=\"co-r\"><b>主营业务：</b>药妆、健康零售</div><div class=\"co-r found\"><b>📜 发家史：</b>美国街角药妆王。</div><div class=\"co-r look\"><b>💡 看点：</b>健康品类采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>CVS</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>美国药妆连锁；1963｜总部：美国·罗德岛</div><div class=\"co-r\"><b>采购画像：</b>采购 健康/个护/保健品</div><div class=\"co-r\"><b>主营业务：</b>药妆、药房零售</div><div class=\"co-r found\"><b>📜 发家史：</b>美国最大药房连锁之一。</div><div class=\"co-r look\"><b>💡 看点：</b>健康品类采购方。</div></div>\n        <div class=\"co\"><div class=\"co-h\"><b>Holland & Barrett</b><span class=\"co-t sm\">中小</span></div><div class=\"co-r\"><b>速写：</b>英国健康食品连锁；1870｜总部：英国</div><div class=\"co-r\"><b>采购画像：</b>采购 保健品/天然食品</div><div class=\"co-r\"><b>主营业务：</b>健康食品、保健品</div><div class=\"co-r found\"><b>📜 发家史：</b>英国健康食品老牌。</div><div class=\"co-r look\"><b>💡 看点：</b>保健品采购方。</div></div>"
+        "h": "📍 客户开发地址（去哪找这些买家 / 工厂）",
+        "body": "阿里国际站（solar / energy storage）｜中国制造网｜香港贸发局 hktdc.com｜展会：SNEC 光伏展、Intersolar、广交会。"
       }
     ]
   }
