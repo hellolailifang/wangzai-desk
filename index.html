@@ -256,6 +256,14 @@
   .sn-item.on{background:var(--ocean);border-color:var(--ocean);color:#fff;}
   .sn-item.on .sn-d{color:rgba(255,255,255,.85);}
   .sn-item.on.future{background:#0a7d5a;border-color:#0a7d5a;}
+  .ov-nav{margin-bottom:6px;}
+  .ov-h{font-size:13px;color:var(--ocean-deep);font-weight:800;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;}
+  .ov-tip{font-size:11.5px;font-weight:600;color:#1b6ca8;background:rgba(27,108,168,.12);padding:2px 8px;border-radius:20px;}
+  .ov-list{display:grid;grid-template-columns:repeat(7,1fr);gap:7px;padding-bottom:4px;}
+  .ov-item{background:#fff;border:1.5px solid rgba(27,108,168,.25);border-radius:10px;padding:8px 2px;font-size:12.5px;font-weight:700;color:var(--ocean);cursor:pointer;text-align:center;line-height:1.3;font-family:inherit;}
+  .ov-item .ov-d{display:block;font-size:10.5px;font-weight:600;color:#5b7a99;margin-top:2px;}
+  .ov-item.on{background:var(--ocean);border-color:var(--ocean);color:#fff;}
+  .ov-item.on .ov-d{color:rgba(255,255,255,.85);}
   .ct-title{font-size:17.5px;font-weight:800;color:var(--ocean-deep);margin:2px 0 4px;padding-left:10px;border-left:3px solid var(--gold);}
   .ct-loc{font-size:13.5px;font-weight:700;color:#5a7d95;margin:0 0 12px 13px;letter-spacing:.3px;}
   .ct-block{background:var(--card-bg);border-radius:12px;padding:11px 14px;margin-bottom:9px;box-shadow:var(--shadow-sm);}
@@ -442,6 +450,8 @@
     .ct-sub{padding:0 12px 10px;}
     .social-nav{margin:0 0 8px;border-radius:0;border-left:none;border-right:none;border-top:none;padding:10px 12px;}
     .sn-item{font-size:12px;padding:8px 2px;}
+    .ov-item{font-size:12px;padding:8px 2px;}
+    .ov-d{font-size:10px;}
     .sn-h{font-size:12.5px;}
     .ct-title{margin:0 12px 4px;}
     .ct-loc{margin:0 12px 12px;padding-left:0;}
@@ -1140,6 +1150,18 @@ function socialDateTip(e){
   if(d > t)  return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd} · 提前备好，可先做主图`;
   return `计划发布<span class="en-sm">Scheduled</span> ${md} ${wd}`;
 }
+function overseasNavHTML(arr, idx){
+  if(!arr || arr.length < 2) return '';
+  const items = arr.map((e,i)=>{
+    const sub = e.short || ('Day '+(i+1));
+    const cls = ['ov-item', i===idx?'on':''].filter(Boolean).join(' ');
+    return `<button type="button" class="${cls}" data-oi="${i}">Day ${i+1}<span class="ov-d">${sub}</span></button>`;
+  }).join('');
+  return `<div class="ov-nav">
+    <div class="ov-h">🗂 开发方向 · 共 ${arr.length} 个方向<span class="en-sm">Directions</span><span class="ov-tip">点选查看每日方向</span></div>
+    <div class="ov-list">${items}</div>
+  </div>`;
+}
 /* ============ 今日内容索引：日历日稳定 + 手动刷新当天优先 ============ */
 function contentIdx(id, arr){
   const meta = DB.contentMeta[id] || {};
@@ -1224,7 +1246,7 @@ function todayContent(id){
     : (id==='social')
       ? socialDateTip(e)          // 日更内容按计划发布日走，不用「换一批」打乱顺序
       : `更新于<span class="en-sm">Updated</span> ${upd} · <span class="ct-refresh" id="ctRefresh">🔄 换一批<span class="en-sm">Refresh</span></span>`;
-  const nav = (id==='social') ? socialNavHTML(arr, idx) : '';
+  const nav = (id==='social') ? socialNavHTML(arr, idx) : (id==='overseas') ? overseasNavHTML(arr, idx) : '';
   return `
     <div class="panel content-today">
       ${nav}
@@ -1564,6 +1586,20 @@ function openModule(id){
       save(DB);
       openModule('social');
       const nv = document.querySelector('.social-nav');
+      if(nv && nv.scrollIntoView) nv.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+  // 开发方向模块：Day1–Day7 篇目导航（可点选查看每日开发方向，前后一目了然）
+  content.querySelectorAll('.ov-item').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const i = parseInt(btn.dataset.oi,10);
+      if(isNaN(i)) return;
+      if(!DB.contentMeta.overseas) DB.contentMeta.overseas = {};
+      DB.contentMeta.overseas.pick = i;
+      DB.contentMeta.overseas.updated = new Date().toISOString();
+      save(DB);
+      openModule('overseas');
+      const nv = document.querySelector('.ov-nav');
       if(nv && nv.scrollIntoView) nv.scrollIntoView({behavior:'smooth', block:'start'});
     });
   });
