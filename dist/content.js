@@ -5224,5 +5224,134 @@ const CONTENT = {
         }
       ]
     }
-  ]
+  ,
+    {
+      "title": "Day 26 · 社媒内容",
+      "date": "2026-10-01",
+      "day": 26,
+      "tag": "小红书 · GEO 日更 Day 26｜吐槽：客户以为 GEO 是卖地图导航",
+      "blocks": [
+        {
+          "h": "🎯 Day 26 · 阶段目标 1000 粉",
+          "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 26 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：作为 GEO 销售自曝最常被问懵的瞬间——客户以为 GEO 是卖地图导航，用误会拉共鸣。</b></p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：几乎每个 GEO 销售都经历过「你们是修导航的吗」，段子感强、人人可转</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 26 篇；② 评论区问「你们被客户问过最离谱的是哪句」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「GEO 销售」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+        },
+        {
+          "h": "📕 今日选题",
+          "body": "<p><b>今天不聊干货，讲个真实尴尬：做 GEO 销售三个月，被客户问最多的一句话是「你们是卖地图导航的吗」。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反：客户不懂 GEO，是销售的麻烦。这篇反着来：赛道新=知道的人少=现在进场吃肉，被问懵反而是红利还蓝着的信号。</div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「做这行三个月，最怕客户开场那句」开头（带时间带画面）；具象「沉默三秒：哦你们卖导航的」；污点「我刚做这行也脱口而出搞地理信息系统」；留口子「跟不同行业老板讲法不一样」。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>GEO 销售 是干嘛的？做3个月，被问最多：你们卖导航的？<br/><b>备选 A：</b>做 GEO 销售，客户以为我们是卖地图的<br/><b>备选 B：</b>被问「你们是修导航的吗」，我反而窃喜<br/><span style=\"color:#8a8a85;\">主推把「GEO 销售」顶最前，反差拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 A · 真实场景照 + 文字 overlay）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>手写对比：左「客户：你们卖导航的？」右「实际：让 AI 替你说话」。主文案压中上部：「GEO 销售／有人以为是 GPS」。<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>；主文案压中上部。</div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① 被客户问「你们做啥」问到崩溃的销售；② 对 GEO 有误解的老板；③ 普通打工人。</div>"
+        },
+        {
+          "h": "✍️ 正文文案（可直接复制）",
+          "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2c;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">GEO 销售是干嘛的？做这行三个月，我最怕客户开场那句：「你们具体做啥的？」\n\n我说生成式引擎优化，就是让 AI 在回答用户问题时优先提到你家公司。对方点头，沉默三秒：「哦……所以你们是卖地图导航的？」\n\n不是。真不是。GEO 销售是干嘛的，在他脑子里大概是「地理位置」四个字。这赛道太新了，新到每次见客户我都得从「GEO 不是 GPS」讲起，讲完人家还一脸「你别骗我」。\n\n我刚做这行也懵，第一次听同事说 GEO，我脱口而出「搞地理信息系统的？」后来才知道，它是让 AI 替你说话，不是帮你导航。多数人没想到的点：赛道新不是坑，是红利还蓝着——等满大街都懂 GEO 销售是干嘛的，那波流量早被吃完了。\n\n当然也有客户反着来，一上来就问「是不是又来割韭菜」，我只能苦笑。这事我也常拿不准，GEO 销售是干嘛的，跟不同行业的老板讲法真的不一样。你们做销售的有没有被客户问过特别离谱的，评论区跟我聊聊，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是核心词），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人接梗顺着聊，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "🔍 搜索关键词（搜索流量）",
+          "body": "<p><b>这篇在讲什么（一句话）：</b>GEO 销售是干嘛的？客户第一反应常是「卖地图导航的」——赛道太新，新到每次见客户都得从「GEO 不是 GPS」讲起；但新恰恰意味着红利还蓝着。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>GEO 销售<br/><b>长尾词（3 个）：</b><br/>　· GEO 销售 是干嘛的<br/>　· GEO 和客户怎么讲<br/>　· 做 GEO 销售 难吗<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「GEO 销售」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「GEO 销售」「GEO 销售 是干嘛的」<br/><b>③ 话题标签</b>：#GEO销售 #GEO销售是干嘛的 #GEO和客户怎么讲（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「补一句：GEO 不是 GPS，是让 AI 在回答时提到你公司」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+        },
+        {
+          "h": "🏷️ 标签 & 💬 互动钩子",
+          "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#GEO销售 #GEO销售是干嘛的 #GEO和客户怎么讲 #豆包 #Kimi #元宝 #GEO #AI搜索 #品牌营销 #创业避坑</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 豆包/Kimi/元宝，与 Day 25（豆包/DeepSeek/百度）只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · A 类「报行业（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「GEO 销售是干嘛的，跟不同行业老板讲法真的不一样，我也常拿不准」；② 软化——「你们做销售的有没有被客户问过特别离谱的」；③ 邀请——「评论区跟我聊聊，我还挺想听」。<br/><b>① 为什么用 A 类</b>：Day 25 C、Day 24 B，A 类隔了多篇，安全；吐槽客户误会最容易引同行接「我也是」。。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：GEO 不是 GPS，是让 AI 在回答时提到你公司」<br/>　·「我刚做这行也以为 GEO 是搞地理信息系统，脱口而出过」<br/>　·「赛道新不是坑，是红利还蓝着——等满大街都懂就晚了」<br/><b>③ 有人接梗</b>：有人晒「我客户以为我卖导航」，接梗别端着，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "📈 今日涨粉动作",
+          "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽，建议 10:00–11:30 落点，别卡 07:30</b>。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「你们被客户问过最离谱的是哪句」的共鸣，把评论区变成吐槽现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「GEO 销售 是干嘛的」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「GEO 销售」「GEO 销售 是干嘛的」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：吐槽型笔记同行最爱接「我也是」，第 2 天看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「卖导航」是客户原话引用，不是给自己下定义；别写绝对化 / 极限词。</p></div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 27 · 社媒内容",
+      "date": "2026-10-03",
+      "day": 27,
+      "tag": "小红书 · GEO 日更 Day 27｜吐槽：讲 GEO 被客户当诈骗",
+      "blocks": [
+        {
+          "h": "🎯 Day 27 · 阶段目标 1000 粉",
+          "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 27 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：自曝被客户当骗子的社死现场——GEO 优化太新，老板第一反应是「割韭菜」，用真实反应拉信任。</b></p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：新赛道销售最易被当骗子，吐槽自带共鸣，同行和老板都会接「我也是」</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 27 篇；② 评论区问「你被当过骗子吗」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「GEO 优化」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+        },
+        {
+          "h": "📕 今日选题",
+          "body": "<p><b>今天自曝一个社死现场：给老板讲十分钟 GEO 优化，他全程没说话，最后默默掏手机搜「AI 优化 是不是诈骗」。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反：客户防备你是因为贵。这篇反着来：是因为他听不懂——你越堆大词他越怕。先讲人话，防备才松。靠吓唬成的单后面都难收场。</div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「昨天见一老板讲十分钟」开头（带场景带画面）；污点「刚入行也差点用这套话术吓客户，差点谈崩」；留口子「怎么把新赛道讲得不吓人还在琢磨」；段落长短交错。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>GEO 优化 靠谱吗？我讲10分钟，客户默默搜「新型诈骗」<br/><b>备选 A：</b>讲了半天 GEO，客户在搜「是不是诈骗」<br/><b>备选 B：</b>新赛道销售，最怕客户掏手机搜自己<br/><span style=\"color:#8a8a85;\">主推把「GEO 优化」顶最前，反差拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 C · 真实聊天/搜索截图）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>截一条「AI 优化 是不是诈骗」的搜索框，圈出关键词。主文案压中上部：「被当骗子／是我这行的日常」。<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>；主文案压中上部。</div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① 被当过骗子的 GEO 销售；② 正被催单、怕踩坑的老板；③ 同行。</div>"
+        },
+        {
+          "h": "✍️ 正文文案（可直接复制）",
+          "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2c;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">昨天见一老板，兴致勃勃讲了十分钟 GEO 优化：AI 搜索怎么改写了流量逻辑、为什么现在不做以后贵十倍。他全程没说话，最后默默把手机掏出来。我瞄了一眼，他在搜：「AI 优化 是不是诈骗」。\n\n我当时又想笑又想哭。GEO 优化这词太新，新到很多老板第一反应是「这玩意靠谱吗」「是不是又来割韭菜的」。我能理解，换成我，一个没听过的词对方张嘴就是「红利」「流量重构」，我也得警惕。\n\n我刚入行也差点用这套话术吓客户，后来被问住才懂，差点把一单谈崩。多数人没想到的点：客户防备你，往往不是因为贵，是因为他听不懂——你越讲大词他越怕。先把「GEO 优化到底帮你解决啥」讲成人话，那层防备自己就松了。\n\n当然也有老板听完直接说「那我先观察」，我也不敢说谁对。怎么把新赛道讲得不吓人，我也没完全通透，还在琢磨。你们做 ToB 销售的有没有被当过骗子，评论区跟我讲讲，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是核心词），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人接梗顺着聊，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "🔍 搜索关键词（搜索流量）",
+          "body": "<p><b>这篇在讲什么（一句话）：</b>GEO 优化太新，新到老板第一反应是「是不是骗人」。客户防备你往往不是因为贵，是因为听不懂——讲成人话，防备才松。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>GEO 优化<br/><b>长尾词（3 个）：</b><br/>　· GEO 销售 靠谱吗<br/>　· AI 搜索 优化 是不是骗人<br/>　· 企业 做 GEO 要注意<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「GEO 优化」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「GEO 优化」「GEO 销售 靠谱吗」<br/><b>③ 话题标签</b>：#GEO优化 #GEO销售靠谱吗 #AI搜索优化是不是骗人（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「补一句：GEO 优化不是骗人，是让 AI 在回答时提到你」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+        },
+        {
+          "h": "🏷️ 标签 & 💬 互动钩子",
+          "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#GEO优化 #GEO销售靠谱吗 #AI搜索优化是不是骗人 #DeepSeek #豆包 #百度AI搜索 #GEO #出海 #创业避坑 #品牌营销</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 DeepSeek/豆包/百度AI搜索，与 Day 26（豆包/Kimi/元宝）只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · F 类「反问（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「怎么把新赛道讲得不吓人，我也没完全通透，还在琢磨」；② 软化——「你们做 ToB 销售的有没有被当过骗子」；③ 邀请——「评论区跟我讲讲，我还挺想听」。<br/><b>① 为什么用 F 类</b>：Day 26 A、Day 25 C，F 类隔了多篇，安全；被当骗子用反问最容易引爆共鸣。。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：GEO 优化不是骗人，是让 AI 在回答时提到你」<br/>　·「我刚入行也差点用「红利」「流量重构」吓客户，现在想想不对」<br/>　·「客户防备你往往不是因为贵，是因为他听不懂」<br/><b>③ 有人接梗</b>：有人问「那到底靠不靠谱」，别硬吹，说「先看 AI 提没提你」。</div>"
+        },
+        {
+          "h": "📈 今日涨粉动作",
+          "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽，建议 10:00–11:30 落点</b>。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「你被当过骗子吗」的共鸣，把评论区变成吐槽现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「GEO 销售 靠谱吗」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「GEO 优化」「GEO 销售 靠谱吗」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：吐槽型笔记同行最爱接「我也是」，第 2 天看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「是不是诈骗」是客户原话引用，不是给自己下定义；别写绝对化 / 极限词。</p></div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 28 · 社媒内容",
+      "date": "2026-10-05",
+      "day": 28,
+      "tag": "小红书 · GEO 日更 Day 28｜吐槽：回家亲戚以为我修发动机",
+      "blocks": [
+        {
+          "h": "🎯 Day 28 · 阶段目标 1000 粉",
+          "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 28 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：国庆回家自曝工作被亲戚误解的糗事——生成式引擎优化没人懂，用家庭段子拉共鸣。</b></p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：几乎人人都被亲戚问过职业，段子感强、人人可转，破「GEO 号太硬」</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 28 篇；② 评论区问「你回家怎么跟亲戚解释自己干啥」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「生成式引擎优化」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+        },
+        {
+          "h": "📕 今日选题",
+          "body": "<p><b>今天不聊干货，讲个回家的糗事：我妈向亲戚介绍我的工作「做引擎优化的」，亲戚一脸真诚：哦，修发动机的啊。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反：一个词家人听不懂，是这行太小众、没面子。这篇反着来：家人听不懂，反而说明这赛道真没人抢——等亲戚都能复述「生成式引擎优化是什么」，那红利早没了。</div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「明天就国庆放假了，已经能预想到家庭聚餐」开头（带节日带画面）；具象「我妈：做那个…引擎优化的」「亲戚：修发动机的」；留口子「往后怎么跟家里人讲清楚还在琢磨」；段落长短交错。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>生成式引擎优化 是什么？国庆回家，我妈介绍我工作翻车了<br/><b>备选 A：</b>我妈：做引擎优化的。亲戚：修发动机的<br/><b>备选 B：</b>跟家里人解释 GEO，比跟客户还累<br/><span style=\"color:#8a8a85;\">主推把「生成式引擎优化」顶最前，反差拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 B · 手写笔记）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>手写对比：上「我妈：做引擎优化的」下「亲戚：修发动机的」。主文案压中上部：「生成式引擎优化／= 修发动机？」<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>；主文案压中上部。</div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① 被亲戚问职业问到崩溃的打工人；② GEO 同行；③ 老板。</div>"
+        },
+        {
+          "h": "✍️ 正文文案（可直接复制）",
+          "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2c;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">生成式引擎优化是什么？连我妈向亲戚介绍都得卡壳。明天就国庆放假了，已经能预想到家庭聚餐的名场面。往年我妈说「我闺女做互联网的」，今年转行做 GEO 了，上次她是这么介绍的：「做那个……引擎优化的。」\n\n亲戚一脸真诚：「哦，修发动机的啊。」我妈纠正：「不是，是 AI 那个。」亲戚：「哦，做人工智能的，厉害。」我妈：「就……让 AI 多提提咱家生意的。」亲戚：「啥？」我：……（放弃解释）\n\n生成式引擎优化是什么，跟家里人解释比跟客户还累。客户好歹知道 AI 是啥，家里长辈的「AI=机器人」认知，我讲一宿都讲不明白。多数人没想到的点：一个词家人听不懂，反而说明这赛道真没人抢——等亲戚都能复述「生成式引擎优化是什么」，那红利早没了。\n\n当然我也没真生气，被吐槽「你这工作名字都念不顺」，反而提醒我机会还蓝着。往后怎么跟家里人讲清楚，我也还在琢磨。你们假期回家准备怎么跟亲戚解释自己干啥，评论区跟我聊聊，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是核心词），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人接梗顺着聊，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "🔍 搜索关键词（搜索流量）",
+          "body": "<p><b>这篇在讲什么（一句话）：</b>生成式引擎优化是什么？连我妈向亲戚介绍都会翻车——亲戚听成「修发动机的」。家人听不懂，反而说明这赛道真没人抢，红利还蓝着。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>生成式引擎优化<br/><b>长尾词（3 个）：</b><br/>　· 生成式引擎优化 是什么<br/>　· GEO 和 生成式引擎优化<br/>　· AI 搜索 优化 是什么<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「生成式引擎优化」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「生成式引擎优化」「生成式引擎优化 是什么」<br/><b>③ 话题标签</b>：#生成式引擎优化 #生成式引擎优化是什么 #GEO和生成式引擎优化（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「补一句：生成式引擎优化不是修发动机，是让 AI 在回答时提到你公司」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+        },
+        {
+          "h": "🏷️ 标签 & 💬 互动钩子",
+          "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#生成式引擎优化 #生成式引擎优化是什么 #GEO和生成式引擎优化 #Kimi #元宝 #豆包 #GEO #AI搜索 #职场 #创业避坑</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 Kimi/元宝/豆包，与 Day 27（DeepSeek/豆包/百度）只重合 1 个。</div><p class=\"ct-h\">💬 互动钩子 · B 类「二选一（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「往后怎么跟家里人讲清楚生成式引擎优化，我也还在琢磨」；② 软化——「你们假期回家准备怎么跟亲戚解释自己干啥」；③ 邀请——「评论区跟我聊聊，我还挺想听」。<br/><b>① 为什么用 B 类</b>：Day 27 F、Day 26 A，B 类隔了多篇，安全；家庭糗事用二选一最容易引 UGC。。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：生成式引擎优化不是修发动机，是让 AI 在回答时提到你公司」<br/>　·「我妈那句「做那个…引擎优化的」我笑了一周」<br/>　·「家人听不懂不是没面子，是红利还蓝着的信号」<br/><b>③ 有人接梗</b>：有人晒「我亲戚以为我干 XX」，接梗别端着，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "📈 今日涨粉动作",
+          "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽，建议 10:00–11:30 落点</b>。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「你回家怎么跟亲戚解释自己干啥」的共鸣，把评论区变成吐槽现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「生成式引擎优化 是什么」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「生成式引擎优化」「生成式引擎优化 是什么」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：吐槽型笔记同行最爱接「我也是」，第 2 天看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「修发动机的」是亲戚原话引用，不是给自己下定义；别写绝对化 / 极限词。</p></div></div>"
+        }
+      ]
+    },
+    {
+      "title": "Day 29 · 社媒内容",
+      "date": "2026-10-07",
+      "day": 29,
+      "tag": "小红书 · GEO 日更 Day 29｜吐槽：放假前客户才来问 GEO 是啥",
+      "blocks": [
+        {
+          "h": "🎯 Day 29 · 阶段目标 1000 粉",
+          "body": "<div style=\"background:#eef7ff;border:1px solid #9ec9ee;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#0a3d62;\">🎯 Day 29 · 阶段目标 1000 粉</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>今天的核心任务：吐槽「放假前客户才来问」的反直觉——企业做 GEO 的客户，自己刷出焦虑的才最容易成。</b></p><p style=\"margin:0 0 4px;\">· <b>为什么今天写</b>：假期客户故事自带共鸣，同行和老板都会接「我的客户也这样」</p><p style=\"margin:0 0 4px;\">· <b>今天只做 3 件事</b>：① 发第 29 篇；② 评论区问「你假期里客户也来找过你吗」；③ 挂进「GEO 避坑」合集。</p><p style=\"margin:0 0 4px;\">· <b>🔍 本轮重点</b>：核心词「企业做GEO」进标题前 20 字、首段、标签前 3 个。</p></div></div>"
+        },
+        {
+          "h": "📕 今日选题",
+          "body": "<p><b>今天聊个反直觉：明天就放假了，一客户临下班甩来一句「GEO 是啥？假期空了搞一下」。这种「放假才想起来」的客户，反而最容易成。</b></p><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>🔑 这篇的判断（多数没想到）</b></p><div class=\"ct-body ph\">多数人想反：销售最怕客户不急。这篇反着来：越不急的客户越难成交，自己刷 AI 刷出焦虑来的才最容易成——防备心最低，聊两句就懂企业做 GEO 对他意味着啥。</div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>✏️ 口语化 / 去 AI 味 自检</b></p><div class=\"ct-body ph\">以「明天就正式放假了，心已经飞了」开头（带节日带画面）；污点「刚入行也以为催得紧就行，后来发现真不是」；留口子「假期里客户主动找上门到底要不要秒回，我也没透」；段落长短交错。</div><p class=\"ct-h\">📌 标题 3 选 1（🔍 第一条带核心词，必用）</p><div class=\"ct-body ph\"><b>主推（🔍 搜索向）：</b>企业做GEO 怎么开始？明天放假，客户今天才问：GEO 是啥<br/><b>备选 A：</b>放假前最后一天，客户才来问 GEO 是啥<br/><b>备选 B：</b>越不急的客户越难成交，自己刷出焦虑的才容易成<br/><span style=\"color:#8a8a85;\">主推把「企业做GEO」顶最前，反差拉点击。</span></div><p class=\"ct-h\">🖼 封面建议 · 3:4 竖图 1080×1440（模板 A · 真实场景照 + 文字 overlay）</p><div class=\"ct-body ph\"><b>尺寸固定：竖图 3:4，1080×1440px。</b><br/>手写风：上「客户：GEO 是啥？假期搞一下」下「实际：他自己刷 AI 刷出焦虑了」。主文案压中上部：「企业做GEO／客户比我还急」。<br/>⚠️ <b>底部 15%（约 216px）必须留空</b>；主文案压中上部。</div><p class=\"ct-h\">👥 这篇在跟谁说话</p><div class=\"ct-body ph\">① 假期还在盯客户的销售；② 正被催单的中小企业老板；③ 同行。</div>"
+        },
+        {
+          "h": "✍️ 正文文案（可直接复制）",
+          "body": "<textarea readonly onclick=\"this.select()\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;height:700px;padding:12px 14px;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;font-size:13.5px;line-height:1.85;color:#2c2c2c;background:#fffdf8;border:1px solid #ffd9c9;border-radius:12px;resize:vertical;white-space:pre-wrap;\">企业做 GEO 怎么开始？明天就正式放假了，心已经飞了。结果今天下午临下班，一客户甩过来一句：「在吗，GEO 是啥？我们想趁假期空了搞一下。」\n\n我：？？？您这觉悟，比我这干 GEO 的还准时。企业做 GEO 值不值得假期搞，他比我还急。\n\n但有意思的是，越是这种「放假了才想起来问问」的客户，反而越容易成。因为他们不是被销售逼的，是自己刷 AI 时突然发现「诶怎么搜不到我们公司」，带着问题来的。这种主动型客户，防备心最低，聊两句就明白企业做 GEO 对他生意意味着啥。\n\n多数人没想到的点：销售最怕的「客户不急」，在这行反着来——越不急的客户越难成交，自己刷出焦虑来的才最容易成。我刚入行也以为催得紧就行，后来发现真不是。当然也有人假期真躺平不回，我也理解。假期里客户主动找上门到底要不要秒回，这事我也没完全想透，你们怎么看，评论区跟我聊聊，我还挺想听。</textarea><div style=\"font-size:11.5px;color:#8a8a85;margin-top:6px;\">👆 点一下全选，复制后直接粘到小红书发布页。<br/>⚠️ 标题用主推那条（开头就是核心词），搜索词全靠它。<br/>⚠️ 发完 30 分钟内回前几条，有人接梗顺着聊，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "🔍 搜索关键词（搜索流量）",
+          "body": "<p><b>这篇在讲什么（一句话）：</b>企业做 GEO 怎么开始？有意思的是，放假前才来问的客户反而最容易成——他们不是被销售逼的，是自己刷 AI 时发现搜不到自己，带着问题来，防备心最低。</p><p class=\"ct-h\">🔍 搜索关键词（小红书搜索流量 · 发之前先照这张表对一遍）</p><div class=\"ct-body ph\"><b>核心搜索词：</b>企业做GEO<br/><b>长尾词（3 个）：</b><br/>　· 企业做GEO要多久<br/>　· 中小企业做GEO<br/>　· GEO 优化 怎么开始<br/><span style=\"color:#8a8a85;\">一篇只打 1 个核心词，词多了权重会分散。</span></div><p style=\"margin:10px 0 6px;font-size:12.5px;color:#0a3d62;\"><b>📍 词埋在这 4 个地方（四维一致，系统才好打标收录）</b></p><div class=\"ct-body ph\"><b>① 标题前 20 字</b>：主推第 1 字「企业做GEO」整句顶最前<br/><b>② 正文前 100 字</b>：首段带出「企业做GEO」「企业做GEO要多久」<br/><b>③ 话题标签</b>：#企业做GEO #企业做GEO要多久 #中小企业做GEO（前 3 即搜索词）<br/><b>④ 置顶评论</b>：补一句「补一句：企业做 GEO 不用等，先让 AI 提你，再慢慢来」<br/><span style=\"color:#8a8a85;\">⚠️ 核心词全文出现 2–4 次就够，堆砌会触发隐形限流——读出来顺嘴才算合格。</span></div>"
+        },
+        {
+          "h": "🏷️ 标签 & 💬 互动钩子",
+          "body": "<p class=\"ct-h\">🏷️ 话题标签（10 个，直接复制）</p><div class=\"ct-body ph\" style=\"word-break:break-all;\">#企业做GEO #企业做GEO要多久 #中小企业做GEO #豆包 #DeepSeek #元宝 #GEO #中小企业 #品牌营销 #出海</div><div style=\"font-size:11.5px;color:#8a8a85;margin-top:4px;\">标签结构：<b>3 搜索词 + 3 平台词 + 2 赛道词 + 2 流量词</b>。平台词 豆包/DeepSeek/元宝，与 Day 28（Kimi/元宝/豆包）只重合 2 个，略放宽但 OK。</div><p class=\"ct-h\">💬 互动钩子 · D 类「求故事（软化的邀请式）」</p><div class=\"ct-body ph\"><b>⓪ 结尾三段式</b>：① 收束——「假期里客户主动找上门到底要不要秒回，这事我也没完全想透」；② 软化——「你们怎么看，假期里客户找上门该不该秒回」；③ 邀请——「评论区跟我聊聊，我还挺想听」。<br/><b>① 为什么用 D 类</b>：Day 28 B、Day 27 F，D 类隔了多篇，安全；假期客户故事用求故事最容易引 UGC。。<br/><b>② 预埋 3 条评论</b>（第 1 条置顶带核心词）：<br/>　·「补一句：企业做 GEO 不用等，先让 AI 提你，再慢慢来」<br/>　·「我刚入行也以为催得紧就行，后来发现真不是」<br/>　·「越不急的客户越难成交，自己刷出焦虑的才容易成」<br/><b>③ 有人接梗</b>：有人晒「我客户假期也来问」，接梗别端着，气氛越轻松转发越高。</div>"
+        },
+        {
+          "h": "📈 今日涨粉动作",
+          "body": "<div style=\"background:#fff8f0;border:1px solid #ffcfa8;border-radius:12px;padding:12px 14px;\"><b style=\"font-size:13.5px;color:#b8541a;\">📈 今日涨粉动作（30 分钟内做完）</b><div style=\"font-size:12.5px;line-height:1.8;color:#2c2c2c;margin-top:8px;\"><p style=\"margin:0 0 6px;\"><b>1. 发布时段：假期日放宽，建议 10:00–11:30 落点</b>。</p><p style=\"margin:0 0 6px;\"><b>2. 发完 30 分钟内回到评论区</b>：置顶带核心词那条，主动接「你假期里客户也来找过你吗」的共鸣，把评论区变成吐槽现场。</p><p style=\"margin:0 0 6px;\"><b>3. 挂进「GEO 避坑」合集</b>：合集名带核心词，吃「企业做GEO要多久」长尾。</p><p style=\"margin:0 0 6px;\"><b>4. 自己去搜索框验一次</b>：搜「企业做GEO」「企业做GEO要多久」，看下拉词、你排哪，顺手抄进 keywords.md。</p><p style=\"margin:0 0 6px;\"><b>5. 复盘看评论区</b>：吐槽型笔记同行最爱接「我也是」，第 2 天看评论数与搜索来源占比。</p><p style=\"margin:0 0 6px;\"><b>小提醒</b>：别写绝对化 / 极限词；「假期搞一下」是客户原话引用；别写绝对化 / 极限词。</p></div></div>"
+        }
+      ]
+    }
+]
 };
