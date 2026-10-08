@@ -35,7 +35,7 @@ DIST = ROOT / "dist"
 
 def find_key_span(src: str, key: str):
     """用括号配平扫描定位  "key": [ ... ]  的 [ 与 ] 下标（跳过字符串内的括号）。"""
-    m = re.search(r'"%s"\s*:\s*\[' % re.escape(key), src)
+    m = re.search(r'(?:"%s"|%s)\s*:\s*\[' % (re.escape(key), re.escape(key)), src)
     if not m:
         return None
     start = m.end() - 1  # 指向 '['
