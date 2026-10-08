@@ -546,8 +546,8 @@
 
   <div class="saved-tip" id="savedTip">✓ 已保存到本地<span class="en-sm">Saved locally</span></div>
 
-<script src="content.js"></script>
-<script src="en_practice.js"></script>
+<script src="content.js?v=129\"></script>
+<script src="en_practice.js?v=129\"></script>
 <script>
 /* ============ 基础工具 ============ */
 const $ = (s,el=document)=>el.querySelector(s);
@@ -1692,7 +1692,7 @@ if('serviceWorker' in navigator){
     if(navigator.onLine && !_wzReloading){ _wzReloading = true; location.reload(); }
   });
   window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js?v=128',{updateViaCache:'none'})
+    navigator.serviceWorker.register('sw.js?v=129',{updateViaCache:'none'})
       .then(reg=>reg.update())
       .catch(()=>{});
   });
