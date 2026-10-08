@@ -27,7 +27,7 @@ print(f'index.html 注册 URL 已同步为 sw.js?v={new}' if n else '!! 未在 i
 # 否则无版本号的 content.js / en_practice.js 会被缓存 10 分钟，用户刷新看不到新内容
 for marker in ('content', 'en_practice'):
     t2, k = re.subn(
-        rf"({marker}\.js)(\?v=\d+)?\"",
+        rf"({marker}\.js)(?:\?v=\d+)?\\?\"",
         lambda mm: mm.group(1) + f"?v={new}" + '"',
         t2)
     print(f'index.html {marker}.js 引用已加版本戳 v{new}（{k} 处）')
