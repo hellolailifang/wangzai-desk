@@ -516,217 +516,215 @@ const CONTENT = {
     }
   ],
   geo: [
-    {
-      title: 'Day 1 · 客户开发（精密加工 CNC）',
-      tag: '第1天 · 精密加工 CNC（铣/车/走心机/五轴）',
-      short: 'CNC',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「精密加工 CNC」。这 6 家都是真实存在、且有出海/精密制造基因的目标：1 家龙头当标杆，5 家腰/知名当可开发客户。先打开它们官网/阿里国际站，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。'
-        },
-        {
-          h: '今日推荐 · 6 家（精密加工 CNC）',
-          body: '<b>🏢 头部 · 工业富联 / FII</b> — 全球最大电子精密制造服务商之一，CNC 机加覆盖通信、消费电子、汽车件。海外大客户采购前会在 ChatGPT/Perplexity 搜"precision CNC supplier China"，FII 英文技术页多为财报/ESG 导向，材质/公差/案例 FAQ 是缺口。<br>\n<b>⭐ 腰部 · 比亚迪电子</b> — 精密结构件与整机组装龙头，CNC 能力切入手机/笔电/汽车电子。出海客户多，但英文站对「加工工艺边界、典型材质、打样周期」回答很浅，GEO 可打。<br>\n<b>⭐ 腰部 · 立讯精密</b> — 精密制造巨头，连接器+结构件+CNC 机加能力。海外工程师常问"Luxshare CNC capability"，官网缺少可被 AI 直接引用的结构化工艺页。<br>\n<b>⭐ 腰部 · 长盈精密</b> — 智能手机、笔记本金属外观件 CNC 主力供应商。它适合小批量打样+量产的案例故事，但英文内容没讲出来，AI 搜不到。<br>\n<b>⭐ 腰部 · 蓝思科技</b> — 玻璃+金属结构件双赛道，CNC 后加工能力在消费电子和车载领域都有布局。海外采购需要看到 IATF/ISO 和设备清单的英文版。<br>\n<b>⭐ 腰部 · 东山精密</b> — 精密钣金+CNC 复合加工龙头，通信/汽车/储能客户多。官网产品树庞大但 SEO/GEO 颗粒度粗，长尾词答案位是机会。'
-        }
-      ]
-    },
-    {
-      title: 'Day 2 · 客户开发（汽车零部件）',
-      tag: '第2天 · 汽车零部件（Tier2/3 铸件·机加·注塑）',
-      short: '汽车件',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「汽车零部件」。Tier2/3 工厂海外获客极重 IATF 16949、PPAP 和案例背书。这 6 家都是汽配出海活跃玩家：头部当灯塔，腰部当突破口。谈单关键词：AI 答案位、英文认证页、海外售后市场 AM 询盘。'
-        },
-        {
-          h: '今日推荐 · 6 家（汽车零部件）',
-          body: '<b>🏢 头部 · 拓普集团</b> — 汽车 NVH、底盘、热管理龙头，已在北美/欧洲建厂。海外采购搜"Tier 1 suspension supplier China"拓普应出现但常被欧美媒体占位，GEO 可帮它守住品牌答案位。<br>\n<b>⭐ 腰部 · 三花智控</b> — 汽车热管理阀件/执行器全球龙头，海外收入占比高。它的英文内容集中在产品型录，缺「选型 FAQ + 应用场景对比」这类 AI 最爱引的内容。<br>\n<b>⭐ 腰部 · 旭升集团</b> — 汽车轻量化铝件（特斯拉链），CNC+压铸复合。海外工程师会搜"aluminum automotive component supplier China"，旭升需要更多英文案例和公差能力页。<br>\n<b>⭐ 腰部 · 文灿股份</b> — 高压铸铝件（车身结构件、电池托盘），蔚来/特斯拉链。出海最直接的话题：高真空压铸、大型一体化压铸英文技术页。<br>\n<b>⭐ 腰部 · 均胜安全</b> — 汽车安全系统全球供应商，欧美工厂多。它已有较强英文基础，但中文站信息更多，GEO 可帮其统一海外 AI 引用口径。<br>\n<b>⭐ 腰部 · 伯特利</b> — 汽车制动系统，海外 OEM/AM 市场都在拓展。采购经理会问"China brake caliper supplier IATF16949"，伯特利官网缺少可直接被 AI 抓取的质量体系 FAQ。'
-        }
-      ]
-    },
-    {
-      title: 'Day 3 · 客户开发（注塑 / 模具）',
-      tag: '第3天 · 注塑 / 模具（rapid tooling / injection molding）',
-      short: '注塑',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「注塑 / 模具」。买家在 AI 里搜"rapid tooling China""medical injection molding supplier"，答案被海外平台截走。这 6 家是国内注塑/模具出海活跃主体，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有设备参数、没有 buyer FAQ/DFM/案例。'
-        },
-        {
-          h: '今日推荐 · 6 家（注塑 / 模具）',
-          body: '<b>🏢 头部 · 海天国际</b> — 全球注塑机龙头，设备出海量大。采购搜"Haitian injection molding machine"有优势，但长尾如"best injection molding supplier China" Answers 位被平台占，GEO 可补。<br>\n<b>⭐ 腰部 · 伊之密</b> — 注塑机+压铸设备双轮驱动，东南亚/欧洲布局快。英文站产品页多，但「如何选择注塑机吨位/螺杆」这类 AI 高频 FAQ 缺。<br>\n<b>⭐ 腰部 · 泰瑞机器</b> — 注塑机出口比例高，欧美市场增长快。海外买家会问"Tederic vs Haitian"，没有对比型英文内容，GEO 可建护城河。<br>\n<b>⭐ 腰部 · 震雄集团</b> — 老牌港资注塑机/模具厂，东南亚根基深。官网偏传统型录化，需要结构化 Schema + 多语言 FAQ 来被 AI 引用。<br>\n<b>⭐ 腰部 · 力劲科技</b> — 压铸+注塑设备，一体化压铸话题热。海外媒体/AI 关于"LK Technology"的中文内容多，英文权威内容少，GEO 可平衡。<br>\n<b>⭐ 腰部 · 双林股份</b> — 汽车注塑件+模具能力，Tier2 供应商。海外 AM 市场会搜"automotive plastic parts supplier China"，它需要英文案例和质量体系页。'
-        }
-      ]
-    },
-    {
-      title: 'Day 4 · 客户开发（钣金 / 冲压）',
-      tag: '第4天 · 钣金 / 冲压（sheet metal fabrication）',
-      short: '钣金',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「钣金 / 冲压」。海外买家搜"custom sheet metal fabrication China""laser cutting service"，答案常被本地钣金商截走。这 6 家是钣金冲压领域的出海活跃企业。谈单切入点：英文站只有图片没有 DFMA/折弯系数/表面处理说明，AI 无法引用。'
-        },
-        {
-          h: '今日推荐 · 6 家（钣金 / 冲压）',
-          body: '<b>🏢 头部 · 东山精密</b> — 精密钣金/冲压全球龙头，通信/汽车/储能结构件全覆盖。官网产品树很宽，但每个品类的英文长尾内容颗粒度粗，GEO 可拆出独立工艺页。<br>\n<b>⭐ 腰部 · 祥鑫科技</b> — 汽车+储能钣金冲压件，宁德时代/比亚迪链。海外采购会问"sheet metal battery enclosure supplier China"，祥鑫缺少英文独立产品页和案例。<br>\n<b>⭐ 腰部 · 华亚智能</b> — 精密结构件钣金，半导体/医疗设备/通信客户。它的长尾优势是"小批量高精度钣金"，但英文站没把这个标签讲清楚。<br>\n<b>⭐ 腰部 · 科达利</b> — 动力电池结构件（壳体/盖板）冲压龙头，全球建厂。海外大客户采购需要看到材料/焊接/气密性的英文 FAQ，AI 检索时目前素材不足。<br>\n<b>⭐ 腰部 · 瑞玛精密</b> — 精密金属件冲压，通信+汽车。海外工程师搜"precision stamping China"时，瑞玛需要更多英文技术博客/案例。<br>\n<b>⭐ 腰部 · 铭利达</b> — 精密结构件冲压+铝型材，新能源客户多。它的痛点是官网内容偏中文，海外 AI 答案位被同行抢先。'
-        }
-      ]
-    },
-    {
-      title: 'Day 5 · 客户开发（压铸）',
-      tag: '第5天 · 压铸（die casting 铝/锌）',
-      short: '压铸',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「铝/锌压铸」。买家在 AI 里搜"aluminum die casting supplier China""die casting parts automotive"，答案被少数大厂和平台占。这 6 家是压铸出海活跃玩家。谈单抓手：高真空/一体化压铸英文页、气密性/X-ray 检测能力、IATF 认证上墙。'
-        },
-        {
-          h: '今日推荐 · 6 家（压铸）',
-          body: '<b>🏢 头部 · 文灿股份</b> — 高压铸铝件龙头，特斯拉/蔚来/奔驰供应链。一体化压铸话题很热，但海外 AI 答案多来自媒体而非其官网，GEO 可抢回品牌答案位。<br>\n<b>⭐ 腰部 · 广东鸿图</b> — 汽车铝压铸（车身+底盘+三电），小鹏/比亚迪链。海外采购会问"aluminum die casting EV battery tray"，鸿图需要英文案例页和质量体系页。<br>\n<b>⭐ 腰部 · 爱柯迪</b> — 汽车铝合金精密压铸（雨刮/转向/制动系统），海外收入占比高。它的英文内容集中在产品，缺"选型/对比/常见失效"FAQ。<br>\n<b>⭐ 腰部 · 旭升集团</b> — 铝压铸+CNC 复合，特斯拉链。官网需要把"压铸+机加一站式"这个故事做成 AI 可引用的英文内容。<br>\n<b>⭐ 腰部 · 嵘泰股份</b> — 汽车铝合金压铸（转向/制动/新能源三电），墨西哥建厂。海外本地化故事（nearshoring）是 GEO 好素材，但英文站没突出。<br>\n<b>⭐ 腰部 · 泉峰汽车</b> — 铝压铸+机加，新能源汽车 Tier2。海外买家搜"China die casting supplier"时，泉峰需要更多英文权威背书。'
-        }
-      ]
-    },
-    {
-      title: 'Day 6 · 客户开发（EMS / PCBA）',
-      tag: '第6天 · EMS / PCBA 电子制造',
-      short: 'PCBA',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「EMS / PCBA 电子制造」。买家在 AI 里搜"EMS PCBA manufacturer China""turnkey electronics assembly"，答案被富士康/系思迈/PcbWay 等占。这 6 家是 EMS/PCBA 出海活跃主体。谈单抓手：英文站证书只贴图无解读、没有小批量→量产分层说明、缺少 ICT/FCT 测试能力 FAQ。'
-        },
-        {
-          h: '今日推荐 · 6 家（EMS / PCBA）',
-          body: '<b>🏢 头部 · 工业富联 / 富士康</b> — EMS 全球规模最大，客户覆盖苹果/亚马逊/思科。AI 答案位强，但长尾如"medical PCBA supplier China"会被更细分玩家抢，可帮它做细分领域页。<br>\n<b>⭐ 腰部 · 环旭电子</b> — SiP/EMS 全球龙头，通信/汽车/医疗都有。英文站产品多，但「如何选择 EMS 供应商」这类 AI 高频问题没有独立答案页。<br>\n<b>⭐ 腰部 · 闻泰科技</b> — ODM+EMS 双轮，汽车/IoT/通信。海外媒体引用闻泰时多为中文源，英文权威内容不足，GEO 可补。<br>\n<b>⭐ 腰部 · 比亚迪电子</b> — EMS+精密结构件，汽车电子增速快。海外大客户采购前会问"automotive EMS China"，比亚迪电子需要英文案例和认证页。<br>\n<b>⭐ 腰部 · 华勤技术</b> — ODM 巨头，PCBA 自研能力强。海外运营商/企业客户会问"ODM smartphone supplier China"，华勤英文内容偏品牌，缺技术能力 FAQ。<br>\n<b>⭐ 腰部 · 深南电路</b> — PCB/PCBA，通信+汽车电子。买家搜"high speed PCB assembly China"时，深南需要更多英文技术长文和案例。'
-        }
-      ]
-    },
-    {
-      title: 'Day 7 · 客户开发（新能源 / 储能 / 光伏）',
-      tag: '第7天 · 新能源 / 储能 / 光伏（inverter / ESS / solar）',
-      short: '新能源',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「新能源 / 储能 / 光伏」。海外买家搜"ESS lithium battery manufacturer China""solar inverter OEM"，答案被宁德/比亚迪/华为等占。这 6 家是出海活跃玩家。谈单抓手：英文技术内容浅、认证只贴标无解读、细分定位（户储/工商储/微型逆变器）没讲清楚。'
-        },
-        {
-          h: '今日推荐 · 6 家（新能源 / 储能 / 光伏）',
-          body: '<b>🏢 头部 · 比亚迪</b> — 储能+光伏+EV 出海龙头，海外品牌认知高。AI 答案位已被大量媒体占，GEO 可帮比亚迪把官方技术解读推回答案页（如"BYD ESS spec"）。<br>\n<b>⭐ 腰部 · 阳光电源</b> — 逆变器+储能全球龙头。海外客户会问"Sungrow vs Huawei inverter"，对比型英文内容是 GEO 机会。<br>\n<b>⭐ 腰部 · 固德威</b> — 户用逆变器+储能，欧洲市场强。它的英文站缺「户用储能选型」FAQ，AI 检索时官方素材不足。<br>\n<b>⭐ 腰部 · 锦浪科技</b> — 组串式逆变器龙头，海外出货量大。官网产品参数多，但「逆变器选型/并网认证」AI FAQ 没上墙。<br>\n<b>⭐ 腰部 · 派能科技</b> — 户用储能电池（磷酸铁锂），欧洲/澳洲市场。海外安装商搜"Pylontech vs BYD battery"，需要英文对比和认证解读页。<br>\n<b>⭐ 腰部 · 晶科能源</b> — 光伏组件全球龙头。海外 EPC 会问"JinkoSolar Tiger Neo vs TOPCon"，晶科需要把技术优势做成 AI 可引用的英文内容。'
-        }
-      ]
-    }
-  ,
-    {
-      title: 'Day 8 · 客户开发（工业机器人 / 自动化产线）',
-      tag: '第8天 · 工业机器人 / 自动化产线（industrial robots / automation）',
-      short: '机器人',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「工业机器人 / 自动化产线」。这 6 家都是真实存在、且有自动化出海基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网/阿里国际站，看英文内容缺什么，再用「海外买家在 AI 里搜不到你」开场。'
-        },
-        {
-          h: '今日推荐 · 6 家（工业机器人 / 自动化产线）',
-          body: '<b>🏢 头部 · 埃斯顿 / Estun</b> — 国产工业机器人本体与运动控制龙头，南京起家。海外集成商会搜"Estun robot supplier China"，埃斯顿英文产品页有基础，但焊接/码垛等应用案例 FAQ 浅，GEO 可补答案位。<br>\n<b>⭐ 腰部 · 汇川技术 / Inovance</b> — 伺服、变频器与 SCARA 机器人巨头，深圳。海外工程师常问"China servo drive supplier"，汇川英文偏产品型录，缺选型 FAQ + 行业解决方案这类 AI 最爱引的内容。<br>\n<b>⭐ 腰部 · 新松机器人 / SIASUN</b> — 中科院背景的国产机器人标杆，沈阳。海外搜"Siasun industrial robot"品牌认知靠展会，英文结构化工艺页少，GEO 能帮它从展会流量沉淀到 AI 答案。<br>\n<b>⭐ 腰部 · 拓斯达 / Topstar</b> — 东莞自动化集成商，注塑机械手与产线为主。海外买家搜"automation integrator China"，拓斯达英文案例故事几乎空白，正是 GEO 可打的内容缺口。<br>\n<b>⭐ 腰部 · 埃夫特 / EFORT</b> — 芜湖机器人本体企业，通过欧洲收购铺海外。海外搜"Efort robot"，英文权威技术内容不足，长尾应用词答案位被同行占。<br>\n<b>⭐ 腰部 · 广州数控 / GSK</b> — 数控系统与机器人供应商，广州。海外搜"GSK CNC robot"，英文站偏传统型录，缺可被 AI 直接引用的精度/负载/案例 FAQ。'
-        }
-      ]
-    },
-    {
-      title: 'Day 9 · 客户开发（电动工具 / 五金工具）',
-      tag: '第9天 · 电动工具 / 五金工具（power tools / hardware）',
-      short: '电动工具',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「电动工具 / 五金工具」。海外 DIY 玩家、专业技工、采购在 AI 里搜"best cordless drill China"时，答案常被 Amazon 榜单和海外品牌占位。这 6 家是国内电动工具出海主力，头部当品牌标杆、腰部当可开发工厂。谈单抓手：英文站只有参数、没有 buyer 评测/场景 FAQ。'
-        },
-        {
-          h: '今日推荐 · 6 家（电动工具 / 五金工具）',
-          body: '<b>🏢 头部 · 巨星科技 / GreatStar</b> — 手工具与电动工具双线巨头，杭州，收购 Arrow/Lista 等海外品牌。海外搜"GreatStar tools"多品牌分散，中国母公司认知弱，GEO 可把品牌答案位收口。<br>\n<b>⭐ 腰部 · 泉峰控股 / Chervon</b> — 南京电动工具 ODM 龙头，EGO/DEVON 自有品牌出海。海外搜"Chervon power tools"品牌强，但"made by Chervon China"溯源内容少，GEO 可补。<br>\n<b>⭐ 腰部 · 宝时得 / Positec</b> — 苏州企业，Worx 品牌全球知名。海外搜"Worx tools"认知高，但"Positec China 制造商"英文权威内容缺，GEO 可建信任背书。<br>\n<b>⭐ 腰部 · 东成 / Dongcheng</b> — 江苏启东电动工具主力厂，国内销量大、出海加速。海外搜"Dongcheng power tool"，英文站基础，长尾词答案位是空白。<br>\n<b>⭐ 腰部 · 锐奇股份 / RiKi</b> — 上海电动工具企业，创业板上市。海外搜"Riki power tools China"，英文内容薄，缺产品对比与场景 FAQ。<br>\n<b>⭐ 腰部 · 创科实业 / TTI</b> — 港资巨头，RYOBI/Milwaukee 背后智造基地。海外搜"TTI power tools"品牌强，但中国智造溯源故事少，GEO 可做品牌背书。'
-        }
-      ]
-    },
-    {
-      title: 'Day 10 · 客户开发（泵 / 阀门 / 流体控制）',
-      tag: '第10天 · 泵 / 阀门 / 流体控制（pumps & valves / fluid control）',
-      short: '泵阀',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「泵 / 阀门 / 流体控制」。海外工程公司、水处理和工业采购在 AI 里搜"centrifugal pump supplier China"时，答案常被欧美老牌占位。这 6 家是国内泵阀出海活跃主体，头部当设备商标杆、腰部当可开发工厂。谈单切入点：英文站只有型录，没有选型 FAQ/工况曲线/材质说明。'
-        },
-        {
-          h: '今日推荐 · 6 家（泵 / 阀门 / 流体控制）',
-          body: '<b>🏢 头部 · 南方泵业 / CNP</b> — 不锈钢离心泵龙头，杭州（中金环境）。海外搜"CNP pump China"，英文产品页有基础，但应用工况 FAQ 浅，GEO 可补。<br>\n<b>⭐ 腰部 · 新界泵业 / Shimge</b> — 浙江农用与民用水泵主力，出海比例高。海外搜"Shimge water pump"，英文站基础，长尾词答案位空白。<br>\n<b>⭐ 腰部 · 利欧股份 / Leo</b> — 浙江泵业（工业/市政/水利），业务广。海外搜"Leo pump"，英文案例故事少，GEO 可建。<br>\n<b>⭐ 腰部 · 凯泉泵业 / Kaiquan</b> — 上海泵阀企业，非上市但体量大。海外搜"Kaiquan pump"，英文内容薄，缺 AI 可引用的选型内容。<br>\n<b>⭐ 腰部 · 伟隆股份 / Wilong</b> — 青岛阀门企业（给排水/消防），上市。海外搜"Wilong valve"，英文站需强化材质与认证页。<br>\n<b>⭐ 腰部 · 江苏神通 / Shentong</b> — 核电/冶金/石化特种阀门，上市。海外搜"Shentong valve"，专业领域英文权威内容缺，GEO 可打。'
-        }
-      ]
-    },
-    {
-      title: 'Day 11 · 客户开发（包装机械 / 包装设备）',
-      tag: '第11天 · 包装机械 / 包装设备（packaging machinery）',
-      short: '包装机械',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「包装机械 / 包装设备」。海外食品、饮料、日化工厂在 AI 里搜"bottling line supplier China"时，答案被海外设备商占位。这 6 家是国内包装机械出海主力，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有设备参数，没有整线方案/产能 FAQ。'
-        },
-        {
-          h: '今日推荐 · 6 家（包装机械 / 包装设备）',
-          body: '<b>🏢 头部 · 达意隆 / Tech-Long</b> — 广州饮料包装机械龙头，上市。海外搜"Tech-Long filling machine"，英文有基础但长尾应用浅，GEO 可补。<br>\n<b>⭐ 腰部 · 新美星 / Newamstar</b> — 张家港灌装包装线企业，上市。海外搜"Newamstar bottling"，英文案例少，缺整线方案内容。<br>\n<b>⭐ 腰部 · 中亚股份 / Zhongya</b> — 杭州包装机械，上市。海外搜"Zhongya packaging"，英文偏型录，AI 难直接引用。<br>\n<b>⭐ 腰部 · 永创智能 / Youngsun</b> — 杭州包装设备，上市。海外搜"Youngsun packing machine"，英文内容薄，长尾词空白。<br>\n<b>⭐ 腰部 · 博实股份 / Boshi</b> — 哈尔滨粉粒料包装机器人，上市。海外搜"Boshi packaging robot"，英文案例缺，GEO 可打。<br>\n<b>⭐ 腰部 · 东方精工 / OFG</b> — 佛山瓦楞纸箱包装设备，上市。海外搜"Dongfang corrugated"，英文站基础，缺应用 FAQ。'
-        }
-      ]
-    },
-    {
-      title: 'Day 12 · 客户开发（紧固件 / 轴承 / 传动件）',
-      tag: '第12天 · 紧固件 / 轴承 / 传动件（fasteners / bearings / transmission）',
-      short: '紧固传动',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「紧固件 / 轴承 / 传动件」。海外机械、汽车、维修采购在 AI 里搜"bearing supplier China"时，答案被平台与欧美品牌占位。这 6 家是国内紧固/轴承/传动出海代表，头部当标杆、腰部当可开发工厂。谈单切入点：英文站只有型号表，没有选型 FAQ/载荷曲线/应用案例。'
-        },
-        {
-          h: '今日推荐 · 6 家（紧固件 / 轴承 / 传动件）',
-          body: '<b>🏢 头部 · 晋亿实业 / Gem-Year</b> — 紧固件龙头，浙江，上市。海外搜"Gem-Year fastener"，英文产品页有但应用 FAQ 浅，GEO 可补。<br>\n<b>⭐ 腰部 · 人本股份 / C&U</b> — 温州轴承巨头（最大民企之一）。海外搜"C&U bearing"，英文内容薄，缺 AI 可引用选型内容。<br>\n<b>⭐ 腰部 · 瓦轴 / ZWZ</b> — 辽宁轴承国企，历史悠久。海外搜"ZWZ bearing"，英文站传统型录，GEO 可现代化。<br>\n<b>⭐ 腰部 · 双环传动 / Shuanghuan</b> — 浙江齿轮与传动件，上市。海外搜"Shuanghuan gear"，英文案例少，长尾词空白。<br>\n<b>⭐ 腰部 · 杭齿前进 / Advance</b> — 杭州齿轮箱与传动，上市。海外搜"Advance gearbox"，英文内容薄，缺应用 FAQ。<br>\n<b>⭐ 腰部 · 力星股份 / LiXing</b> — 江苏轴承滚动体（精密钢球/滚子），上市。海外搜"LiXing bearing roller"，专业英文权威内容缺，GEO 可打。'
-        }
-      ]
-    },
-    {
-      title: 'Day 13 · 客户开发（激光设备 / 激光加工）',
-      tag: '第13天 · 激光设备 / 激光加工（laser equipment / laser processing）',
-      short: '激光',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「激光设备 / 激光加工」。海外制造、钣金、光伏工厂在 AI 里搜"fiber laser cutter supplier China"时，答案被平台与大英文站占位。这 6 家是国内激光装备出海主力，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有参数，没有工艺 FAQ/材料切割案例。'
-        },
-        {
-          h: '今日推荐 · 6 家（激光设备 / 激光加工）',
-          body: '<b>🏢 头部 · 大族激光 / Han’s Laser</b> — 深圳激光设备龙头，上市。海外搜"Han’s Laser"，品牌强但长尾应用（切割/焊接）英文页浅，GEO 可补。<br>\n<b>⭐ 腰部 · 华工科技 / Hgtech</b> — 武汉激光与光通信，上市。海外搜"Hgtech laser"，英文内容薄，缺工艺 FAQ。<br>\n<b>⭐ 腰部 · 锐科激光 / Raycus</b> — 武汉光纤激光器，上市。海外搜"Raycus fiber laser"，英文偏型录，AI 难引用。<br>\n<b>⭐ 腰部 · 联赢激光 / UW Laser</b> — 深圳激光焊接，上市。海外搜"UW laser welding"，英文案例少，GEO 可打。<br>\n<b>⭐ 腰部 · 海目星 / Hymson</b> — 深圳激光切割与锂电设备，上市。海外搜"Hymson laser"，英文站基础，长尾空白。<br>\n<b>⭐ 腰部 · 帝尔激光 / DR Laser</b> — 武汉光伏激光设备，上市。海外搜"DR Laser solar"，专业英文权威内容缺，GEO 可建。'
-        }
-      ]
-    },
-    {
-      title: 'Day 14 · 客户开发（3D 打印 / 增材制造）',
-      tag: '第14天 · 3D 打印 / 增材制造（3D printing / additive manufacturing）',
-      short: '3D打印',
-      blocks: [
-        {
-          h: '💡 今日怎么用这笔清单',
-          body: '今天开发方向是「3D 打印 / 增材制造」。海外工程师、创客、医疗牙科在 AI 里搜"metal 3D printing service China"时，答案被海外服务商占位。这 6 家是国内增材制造出海代表，头部当标杆、腰部当可开发工厂。谈单切入点：英文站只有设备参数，没有材料/工艺/应用案例 FAQ。'
-        },
-        {
-          h: '今日推荐 · 6 家（3D 打印 / 增材制造）',
-          body: '<b>🏢 头部 · 铂力特 / BLT</b> — 西安金属 3D 打印龙头，科创板。海外搜"BLT 3D printing"，英文技术页有但应用案例浅，GEO 可补。<br>\n<b>⭐ 腰部 · 华曙高科 / Farsoon</b> — 长沙金属与尼龙 3D 打印，科创板。海外搜"Farsoon additive"，英文有但长尾少，GEO 可扩。<br>\n<b>⭐ 腰部 · 创想三维 / Creality</b> — 深圳消费级 3D 打印龙头，全球知名。海外搜"Creality 3D printer"品牌强，但"made in China GEO"溯源内容少。<br>\n<b>⭐ 腰部 · 先临三维 / Shining3D</b> — 杭州 3D 扫描与打印，上市辅导。海外搜"Shining3D scanner"，英文内容薄，缺应用 FAQ。<br>\n<b>⭐ 腰部 · 易加三维 / Eplus3D</b> — 杭州金属 3D 打印，出海活跃。海外搜"Eplus3D metal printing"，英文站基础，长尾空白。<br>\n<b>⭐ 腰部 · 联泰科技 / UnionTech</b> — 上海光固化 3D 打印（SLA），老牌。海外搜"UnionTech SLA"，英文案例少，GEO 可打。'
-        }
-      ]
-    }],
+  {
+    "title": "Day 1 · 客户开发（精密加工 CNC）",
+    "tag": "第1天 · 精密加工 CNC（铣/车/走心机/五轴）",
+    "short": "CNC",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「精密加工 CNC」。这 6 家都是真实存在、且有出海/精密制造基因的目标：1 家龙头当标杆，5 家腰/知名当可开发客户。先打开它们官网/阿里国际站，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
+      },
+      {
+        "h": "今日推荐 · 6 家（精密加工 CNC）",
+        "body": "<b>🏢 头部 · 工业富联 / FII</b> — 全球最大电子精密制造服务商之一，CNC 机加覆盖通信、消费电子、汽车件。海外大客户采购前会在 ChatGPT/Perplexity 搜\"precision CNC supplier China\"，FII 英文技术页多为财报/ESG 导向，材质/公差/案例 FAQ 是缺口。<br>\n<b>⭐ 腰部 · 比亚迪电子</b> — 精密结构件与整机组装龙头，CNC 能力切入手机/笔电/汽车电子。出海客户多，但英文站对「加工工艺边界、典型材质、打样周期」回答很浅，GEO 可打。<br>\n<b>⭐ 腰部 · 立讯精密</b> — 精密制造巨头，连接器+结构件+CNC 机加能力。海外工程师常问\"Luxshare CNC capability\"，官网缺少可被 AI 直接引用的结构化工艺页。<br>\n<b>⭐ 腰部 · 长盈精密</b> — 智能手机、笔记本金属外观件 CNC 主力供应商。它适合小批量打样+量产的案例故事，但英文内容没讲出来，AI 搜不到。<br>\n<b>⭐ 腰部 · 蓝思科技</b> — 玻璃+金属结构件双赛道，CNC 后加工能力在消费电子和车载领域都有布局。海外采购需要看到 IATF/ISO 和设备清单的英文版。<br>\n<b>⭐ 腰部 · 东山精密</b> — 精密钣金+CNC 复合加工龙头，通信/汽车/储能客户多。官网产品树庞大但 SEO/GEO 颗粒度粗，长尾词答案位是机会。"
+      }
+    ]
+  },
+  {
+    "title": "Day 2 · 客户开发（汽车零部件）",
+    "tag": "第2天 · 汽车零部件（Tier2/3 铸件·机加·注塑）",
+    "short": "汽车件",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「汽车零部件」。Tier2/3 工厂海外获客极重 IATF 16949、PPAP 和案例背书。这 6 家都是汽配出海活跃玩家：头部当灯塔，腰部当突破口。谈单关键词：AI 答案位、英文认证页、海外售后市场 AM 询盘。"
+      },
+      {
+        "h": "今日推荐 · 6 家（汽车零部件）",
+        "body": "<b>🏢 头部 · 拓普集团</b> — 汽车 NVH、底盘、热管理龙头，已在北美/欧洲建厂。海外采购搜\"Tier 1 suspension supplier China\"拓普应出现但常被欧美媒体占位，GEO 可帮它守住品牌答案位。<br>\n<b>⭐ 腰部 · 三花智控</b> — 汽车热管理阀件/执行器全球龙头，海外收入占比高。它的英文内容集中在产品型录，缺「选型 FAQ + 应用场景对比」这类 AI 最爱引的内容。<br>\n<b>⭐ 腰部 · 旭升集团</b> — 汽车轻量化铝件（特斯拉链），CNC+压铸复合。海外工程师会搜\"aluminum automotive component supplier China\"，旭升需要更多英文案例和公差能力页。<br>\n<b>⭐ 腰部 · 文灿股份</b> — 高压铸铝件（车身结构件、电池托盘），蔚来/特斯拉链。出海最直接的话题：高真空压铸、大型一体化压铸英文技术页。<br>\n<b>⭐ 腰部 · 均胜安全</b> — 汽车安全系统全球供应商，欧美工厂多。它已有较强英文基础，但中文站信息更多，GEO 可帮其统一海外 AI 引用口径。<br>\n<b>⭐ 腰部 · 伯特利</b> — 汽车制动系统，海外 OEM/AM 市场都在拓展。采购经理会问\"China brake caliper supplier IATF16949\"，伯特利官网缺少可直接被 AI 抓取的质量体系 FAQ。"
+      }
+    ]
+  },
+  {
+    "title": "Day 3 · 客户开发（注塑 / 模具）",
+    "tag": "第3天 · 注塑 / 模具（rapid tooling / injection molding）",
+    "short": "注塑",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「注塑 / 模具」。买家在 AI 里搜\"rapid tooling China\"\"medical injection molding supplier\"，答案被海外平台截走。这 6 家是国内注塑/模具出海活跃主体，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有设备参数、没有 buyer FAQ/DFM/案例。"
+      },
+      {
+        "h": "今日推荐 · 6 家（注塑 / 模具）",
+        "body": "<b>🏢 头部 · 海天国际</b> — 全球注塑机龙头，设备出海量大。采购搜\"Haitian injection molding machine\"有优势，但长尾如\"best injection molding supplier China\" Answers 位被平台占，GEO 可补。<br>\n<b>⭐ 腰部 · 伊之密</b> — 注塑机+压铸设备双轮驱动，东南亚/欧洲布局快。英文站产品页多，但「如何选择注塑机吨位/螺杆」这类 AI 高频 FAQ 缺。<br>\n<b>⭐ 腰部 · 泰瑞机器</b> — 注塑机出口比例高，欧美市场增长快。海外买家会问\"Tederic vs Haitian\"，没有对比型英文内容，GEO 可建护城河。<br>\n<b>⭐ 腰部 · 震雄集团</b> — 老牌港资注塑机/模具厂，东南亚根基深。官网偏传统型录化，需要结构化 Schema + 多语言 FAQ 来被 AI 引用。<br>\n<b>⭐ 腰部 · 力劲科技</b> — 压铸+注塑设备，一体化压铸话题热。海外媒体/AI 关于\"LK Technology\"的中文内容多，英文权威内容少，GEO 可平衡。<br>\n<b>⭐ 腰部 · 双林股份</b> — 汽车注塑件+模具能力，Tier2 供应商。海外 AM 市场会搜\"automotive plastic parts supplier China\"，它需要英文案例和质量体系页。"
+      }
+    ]
+  },
+  {
+    "title": "Day 4 · 客户开发（钣金 / 冲压）",
+    "tag": "第4天 · 钣金 / 冲压（sheet metal fabrication）",
+    "short": "钣金",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「钣金 / 冲压」。海外买家搜\"custom sheet metal fabrication China\"\"laser cutting service\"，答案常被本地钣金商截走。这 6 家是钣金冲压领域的出海活跃企业。谈单切入点：英文站只有图片没有 DFMA/折弯系数/表面处理说明，AI 无法引用。"
+      },
+      {
+        "h": "今日推荐 · 6 家（钣金 / 冲压）",
+        "body": "<b>🏢 头部 · 东山精密</b> — 精密钣金/冲压全球龙头，通信/汽车/储能结构件全覆盖。官网产品树很宽，但每个品类的英文长尾内容颗粒度粗，GEO 可拆出独立工艺页。<br>\n<b>⭐ 腰部 · 祥鑫科技</b> — 汽车+储能钣金冲压件，宁德时代/比亚迪链。海外采购会问\"sheet metal battery enclosure supplier China\"，祥鑫缺少英文独立产品页和案例。<br>\n<b>⭐ 腰部 · 华亚智能</b> — 精密结构件钣金，半导体/医疗设备/通信客户。它的长尾优势是\"小批量高精度钣金\"，但英文站没把这个标签讲清楚。<br>\n<b>⭐ 腰部 · 科达利</b> — 动力电池结构件（壳体/盖板）冲压龙头，全球建厂。海外大客户采购需要看到材料/焊接/气密性的英文 FAQ，AI 检索时目前素材不足。<br>\n<b>⭐ 腰部 · 瑞玛精密</b> — 精密金属件冲压，通信+汽车。海外工程师搜\"precision stamping China\"时，瑞玛需要更多英文技术博客/案例。<br>\n<b>⭐ 腰部 · 铭利达</b> — 精密结构件冲压+铝型材，新能源客户多。它的痛点是官网内容偏中文，海外 AI 答案位被同行抢先。"
+      }
+    ]
+  },
+  {
+    "title": "Day 5 · 客户开发",
+    "tag": "第5天 · 家具与家居出海",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "<p><b>① 自查：</b>打开 ChatGPT、DeepSeek 或 Google AI Overview，把「best office chair manufacturer in China」「China standing desk supplier with US warehouse」「memory foam mattress OEM China」「artificial grass supplier China FIFA certified」「furniture factory with Vietnam production」各问一遍，把被点名和没被点名的中国家居企业分别记下来。</p><p><b>② 找缺口：</b>重点看五件事——海外仓与本地退换货政策有没有、认证（BIFMA、EN 1335、OEKO-TEX、CertiPUR、FIFA / World Rugby 等）有没有写清、MOQ 与打样交期有没有、是否支持小批量贴牌与一件代发、有没有英文版的规格与安装尺寸表。多数中国家居企业的英文站是「产品图册 + 招商话术」，AI 答不出「这家能不能小批量、多久能到货、有没有本地仓」。</p><p><b>③ 补料：</b>先补一页「品类 × 规格 × 认证 × MOQ × 交期 × 发货地」的对照表；再补英文 FAQ（能否贴牌、最小起订、样品流程、质保年限、退换货与海外仓地址）；然后补「工厂与产能」英文页（产线、月产能、验厂资质、可持续与环保声明）；最后把安装视频转成带字幕与文字说明的页面。规格一律用表格，别只放图。</p><p><b>④ 提案话术：</b>「我用买家的问法问了 AI 一轮——『中国有哪些办公椅厂能做小批量贴牌、还要有美国仓』，答案里有两家，没有您。缺的不是产能，是这些选型信息在网页上没有可引用的原文。我们先把规格表和 FAQ 结构化，两周后同一句再问一次。」</p><p><b>⑤ 复盘：</b>把第一步那批问句存成固定清单，两周后同一时段、同一平台再问，记录「被点名次数 / 排名位置 / 引用来源域名」。同时看询盘里有多少是带着明确规格来的——规格明确的询盘变多，说明 AI 替你把筛选做完了。</p>"
+      },
+      {
+        "h": "今日推荐 · 6 家（家具 / 家居出海）",
+        "body": "<div class=\"co\"><div class=\"co-h\"><b>顾家家居</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>杭州起家的软体家居企业，以沙发切入、做成国内软体家居营收规模最大的公司之一，同时通过收购与海外建厂把业务铺到全球。</div><div class=\"co-r\"><b>主营业务：</b>沙发、软床、床垫、定制与配套家居产品，覆盖客厅、卧室、餐厅等全屋场景。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「内销做品牌与渠道 + 海外做产能与并购」：国内靠密集门店与全品类矩阵吃份额，海外通过收购欧洲品牌与渠道、在东南亚与北美布局产能，形成内外双循环。</div><div class=\"co-r found\"><b>📜 发家史：</b>从杭州的沙发生意做起，先在国内建立起覆盖全国的零售网络，规模做到数十亿元量级后再向海外要增量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单纯出口转向「海外品牌 + 海外产能」，把收购来的品牌渠道与自建的海外工厂接起来，海外业务从订单驱动变成资产驱动。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「largest Chinese furniture manufacturers」「China sofa supplier with overseas factories」。缺口：海外收购的品牌与母公司的关系在英文世界基本是断裂的，AI 常把它们当成互不相干的公司；各海外工厂的服务市场、产能规模、可承接的品类没有统一页面；出口业务能做的定制范围与 MOQ 也没有写明。补法：建一页英文「Global Presence」，用文字（不用图片）写清母公司—品牌—工厂的关系与各自服务区域，再为每个海外基地写一段「可承接品类 + 产能 + 认证」的说明。</div><div class=\"co-r look\"><b>💡 看点：</b>营收规模在国内软体家居里是头部，但在 AI 的英文答案里往往「查无此厂」——这就是典型的规模没翻译成可引用信息。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.kukahome.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.kukahome.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>永艺股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江安吉的办公椅企业，是当地椅业产业集群里的规模企业，长期以 ODM 方式出口欧美，近年也在做自主品牌。</div><div class=\"co-r\"><b>主营业务：</b>人体工学办公椅、办公座椅及配套家具，为海外品牌商、零售商与电商卖家提供设计、开发与代工服务。</div><div class=\"co-r\"><b>市场与打法：</b>以「产业带集群 + 规模化代工」打法：依托安吉完整的椅业配套（五金、网布、海绵、模具）把成本与交期做到有竞争力，同时在海外设厂以对冲贸易摩擦与运费波动。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于浙江安吉，从为海外客户代工办公椅做起，跟着安吉椅业集群一起成长，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纯代工转向「代工 + 自主品牌」双轨，并在海外布局生产基地，把单一国内产能变成国内外双基地交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外中小买家会问「China office chair OEM low MOQ」「office chair factory BIFMA certified China」。缺口：BIFMA / EN 1335 等座椅认证的适用范围、测试项目在英文站没有可引用说明；MOQ、打样周期、能否定制网布与底盘这些采购最关心的问题基本空白；AI 回答「能做小批量的中国办公椅厂」时无从引用。补法：做英文「OEM/ODM Service」页，把 MOQ、打样周期、开模费政策、可定制项、认证清单做成表格，再补 8–10 条 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>安吉椅业带是中国办公椅出口的大本营，但在 AI 答案里经常整片消失——谁先把英文规格补齐，谁就代表这个产业带出场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.uechairs.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.uechairs.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>恒林股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江安吉的办公家具企业，以办公椅与办公桌的规模化制造起家，通过海外收购与跨境电商把业务延伸到终端零售。</div><div class=\"co-r\"><b>主营业务：</b>办公椅、办公桌与系统办公家具，兼有软体家具与家居配件，为海外品牌、渠道商与电商平台提供制造与供货。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「制造端规模化 + 渠道端海外化」：一边把产线做大做全以承接大客户的大批量订单，一边收购海外办公家具品牌与渠道、直接触达终端，同时用跨境电商测试新品。</div><div class=\"co-r found\"><b>📜 发家史：</b>1990 年代成立于浙江安吉，从办公家具代工做起，靠大规模生产与稳定交付积累海外客户，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>收购海外办公家具品牌与渠道，把利润从制造环节往品牌与渠道环节挪，客户结构也从批发商延伸到终端企业采购。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China office furniture manufacturer with Europe brand」「office desk and chair supplier China bulk order」。缺口：收购来的海外品牌与国内制造能力之间的关联没有被英文内容串起来，AI 讲不出「同一集团既能制造又有本地渠道」；大宗订单的交期、柜型与拼柜政策、验厂资质也缺少公开页。补法：做一页英文「Group Capabilities」，把制造基地、海外品牌与渠道、服务区域写成文字版关系说明；再补大宗采购 FAQ（交期、拼柜、质保、验厂与合规文件）。</div><div class=\"co-r look\"><b>💡 看点：</b>「制造 + 自有海外渠道」是稀缺组合，但只有把它写成 AI 能一句话复述的形式，才会在选型答案里出现。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.henglin.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.henglin.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>乐歌股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>宁波的人体工学产品企业，从显示器支架做到升降桌，同时把自建海外仓做成了对外服务业务，是「产品 + 履约」双轮的代表。</div><div class=\"co-r\"><b>主营业务：</b>升降桌、升降台、显示器与电视支架、人体工学配件，以及面向跨境卖家的海外仓与物流服务。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「自有品牌 + 自建履约」：用独立站与电商平台直接面对海外消费者做品牌，同时自建海外仓降低尾程成本并把这套能力卖给其他跨境卖家，形成第二收入曲线。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于宁波，从视听支架代工做起，随后转向自主品牌与跨境电商，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工转向独立站与海外仓自建，把「卖货」升级为「卖货 + 卖履约能力」，抗风险能力与毛利结构同时改善。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外中小 B 与消费者会问「best standing desk brands」「China standing desk supplier with US warehouse」「3PL for cross-border furniture」。缺口：海外仓这块业务的服务范围、仓点地址、可承接的品类（大件家具）与费率逻辑在英文站描述偏散；升降桌的规格（承重、行程、噪音、桌面尺寸）没有统一参数表。补法：把产品参数做成英文规格表页，把海外仓业务单独做成站点，写清仓点、可承接品类、大件处理能力和对接方式，并补 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>海外仓是被严重低估的 GEO 素材——买家问「谁能把大件送到美国客户手上」时，有仓的企业优势是压倒性的。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.loctek.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.loctek.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>梦百合</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>江苏的记忆棉家居企业，从给海外品牌做记忆棉代工起步，后来自建海外产能与主推自主品牌，成为记忆棉品类出海的代表。</div><div class=\"co-r\"><b>主营业务：</b>记忆棉床垫、记忆棉枕、软床与智能床，以及相关的家居睡眠产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「材料立品牌 + 海外建厂」：把一种材料（记忆棉）做成品牌认知，再在北美、欧洲、东南亚多地建厂以缩短交付半径、规避贸易壁垒，同时进商超与线上双渠道。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于江苏，早期以记忆棉制品代工出口为主，靠材料工艺与大客户关系做大，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工转向自主品牌出海，并在海外自建生产基地，把「中国制造 + 海外交付 + 自有品牌」三件事同时跑通。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「memory foam mattress manufacturer China」「China mattress factory with US plant」「CertiPUR certified foam supplier」。缺口：CertiPUR-US、OEKO-TEX 这类材料认证的覆盖范围与有效期没有可引用页面；海外工厂的地址、产能与供货区域分散在新闻里；B 端代工（OEM/ODM）与 C 端品牌两条线在同一个站上混着讲，AI 分不清它到底接不接代工单。补法：把 B 端代工能力拆成独立英文页（材料、认证、产能、MOQ、交期），把海外工厂清单做成一页，明确写「We accept OEM/ODM orders」。</div><div class=\"co-r look\"><b>💡 看点：</b>代工和自有品牌混在一个站里，是家居出海企业最普遍的 GEO 硬伤——AI 判断不出你接不接 B 端单，就直接跳过你。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mlily.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mlily.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>共创草坪</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>江苏的人造草坪企业，产品铺进上百个国家和地区，是全球人造草坪产销量领先的专业制造商之一。</div><div class=\"co-r\"><b>主营业务：</b>运动人造草坪（足球、橄榄球、曲棍球等场地）、休闲人造草坪（庭院、景观、阳台）及相关铺装材料与系统。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「专业认证 + 全球渠道」：先拿下国际体育组织的场地认证进入运动场地市场，再以休闲草坪切入大众消费渠道，靠规模与稳定供货覆盖上百个国家的经销商网络，并在海外设厂贴近需求地。</div><div class=\"co-r found\"><b>📜 发家史：</b>2000 年代成立于江苏，从人造草坪生产做起，先在休闲与景观用草上做量，再向运动场地这类高门槛市场攻坚。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>拿到国际体育组织的场地认证体系，得以进入专业运动场地供应链，从「卖草」变成「提供场地系统」，客单价与壁垒同时抬升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「artificial grass supplier China」「FIFA certified artificial turf manufacturer」「artificial turf factory with overseas plant」。缺口：认证体系（FIFA Quality / Quality Pro、World Rugby 等）的具体等级与适用场地类型在英文站描述不完整；运动草与休闲草的技术参数（草高、密度、DTEX、背胶、质保年限）缺统一表格；经销商查询与样品申请流程不清晰。补法：做英文「Products」页按运动草/休闲草分类，每类给出参数对照表与适用场地；再补一页「Certifications & Testing」写清认证等级与测试标准，最后补 FAQ（样品、MOQ、铺装指导、质保）。</div><div class=\"co-r look\"><b>💡 看点：</b>认证是这个品类的门票，但很多企业只在中文宣传里写「通过国际认证」——AI 需要的是认证名称、等级和适用场地，写细了才引用得上。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ccgrass.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ccgrass.com</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 6 · 客户开发",
+    "tag": "第6天 · 照明与 LED 出海",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "<p><b>① 自查：</b>打开 ChatGPT、DeepSeek 或 Google AI Overview，把「best LED lighting manufacturer in China」「China LED panel light supplier with DLC / ETL listing」「commercial lighting OEM low MOQ China」「LED high bay light factory UL certified」「China smart lighting ODM for smart home」各问一遍，把被点名和没被点名的中国照明企业分别记下来。</p><p><b>② 找缺口：</b>重点看五件事——安规与能效认证（UL / ETL / DLC / CE / ENEC / SAA / CB）有没有列全、IES 文件与配光曲线有没有可下载、色温与显色指数及光效参数有没有成表、MOQ 与交期有没有、能否做 OEM/ODM 与定制色温包装。多数中国照明企业的英文站是「产品图 + About Us」，AI 答不出「这家有没有北美认证、能不能小批量贴牌」。</p><p><b>③ 补料：</b>先补一页「品类 × 功率段 × 光效 × 色温 × 显色 × 认证 × MOQ × 交期」的规格矩阵；再补可下载的英文规格书与 IES 文件索引页（PDF 要带文字层）；然后补「Certifications」专页（认证名称 + 覆盖产品系列 + 发证机构）；最后补英文 FAQ（贴牌、最小起订、样品、质保年限、能否定制包装）。参数一律用表格。</p><p><b>④ 提案话术：</b>「我用工程商的问法问了 AI——『中国有哪些做 LED 工矿灯的厂、还要有北美认证』，答案里列了三家，没有您。您的认证其实更全，只是这些在网页上找不到可引用的原文。我们把认证页和规格书索引先补上，两周后同一句再问一次。」</p><p><b>⑤ 复盘：</b>把第一步那批问句存成固定清单，两周后同一时段、同一平台再问，记录「被点名次数 / 排名位置 / 引用来源域名」。照明类采购常带着认证问，如果 AI 能替你把「有 DLC / UL」这句说出来，询盘质量会明显变高。</p>"
+      },
+      {
+        "h": "今日推荐 · 6 家（照明 / LED 出海）",
+        "body": "<div class=\"co\"><div class=\"co-h\"><b>木林森</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中山起家的 LED 企业，从封装做到整灯，靠并购海外通用照明品牌拿到全球渠道，是中国照明行业出海走得最远的一家。</div><div class=\"co-r\"><b>主营业务：</b>LED 封装器件、LED 照明灯具、LED 显示与健康照明产品，兼有植物照明等细分应用。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「上游规模 + 海外品牌」：先在国内把 LED 封装的规模做到领先，用成本与交付能力支撑整灯业务；再并购海外通用照明品牌，直接拿到覆盖上百个国家的品牌、渠道与本地团队，形成「中国产能 + 海外品牌」的组合。</div><div class=\"co-r found\"><b>📜 发家史：</b>上世纪九十年代成立于广东中山，从 LED 封装做起，靠规模化与自动化把成本压下来，逐步向下游照明延伸，规模做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>完成对海外通用照明品牌的并购，公司从「器件与代工供应商」变成「拥有全球品牌与渠道的照明集团」，营收跨过百亿元量级。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外采购会问「largest LED manufacturers in China」「China LED supplier with global brand」「LEDVANCE parent company」。缺口有三：一是并购来的海外品牌与母公司之间的关系没有英文文字说明，AI 常常答不出「某品牌其实属于这家中国公司」；二是封装产能与整灯能力分散在不同页面，缺少一张统一的「能力 + 产能 + 服务市场」表；三是各生产基地与海外分支的服务区域没有集中说明。补法：建一页英文「Group & Global Footprint」，用文字讲清母公司—品牌—基地关系，再补一页「Manufacturing Capabilities」写清产能规模、自动化水平与可承接的品类。</div><div class=\"co-r look\"><b>💡 看点：</b>「中国产能 + 海外百年品牌」这种组合，AI 一句话讲出来就是极强的信任背书——前提是网页上得有这句话的出处。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mls-co.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mls-co.cn</a></div></div><div class=\"co\"><div class=\"co-h\"><b>立达信</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>厦门的照明与物联网企业，长期以出口代工为主，近年把业务延伸到智能照明与 IoT 设备，是典型的「制造转方案」出海样本。</div><div class=\"co-r\"><b>主营业务：</b>LED 照明产品（光源、灯具、智能照明）、IoT 设备与解决方案（传感器、摄像头、网关等），以 ODM 为主服务海外品牌与渠道商。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「深度 ODM + 垂直一体化」：从光源、电源到结构件与智能模组自己做，把开发与验证周期压短，用「能一起定义产品」的能力绑定海外品牌客户，再以规模化制造保成本竞争力。</div><div class=\"co-r found\"><b>📜 发家史：</b>成立二十余年，总部在厦门，从照明代工做起，靠稳定的质量与交付在海外客户供应链里站稳，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从卖灯具转向卖「照明 + IoT 方案」，把智能模组与云平台能力接进原有产线，客户从采购部门延伸到产品部门。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China smart lighting ODM manufacturer」「IoT device ODM partner China」「LEEDARSON vs other China lighting ODM」。缺口：英文站偏品牌与方案介绍，缺「可承接品类 × 认证 × MOQ × 开发周期」的可引用表格；ODM 与自有品牌两条线没有明确区分，AI 判断不出它接不接外部客户的定制单；智能照明的协议兼容（Matter、Zigbee 等）与平台能力没有单独说明页。补法：做英文「ODM Services」页，写清合作模式、开发流程、认证支持与 MOQ；再补一页「Smart & IoT」写清协议与平台兼容范围。</div><div class=\"co-r look\"><b>💡 看点：</b>「能一起定义产品」是 ODM 最值钱的能力，但网页上往往只写「我们提供 ODM 服务」——把它写成流程与交付物，AI 才引用得上。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.leedarson.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.leedarson.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>阳光照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江上虞的老牌照明企业，从传统电光源做起，是国内最早一批做节能灯与 LED 出口的企业之一，长期以海外市场为主要收入来源。</div><div class=\"co-r\"><b>主营业务：</b>LED 光源与灯具（家居、商用、工业照明），以及配套的电子与照明电器产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「出口渠道深耕 + 品类跟随替换」：先把荧光灯、节能灯时代的海外客户关系沉淀下来，再在同一批渠道上完成向 LED 的切换；以稳定的认证与批次一致性守住大客户订单。</div><div class=\"co-r found\"><b>📜 发家史：</b>起家于浙江上虞的电光源业务，从灯泡与荧光灯做起，早年靠出口打开规模，随后跟随行业切换完成 LED 化，规模维持在数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从传统光源整体切换到 LED，把老客户关系与新技术的交付能力接上，完成了两代产品的平滑过渡。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China LED bulb manufacturer」「Yankon lighting supplier」「China lighting exporter with CE / UL」。缺口：英文站的产品分类较粗，缺少按「功率 / 光效 / 色温 / 显色 / 认证」排列的规格表；可下载的规格书与 IES 文件没有索引页；MOQ 与交期也没有写明。补法：把主力品类各做一页英文规格页（带参数表 + 规格书下载），再补一页「Certifications」与一份英文 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌出口企业的优势是「客户名单长」，但 AI 只能引用公开网页——把可公开的合作经验写成能力描述，比讲历史有效。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yankon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yankon.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>得邦照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>横店集团旗下的照明企业，总部在浙江东阳横店，以通用照明出口见长，近年把车用照明与车载部件做成第二增长曲线。</div><div class=\"co-r\"><b>主营业务：</b>民用照明、商用照明产品（光源、灯具、照明电子），以及车载照明与车载零部件业务。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「出口质量体系 + 集团协同」：靠出口质量与安全管理体系拿到海外大客户的长期订单，同时借助横店集团在磁性材料与电子方面的产业配套做成本与供应链协同，并往车规级产品延伸。</div><div class=\"co-r found\"><b>📜 发家史：</b>上世纪九十年代创立于浙江东阳横店，专注绿色照明，从节能灯与照明电子产品做起，逐步形成多基地生产格局，规模做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从通用照明延伸到车载照明与车载零部件，把消费级制造能力升级到车规级体系，客户结构与准入门槛同时提高。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China lighting manufacturer exporter」「TOSPO lighting supplier」「China automotive lighting components supplier」。缺口：车载业务作为第二曲线，在英文内容里几乎没有存在感，AI 回答「中国有哪些车载照明供应商」时提不到它；通用照明的出口能力（可服务区域、认证清单、出口资质）也缺少集中说明。补法：把车载业务单独做英文页（产品、车规体系、客户类型），并把通用照明的出口与认证信息集中成一页。</div><div class=\"co-r look\"><b>💡 看点：</b>第二曲线最容易被 GEO 忽略——新业务上线半年内不补内容，AI 会一直把你归类到老品类里。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tospolighting.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tospolighting.com.cn</a></div></div><div class=\"co\"><div class=\"co-h\"><b>佛山照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>广东的老牌照明企业，从传统光源做到全场景照明，近年往智能照明、车灯与海洋照明等细分场景扩张。</div><div class=\"co-r\"><b>主营业务：</b>家居照明、商用照明、工业与户外照明、智能照明系统，以及车用照明与特殊场景照明产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「品牌存量 + 场景扩张」：依托国内多年的品牌与渠道存量做基本盘，再通过并购与自研进入车灯、海洋照明等技术门槛更高的细分场景，把通用照明的价格竞争换成场景溢价。</div><div class=\"co-r found\"><b>📜 发家史：</b>总部在广东佛山，是国内较早做电光源的企业之一，从传统灯泡与荧光灯做起，经历行业从传统光源到 LED 的完整切换，规模维持在数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>切入车灯与特殊场景照明这类高门槛品类，让公司从「卖通用灯具」转向「做场景方案」，均价与抗价格战能力同步提升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China LED lighting manufacturers list」「FSL lighting supplier China」「China automotive lamp manufacturer」。缺口：车灯与海洋照明等新场景缺少英文专页，AI 仍然只把它识别成通用照明厂；海外可服务市场与认证清单没有集中说明；英文产品页的参数颗粒度不够。补法：为每个新场景建英文页（应用场景、技术方案、认证、典型案例），并把海外服务与认证信息集中成一页。</div><div class=\"co-r look\"><b>💡 看点：</b>老品牌最容易被 AI「一句话定性」——如果网页上没有新场景的证据，它给你的标签会停留在十年前。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.chinafsl.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.chinafsl.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>欧普照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>上世纪九十年代创立于中山古镇的照明企业，以家居照明的渠道与品牌见长，同时做商用照明，海外业务在东南亚、中东等区域扩张。</div><div class=\"co-r\"><b>主营业务：</b>家居照明、商用照明、智能照明与电工电器产品，覆盖吸顶灯、筒射灯、浴霸、风扇灯等品类及整体照明方案。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「渠道密度 + 方案化销售」：国内靠密集的零售与服务网络覆盖终端，商用端以照明设计与整体方案拿项目；海外则在重点区域建本地团队与渠道，把国内验证过的品类与方案复制出去。</div><div class=\"co-r found\"><b>📜 发家史：</b>从中山古镇的照明生意做起，借着国内房地产与家装的红利把零售网络铺开，规模从数亿元量级做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单品销售转向照明方案与智能照明，客单价从一盏灯变成一整套系统，同时也为海外复制提供了可打包的产品形态。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「OPPLE lighting supplier」「China home lighting brand with overseas distribution」「China commercial lighting solution provider」。缺口：国内零售内容与海外招商内容混在一个域名体系里，AI 常常把英文访客导到只服务国内的页面；海外可服务国家、认证（CE / CB / SAA 等）与经销合作条件没有集中英文页；商用方案的能力描述偏概念、缺参数。补法：把海外业务拆成独立的英文入口，写清可服务区域、认证、合作方式与联系方式，并补一份带参数的商用方案页。</div><div class=\"co-r look\"><b>💡 看点：</b>内销强势的企业做 GEO，第一步往往不是加内容，而是「把对海外买家的信息单独开一个门」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.opple.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.opple.com.cn</a></div></div>"
+      }
+    ]
+  },
+  {
+    "title": "Day 7 · 客户开发（新能源 / 储能 / 光伏）",
+    "tag": "第7天 · 新能源 / 储能 / 光伏（inverter / ESS / solar）",
+    "short": "新能源",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「新能源 / 储能 / 光伏」。海外买家搜\"ESS lithium battery manufacturer China\"\"solar inverter OEM\"，答案被宁德/比亚迪/华为等占。这 6 家是出海活跃玩家。谈单抓手：英文技术内容浅、认证只贴标无解读、细分定位（户储/工商储/微型逆变器）没讲清楚。"
+      },
+      {
+        "h": "今日推荐 · 6 家（新能源 / 储能 / 光伏）",
+        "body": "<b>🏢 头部 · 比亚迪</b> — 储能+光伏+EV 出海龙头，海外品牌认知高。AI 答案位已被大量媒体占，GEO 可帮比亚迪把官方技术解读推回答案页（如\"BYD ESS spec\"）。<br>\n<b>⭐ 腰部 · 阳光电源</b> — 逆变器+储能全球龙头。海外客户会问\"Sungrow vs Huawei inverter\"，对比型英文内容是 GEO 机会。<br>\n<b>⭐ 腰部 · 固德威</b> — 户用逆变器+储能，欧洲市场强。它的英文站缺「户用储能选型」FAQ，AI 检索时官方素材不足。<br>\n<b>⭐ 腰部 · 锦浪科技</b> — 组串式逆变器龙头，海外出货量大。官网产品参数多，但「逆变器选型/并网认证」AI FAQ 没上墙。<br>\n<b>⭐ 腰部 · 派能科技</b> — 户用储能电池（磷酸铁锂），欧洲/澳洲市场。海外安装商搜\"Pylontech vs BYD battery\"，需要英文对比和认证解读页。<br>\n<b>⭐ 腰部 · 晶科能源</b> — 光伏组件全球龙头。海外 EPC 会问\"JinkoSolar Tiger Neo vs TOPCon\"，晶科需要把技术优势做成 AI 可引用的英文内容。"
+      }
+    ]
+  },
+  {
+    "title": "Day 8 · 客户开发（工业机器人 / 自动化产线）",
+    "tag": "第8天 · 工业机器人 / 自动化产线（industrial robots / automation）",
+    "short": "机器人",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「工业机器人 / 自动化产线」。这 6 家都是真实存在、且有自动化出海基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网/阿里国际站，看英文内容缺什么，再用「海外买家在 AI 里搜不到你」开场。"
+      },
+      {
+        "h": "今日推荐 · 6 家（工业机器人 / 自动化产线）",
+        "body": "<b>🏢 头部 · 埃斯顿 / Estun</b> — 国产工业机器人本体与运动控制龙头，南京起家。海外集成商会搜\"Estun robot supplier China\"，埃斯顿英文产品页有基础，但焊接/码垛等应用案例 FAQ 浅，GEO 可补答案位。<br>\n<b>⭐ 腰部 · 汇川技术 / Inovance</b> — 伺服、变频器与 SCARA 机器人巨头，深圳。海外工程师常问\"China servo drive supplier\"，汇川英文偏产品型录，缺选型 FAQ + 行业解决方案这类 AI 最爱引的内容。<br>\n<b>⭐ 腰部 · 新松机器人 / SIASUN</b> — 中科院背景的国产机器人标杆，沈阳。海外搜\"Siasun industrial robot\"品牌认知靠展会，英文结构化工艺页少，GEO 能帮它从展会流量沉淀到 AI 答案。<br>\n<b>⭐ 腰部 · 拓斯达 / Topstar</b> — 东莞自动化集成商，注塑机械手与产线为主。海外买家搜\"automation integrator China\"，拓斯达英文案例故事几乎空白，正是 GEO 可打的内容缺口。<br>\n<b>⭐ 腰部 · 埃夫特 / EFORT</b> — 芜湖机器人本体企业，通过欧洲收购铺海外。海外搜\"Efort robot\"，英文权威技术内容不足，长尾应用词答案位被同行占。<br>\n<b>⭐ 腰部 · 广州数控 / GSK</b> — 数控系统与机器人供应商，广州。海外搜\"GSK CNC robot\"，英文站偏传统型录，缺可被 AI 直接引用的精度/负载/案例 FAQ。"
+      }
+    ]
+  },
+  {
+    "title": "Day 9 · 客户开发（电动工具 / 五金工具）",
+    "tag": "第9天 · 电动工具 / 五金工具（power tools / hardware）",
+    "short": "电动工具",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「电动工具 / 五金工具」。海外 DIY 玩家、专业技工、采购在 AI 里搜\"best cordless drill China\"时，答案常被 Amazon 榜单和海外品牌占位。这 6 家是国内电动工具出海主力，头部当品牌标杆、腰部当可开发工厂。谈单抓手：英文站只有参数、没有 buyer 评测/场景 FAQ。"
+      },
+      {
+        "h": "今日推荐 · 6 家（电动工具 / 五金工具）",
+        "body": "<b>🏢 头部 · 巨星科技 / GreatStar</b> — 手工具与电动工具双线巨头，杭州，收购 Arrow/Lista 等海外品牌。海外搜\"GreatStar tools\"多品牌分散，中国母公司认知弱，GEO 可把品牌答案位收口。<br>\n<b>⭐ 腰部 · 泉峰控股 / Chervon</b> — 南京电动工具 ODM 龙头，EGO/DEVON 自有品牌出海。海外搜\"Chervon power tools\"品牌强，但\"made by Chervon China\"溯源内容少，GEO 可补。<br>\n<b>⭐ 腰部 · 宝时得 / Positec</b> — 苏州企业，Worx 品牌全球知名。海外搜\"Worx tools\"认知高，但\"Positec China 制造商\"英文权威内容缺，GEO 可建信任背书。<br>\n<b>⭐ 腰部 · 东成 / Dongcheng</b> — 江苏启东电动工具主力厂，国内销量大、出海加速。海外搜\"Dongcheng power tool\"，英文站基础，长尾词答案位是空白。<br>\n<b>⭐ 腰部 · 锐奇股份 / RiKi</b> — 上海电动工具企业，创业板上市。海外搜\"Riki power tools China\"，英文内容薄，缺产品对比与场景 FAQ。<br>\n<b>⭐ 腰部 · 创科实业 / TTI</b> — 港资巨头，RYOBI/Milwaukee 背后智造基地。海外搜\"TTI power tools\"品牌强，但中国智造溯源故事少，GEO 可做品牌背书。"
+      }
+    ]
+  },
+  {
+    "title": "Day 10 · 客户开发（泵 / 阀门 / 流体控制）",
+    "tag": "第10天 · 泵 / 阀门 / 流体控制（pumps & valves / fluid control）",
+    "short": "泵阀",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「泵 / 阀门 / 流体控制」。海外工程公司、水处理和工业采购在 AI 里搜\"centrifugal pump supplier China\"时，答案常被欧美老牌占位。这 6 家是国内泵阀出海活跃主体，头部当设备商标杆、腰部当可开发工厂。谈单切入点：英文站只有型录，没有选型 FAQ/工况曲线/材质说明。"
+      },
+      {
+        "h": "今日推荐 · 6 家（泵 / 阀门 / 流体控制）",
+        "body": "<b>🏢 头部 · 南方泵业 / CNP</b> — 不锈钢离心泵龙头，杭州（中金环境）。海外搜\"CNP pump China\"，英文产品页有基础，但应用工况 FAQ 浅，GEO 可补。<br>\n<b>⭐ 腰部 · 新界泵业 / Shimge</b> — 浙江农用与民用水泵主力，出海比例高。海外搜\"Shimge water pump\"，英文站基础，长尾词答案位空白。<br>\n<b>⭐ 腰部 · 利欧股份 / Leo</b> — 浙江泵业（工业/市政/水利），业务广。海外搜\"Leo pump\"，英文案例故事少，GEO 可建。<br>\n<b>⭐ 腰部 · 凯泉泵业 / Kaiquan</b> — 上海泵阀企业，非上市但体量大。海外搜\"Kaiquan pump\"，英文内容薄，缺 AI 可引用的选型内容。<br>\n<b>⭐ 腰部 · 伟隆股份 / Wilong</b> — 青岛阀门企业（给排水/消防），上市。海外搜\"Wilong valve\"，英文站需强化材质与认证页。<br>\n<b>⭐ 腰部 · 江苏神通 / Shentong</b> — 核电/冶金/石化特种阀门，上市。海外搜\"Shentong valve\"，专业领域英文权威内容缺，GEO 可打。"
+      }
+    ]
+  },
+  {
+    "title": "Day 11 · 客户开发（包装机械 / 包装设备）",
+    "tag": "第11天 · 包装机械 / 包装设备（packaging machinery）",
+    "short": "包装机械",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「包装机械 / 包装设备」。海外食品、饮料、日化工厂在 AI 里搜\"bottling line supplier China\"时，答案被海外设备商占位。这 6 家是国内包装机械出海主力，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有设备参数，没有整线方案/产能 FAQ。"
+      },
+      {
+        "h": "今日推荐 · 6 家（包装机械 / 包装设备）",
+        "body": "<b>🏢 头部 · 达意隆 / Tech-Long</b> — 广州饮料包装机械龙头，上市。海外搜\"Tech-Long filling machine\"，英文有基础但长尾应用浅，GEO 可补。<br>\n<b>⭐ 腰部 · 新美星 / Newamstar</b> — 张家港灌装包装线企业，上市。海外搜\"Newamstar bottling\"，英文案例少，缺整线方案内容。<br>\n<b>⭐ 腰部 · 中亚股份 / Zhongya</b> — 杭州包装机械，上市。海外搜\"Zhongya packaging\"，英文偏型录，AI 难直接引用。<br>\n<b>⭐ 腰部 · 永创智能 / Youngsun</b> — 杭州包装设备，上市。海外搜\"Youngsun packing machine\"，英文内容薄，长尾词空白。<br>\n<b>⭐ 腰部 · 博实股份 / Boshi</b> — 哈尔滨粉粒料包装机器人，上市。海外搜\"Boshi packaging robot\"，英文案例缺，GEO 可打。<br>\n<b>⭐ 腰部 · 东方精工 / OFG</b> — 佛山瓦楞纸箱包装设备，上市。海外搜\"Dongfang corrugated\"，英文站基础，缺应用 FAQ。"
+      }
+    ]
+  },
+  {
+    "title": "Day 12 · 客户开发（紧固件 / 轴承 / 传动件）",
+    "tag": "第12天 · 紧固件 / 轴承 / 传动件（fasteners / bearings / transmission）",
+    "short": "紧固传动",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「紧固件 / 轴承 / 传动件」。海外机械、汽车、维修采购在 AI 里搜\"bearing supplier China\"时，答案被平台与欧美品牌占位。这 6 家是国内紧固/轴承/传动出海代表，头部当标杆、腰部当可开发工厂。谈单切入点：英文站只有型号表，没有选型 FAQ/载荷曲线/应用案例。"
+      },
+      {
+        "h": "今日推荐 · 6 家（紧固件 / 轴承 / 传动件）",
+        "body": "<b>🏢 头部 · 晋亿实业 / Gem-Year</b> — 紧固件龙头，浙江，上市。海外搜\"Gem-Year fastener\"，英文产品页有但应用 FAQ 浅，GEO 可补。<br>\n<b>⭐ 腰部 · 人本股份 / C&U</b> — 温州轴承巨头（最大民企之一）。海外搜\"C&U bearing\"，英文内容薄，缺 AI 可引用选型内容。<br>\n<b>⭐ 腰部 · 瓦轴 / ZWZ</b> — 辽宁轴承国企，历史悠久。海外搜\"ZWZ bearing\"，英文站传统型录，GEO 可现代化。<br>\n<b>⭐ 腰部 · 双环传动 / Shuanghuan</b> — 浙江齿轮与传动件，上市。海外搜\"Shuanghuan gear\"，英文案例少，长尾词空白。<br>\n<b>⭐ 腰部 · 杭齿前进 / Advance</b> — 杭州齿轮箱与传动，上市。海外搜\"Advance gearbox\"，英文内容薄，缺应用 FAQ。<br>\n<b>⭐ 腰部 · 力星股份 / LiXing</b> — 江苏轴承滚动体（精密钢球/滚子），上市。海外搜\"LiXing bearing roller\"，专业英文权威内容缺，GEO 可打。"
+      }
+    ]
+  },
+  {
+    "title": "Day 13 · 客户开发（激光设备 / 激光加工）",
+    "tag": "第13天 · 激光设备 / 激光加工（laser equipment / laser processing）",
+    "short": "激光",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「激光设备 / 激光加工」。海外制造、钣金、光伏工厂在 AI 里搜\"fiber laser cutter supplier China\"时，答案被平台与大英文站占位。这 6 家是国内激光装备出海主力，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有参数，没有工艺 FAQ/材料切割案例。"
+      },
+      {
+        "h": "今日推荐 · 6 家（激光设备 / 激光加工）",
+        "body": "<b>🏢 头部 · 大族激光 / Han’s Laser</b> — 深圳激光设备龙头，上市。海外搜\"Han’s Laser\"，品牌强但长尾应用（切割/焊接）英文页浅，GEO 可补。<br>\n<b>⭐ 腰部 · 华工科技 / Hgtech</b> — 武汉激光与光通信，上市。海外搜\"Hgtech laser\"，英文内容薄，缺工艺 FAQ。<br>\n<b>⭐ 腰部 · 锐科激光 / Raycus</b> — 武汉光纤激光器，上市。海外搜\"Raycus fiber laser\"，英文偏型录，AI 难引用。<br>\n<b>⭐ 腰部 · 联赢激光 / UW Laser</b> — 深圳激光焊接，上市。海外搜\"UW laser welding\"，英文案例少，GEO 可打。<br>\n<b>⭐ 腰部 · 海目星 / Hymson</b> — 深圳激光切割与锂电设备，上市。海外搜\"Hymson laser\"，英文站基础，长尾空白。<br>\n<b>⭐ 腰部 · 帝尔激光 / DR Laser</b> — 武汉光伏激光设备，上市。海外搜\"DR Laser solar\"，专业英文权威内容缺，GEO 可建。"
+      }
+    ]
+  },
+  {
+    "title": "Day 14 · 客户开发（3D 打印 / 增材制造）",
+    "tag": "第14天 · 3D 打印 / 增材制造（3D printing / additive manufacturing）",
+    "short": "3D打印",
+    "blocks": [
+      {
+        "h": "💡 今日怎么用这笔清单",
+        "body": "今天开发方向是「3D 打印 / 增材制造」。海外工程师、创客、医疗牙科在 AI 里搜\"metal 3D printing service China\"时，答案被海外服务商占位。这 6 家是国内增材制造出海代表，头部当标杆、腰部当可开发工厂。谈单切入点：英文站只有设备参数，没有材料/工艺/应用案例 FAQ。"
+      },
+      {
+        "h": "今日推荐 · 6 家（3D 打印 / 增材制造）",
+        "body": "<b>🏢 头部 · 铂力特 / BLT</b> — 西安金属 3D 打印龙头，科创板。海外搜\"BLT 3D printing\"，英文技术页有但应用案例浅，GEO 可补。<br>\n<b>⭐ 腰部 · 华曙高科 / Farsoon</b> — 长沙金属与尼龙 3D 打印，科创板。海外搜\"Farsoon additive\"，英文有但长尾少，GEO 可扩。<br>\n<b>⭐ 腰部 · 创想三维 / Creality</b> — 深圳消费级 3D 打印龙头，全球知名。海外搜\"Creality 3D printer\"品牌强，但\"made in China GEO\"溯源内容少。<br>\n<b>⭐ 腰部 · 先临三维 / Shining3D</b> — 杭州 3D 扫描与打印，上市辅导。海外搜\"Shining3D scanner\"，英文内容薄，缺应用 FAQ。<br>\n<b>⭐ 腰部 · 易加三维 / Eplus3D</b> — 杭州金属 3D 打印，出海活跃。海外搜\"Eplus3D metal printing\"，英文站基础，长尾空白。<br>\n<b>⭐ 腰部 · 联泰科技 / UnionTech</b> — 上海光固化 3D 打印（SLA），老牌。海外搜\"UnionTech SLA\"，英文案例少，GEO 可打。"
+      }
+    ]
+  }
+],
   news: [
     {
       title: '全球供应链的重构',
