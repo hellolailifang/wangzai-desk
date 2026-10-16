@@ -546,8 +546,8 @@
 
   <div class="saved-tip" id="savedTip">✓ 已保存到本地<span class="en-sm">Saved locally</span></div>
 
-<script src="content.js?v=132"></script>
-<script src="en_practice.js?v=132"></script>
+<script src="content.js?v=134"></script>
+<script src="en_practice.js?v=134"></script>
 <script>
 /* ============ 基础工具 ============ */
 const $ = (s,el=document)=>el.querySelector(s);
@@ -609,7 +609,7 @@ const MODULES = [
   {id:'overseas', name:'开发方向',     en:'Dev Direction',         desc:'GEO客户开发方向', unit:'类',  img:'assets/usopp.webp', char:'山治', noCheckin:true},
   {id:'news',     name:'全球新闻热点', en:'Global News',           desc:'今日要闻', unit:'条',   img:'assets/ace.webp',    char:'娜美',  noCheckin:true},
   {id:'social',   name:'社媒内容',     en:'Social Media',           desc:'小红书 · GEO日更', unit:'篇',   img:'assets/luffy.webp',   char:'乔巴', noCheckin:true},
-  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'减脂 · 8周10斤', unit:'餐',   img:'assets/chopper.webp', char:'罗宾',  noCheckin:true},
+  {id:'diet',     name:'旺仔的饮食',   en:"Wangzai's Diet",        desc:'减脂 · 食物红宝书', unit:'餐',   img:'assets/chopper.webp', char:'罗宾',  noCheckin:true},
   {id:'overview', name:'今日航海总览', en:"Today's Overview",      unit:'',     img:null,                  char:'🧭', noCheckin:true},
   {id:'travel',   name:'全球徒步路线', en:'World Hiking Routes',   desc:'路线推荐', unit:'route', img:'assets/sabo.webp', char:'甚平',  noCheckin:true},
 ];
@@ -1692,7 +1692,7 @@ if('serviceWorker' in navigator){
     if(navigator.onLine && !_wzReloading){ _wzReloading = true; location.reload(); }
   });
   window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js?v=133',{updateViaCache:'none'})
+    navigator.serviceWorker.register('sw.js?v=134',{updateViaCache:'none'})
       .then(reg=>reg.update())
       .catch(()=>{});
   });
