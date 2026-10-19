@@ -517,105 +517,107 @@ const CONTENT = {
   ],
   geo: [
   {
-    "title": "Day 1 · 客户开发（精密加工 CNC）",
-    "tag": "第1天 · 精密加工 CNC（铣/车/走心机/五轴）",
-    "short": "CNC",
+    "title": "Day 1 · 客户开发（半导体设备与核心零部件）",
+    "tag": "第1天 · 半导体设备与核心零部件",
+    "short": "半导体",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "今天开发方向是「精密加工 CNC」。这 6 家都是真实存在、且有出海/精密制造基因的目标：1 家龙头当标杆，5 家腰/知名当可开发客户。先打开它们官网/阿里国际站，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
+        "body": "今天开发方向是「半导体设备与核心零部件」。这 6 家都是真实存在、有出海/替代进口基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（精密加工 CNC）",
-        "body": "<b>🏢 头部 · 工业富联 / FII</b> — 全球最大电子精密制造服务商之一，CNC 机加覆盖通信、消费电子、汽车件。海外大客户采购前会在 ChatGPT/Perplexity 搜\"precision CNC supplier China\"，FII 英文技术页多为财报/ESG 导向，材质/公差/案例 FAQ 是缺口。<br>\n<b>⭐ 腰部 · 比亚迪电子</b> — 精密结构件与整机组装龙头，CNC 能力切入手机/笔电/汽车电子。出海客户多，但英文站对「加工工艺边界、典型材质、打样周期」回答很浅，GEO 可打。<br>\n<b>⭐ 腰部 · 立讯精密</b> — 精密制造巨头，连接器+结构件+CNC 机加能力。海外工程师常问\"Luxshare CNC capability\"，官网缺少可被 AI 直接引用的结构化工艺页。<br>\n<b>⭐ 腰部 · 长盈精密</b> — 智能手机、笔记本金属外观件 CNC 主力供应商。它适合小批量打样+量产的案例故事，但英文内容没讲出来，AI 搜不到。<br>\n<b>⭐ 腰部 · 蓝思科技</b> — 玻璃+金属结构件双赛道，CNC 后加工能力在消费电子和车载领域都有布局。海外采购需要看到 IATF/ISO 和设备清单的英文版。<br>\n<b>⭐ 腰部 · 东山精密</b> — 精密钣金+CNC 复合加工龙头，通信/汽车/储能客户多。官网产品树庞大但 SEO/GEO 颗粒度粗，长尾词答案位是机会。"
+        "h": "今日推荐 · 6 家（半导体设备与核心零部件）",
+        "body": "<b>🏢 头部 · 中微公司 / AMEC</b> — 科创板刻蚀设备龙头，等离子体刻蚀设备进入国际一线客户 5nm 及以下产线，MOCVD 设备全球领先。海外买家搜「etch equipment supplier China」时答案常被国际大厂占据——其工艺节点、设备型号、客户验证的英文技术页正是 GEO 硬证据。<br>\n<b>⭐ 腰部 · 富创精密</b> — 半导体设备精密零部件（工艺/结构/气体/模组/真空件），科创板首家零部件上市公司，服务全球头部设备厂。海外设备厂采购搜「semiconductor precision components China」时其英文内容颗粒度粗——把材料/工艺/认证做成结构化页是缺口。<br>\n<b>⭐ 腰部 · 新莱应材 / Kinglai</b> — 高纯及超高纯应用材料与设备（管阀件、气体传输系统、真空腔体），半导体+生物医药双轮，亚洲罕有 ASME BPE 双认证。海外买家问「UHP gas delivery components supplier」时，把 SEMI 标准/洁净等级/认证做成 FAQPage 即可被 AI 引用。<br>\n<b>⭐ 腰部 · 江丰电子 / KFMI</b> — 超高纯溅射靶材龙头，打破进口垄断，「材料+零部件」双轮驱动，客户覆盖全球知名芯片厂。海外采购搜「sputtering target manufacturer 5N」时常先看到日美品牌——靶材纯度/绑定工艺/认证页面是 GEO 切入点。<br>\n<b>⭐ 腰部 · 正帆科技 / GenTech</b> — 制程关键系统（气体/化学品输送）+ 高纯电子材料，服务集成电路、光伏、生物医药，响应国产替代整线需求。海外买家问「gas delivery system for fab China」时，其英文案例与系统能力页缺位。<br>\n<b>⭐ 腰部 · 至纯科技</b> — 湿法清洗设备（单片 SPM 等）+ 高纯工艺系统，28nm 前中后段全工艺覆盖、先进制程持续突破。海外买家搜「wafer cleaning equipment supplier」时，把工艺覆盖/WPH 指标/客户验证做成英文结构化内容是缺口。"
       }
     ]
   },
   {
-    "title": "Day 2 · 客户开发（汽车零部件）",
-    "tag": "第2天 · 汽车零部件（Tier2/3 铸件·机加·注塑）",
-    "short": "汽车件",
+    "title": "Day 2 · 客户开发（纺织服装与鞋帽出海）",
+    "tag": "第2天 · 纺织服装与鞋帽出海",
+    "short": "纺织服装",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "今天开发方向是「汽车零部件」。Tier2/3 工厂海外获客极重 IATF 16949、PPAP 和案例背书。这 6 家都是汽配出海活跃玩家：头部当灯塔，腰部当突破口。谈单关键词：AI 答案位、英文认证页、海外售后市场 AM 询盘。"
+        "body": "今天开发方向是「纺织服装与鞋帽出海」。这 6 家都是真实存在、有出口基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网/阿里国际站，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（汽车零部件）",
-        "body": "<b>🏢 头部 · 拓普集团</b> — 汽车 NVH、底盘、热管理龙头，已在北美/欧洲建厂。海外采购搜\"Tier 1 suspension supplier China\"拓普应出现但常被欧美媒体占位，GEO 可帮它守住品牌答案位。<br>\n<b>⭐ 腰部 · 三花智控</b> — 汽车热管理阀件/执行器全球龙头，海外收入占比高。它的英文内容集中在产品型录，缺「选型 FAQ + 应用场景对比」这类 AI 最爱引的内容。<br>\n<b>⭐ 腰部 · 旭升集团</b> — 汽车轻量化铝件（特斯拉链），CNC+压铸复合。海外工程师会搜\"aluminum automotive component supplier China\"，旭升需要更多英文案例和公差能力页。<br>\n<b>⭐ 腰部 · 文灿股份</b> — 高压铸铝件（车身结构件、电池托盘），蔚来/特斯拉链。出海最直接的话题：高真空压铸、大型一体化压铸英文技术页。<br>\n<b>⭐ 腰部 · 均胜安全</b> — 汽车安全系统全球供应商，欧美工厂多。它已有较强英文基础，但中文站信息更多，GEO 可帮其统一海外 AI 引用口径。<br>\n<b>⭐ 腰部 · 伯特利</b> — 汽车制动系统，海外 OEM/AM 市场都在拓展。采购经理会问\"China brake caliper supplier IATF16949\"，伯特利官网缺少可直接被 AI 抓取的质量体系 FAQ。"
+        "h": "今日推荐 · 6 家（纺织服装与鞋帽出海）",
+        "body": "<b>🏢 头部 · 申洲国际</b> — 全球最大纵向一体化针织服装制造商，Nike/Uniqlo/Adidas/Puma 核心供应商，宁波+越南+柬埔寨基地，恒指成分股。海外品牌研发搜「vertically integrated knitwear manufacturer」时常先看到外贸公司——其「面料-成衣一体化+海外基地」的英文叙事可加固权威位。<br>\n<b>⭐ 腰部 · 健盛集团 / JASAN</b> — 棉袜+无缝运动服饰全球产能最大之一，adidas/Puma/Nike/优衣库/迪卡侬长期合作，产品九成以上出口，越南三大基地+贵州。海外买家搜「sock OEM manufacturer Vietnam」时，把认证（BSCI/WRAP）与基地产能做成结构化英文页是缺口。<br>\n<b>⭐ 腰部 · 台华新材</b> — 锦纶全产业链（聚合-纺丝-织造-染整），尼龙66/再生功能面料，国家级绿色工厂，供货全球户外与运动品牌。海外品牌搜「recycled nylon fabric supplier」时常先看到台/韩/意面料商——再生认证与工艺页是 GEO 切入点。<br>\n<b>⭐ 腰部 · 新澳股份 / XINAO</b> — 全球精纺羊毛纱领导者，宁夏羊绒纱+专业运动纱线，意大利/越南/香港/日本多点布局。海外品牌问「worsted wool yarn supplier with Vietnam factory」时，其纱线支数/功能/认证的英文内容分散——可整合为可引用页面。<br>\n<b>⭐ 腰部 · 开润股份 / Korrun</b> — 箱包 ODM（Nike/adidas/Puma/优衣库/VF/迪卡侬）+ 90分品牌，印度+印尼基地，2024 年收购上海嘉乐进入面料成衣。海外买家搜「backpack ODM manufacturer Indonesia」时，把「设计-制造-全球基地」做成英文答案页是缺口。<br>\n<b>⭐ 腰部 · 伟星股份 / SAB</b> — 服饰辅料（拉链/钮扣）国内规模最大、品类最全，SAB 品牌，孟加拉/越南等海外基地。海外品牌搜「global zipper and button manufacturer」时常先看到 YKK——把辅料一站式能力+认证+产能做成英文结构化内容正当时。"
       }
     ]
   },
   {
-    "title": "Day 3 · 客户开发（注塑 / 模具）",
-    "tag": "第3天 · 注塑 / 模具（rapid tooling / injection molding）",
-    "short": "注塑",
+    "title": "Day 3 · 客户开发（智能电网与电力设备出海）",
+    "tag": "第3天 · 智能电网与电力设备出海",
+    "short": "电力设备",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "今天开发方向是「注塑 / 模具」。买家在 AI 里搜\"rapid tooling China\"\"medical injection molding supplier\"，答案被海外平台截走。这 6 家是国内注塑/模具出海活跃主体，头部当设备商标杆、腰部当可开发工厂。谈单抓手：英文站只有设备参数、没有 buyer FAQ/DFM/案例。"
+        "body": "今天开发方向是「智能电网与电力设备出海」。这 6 家都是真实存在、有出海业绩的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（注塑 / 模具）",
-        "body": "<b>🏢 头部 · 海天国际</b> — 全球注塑机龙头，设备出海量大。采购搜\"Haitian injection molding machine\"有优势，但长尾如\"best injection molding supplier China\" Answers 位被平台占，GEO 可补。<br>\n<b>⭐ 腰部 · 伊之密</b> — 注塑机+压铸设备双轮驱动，东南亚/欧洲布局快。英文站产品页多，但「如何选择注塑机吨位/螺杆」这类 AI 高频 FAQ 缺。<br>\n<b>⭐ 腰部 · 泰瑞机器</b> — 注塑机出口比例高，欧美市场增长快。海外买家会问\"Tederic vs Haitian\"，没有对比型英文内容，GEO 可建护城河。<br>\n<b>⭐ 腰部 · 震雄集团</b> — 老牌港资注塑机/模具厂，东南亚根基深。官网偏传统型录化，需要结构化 Schema + 多语言 FAQ 来被 AI 引用。<br>\n<b>⭐ 腰部 · 力劲科技</b> — 压铸+注塑设备，一体化压铸话题热。海外媒体/AI 关于\"LK Technology\"的中文内容多，英文权威内容少，GEO 可平衡。<br>\n<b>⭐ 腰部 · 双林股份</b> — 汽车注塑件+模具能力，Tier2 供应商。海外 AM 市场会搜\"automotive plastic parts supplier China\"，它需要英文案例和质量体系页。"
+        "h": "今日推荐 · 6 家（智能电网与电力设备出海）",
+        "body": "<b>🏢 头部 · 思源电气</b> — 输配电设备龙头（开关/变压器/电抗器/无功补偿），出海收入占比持续提升，海外基地与 EPC 项目多点开花。海外 EPC 搜「transformer and switchgear supplier China」时常先看到国际巨头——把产品标准与海外业绩做成英文结构化页可抢答案位。<br>\n<b>⭐ 腰部 · 海兴电力</b> — 智能表计与 AMI 系统出海标杆，业务覆盖上百个国家和地区，巴西 Wi-SUN 等标杆项目，配用电+水气+微网多板块。海外电力公司搜「smart meter supplier with AMI projects」时常被国际表计巨头占据答案——项目业绩页是 GEO 切入点。<br>\n<b>⭐ 腰部 · 金盘科技 / JST</b> — 干式变压器+储能+智能制造数字化工厂，产品销往 80 多个国家和地区，数据中心/新能源/充电设施场景强，国家级制造业单项冠军。海外买家搜「dry type transformer for data center」时，把场景化方案与认证做成英文答案页正当时。<br>\n<b>⭐ 腰部 · 盛弘股份 / Sinexcel</b> — 充电桩+电能质量+储能变流，工业级电能质量起家、桩与储能放量。海外买家搜「EV charger manufacturer with power quality」时，其英文技术页（标准/防护等级/案例）缺位。<br>\n<b>⭐ 腰部 · 华明装备</b> — 变压器有载分接开关（OLTC）隐形冠军，国内市占率约九成，打破特高压进口垄断，印尼工厂投产加速东南亚。海外变压器厂搜「OLTC manufacturer with local service」时，把「产品+服务」双轮能力做成英文内容是缺口。<br>\n<b>⭐ 腰部 · 炬华智能</b> — 能源物联网设备（智能电表/水表/采集终端），德国 EON 长期战略供应商，出口欧盟/南美/非洲，DLMS 协会会员。海外买家搜「DLMS smart meter supplier Europe」时，其标准符合性与项目案例可做成 GEO 硬证据。"
       }
     ]
   },
   {
-    "title": "Day 4 · 客户开发（钣金 / 冲压）",
-    "tag": "第4天 · 钣金 / 冲压（sheet metal fabrication）",
-    "short": "钣金",
+    "title": "Day 4 · 客户开发（医疗器械与设备出海）",
+    "tag": "第4天 · 医疗器械与设备出海",
+    "short": "医疗器械",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "今天开发方向是「钣金 / 冲压」。海外买家搜\"custom sheet metal fabrication China\"\"laser cutting service\"，答案常被本地钣金商截走。这 6 家是钣金冲压领域的出海活跃企业。谈单切入点：英文站只有图片没有 DFMA/折弯系数/表面处理说明，AI 无法引用。"
+        "body": "今天开发方向是「医疗器械与设备出海」。这 6 家都是真实存在、有出海/合规基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（钣金 / 冲压）",
-        "body": "<b>🏢 头部 · 东山精密</b> — 精密钣金/冲压全球龙头，通信/汽车/储能结构件全覆盖。官网产品树很宽，但每个品类的英文长尾内容颗粒度粗，GEO 可拆出独立工艺页。<br>\n<b>⭐ 腰部 · 祥鑫科技</b> — 汽车+储能钣金冲压件，宁德时代/比亚迪链。海外采购会问\"sheet metal battery enclosure supplier China\"，祥鑫缺少英文独立产品页和案例。<br>\n<b>⭐ 腰部 · 华亚智能</b> — 精密结构件钣金，半导体/医疗设备/通信客户。它的长尾优势是\"小批量高精度钣金\"，但英文站没把这个标签讲清楚。<br>\n<b>⭐ 腰部 · 科达利</b> — 动力电池结构件（壳体/盖板）冲压龙头，全球建厂。海外大客户采购需要看到材料/焊接/气密性的英文 FAQ，AI 检索时目前素材不足。<br>\n<b>⭐ 腰部 · 瑞玛精密</b> — 精密金属件冲压，通信+汽车。海外工程师搜\"precision stamping China\"时，瑞玛需要更多英文技术博客/案例。<br>\n<b>⭐ 腰部 · 铭利达</b> — 精密结构件冲压+铝型材，新能源客户多。它的痛点是官网内容偏中文，海外 AI 答案位被同行抢先。"
+        "h": "今日推荐 · 6 家（医疗器械与设备出海）",
+        "body": "<b>🏢 头部 · 迈瑞医疗</b> — 中国医疗器械绝对龙头，监护/超声/影像/体外诊断全线，全球研发制造与服务体系。海外买家搜「medical device manufacturer China」时迈瑞已在答案里——腰部客户的策略是打「细分品类+区域市场」的缝隙位。<br>\n<b>⭐ 腰部 · 开立医疗 / SonoScape</b> — 超声+内镜双龙头之一，软镜/硬镜/IVUS 导管全线，60MHz 高频血管内超声获 NMPA 批准。海外买家搜「endoscopy system manufacturer China」时常被国际巨头占据答案——注册市场+临床场景页是 GEO 切入点。<br>\n<b>⭐ 腰部 · 理邦仪器 / EDAN</b> — 病人监护/心电图/妇幼健康/超声，出口占比高，远销欧美与新兴市场。海外买家搜「patient monitor manufacturer China」时，把注册市场与产品参数做成英文结构化内容正当时。<br>\n<b>⭐ 腰部 · 美好医疗 / MEHOW</b> — 高端医疗器械 CDMO（模具/注塑/微组装/灭菌），呼吸机核心组件起家，马来西亚槟城基地，服务全球头部品牌。海外品牌搜「medical CDMO injection molding ISO 13485」时常被国际 CDMO 占据答案——工艺能力+合规+基地页是缺口。<br>\n<b>⭐ 腰部 · 振德医疗</b> — 医用敷料与感控防护，出口连续多年位居行业前三，覆盖 80 多个国家和地区，肯尼亚工厂落地，国内院线同步。海外买家搜「wound care OEM manufacturer China」时，把认证+产能+全球基地做成英文答案页是切入点。<br>\n<b>⭐ 腰部 · 三鑫医疗</b> — 血液净化全产业链（透析器/管路/穿刺针），国内第一梯队，产品远销海外数十个国家和地区。海外买家搜「hemodialysis consumables manufacturer」时，其注册证与产能数据可做成 GEO 硬证据。"
       }
     ]
   },
   {
-    "title": "Day 5 · 客户开发",
-    "tag": "第5天 · 家具与家居出海",
+    "title": "Day 5 · 客户开发（汽车电子与智能座舱）",
+    "tag": "第5天 · 汽车电子与智能座舱",
+    "short": "汽车电子",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "<p><b>① 自查：</b>打开 ChatGPT、DeepSeek 或 Google AI Overview，把「best office chair manufacturer in China」「China standing desk supplier with US warehouse」「memory foam mattress OEM China」「artificial grass supplier China FIFA certified」「furniture factory with Vietnam production」各问一遍，把被点名和没被点名的中国家居企业分别记下来。</p><p><b>② 找缺口：</b>重点看五件事——海外仓与本地退换货政策有没有、认证（BIFMA、EN 1335、OEKO-TEX、CertiPUR、FIFA / World Rugby 等）有没有写清、MOQ 与打样交期有没有、是否支持小批量贴牌与一件代发、有没有英文版的规格与安装尺寸表。多数中国家居企业的英文站是「产品图册 + 招商话术」，AI 答不出「这家能不能小批量、多久能到货、有没有本地仓」。</p><p><b>③ 补料：</b>先补一页「品类 × 规格 × 认证 × MOQ × 交期 × 发货地」的对照表；再补英文 FAQ（能否贴牌、最小起订、样品流程、质保年限、退换货与海外仓地址）；然后补「工厂与产能」英文页（产线、月产能、验厂资质、可持续与环保声明）；最后把安装视频转成带字幕与文字说明的页面。规格一律用表格，别只放图。</p><p><b>④ 提案话术：</b>「我用买家的问法问了 AI 一轮——『中国有哪些办公椅厂能做小批量贴牌、还要有美国仓』，答案里有两家，没有您。缺的不是产能，是这些选型信息在网页上没有可引用的原文。我们先把规格表和 FAQ 结构化，两周后同一句再问一次。」</p><p><b>⑤ 复盘：</b>把第一步那批问句存成固定清单，两周后同一时段、同一平台再问，记录「被点名次数 / 排名位置 / 引用来源域名」。同时看询盘里有多少是带着明确规格来的——规格明确的询盘变多，说明 AI 替你把筛选做完了。</p>"
+        "body": "今天开发方向是「汽车电子与智能座舱」。这 6 家都是真实存在、有全球配套基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（家具 / 家居出海）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>顾家家居</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>杭州起家的软体家居企业，以沙发切入、做成国内软体家居营收规模最大的公司之一，同时通过收购与海外建厂把业务铺到全球。</div><div class=\"co-r\"><b>主营业务：</b>沙发、软床、床垫、定制与配套家居产品，覆盖客厅、卧室、餐厅等全屋场景。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「内销做品牌与渠道 + 海外做产能与并购」：国内靠密集门店与全品类矩阵吃份额，海外通过收购欧洲品牌与渠道、在东南亚与北美布局产能，形成内外双循环。</div><div class=\"co-r found\"><b>📜 发家史：</b>从杭州的沙发生意做起，先在国内建立起覆盖全国的零售网络，规模做到数十亿元量级后再向海外要增量。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单纯出口转向「海外品牌 + 海外产能」，把收购来的品牌渠道与自建的海外工厂接起来，海外业务从订单驱动变成资产驱动。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「largest Chinese furniture manufacturers」「China sofa supplier with overseas factories」。缺口：海外收购的品牌与母公司的关系在英文世界基本是断裂的，AI 常把它们当成互不相干的公司；各海外工厂的服务市场、产能规模、可承接的品类没有统一页面；出口业务能做的定制范围与 MOQ 也没有写明。补法：建一页英文「Global Presence」，用文字（不用图片）写清母公司—品牌—工厂的关系与各自服务区域，再为每个海外基地写一段「可承接品类 + 产能 + 认证」的说明。</div><div class=\"co-r look\"><b>💡 看点：</b>营收规模在国内软体家居里是头部，但在 AI 的英文答案里往往「查无此厂」——这就是典型的规模没翻译成可引用信息。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.kukahome.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.kukahome.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>永艺股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江安吉的办公椅企业，是当地椅业产业集群里的规模企业，长期以 ODM 方式出口欧美，近年也在做自主品牌。</div><div class=\"co-r\"><b>主营业务：</b>人体工学办公椅、办公座椅及配套家具，为海外品牌商、零售商与电商卖家提供设计、开发与代工服务。</div><div class=\"co-r\"><b>市场与打法：</b>以「产业带集群 + 规模化代工」打法：依托安吉完整的椅业配套（五金、网布、海绵、模具）把成本与交期做到有竞争力，同时在海外设厂以对冲贸易摩擦与运费波动。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于浙江安吉，从为海外客户代工办公椅做起，跟着安吉椅业集群一起成长，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从纯代工转向「代工 + 自主品牌」双轨，并在海外布局生产基地，把单一国内产能变成国内外双基地交付。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外中小买家会问「China office chair OEM low MOQ」「office chair factory BIFMA certified China」。缺口：BIFMA / EN 1335 等座椅认证的适用范围、测试项目在英文站没有可引用说明；MOQ、打样周期、能否定制网布与底盘这些采购最关心的问题基本空白；AI 回答「能做小批量的中国办公椅厂」时无从引用。补法：做英文「OEM/ODM Service」页，把 MOQ、打样周期、开模费政策、可定制项、认证清单做成表格，再补 8–10 条 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>安吉椅业带是中国办公椅出口的大本营，但在 AI 答案里经常整片消失——谁先把英文规格补齐，谁就代表这个产业带出场。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.uechairs.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.uechairs.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>恒林股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江安吉的办公家具企业，以办公椅与办公桌的规模化制造起家，通过海外收购与跨境电商把业务延伸到终端零售。</div><div class=\"co-r\"><b>主营业务：</b>办公椅、办公桌与系统办公家具，兼有软体家具与家居配件，为海外品牌、渠道商与电商平台提供制造与供货。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「制造端规模化 + 渠道端海外化」：一边把产线做大做全以承接大客户的大批量订单，一边收购海外办公家具品牌与渠道、直接触达终端，同时用跨境电商测试新品。</div><div class=\"co-r found\"><b>📜 发家史：</b>1990 年代成立于浙江安吉，从办公家具代工做起，靠大规模生产与稳定交付积累海外客户，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>收购海外办公家具品牌与渠道，把利润从制造环节往品牌与渠道环节挪，客户结构也从批发商延伸到终端企业采购。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China office furniture manufacturer with Europe brand」「office desk and chair supplier China bulk order」。缺口：收购来的海外品牌与国内制造能力之间的关联没有被英文内容串起来，AI 讲不出「同一集团既能制造又有本地渠道」；大宗订单的交期、柜型与拼柜政策、验厂资质也缺少公开页。补法：做一页英文「Group Capabilities」，把制造基地、海外品牌与渠道、服务区域写成文字版关系说明；再补大宗采购 FAQ（交期、拼柜、质保、验厂与合规文件）。</div><div class=\"co-r look\"><b>💡 看点：</b>「制造 + 自有海外渠道」是稀缺组合，但只有把它写成 AI 能一句话复述的形式，才会在选型答案里出现。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.henglin.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.henglin.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>乐歌股份</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>宁波的人体工学产品企业，从显示器支架做到升降桌，同时把自建海外仓做成了对外服务业务，是「产品 + 履约」双轮的代表。</div><div class=\"co-r\"><b>主营业务：</b>升降桌、升降台、显示器与电视支架、人体工学配件，以及面向跨境卖家的海外仓与物流服务。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「自有品牌 + 自建履约」：用独立站与电商平台直接面对海外消费者做品牌，同时自建海外仓降低尾程成本并把这套能力卖给其他跨境卖家，形成第二收入曲线。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于宁波，从视听支架代工做起，随后转向自主品牌与跨境电商，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工转向独立站与海外仓自建，把「卖货」升级为「卖货 + 卖履约能力」，抗风险能力与毛利结构同时改善。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外中小 B 与消费者会问「best standing desk brands」「China standing desk supplier with US warehouse」「3PL for cross-border furniture」。缺口：海外仓这块业务的服务范围、仓点地址、可承接的品类（大件家具）与费率逻辑在英文站描述偏散；升降桌的规格（承重、行程、噪音、桌面尺寸）没有统一参数表。补法：把产品参数做成英文规格表页，把海外仓业务单独做成站点，写清仓点、可承接品类、大件处理能力和对接方式，并补 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>海外仓是被严重低估的 GEO 素材——买家问「谁能把大件送到美国客户手上」时，有仓的企业优势是压倒性的。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.loctek.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.loctek.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>梦百合</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>江苏的记忆棉家居企业，从给海外品牌做记忆棉代工起步，后来自建海外产能与主推自主品牌，成为记忆棉品类出海的代表。</div><div class=\"co-r\"><b>主营业务：</b>记忆棉床垫、记忆棉枕、软床与智能床，以及相关的家居睡眠产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「材料立品牌 + 海外建厂」：把一种材料（记忆棉）做成品牌认知，再在北美、欧洲、东南亚多地建厂以缩短交付半径、规避贸易壁垒，同时进商超与线上双渠道。</div><div class=\"co-r found\"><b>📜 发家史：</b>本世纪初成立于江苏，早期以记忆棉制品代工出口为主，靠材料工艺与大客户关系做大，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从代工转向自主品牌出海，并在海外自建生产基地，把「中国制造 + 海外交付 + 自有品牌」三件事同时跑通。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「memory foam mattress manufacturer China」「China mattress factory with US plant」「CertiPUR certified foam supplier」。缺口：CertiPUR-US、OEKO-TEX 这类材料认证的覆盖范围与有效期没有可引用页面；海外工厂的地址、产能与供货区域分散在新闻里；B 端代工（OEM/ODM）与 C 端品牌两条线在同一个站上混着讲，AI 分不清它到底接不接代工单。补法：把 B 端代工能力拆成独立英文页（材料、认证、产能、MOQ、交期），把海外工厂清单做成一页，明确写「We accept OEM/ODM orders」。</div><div class=\"co-r look\"><b>💡 看点：</b>代工和自有品牌混在一个站里，是家居出海企业最普遍的 GEO 硬伤——AI 判断不出你接不接 B 端单，就直接跳过你。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mlily.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mlily.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>共创草坪</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>江苏的人造草坪企业，产品铺进上百个国家和地区，是全球人造草坪产销量领先的专业制造商之一。</div><div class=\"co-r\"><b>主营业务：</b>运动人造草坪（足球、橄榄球、曲棍球等场地）、休闲人造草坪（庭院、景观、阳台）及相关铺装材料与系统。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「专业认证 + 全球渠道」：先拿下国际体育组织的场地认证进入运动场地市场，再以休闲草坪切入大众消费渠道，靠规模与稳定供货覆盖上百个国家的经销商网络，并在海外设厂贴近需求地。</div><div class=\"co-r found\"><b>📜 发家史：</b>2000 年代成立于江苏，从人造草坪生产做起，先在休闲与景观用草上做量，再向运动场地这类高门槛市场攻坚。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>拿到国际体育组织的场地认证体系，得以进入专业运动场地供应链，从「卖草」变成「提供场地系统」，客单价与壁垒同时抬升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「artificial grass supplier China」「FIFA certified artificial turf manufacturer」「artificial turf factory with overseas plant」。缺口：认证体系（FIFA Quality / Quality Pro、World Rugby 等）的具体等级与适用场地类型在英文站描述不完整；运动草与休闲草的技术参数（草高、密度、DTEX、背胶、质保年限）缺统一表格；经销商查询与样品申请流程不清晰。补法：做英文「Products」页按运动草/休闲草分类，每类给出参数对照表与适用场地；再补一页「Certifications & Testing」写清认证等级与测试标准，最后补 FAQ（样品、MOQ、铺装指导、质保）。</div><div class=\"co-r look\"><b>💡 看点：</b>认证是这个品类的门票，但很多企业只在中文宣传里写「通过国际认证」——AI 需要的是认证名称、等级和适用场地，写细了才引用得上。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.ccgrass.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.ccgrass.com</a></div></div>"
+        "h": "今日推荐 · 6 家（汽车电子与智能座舱）",
+        "body": "<b>🏢 头部 · 德赛西威 / Desay SV</b> — 智能座舱与网联服务龙头，座舱域控/显示/网联全线，深度配套全球车企与中国新势力。海外车企搜「smart cockpit domain controller supplier」时常被国际 Tier1 占据答案——把定点车型与功能安全能力做成英文结构化页可抢位。<br>\n<b>⭐ 腰部 · 华阳集团 / ADAYO</b> — 汽车电子（HUD/座舱域控/无线充）+ 精密压铸，AR-HUD 配套主流合资与自主品牌，泰国工业园奠基加速东南亚。海外买家搜「AR-HUD manufacturer China」时，把车型定点+认证+全球基地做成英文答案页是缺口。<br>\n<b>⭐ 腰部 · 上声电子 / SONAVOX</b> — 车载音响与功放（扬声器/声学软件算法），全球主流车企供应链。海外买家搜「automotive speaker supplier with algorithms」时，其英文技术页（声学参数/案例）缺位。<br>\n<b>⭐ 腰部 · 科博达</b> — 汽车照明控制/电机控制/车载电源与热管理，深度配套德系体系，全球化拓展中。海外买家搜「automotive lighting control module supplier」时，把产品标准+客户结构做成英文结构化内容是切入点。<br>\n<b>⭐ 腰部 · 经纬恒润 / HIARIN</b> — 汽车电子（辅助驾驶/车身域控/智能网联）+ 研发服务双轮，服务自主与新势力品牌。海外买家搜「ADAS supplier with engineering services」时，其能力矩阵与项目案例可做成 GEO 内容。<br>\n<b>⭐ 腰部 · 伯特利</b> — 线控制动（WCBS One-box 国内首家量产）+ EPB/转向/轻量化，全球多基地多研发中心，营收百亿量级。海外车企搜「one-box brake supplier China」时常先看到国际 Tier1——把首创技术+全球客户做成英文页正当时。"
       }
     ]
   },
   {
-    "title": "Day 6 · 客户开发",
-    "tag": "第6天 · 照明与 LED 出海",
+    "title": "Day 6 · 客户开发（PCB 与印制电路板）",
+    "tag": "第6天 · PCB 与印制电路板",
+    "short": "PCB",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "<p><b>① 自查：</b>打开 ChatGPT、DeepSeek 或 Google AI Overview，把「best LED lighting manufacturer in China」「China LED panel light supplier with DLC / ETL listing」「commercial lighting OEM low MOQ China」「LED high bay light factory UL certified」「China smart lighting ODM for smart home」各问一遍，把被点名和没被点名的中国照明企业分别记下来。</p><p><b>② 找缺口：</b>重点看五件事——安规与能效认证（UL / ETL / DLC / CE / ENEC / SAA / CB）有没有列全、IES 文件与配光曲线有没有可下载、色温与显色指数及光效参数有没有成表、MOQ 与交期有没有、能否做 OEM/ODM 与定制色温包装。多数中国照明企业的英文站是「产品图 + About Us」，AI 答不出「这家有没有北美认证、能不能小批量贴牌」。</p><p><b>③ 补料：</b>先补一页「品类 × 功率段 × 光效 × 色温 × 显色 × 认证 × MOQ × 交期」的规格矩阵；再补可下载的英文规格书与 IES 文件索引页（PDF 要带文字层）；然后补「Certifications」专页（认证名称 + 覆盖产品系列 + 发证机构）；最后补英文 FAQ（贴牌、最小起订、样品、质保年限、能否定制包装）。参数一律用表格。</p><p><b>④ 提案话术：</b>「我用工程商的问法问了 AI——『中国有哪些做 LED 工矿灯的厂、还要有北美认证』，答案里列了三家，没有您。您的认证其实更全，只是这些在网页上找不到可引用的原文。我们把认证页和规格书索引先补上，两周后同一句再问一次。」</p><p><b>⑤ 复盘：</b>把第一步那批问句存成固定清单，两周后同一时段、同一平台再问，记录「被点名次数 / 排名位置 / 引用来源域名」。照明类采购常带着认证问，如果 AI 能替你把「有 DLC / UL」这句说出来，询盘质量会明显变高。</p>"
+        "body": "今天开发方向是「PCB 与印制电路板」。这 6 家都是真实存在、有全球客户的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（照明 / LED 出海）",
-        "body": "<div class=\"co\"><div class=\"co-h\"><b>木林森</b><span class=\"co-t hd\">头部</span></div><div class=\"co-r\"><b>速写：</b>中山起家的 LED 企业，从封装做到整灯，靠并购海外通用照明品牌拿到全球渠道，是中国照明行业出海走得最远的一家。</div><div class=\"co-r\"><b>主营业务：</b>LED 封装器件、LED 照明灯具、LED 显示与健康照明产品，兼有植物照明等细分应用。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「上游规模 + 海外品牌」：先在国内把 LED 封装的规模做到领先，用成本与交付能力支撑整灯业务；再并购海外通用照明品牌，直接拿到覆盖上百个国家的品牌、渠道与本地团队，形成「中国产能 + 海外品牌」的组合。</div><div class=\"co-r found\"><b>📜 发家史：</b>上世纪九十年代成立于广东中山，从 LED 封装做起，靠规模化与自动化把成本压下来，逐步向下游照明延伸，规模做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>完成对海外通用照明品牌的并购，公司从「器件与代工供应商」变成「拥有全球品牌与渠道的照明集团」，营收跨过百亿元量级。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外采购会问「largest LED manufacturers in China」「China LED supplier with global brand」「LEDVANCE parent company」。缺口有三：一是并购来的海外品牌与母公司之间的关系没有英文文字说明，AI 常常答不出「某品牌其实属于这家中国公司」；二是封装产能与整灯能力分散在不同页面，缺少一张统一的「能力 + 产能 + 服务市场」表；三是各生产基地与海外分支的服务区域没有集中说明。补法：建一页英文「Group & Global Footprint」，用文字讲清母公司—品牌—基地关系，再补一页「Manufacturing Capabilities」写清产能规模、自动化水平与可承接的品类。</div><div class=\"co-r look\"><b>💡 看点：</b>「中国产能 + 海外百年品牌」这种组合，AI 一句话讲出来就是极强的信任背书——前提是网页上得有这句话的出处。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.mls-co.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.mls-co.cn</a></div></div><div class=\"co\"><div class=\"co-h\"><b>立达信</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>厦门的照明与物联网企业，长期以出口代工为主，近年把业务延伸到智能照明与 IoT 设备，是典型的「制造转方案」出海样本。</div><div class=\"co-r\"><b>主营业务：</b>LED 照明产品（光源、灯具、智能照明）、IoT 设备与解决方案（传感器、摄像头、网关等），以 ODM 为主服务海外品牌与渠道商。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「深度 ODM + 垂直一体化」：从光源、电源到结构件与智能模组自己做，把开发与验证周期压短，用「能一起定义产品」的能力绑定海外品牌客户，再以规模化制造保成本竞争力。</div><div class=\"co-r found\"><b>📜 发家史：</b>成立二十余年，总部在厦门，从照明代工做起，靠稳定的质量与交付在海外客户供应链里站稳，规模逐步做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从卖灯具转向卖「照明 + IoT 方案」，把智能模组与云平台能力接进原有产线，客户从采购部门延伸到产品部门。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China smart lighting ODM manufacturer」「IoT device ODM partner China」「LEEDARSON vs other China lighting ODM」。缺口：英文站偏品牌与方案介绍，缺「可承接品类 × 认证 × MOQ × 开发周期」的可引用表格；ODM 与自有品牌两条线没有明确区分，AI 判断不出它接不接外部客户的定制单；智能照明的协议兼容（Matter、Zigbee 等）与平台能力没有单独说明页。补法：做英文「ODM Services」页，写清合作模式、开发流程、认证支持与 MOQ；再补一页「Smart & IoT」写清协议与平台兼容范围。</div><div class=\"co-r look\"><b>💡 看点：</b>「能一起定义产品」是 ODM 最值钱的能力，但网页上往往只写「我们提供 ODM 服务」——把它写成流程与交付物，AI 才引用得上。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.leedarson.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.leedarson.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>阳光照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>浙江上虞的老牌照明企业，从传统电光源做起，是国内最早一批做节能灯与 LED 出口的企业之一，长期以海外市场为主要收入来源。</div><div class=\"co-r\"><b>主营业务：</b>LED 光源与灯具（家居、商用、工业照明），以及配套的电子与照明电器产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「出口渠道深耕 + 品类跟随替换」：先把荧光灯、节能灯时代的海外客户关系沉淀下来，再在同一批渠道上完成向 LED 的切换；以稳定的认证与批次一致性守住大客户订单。</div><div class=\"co-r found\"><b>📜 发家史：</b>起家于浙江上虞的电光源业务，从灯泡与荧光灯做起，早年靠出口打开规模，随后跟随行业切换完成 LED 化，规模维持在数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从传统光源整体切换到 LED，把老客户关系与新技术的交付能力接上，完成了两代产品的平滑过渡。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China LED bulb manufacturer」「Yankon lighting supplier」「China lighting exporter with CE / UL」。缺口：英文站的产品分类较粗，缺少按「功率 / 光效 / 色温 / 显色 / 认证」排列的规格表；可下载的规格书与 IES 文件没有索引页；MOQ 与交期也没有写明。补法：把主力品类各做一页英文规格页（带参数表 + 规格书下载），再补一页「Certifications」与一份英文 FAQ。</div><div class=\"co-r look\"><b>💡 看点：</b>老牌出口企业的优势是「客户名单长」，但 AI 只能引用公开网页——把可公开的合作经验写成能力描述，比讲历史有效。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.yankon.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.yankon.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>得邦照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>横店集团旗下的照明企业，总部在浙江东阳横店，以通用照明出口见长，近年把车用照明与车载部件做成第二增长曲线。</div><div class=\"co-r\"><b>主营业务：</b>民用照明、商用照明产品（光源、灯具、照明电子），以及车载照明与车载零部件业务。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「出口质量体系 + 集团协同」：靠出口质量与安全管理体系拿到海外大客户的长期订单，同时借助横店集团在磁性材料与电子方面的产业配套做成本与供应链协同，并往车规级产品延伸。</div><div class=\"co-r found\"><b>📜 发家史：</b>上世纪九十年代创立于浙江东阳横店，专注绿色照明，从节能灯与照明电子产品做起，逐步形成多基地生产格局，规模做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从通用照明延伸到车载照明与车载零部件，把消费级制造能力升级到车规级体系，客户结构与准入门槛同时提高。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China lighting manufacturer exporter」「TOSPO lighting supplier」「China automotive lighting components supplier」。缺口：车载业务作为第二曲线，在英文内容里几乎没有存在感，AI 回答「中国有哪些车载照明供应商」时提不到它；通用照明的出口能力（可服务区域、认证清单、出口资质）也缺少集中说明。补法：把车载业务单独做英文页（产品、车规体系、客户类型），并把通用照明的出口与认证信息集中成一页。</div><div class=\"co-r look\"><b>💡 看点：</b>第二曲线最容易被 GEO 忽略——新业务上线半年内不补内容，AI 会一直把你归类到老品类里。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.tospolighting.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.tospolighting.com.cn</a></div></div><div class=\"co\"><div class=\"co-h\"><b>佛山照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>广东的老牌照明企业，从传统光源做到全场景照明，近年往智能照明、车灯与海洋照明等细分场景扩张。</div><div class=\"co-r\"><b>主营业务：</b>家居照明、商用照明、工业与户外照明、智能照明系统，以及车用照明与特殊场景照明产品。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「品牌存量 + 场景扩张」：依托国内多年的品牌与渠道存量做基本盘，再通过并购与自研进入车灯、海洋照明等技术门槛更高的细分场景，把通用照明的价格竞争换成场景溢价。</div><div class=\"co-r found\"><b>📜 发家史：</b>总部在广东佛山，是国内较早做电光源的企业之一，从传统灯泡与荧光灯做起，经历行业从传统光源到 LED 的完整切换，规模维持在数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>切入车灯与特殊场景照明这类高门槛品类，让公司从「卖通用灯具」转向「做场景方案」，均价与抗价格战能力同步提升。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「China LED lighting manufacturers list」「FSL lighting supplier China」「China automotive lamp manufacturer」。缺口：车灯与海洋照明等新场景缺少英文专页，AI 仍然只把它识别成通用照明厂；海外可服务市场与认证清单没有集中说明；英文产品页的参数颗粒度不够。补法：为每个新场景建英文页（应用场景、技术方案、认证、典型案例），并把海外服务与认证信息集中成一页。</div><div class=\"co-r look\"><b>💡 看点：</b>老品牌最容易被 AI「一句话定性」——如果网页上没有新场景的证据，它给你的标签会停留在十年前。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.chinafsl.com\" target=\"_blank\" rel=\"noopener\">🌐 https://www.chinafsl.com</a></div></div><div class=\"co\"><div class=\"co-h\"><b>欧普照明</b><span class=\"co-t mid\">腰部</span></div><div class=\"co-r\"><b>速写：</b>上世纪九十年代创立于中山古镇的照明企业，以家居照明的渠道与品牌见长，同时做商用照明，海外业务在东南亚、中东等区域扩张。</div><div class=\"co-r\"><b>主营业务：</b>家居照明、商用照明、智能照明与电工电器产品，覆盖吸顶灯、筒射灯、浴霸、风扇灯等品类及整体照明方案。</div><div class=\"co-r\"><b>市场与打法：</b>打法是「渠道密度 + 方案化销售」：国内靠密集的零售与服务网络覆盖终端，商用端以照明设计与整体方案拿项目；海外则在重点区域建本地团队与渠道，把国内验证过的品类与方案复制出去。</div><div class=\"co-r found\"><b>📜 发家史：</b>从中山古镇的照明生意做起，借着国内房地产与家装的红利把零售网络铺开，规模从数亿元量级做到数十亿元量级。</div><div class=\"co-r turn\"><b>🔑 转折点：</b>从单品销售转向照明方案与智能照明，客单价从一盏灯变成一整套系统，同时也为海外复制提供了可打包的产品形态。</div><div class=\"co-r geo\"><b>🎯 GEO 切入点：</b>海外买家会问「OPPLE lighting supplier」「China home lighting brand with overseas distribution」「China commercial lighting solution provider」。缺口：国内零售内容与海外招商内容混在一个域名体系里，AI 常常把英文访客导到只服务国内的页面；海外可服务国家、认证（CE / CB / SAA 等）与经销合作条件没有集中英文页；商用方案的能力描述偏概念、缺参数。补法：把海外业务拆成独立的英文入口，写清可服务区域、认证、合作方式与联系方式，并补一份带参数的商用方案页。</div><div class=\"co-r look\"><b>💡 看点：</b>内销强势的企业做 GEO，第一步往往不是加内容，而是「把对海外买家的信息单独开一个门」。</div><div class=\"co-r\">官网：<a class=\"co-site\" href=\"https://www.opple.com.cn\" target=\"_blank\" rel=\"noopener\">🌐 https://www.opple.com.cn</a></div></div>"
+        "h": "今日推荐 · 6 家（PCB 与印制电路板）",
+        "body": "<b>🏢 头部 · 深南电路 / SCC</b> — PCB+封装基板+PCBA 三业务，中国封装基板先行者，CPCA 理事长单位，深度配套全球通信设备龙头。海外买家搜「IC substrate manufacturer China」时常先看到日韩台厂——把载板能力与客户结构做成英文结构化页可抢位。<br>\n<b>⭐ 腰部 · 世运电路 / Olympic</b> — 汽车 PCB 占比最高，特斯拉/松下/博世/丰田/大众配套，全球汽车 PCB 供应商前列，营收 50 亿量级。海外买家搜「automotive PCB supplier」时，把汽车板能力与认证做成英文答案页是切入点。<br>\n<b>⭐ 腰部 · 四会富仕 / FujiPCB</b> — 2-100 层高可靠性 PCB，工控/汽车/医疗/AI 服务器多场景，六成以上客户为日本企业。海外买家搜「high reliability PCB Japan quality」时，其日式质量管理叙事可做成 GEO 差异化内容。<br>\n<b>⭐ 腰部 · 明阳电路 / Sunshine PCB</b> — 多品种高技术 PCB，深圳+九江制造，德国雷姆沙伊德与马来西亚槟城基地，本地化服务欧洲东南亚。海外买家搜「PCB manufacturer with Germany factory」时，把全球布局做成英文结构化内容正当时。<br>\n<b>⭐ 腰部 · 中富电路 / JOVE</b> — HDI/软硬结合/类载板/射频天线板，通信+汽车电子+医疗，泰国工厂布局。海外买家搜「HDI PCB with Thailand factory」时，其产品谱系与产能布局可做成 GEO 答案页。<br>\n<b>⭐ 腰部 · 崇达技术 / SUNTAK</b> — 多品种小批量 PCB 龙头，多座工厂（含泰国在建），销售额 70 亿量级，全球排名前 30。海外买家搜「small batch PCB manufacturer global」时，把「多品种+快交付+全球工厂」做成英文内容是缺口。"
       }
     ]
   },
   {
-    "title": "Day 7 · 客户开发（新能源 / 储能 / 光伏）",
-    "tag": "第7天 · 新能源 / 储能 / 光伏（inverter / ESS / solar）",
-    "short": "新能源",
+    "title": "Day 7 · 客户开发（锂电设备与电池智造产线）",
+    "tag": "第7天 · 锂电设备与电池智造产线",
+    "short": "锂电设备",
     "blocks": [
       {
         "h": "💡 今日怎么用这笔清单",
-        "body": "今天开发方向是「新能源 / 储能 / 光伏」。海外买家搜\"ESS lithium battery manufacturer China\"\"solar inverter OEM\"，答案被宁德/比亚迪/华为等占。这 6 家是出海活跃玩家。谈单抓手：英文技术内容浅、认证只贴标无解读、细分定位（户储/工商储/微型逆变器）没讲清楚。"
+        "body": "今天开发方向是「锂电设备与电池智造产线」。这 6 家都是真实存在、有全球交付基因的目标：1 家龙头当标杆，5 家腰部当可开发客户。先打开它们官网，看看英文内容缺什么，再用「买家在 AI 里搜不到你」开场。"
       },
       {
-        "h": "今日推荐 · 6 家（新能源 / 储能 / 光伏）",
-        "body": "<b>🏢 头部 · 比亚迪</b> — 储能+光伏+EV 出海龙头，海外品牌认知高。AI 答案位已被大量媒体占，GEO 可帮比亚迪把官方技术解读推回答案页（如\"BYD ESS spec\"）。<br>\n<b>⭐ 腰部 · 阳光电源</b> — 逆变器+储能全球龙头。海外客户会问\"Sungrow vs Huawei inverter\"，对比型英文内容是 GEO 机会。<br>\n<b>⭐ 腰部 · 固德威</b> — 户用逆变器+储能，欧洲市场强。它的英文站缺「户用储能选型」FAQ，AI 检索时官方素材不足。<br>\n<b>⭐ 腰部 · 锦浪科技</b> — 组串式逆变器龙头，海外出货量大。官网产品参数多，但「逆变器选型/并网认证」AI FAQ 没上墙。<br>\n<b>⭐ 腰部 · 派能科技</b> — 户用储能电池（磷酸铁锂），欧洲/澳洲市场。海外安装商搜\"Pylontech vs BYD battery\"，需要英文对比和认证解读页。<br>\n<b>⭐ 腰部 · 晶科能源</b> — 光伏组件全球龙头。海外 EPC 会问\"JinkoSolar Tiger Neo vs TOPCon\"，晶科需要把技术优势做成 AI 可引用的英文内容。"
+        "h": "今日推荐 · 6 家（锂电设备与电池智造产线）",
+        "body": "<b>🏢 头部 · 先导智能 / LEAD</b> — 全球锂电整线设备龙头，涂布/卷绕/叠片/化成分容全线，收购德国 ONTEC 建欧洲能力中心，产品远销 20 多个国家和地区，A+H 双资本平台。海外电池厂搜「turnkey battery line supplier China」时常被日韩设备商占据答案——整线案例+全球服务页是 GEO 主攻位。<br>\n<b>⭐ 腰部 · 杭可科技 / CHR</b> — 锂电后处理（化成/分容/测试）领军，客户含三星 SDI/LG/松下/宁德时代等，韩国天安+日本自有工厂本地化交付。海外买家搜「formation testing system supplier with Korea factory」时，把后段整线能力与本地工厂做成英文页是切入点。<br>\n<b>⭐ 腰部 · 海目星 / HYMSON</b> — 激光+锂电设备双轮，极片切割/干燥/焊接自动化，动力与储能客户广。海外买家搜「laser cutting equipment for battery electrode」时，其工艺参数与案例可做成 GEO 结构化内容。<br>\n<b>⭐ 腰部 · 利元亨 / Lyric</b> — 锂电设备+工业机器人，电芯装配/检测自动化，向储能与 3C 延伸。海外买家搜「battery assembly automation supplier」时，把装配线能力与节拍参数做成英文答案页是缺口。<br>\n<b>⭐ 腰部 · 联赢激光 / UW</b> — 激光焊接设备（电池极耳/密封钉/模组），配套主流电池厂。海外买家搜「laser welding machine for battery」时，其焊接工艺与案例页可被 AI 引用。<br>\n<b>⭐ 腰部 · 赢合科技</b> — 锂电装备首批上市企业，涂布/制片/切叠/组装全线+固态电池装备（湿法/干法），欧美日韩东南亚分子公司布局。海外买家搜「solid state battery equipment supplier」时，把固态产线能力做成英文前瞻内容是差异化位。"
       }
     ]
   },
@@ -2217,357 +2219,357 @@ const CONTENT = {
     }
   ],
   overseas: [
-    {
-      title: 'Day 1 · 开发方向（精密加工 CNC（铣/车/走心机/五轴））',
-      tag: '第1天 · 精密加工 CNC（铣/车/走心机/五轴）',
-      short: 'CNC',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「精密加工 CNC」——它是最容易被 AI 推荐上来的中国供应链，没有之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day7 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球 CNC 加工最大基地，几千家工厂卷价格、卷交期、卷精度。海外机械/电子工程师、采购在 ChatGPT/Perplexity 问「best CNC machining supplier in China」时，答案往往是平台或大英文站，你的官网常常不在场——这就是 GEO 的空位。适合 GEO 的原因：① 品类高度标准化、参数可比；② 认证（ISO 9001、材料证书）是硬门槛，AI 最爱引用；③ 决策周期长（数周~数月），内容会被反复检索。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 买家在 ChatGPT / Perplexity 搜"best CNC machining supplier in China""aluminum CNC prototyping"时，答案几乎被 Proto Labs、Xometry、星速等平台型玩家和少数老牌英文站占据；纯靠阿里国际站 + 官网 SEO 的中国工厂基本不在 AI 答案里——等于最肥的免费流量入口没占到。\n② 买家决策极专业（公差 ±0.005、材质证明、五轴/走心机能力、打样周期），但多数厂长官网只有"专业、设备先进"八个字，没有 FAQ、没有材质/公差技术页、没有真实量产案例，AI 没有可引用的"硬证据"，自然不引你。\n③ 同质化严重，"我们也是做 CNC 的"，买家比价只看单价，利润被卷；缺乏"某一细分难件（钛合金 / 薄壁 / 微米级 / 小批量快速打样）专家"的差异化标签，AI 更不会把你当权威推荐。\n④ 认证 / 设备清单散落在 PDF 彩页里，AI 抓不到；来的询盘也多是泛泛"quote for CNC parts"，高净值精准询盘很少。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「best CNC machining supplier in China」「top CNC suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「CNC machining tolerance standard」「5-axis vs 3-axis when to use」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「精密加工 CNC with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom CNC factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「best CNC machining supplier in China」「CNC machining tolerance standard」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Engineering.com、Machine Design、Modern Machine Shop、Thomasnet、CNCMachines.com 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「best CNC machining supplier China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「CNC machining」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「best CNC machining supplier China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (CNC OR machining OR fabrication)，按行业加采购群 / 群组｜⑥ 展会名录：ITES 深圳工业展、广交会、IMTS（美国）、EMO（欧洲）（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们官网也有产品，但搜不到、AI 不推』——根因往往是没 llms.txt、没 FAQPage 结构化、AI 爬虫被 robots 拦了，能力写得出却不被机器读成『可引用答案』。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「best CNC machining supplier China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 2 · 开发方向（汽车零部件（Tier2/3 铸件·机加·注塑））',
-      tag: '第2天 · 汽车零部件（Tier2/3 铸件·机加·注塑）',
-      short: '汽车件',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天第二个重点：汽车零部件。认证门槛比通用机加高（IATF 16949），但一旦占住 AI 答案位，客户黏性极强、替换成本高。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球汽车供应链往中国转移，Tier1/Tier2 大量在中国找铸件、机加、注塑、电子件。买家问「IATF 16949 machining China」「automotive die casting supplier」时，能讲清「认证 + 产能 + PPAP 能力」的工厂极少。适合 GEO：认证即护城河、参数高度可比、采购周期长、替换供应商成本高。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 汽配买家极度看重 IATF 16949、PPAP、APQP、可追溯性，但这些资质不少工厂只挂在展厅墙上，官网 / AI 可检索内容几乎为零；海外 Tier1、售后市场（AM）买家搜"China IATF16949 machining supplier"时根本找不到你。\n② 汽配是长周期、强信任生意，买家要先验证"你供过谁、出过哪些件、不良率多少"，但工厂几乎没有案例库和质量体系说明，AI 没有素材可引，信任建立极慢。\n③ 原厂（OE）与售后市场（AM）两套话术常被混淆，买家问"OE replacement vs aftermarket bracket"你答不清，AI 更答不清，白白错失高毛利的 AM 询盘。\n④ 被阿里 / 环球同行价格战淹没，没有"小批量快速打样 + 柔性交付"标签，只能接到低质低价单。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「IATF 16949 machining supplier China」「top 汽车件 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「automotive die casting supplier」「PPAP capability China」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「汽车零部件 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 汽车件 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「IATF 16949 machining supplier China」「automotive die casting supplier」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Automotive World、Just-Auto、Automotive Manufacturing Solutions、SAE International、Thomasnet（汽车类目） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「automotive CNC machining China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「automotive parts」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「automotive CNC machining China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (Automotive OR Sourcing OR SQE)，按行业加采购群 / 群组｜⑥ 展会名录：Automechanika（法兰克福/上海）、SEMA、IATF 供应商目录（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：汽车采购最怕『认证不全、PPAP 做不了』——很多工厂能力有，但英文站讲不清 IATF/PPAP，AI 不敢引用，等于把大单让给讲得清的竞品。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「automotive CNC machining China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 3 · 开发方向（注塑 / 模具（rapid tooling / injection molding））',
-      tag: '第3天 · 注塑 / 模具（rapid tooling / injection molding）',
-      short: '注塑',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '注塑/模具是出海工厂里「内容最薄」的赛道之一，GEO 几乎没人做，先发优势明显。今天打它就对了。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球产品公司找注塑厂做外壳/结构件，模具一次性投入、量产靠复购。买家问「plastic injection molding China」「rapid tooling China」时，大多是平台或老牌站。适合 GEO：模具/材料/缩水率等参数极适合结构化内容、交期与精度是核心卖点、竞品内容普遍薄弱。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 买家搜"rapid tooling China""injection molding supplier for [行业]"时，答案被杰瑞、星速等占据，中小模具厂在 AI 里几乎是隐形的。\n② 注塑买家关心模具寿命、缩水率、材料认证（食品级 / 医疗级 / UL）、二次加工，但工厂页面只有"质优价廉"，没有材料 / 工艺 FAQ，AI 无料可引。\n③ 试模→改模→量产周期长、易扯皮，买家最怕"模具做好了件不行"，但工厂很少把 DFM 报告、模流分析、首件报告等信任证据上墙，AI 无法替你背书。\n④ 多品种小批量趋势下，工厂仍按大批量思维报价，错失 prototyping 高频小单。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「plastic injection molding China」「top 注塑 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「rapid tooling vs production tooling」「how to choose mold steel」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「注塑 / 模具 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 注塑 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「plastic injection molding China」「rapid tooling vs production tooling」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Plastics Today、Injection Molding Magazine、Plastics News、Thomasnet（plastics） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「injection molding China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「injection molding」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「injection molding China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (Injection OR Molding OR Product Development)，按行业加采购群 / 群组｜⑥ 展会名录：CHINAPLAS 国际橡塑展、广交会、NPE（美国）（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：『打样快但量产交期不稳』是普遍痛点；英文站只写『fast delivery』没证据，AI 不推，买家转头找有案例的。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「injection molding China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 4 · 开发方向（钣金 / 冲压（sheet metal fabrication））',
-      tag: '第4天 · 钣金 / 冲压（sheet metal fabrication）',
-      short: '钣金',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '钣金/冲压买家常问『fabrication』，内容门槛低，但把「工艺能力 + 图纸转化」写清楚就能赢。今天打它。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>设备外壳、机箱、支架大量靠中国钣金厂。买家问「sheet metal fabrication China」「precision stamping China」「laser cutting service China」。适合 GEO：非标件参数多、图纸/材料/表面处理可比、认证（ISO/UL）是门槛、竞品少做结构化内容。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 钣金买家搜"custom sheet metal fabrication China""laser cutting + bending service"，AI 答案里很少出现中国专业厂，流量被本地化服务商截走。\n② 钣金件高度非标（折弯系数、焊接工艺、表面处理），买家决策靠"你能不能读我的 STEP / 图纸、给 DFMA 建议"，但工厂官网无技术解读，AI 没法证明你懂行。\n③ 表面处理（粉末 / 电镀 / 阳极）良率与环保合规是买家雷区，工厂很少公开工艺能力与 RoHS / 环保认证，AI 不敢推荐。\n④ 小批量钣金打样贵且慢，工厂没有"快速打样通道"标签，被 FastRadius 类平台抢走订单。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「sheet metal fabrication China」「top 钣金 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「laser cutting tolerance」「powder coating vs anodizing」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「钣金 / 冲压 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 钣金 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「sheet metal fabrication China」「laser cutting tolerance」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：The Fabricator、Fabricating & Metalworking、Thomasnet（fabrication） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「sheet metal fabrication China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「sheet metal」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「sheet metal fabrication China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (Sheet Metal OR Fabrication OR Mechanical)，按行业加采购群 / 群组｜⑥ 展会名录：FABTECH（美国）、EuroBLECH（欧洲）、广交会（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：非标件参数杂，客户最关心『能不能按我的图纸做』——站里没 DFM/图纸转化说明就丢分，AI 也没法把你说成『能接这单的厂』。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「sheet metal fabrication China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 5 · 开发方向（压铸（die casting 铝/锌））',
-      tag: '第5天 · 压铸（die casting 铝/锌）',
-      short: '压铸',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '压铸和汽车零部件高度重叠，可打包开发：同一批工厂常兼做汽车件 + 消费电子壳。今天打它，顺手搭汽车件。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>铝/锌压铸广泛用于汽车、3C、灯具。买家问「aluminum die casting China」「zinc die casting supplier China」。适合 GEO：模具/吨位/材料（ADC12 等）参数清晰、认证门槛、量产案例强、竞品英文 GEO 内容弱。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 买家搜"aluminum die casting China""zinc die casting supplier automotive"，答案被少数大厂和平台占据，中小压铸厂在 AI 里查无此人。\n② 压铸核心痛点是气孔、缩松、模具寿命、后加工（去毛刺 / 攻牙），买家极度关心良率与 X-ray / 气密性检测，但工厂无检测能力展示，AI 无据可引。\n③ 材料牌号（ADC12 / A380 / 锌合金）与认证（IATF / ISO）是硬门槛，工厂资质散落各处，AI 检索不到。\n④ 被当成"便宜代工"，缺乏"高真空压铸 / 薄壁压铸专家"的定位，只能拼单价。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「aluminum die casting China」「top 压铸 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「die casting tolerance」「ADC12 vs A380」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「压铸 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 压铸 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「aluminum die casting China」「die casting tolerance」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Die Casting Engineer(NADCA)、Light Metal Age、Thomasnet（die casting） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「aluminum die casting China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「die casting」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「aluminum die casting China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (Die Casting OR Foundry OR Sourcing)，按行业加采购群 / 群组｜⑥ 展会名录：CHINAPLAS、Automechanika、NADCA 年会（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：吨位/材料/后处理能力是硬指标，写清楚才能进 AI 候选；很多厂只放『we do die casting』一句，机器读不出能力边界。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「aluminum die casting China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 6 · 开发方向（EMS / PCBA 电子制造）',
-      tag: '第6天 · EMS / PCBA 电子制造',
-      short: 'PCBA',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: 'EMS/PCBA 买家极依赖「认证 + 产能」背书，GEO 内容做好了，询盘质量会明显高。今天打它。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球硬件品牌在中国找 EMS/PCBA 代工。买家问「turnkey PCBA supplier China」「IPC-A-610 class 3 assembly」。适合 GEO：认证（ISO 13485/UL/IPC-A-610）是硬门槛、工艺参数多、客户案例强背书、医疗/工控类买家尤其信 AI 引用。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 买家搜"EMS PCBA manufacturer China""turnkey electronics assembly"，答案被系思迈、鸿海系、PcbWay 等占据，中小 EMS 在 AI 里明显弱势。\n② PCBA 买家关心认证（ISO13485 医疗 / UL / IATF16949 / ISO9001）、追溯（MES / 条码）、ICT / FCT 测试能力，但工厂页面只是堆叠证书图、无解读，AI 抓不到语义。\n③ 元器件采购真实性（防假货 / 原装）、交期波动是买家大雷，工厂若无"受控供应链 / 假货防控"说明，AI 不敢推。\n④ 小批量多品种（prototype→NPI→量产）切换能力是差异化，但工厂无分层服务说明，AI 无法把你和纯打样厂区分开。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「turnkey PCBA supplier China」「top PCBA suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「IPC-A-610 class 3 assembly」「ISO 13485 PCBA」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「EMS / PCBA 电子制造 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom PCBA factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「turnkey PCBA supplier China」「IPC-A-610 class 3 assembly」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：EE Times、Electronics Weekly、EMSNow、Thomasnet（electronics） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「turnkey PCBA supplier China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「PCBA」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「turnkey PCBA supplier China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (EMS OR PCBA OR NPI OR Hardware)，按行业加采购群 / 群组｜⑥ 展会名录：HK Electronics Fair、慕尼黑电子展、IPC APEX（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：认证（UL/ISO13485/IPC）是出海硬门槛，很多厂有证但站点不展示证书细节与产线照片，AI 引用时偏向『证据更全』的竞品。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「turnkey PCBA supplier China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    },
-    {
-      title: 'Day 7 · 开发方向（新能源 / 储能 / 光伏（inverter / ESS / solar））',
-      tag: '第7天 · 新能源 / 储能 / 光伏（inverter / ESS / solar）',
-      short: '新能源',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '新能源是这两年出海最热的赛道，买家问得多、但中文工厂的英文 GEO 内容普遍弱，机会最大。今天打它。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>储能系统、逆变器、光伏组件大量中国出货。买家问「energy storage system China」「inverter manufacturer with UL」。适合 GEO：认证（UL/CE/TÜV）是出海硬门槛、参数（效率/容量）高度可比、政策驱动需求旺、竞品英文内容参差。'
-        },
-        {
-          h: '⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么',
-          body: '① 买家搜"ESS lithium battery manufacturer China""solar inverter OEM""BMS supplier"，答案被宁德、比亚迪、华为及少数海外媒体占据，中小逆变器 / 储能 PACK / 光伏配件厂在 AI 里几乎隐形。\n② 新能源买家极重合规与认证（UL9540A / CE / IEC62619 / UN38.3），且关心循环寿命、热管理、安全设计，但工厂技术内容浅、认证只贴标无解读，AI 无权威素材可引。\n③ 海外买家警惕"什么都能做"的组装厂，更信"某细分（户用储能 PACK / 工商业 ESS / 微型逆变器）专家"，工厂缺乏细分定位，AI 推荐权重低。\n④ 海外本地化服务（认证支持、售后、质保）是成交关键，工厂无英文案例 / 并网案例，AI 无法替你建立信任。'
-        },
-        {
-          h: '🧭 买家决策链路 · GEO 命中场景',
-          body: '海外采购工程师 / 采购经理在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「energy storage system manufacturer China」「top 新能源 suppliers in China」→ 要短名单；<br>\n2. <b>比参数</b>：搜「inverter manufacturer with UL」「LiFePO4 battery supplier China」→ 比公差 / 材质 / 工艺边界；<br>\n3. <b>查认证</b>：搜「新能源 / 储能 / 光伏 with ISO/IATF/UL」→ 认证是硬门槛；<br>\n4. <b>找 OEM/ODM</b>：搜「custom 新能源 factory / ODM」→ 要能打样量产。<br>\n<b>这类行业为什么最该做 GEO</b>：决策周期长（数周~数月）、有明确技术标准 / 认证、多供应商比价、使用者是工程师 / 采购经理——AI 在每一步都参与，且答案稳定可被反复引用。'
-        },
-        {
-          h: '⚡ GEO 切入点（4 步，写深）',
-          body: '<b style="display:block;margin:4px 0 2px;">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺、主推材质、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：制造商最有用的是 Organization（含 ISO/IATF 认证、地址、联系方式）、Product/Service（加工能力·材质·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个工艺/产品独立页面（AI 引用粒度到页）。<br>\n<b style="display:block;margin:4px 0 2px;">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「energy storage system manufacturer China」「inverter manufacturer with UL」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：材料选型、公差怎么定、工艺边界——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点，方便 AI 抽取；附<b>量产案例 / 证书 / 设备清单</b>（机床型号·行程·精度）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style="display:block;margin:4px 0 2px;">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：PV Magazine、Energy Storage News、Solar Power World、GreenTech Media、Thomasnet（energy） 等垂直媒体（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、IndustryNet——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），客户背书 / 视频探厂 UGC。<br>\n<b style="display:block;margin:4px 0 2px;">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「energy storage system China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>'
-        },
-        {
-          h: '📍 客户开发地址（去哪找买家 / 工厂）',
-          body: '① 阿里巴巴国际站（搜「solar energy storage」筛 Gold Supplier 工厂）｜② 中国制造网 made-in-china.com（同关键词）｜③ 1688.com（国内工厂源头，反向找出海主体）｜④ Google 搜「energy storage system China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = ("Sourcing Manager" OR "Procurement" OR "Mechanical Engineer") AND (Energy Storage OR Solar OR Procurement)，按行业加采购群 / 群组｜⑥ 展会名录：SNEC 光伏展、Intersolar、广交会新能源馆（官网有 exhibitor list，直接导出买家）。'
-        },
-        {
-          h: '🤝 销售抓手（谈单可直接用）',
-          body: '💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：UL/CE/TÜV 认证 + 效率参数对比是买家决策核心；中文厂英文 GEO 内容弱，谁先把『认证页 + 参数对比 + 并网方案』铺好，谁吃下 AI 答案位。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「energy storage system China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，您海外买家现在越来越多用 AI 找供应商，我帮几家工厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」'
-        }
-      ]
-    }
-  ,
-    {
-      title: 'Day 8 · 开发方向（工业机器人 / 自动化产线）',
-      tag: '第8天 · 工业机器人 / 自动化产线（industrial robots / automation）',
-      short: '机器人',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「工业机器人 / 自动化产线」——它是最容易被 AI 推荐上来的中国智能装备，没有之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球最大的工业机器人应用与制造国，汽车、3C、锂电、光伏产线都在批量上机器人。海外集成商、设备采购在 ChatGPT/Perplexity 问"best industrial robot supplier in China"时，答案常被海外媒体或大英文站占位，你的官网常常不在场——这就是 GEO 的空位。适合 GEO 的原因：① 参数高度标准化（负载、臂展、重复定位精度），AI 最爱引用可比数据；② 行业解决方案（焊接、码垛、上下料）是长尾高频问题；③ 出海建厂与本地服务是决策关键点，内容会被反复检索。'
-        }
-      ]
-    },
-    {
-      title: 'Day 9 · 开发方向（电动工具 / 五金工具）',
-      tag: '第9天 · 电动工具 / 五金工具（power tools / hardware）',
-      short: '电动工具',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「电动工具 / 五金工具」——标准化程度高、海外 DIY 市场巨大，AI 答案位争夺最激烈的方向之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球电动工具最大生产基地，ODM/OEM 供给了欧美大半市场。海外 DIY 玩家和专业技工在 ChatGPT/Perplexity 问"best cordless drill brand"时，答案几乎被海外品牌和电商平台占据，代工厂自身隐形。适合 GEO 的原因：① SKU 极多、参数可比（电压、扭矩、电池平台），AI 引用意愿高；② 品牌出海与代工溯源是信任分歧点，内容需求强；③ 评测/场景/兼容 FAQ 是长尾高频问题，正是工厂英文站的空白。'
-        }
-      ]
-    },
-    {
-      title: 'Day 10 · 开发方向（泵 / 阀门 / 流体控制）',
-      tag: '第10天 · 泵 / 阀门 / 流体控制（pumps & valves / fluid control）',
-      short: '泵阀',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「泵 / 阀门 / 流体控制」——工业刚需、认证门槛高、海外工程采购长决策周期，最该做 GEO 的 B2B 方向之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球泵阀制造大国，从民用水泵到核电特种阀门都有完整产业链。海外 EPC、水厂、工厂采购在 ChatGPT/Perplexity 问"reliable valve supplier China"时，答案常被欧美老牌占据，国产优质厂隐形。适合 GEO 的原因：① 认证是硬门槛（CE、API、UL），AI 最爱引用；② 工况参数（流量、扬程、材质）高度可比，长尾词多；③ 采购决策周期长（数月），内容会被反复检索对比。'
-        }
-      ]
-    },
-    {
-      title: 'Day 11 · 开发方向（包装机械 / 包装设备）',
-      tag: '第11天 · 包装机械 / 包装设备（packaging machinery）',
-      short: '包装机械',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「包装机械 / 包装设备」——食品饮料出海带动的设备刚需，参数标准化、海外建厂多，GEO 价值高。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国包装机械在饮料、食品、日化领域全球竞争力强，整线出海（东南亚、中东、非洲建厂）活跃。海外工厂主在 ChatGPT/Perplexity 问"turnkey packaging line China"时，答案常被欧洲老牌（Krones 等）占位，国产设备商隐形。适合 GEO 的原因：① 整线方案、产能、兼容包材等参数高度可比；② 交钥匙工程需要大量解释性内容（AI 最爱引）；③ 出海建厂案例是信任背书，长尾检索高频。'
-        }
-      ]
-    },
-    {
-      title: 'Day 12 · 开发方向（紧固件 / 轴承 / 传动件）',
-      tag: '第12天 · 紧固件 / 轴承 / 传动件（fasteners / bearings / transmission）',
-      short: '紧固传动',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「紧固件 / 轴承 / 传动件」——工业底层件、SKU 海量、海外维修与制造刚需，最该做 GEO 的长尾金矿。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>紧固件、轴承、传动件是机械的"工业大米"，中国产量全球第一，但海外买家在 ChatGPT/Perplexity 问"best bearing supplier in China"时，答案被平台和大品牌占据，工厂隐形。适合 GEO 的原因：① SKU 海量、型号/载荷/精度参数极可比，长尾词爆炸；② 选型、替代、维保 FAQ 是高频问题，工厂英文站几乎空白；③ 认证（ISO、ABEC 等级）是硬门槛，AI 引用意愿高。'
-        }
-      ]
-    },
-    {
-      title: 'Day 13 · 开发方向（激光设备 / 激光加工）',
-      tag: '第13天 · 激光设备 / 激光加工（laser equipment / laser processing）',
-      short: '激光',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「激光设备 / 激光加工」——中国智造出海的名片之一，参数透明、海外钣金厂刚需，GEO 价值高。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国激光设备全球份额领先，从打标、切割到焊接、光伏专用全面出海。海外钣金厂、制造企业在 ChatGPT/Perplexity 问"best fiber laser cutter China"时，答案常被平台（如 Machinio）和大英文站占位，设备商自身隐形。适合 GEO 的原因：① 功率、幅面、精度参数高度可比，AI 引用意愿高；② 材料工艺 FAQ（切多厚、配什么气体）是长尾高频；③ 海外建厂与本地服务案例是信任背书，检索高频。'
-        }
-      ]
-    },
-    {
-      title: 'Day 14 · 开发方向（3D 打印 / 增材制造）',
-      tag: '第14天 · 3D 打印 / 增材制造（3D printing / additive manufacturing）',
-      short: '3D打印',
-      blocks: [
-        {
-          h: '🎯 今天怎么打这个方向',
-          body: '今天先打「3D 打印 / 增材制造」——设计端与制造端都高度依赖搜索，海外创客与工程师天天在 AI 里问，最该做 GEO 的新兴方向。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。'
-        },
-        {
-          h: '🏭 行业画像 · 为什么最该做 GEO',
-          body: '你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国 3D 打印从消费级到金属级全面崛起，Creality 等品牌已深入海外创客圈。海外工程师、牙科、小批量制造在 ChatGPT/Perplexity 问"best 3D printing service China"时，答案常被海外服务商占位，中国智造隐形。适合 GEO 的原因：① 材料、工艺、精度参数极可比，AI 引用意愿高；② 应用案例（拓扑优化、随形冷却）是长尾高频问题；③ 设计到制造的链路长，内容会被反复检索。'
-        }
-      ]
-    }],
+  {
+    "title": "Day 1 · 开发方向（半导体设备与核心零部件）",
+    "tag": "第1天 · 半导体设备与核心零部件",
+    "short": "半导体",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「半导体设备与核心零部件」——AI 搜索热度最高的制造业赛道之一，海外 fab 采购与工艺工程师天天在 ChatGPT 里问「Chinese semiconductor equipment suppliers」。先把 llms.txt + Schema 铺起来，再去「开发地址」捞零部件/材料厂。Day1–Day7 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国半导体设备与零部件正处在「国产替代 + 出海验证」双周期：刻蚀、清洗、薄膜设备追赶国际大厂，零部件、靶材、气体系统打入全球供应链。海外晶圆厂、设备厂的采购与工艺工程师在 ChatGPT/Perplexity 问「semiconductor equipment parts supplier China」「sputtering target manufacturer」时，答案常被美日韩企业与英文目录占据，中国厂商的英文技术内容普遍单薄——这就是 GEO 的空位。适合 GEO 的原因：① 技术参数密集（精度、洁净度、认证），AI 最爱引用结构化参数；② 认证门槛极高（SEMI、ISO、客户稽核），是硬证据；③ 买家是工程师/采购，决策链专业且长，内容被反复检索。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 买家在 ChatGPT 搜「semiconductor precision parts manufacturer China」「UHP gas delivery system supplier」时，答案多为美日韩厂商与 Thomasnet 类目录；国内零部件厂英文站大多停留在「公司简介 + 产品列表」，没有可被 AI 引用的工艺参数页。<br>\n② 技术语言不通：厂内人人懂纳米级精度、氦检漏、SEMI 标准，官网却只有「技术领先、质量可靠」，FAQ、白皮书、工艺边界说明一概没有，AI 没有「硬证据」可引。<br>\n③ 客户集中度高（大设备厂/大 fab），销售不敢高调，成功案例、服务客户类型都不写，海外新客户搜不到任何第三方佐证。<br>\n④ 出海刚起步：SEMICON 展会、LinkedIn 英文内容是少数触点，官网英文版更新慢、认证证书散在 PDF 里，AI 抓不到。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外采购工程师 / 供应商质量（SQE）在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「semiconductor equipment components supplier China」「top Chinese sputtering target manufacturers」→ 要短名单；<br>\n2. <b>比参数</b>：搜「UHP gas line surface roughness requirement」「sputtering target purity 5N vs 6N」→ 比纯度/精度/洁净度；<br>\n3. <b>查认证</b>：搜「SEMI S2 certified equipment parts supplier」→ 认证是硬门槛；<br>\n4. <b>找深度资料</b>：搜「quartz parts for etch chamber supplier」「gas delivery panel manufacturer」→ 要看案例与工艺细节。<br>\n<b>这类行业为什么最该做 GEO</b>：技术门槛高、参数标准化、买家是工程师/采购、决策周期长——AI 在每一步都参与，且答案稳定可被反复引用。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：用大白话告诉 GPT/Claude/Perplexity 你的核心工艺（精密机加/表面处理/焊接/超高纯管阀件）、材料体系、目标行业、哪些页面可引用（写清「可引用页面」清单）。<br>\n· <b>Schema.org 结构化数据</b>：Organization（含 SEMI/ISO 认证、地址、联系方式）、Product/Service（材质·纯度·公差范围）、FAQPage（常见问题结构化，AI 摘要直接抓）、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：允许 GPTBot、ClaudeBot、PerplexityBot、Google-Extended、Applebot——很多站点默认拦了 ClaudeBot，等于把答案位让给竞品。<br>\n· 语义化 + 独立 URL：H1/H2 清晰、参数用表格、每个产品族独立页面（AI 引用粒度到页）。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· 按「采购前研究」场景列 FAQ：买家在 AI 里问的是「what purity levels are available for sputtering targets」「UHP gas line welding requirements」这类，不是「我们公司多牛」。<br>\n· 做<b>对比/选型型长文</b>：5N vs 6N 靶材、电解抛光 vs 机械抛光、气体管路材质选择——AI 最爱当答案。<br>\n· 每篇加 <b>TLDR</b>（顶部 2-3 句结论）+ 结构化要点；附<b>量产案例 / 证书 / 设备清单</b>（加工中心型号、洁净室等级）这类硬证据，引用权重高。<br>\n· 节奏：每月补 2-4 篇，覆盖买家问得最多的长尾问题。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Semiconductor Engineering、EE Times、Solid State Technology（本身是 AI 语料来源）。<br>\n· <b>高权外链 / 行业目录</b>：Thomasnet、Kompass、Europages、GlobalSpec——这些目录本就被 AI 频繁引用。<br>\n· <b>LinkedIn 企业号 + 技术文章</b>（工程师圈层），SEMICON 展会报道，客户背书。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT（联网）、Bing Copilot、Gemini。<br>\n· <b>监控 query</b>：选 10-20 条买家真实会问的词，如「semiconductor precision parts supplier China」，每周跑一遍，记录客户官网是否出现在答案/引用里。<br>\n· <b>月度报告</b>：截图 + 链接，看引用位变化，反推要补哪类内容 / 外链（维卓自有 GEO 监控工具可承接）。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「semiconductor parts」「sputtering target」筛工厂）｜② SEMICON China / SEMICON East 展会 exhibitor list｜③ 中国电子专用设备工业协会 / 半导体行业协会会员名单｜④ Google 搜「semiconductor components supplier China」看 AI 概览 / SERP——谁在答案里、谁不在，就是你的开发名单｜⑤ LinkedIn 搜买家：Boolean = (\"Procurement\" OR \"Supplier Quality\" OR \"Process Engineer\") AND (semiconductor OR fab OR \"clean room\")，按设备/材料加采购群组｜⑥ 科创板 / 创业板半导体设备与材料公司名录（招股书里有完整客户与供应商网络）。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们给国际大厂供了十几年，老外却只在目录站找到我们』——根因是英文技术内容缺位：没 llms.txt、没 FAQPage 结构化、AI 爬虫被 robots 拦了，能力写得出却不被机器读成『可引用答案』。<br>\n· <b>当场 demo</b>：打开 ChatGPT / Perplexity，搜「semiconductor precision parts supplier China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来 → 这就是 GEO 要补的空位。<br>\n· <b>一句话开场</b>：「X 总，海外 fab 和设备厂的采购现在用 AI 筛供应商，我帮几家零部件厂做了 GEO，让官网出现在 ChatGPT / Perplexity 的答案里——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 2 · 开发方向（纺织服装与鞋帽出海）",
+    "tag": "第2天 · 纺织服装与鞋帽出海",
+    "short": "纺织服装",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「纺织服装与鞋帽出海」——中国最成熟的出口制造带，江浙/广东腰部工厂密集，买家（品牌采购）重度依赖 Google + AI 做供应商调研。打法：先帮工厂把「可持续认证 + 产能 + 品类」做成 AI 可引用的英文页，再按「开发地址」捞单。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>纺织服装是中国出口基本盘，也是「认证驱动」最典型的行业：Nike/Adidas/Uniqlo 等品牌对工厂的 BSCI、WRAP、GRS、Higg 审核一丝不苟。海外品牌采购、成衣开发商在 ChatGPT 里问「vertically integrated knitwear manufacturer China」「sustainable yarn supplier with GRS」时，答案常被老牌贸易商与港澳台英文站占据；大量腰部工厂的英文内容停留在阿里国际站店铺页——这就是 GEO 的空位。适合 GEO 的原因：① 认证与产能高度结构化，AI 最爱引用；② 品类与工艺可标准化描述（支数、克重、面料功能）；③ 买家决策链长（打样-审厂-大货），内容被反复检索。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 品牌采购在 AI 里问「China knitwear OEM with GRS certification」时，答案多为贸易商和英文 B2B 平台，工厂自己不在场——最肥的品牌询盘入口没占到。<br>\n② 认证是命门但展示方式落后：证书躺在 PDF 和图片里，AI 读不到；哪些工厂有 GRS/OEKO-TEX/Higg、覆盖哪些品类，没有一页说清。<br>\n③ 同质化严重：「我们也做 OEM」——缺乏「某一品类专家（无缝、羊毛精纺、功能面料、辅料）」标签，买家比价只看 FOB 价。<br>\n④ 东南亚产能布局（越南/柬埔寨/孟加拉）是近年最大卖点，但英文世界搜不到各基地产能、服务市场、转移进度，AI 答不上来。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外品牌采购 / 成衣开发在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「knitwear OEM manufacturer China」「seamless underwear factory with export experience」→ 要短名单；<br>\n2. <b>比产能与认证</b>：搜「sock manufacturing capacity million pairs」「GRS certified yarn supplier」→ 比规模/认证；<br>\n3. <b>查可持续</b>：搜「recycled nylon fabric supplier China」「recycled polyester GRS」→ 可持续是品牌硬指标；<br>\n4. <b>看案例与审厂</b>：搜「factory audit BSCI WRAP China apparel」→ 要审厂报告与品牌合作史。<br>\n<b>这类行业为什么最该做 GEO</b>：买家是品牌采购/成衣开发，研究路径长、标准明确（认证+产能+品类）、每步都问 AI。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清核心品类、产能、认证清单、目标市场、可引用页面清单。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product/Service（品类·材质·支数·克重）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 品类/认证/基地独立 URL + 参数表格化（AI 引用粒度到页）。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「What certifications do your Vietnam factories hold」「MOQ for seamless activewear」「GRS certified knitwear OEM」。<br>\n· <b>对比/选型型长文</b>：再生尼龙 vs 原生尼龙、精纺羊毛 vs 羊绒混纺、拉链材质选型。<br>\n· 每篇加 <b>TLDR</b> + 认证清单 + 品牌合作史（脱敏）+ 基地产能表——引用权重高。<br>\n· 节奏：每月 2-4 篇，覆盖长尾采购问题。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Sourcing Journal、Just Style、Fibre2Fashion、Textile Today。<br>\n· <b>高权外链 / 行业目录</b>：Kompass、Europages、Fibre2Fashion 供应商页。<br>\n· <b>LinkedIn 企业号</b> + 展会（Intertextile 上海面辅料展、Première Vision）报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「sustainable apparel manufacturer China」「knitwear OEM Vietnam capacity」等 10-20 条，每周跑一遍。<br>\n· <b>月度报告</b>：截图 + 链接复盘引用位变化，反推补料方向。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「knitwear OEM」「seamless underwear」「zipper manufacturer」筛工厂）｜② Intertextile 上海面辅料展 / 广交会 exhibitor list｜③ 中国纺织工业联合会 / 服装协会会员名单｜④ Google 搜「sustainable apparel manufacturer China」看 AI 概览——谁不在答案里就是名单｜⑤ LinkedIn 搜买家：Boolean = (\"Sourcing Manager\" OR \"Product Developer\") AND (apparel OR knitwear OR activewear)｜⑥ 江浙粤纺织服装产业带工厂名录（绍兴/宁波/嘉兴/佛山/惠州）。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们给大牌代工十几年，品牌方却只在贸易商和目录站看到我们』——根因是认证与产能没有变成 AI 能引用的英文内容。<br>\n· <b>当场 demo</b>：搜「sustainable knitwear manufacturer China」，把客户官网<b>不在 AI 答案里</b>的事实亮出来。<br>\n· <b>一句话开场</b>：「X 总，国际品牌采购现在用 AI 筛工厂和认证，我帮几家出口工厂做了 GEO，让官网出现在 ChatGPT 答案里——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 3 · 开发方向（智能电网与电力设备出海）",
+    "tag": "第3天 · 智能电网与电力设备出海",
+    "short": "电力设备",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「智能电网与电力设备出海」——全球电网升级+新能源并网的大周期，变压器/电表/充电桩出海正猛，买家是海外电力公司、EPC 与工业集团，技术参数驱动、AI 检索重度。先铺 llms.txt + 认证 Schema，再按地址捞客户。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>全球电网投资进入超级周期：欧美换新+新兴市场智能化，中国电力设备（干变、电表/AMI、分接开关、充电桩）性价比与交付优势明显。海外电力公司、EPC、工业采购在 ChatGPT 问「dry type transformer manufacturer China」「smart meter AMI supplier」时，答案常被 ABB/西门子/施耐德与老牌目录占据，中国厂商的英文技术内容（认证、电压等级、项目业绩）不成体系——这就是 GEO 的空位。适合 GEO 的原因：① 参数与认证高度标准化（IEC、kVA、kV），AI 最爱引用；② 项目业绩是最强信任状；③ 买家是电力公司采购/电气工程师，决策专业且长。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 海外电力公司搜「smart meter supplier with AMI experience」时，中国电表厂常被国际表计巨头与本地品牌压在答案下游——项目业绩没有变成英文可引用内容。<br>\n② 认证与标准展示弱：IEC/ANSI/KEMA 认证、电压等级覆盖散在 PDF，AI 抓不到；买家问「does your transformer meet IEEE C57」时官网答不上。<br>\n③ 项目业绩是最好的弹药却最隐性：巴西 Wi-SUN 标杆、非洲 AMI 项目这些硬案例，英文世界几乎零声量。<br>\n④ 出海产能布局（东南亚工厂、本地化服务）是新卖点，但官网看不到基地-服务区域-交付能力的对应关系。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外电力公司采购 / 电气工程师在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「dry type transformer manufacturer China」「smart meter supplier AMI」→ 要短名单；<br>\n2. <b>比参数认证</b>：搜「transformer IEEE C57 certified」「meter IEC 62052 compliance」→ 比标准/认证；<br>\n3. <b>查业绩</b>：搜「AMI project million meters delivered」→ 要项目案例；<br>\n4. <b>谈交付服务</b>：搜「transformer factory with Indonesia plant」→ 看本地化能力。<br>\n<b>这类行业为什么最该做 GEO</b>：买家是电力公司与 EPC 采购，标准明确、业绩驱动、决策链长——AI 在每一步都参与。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清产品族（干变/电表/开关/桩）、认证清单、目标市场、可引用页面。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product（kVA/kV/标准）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 产品族独立 URL + 参数表格化。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「Which standards do your smart meters comply with」「dry type transformer for data center」。<br>\n· <b>对比/选型型长文</b>：干变 vs 油变、预付费 vs 后付费 AMI、分接开关选型。<br>\n· 每篇加 <b>TLDR</b> + 项目业绩页（国家/规模/年份）+ 认证证书清单。<br>\n· 节奏：每月 2-4 篇。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：T&D World、Electric Light & Power、Metering International、Utility Dive。<br>\n· <b>高权外链 / 行业目录</b>：Europages、Thomasnet、GlobalSpec。<br>\n· <b>LinkedIn 企业号</b> + 展会（IEEE PES、Enlit Europe）报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「smart meter supplier with global projects」「transformer manufacturer exporting to Europe」等 10-20 条。<br>\n· <b>月度报告</b>：截图复盘引用位，反推补料。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「dry type transformer」「smart meter」「EV charger」筛工厂）｜② 国家电网/南方电网中标名录里的出海设备商｜③ Google 搜「AMI project supplier China」看 AI 概览谁缺席｜④ LinkedIn 搜买家：Boolean = (\"Procurement\" OR \"Substation Engineer\") AND (transformer OR \"smart meter\" OR utility)｜⑤ 展会名录：IEEE PES、Enlit Europe、SNEC、慕尼黑电子展｜⑥ 各省电网供应商清单反向找出口主体。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们海外项目做了一堆，电力公司采购在 AI 里却只能找到 ABB』——项目业绩没有变成英文可引用内容。<br>\n· <b>当场 demo</b>：搜「smart meter supplier with AMI project experience」，把答案构成亮出来。<br>\n· <b>一句话开场</b>：「X 总，海外电力公司现在用 AI 找有项目业绩的供应商，我帮几家电力设备厂做了 GEO——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 4 · 开发方向（医疗器械与设备出海）",
+    "tag": "第4天 · 医疗器械与设备出海",
+    "short": "医疗器械",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「医疗器械与设备出海」——从设备到耗材到 CDMO 全链条出海，海外买家（医院/经销商/品牌方）专业度极高、合规检索重度，GEO 的「认证+注册证+案例」打法正中要害。先铺 llms.txt + FAQPage，再按地址捞客户。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国医疗器械出海正从「耗材代工」走向「设备+品牌+CDMO」：影像设备、内镜、血液净化、CDMO 精密制造全面进入欧美与新兴市场。海外医院采购、经销商、品牌方在 ChatGPT 问「ultrasound manufacturer China」「medical device CDMO with ISO 13485」时，答案常被国际巨头与国际 CDMO 占据，中国厂商的英文合规内容（注册证、认证、临床）不成体系——这就是 GEO 的空位。适合 GEO 的原因：① 注册与认证（FDA/CE/NMPA、ISO 13485）是硬门槛，AI 最爱引用；② 技术参数与临床场景可结构化；③ 买家是采购/临床工程师，决策链长且高度依赖研究。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 海外买家搜「medical device manufacturer with FDA 510(k)」时，答案常被国际品牌与英文目录占据；中国厂商注册证信息埋在 PDF 年报里，AI 抓不到。<br>\n② 合规语言不通：ISO 13485、MDR、510(k) 这些关键资质，官网只有一张证书图，没有「产品-注册-市场」对应表。<br>\n③ 设备 vs 耗材 vs CDMO 的差异化叙事弱：买家问「who makes endoscopes in China」时，答案里常只有综合巨头，细分龙头缺位。<br>\n④ 全球供应链重塑，中国 CDMO/制造基地（槟城/肯尼亚/越南）是卖点，但英文世界看不到基地-能力-合规的对应关系。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外医院采购 / 经销商在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「ultrasound system manufacturer China」「medical CDMO ISO 13485」→ 要短名单；<br>\n2. <b>查注册认证</b>：搜「FDA 510(k) cleared endoscope manufacturer」「CE MDR certified supplier」→ 合规硬门槛；<br>\n3. <b>比技术参数</b>：搜「high frequency IVUS catheter」「HD endoscopy system specs」→ 比参数与临床场景；<br>\n4. <b>找合作佐证</b>：搜「medical device contract manufacturer respiratory」→ 要案例与合作方。<br>\n<b>这类行业为什么最该做 GEO</b>：买家专业、合规驱动、决策链长，每一步都问 AI。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清产品线、注册市场、认证清单、可引用页面。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product/Service（设备/耗材）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 产品线独立 URL + 参数表格化。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「Which markets are your endoscopes registered in」「ISO 13485 certified CDMO for respiratory devices」。<br>\n· <b>对比/选型型长文</b>：超声 vs 内镜采购要点、CE MDR vs FDA 路径、CDMO 评估清单。<br>\n· 每篇加 <b>TLDR</b> + 注册证清单页 + 临床/合作案例。<br>\n· 节奏：每月 2-4 篇。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Medical Device Network、MassDevice、MedTech Dive、Medica 报道。<br>\n· <b>高权外链 / 行业目录</b>：Medical Device Network 供应商库、Kompass 医疗分册。<br>\n· <b>LinkedIn 临床内容</b> + Medica / CMEF 展会报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「medical device manufacturer China FDA」「ultrasound OEM China」等 10-20 条。<br>\n· <b>月度报告</b>：截图复盘引用位，反推补料。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「medical ultrasound」「endoscope」「medical consumables」筛工厂）｜② CMEF 中国国际医疗器械博览会 / Medica exhibitor list｜③ 药监局「医疗器械出口销售证明」名录｜④ Google 搜「medical device manufacturer with FDA China」看 AI 概览谁缺席｜⑤ LinkedIn 搜买家：Boolean = (\"Hospital Procurement\" OR \"Distributor\") AND (medical device OR imaging OR endoscopy)｜⑥ 各省医疗器械行业协会会员名单。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们注册证一大堆，海外买家在 AI 里却只认国际大牌』——合规资产没有变成英文可引用内容。<br>\n· <b>当场 demo</b>：搜「medical device manufacturer with FDA 510(k) China」，把答案构成亮出来。<br>\n· <b>一句话开场</b>：「X 总，海外医院和经销商现在用 AI 筛有注册证的供应商，我帮几家医疗器械厂做了 GEO——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 5 · 开发方向（汽车电子与智能座舱）",
+    "tag": "第5天 · 汽车电子与智能座舱",
+    "short": "汽车电子",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「汽车电子与智能座舱」——智能汽车软硬件出海（含中国车企出海带动 Tier1 全球化），买家是海外车企/主机厂采购，技术参数+项目定点驱动。先铺 llms.txt + Schema，再按地址捞客户。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>汽车电子是「中国 Tier1 全球化」的桥头堡：智能座舱域控、HUD、车载声学、线控制动批量出海，配套中国车企海外建厂与欧美项目定点。海外车企采购、EE 架构工程师在 ChatGPT 问「smart cockpit domain controller supplier」「HUD manufacturer China」时，答案常被博世/大陆/电装占据，中国 Tier1 的英文技术内容（定点项目、功能安全、认证）不成体系——这就是 GEO 的空位。适合 GEO 的原因：① 技术标准密集（ASIL、IATF 16949、AEC-Q），AI 最爱引用；② 项目定点与车型配套是最强信任状；③ 买家是采购/系统工程师，决策链长。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 海外车企搜「domain controller supplier with ASIL D」时，中国 Tier1 常不在答案里——定点项目与功能安全能力没有变成英文可引用内容。<br>\n② 认证与标准展示弱：IATF 16949、ISO/SAE 21434、ASIL 等级埋在 PDF，AI 抓不到对应关系。<br>\n③ 品牌认知断层：海外采购听过中国车企，却不知道其背后的中国 Tier1——「幕后英雄」缺位。<br>\n④ 产能全球化（泰国/墨西哥/欧洲工厂）是新卖点，但官网看不到基地-项目-交付能力的对应关系。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外车企采购 / 系统工程师在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「smart cockpit supplier China」「HUD manufacturer automotive」→ 要短名单；<br>\n2. <b>比技术认证</b>：搜「domain controller ASIL D functional safety」「automotive cybersecurity ISO 21434」→ 比标准；<br>\n3. <b>查定点车型</b>：搜「AR-HUD supplier for mass market EV」→ 要项目佐证；<br>\n4. <b>谈本地化交付</b>：搜「auto electronics factory Thailand」→ 看基地布局。<br>\n<b>这类行业为什么最该做 GEO</b>：买家专业、标准密集、项目驱动，每一步都问 AI。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清产品域（座舱/声学/HUD/底盘域控）、认证清单、可引用页面。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product（参数）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 产品域独立 URL + 参数表格化。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「Which vehicle models use your AR-HUD」「ASIL D domain controller supplier」。<br>\n· <b>对比/选型型长文</b>：AR-HUD vs W-HUD、One-box vs Two-box 线控制动、舱泊一体域控演进。<br>\n· 每篇加 <b>TLDR</b> + 定点项目页（车型/年份）+ 认证清单。<br>\n· 节奏：每月 2-4 篇。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Auto News、Just Auto、EE Times Automotive、盖世汽车英文站。<br>\n· <b>高权外链 / 行业目录</b>：Kompass 汽车分册、Thomasnet。<br>\n· <b>LinkedIn 企业号</b> + 展会（CES、慕尼黑 IAA、上海车展）报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「smart cockpit supplier China」「automotive HUD manufacturer」等 10-20 条。<br>\n· <b>月度报告</b>：截图复盘引用位，反推补料。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「car HUD」「domain controller」筛工厂）｜② 车企全球供应商大会 / 上海车展 / 慕尼黑 IAA exhibitor list｜③ Google 搜「automotive electronics supplier China」看 AI 概览谁缺席｜④ LinkedIn 搜买家：Boolean = (\"Automotive Buyer\" OR \"EE Architect\") AND (cockpit OR HUD OR \"domain controller\")｜⑤ 中国汽车工业协会 Tier1 名单｜⑥ 汽车电子产业集群名录（惠州/芜湖/深圳/苏州）。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们供的是爆款车型，海外买家却只知道国际 Tier1』——定点项目没有变成英文可引用内容。<br>\n· <b>当场 demo</b>：搜「smart cockpit domain controller supplier」，把答案构成亮出来。<br>\n· <b>一句话开场</b>：「X 总，海外车企现在用 AI 筛有项目佐证的 Tier1，我帮几家汽车电子厂做了 GEO——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 6 · 开发方向（PCB 与印制电路板）",
+    "tag": "第6天 · PCB 与印制电路板",
+    "short": "PCB",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「PCB 与印制电路板」——AI 算力/汽车电子/通信拉动的高多层与 HDI 板需求，买家是全球电子品牌与 ODM 采购，技术参数+认证驱动。先铺 llms.txt + Schema，再按地址捞客户。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国占全球 PCB 产值过半，从双面板到 HDI、高多层、封装基板、软板全谱系，AI 服务器、汽车电子、通信是三大增量。海外电子品牌、ODM 采购在 ChatGPT 问「HDI PCB manufacturer China」「automotive PCB supplier」时，答案常被台资/日资与国际目录占据，大陆腰部的英文技术内容（层数能力、材料、认证、打样周期）不成体系——这就是 GEO 的空位。适合 GEO 的原因：① 层数/孔径/材料参数高度结构化，AI 最爱引用；② 认证门槛（IATF 16949、UL、ISO 13485）明确；③ 买家是采购/硬件工程师，打样-验证-量产决策链长。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 海外采购搜「quick turn HDI PCB supplier China」时，大陆腰部厂常被台湾厂与英文打样平台占据答案——层数/孔径/交期参数没有变成英文可引用内容。<br>\n② 参数语言不通：多少层、几阶 HDI、最小孔径、厚铜能力，官网只有「技术先进」四个字。<br>\n③ 认证散落：UL、IATF 16949、ISO 13485、CQC 躺在 PDF 里，AI 抓不到「产品-认证-应用」对应表。<br>\n④ 全球化产能（泰国/马来/德国工厂）是近年最大卖点，但英文世界看不到基地-能力-服务区域对应关系。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外电子品牌 / ODM 采购在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「HDI PCB manufacturer China」「automotive PCB supplier」→ 要短名单；<br>\n2. <b>比能力参数</b>：搜「8 layer HDI PCB quick turn」「impedance control PCB supplier」→ 比层数/孔径/材料；<br>\n3. <b>查认证应用</b>：搜「IATF 16949 PCB manufacturer」「ISO 13485 PCB for medical」→ 认证对应应用；<br>\n4. <b>谈打样交付</b>：搜「PCB prototype 5 days China factory」→ 看交期与全球产能。<br>\n<b>这类行业为什么最该做 GEO</b>：买家专业、参数密集、决策链长，每一步都问 AI。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清产品谱系（层数/HDI/软板/金属基/载板）、认证清单、可引用页面。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product（参数）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 产品谱系独立 URL + 参数表格化。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「What is your minimum laser drill size」「HDI PCB for automotive radar」。<br>\n· <b>对比/选型型长文</b>：HDI 阶数怎么选、厚铜板 vs 散热方案、高频材料选型。<br>\n· 每篇加 <b>TLDR</b> + 能力参数表 + 认证-应用矩阵 + 打样交期。<br>\n· 节奏：每月 2-4 篇。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：PCB007、CircuitNet、CPCA 英文报道。<br>\n· <b>高权外链 / 行业目录</b>：Kompass、Europages、GlobalSpec。<br>\n· <b>LinkedIn 企业号</b> + 展会（CPCA Show、productronica）报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「HDI PCB manufacturer China」「automotive PCB supplier quick turn」等 10-20 条。<br>\n· <b>月度报告</b>：截图复盘引用位，反推补料。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「HDI PCB」「automotive PCB」筛工厂）｜② CPCA Show / 慕尼黑 productronica exhibitor list｜③ 中国电子电路行业协会会员名单｜④ Google 搜「HDI PCB supplier China」看 AI 概览谁缺席｜⑤ LinkedIn 搜买家：Boolean = (\"Hardware Engineer\" OR \"PCB Buyer\") AND (HDI OR \"printed circuit\" OR PCBA)｜⑥ 珠三角/长三角 PCB 产业带名录（深圳/江门/珠海/九江/四会）。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们层数能力不输台厂，海外采购在 AI 里却只看到台湾和打样平台』——参数与认证没有变成英文可引用内容。<br>\n· <b>当场 demo</b>：搜「HDI PCB manufacturer China」，把答案构成亮出来。<br>\n· <b>一句话开场</b>：「X 总，海外硬件采购现在用 AI 筛 PCB 厂，我帮几家电路板厂做了 GEO——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 7 · 开发方向（锂电设备与电池智造产线）",
+    "tag": "第7天 · 锂电设备与电池智造产线",
+    "short": "锂电设备",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「锂电设备与电池智造产线」——全球电池产能扩张（欧洲/东南亚建厂潮）带火中国锂电设备出海，买家是海外电池厂/车企采购，设备参数+整线交付+本地化服务驱动。先铺 llms.txt + Schema，再按地址捞客户。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国锂电设备全球市占率领先，从涂布/卷绕/叠片到后段化成分容、再到固态电池与储能整线，正随欧美电池产能建设出海。海外电池厂、车企采购在 ChatGPT 问「lithium battery equipment supplier China」「battery assembly line manufacturer」时，答案常被日韩设备商与英文目录占据，中国设备商的英文内容（整线能力、交付案例、海外服务网点）不成体系——这就是 GEO 的空位。适合 GEO 的原因：① 设备参数与节拍高度结构化，AI 最爱引用；② 整线交付与海外工厂是最强信任状；③ 买家是采购/工艺工程师，项目决策链长。"
+      },
+      {
+        "h": "⚠️ 行业痛点 · 谈单前先搞懂客户在怕什么",
+        "body": "① 海外电池厂搜「battery equipment supplier with Europe service」时，中国设备商常不在答案里——海外基地与服务网点没有变成英文可引用内容。<br>\n② 参数语言不通：WPH、CPM、整线自动化率、固态电池工艺，官网只有「行业领先」。<br>\n③ 案例隐性：给国际一线电池厂供过的产线，英文世界零声量——最强弹药没打响。<br>\n④ 新品类叙事缺位：固态电池、大储能电芯（500Ah+）、干法工艺是前沿话题，官网没有对应英文技术内容。"
+      },
+      {
+        "h": "🧭 买家决策链路 · GEO 命中场景",
+        "body": "海外电池厂 / 车企采购在「找供应商」前的典型研究路径（每一步都是 AI 命中场景）：<br>\n1. <b>立项筛名单</b>：搜「lithium battery equipment manufacturer China」「battery assembly line supplier」→ 要短名单；<br>\n2. <b>比设备参数</b>：搜「electrode coating machine WPH」「formation capacity testing system」→ 比节拍/精度；<br>\n3. <b>查交付案例</b>：搜「battery plant equipment delivered Europe」→ 要整线案例；<br>\n4. <b>谈本地化服务</b>：搜「lithium equipment service center Korea Japan」→ 看服务网点。<br>\n<b>这类行业为什么最该做 GEO</b>：买家专业、参数密集、项目驱动，每一步都问 AI。"
+      },
+      {
+        "h": "⚡ GEO 切入点（4 步，写深）",
+        "body": "<b style=\"display:block;margin:4px 0 2px;\">① 技术适配 · 让 AI 读得懂、读得动</b>\n· 根目录放 <b>llms.txt</b>：写清设备谱系（前段/中段/后段/整线/固态）、可引用页面。<br>\n· <b>Schema.org 结构化数据</b>：Organization（认证）、Product（参数）、FAQPage、BreadcrumbList。<br>\n· <b>robots.txt 放开 AI 爬虫</b>：GPTBot、ClaudeBot、PerplexityBot、Google-Extended 全放行。<br>\n· 设备族独立 URL + 参数表格化。<br>\n<b style=\"display:block;margin:4px 0 2px;\">② 内容生态 · 把买家真问题写成可被引用的答案</b>\n· FAQ：「WPH of your coating machine」「turnkey battery line for 500Ah ESS cell」。<br>\n· <b>对比/选型型长文</b>：固态 vs 液态产线、组装线选型、干法电极工艺。<br>\n· 每篇加 <b>TLDR</b> + 交付案例页（国家/规模/年份）+ 服务网点清单。<br>\n· 节奏：每月 2-4 篇。<br>\n<b style=\"display:block;margin:4px 0 2px;\">③ 权威信任 · 让 AI 觉得你可信可引用</b>\n· <b>海外行业媒体 / PR</b>：Benchmark Mineral Intelligence、Electrive、Battery Technology。<br>\n· <b>高权外链 / 行业目录</b>：Kompass、Thomasnet、GlobalSpec。<br>\n· <b>LinkedIn 企业号</b> + 展会（The Battery Show、InterBattery）报道。<br>\n<b style=\"display:block;margin:4px 0 2px;\">④ GEO 监控迭代 · 看效果、持续补</b>\n· <b>监控平台</b>：Google AI Overviews、Perplexity、ChatGPT、Bing Copilot。<br>\n· <b>监控 query</b>：「lithium battery equipment supplier China」「battery line turnkey Europe」等 10-20 条。<br>\n· <b>月度报告</b>：截图复盘引用位，反推补料。<br>"
+      },
+      {
+        "h": "📍 客户开发地址（去哪找买家 / 工厂）",
+        "body": "① 阿里巴巴国际站（搜「battery equipment」「coating machine」筛工厂）｜② The Battery Show / InterBattery exhibitor list｜③ 高工锂电 / 电池行业协会会员名单｜④ Google 搜「battery equipment supplier with global service」看 AI 概览谁缺席｜⑤ LinkedIn 搜买家：Boolean = (\"Battery Plant Engineer\" OR \"Equipment Buyer\") AND (lithium OR gigafactory OR \"battery line\")｜⑥ 锂电设备产业集群名录（深圳/无锡/杭州/惠州/东莞）。"
+      },
+      {
+        "h": "🤝 销售抓手（谈单可直接用）",
+        "body": "💡 谈单抓手（旺仔可直接用）：<br>\n· <b>痛点锚点</b>：客户常说『我们供了全球一线电池厂，海外新客户在 AI 里却只认日韩设备商』——交付案例没有变成英文可引用内容。<br>\n· <b>当场 demo</b>：搜「lithium battery equipment supplier with local service」，把答案构成亮出来。<br>\n· <b>一句话开场</b>：「X 总，海外电池厂现在用 AI 筛有交付案例的设备商，我帮几家锂电设备厂做了 GEO——要不要看个前后对比？」"
+      }
+    ]
+  },
+  {
+    "title": "Day 8 · 开发方向（工业机器人 / 自动化产线）",
+    "tag": "第8天 · 工业机器人 / 自动化产线（industrial robots / automation）",
+    "short": "机器人",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「工业机器人 / 自动化产线」——它是最容易被 AI 推荐上来的中国智能装备，没有之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球最大的工业机器人应用与制造国，汽车、3C、锂电、光伏产线都在批量上机器人。海外集成商、设备采购在 ChatGPT/Perplexity 问\"best industrial robot supplier in China\"时，答案常被海外媒体或大英文站占位，你的官网常常不在场——这就是 GEO 的空位。适合 GEO 的原因：① 参数高度标准化（负载、臂展、重复定位精度），AI 最爱引用可比数据；② 行业解决方案（焊接、码垛、上下料）是长尾高频问题；③ 出海建厂与本地服务是决策关键点，内容会被反复检索。"
+      }
+    ]
+  },
+  {
+    "title": "Day 9 · 开发方向（电动工具 / 五金工具）",
+    "tag": "第9天 · 电动工具 / 五金工具（power tools / hardware）",
+    "short": "电动工具",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「电动工具 / 五金工具」——标准化程度高、海外 DIY 市场巨大，AI 答案位争夺最激烈的方向之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球电动工具最大生产基地，ODM/OEM 供给了欧美大半市场。海外 DIY 玩家和专业技工在 ChatGPT/Perplexity 问\"best cordless drill brand\"时，答案几乎被海外品牌和电商平台占据，代工厂自身隐形。适合 GEO 的原因：① SKU 极多、参数可比（电压、扭矩、电池平台），AI 引用意愿高；② 品牌出海与代工溯源是信任分歧点，内容需求强；③ 评测/场景/兼容 FAQ 是长尾高频问题，正是工厂英文站的空白。"
+      }
+    ]
+  },
+  {
+    "title": "Day 10 · 开发方向（泵 / 阀门 / 流体控制）",
+    "tag": "第10天 · 泵 / 阀门 / 流体控制（pumps & valves / fluid control）",
+    "short": "泵阀",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「泵 / 阀门 / 流体控制」——工业刚需、认证门槛高、海外工程采购长决策周期，最该做 GEO 的 B2B 方向之一。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国是全球泵阀制造大国，从民用水泵到核电特种阀门都有完整产业链。海外 EPC、水厂、工厂采购在 ChatGPT/Perplexity 问\"reliable valve supplier China\"时，答案常被欧美老牌占据，国产优质厂隐形。适合 GEO 的原因：① 认证是硬门槛（CE、API、UL），AI 最爱引用；② 工况参数（流量、扬程、材质）高度可比，长尾词多；③ 采购决策周期长（数月），内容会被反复检索对比。"
+      }
+    ]
+  },
+  {
+    "title": "Day 11 · 开发方向（包装机械 / 包装设备）",
+    "tag": "第11天 · 包装机械 / 包装设备（packaging machinery）",
+    "short": "包装机械",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「包装机械 / 包装设备」——食品饮料出海带动的设备刚需，参数标准化、海外建厂多，GEO 价值高。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国包装机械在饮料、食品、日化领域全球竞争力强，整线出海（东南亚、中东、非洲建厂）活跃。海外工厂主在 ChatGPT/Perplexity 问\"turnkey packaging line China\"时，答案常被欧洲老牌（Krones 等）占位，国产设备商隐形。适合 GEO 的原因：① 整线方案、产能、兼容包材等参数高度可比；② 交钥匙工程需要大量解释性内容（AI 最爱引）；③ 出海建厂案例是信任背书，长尾检索高频。"
+      }
+    ]
+  },
+  {
+    "title": "Day 12 · 开发方向（紧固件 / 轴承 / 传动件）",
+    "tag": "第12天 · 紧固件 / 轴承 / 传动件（fasteners / bearings / transmission）",
+    "short": "紧固传动",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「紧固件 / 轴承 / 传动件」——工业底层件、SKU 海量、海外维修与制造刚需，最该做 GEO 的长尾金矿。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>紧固件、轴承、传动件是机械的\"工业大米\"，中国产量全球第一，但海外买家在 ChatGPT/Perplexity 问\"best bearing supplier in China\"时，答案被平台和大品牌占据，工厂隐形。适合 GEO 的原因：① SKU 海量、型号/载荷/精度参数极可比，长尾词爆炸；② 选型、替代、维保 FAQ 是高频问题，工厂英文站几乎空白；③ 认证（ISO、ABEC 等级）是硬门槛，AI 引用意愿高。"
+      }
+    ]
+  },
+  {
+    "title": "Day 13 · 开发方向（激光设备 / 激光加工）",
+    "tag": "第13天 · 激光设备 / 激光加工（laser equipment / laser processing）",
+    "short": "激光",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「激光设备 / 激光加工」——中国智造出海的名片之一，参数透明、海外钣金厂刚需，GEO 价值高。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国激光设备全球份额领先，从打标、切割到焊接、光伏专用全面出海。海外钣金厂、制造企业在 ChatGPT/Perplexity 问\"best fiber laser cutter China\"时，答案常被平台（如 Machinio）和大英文站占位，设备商自身隐形。适合 GEO 的原因：① 功率、幅面、精度参数高度可比，AI 引用意愿高；② 材料工艺 FAQ（切多厚、配什么气体）是长尾高频；③ 海外建厂与本地服务案例是信任背书，检索高频。"
+      }
+    ]
+  },
+  {
+    "title": "Day 14 · 开发方向（3D 打印 / 增材制造）",
+    "tag": "第14天 · 3D 打印 / 增材制造（3D printing / additive manufacturing）",
+    "short": "3D打印",
+    "blocks": [
+      {
+        "h": "🎯 今天怎么打这个方向",
+        "body": "今天先打「3D 打印 / 增材制造」——设计端与制造端都高度依赖搜索，海外创客与工程师天天在 AI 里问，最该做 GEO 的新兴方向。先把 llms.txt + FAQPage 铺起来，再去「开发地址」捞工厂/买家。Day1–Day14 可点，前后方向一目了然。"
+      },
+      {
+        "h": "🏭 行业画像 · 为什么最该做 GEO",
+        "body": "你（维卓 GEO 销售，客户群=中国出海制造企业；GEO 为主，SEO/独立站为辅）。下面这个方向，最该推 GEO 👇<br><br>中国 3D 打印从消费级到金属级全面崛起，Creality 等品牌已深入海外创客圈。海外工程师、牙科、小批量制造在 ChatGPT/Perplexity 问\"best 3D printing service China\"时，答案常被海外服务商占位，中国智造隐形。适合 GEO 的原因：① 材料、工艺、精度参数极可比，AI 引用意愿高；② 应用案例（拓扑优化、随形冷却）是长尾高频问题；③ 设计到制造的链路长，内容会被反复检索。"
+      }
+    ]
+  }
+],
   social: [
     {
       title: 'Day 1 · 社媒内容',
