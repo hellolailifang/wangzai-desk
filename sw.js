@@ -7,7 +7,7 @@
 // v93（2026-09-04）：HTML / JS（含 content.js）改为「网络优先」，手机端打开即见最新内容；
 //   图片等静态资源仍走 stale-while-revalidate（省流量、秒开）。
 //   旧版全部走 stale-while-revalidate，导致手机端每次打开先看旧缓存，内容"永远慢一天"。
-const CACHE = 'wz-desk-v135';  // v135 · 2026-10-19 手动周更（指令「更新个人工作台」）：客户开发+开发方向 Day1-7 换 7 个新赛道（半导体/纺织服装/电力设备/医疗器械/汽车电子/PCB/锂电设备），42 家企业官网已逐个核实
+const CACHE = 'wz-desk-v136';  // v136 · 2026-10-20 升级：开发方向(overseas) Day8-21 补齐为完整 7 块深度卡（原 Day8-14 简单卡升级 + 新建 Day15-21 光伏/储能/工程机械/农机/智能家居/工业母机/安防）；复原 finance 理财模块入口；清本地旧 SW 缓存解决 404
 
 // 需要「网络优先」的关键文件：内容/逻辑变了必须立刻生效
 const NETWORK_FIRST_RE = /(\/$|\/(index\.html|content\.js|en_practice\.js|manifest\.webmanifest)$)/;
